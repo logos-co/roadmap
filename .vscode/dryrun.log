@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/petty/github/logos/roadmap'
+hugo-obsidian -input=content -output=assets/indices -index -root=. && hugo server --enableGitInfo --minify
+make: Leaving directory '/home/petty/github/logos/roadmap'
+ 
