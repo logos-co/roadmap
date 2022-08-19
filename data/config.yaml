@@ -12,15 +12,14 @@ enableContextualBacklinks: true
 enableRecentNotes: false
 enableGitHubEdit: true
 GitHubLink: https://github.com/jackyzha0/quartz/tree/hugo/content
-enableSemanticSearch: false
-operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
+enableSemanticSearch: true
+operandApiKey: "e1ec9cdc-56d2-420e-a5bd-c6019af4be58"
 description:
-  Host your second brain and digital garden for free. Quartz features extremely fast full-text search,
-  Wikilink support, backlinks, local graph, tags, and link previews.
+  Information on how Logos plans to build its network, what it has done so far, and how you can get involved.
 page_title:
   "Logos Technical Roadmap"
 links:
-  - link_name: Twitter
-    link: https://twitter.com/_jzhao
+  # - link_name: Twitter
+  #   link: https://twitter.com/_jzhao
   - link_name: Github
     link: https://github.com/logos-co/roadmap
