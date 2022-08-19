@@ -1,0 +1,354 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Fri Aug 19 15:10:08 2022
+
+# Variables
+
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+GNOME_SHELL_SESSION_MODE = pop
+# environment
+GVM_OVERLAY_PREFIX = /home/petty/.gvm/pkgsets/go1.18/global/overlay
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-0b65e9f9-c50f-46ec-8b3e-16e5d47be053.sock
+# environment
+MANDATORY_PATH = /usr/share/gconf/pop.mandatory.path
+# environment
+VSCODE_CWD = /home/petty
+# environment
+GPG_TTY = 
+# environment
+WINDOWPATH = 2
+# environment
+NVM_DIR = /home/petty/.nvm
+# default
+MAKE_COMMAND := make
+# environment
+QT_ACCESSIBILITY = 1
+# environment
+GOPATH = /home/petty/.gvm/pkgsets/go1.18/global
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/petty/github/logos/roadmap
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LSCOLORS = dxFxCxDxBxegedabagacad
+# environment
+XDG_DATA_DIRS = /usr/share/pop:/home/petty/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/
+# environment
+GITROB_ACCESS_TOKEN = c49c9d2ec4c374e85c96251d339e48b799299635
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+NVM_INC = /home/petty/.nvm/versions/node/v15.8.0/include/node
+# environment
+VSCODE_CODE_CACHE_PATH = /home/petty/.config/Code/CachedData/30d9c6cd9483b2cc586687151bcbcd635f373630
+# environment
+LANG = C
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# default
+.LOADED := 
+# environment
+GVM_PATH_BACKUP = /home/petty/.gvm/bin:/home/petty/Qt/5.14.2/gcc_64/bin:/home/petty/.nimble/bin:/home/petty/.nvm/versions/node/v15.8.0/bin:/home/petty/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/go/bin:/home/petty/.local/bin:/home/petty/go/bin:/home/petty/GitHub/trueblocks/trueblocks-core/bin
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# environment
+PKG_CONFIG_PATH = /home/petty/.gvm/pkgsets/go1.18/global/overlay/lib/pkgconfig:
+# environment
+CERTORAKEY = 7c44e6b9f2327c0ee9bd7c577a00cb160cd457bb
+# makefile
+CURDIR := /home/petty/github/logos/roadmap
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# default
+.SHELLFLAGS := -c
+# environment
+NVM_BIN = /home/petty/.nvm/versions/node/v15.8.0/bin
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-pop:/etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XDG_SESSION_DESKTOP = pop
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+WEB3_INFURA_PROJECT_ID = ad89ee0df87340bba88c0608c5cf2fc2
+# environment
+ZSH = /home/petty/.oh-my-zsh
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 5085
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+DYLD_LIBRARY_PATH = /home/petty/.gvm/pkgsets/go1.18/global/overlay/lib:
+# environment
+SESSION_MANAGER = local/pop-os:@/tmp/.ICE-unix/3095,unix/pop-os:/tmp/.ICE-unix/3095
+# automatic
+*F = $(notdir $*)
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+CLICOLOR = 1
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=ibus
+# environment
+LD_LIBRARY_PATH = /home/petty/.gvm/pkgsets/go1.18/global/overlay/lib:
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# environment
+SHLVL = 0
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /home/petty/.cargo/bin:/home/petty/.radicle/bin:/home/petty/.gvm/pkgsets/go1.18/global/bin:/home/petty/.gvm/gos/go1.18/bin:/home/petty/.gvm/pkgsets/go1.18/global/overlay/bin:/home/petty/.gvm/bin:/home/petty/.gvm/bin:/home/petty/Qt/5.14.2/gcc_64/bin:/home/petty/.nimble/bin:/home/petty/.nvm/versions/node/v15.8.0/bin:/home/petty/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/go/bin:/home/petty/.local/bin:/home/petty/go/bin:/home/petty/GitHub/trueblocks/trueblocks-core/bin
+# environment
+QTDIR = /home/petty/Qt/5.14.2/gcc_64
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+gvm_pkgset_name = global
+# environment
+GOROOT = /home/petty/.gvm/gos/go1.18
+# environment
+GVM_VERSION = 1.0.22
+# environment
+INVOCATION_ID = 523d6b845bb543af8779d0e210f1771f
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = petty
+# automatic
+?F = $(notdir $?)
+# environment
+GTK_IM_MODULE = ibus
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# environment
+LS_COLORS = 
+# automatic
++F = $(notdir $+)
+# environment
+LESS = -R
+# environment
+DESKTOP_SESSION = pop
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = pop:GNOME
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+ETHERSCAN_TOKEN = 12J2ABEY41M7R63FG2JFF9FUURZJCS878Y
+# environment
+LOGNAME = petty
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# makefile (from 'Makefile', line 1)
+.DEFAULT_GOAL := serve
+# environment
+SYSTEMD_EXEC_PID = 3113
+# environment
+EDITOR = vim
+# environment
+DISPLAY = :0
+# environment
+USER = petty
+# environment
+GTK_MODULES = gail:atk-bridge:appmenu-gtk-module
+# environment
+DEFAULTS_PATH = /usr/share/gconf/pop.default.path
+# default
+MAKE_VERSION := 4.3
+# environment
+MANAGERPID = 2819
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 5085
+# environment
+PAGER = less
+# environment
+_ = /usr/share/code/code
+# environment
+GVM_ROOT = /home/petty/.gvm
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+NVM_CD_FLAGS = -q
+# environment
+JOURNAL_STREAM = 8:31525
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/petty
+# environment
+QT_IM_MODULE = ibus
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-ed728662-1.68.1-main.sock
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+GDMSESSION = pop
+# environment
+gvm_go_name = go1.18
+# variable set hash-table stats:
+# Load=124/1024=12%, Rehash=0, Collisions=5/154=3%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 64769, inode 7214702): 20 files, no impossibilities.
+
+# 20 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+update:
+ 
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 7):
+	go install github.com/jackyzha0/hugo-obsidian@latest
+	@git remote show upstream || (echo "remote 'upstream' not present, setting 'upstream'" && git remote add upstream https://github.com/jackyzha0/quartz.git)
+	git fetch upstream
+	git log --oneline --decorate --graph ..upstream/hugo
+	git checkout -p upstream/hugo -- layouts .github Makefile assets/js assets/styles/base.scss assets/styles/darkmode.scss config.toml data
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-11 16:01:54.162496748
+#  File has been updated.
+#  Successfully updated.
+
+update-force:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 14):
+	go install github.com/jackyzha0/hugo-obsidian@latest
+	@git remote show upstream || (echo "remote 'upstream' not present, setting 'upstream'" && git remote add upstream https://github.com/jackyzha0/quartz.git)
+	git fetch upstream
+	git checkout upstream/hugo -- layouts .github Makefile assets/js assets/styles/base.scss assets/styles/darkmode.scss config.toml data
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+help:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 4):
+	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
+
+serve:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 20):
+	hugo-obsidian -input=content -output=assets/indices -index -root=. && hugo server --enableGitInfo --minify
+
+# files hash-table stats:
+# Load=8/1024=1%, Rehash=0, Collisions=0/18=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 29 / storage = 274 B / avg = 9 B
+# current buf: size = 8162 B / used = 274 B / count = 29 / avg = 9 B
+
+# strcache performance: lookups = 37 / hit rate = 21%
+# hash-table stats:
+# Load=29/8192=0%, Rehash=0, Collisions=0/37=0%
+# Finished Make data base on Fri Aug 19 15:10:08 2022
+
+ 
