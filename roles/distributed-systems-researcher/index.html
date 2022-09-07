@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8" />
+  <meta
+    name="description"
+    content="About Status Status is building the tools and infrastructure for the advancement of a secure, private, and open web3.
+With the high level goals of preserving the right to privacy, mitigating the risk of censorship, and promoting economic trade in a transparent, open manner, Status is building a community where anyone is welcome to join and contribute."
+  />
+  <title>
+    Open Role: Distributed Systems Researcher
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  
+  
+  
+  
+  
+  <link rel="shortcut icon" type="image/png"  href="https://roadmap.logos.co//icon.png" />
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <link href="https://roadmap.logos.co/styles.7fdbd93987bfba941d84b8a4050caaba.min.css" rel="stylesheet" />
+
+  
+  <link href="https://roadmap.logos.co/styles/_light_syntax.86a48a52faebeaaf42158b72922b1c90.min.css" rel="stylesheet" id="theme-link">
+
+   
+  
+  
+  
+  
+  <script src="https://roadmap.logos.co/js/darkmode.4ee460c38f180dd44f1565712a1f3c8a.min.js"></script>
+  
+  
+  
+  <script src="https://roadmap.logos.co/js/util.9825137f5e7825e8553c68ce39ac9e44.min.js"></script>
+  
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css" integrity="sha384-R4558gYOUz8mP9YWpZJjofhk+zx0AS11p36HnD2ZKj/6JR5z27gSSULCNHIRReVs" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js" integrity="sha384-z1fJDqw8ZApjGO3/unPWUPsIymfsJmyrDVWC8Tv/a1HeOtGmkwNd/7xUS0Xcnvsx" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"></script>
+
+
+    
+  <script src="https://unpkg.com/@floating-ui/core@0.7.3"></script>
+  <script src="https://unpkg.com/@floating-ui/dom@0.5.4"></script>
+  
+  <script src="https://roadmap.logos.co/js/popover.37b1455b8f0603154072b9467132c659.min.js"></script>
+
+  
+  
+  
+  <script src="https://roadmap.logos.co/js/code-title.b35124ad8db0ba37162b886afb711cbc.min.js"></script>
+  
+
+  
+  
+  <script src="https://roadmap.logos.co/js/clipboard.c20857734e53a3fb733b7443879efa61.min.js"></script>
+  
+
+  
+  
+  <script src="https://roadmap.logos.co/js/callouts.7723cac461d613d118ee8bb8216b9838.min.js"></script>
+  
+
+  
+   
+  <script>
+    const BASE_URL = "https://roadmap.logos.co/"
+    const fetchData = Promise.all([
+          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.439c57b67f5116ce42f58dc01bf58697.min.json")
+            .then(data => data.json())
+            .then(data => ({
+              index: data.index,
+              links: data.links,
+            })),
+          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.c2b94be74a9a6648c0a3cdc995eafa7c.min.json")
+            .then(data => data.json()),
+        ])
+        .then(([{index, links}, content]) => ({
+          index,
+          links,
+          content,
+        }))
+
+      const render = () => {
+      
+
+      const siteBaseURL = new URL(BASE_URL);
+      const pathBase = siteBaseURL.pathname;
+      const pathWindow = window.location.pathname;
+      const isHome = pathBase == pathWindow;
+
+      addCopyButtons();
+      
+
+      addTitleToCodeBlocks();
+      
+
+      addCollapsibleCallouts();
+      
+     
+      
+      initPopover(
+        "https://roadmap.logos.co",
+         true ,
+         true 
+      )
+      
+
+      
+      const footer = document.getElementById("footer")
+      if (footer) {
+        const container = document.getElementById("graph-container")
+        
+        if (!container) return requestAnimationFrame(render)
+        
+        container.textContent = ""
+
+        const drawGlobal = isHome &&  false ;
+        drawGraph(
+            "https://roadmap.logos.co",
+            drawGlobal,
+            [{"/moc":"#4388cc"}],
+            drawGlobal ? {"centerForce":1,"depth":-1,"enableDrag":true,"enableLegend":false,"enableZoom":true,"fontSize":0.5,"linkDistance":1,"opacityScale":3,"repelForce":1,"scale":1.4} : {"centerForce":1,"depth":1,"enableDrag":true,"enableLegend":false,"enableZoom":true,"fontSize":0.6,"linkDistance":1,"opacityScale":3,"repelForce":2,"scale":1.2}
+          );
+
+        }
+      
+    }
+
+    const init = (doc = document) => {
+      
+      addCopyButtons();
+      
+
+      addTitleToCodeBlocks();
+      renderMathInElement(doc.body, {
+        delimiters: [
+          {left: '$$', right: '$$', display: true},
+          {left: '$', right: '$', display: false},
+        ],
+        throwOnError : false
+      });
+      
+    };
+  </script>
+  
+  
+  <script type="module">
+    import { attachSPARouting } from "https:\/\/roadmap.logos.co\/js\/router.9d4974281069e9ebb189f642ae1e3ca2.min.js"
+    attachSPARouting(init, render)
+  </script>
+  
+</head>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XYFD95KB4J"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-XYFD95KB4J', { 'anonymize_ip': false });
+}
+</script>
+
+
+
+<body>
+<div id="search-container">
+  <div id="search-space">
+    <input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search"
+      placeholder="Search for something...">
+    <div id="results-container">
+    </div>
+  </div>
+</div>
+
+
+<script defer src="https://roadmap.logos.co/js/semantic-search.d4032d4a6a967938235ae76d08a55b46.min.js"></script>
+
+
+
+<div class="singlePage">
+    
+    <header>
+    <h1 id="page-title"><a href="https://roadmap.logos.co/">Logos Technical Roadmap</a></h1>
+    <div class="spacer"></div>
+    <div id="search-icon">
+      <p>Search</p>
+      <svg tabindex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search Icon</title><desc id="desc">Icon to open search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"/><circle cx="8" cy="8" r="7"/></g></svg>
+    </div>
+    <div class='darkmode'>
+    <input class='toggle' id='darkmode-toggle' type='checkbox' tabindex="-1">
+    <label id="toggle-label-light" for='darkmode-toggle' tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xml:space="preserve">
+            <title>Light Mode</title>
+            <path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z" />
+        </svg>
+    </label>
+    <label id="toggle-label-dark" for='darkmode-toggle' tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xml:space="preserve">
+            <title>Dark Mode</title>
+            <path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z" />
+        </svg>
+    </label>
+</div>
+</header>
+
+
+    <article>
+      <h1>Open Role: Distributed Systems Researcher</h1>
+      <p class="meta">
+          Last updated 
+Aug 19, 2022
+
+ 
+          
+<a href="https://github.com/jackyzha0/quartz/tree/hugo/content/roles/distributed-systems-researcher.md" rel="noopener">Edit Source</a>
+
+
+      </p>
+      <ul class="tags">
+          
+          <li><a href="https://roadmap.logos.co/tags/role/">Role</a></li>
+          
+      </ul>
+      
+<aside class="mainTOC">
+    <details >
+        <summary>Table of Contents</summary>
+        <nav id="TableOfContents">
+  <ol>
+    <li><a href="#about-status">About Status</a></li>
+    <li><a href="#who-are-we">Who are we?</a></li>
+    <li><a href="#the-job">The job</a></li>
+    <li><a href="#hiring-process">Hiring process</a></li>
+    <li><a href="#compensation">Compensation</a></li>
+  </ol>
+</nav>
+    </details>
+</aside>
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+<a href="#about-status"><h2 id="about-status"><span class="hanchor" ariaLabel="Anchor"># </span>About Status</h2></a>
+<p>Status is building the tools and infrastructure for the advancement of a secure, private, and open web3.</p>
+<p>With the high level goals of preserving the right to privacy, mitigating the risk of censorship, and promoting economic trade in a transparent, open manner, Status is building a community where anyone is welcome to join and contribute.</p>
+<p>As an organization, Status seeks to push the web3 ecosystem forward through research, creation of developer tools, and support of the open source community.</p>
+<p>As a product, Status is an open source, Ethereum-based app that gives users the power to chat, transact, and access a revolutionary world of DApps on the decentralized web. But Status is also building foundational infrastructure for the whole Ethereum ecosystem, including the Nimbus ETH 1.0 and 2.0 clients, the Keycard hardware wallet, and the Waku messaging protocol (a continuation of Whisper).</p>
+<p>As a team, Status has been completely distributed since inception.  Our team is currently 100+ core contributors strong, and welcomes a growing number of community members from all walks of life, scattered all around the globe.</p>
+<p>We care deeply about open source, and our organizational structure has minimal hierarchy and no fixed work hours. We believe in working with a high degree of autonomy while supporting the organization&rsquo;s priorities.</p>
+<a href="#who-are-we"><h2 id="who-are-we"><span class="hanchor" ariaLabel="Anchor"># </span>Who are we?</h2></a>
+<p>We are the Blockchain Infrastructure Team, and we are building the foundation used by other projects at the Status Network. We are researching consensus algorithms, Multi-Party Computation techniques, ZKPs and other cutting-edge solutions with the aim to take the blockchain technology to the next level of security, decentralization and scalability for a wide range of use cases. We are currently in a research phase, working with models and simulations. In the near future, we will start implementing the research. You will have the opportunity to participate in developing -and improving- the state of the art of blockchain technologies, as well as turning it into a reality</p>
+<a href="#the-job"><h2 id="the-job"><span class="hanchor" ariaLabel="Anchor"># </span>The job</h2></a>
+<p><strong>Responsibilities:</strong></p>
+<ul>
+<li>This role is dedicated to pure research</li>
+<li>Primarily, ensuring that solutions are sound and diving deeper into their formal definition.</li>
+<li>Additionally, he/she would be regularly going through papers, bringing new ideas and staying up-to-date.</li>
+<li>Designing, specifying and verifying distributed systems by leveraging formal and experimental techniques.</li>
+<li>Conducting theoretical and practical analysis of the performance of distributed systems.</li>
+<li>Designing and analysing incentive systems.</li>
+<li>Collaborating with both internal and external customers and the teams responsible for the actual implementation.</li>
+<li>Researching new techniques for designing, analysing and implementing dependable distributed systems.</li>
+<li>Publishing and presenting research results both internally and externally.</li>
+</ul>
+<p><strong>Ideally you will have:</strong>
+[Don’t worry if you don’t meet all of these criteria, we’d still love to hear from you anyway if you think you’d be a great fit for this role!]</p>
+<ul>
+<li>Strong background in Computer Science and Math, or a related area.</li>
+<li>Academic background (The ability to analyze, digest and improve the State of the Art in our fields of interest. Specifically, familiarity with formal proofs and/or the scientific method.)</li>
+<li>Distributed Systems with a focus on Blockchain</li>
+<li>Analysis of algorithms</li>
+<li>Familiarity with Python and/or complex systems modeling software</li>
+<li>Deep knowledge of algorithms (much more academic, such as have dealt with papers, moving from research to pragmatic implementation)</li>
+<li>Experience in analysing the correctness and security of distributed systems.</li>
+<li>Familiarity with the application of formal method techniques.</li>
+<li>Comfortable with “reverse engineering” code in a number of languages including Java, Go, Rust, etc. Even if no experience in these languages, the ability to read and &ldquo;reverse engineer&rdquo; code of other projects is important.</li>
+<li>Keen communicator, eager to share your work in a wide variety of contexts, like internal and public presentations, blog posts and academic papers.</li>
+<li>Capable of deep and creative thinking.</li>
+<li>Passionate about blockchain technology in general.</li>
+<li>Able to manage the uncertainties and ambiguities associated with working in a remote-first, distributed, decentralised environment.</li>
+<li>A strong alignment to our principles: 
+
+<a href="https://status.im/about/#our-principles" rel="noopener">https://status.im/about/#our-principles</a></li>
+</ul>
+<p><strong>Bonus points:</strong></p>
+<ul>
+<li>Experience working remotely.</li>
+<li>Experience working for an open source organization.</li>
+<li>TLA+/PRISM would be desirable.</li>
+<li>PhD in Computer Science, Mathematics, or a related area.</li>
+<li>Experience Multi-Party Computation and Zero-Knowledge Proofs</li>
+<li>Track record of scientific publications.</li>
+<li>Previous experience in remote or globally distributed teams.</li>
+</ul>
+<a href="#hiring-process"><h2 id="hiring-process"><span class="hanchor" ariaLabel="Anchor"># </span>Hiring process</h2></a>
+<p>The hiring process for this role will be:</p>
+<ul>
+<li>Interview with our People Ops team</li>
+<li>Interview with Alvaro (Team Lead)</li>
+<li>Interview with Corey (Chief Security Officer)</li>
+<li>Interview with Jarrad (Cofounder) or Daniel</li>
+</ul>
+<p>The steps may change along the way if we see it makes sense to adapt the interview stages, so please consider the above as a guideline.</p>
+<a href="#compensation"><h2 id="compensation"><span class="hanchor" ariaLabel="Anchor"># </span>Compensation</h2></a>
+<p>We are happy to pay salaries in either 100% fiat or any mix of fiat and/or crypto. For more information regarding benefits at Status: 
+
+<a href="https://people-ops.status.im/tag/perks/" rel="noopener">https://people-ops.status.im/tag/perks/</a></p>
+
+
+    </article>
+    
+
+<hr/>
+
+
+<div class="page-end" id="footer">
+    <div class="backlinks-container">
+        <h3>Backlinks</h3>
+<ul class="backlinks">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+      
+    
+      
+      
+      <li>
+        <a href="/roadmap/consensus/overview/" data-ctx="distributed-systems-researcher" data-src="/roadmap/consensus/overview" class="internal-link">Consensus Work</a>
+      </li>
+      
+      
+      
+</ul>
+
+    </div>
+    <div>
+        <script
+  src="https://cdn.jsdelivr.net/npm/d3@6.7.0/dist/d3.min.js"
+  integrity="sha256-+7jaYCp29O1JusNWHaYtgUn6EhuP0VaFuswhNV06MyI="
+  crossorigin="anonymous"
+></script>
+<h3>Interactive Graph</h3>
+<div id="graph-container"></div>
+<style>
+  :root {
+    --g-node: var(--secondary);
+    --g-node-active: var(--primary);
+    --g-node-inactive: var(--visited);
+    --g-link: var(--outlinegray);
+    --g-link-active: #5a7282;
+  }
+</style>
+
+<script src="https://roadmap.logos.co/js/graph.abd4bc2af3869a96524d7d23b76152c7.js"></script>
+
+    </div>
+</div>
+
+
+
+<div id="contact_buttons">
+    <footer>
+        <p>Made by Logos using <a href="https://github.com/jackyzha0/quartz">Quartz</a>, © 2022</p>
+        <ul>
+            
+            <li><a href="https://roadmap.logos.co/">Home</a></li>
+            <li><a href="https://github.com/logos-co/roadmap">Github</a></li></ul>
+    </footer>
+</div>
+
+
+</div>
+</body>
+
+</html>
