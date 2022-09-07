@@ -3,6 +3,7 @@ public
 resources
 .idea
 content/.obsidian
+static/linkmap
 assets/indices/linkIndex.json
 assets/indices/contentIndex.json
 linkmap
