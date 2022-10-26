@@ -7,6 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://roadmap.logos.co/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title></title>
+      <link>https://roadmap.logos.co/roadmap/virtual-machines/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roadmap.logos.co/roadmap/virtual-machines/overview/</guid>
+      <description>Motivation Logos seeks to use a privacy-first virtual machine for transaction execution. We beleive this can only be acheived through zero-knowledge.</description>
+    </item>
+    
+    <item>
       <title>Consensus Prototypes</title>
       <link>https://roadmap.logos.co/roadmap/consensus/development/prototypes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -44,6 +53,15 @@ Required Roles  Lead Developer (filled)  </description>
     </item>
     
     <item>
+      <title>Frequently Asked Questions</title>
+      <link>https://roadmap.logos.co/roadmap/consensus/candidates/logos-bft/FAQ/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roadmap.logos.co/roadmap/consensus/candidates/logos-bft/FAQ/</guid>
+      <description>How much failure rate of erasure code transmission are we expecting. Basically, what are the EC coding parameters that we expect to be sending such that we have some failure rate of transmission?</description>
+    </item>
+    
+    <item>
       <title>Glacier: Consensus Candidate</title>
       <link>https://roadmap.logos.co/roadmap/consensus/candidates/glacier/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -67,7 +85,8 @@ Required Roles  Lead Developer (filled)  </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://roadmap.logos.co/requirements/overview/</guid>
-      <description>This document describes the requirements of the Logos Network.</description>
+      <description>This document describes the requirements of the Logos Network.
+ Network sovereignty is an extension of the collective sovereignty of the individuals within.</description>
     </item>
     
     <item>
@@ -81,12 +100,36 @@ With the high level goals of preserving the right to privacy, mitigating the ris
     </item>
     
     <item>
+      <title>Rust Developer</title>
+      <link>https://roadmap.logos.co/roles/rust-developer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roadmap.logos.co/roles/rust-developer/</guid>
+      <description>Role: Rust Developer at Status
+Remote, Worldwide
+About Status
+Status is an organization building the tools and infrastructure for the advancement of a secure, private, and open web3.</description>
+    </item>
+    
+    <item>
       <title>Theoretical Analysis of the Snow Family of Consensus Protocols</title>
       <link>https://roadmap.logos.co/roadmap/consensus/theory/snow-family/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://roadmap.logos.co/roadmap/consensus/theory/snow-family/</guid>
       <description>In order to evaluate the properties of the Avalanche family of consensus protocols more rigorously than the original whitepapers, we work to create an analytical framework to explore and better understand the theoretical boundaries of the underlying protocols, and under what parameterization they will break vs a set of adversarial strategies</description>
+    </item>
+    
+    <item>
+      <title>Zero Knowledge Research Engineer</title>
+      <link>https://roadmap.logos.co/roles/zero-knowledge-research-engineer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roadmap.logos.co/roles/zero-knowledge-research-engineer/</guid>
+      <description>at Status
+Remote, Worldwide
+About Status
+Status is building the tools and infrastructure for the advancement of a secure, private, and open web3.</description>
     </item>
     
   </channel>
