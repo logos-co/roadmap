@@ -3,6 +3,7 @@ title: "Frequently Asked Questions"
 tags:
   - "LogosBFT"
   - "consensus"
+openToc: true
 ---
 
 ## Data Distribution
