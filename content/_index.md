@@ -6,7 +6,7 @@ title: Logos Technical Roadmap
 - [Network Requirements](requirements/overview.md)
 - Research and Development Roadmap
 	- [Consensus](roadmap/consensus/overview.md)
-	- Virtual Machines
+	- [Virtual Machines](roadmap/virtual-machines/overview.md)
 	- Economics
 	- Data Model
 	- Applications / Wallets
