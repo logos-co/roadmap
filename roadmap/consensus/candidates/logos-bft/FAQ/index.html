@@ -102,7 +102,7 @@
               index: data.index,
               links: data.links,
             })),
-          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.419a3e348936e0a81337b3003273bd26.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.08497a46d4c3dbb09f370d3818764cfb.min.json")
             .then(data => data.json()),
         ])
         .then(([{index, links}, content]) => ({
@@ -360,6 +360,34 @@ Oct 26, 2022
     
     
   
+    
+    
+      
+      
+    
+    
+  
+    
+    
+      
+      
+    
+    
+  
+    
+    
+      
+      
+    
+    
+  
+    
+    
+      
+      
+    
+    
+  
   
   
 
@@ -386,15 +414,23 @@ Oct 26, 2022
 <a href="#byzantine-behavior"><h2 id="byzantine-behavior"><span class="hanchor" ariaLabel="Anchor"># </span>Byzantine Behavior</h2></a>
 <a href="#can-we-also-consider-a-flavor-that-adds-attestationattribution-to-misbehaving-nodes-that-will-come-at-a-price-but-there-might-be-a-set-of-use-cases-which-would-like-to-have-lower-performance-with-strong-attribution-not-saying-that-it-must-be-part-of-the-initial-design-but-can-be-think-throughadded-later---marcin"><h3 id="can-we-also-consider-a-flavor-that-adds-attestationattribution-to-misbehaving-nodes-that-will-come-at-a-price-but-there-might-be-a-set-of-use-cases-which-would-like-to-have-lower-performance-with-strong-attribution-not-saying-that-it-must-be-part-of-the-initial-design-but-can-be-think-throughadded-later---marcin"><span class="hanchor" ariaLabel="Anchor"># </span>Can we also consider a flavor that adds attestation/attribution to misbehaving nodes? That will come at a price but there might be a set of use cases which would like to have lower performance with strong attribution. Not saying that it must be part of the initial design, but can be think-through/added later. - Marcin</h3></a>
 <blockquote>
-<p><code>Moh:</code> Attestation to misbehaving nodes is part of this protocol. For example, if a node sends an incorrect vote or if a leader proposes an invalid transaction, then this proof will be shared with the network to punish the misbehaving nodes (Though currently this is not part of pseudocode). But it is not possible to reliably prove the attestation of not participation.
-<code>Marcin:</code> Great, and definitely, we cannot attest that a node was not participating - I was not suggesting that;). But we can also think about extending the attestation for lazy-participants case (if it’s not already part of the protocol).
-<code>Moh:</code> OK, thanks for the clarification 😁 . Of course we can have this feature to forward the proof of participation of successor committees. In the first version of LogosBFT we had this feature as a sliding window. One could choose the size of the window (in terms of tree levels) for which a node should forward the proof of participation. In the most recent version the size of sliding window is 0. And it is 1 for the root committee. It means root committee members have to forward the proof of participation of their child committee members. Since I was able to prove protocol correctness without forwarding the proofs so we avoid it. But it can be part of the protocol without any significant changes in the protocol
-<code>Moh:</code> If the proof scheme is efficient ( as the results you presented) in practice and the cost of creating and verifying proofs is not significant then actually adding proofs can be good. But not required.</p>
+<p><code>Moh:</code> Attestation to misbehaving nodes is part of this protocol. For example, if a node sends an incorrect vote or if a leader proposes an invalid transaction, then this proof will be shared with the network to punish the misbehaving nodes (Though currently this is not part of pseudocode). But it is not possible to reliably prove the attestation of not participation.</p>
+</blockquote>
+<blockquote>
+<p><code>Marcin:</code> Great, and definitely, we cannot attest that a node was not participating - I was not suggesting that;). But we can also think about extending the attestation for lazy-participants case (if it’s not already part of the protocol).</p>
+</blockquote>
+<blockquote>
+<p><code>Moh:</code> OK, thanks for the clarification 😁 . Of course we can have this feature to forward the proof of participation of successor committees. In the first version of LogosBFT we had this feature as a sliding window. One could choose the size of the window (in terms of tree levels) for which a node should forward the proof of participation. In the most recent version the size of sliding window is 0. And it is 1 for the root committee. It means root committee members have to forward the proof of participation of their child committee members. Since I was able to prove protocol correctness without forwarding the proofs so we avoid it. But it can be part of the protocol without any significant changes in the protocol</p>
+</blockquote>
+<blockquote>
+<p>If the proof scheme is efficient ( as the results you presented) in practice and the cost of creating and verifying proofs is not significant then actually adding proofs can be good. But not required.</p>
 </blockquote>
 <a href="#also-how-do-you-reward-online-validators--punish-offline-ones-if-you-cant-prove-at-the-block-level-that-someone-attested-or-not---tanguy"><h3 id="also-how-do-you-reward-online-validators--punish-offline-ones-if-you-cant-prove-at-the-block-level-that-someone-attested-or-not---tanguy"><span class="hanchor" ariaLabel="Anchor"># </span>Also, how do you reward online validators / punish offline ones if you can&rsquo;t prove at the block level that someone attested or not? - Tanguy</h3></a>
 <blockquote>
-<p><code>Moh:</code> This is very tricky and so far no one has done it right (to my knowledge). Current reward mechanism for attestation, favours fast nodes.This means if malicious nodes in the network are fast, they can increase their stake in the network faster than the honest nodes and eventually take control of the network. Or in the case of Ethereum a Byzantine leader can include signature of malicious nodes more frequently in the proof of attestation, hence malicious nodes will be rewarded more frequently. Also let me add that I don&rsquo;t have definite answer to your question currently, but I think by revising the protocol assumptions, incentive mechanism and using a game theoretical approach this problem can be resolved.
-An honest node should wait for a specific number of children votes (to make sure everyone is voting on the same proposal) before voting but does not need to provide any cryptographic proof. Though we build a threshold signature from root committee members and it’s children but not from the whole tree. As long as enough number of nodes follow the the protocol we should be fine. I am working on protocol proofs. Also I think bugs should be discovered during development and testing phase. Changing protocol to detect potential bug might not be a good practice.</p>
+<p><code>Moh:</code> This is very tricky and so far no one has done it right (to my knowledge). Current reward mechanism for attestation, favours fast nodes.This means if malicious nodes in the network are fast, they can increase their stake in the network faster than the honest nodes and eventually take control of the network. Or in the case of Ethereum a Byzantine leader can include signature of malicious nodes more frequently in the proof of attestation, hence malicious nodes will be rewarded more frequently. Also let me add that I don&rsquo;t have definite answer to your question currently, but I think by revising the protocol assumptions, incentive mechanism and using a game theoretical approach this problem can be resolved.</p>
+</blockquote>
+<blockquote>
+<p>An honest node should wait for a specific number of children votes (to make sure everyone is voting on the same proposal) before voting but does not need to provide any cryptographic proof. Though we build a threshold signature from root committee members and it’s children but not from the whole tree. As long as enough number of nodes follow the the protocol we should be fine. I am working on protocol proofs. Also I think bugs should be discovered during development and testing phase. Changing protocol to detect potential bug might not be a good practice.</p>
 </blockquote>
 
 
