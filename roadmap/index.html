@@ -96,13 +96,13 @@
   <script>
     const BASE_URL = "https://roadmap.logos.co/"
     const fetchData = Promise.all([
-          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.c7d1dff2779fb783b87718939eb938dc.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.efdce789f52a414aac99217faaa05fac.min.json")
             .then(data => data.json())
             .then(data => ({
               index: data.index,
               links: data.links,
             })),
-          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.501faefcb067cd17893de489cc1bb0f0.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.1ab8ea537a9a1daf324436722fac4853.min.json")
             .then(data => data.json()),
         ])
         .then(([{index, links}, content]) => ({
@@ -244,27 +244,7 @@ if (!doNotTrack) {
         <div class="section">
             <p class="meta">
                 
-Oct 26, 2022
-
-
-            </p>
-            <div class="desc">
-              <h3><a href="https://roadmap.logos.co/roadmap/consensus/candidates/logos-bft/FAQ/" class="internal-link" data-src="/roadmap/consensus/candidates/logos-bft/FAQ/">Frequently Asked Questions</a></h3>
-            </div>
-            <div class="spacer"></div>
-            <ul class="tags">
-                
-                <li><a href="https://roadmap.logos.co/tags/LogosBFT/">LogosBFT</a></li>
-                
-                <li><a href="https://roadmap.logos.co/tags/consensus/">Consensus</a></li>
-                
-            </ul>
-        </div>
-    </li><li class="section-li">
-        <div class="section">
-            <p class="meta">
-                
-Oct 26, 2022
+Oct 28, 2022
 
 
             </p>
@@ -279,6 +259,26 @@ Oct 26, 2022
                 <li><a href="https://roadmap.logos.co/tags/candidate/">Candidate</a></li>
                 
                 <li><a href="https://roadmap.logos.co/tags/LogosBFT/">LogosBFT</a></li>
+                
+            </ul>
+        </div>
+    </li><li class="section-li">
+        <div class="section">
+            <p class="meta">
+                
+Oct 28, 2022
+
+
+            </p>
+            <div class="desc">
+              <h3><a href="https://roadmap.logos.co/roadmap/consensus/candidates/logos-bft/FAQ/" class="internal-link" data-src="/roadmap/consensus/candidates/logos-bft/FAQ/">Frequently Asked Questions</a></h3>
+            </div>
+            <div class="spacer"></div>
+            <ul class="tags">
+                
+                <li><a href="https://roadmap.logos.co/tags/LogosBFT/">LogosBFT</a></li>
+                
+                <li><a href="https://roadmap.logos.co/tags/consensus/">Consensus</a></li>
                 
             </ul>
         </div>

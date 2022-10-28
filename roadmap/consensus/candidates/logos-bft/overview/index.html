@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta
     name="description"
-    content="Logos BFT is a consensus candidate for the Logos Network that utilizes Network Coding and Committees to optimize message propagation in the presence of a large number of nodes, while maintaining a high level of security."
+    content="Logos BFT is a consensus candidate for the Logos Network that utilizes Fountain Codes and a committees tree structure to optimize message propagation in the presence of a large number of nodes, while maintaining high througput and fast finality."
   />
   <title>
     Logos BFT Overview
@@ -96,13 +96,13 @@
   <script>
     const BASE_URL = "https://roadmap.logos.co/"
     const fetchData = Promise.all([
-          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.c7d1dff2779fb783b87718939eb938dc.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.efdce789f52a414aac99217faaa05fac.min.json")
             .then(data => data.json())
             .then(data => ({
               index: data.index,
               links: data.links,
             })),
-          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.501faefcb067cd17893de489cc1bb0f0.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.1ab8ea537a9a1daf324436722fac4853.min.json")
             .then(data => data.json()),
         ])
         .then(([{index, links}, content]) => ({
@@ -241,7 +241,7 @@ if (!doNotTrack) {
       <h1>Logos BFT Overview</h1>
       <p class="meta">
           Last updated 
-Oct 26, 2022
+Oct 28, 2022
 
  
           
@@ -259,6 +259,24 @@ Oct 26, 2022
           
       </ul>
       
+<aside class="mainTOC">
+    <details >
+        <summary>Table of Contents</summary>
+        <nav id="TableOfContents">
+  <ol>
+    <li><a href="#work-streams">Work Streams</a>
+      <ol>
+        <li><a href="#current-state-of-the-art">Current State of the Art</a></li>
+        <li><a href="#committee-overlay-structure">Committee Overlay Structure</a></li>
+        <li><a href="#random-beacon">Random Beacon</a></li>
+        <li><a href="#erasure-coding-lt-codes--fountain-codes--raptor-codes">Erasure Coding (LT Codes / Fountain Codes / Raptor Codes)</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+    </details>
+</aside>
+
 
       
 
@@ -301,18 +319,7 @@ Oct 26, 2022
 <a
   
   rel="noopener" class="internal-link broken"
-  data-src="/consensus/index">consensus</a> candidate for the Logos Network that utilizes 
-
-<a href="https://en.wikipedia.org/wiki/Linear_network_coding" rel="noopener">Network Coding</a> and 
-
-
-
-
-
-<a
-  
-  rel="noopener" class="internal-link broken"
-  data-src="#">Committees</a> to optimize message propagation in the presence of a large number of nodes, while maintaining a high level of security.</p>
+  data-src="/consensus/index">consensus</a> candidate for the Logos Network that utilizes Fountain Codes and a committees tree structure to optimize message propagation in the presence of a large number of nodes, while maintaining high througput and fast finality.</p>
 <ul>
 <li>
 
@@ -326,17 +333,42 @@ Oct 26, 2022
   data-src="/roadmap/consensus/candidates/logos-bft/FAQ/">FAQ</a>: Here is a page that tracks various questions people have around LogosBFT.</li>
 </ul>
 <a href="#work-streams"><h2 id="work-streams"><span class="hanchor" ariaLabel="Anchor"># </span>Work Streams</h2></a>
+<a href="#current-state-of-the-art"><h3 id="current-state-of-the-art"><span class="hanchor" ariaLabel="Anchor"># </span>Current State of the Art</h3></a>
+<p>An ongoing survey of the current state of the art around Consensus Mechanisms and their peripheral dependencies is beign conducted by Tuanir, and can be found in the following WIP Overleaf document:</p>
 <ul>
 <li>
 
+<a href="https://www.overleaf.com/project/633acc1acaa6ffe456d1ab1f" rel="noopener">WIP Consensus SoK</a></li>
+</ul>
+<a href="#committee-overlay-structure"><h3 id="committee-overlay-structure"><span class="hanchor" ariaLabel="Anchor"># </span>Committee Overlay Structure</h3></a>
+<p>The basis of LogosBFT is dependent upon establishing an committee overlay tree structure for message distribution.</p>
+<p>An overview video can be found in the following link:</p>
+<ul>
+<li>
 
+<a href="https://drive.google.com/file/d/17L0JPgC0L1ejbjga7_6ZitBfHUe3VO11/view?usp=sharing" rel="noopener">LogosBFT Overview by Moh during Offsite</a></li>
+</ul>
+<p>The details of this are being worked on by Moh and Alexander and can be found in the following overleaf documents:</p>
+<ul>
+<li>
 
+<a href="https://www.overleaf.com/project/6341fb4a3cf4f20f158afad3" rel="noopener">Moh&rsquo;s newer draft</a></li>
+<li>
 
+<a href="https://www.overleaf.com/read/rhtnjxtjqnhp" rel="noopener">Moh&rsquo;s original draft</a></li>
+<li>
 
-<a
-  
-  rel="noopener" class="internal-link broken"
-  data-src="committee-formation">Committee Formation</a></li>
+<a href="https://www.overleaf.com/project/630c7e20e56998385e7d8416" rel="noopener">Alexander&rsquo;s notes on the statistical properties of committees</a></li>
+</ul>
+<a href="#random-beacon"><h3 id="random-beacon"><span class="hanchor" ariaLabel="Anchor"># </span>Random Beacon</h3></a>
+<p>A random beacon is required to choose a leader and establish a seed for defining the overlay tree. Marcin is working on the various avenues. His previous presentations can be found in the following presentation slides:</p>
+<ul>
+<li>
+
+<a href="https://cloud.logos.co/index.php/s/b39EmQrZRt5rrfL" rel="noopener">Intro to Multiparty Random Beacons</a></li>
+<li>
+
+<a href="https://cloud.logos.co/index.php/s/NXJZX8X8pHg6akw" rel="noopener">Circles of Trust</a></li>
 <li>
 
 
@@ -344,29 +376,18 @@ Oct 26, 2022
 
 
 <a
-  
-  rel="noopener" class="internal-link broken"
-  data-src="random-beacon">Random Beacon</a></li>
+  href="/"
+  rel="noopener" class="internal-link"
+  data-src="/">Compact Certificates of Knowledge</a> - To be linked</li>
+</ul>
+<a href="#erasure-coding-lt-codes--fountain-codes--raptor-codes"><h3 id="erasure-coding-lt-codes--fountain-codes--raptor-codes"><span class="hanchor" ariaLabel="Anchor"># </span>Erasure Coding (LT Codes / Fountain Codes / Raptor Codes)</h3></a>
+<p>In order to reduce message complexity during propagation, we are investigating the use of Luby Transform (LT) codes, more specifically 
+
+<a href="https://en.wikipedia.org/wiki/Fountain_code" rel="noopener">Fountain Codes</a>, to break up the block to be propagated to validators and recombined by local peers within a committee.</p>
+<ul>
 <li>
 
-
-
-
-
-<a
-  
-  rel="noopener" class="internal-link broken"
-  data-src="message-dissemination">Message Dissemination</a></li>
-<li>
-
-
-
-
-
-<a
-  
-  rel="noopener" class="internal-link broken"
-  data-src="leader-election">Leader Election</a></li>
+<a href="https://github.com/chrido/fountain" rel="noopener">LT Code implementation in Rust</a> - unclear about legal status of LT or Raptor Codes, it is currently under investigation.</li>
 </ul>
 
 

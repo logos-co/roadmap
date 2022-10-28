@@ -67,7 +67,7 @@ Required Roles  Lead Developer (filled)  </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://roadmap.logos.co/roadmap/consensus/candidates/logos-bft/overview/</guid>
-      <description>Logos BFT is a consensus candidate for the Logos Network that utilizes Network Coding and Committees to optimize message propagation in the presence of a large number of nodes, while maintaining a high level of security.</description>
+      <description>Logos BFT is a consensus candidate for the Logos Network that utilizes Fountain Codes and a committees tree structure to optimize message propagation in the presence of a large number of nodes, while maintaining high througput and fast finality.</description>
     </item>
     
     <item>

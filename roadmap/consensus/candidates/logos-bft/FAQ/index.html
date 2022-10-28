@@ -96,13 +96,13 @@
   <script>
     const BASE_URL = "https://roadmap.logos.co/"
     const fetchData = Promise.all([
-          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.c7d1dff2779fb783b87718939eb938dc.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.efdce789f52a414aac99217faaa05fac.min.json")
             .then(data => data.json())
             .then(data => ({
               index: data.index,
               links: data.links,
             })),
-          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.501faefcb067cd17893de489cc1bb0f0.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.1ab8ea537a9a1daf324436722fac4853.min.json")
             .then(data => data.json()),
         ])
         .then(([{index, links}, content]) => ({
@@ -241,7 +241,7 @@ if (!doNotTrack) {
       <h1>Frequently Asked Questions</h1>
       <p class="meta">
           Last updated 
-Oct 26, 2022
+Oct 28, 2022
 
  
           
@@ -409,7 +409,7 @@ Oct 26, 2022
 <a href="#network-scale"><h2 id="network-scale"><span class="hanchor" ariaLabel="Anchor"># </span>Network Scale</h2></a>
 <a href="#what-is-our-expected-minimum-number-of-nodes-within-the-network---dmitriy"><h3 id="what-is-our-expected-minimum-number-of-nodes-within-the-network---dmitriy"><span class="hanchor" ariaLabel="Anchor"># </span>What is our expected minimum number of nodes within the network? - Dmitriy</h3></a>
 <blockquote>
-<p>For a small number of nodes we can have just a single committee. But I am not sure how many nodes will join our network</p>
+<p><code>Moh:</code> For a small number of nodes we can have just a single committee. But I am not sure how many nodes will join our network</p>
 </blockquote>
 <a href="#byzantine-behavior"><h2 id="byzantine-behavior"><span class="hanchor" ariaLabel="Anchor"># </span>Byzantine Behavior</h2></a>
 <a href="#can-we-also-consider-a-flavor-that-adds-attestationattribution-to-misbehaving-nodes-that-will-come-at-a-price-but-there-might-be-a-set-of-use-cases-which-would-like-to-have-lower-performance-with-strong-attribution-not-saying-that-it-must-be-part-of-the-initial-design-but-can-be-think-throughadded-later---marcin"><h3 id="can-we-also-consider-a-flavor-that-adds-attestationattribution-to-misbehaving-nodes-that-will-come-at-a-price-but-there-might-be-a-set-of-use-cases-which-would-like-to-have-lower-performance-with-strong-attribution-not-saying-that-it-must-be-part-of-the-initial-design-but-can-be-think-throughadded-later---marcin"><span class="hanchor" ariaLabel="Anchor"># </span>Can we also consider a flavor that adds attestation/attribution to misbehaving nodes? That will come at a price but there might be a set of use cases which would like to have lower performance with strong attribution. Not saying that it must be part of the initial design, but can be think-through/added later. - Marcin</h3></a>
