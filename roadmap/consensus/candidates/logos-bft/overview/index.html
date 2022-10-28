@@ -96,13 +96,13 @@
   <script>
     const BASE_URL = "https://roadmap.logos.co/"
     const fetchData = Promise.all([
-          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.efdce789f52a414aac99217faaa05fac.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.388eb6f1c6bb1f0d35021b9fbd18ef03.min.json")
             .then(data => data.json())
             .then(data => ({
               index: data.index,
               links: data.links,
             })),
-          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.1ab8ea537a9a1daf324436722fac4853.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.007e8e1524a5a12db48738f64d3f07ab.min.json")
             .then(data => data.json()),
         ])
         .then(([{index, links}, content]) => ({
@@ -267,7 +267,7 @@ Oct 28, 2022
     <li><a href="#work-streams">Work Streams</a>
       <ol>
         <li><a href="#current-state-of-the-art">Current State of the Art</a></li>
-        <li><a href="#committee-overlay-structure">Committee Overlay Structure</a></li>
+        <li><a href="#committee-tree-overlay">Committee Tree Overlay</a></li>
         <li><a href="#random-beacon">Random Beacon</a></li>
         <li><a href="#erasure-coding-lt-codes--fountain-codes--raptor-codes">Erasure Coding (LT Codes / Fountain Codes / Raptor Codes)</a></li>
       </ol>
@@ -340,7 +340,7 @@ Oct 28, 2022
 
 <a href="https://www.overleaf.com/project/633acc1acaa6ffe456d1ab1f" rel="noopener">WIP Consensus SoK</a></li>
 </ul>
-<a href="#committee-overlay-structure"><h3 id="committee-overlay-structure"><span class="hanchor" ariaLabel="Anchor"># </span>Committee Overlay Structure</h3></a>
+<a href="#committee-tree-overlay"><h3 id="committee-tree-overlay"><span class="hanchor" ariaLabel="Anchor"># </span>Committee Tree Overlay</h3></a>
 <p>The basis of LogosBFT is dependent upon establishing an committee overlay tree structure for message distribution.</p>
 <p>An overview video can be found in the following link:</p>
 <ul>
@@ -352,13 +352,24 @@ Oct 28, 2022
 <ul>
 <li>
 
-<a href="https://www.overleaf.com/project/6341fb4a3cf4f20f158afad3" rel="noopener">Moh&rsquo;s newer draft</a></li>
-<li>
-
-<a href="https://www.overleaf.com/read/rhtnjxtjqnhp" rel="noopener">Moh&rsquo;s original draft</a></li>
+<a href="https://www.overleaf.com/project/6341fb4a3cf4f20f158afad3" rel="noopener">Moh&rsquo;s draft</a></li>
 <li>
 
 <a href="https://www.overleaf.com/project/630c7e20e56998385e7d8416" rel="noopener">Alexander&rsquo;s notes on the statistical properties of committees</a></li>
+</ul>
+<a href="#failure-recovery"><h4 id="failure-recovery"><span class="hanchor" ariaLabel="Anchor"># </span>Failure Recovery</h4></a>
+<p>There exists a timeout that triggers an overlay reconfiguration. Currently work is being done to calculate the probabilities of another failure based on a given percentage of byzantine nodes within the network.</p>
+<ul>
+<li>
+
+
+
+
+
+<a
+  href="/"
+  rel="noopener" class="internal-link"
+  data-src="/">Recovery Failure Probabilities</a> - LINK TO WORK HERE</li>
 </ul>
 <a href="#random-beacon"><h3 id="random-beacon"><span class="hanchor" ariaLabel="Anchor"># </span>Random Beacon</h3></a>
 <p>A random beacon is required to choose a leader and establish a seed for defining the overlay tree. Marcin is working on the various avenues. His previous presentations can be found in the following presentation slides:</p>
