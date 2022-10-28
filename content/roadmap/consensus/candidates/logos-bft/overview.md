@@ -32,10 +32,10 @@ There exists a timeout that triggers an overlay reconfiguration. Currently work 
 - [Recovery Failure Probabilities]() - LINK TO WORK HERE
 
 ### Random Beacon
-A random beacon is required to choose a leader and establish a seed for defining the overlay tree. Marcin is working on the various avenues. His previous presentations can be found in the following presentation slides:
+A random beacon is required to choose a leader and establish a seed for defining the overlay tree. Marcin is working on the various avenues. His previous presentations can be found in the following presentation slides (in chronological order):
 - [Intro to Multiparty Random Beacons](https://cloud.logos.co/index.php/s/b39EmQrZRt5rrfL)
 - [Circles of Trust](https://cloud.logos.co/index.php/s/NXJZX8X8pHg6akw)
-- [Compact Certificates of Knowledge]() - To be linked
+- [Compact Certificates of Knowledge](https://cloud.logos.co/index.php/s/oSJ4ykR4A55QHkG)
 
 ### Erasure Coding (LT Codes / Fountain Codes / Raptor Codes)
 In order to reduce message complexity during propagation, we are investigating the use of Luby Transform (LT) codes, more specifically [Fountain Codes](https://en.wikipedia.org/wiki/Fountain_code), to break up the block to be propagated to validators and recombined by local peers within a committee. 
