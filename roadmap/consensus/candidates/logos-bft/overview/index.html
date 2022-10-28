@@ -96,13 +96,13 @@
   <script>
     const BASE_URL = "https://roadmap.logos.co/"
     const fetchData = Promise.all([
-          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.388eb6f1c6bb1f0d35021b9fbd18ef03.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.a731878fce0e7f463fcc42a3bbd02e29.min.json")
             .then(data => data.json())
             .then(data => ({
               index: data.index,
               links: data.links,
             })),
-          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.007e8e1524a5a12db48738f64d3f07ab.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.3090347d4d44a2c11d6534e77b456ec8.min.json")
             .then(data => data.json()),
         ])
         .then(([{index, links}, content]) => ({
@@ -372,7 +372,7 @@ Oct 28, 2022
   data-src="/">Recovery Failure Probabilities</a> - LINK TO WORK HERE</li>
 </ul>
 <a href="#random-beacon"><h3 id="random-beacon"><span class="hanchor" ariaLabel="Anchor"># </span>Random Beacon</h3></a>
-<p>A random beacon is required to choose a leader and establish a seed for defining the overlay tree. Marcin is working on the various avenues. His previous presentations can be found in the following presentation slides:</p>
+<p>A random beacon is required to choose a leader and establish a seed for defining the overlay tree. Marcin is working on the various avenues. His previous presentations can be found in the following presentation slides (in chronological order):</p>
 <ul>
 <li>
 
@@ -382,14 +382,7 @@ Oct 28, 2022
 <a href="https://cloud.logos.co/index.php/s/NXJZX8X8pHg6akw" rel="noopener">Circles of Trust</a></li>
 <li>
 
-
-
-
-
-<a
-  href="/"
-  rel="noopener" class="internal-link"
-  data-src="/">Compact Certificates of Knowledge</a> - To be linked</li>
+<a href="https://cloud.logos.co/index.php/s/oSJ4ykR4A55QHkG" rel="noopener">Compact Certificates of Knowledge</a></li>
 </ul>
 <a href="#erasure-coding-lt-codes--fountain-codes--raptor-codes"><h3 id="erasure-coding-lt-codes--fountain-codes--raptor-codes"><span class="hanchor" ariaLabel="Anchor"># </span>Erasure Coding (LT Codes / Fountain Codes / Raptor Codes)</h3></a>
 <p>In order to reduce message complexity during propagation, we are investigating the use of Luby Transform (LT) codes, more specifically 

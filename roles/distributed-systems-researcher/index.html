@@ -97,13 +97,13 @@ With the high level goals of preserving the right to privacy, mitigating the ris
   <script>
     const BASE_URL = "https://roadmap.logos.co/"
     const fetchData = Promise.all([
-          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.388eb6f1c6bb1f0d35021b9fbd18ef03.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.a731878fce0e7f463fcc42a3bbd02e29.min.json")
             .then(data => data.json())
             .then(data => ({
               index: data.index,
               links: data.links,
             })),
-          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.007e8e1524a5a12db48738f64d3f07ab.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.3090347d4d44a2c11d6534e77b456ec8.min.json")
             .then(data => data.json()),
         ])
         .then(([{index, links}, content]) => ({
