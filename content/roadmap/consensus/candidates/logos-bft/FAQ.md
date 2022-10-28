@@ -22,7 +22,7 @@ openToc: true
 ## Network Scale
 
 ### What is our expected minimum number of nodes within the network? - Dmitriy
-> For a small number of nodes we can have just a single committee. But I am not sure how many nodes will join our network 
+> `Moh:` For a small number of nodes we can have just a single committee. But I am not sure how many nodes will join our network 
 
 ## Byzantine Behavior
 
