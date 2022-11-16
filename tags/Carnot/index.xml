@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>candidate on </title>
-    <link>https://roadmap.logos.co/tags/candidate/</link>
-    <description>Recent content in candidate on </description>
+    <title>Carnot on </title>
+    <link>https://roadmap.logos.co/tags/Carnot/</link>
+    <description>Recent content in Carnot on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://roadmap.logos.co/tags/candidate/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://roadmap.logos.co/tags/Carnot/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Carnot Overview</title>
       <link>https://roadmap.logos.co/roadmap/consensus/candidates/carnot/overview/</link>
@@ -16,12 +16,12 @@
     </item>
     
     <item>
-      <title>Glacier: Consensus Candidate</title>
-      <link>https://roadmap.logos.co/roadmap/consensus/candidates/glacier/</link>
+      <title>Frequently Asked Questions</title>
+      <link>https://roadmap.logos.co/roadmap/consensus/candidates/carnot/FAQ/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://roadmap.logos.co/roadmap/consensus/candidates/glacier/</guid>
-      <description>Glacier is a consensus candidate for the Logos network that aims to be an improvement to the Avalanche family of consensus protocols.</description>
+      <guid>https://roadmap.logos.co/roadmap/consensus/candidates/carnot/FAQ/</guid>
+      <description>Data Distribution How much failure rate of erasure code transmission are we expecting. Basically, what are the EC coding parameters that we expect to be sending such that we have some failure rate of transmission?</description>
     </item>
     
   </channel>

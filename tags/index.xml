@@ -16,6 +16,15 @@
     </item>
     
     <item>
+      <title>Carnot</title>
+      <link>https://roadmap.logos.co/tags/Carnot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roadmap.logos.co/tags/Carnot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>consensus</title>
       <link>https://roadmap.logos.co/tags/consensus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -43,15 +52,6 @@
     </item>
     
     <item>
-      <title>LogosBFT</title>
-      <link>https://roadmap.logos.co/tags/LogosBFT/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://roadmap.logos.co/tags/LogosBFT/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>requirements</title>
       <link>https://roadmap.logos.co/tags/requirements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -75,6 +75,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://roadmap.logos.co/tags/rust/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>snow</title>
+      <link>https://roadmap.logos.co/tags/snow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roadmap.logos.co/tags/snow/</guid>
       <description></description>
     </item>
     

@@ -5,10 +5,10 @@
   <meta charset="UTF-8" />
   <meta
     name="description"
-    content=""
+    content="Carnot (formerly LogosBFT) is a Byzantine Fault Tolerant (BFT) consensus candidate for the Nomos Network that utilizes Fountain Codes and a committees tree structure to optimize message propagation in the presence of a large number of nodes, while maintaining high througput and fast finality."
   />
   <title>
-    rust
+    Carnot Overview
   </title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -238,35 +238,228 @@ if (!doNotTrack) {
 
 
     <article>
-        <h1>Tag: rust</h1>
-        
-        <ul class="section-ul"><li class="section-li">
-        <div class="section">
-            <p class="meta">
-                
-Oct 26, 2022
+      <h1>Carnot Overview</h1>
+      <p class="meta">
+          Last updated 
+Nov 16, 2022
+
+ 
+          
+<a href="https://github.com/jackyzha0/quartz/tree/hugo/content/roadmap/consensus/candidates/carnot/overview.md" rel="noopener">Edit Source</a>
 
 
-            </p>
-            <div class="desc">
-              <h3><a href="https://roadmap.logos.co/roles/rust-developer/" class="internal-link" data-src="/roles/rust-developer/">Rust Developer</a></h3>
-            </div>
-            <div class="spacer"></div>
-            <ul class="tags">
-                
-                <li><a href="https://roadmap.logos.co/tags/role/">Role</a></li>
-                
-                <li><a href="https://roadmap.logos.co/tags/engineering/">Engineering</a></li>
-                
-                <li><a href="https://roadmap.logos.co/tags/rust/">Rust</a></li>
-                
-            </ul>
-        </div>
-    </li></ul>
+      </p>
+      <ul class="tags">
+          
+          <li><a href="https://roadmap.logos.co/tags/consensus/">Consensus</a></li>
+          
+          <li><a href="https://roadmap.logos.co/tags/candidate/">Candidate</a></li>
+          
+          <li><a href="https://roadmap.logos.co/tags/Carnot/">Carnot</a></li>
+          
+      </ul>
+      
+<aside class="mainTOC">
+    <details >
+        <summary>Table of Contents</summary>
+        <nav id="TableOfContents">
+  <ol>
+    <li><a href="#work-streams">Work Streams</a>
+      <ol>
+        <li><a href="#current-state-of-the-art">Current State of the Art</a></li>
+        <li><a href="#committee-tree-overlay">Committee Tree Overlay</a></li>
+        <li><a href="#random-beacon">Random Beacon</a></li>
+        <li><a href="#erasure-coding-lt-codes--fountain-codes--raptor-codes">Erasure Coding (LT Codes / Fountain Codes / Raptor Codes)</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+    </details>
+</aside>
 
-        
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+<p>Carnot (formerly LogosBFT) is a Byzantine Fault Tolerant (BFT) 
+
+
+
+
+
+<a
+  
+  rel="noopener" class="internal-link broken"
+  data-src="roadmap/consensus/index">consensus</a> candidate for the Nomos Network that utilizes Fountain Codes and a committees tree structure to optimize message propagation in the presence of a large number of nodes, while maintaining high througput and fast finality.</p>
+<ul>
+<li>
+
+
+
+
+
+<a
+  href="/roadmap/consensus/candidates/carnot/FAQ/"
+  rel="noopener" class="internal-link"
+  data-src="/roadmap/consensus/candidates/carnot/FAQ/">FAQ</a>: Here is a page that tracks various questions people have around Carnot.</li>
+</ul>
+<a href="#work-streams"><h2 id="work-streams"><span class="hanchor" ariaLabel="Anchor"># </span>Work Streams</h2></a>
+<a href="#current-state-of-the-art"><h3 id="current-state-of-the-art"><span class="hanchor" ariaLabel="Anchor"># </span>Current State of the Art</h3></a>
+<p>An ongoing survey of the current state of the art around Consensus Mechanisms and their peripheral dependencies is being conducted by Tuanir, and can be found in the following WIP Overleaf document:</p>
+<ul>
+<li>
+
+<a href="https://www.overleaf.com/project/633acc1acaa6ffe456d1ab1f" rel="noopener">WIP Consensus SoK</a></li>
+</ul>
+<a href="#committee-tree-overlay"><h3 id="committee-tree-overlay"><span class="hanchor" ariaLabel="Anchor"># </span>Committee Tree Overlay</h3></a>
+<p>The basis of Carnot is dependent upon establishing an committee overlay tree structure for message distribution.</p>
+<p>An overview video can be found in the following link:</p>
+<ul>
+<li>
+
+<a href="https://drive.google.com/file/d/17L0JPgC0L1ejbjga7_6ZitBfHUe3VO11/view?usp=sharing" rel="noopener">Carnot Overview by Moh during Offsite</a></li>
+</ul>
+<p>The details of this are being worked on by Moh and Alexander and can be found in the following overleaf documents:</p>
+<ul>
+<li>
+
+<a href="https://www.overleaf.com/project/6341fb4a3cf4f20f158afad3" rel="noopener">Moh&rsquo;s draft</a></li>
+<li>
+
+<a href="https://www.overleaf.com/project/630c7e20e56998385e7d8416" rel="noopener">Alexander&rsquo;s notes on the statistical properties of committees</a></li>
+</ul>
+<p>A simulation notebook is being worked on by Corey to investigate the properties of various tree overlay structures and estimate their practical performance:</p>
+<ul>
+<li>
+
+<a href="https://github.com/logos-co/scratch/tree/main/corpetty/committee_sim" rel="noopener">Corey&rsquo;s Overlay Jupyter Notebook</a></li>
+</ul>
+<a href="#failure-recovery"><h4 id="failure-recovery"><span class="hanchor" ariaLabel="Anchor"># </span>Failure Recovery</h4></a>
+<p>There exists a timeout that triggers an overlay reconfiguration. Currently work is being done to calculate the probabilities of another failure based on a given percentage of byzantine nodes within the network.</p>
+<ul>
+<li>
+
+
+
+
+
+<a
+  href="/"
+  rel="noopener" class="internal-link"
+  data-src="/">Recovery Failure Probabilities</a> - LINK TO WORK HERE</li>
+</ul>
+<a href="#random-beacon"><h3 id="random-beacon"><span class="hanchor" ariaLabel="Anchor"># </span>Random Beacon</h3></a>
+<p>A random beacon is required to choose a leader and establish a seed for defining the overlay tree. Marcin is working on the various avenues. His previous presentations can be found in the following presentation slides (in chronological order):</p>
+<ul>
+<li>
+
+<a href="https://cloud.logos.co/index.php/s/b39EmQrZRt5rrfL" rel="noopener">Intro to Multiparty Random Beacons</a></li>
+<li>
+
+<a href="https://cloud.logos.co/index.php/s/NXJZX8X8pHg6akw" rel="noopener">Circles of Trust</a></li>
+<li>
+
+<a href="https://cloud.logos.co/index.php/s/oSJ4ykR4A55QHkG" rel="noopener">Compact Certificates of Knowledge</a></li>
+</ul>
+<a href="#erasure-coding-lt-codes--fountain-codes--raptor-codes"><h3 id="erasure-coding-lt-codes--fountain-codes--raptor-codes"><span class="hanchor" ariaLabel="Anchor"># </span>Erasure Coding (LT Codes / Fountain Codes / Raptor Codes)</h3></a>
+<p>In order to reduce message complexity during propagation, we are investigating the use of Luby Transform (LT) codes, more specifically 
+
+<a href="https://en.wikipedia.org/wiki/Fountain_code" rel="noopener">Fountain Codes</a>, to break up the block to be propagated to validators and recombined by local peers within a committee.</p>
+<ul>
+<li>
+
+<a href="https://github.com/chrido/fountain" rel="noopener">LT Code implementation in Rust</a> - unclear about legal status of LT or Raptor Codes, it is currently under investigation.</li>
+</ul>
+
+
     </article>
     
+
+<hr/>
+
+
+<div class="page-end" id="footer">
+    <div class="backlinks-container">
+        <h3>Backlinks</h3>
+<ul class="backlinks">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+      
+    
+      
+      
+      <li>
+        <a href="/roadmap/consensus/overview/" data-ctx="Carnot" data-src="/roadmap/consensus/overview" class="internal-link">Consensus Work</a>
+      </li>
+      
+      
+      
+</ul>
+
+    </div>
+    <div>
+        <script
+  src="https://cdn.jsdelivr.net/npm/d3@6.7.0/dist/d3.min.js"
+  integrity="sha256-+7jaYCp29O1JusNWHaYtgUn6EhuP0VaFuswhNV06MyI="
+  crossorigin="anonymous"
+></script>
+<h3>Interactive Graph</h3>
+<div id="graph-container"></div>
+<style>
+  :root {
+    --g-node: var(--secondary);
+    --g-node-active: var(--primary);
+    --g-node-inactive: var(--visited);
+    --g-link: var(--outlinegray);
+    --g-link-active: #5a7282;
+  }
+</style>
+
+<script src="https://roadmap.logos.co/js/graph.abd4bc2af3869a96524d7d23b76152c7.js"></script>
+
+    </div>
+</div>
+
+
+
 <div id="contact_buttons">
     <footer>
         <p>Made by Logos using <a href="https://github.com/jackyzha0/quartz">Quartz</a>, © 2022</p>
@@ -276,6 +469,7 @@ Oct 26, 2022
             <li><a href="https://github.com/logos-co/roadmap">Github</a></li></ul>
     </footer>
 </div>
+
 
 </div>
 </body>

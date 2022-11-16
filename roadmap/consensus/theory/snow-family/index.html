@@ -96,13 +96,13 @@
   <script>
     const BASE_URL = "https://roadmap.logos.co/"
     const fetchData = Promise.all([
-          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.a731878fce0e7f463fcc42a3bbd02e29.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.159f923c26d1ca958995ee01990098e8.min.json")
             .then(data => data.json())
             .then(data => ({
               index: data.index,
               links: data.links,
             })),
-          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.3090347d4d44a2c11d6534e77b456ec8.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.2ce7a40046fbbe53a3373420b3cfaf2b.min.json")
             .then(data => data.json()),
         ])
         .then(([{index, links}, content]) => ({
@@ -241,7 +241,7 @@ if (!doNotTrack) {
       <h1>Theoretical Analysis of the Snow Family of Consensus Protocols</h1>
       <p class="meta">
           Last updated 
-Aug 19, 2022
+Nov 16, 2022
 
  
           
@@ -254,6 +254,8 @@ Aug 19, 2022
           <li><a href="https://roadmap.logos.co/tags/consensus/">Consensus</a></li>
           
           <li><a href="https://roadmap.logos.co/tags/theory/">Theory</a></li>
+          
+          <li><a href="https://roadmap.logos.co/tags/snow/">Snow</a></li>
           
       </ul>
       
