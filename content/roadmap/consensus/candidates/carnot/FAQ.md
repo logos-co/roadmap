@@ -1,7 +1,7 @@
 ---
 title: "Frequently Asked Questions"
 tags:
-  - "LogosBFT"
+  - "Carnot"
   - "consensus"
 openToc: true
 ---
@@ -31,7 +31,7 @@ openToc: true
 
 > `Marcin:` Great, and definitely, we cannot attest that a node was not participating - I was not suggesting that;). But we can also think about extending the attestation for lazy-participants case (if it’s not already part of the protocol).
 
-> `Moh:` OK, thanks for the clarification 😁 . Of course we can have this feature to forward the proof of participation of successor committees. In the first version of LogosBFT we had this feature as a sliding window. One could choose the size of the window (in terms of tree levels) for which a node should forward the proof of participation. In the most recent version the size of sliding window is 0. And it is 1 for the root committee. It means root committee members have to forward the proof of participation of their child committee members. Since I was able to prove protocol correctness without forwarding the proofs so we avoid it. But it can be part of the protocol without any significant changes in the protocol
+> `Moh:` OK, thanks for the clarification 😁 . Of course we can have this feature to forward the proof of participation of successor committees. In the first version of Carnot we had this feature as a sliding window. One could choose the size of the window (in terms of tree levels) for which a node should forward the proof of participation. In the most recent version the size of sliding window is 0. And it is 1 for the root committee. It means root committee members have to forward the proof of participation of their child committee members. Since I was able to prove protocol correctness without forwarding the proofs so we avoid it. But it can be part of the protocol without any significant changes in the protocol
 
 > If the proof scheme is efficient ( as the results you presented) in practice and the cost of creating and verifying proofs is not significant then actually adding proofs can be good. But not required.
 

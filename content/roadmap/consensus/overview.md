@@ -8,8 +8,8 @@ Consensus is the foundation of the network. It is how a group of peer-to-peer no
 
 ## Consensus Roadmap
 ### Consensus Candidates
-- [glacier](roadmap/consensus/candidates/glacier.md)
-- [logos-bft](roadmap/consensus/candidates/logos-bft.md)
+- [Glacier](roadmap/consensus/candidates/glacier.md)
+- [Carnot](roadmap/consensus/candidates/carnot/overview.md)
 
 ### Theoretical Analysis
 - [snow-family](roadmap/consensus/theory/snow-family.md)
