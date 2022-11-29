@@ -1,5 +1,7 @@
-make --dry-run --always-make --keep-going --print-directory
-make: Entering directory '/home/petty/github/logos/roadmap'
-hugo-obsidian -input=content -output=assets/indices -index -root=. && hugo server --enableGitInfo --minify
-make: Leaving directory '/home/petty/github/logos/roadmap'
- 
+make.exe --dry-run --always-make --keep-going --print-directory
+'\\wsl.localhost\Ubuntu\home\petty\github\logos-co\roadmap'
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+'make.exe' is not recognized as an internal or external command,
+operable program or batch file.
+

@@ -6,6 +6,15 @@ tags:
 openToc: true
 ---
 
+## Network Requirements and Assumptions
+
+### What assumptions do we need Waku to fulfill? - Corey
+> `Moh:` Waku needs to fill the following requirements, taken from the Carnot paper:
+
+> **Definition 3** (Probabilistic Reliable Dissemination). _After the GST, and when the leader is correct, all the correct nodes deliver the proposal sent by the leader (w.h.p)._
+
+> **Definition 4** (Probabilistic Fulfillment). _After the GST, and when the current and previous leaders are correct, the number of votes collected by teh current leader is $2c+1$ (w.h.p)._
+
 ## Data Distribution
 
 ### How much failure rate of erasure code transmission are we expecting. Basically, what are the EC coding parameters that we expect to be sending such that we have some failure rate of transmission? Has that been looked into? - Dmitriy
@@ -40,3 +49,12 @@ openToc: true
 
 > An honest node should wait for a specific number of children votes (to make sure everyone is voting on the same proposal) before voting but does not need to provide any cryptographic proof. Though we build a threshold signature from root committee members and it’s children but not from the whole tree. As long as enough number of nodes follow the the protocol we should be fine. I am working on protocol proofs. Also I think bugs should be discovered during development and testing phase. Changing protocol to detect potential bug might not be a good practice.
 
+## Synchronicity
+
+### How to guarantee synchronicity. In particular how to avoid that in a big network different nodes see a proposal with 2c+1 votes but different votes and thus different random seed - Giacomo
+
+> `Moh:` The assumption is that there exists some known finite time bound Δ and a special event called GST (Global Stabilization Time) such that:
+
+> The adversary must cause the GST event to eventually happen after some unknown finite time. Any message sent at time x must be delivered by time $\delta + \text{max}(x,GST)$. In the Partial synchrony model, the system behaves asynchronously till GST and synchronously after GST.
+
+> Moreover, votes travel  one  level at a time from tree leaves to the tree root. We only need the proof of votes of root+child committees to conclude with a high probability that the majority of nodes have voted.
