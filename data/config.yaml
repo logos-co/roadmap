@@ -1,4 +1,4 @@
-name: Logos
+name: Nomos
 enableToc: true
 openToc: false
 enableLinkPreview: true
@@ -11,13 +11,13 @@ enableFooter: true
 enableContextualBacklinks: true
 enableRecentNotes: false
 enableGitHubEdit: true
-GitHubLink: https://github.com/jackyzha0/quartz/tree/hugo/content
+GitHubLink: https://github.com/logos-co/roadmap/tree/hugo/content
 enableSemanticSearch: true
 operandApiKey: "e1ec9cdc-56d2-420e-a5bd-c6019af4be58"
 description:
-  Information on how Logos plans to build its network, what it has done so far, and how you can get involved.
+  Information on how Nomos plans to build its network, what it has done so far, and how you can get involved.
 page_title:
-  "Logos Technical Roadmap"
+  "Nomos Technical Roadmap"
 links:
   # - link_name: Twitter
   #   link: https://twitter.com/_jzhao
