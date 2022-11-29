@@ -26,6 +26,7 @@ An overview video can be found in the following link:
 The details of this are being worked on by Moh and Alexander and can be found in the following overleaf documents: 
 - [Moh's draft](https://www.overleaf.com/project/6341fb4a3cf4f20f158afad3)
 - [Alexander's notes on the statistical properties of committees](https://www.overleaf.com/project/630c7e20e56998385e7d8416)
+- [Alexander's python code for computing committee sizes](https://github.com/AMozeika/committees)
 
 A simulation notebook is being worked on by Corey to investigate the properties of various tree overlay structures and estimate their practical performance:
 - [Corey's Overlay Jupyter Notebook](https://github.com/logos-co/scratch/tree/main/corpetty/committee_sim)
