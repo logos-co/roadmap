@@ -5,10 +5,10 @@
   <meta charset="UTF-8" />
   <meta
     name="description"
-    content=""
+    content="Claro (formerly Glacier) is a consensus candidate for the Logos network that aims to be an improvement to the Avalanche family of consensus protocols."
   />
   <title>
-    404 Page not found
+    Claro: Consensus Candidate
   </title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -185,7 +185,29 @@
 
 
 <body>
+<div id="search-container">
+  <div id="search-space">
+    <input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search"
+      placeholder="Search for something...">
+    <div id="results-container">
+    </div>
+  </div>
+</div>
+
+
+<script defer src="https://roadmap.logos.co/js/semantic-search.d4032d4a6a967938235ae76d08a55b46.min.js"></script>
+
+
+
 <div class="singlePage">
+    
+    <header>
+    <h1 id="page-title"><a href="https://roadmap.logos.co/">Nomos Technical Roadmap</a></h1>
+    <div class="spacer"></div>
+    <div id="search-icon">
+      <p>Search</p>
+      <svg tabindex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search Icon</title><desc id="desc">Icon to open search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"/><circle cx="8" cy="8" r="7"/></g></svg>
+    </div>
     <div class='darkmode'>
     <input class='toggle' id='darkmode-toggle' type='checkbox' tabindex="-1">
     <label id="toggle-label-light" for='darkmode-toggle' tabindex="-1">
@@ -201,11 +223,158 @@
         </svg>
     </label>
 </div>
-    <div class="centered">
-        <h1>404.</h1>
-        <h3>Hey! You look a little lost. This page doesn't exist (or may be private).</h3>
-        <a href="https://roadmap.logos.co/">↳ Let's get you home.</a>
+</header>
+
+
+    <article>
+      <h1>Claro: Consensus Candidate</h1>
+      <p class="meta">
+          Last updated 
+Nov 29, 2022
+
+ 
+          
+<a href="https://github.com/logos-co/roadmap/tree/hugo/content/roadmap/consensus/candidates/claro.md" rel="noopener">Edit Source</a>
+
+
+      </p>
+      <ul class="tags">
+          
+          <li><a href="https://roadmap.logos.co/tags/consensus/">Consensus</a></li>
+          
+          <li><a href="https://roadmap.logos.co/tags/candidate/">Candidate</a></li>
+          
+          <li><a href="https://roadmap.logos.co/tags/claro/">Claro</a></li>
+          
+      </ul>
+      
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+<p><strong>Claro</strong> (formerly Glacier) is a consensus candidate for the Logos network that aims to be an improvement to the Avalanche family of consensus protocols.</p>
+<a href="#implementations"><h3 id="implementations"><span class="hanchor" ariaLabel="Anchor"># </span>Implementations</h3></a>
+<p>The protocol has been implemented in multiple languages to facilitate learning and testing. The individual code repositories can be found in the following links:</p>
+<ul>
+<li>Rust (reference)</li>
+<li>Python</li>
+<li>Common Lisp</li>
+</ul>
+<a href="#simulationsexperimentsanalysis"><h3 id="simulationsexperimentsanalysis"><span class="hanchor" ariaLabel="Anchor"># </span>Simulations/Experiments/Analysis</h3></a>
+<p>In order to test the performance of the protocol, and how it stacked up to the Avalanche family of protocols, we have performed a multitude of simulations and experiments under various assumptions.</p>
+<ul>
+<li>
+
+<a href="https://github.com/status-im/consensus-models" rel="noopener">Alvaro&rsquo;s initial Python implementations and simulation code</a></li>
+</ul>
+<a href="#specification"><h3 id="specification"><span class="hanchor" ariaLabel="Anchor"># </span>Specification</h3></a>
+<p>Currently the Claro consensus protocol is being drafted into a specification so that other implementations can be created. It&rsquo;s draft resides under 
+
+<a href="https://vac.dev" rel="noopener">Vac</a> and can be tracked 
+
+<a href="https://github.com/vacp2p/rfc/pull/512/" rel="noopener">here</a></p>
+<a href="#additional-information"><h3 id="additional-information"><span class="hanchor" ariaLabel="Anchor"># </span>Additional Information</h3></a>
+
+
+    </article>
+    
+
+<hr/>
+
+
+<div class="page-end" id="footer">
+    <div class="backlinks-container">
+        <h3>Backlinks</h3>
+<ul class="backlinks">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+      
+    
+      
+      
+      <li>
+        <a href="/roadmap/consensus/overview/" data-ctx="Claro" data-src="/roadmap/consensus/overview" class="internal-link">Consensus Work</a>
+      </li>
+      
+      
+      
+</ul>
+
     </div>
+    <div>
+        <script
+  src="https://cdn.jsdelivr.net/npm/d3@6.7.0/dist/d3.min.js"
+  integrity="sha256-+7jaYCp29O1JusNWHaYtgUn6EhuP0VaFuswhNV06MyI="
+  crossorigin="anonymous"
+></script>
+<h3>Interactive Graph</h3>
+<div id="graph-container"></div>
+<style>
+  :root {
+    --g-node: var(--secondary);
+    --g-node-active: var(--primary);
+    --g-node-inactive: var(--visited);
+    --g-link: var(--outlinegray);
+    --g-link-active: #5a7282;
+  }
+</style>
+
+<script src="https://roadmap.logos.co/js/graph.abd4bc2af3869a96524d7d23b76152c7.js"></script>
+
+    </div>
+</div>
+
+
+
+<div id="contact_buttons">
+    <footer>
+        <p>Made by Nomos using <a href="https://github.com/jackyzha0/quartz">Quartz</a>, © 2022</p>
+        <ul>
+            
+            <li><a href="https://roadmap.logos.co/">Home</a></li>
+            <li><a href="https://github.com/logos-co/roadmap">Github</a></li></ul>
+    </footer>
+</div>
+
+
 </div>
 </body>
 

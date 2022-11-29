@@ -6,7 +6,7 @@
   <meta
     name="description"
     content="Consensus Prototypes is a collection of Rust implementations of the Consensus Candidates
-Required Roles  Lead Developer (filled)  "
+Tiny Node Required Roles  Lead Developer (filled)  "
   />
   <title>
     Consensus Prototypes
@@ -97,13 +97,13 @@ Required Roles  Lead Developer (filled)  "
   <script>
     const BASE_URL = "https://roadmap.logos.co/"
     const fetchData = Promise.all([
-          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.159f923c26d1ca958995ee01990098e8.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.fc16e056a4255a1028c14aa9e26f190d.min.json")
             .then(data => data.json())
             .then(data => ({
               index: data.index,
               links: data.links,
             })),
-          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.2ba8aac6e28d4e8e5bdc03a76966a275.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.bbacac59d99e57e5c09162788ebf0db7.min.json")
             .then(data => data.json()),
         ])
         .then(([{index, links}, content]) => ({
@@ -183,17 +183,6 @@ Required Roles  Lead Developer (filled)  "
   
 </head>
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XYFD95KB4J"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-XYFD95KB4J', { 'anonymize_ip': false });
-}
-</script>
-
 
 
 <body>
@@ -214,7 +203,7 @@ if (!doNotTrack) {
 <div class="singlePage">
     
     <header>
-    <h1 id="page-title"><a href="https://roadmap.logos.co/">Logos Technical Roadmap</a></h1>
+    <h1 id="page-title"><a href="https://roadmap.logos.co/">Nomos Technical Roadmap</a></h1>
     <div class="spacer"></div>
     <div id="search-icon">
       <p>Search</p>
@@ -242,11 +231,11 @@ if (!doNotTrack) {
       <h1>Consensus Prototypes</h1>
       <p class="meta">
           Last updated 
-Aug 19, 2022
+Nov 29, 2022
 
  
           
-<a href="https://github.com/jackyzha0/quartz/tree/hugo/content/roadmap/consensus/development/prototypes.md" rel="noopener">Edit Source</a>
+<a href="https://github.com/logos-co/roadmap/tree/hugo/content/roadmap/consensus/development/prototypes.md" rel="noopener">Edit Source</a>
 
 
       </p>
@@ -301,6 +290,7 @@ Aug 19, 2022
   
   rel="noopener" class="internal-link broken"
   data-src="tags/candidates">Consensus Candidates</a></p>
+<a href="#tiny-node"><h2 id="tiny-node"><span class="hanchor" ariaLabel="Anchor"># </span>Tiny Node</h2></a>
 <a href="#required-roles"><h2 id="required-roles"><span class="hanchor" ariaLabel="Anchor"># </span>Required Roles</h2></a>
 <ul>
 <li>Lead Developer (filled)</li>
@@ -368,7 +358,7 @@ Aug 19, 2022
 
 <div id="contact_buttons">
     <footer>
-        <p>Made by Logos using <a href="https://github.com/jackyzha0/quartz">Quartz</a>, © 2022</p>
+        <p>Made by Nomos using <a href="https://github.com/jackyzha0/quartz">Quartz</a>, © 2022</p>
         <ul>
             
             <li><a href="https://roadmap.logos.co/">Home</a></li>

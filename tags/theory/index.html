@@ -96,13 +96,13 @@
   <script>
     const BASE_URL = "https://roadmap.logos.co/"
     const fetchData = Promise.all([
-          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.159f923c26d1ca958995ee01990098e8.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.fc16e056a4255a1028c14aa9e26f190d.min.json")
             .then(data => data.json())
             .then(data => ({
               index: data.index,
               links: data.links,
             })),
-          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.2ba8aac6e28d4e8e5bdc03a76966a275.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.bbacac59d99e57e5c09162788ebf0db7.min.json")
             .then(data => data.json()),
         ])
         .then(([{index, links}, content]) => ({
@@ -182,17 +182,6 @@
   
 </head>
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XYFD95KB4J"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-XYFD95KB4J', { 'anonymize_ip': false });
-}
-</script>
-
 
 
 <body>
@@ -213,7 +202,7 @@ if (!doNotTrack) {
 <div class="singlePage">
     
     <header>
-    <h1 id="page-title"><a href="https://roadmap.logos.co/">Logos Technical Roadmap</a></h1>
+    <h1 id="page-title"><a href="https://roadmap.logos.co/">Nomos Technical Roadmap</a></h1>
     <div class="spacer"></div>
     <div id="search-icon">
       <p>Search</p>
@@ -289,7 +278,7 @@ Nov 16, 2022
     
 <div id="contact_buttons">
     <footer>
-        <p>Made by Logos using <a href="https://github.com/jackyzha0/quartz">Quartz</a>, © 2022</p>
+        <p>Made by Nomos using <a href="https://github.com/jackyzha0/quartz">Quartz</a>, © 2022</p>
         <ul>
             
             <li><a href="https://roadmap.logos.co/">Home</a></li>

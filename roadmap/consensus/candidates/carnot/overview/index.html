@@ -96,13 +96,13 @@
   <script>
     const BASE_URL = "https://roadmap.logos.co/"
     const fetchData = Promise.all([
-          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.159f923c26d1ca958995ee01990098e8.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.fc16e056a4255a1028c14aa9e26f190d.min.json")
             .then(data => data.json())
             .then(data => ({
               index: data.index,
               links: data.links,
             })),
-          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.2ba8aac6e28d4e8e5bdc03a76966a275.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.bbacac59d99e57e5c09162788ebf0db7.min.json")
             .then(data => data.json()),
         ])
         .then(([{index, links}, content]) => ({
@@ -182,17 +182,6 @@
   
 </head>
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XYFD95KB4J"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-XYFD95KB4J', { 'anonymize_ip': false });
-}
-</script>
-
 
 
 <body>
@@ -213,7 +202,7 @@ if (!doNotTrack) {
 <div class="singlePage">
     
     <header>
-    <h1 id="page-title"><a href="https://roadmap.logos.co/">Logos Technical Roadmap</a></h1>
+    <h1 id="page-title"><a href="https://roadmap.logos.co/">Nomos Technical Roadmap</a></h1>
     <div class="spacer"></div>
     <div id="search-icon">
       <p>Search</p>
@@ -241,11 +230,11 @@ if (!doNotTrack) {
       <h1>Carnot Overview</h1>
       <p class="meta">
           Last updated 
-Nov 16, 2022
+Nov 29, 2022
 
  
           
-<a href="https://github.com/jackyzha0/quartz/tree/hugo/content/roadmap/consensus/candidates/carnot/overview.md" rel="noopener">Edit Source</a>
+<a href="https://github.com/logos-co/roadmap/tree/hugo/content/roadmap/consensus/candidates/carnot/overview.md" rel="noopener">Edit Source</a>
 
 
       </p>
@@ -356,6 +345,9 @@ Nov 16, 2022
 <li>
 
 <a href="https://www.overleaf.com/project/630c7e20e56998385e7d8416" rel="noopener">Alexander&rsquo;s notes on the statistical properties of committees</a></li>
+<li>
+
+<a href="https://github.com/AMozeika/committees" rel="noopener">Alexander&rsquo;s python code for computing committee sizes</a></li>
 </ul>
 <p>A simulation notebook is being worked on by Corey to investigate the properties of various tree overlay structures and estimate their practical performance:</p>
 <ul>
@@ -462,7 +454,7 @@ Nov 16, 2022
 
 <div id="contact_buttons">
     <footer>
-        <p>Made by Logos using <a href="https://github.com/jackyzha0/quartz">Quartz</a>, © 2022</p>
+        <p>Made by Nomos using <a href="https://github.com/jackyzha0/quartz">Quartz</a>, © 2022</p>
         <ul>
             
             <li><a href="https://roadmap.logos.co/">Home</a></li>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>claro on </title>
+    <link>https://roadmap.logos.co/tags/claro/</link>
+    <description>Recent content in claro on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://roadmap.logos.co/tags/claro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Claro: Consensus Candidate</title>
+      <link>https://roadmap.logos.co/roadmap/consensus/candidates/claro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roadmap.logos.co/roadmap/consensus/candidates/claro/</guid>
+      <description>Claro (formerly Glacier) is a consensus candidate for the Logos network that aims to be an improvement to the Avalanche family of consensus protocols.</description>
+    </item>
+    
+  </channel>
+</rss>

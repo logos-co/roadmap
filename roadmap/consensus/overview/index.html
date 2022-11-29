@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta
     name="description"
-    content="Consensus is the foundation of the network. It is how a group of peer-to-peer nodes understands how to agree on information in a distributed way."
+    content="Consensus is the foundation of the network. It is how a group of peer-to-peer nodes understands how to agree on information in a distributed way, particuluarly in the presence of byzantine actors."
   />
   <title>
     Consensus Work
@@ -96,13 +96,13 @@
   <script>
     const BASE_URL = "https://roadmap.logos.co/"
     const fetchData = Promise.all([
-          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.159f923c26d1ca958995ee01990098e8.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.fc16e056a4255a1028c14aa9e26f190d.min.json")
             .then(data => data.json())
             .then(data => ({
               index: data.index,
               links: data.links,
             })),
-          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.2ba8aac6e28d4e8e5bdc03a76966a275.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.bbacac59d99e57e5c09162788ebf0db7.min.json")
             .then(data => data.json()),
         ])
         .then(([{index, links}, content]) => ({
@@ -182,17 +182,6 @@
   
 </head>
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XYFD95KB4J"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-XYFD95KB4J', { 'anonymize_ip': false });
-}
-</script>
-
 
 
 <body>
@@ -213,7 +202,7 @@ if (!doNotTrack) {
 <div class="singlePage">
     
     <header>
-    <h1 id="page-title"><a href="https://roadmap.logos.co/">Logos Technical Roadmap</a></h1>
+    <h1 id="page-title"><a href="https://roadmap.logos.co/">Nomos Technical Roadmap</a></h1>
     <div class="spacer"></div>
     <div id="search-icon">
       <p>Search</p>
@@ -241,11 +230,11 @@ if (!doNotTrack) {
       <h1>Consensus Work</h1>
       <p class="meta">
           Last updated 
-Nov 16, 2022
+Nov 29, 2022
 
  
           
-<a href="https://github.com/jackyzha0/quartz/tree/hugo/content/roadmap/consensus/overview.md" rel="noopener">Edit Source</a>
+<a href="https://github.com/logos-co/roadmap/tree/hugo/content/roadmap/consensus/overview.md" rel="noopener">Edit Source</a>
 
 
       </p>
@@ -288,7 +277,7 @@ Nov 16, 2022
   
 
 
-<p>Consensus is the foundation of the network. It is how a group of peer-to-peer nodes understands how to agree on information in a distributed way.</p>
+<p>Consensus is the foundation of the network. It is how a group of peer-to-peer nodes understands how to agree on information in a distributed way, particuluarly in the presence of byzantine actors.</p>
 <a href="#consensus-roadmap"><h2 id="consensus-roadmap"><span class="hanchor" ariaLabel="Anchor"># </span>Consensus Roadmap</h2></a>
 <a href="#consensus-candidates"><h3 id="consensus-candidates"><span class="hanchor" ariaLabel="Anchor"># </span>Consensus Candidates</h3></a>
 <ul>
@@ -299,9 +288,11 @@ Nov 16, 2022
 
 
 <a
-  href="/roadmap/consensus/candidates/glacier/"
+  href="/roadmap/consensus/candidates/carnot/overview/"
   rel="noopener" class="internal-link"
-  data-src="/roadmap/consensus/candidates/glacier/">Glacier</a></li>
+  data-src="/roadmap/consensus/candidates/carnot/overview/">Carnot</a> - Carnot is the current leading consensus candidate for the Nomos network. It is designed to maximize efficiency of message dissemination while supoorting hundreds of thousands of full validators. It gets its name from the thermodynamic concept of the 
+
+<a href="https://en.wikipedia.org/wiki/Carnot_cycle" rel="noopener">Carnot Cycle</a>, which defines maximal efficiency of work from heat through iterative gas expansions and contractions.</li>
 <li>
 
 
@@ -309,9 +300,9 @@ Nov 16, 2022
 
 
 <a
-  href="/roadmap/consensus/candidates/carnot/overview/"
+  href="/roadmap/consensus/candidates/claro/"
   rel="noopener" class="internal-link"
-  data-src="/roadmap/consensus/candidates/carnot/overview/">Carnot</a></li>
+  data-src="/roadmap/consensus/candidates/claro/">Claro</a> - Claro is a variant of the Avalanche Snow family of protocols, designed to be more efficient at the decision making process by leveraging the concept of &ldquo;confidence&rdquo; across peer responses.</li>
 </ul>
 <a href="#theoretical-analysis"><h3 id="theoretical-analysis"><span class="hanchor" ariaLabel="Anchor"># </span>Theoretical Analysis</h3></a>
 <ul>
@@ -380,7 +371,7 @@ Nov 16, 2022
       
       
       <li>
-        <a href="/" data-ctx="Consensus" data-src="/" class="internal-link">Logos Technical Roadmap</a>
+        <a href="/" data-ctx="Consensus" data-src="/" class="internal-link">Nomos Technical Roadmap</a>
       </li>
       
       
@@ -415,7 +406,7 @@ Nov 16, 2022
 
 <div id="contact_buttons">
     <footer>
-        <p>Made by Logos using <a href="https://github.com/jackyzha0/quartz">Quartz</a>, © 2022</p>
+        <p>Made by Nomos using <a href="https://github.com/jackyzha0/quartz">Quartz</a>, © 2022</p>
         <ul>
             
             <li><a href="https://roadmap.logos.co/">Home</a></li>

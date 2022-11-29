@@ -6,10 +6,10 @@
   <meta charset="UTF-8" />
   <meta
     name="description"
-    content="Information on how Logos plans to build its network, what it has done so far, and how you can get involved."
+    content="Information on how Nomos plans to build its network, what it has done so far, and how you can get involved."
   />
   <title>
-    Logos Technical Roadmap
+    Nomos Technical Roadmap
   </title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -97,13 +97,13 @@
   <script>
     const BASE_URL = "https://roadmap.logos.co/"
     const fetchData = Promise.all([
-          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.159f923c26d1ca958995ee01990098e8.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.fc16e056a4255a1028c14aa9e26f190d.min.json")
             .then(data => data.json())
             .then(data => ({
               index: data.index,
               links: data.links,
             })),
-          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.2ba8aac6e28d4e8e5bdc03a76966a275.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.bbacac59d99e57e5c09162788ebf0db7.min.json")
             .then(data => data.json()),
         ])
         .then(([{index, links}, content]) => ({
@@ -183,17 +183,6 @@
   
 </head>
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XYFD95KB4J"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-XYFD95KB4J', { 'anonymize_ip': false });
-}
-</script>
-
 
 
 <body>
@@ -214,7 +203,7 @@ if (!doNotTrack) {
 <div class="singlePage">
     
     <header>
-    <h1 id="page-title"><a href="https://roadmap.logos.co/">Logos Technical Roadmap</a></h1>
+    <h1 id="page-title"><a href="https://roadmap.logos.co/">Nomos Technical Roadmap</a></h1>
     <div class="spacer"></div>
     <div id="search-icon">
       <p>Search</p>
@@ -273,6 +262,9 @@ if (!doNotTrack) {
   
 
 
+<p>This site attempts to inform the previous, current, and future work required to fulfill the requirements of the Nomos Project [LINK TO NOMOS LANDING PAGE HERE], a complete tech stack that provides infrastructure for the self-sovereign network state. To learn more about the motivation, please visit the 
+
+<a href="https://logos.co" rel="noopener">Logos Collective Site</a>.</p>
 <a href="#navigation"><h2 id="navigation"><span class="hanchor" ariaLabel="Anchor"># </span>Navigation</h2></a>
 <ul>
 <li>
@@ -378,7 +370,7 @@ if (!doNotTrack) {
 
 <div id="contact_buttons">
     <footer>
-        <p>Made by Logos using <a href="https://github.com/jackyzha0/quartz">Quartz</a>, © 2022</p>
+        <p>Made by Nomos using <a href="https://github.com/jackyzha0/quartz">Quartz</a>, © 2022</p>
         <ul>
             <li><a href="https://github.com/logos-co/roadmap">Github</a></li></ul>
     </footer>

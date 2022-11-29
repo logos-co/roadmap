@@ -25,13 +25,22 @@
     </item>
     
     <item>
+      <title>Claro: Consensus Candidate</title>
+      <link>https://roadmap.logos.co/roadmap/consensus/candidates/claro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roadmap.logos.co/roadmap/consensus/candidates/claro/</guid>
+      <description>Claro (formerly Glacier) is a consensus candidate for the Logos network that aims to be an improvement to the Avalanche family of consensus protocols.</description>
+    </item>
+    
+    <item>
       <title>Consensus Prototypes</title>
       <link>https://roadmap.logos.co/roadmap/consensus/development/prototypes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://roadmap.logos.co/roadmap/consensus/development/prototypes/</guid>
       <description>Consensus Prototypes is a collection of Rust implementations of the Consensus Candidates
-Required Roles  Lead Developer (filled)  </description>
+Tiny Node Required Roles  Lead Developer (filled)  </description>
     </item>
     
     <item>
@@ -49,7 +58,7 @@ Required Roles  Lead Developer (filled)  </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://roadmap.logos.co/roadmap/consensus/overview/</guid>
-      <description>Consensus is the foundation of the network. It is how a group of peer-to-peer nodes understands how to agree on information in a distributed way.</description>
+      <description>Consensus is the foundation of the network. It is how a group of peer-to-peer nodes understands how to agree on information in a distributed way, particuluarly in the presence of byzantine actors.</description>
     </item>
     
     <item>
@@ -68,15 +77,6 @@ Required Roles  Lead Developer (filled)  </description>
       
       <guid>https://roadmap.logos.co/roadmap/consensus/candidates/carnot/FAQ/</guid>
       <description>Network Requirements and Assumptions What assumptions do we need Waku to fulfill? - Corey  Moh: Waku needs to fill the following requirements, taken from the Carnot paper:</description>
-    </item>
-    
-    <item>
-      <title>Glacier: Consensus Candidate</title>
-      <link>https://roadmap.logos.co/roadmap/consensus/candidates/glacier/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://roadmap.logos.co/roadmap/consensus/candidates/glacier/</guid>
-      <description>Glacier is a consensus candidate for the Logos network that aims to be an improvement to the Avalanche family of consensus protocols.</description>
     </item>
     
     <item>
