@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta
     name="description"
-    content="Data Distribution How much failure rate of erasure code transmission are we expecting. Basically, what are the EC coding parameters that we expect to be sending such that we have some failure rate of transmission?"
+    content="Network Requirements and Assumptions What assumptions do we need Waku to fulfill? - Corey  Moh: Waku needs to fill the following requirements, taken from the Carnot paper:"
   />
   <title>
     Frequently Asked Questions
@@ -102,7 +102,7 @@
               index: data.index,
               links: data.links,
             })),
-          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.2ce7a40046fbbe53a3373420b3cfaf2b.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.2ba8aac6e28d4e8e5bdc03a76966a275.min.json")
             .then(data => data.json()),
         ])
         .then(([{index, links}, content]) => ({
@@ -241,7 +241,7 @@ if (!doNotTrack) {
       <h1>Frequently Asked Questions</h1>
       <p class="meta">
           Last updated 
-Nov 16, 2022
+Nov 28, 2022
 
  
           
@@ -262,6 +262,11 @@ Nov 16, 2022
         <summary>Table of Contents</summary>
         <nav id="TableOfContents">
   <ol>
+    <li><a href="#network-requirements-and-assumptions">Network Requirements and Assumptions</a>
+      <ol>
+        <li><a href="#what-assumptions-do-we-need-waku-to-fulfill---corey">What assumptions do we need Waku to fulfill? - Corey</a></li>
+      </ol>
+    </li>
     <li><a href="#data-distribution">Data Distribution</a>
       <ol>
         <li><a href="#how-much-failure-rate-of-erasure-code-transmission-are-we-expecting-basically-what-are-the-ec-coding-parameters-that-we-expect-to-be-sending-such-that-we-have-some-failure-rate-of-transmission-has-that-been-looked-into---dmitriy">How much failure rate of erasure code transmission are we expecting. Basically, what are the EC coding parameters that we expect to be sending such that we have some failure rate of transmission? Has that been looked into? - Dmitriy</a></li>
@@ -282,6 +287,11 @@ Nov 16, 2022
       <ol>
         <li><a href="#can-we-also-consider-a-flavor-that-adds-attestationattribution-to-misbehaving-nodes-that-will-come-at-a-price-but-there-might-be-a-set-of-use-cases-which-would-like-to-have-lower-performance-with-strong-attribution-not-saying-that-it-must-be-part-of-the-initial-design-but-can-be-think-throughadded-later---marcin">Can we also consider a flavor that adds attestation/attribution to misbehaving nodes? That will come at a price but there might be a set of use cases which would like to have lower performance with strong attribution. Not saying that it must be part of the initial design, but can be think-through/added later. - Marcin</a></li>
         <li><a href="#also-how-do-you-reward-online-validators--punish-offline-ones-if-you-cant-prove-at-the-block-level-that-someone-attested-or-not---tanguy">Also, how do you reward online validators / punish offline ones if you can&rsquo;t prove at the block level that someone attested or not? - Tanguy</a></li>
+      </ol>
+    </li>
+    <li><a href="#synchronicity">Synchronicity</a>
+      <ol>
+        <li><a href="#how-to-guarantee-synchronicity-in-particular-how-to-avoid-that-in-a-big-network-different-nodes-see-a-proposal-with-2c1-votes-but-different-votes-and-thus-different-random-seed---giacomo">How to guarantee synchronicity. In particular how to avoid that in a big network different nodes see a proposal with 2c+1 votes but different votes and thus different random seed - Giacomo</a></li>
       </ol>
     </li>
   </ol>
@@ -388,10 +398,63 @@ Nov 16, 2022
     
     
   
+    
+    
+      
+      
+    
+    
+  
+    
+    
+      
+      
+    
+    
+  
+    
+    
+      
+      
+    
+    
+  
+    
+    
+      
+      
+    
+    
+  
+    
+    
+      
+      
+    
+    
+  
+    
+    
+      
+      
+    
+    
+  
   
   
 
 
+<a href="#network-requirements-and-assumptions"><h2 id="network-requirements-and-assumptions"><span class="hanchor" ariaLabel="Anchor"># </span>Network Requirements and Assumptions</h2></a>
+<a href="#what-assumptions-do-we-need-waku-to-fulfill---corey"><h3 id="what-assumptions-do-we-need-waku-to-fulfill---corey"><span class="hanchor" ariaLabel="Anchor"># </span>What assumptions do we need Waku to fulfill? - Corey</h3></a>
+<blockquote>
+<p><code>Moh:</code> Waku needs to fill the following requirements, taken from the Carnot paper:</p>
+</blockquote>
+<blockquote>
+<p><strong>Definition 3</strong> (Probabilistic Reliable Dissemination). <em>After the GST, and when the leader is correct, all the correct nodes deliver the proposal sent by the leader (w.h.p).</em></p>
+</blockquote>
+<blockquote>
+<p><strong>Definition 4</strong> (Probabilistic Fulfillment). <em>After the GST, and when the current and previous leaders are correct, the number of votes collected by teh current leader is $2c+1$ (w.h.p).</em></p>
+</blockquote>
 <a href="#data-distribution"><h2 id="data-distribution"><span class="hanchor" ariaLabel="Anchor"># </span>Data Distribution</h2></a>
 <a href="#how-much-failure-rate-of-erasure-code-transmission-are-we-expecting-basically-what-are-the-ec-coding-parameters-that-we-expect-to-be-sending-such-that-we-have-some-failure-rate-of-transmission-has-that-been-looked-into---dmitriy"><h3 id="how-much-failure-rate-of-erasure-code-transmission-are-we-expecting-basically-what-are-the-ec-coding-parameters-that-we-expect-to-be-sending-such-that-we-have-some-failure-rate-of-transmission-has-that-been-looked-into---dmitriy"><span class="hanchor" ariaLabel="Anchor"># </span>How much failure rate of erasure code transmission are we expecting. Basically, what are the EC coding parameters that we expect to be sending such that we have some failure rate of transmission? Has that been looked into? - Dmitriy</h3></a>
 <blockquote>
@@ -431,6 +494,17 @@ Nov 16, 2022
 </blockquote>
 <blockquote>
 <p>An honest node should wait for a specific number of children votes (to make sure everyone is voting on the same proposal) before voting but does not need to provide any cryptographic proof. Though we build a threshold signature from root committee members and it’s children but not from the whole tree. As long as enough number of nodes follow the the protocol we should be fine. I am working on protocol proofs. Also I think bugs should be discovered during development and testing phase. Changing protocol to detect potential bug might not be a good practice.</p>
+</blockquote>
+<a href="#synchronicity"><h2 id="synchronicity"><span class="hanchor" ariaLabel="Anchor"># </span>Synchronicity</h2></a>
+<a href="#how-to-guarantee-synchronicity-in-particular-how-to-avoid-that-in-a-big-network-different-nodes-see-a-proposal-with-2c1-votes-but-different-votes-and-thus-different-random-seed---giacomo"><h3 id="how-to-guarantee-synchronicity-in-particular-how-to-avoid-that-in-a-big-network-different-nodes-see-a-proposal-with-2c1-votes-but-different-votes-and-thus-different-random-seed---giacomo"><span class="hanchor" ariaLabel="Anchor"># </span>How to guarantee synchronicity. In particular how to avoid that in a big network different nodes see a proposal with 2c+1 votes but different votes and thus different random seed - Giacomo</h3></a>
+<blockquote>
+<p><code>Moh:</code> The assumption is that there exists some known finite time bound Δ and a special event called GST (Global Stabilization Time) such that:</p>
+</blockquote>
+<blockquote>
+<p>The adversary must cause the GST event to eventually happen after some unknown finite time. Any message sent at time x must be delivered by time $\delta + \text{max}(x,GST)$. In the Partial synchrony model, the system behaves asynchronously till GST and synchronously after GST.</p>
+</blockquote>
+<blockquote>
+<p>Moreover, votes travel  one  level at a time from tree leaves to the tree root. We only need the proof of votes of root+child committees to conclude with a high probability that the majority of nodes have voted.</p>
 </blockquote>
 
 
