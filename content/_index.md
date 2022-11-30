@@ -6,6 +6,7 @@ This site attempts to inform the previous, current, and future work required to 
 ## Navigation
 - [Network Requirements](requirements/overview.md)
 - Research and Development Roadmap
+	- [Networking](roadmap/networking/overview.md)
 	- [Consensus](roadmap/consensus/overview.md)
 	- [Virtual Machines](roadmap/virtual-machines/overview.md)
 	- Economics
