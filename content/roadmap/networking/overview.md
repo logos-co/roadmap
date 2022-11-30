@@ -14,7 +14,7 @@ It is hopeful that Nomos can leverage the work of the Waku project to provide th
 
 ### Scalability Studies
 Currently, the amount of research and analysis of the scalability of Waku is not sufficient to give enough confidence that Waku can serve as the networking layer for the Nomos project. Thusly, it is our effort to push this analysis forward by investigating the various boundaries of scale for Waku. Below is a list of endeavors in this direction which we hope serves the broader community: 
-- [Status' use of Waku study w/ Kurtosis](./status-waku-kurtosis.md)
+- [Status' use of Waku study w/ Kurtosis](roadmap/networking/status-waku-kurtosis.md)
 
 
 
