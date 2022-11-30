@@ -100,6 +100,16 @@ With the high level goals of preserving the right to privacy, mitigating the ris
     </item>
     
     <item>
+      <title>P2P Networking Overview</title>
+      <link>https://roadmap.logos.co/roadmap/networking/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roadmap.logos.co/roadmap/networking/overview/</guid>
+      <description>This page summarizes the work around the P2P networking layer of the Nomos project.
+Waku  Waku is an privacy-preserving, ephemeral, peer-to-peer (P2P) messaging suite of protocols which is developed under Vac and maintained/productionized by the Logos Collective.</description>
+    </item>
+    
+    <item>
       <title>Rust Developer</title>
       <link>https://roadmap.logos.co/roles/rust-developer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -109,6 +119,24 @@ With the high level goals of preserving the right to privacy, mitigating the ris
 Remote, Worldwide
 About Status
 Status is an organization building the tools and infrastructure for the advancement of a secure, private, and open web3.</description>
+    </item>
+    
+    <item>
+      <title>Status Network Agents Breakdown</title>
+      <link>https://roadmap.logos.co/roadmap/networking/status-network-agents/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roadmap.logos.co/roadmap/networking/status-network-agents/</guid>
+      <description>This page creates a model to describe the impact of the various clients within the Status ecosystem by describing their individual contribution to the messages within the Waku network they leverage.</description>
+    </item>
+    
+    <item>
+      <title>Status&#39; use of Waku - A Scalability Study</title>
+      <link>https://roadmap.logos.co/roadmap/networking/status-waku-kurtosis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roadmap.logos.co/roadmap/networking/status-waku-kurtosis/</guid>
+      <description>Status is the largest consumer of the Waku protocol, leveraging it for their entire networking stack. THeir upcoming release of Status Desktop and the associated Communities product will heavily push the limits of what Waku can do.</description>
     </item>
     
     <item>
