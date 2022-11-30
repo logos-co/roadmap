@@ -99,13 +99,13 @@ Status is an organization building the tools and infrastructure for the advancem
   <script>
     const BASE_URL = "https://roadmap.logos.co/"
     const fetchData = Promise.all([
-          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.7dd05f9130c866408209cb7a8fb65b34.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.8621ac9bfc27ddf526adb65556c01693.min.json")
             .then(data => data.json())
             .then(data => ({
               index: data.index,
               links: data.links,
             })),
-          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.70faf04ea270cf8c58cbd216aa30f954.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.9e6c6f055795138ebf73a6cc92910f19.min.json")
             .then(data => data.json()),
         ])
         .then(([{index, links}, content]) => ({
