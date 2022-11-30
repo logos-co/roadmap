@@ -97,13 +97,13 @@ Waku  Waku is an privacy-preserving, ephemeral, peer-to-peer (P2P) messaging sui
   <script>
     const BASE_URL = "https://roadmap.logos.co/"
     const fetchData = Promise.all([
-          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.8621ac9bfc27ddf526adb65556c01693.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.962d11570e51c6030b2bafdfad1a5960.min.json")
             .then(data => data.json())
             .then(data => ({
               index: data.index,
               links: data.links,
             })),
-          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.9e6c6f055795138ebf73a6cc92910f19.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.e0177482b462e27ce40adedf9465e631.min.json")
             .then(data => data.json()),
         ])
         .then(([{index, links}, content]) => ({
@@ -254,7 +254,7 @@ Nov 30, 2022
   <ol>
     <li><a href="#waku">Waku</a>
       <ol>
-        <li><a href="#scalability-studies">Scalability Studies</a></li>
+        <li><a href="#scalability-and-fault-tolerance-studies">Scalability and Fault-Tolerance Studies</a></li>
         <li><a href="#rust-implementations">Rust implementations</a></li>
       </ol>
     </li>
@@ -306,7 +306,7 @@ Nov 30, 2022
 
 <a href="https://logos.co" rel="noopener">Logos Collective</a>.</p>
 <p>It is hopeful that Nomos can leverage the work of the Waku project to provide the P2P networking layer and peripheral services associated with passing messages around the network. Below is a list of the associated work to investigate the use of Waku within the Nomos Project.</p>
-<a href="#scalability-studies"><h3 id="scalability-studies"><span class="hanchor" ariaLabel="Anchor"># </span>Scalability Studies</h3></a>
+<a href="#scalability-and-fault-tolerance-studies"><h3 id="scalability-and-fault-tolerance-studies"><span class="hanchor" ariaLabel="Anchor"># </span>Scalability and Fault-Tolerance Studies</h3></a>
 <p>Currently, the amount of research and analysis of the scalability of Waku is not sufficient to give enough confidence that Waku can serve as the networking layer for the Nomos project. Thusly, it is our effort to push this analysis forward by investigating the various boundaries of scale for Waku. Below is a list of endeavors in this direction which we hope serves the broader community:</p>
 <ul>
 <li>
@@ -319,6 +319,16 @@ Nov 30, 2022
   href="/roadmap/networking/status-waku-kurtosis/"
   rel="noopener" class="internal-link"
   data-src="/roadmap/networking/status-waku-kurtosis/">Status' use of Waku study w/ Kurtosis</a></li>
+<li>
+
+
+
+
+
+<a
+  href="/roadmap/networking/carnot-waku-specification/"
+  rel="noopener" class="internal-link"
+  data-src="/roadmap/networking/carnot-waku-specification/">Using Waku for Carnot Overlay</a></li>
 </ul>
 <a href="#rust-implementations"><h3 id="rust-implementations"><span class="hanchor" ariaLabel="Anchor"># </span>Rust implementations</h3></a>
 <p>We have created and maintain a stop-gap solution to using Waku with the Rust programming language, which is wrapping the 

@@ -5,10 +5,10 @@
   <meta charset="UTF-8" />
   <meta
     name="description"
-    content=""
+    content="Definition Reference  $k$ - size of a given committee $n_C$ - number of committees in the overlay, or nodes in the tree $d$ - depth of the overlay tree $n_d$ - number of committees at a given depth of the tree  Motivation In #Carnot, an overlay is created to facilitate message distribution and voting aggregation."
   />
   <title>
-    rust
+    A Specification proposal for using Waku for Carnot Consensus
   </title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -227,35 +227,198 @@
 
 
     <article>
-        <h1>Tag: rust</h1>
-        
-        <ul class="section-ul"><li class="section-li">
-        <div class="section">
-            <p class="meta">
-                
-Oct 26, 2022
+      <h1>A Specification proposal for using Waku for Carnot Consensus</h1>
+      <p class="meta">
+          Last updated 
+Nov 30, 2022
+
+ 
+          
+<a href="https://github.com/logos-co/roadmap/tree/hugo/content/roadmap/networking/carnot-waku-specification.md" rel="noopener">Edit Source</a>
 
 
-            </p>
-            <div class="desc">
-              <h3><a href="https://roadmap.logos.co/roles/rust-developer/" class="internal-link" data-src="/roles/rust-developer/">Rust Developer</a></h3>
-            </div>
-            <div class="spacer"></div>
-            <ul class="tags">
-                
-                <li><a href="https://roadmap.logos.co/tags/role/">Role</a></li>
-                
-                <li><a href="https://roadmap.logos.co/tags/engineering/">Engineering</a></li>
-                
-                <li><a href="https://roadmap.logos.co/tags/rust/">Rust</a></li>
-                
-            </ul>
-        </div>
-    </li></ul>
+      </p>
+      <ul class="tags">
+          
+          <li><a href="https://roadmap.logos.co/tags/waku/">Waku</a></li>
+          
+          <li><a href="https://roadmap.logos.co/tags/Carnot/">Carnot</a></li>
+          
+          <li><a href="https://roadmap.logos.co/tags/networking/">Networking</a></li>
+          
+          <li><a href="https://roadmap.logos.co/tags/consensus/">Consensus</a></li>
+          
+      </ul>
+      
+<aside class="mainTOC">
+    <details >
+        <summary>Table of Contents</summary>
+        <nav id="TableOfContents">
+  <ol>
+    <li>
+      <ol>
+        <li></li>
+      </ol>
+    </li>
+    <li><a href="#motivation">Motivation</a>
+      <ol>
+        <li><a href="#inner-committee-communication"><strong>inner committee communication</strong></a></li>
+        <li><a href="#parent-child-chain-communication"><strong>parent-child chain communication</strong></a></li>
+        <li><a href="#initial-leader-distribution"><strong>initial leader distribution</strong></a></li>
+      </ol>
+    </li>
+    <li><a href="#proposal">Proposal</a></li>
+    <li><a href="#whiteboard-diagram-and-notes">Whiteboard diagram and notes</a></li>
+  </ol>
+</nav>
+    </details>
+</aside>
 
-        
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+<a href="#definition-reference"><h5 id="definition-reference"><span class="hanchor" ariaLabel="Anchor"># </span>Definition Reference</h5></a>
+<ul>
+<li>$k$ - size of a given committee</li>
+<li>$n_C$ - number of committees in the overlay, or nodes in the tree</li>
+<li>$d$ - depth of the overlay tree</li>
+<li>$n_d$ - number of committees at a given depth of the tree</li>
+</ul>
+<a href="#motivation"><h2 id="motivation"><span class="hanchor" ariaLabel="Anchor"># </span>Motivation</h2></a>
+<p>In #Carnot, an overlay is created to facilitate message distribution and voting aggregation. This document will focus on the differentiated channels of communication for message distribution. Whether or not voting aggregation and subsequenty traversal back up the tree can utilize the same channels will be investigated later.</p>
+<p>The overlay is described as a binary tree of committees, where a individual in each committee propogates messages to an assigned node in their two children committees of the tree, until the leaf nodes have recieved enough information to reconstitute the proposal block.</p>
+<p>This communication protocol will naturally form &ldquo;pools of information streams&rdquo; that people will need to listen to in order to do their assigned work:</p>
+<ul>
+<li>inner committee communication</li>
+<li>parent-child chain communication</li>
+<li>intitial leader distribution</li>
+</ul>
+<a href="#inner-committee-communication"><h3 id="inner-committee-communication"><span class="hanchor" ariaLabel="Anchor"># </span><strong>inner committee communication</strong></h3></a>
+<p>all members of a given committee will need to gossip with each other in order to reform the initial proposal block</p>
+<ul>
+<li>This results in $n_C$ pools of $k$-sized communication pools.</li>
+</ul>
+<a href="#parent-child-chain-communication"><h3 id="parent-child-chain-communication"><span class="hanchor" ariaLabel="Anchor"># </span><strong>parent-child chain communication</strong></h3></a>
+<p>The formation of the committee and the lifecycle of a chunk of erasure coded data forms a number of &ldquo;parent-child&rdquo; chains.</p>
+<ul>
+<li>If we completely minimize the communcation between committees, then this results in $k$ number of $n_C$-sized communication pools.</li>
+<li>It is not clear if individual levels of the tree needs to &ldquo;execute&rdquo; the message to their children, or if the root committee can broadcast to everyone within its assigned parent-chain communcation pool at the same time.</li>
+<li>It is also unclear if individual levels of the tree need to send independant messages to each of their children, or if a unified communication pool can be leveraged at the tree-level. This results in $d$ communication pools of $n_d$-size.</li>
+</ul>
+<a href="#initial-leader-distribution"><h3 id="initial-leader-distribution"><span class="hanchor" ariaLabel="Anchor"># </span><strong>initial leader distribution</strong></h3></a>
+<p>For each proposal, a leader needs to distribute the erasure coded proposal block to the root committee</p>
+<ul>
+<li>This results in a single communication pool of size $k(+1)$.</li>
+<li>the $(+1)$ above is the leader, who could also be a part of the root committee. The leader changes with each block proposal, and we seek to minimize the time between leader selection and a round start. Thusly, this results in a requirement that each node in the network must maintain a connection to every node in the root committee.</li>
+</ul>
+<a href="#proposal"><h2 id="proposal"><span class="hanchor" ariaLabel="Anchor"># </span>Proposal</h2></a>
+<p>This part of the document will attempt to propose using various aspects of Waku, to facilitate both the setup of the above-mentioned communication pools as well as encryption schemes to add a layer of privacy (and hopefully efficiency) to message distribution.</p>
+<p>We seek to minimize the availability of data such that an individual has only the information to do his job and nothing more.</p>
+<p>We also seek to minimize the amount of messages being passed such that eventually everyone can reconstruct the initial proposal block</p>
+<p><code>???</code> for Waku-Relay, 6 connections is optimal, resulting in latency ???</p>
+<p><code>???</code> Is it better to have multiple pubsub topics with a simple encryption scheme or a single one with a complex encryption scheme</p>
+<p>As there seems to be a lot of dynamic change from one proposal to the next, I would expect 
+
+<a href="https://vac.dev/wakuv2-noise" rel="noopener"><code>noise</code></a> to be a quality candidate to facilitate the creation of secure ephemeral keys in the to-be proposed encryption scheme.</p>
+<p>It is also of interest how 
+
+<a href="https://rfc.vac.dev/spec/23/" rel="noopener"><code>contentTopics</code></a> can be leveraged to optimize the communication pools.</p>
+<a href="#whiteboard-diagram-and-notes"><h2 id="whiteboard-diagram-and-notes"><span class="hanchor" ariaLabel="Anchor"># </span>Whiteboard diagram and notes</h2></a>
+<p>
+
+
+<img src="https://roadmap.logos.co//images/Overlay-Communications-Brainstorm.png" width="auto" alt="Whiteboard Diagram"  /></p>
+
+
     </article>
     
+
+<hr/>
+
+
+<div class="page-end" id="footer">
+    <div class="backlinks-container">
+        <h3>Backlinks</h3>
+<ul class="backlinks">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+      
+    
+      
+      
+      <li>
+        <a href="/roadmap/networking/overview/" data-ctx="Using Waku for Carnot Overlay" data-src="/roadmap/networking/overview" class="internal-link">P2P Networking Overview</a>
+      </li>
+      
+      
+      
+</ul>
+
+    </div>
+    <div>
+        <script
+  src="https://cdn.jsdelivr.net/npm/d3@6.7.0/dist/d3.min.js"
+  integrity="sha256-+7jaYCp29O1JusNWHaYtgUn6EhuP0VaFuswhNV06MyI="
+  crossorigin="anonymous"
+></script>
+<h3>Interactive Graph</h3>
+<div id="graph-container"></div>
+<style>
+  :root {
+    --g-node: var(--secondary);
+    --g-node-active: var(--primary);
+    --g-node-inactive: var(--visited);
+    --g-link: var(--outlinegray);
+    --g-link-active: #5a7282;
+  }
+</style>
+
+<script src="https://roadmap.logos.co/js/graph.abd4bc2af3869a96524d7d23b76152c7.js"></script>
+
+    </div>
+</div>
+
+
+
 <div id="contact_buttons">
     <footer>
         <p>Made by Nomos using <a href="https://github.com/jackyzha0/quartz">Quartz</a>, © 2022</p>
@@ -265,6 +428,7 @@ Oct 26, 2022
             <li><a href="https://github.com/logos-co/roadmap">Github</a></li></ul>
     </footer>
 </div>
+
 
 </div>
 </body>

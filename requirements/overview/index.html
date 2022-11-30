@@ -97,13 +97,13 @@
   <script>
     const BASE_URL = "https://roadmap.logos.co/"
     const fetchData = Promise.all([
-          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.8621ac9bfc27ddf526adb65556c01693.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.962d11570e51c6030b2bafdfad1a5960.min.json")
             .then(data => data.json())
             .then(data => ({
               index: data.index,
               links: data.links,
             })),
-          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.9e6c6f055795138ebf73a6cc92910f19.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.e0177482b462e27ce40adedf9465e631.min.json")
             .then(data => data.json()),
         ])
         .then(([{index, links}, content]) => ({
