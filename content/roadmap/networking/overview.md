@@ -17,9 +17,6 @@ Currently, the amount of research and analysis of the scalability of Waku is not
 - [Status' use of Waku study w/ Kurtosis](roadmap/networking/status-waku-kurtosis.md)
 - [Using Waku for Carnot Overlay](roadmap/networking/carnot-waku-specification.md)
 
-
-
-
 ### Rust implementations
 We have created and maintain a stop-gap solution to using Waku with the Rust programming language, which is wrapping the [go-waku](https://github.com/status-im/go-waku) library in Rust and publishing it as a crate. This library allows us to do tests with our [Tiny Node](roadmap/development/prototypes.md#Tiny-Node) implementation more quickly while also providing other projects in the ecosystem to leverage Waku within their Rust codebases more quickly. 
 
