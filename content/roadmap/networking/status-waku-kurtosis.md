@@ -17,4 +17,6 @@ As such, here is an overview of the various resources towards this endeavor:
 - [Wakurtosis repo](https://github.com/logos-co/wakurtosis) - A Kurtosis module to run scalability studies
 - [Waku Topology Test repo](https://github.com/logos-co/Waku-topology-test) - a Python script that facilitates setting up a reasonable network topology for the purpose of injecting the network configuration into the above Kurtosis repo
 - [Initial Vac forum post introducing this work](https://forum.vac.dev/t/waku-v2-scalability-studies/142)
+- [Waku Github Issue detailing work progression](https://github.com/waku-org/pm/issues/2)
+  - this is also a place to maintain communications of progress
 - [Initial Waku V2 theoretical scalability study](https://vac.dev/waku-v1-v2-bandwidth-comparison)
