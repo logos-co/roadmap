@@ -6,7 +6,7 @@ tags:
 ---
 
 ## Motivation
-Logos seeks to use a privacy-first virtual machine for transaction execution. We beleive this can only be acheived through zero-knowledge. The majority of current work int he field focuses more towards the aggregation and subsequent verification of transactions. This leads us to explore the researching and development of a privacy-first virtual machine. 
+Logos seeks to use a privacy-first virtual machine for transaction execution. We believe this can only be acheived through zero-knowledge. The majority of current work in the field focuses more towards the aggregation and subsequent verification of transactions. This leads us to explore the researching and development of a privacy-first virtual machine. 
 
 LINK TO APPROPRIATE NETWORK REQUIREMENTS HERE
 
@@ -41,11 +41,12 @@ LINK TO APPROPRIATE NETWORK REQUIREMENTS HERE
 ## Approaches
 - zk-WASM
 - zk-EVM
-- RISK-0
+- RISC-0
 	- RISK-0 Rust Starter Repository - [link](https://github.com/risc0/risc0-rust-starter)
 	- targets RISC-V architecture
 	- benefits:
 		- a lot of languages already compile to RISC-V
+		- https://youtu.be/2MXHgUGEsHs - Why use the RISC Zero zkVM?
 	- negatives:
 		- not optimized or EVM where most tooling exists currently
 
