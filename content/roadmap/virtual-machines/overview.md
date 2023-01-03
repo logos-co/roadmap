@@ -19,8 +19,8 @@ LINK TO APPROPRIATE NETWORK REQUIREMENTS HERE
 - zkSync
 - Hermes
 - [MIDEN](https://polygon.technology/solutions/polygon-miden/) (Polygon)
-- RISK-0
-	- RISK-0 Rust Starter Repository - [link](https://github.com/risc0/risc0-rust-starter)
+- RISC-0
+	- RISC-0 Rust Starter Repository - [link](https://github.com/risc0/risc0-rust-starter)
 	- targets RISC-V architecture
 	- benefits:
 		- a lot of languages already compile to RISC-V
