@@ -7,7 +7,13 @@ tags:
 editor: "Corey Petty"
 ---
 
-Carnot (formerly LogosBFT) is a Byzantine Fault Tolerant (BFT) [consensus](roadmap/consensus/index.md) candidate for the Nomos Network that utilizes Fountain Codes and a committees tree structure to optimize message propagation in the presence of a large number of nodes, while maintaining high througput and fast finality.
+Carnot (formerly LogosBFT) is a Byzantine Fault Tolerant (BFT) [consensus](roadmap/consensus/index.md) candidate for the Nomos Network that utilizes Fountain Codes and a committees tree structure to optimize message propagation in the presence of a large number of nodes, while maintaining high througput and fast finality. More specifically, these are the research contributions in Carnot. To our knowledge, Carnot is the first consensus protocol that can achieve together all of these properties:
+
+1. Scalability: Carnot is highly scalable, scaling to thousands of nodes.
+2. Responsiveness: The ability of a protocol to operate with the speed of a wire but not a maximum delay (block delay, slot time, etc.) is called responsiveness. Responsiveness reduces latency and helps the Carnot achieve Fast Finality. Moreover, it improves Carnot's resilience against adversaries that can slow down network traffic. 
+3. Fork avoidance: Carnot avoids the formation of forks in a happy path. Forks formation has the following adverse consequences that the Carnot avoids.
+  1. Wastage of resources on orphan blocks and reduced throughput with increased latency for transactions in orphan blocks
+  2. Increased attack vector on PoS as attackers can employ a strategy to force the network to accept their fork resulting in increased stake for adversaries.
 
 - [FAQ](roadmap/consensus/candidates/carnot/FAQ.md): Here is a page that tracks various questions people have around Carnot.
 
