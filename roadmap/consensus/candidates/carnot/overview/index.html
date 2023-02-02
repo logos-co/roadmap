@@ -102,7 +102,7 @@
               index: data.index,
               links: data.links,
             })),
-          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.a6e7ed4e82869b814f0c150b1a996998.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.404486eb6c35c315436590933c3a03cc.min.json")
             .then(data => data.json()),
         ])
         .then(([{index, links}, content]) => ({
@@ -230,7 +230,7 @@
       <h1>Carnot Overview</h1>
       <p class="meta">
           Last updated 
-Nov 29, 2022
+Feb 2, 2023
 
  
           
@@ -308,7 +308,14 @@ Nov 29, 2022
 <a
   
   rel="noopener" class="internal-link broken"
-  data-src="roadmap/consensus/index">consensus</a> candidate for the Nomos Network that utilizes Fountain Codes and a committees tree structure to optimize message propagation in the presence of a large number of nodes, while maintaining high througput and fast finality.</p>
+  data-src="roadmap/consensus/index">consensus</a> candidate for the Nomos Network that utilizes Fountain Codes and a committees tree structure to optimize message propagation in the presence of a large number of nodes, while maintaining high througput and fast finality. More specifically, these are the research contributions in Carnot. To our knowledge, Carnot is the first consensus protocol that can achieve together all of these properties:</p>
+<ol>
+<li>Scalability: Carnot is highly scalable, scaling to thousands of nodes.</li>
+<li>Responsiveness: The ability of a protocol to operate with the speed of a wire but not a maximum delay (block delay, slot time, etc.) is called responsiveness. Responsiveness reduces latency and helps the Carnot achieve Fast Finality. Moreover, it improves Carnot&rsquo;s resilience against adversaries that can slow down network traffic.</li>
+<li>Fork avoidance: Carnot avoids the formation of forks in a happy path. Forks formation has the following adverse consequences that the Carnot avoids.</li>
+<li>Wastage of resources on orphan blocks and reduced throughput with increased latency for transactions in orphan blocks</li>
+<li>Increased attack vector on PoS as attackers can employ a strategy to force the network to accept their fork resulting in increased stake for adversaries.</li>
+</ol>
 <ul>
 <li>
 
