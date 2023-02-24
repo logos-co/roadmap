@@ -33,7 +33,8 @@ Types:
 
 
 Local Variables:
-        highQC
+        highQC_r
+	qc_c # QC built from messages received from child committees
         curView
         latestCommittedBlock
 
@@ -57,6 +58,13 @@ Utilities:
 
                 }
         }
+	
+	Func tryToCommitGrandParent(block){
+	          parentBlock = block.qc.block
+		  grandparentBlock = parentBlock.qc.block
+		  return parentBlock.view = grandparentBlock.view+1
+
+	}
 
 
         
