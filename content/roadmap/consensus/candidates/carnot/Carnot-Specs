@@ -1,0 +1,68 @@
+Types:
+        1: A Block has the following fields:
+        parent
+        view
+        qc
+        aggQC
+        signature
+        transactions
+        randomseed  #Provides the proof for being the leader of the round. This field may not be needed if the qc is used to generate the random seed.
+        
+        
+        
+        2: A vote has the following fields:
+        block hash
+        view 
+        signer
+        signature
+        
+        
+        3: A QC has the following fields:
+        block       # Hash of a block is used in this field as a representative of the actual block.
+        view
+        signers
+        signature
+        Type
+        
+
+        4: An aggQC has the following fields:
+        qcs
+        view
+        signers
+        signature
+
+
+Local Variables:
+        highQC
+        curView
+        latestCommittedBlock
+
+
+
+Utilities:
+     leader (randseed): returns the leader of the view
+     reset(): resets timer. If the timer expires a node times out
+     extends(block, ancestor): returns true if block is descendant of the ancestor in the chain.
+
+
+
+#Core Functions of the Carnot consensus:
+
+        Func safeBlock(block){
+	        if block.QC != Null{
+		        return block.view >= curView and block.view == block.qc.block.view + 1
+                }
+	        if block.aggQC != Null{
+		        return block.view >= curView and extends(block, block.aggQC.highQC.block)
+
+                }
+        }
+
+
+        
+        
+        
+
+        
+        
+        
