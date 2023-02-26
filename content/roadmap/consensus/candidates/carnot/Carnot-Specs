@@ -115,16 +115,10 @@ Utilities:
 		update_higQC(block.qc, block.aggQC)
 			if memberOfLeafCommittee(){ send(vote, parentCommittee)
 			reset()
-			}
-		
+			tryToCommitGrandParent(block)
+			}	
 		
 		}
 		
-		
-		
-		
-	
-	
-	
 	}
         
