@@ -68,7 +68,7 @@ Utilities:
 	}
 
 
-        Func update_higQC(qc, aggQC):
+        Func update_higQC(qc, aggQC){
 		if qc != Null{ # Happy case
 			if qc.block.view > highQC.block.view{
 				highQC = qc
@@ -92,7 +92,13 @@ Utilities:
 			reset()
    
         		}
-
+	}
         
-        
+	
+	
+	
+        func receive(block){
+	
+	
+	}
         
