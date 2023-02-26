@@ -47,6 +47,7 @@ Utilities:
      extends(block, ancestor): returns true if block is descendant of the ancestor in the chain.
      download(view): Download missing block for the view.
      getMaxViewQC(qcs): returns the qc with the highest view number.
+     memberOfLeafCommittee(): returns true if a node is in the leaf committee of the committee overlay
 
 
 
@@ -80,7 +81,7 @@ Utilities:
 				download(curView) 
 				}
 			}
-			reset()
+			#reset()
 			}
 
 		if aggQC != Null { # Unhappy case
@@ -91,7 +92,7 @@ Utilities:
 						download(curView) 
 					}
 				}
-			reset()
+			#reset()
    
         		}
 	}
@@ -110,8 +111,19 @@ Utilities:
 			if block.aggQC.highQC.view <= latestCommittedBlock.view {return}
 			}
 		
+		if safeBlock(block){
+		update_higQC(block.qc, block.aggQC)
+			if memberOfLeafCommittee(){ send(vote, parentCommittee)
+			reset()
+			}
 		
-
+		
+		}
+		
+		
+		
+		
+	
 	
 	
 	}
