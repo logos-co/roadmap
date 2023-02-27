@@ -34,7 +34,7 @@ Types:
 
 
 Local Variables:
-        highQC_r
+        highQC
 	qc_c # QC built from messages received from child committees
         curView
         latestCommittedBlock
@@ -50,7 +50,7 @@ Utilities:
      memberOfLeafCommittee(): returns true if a node is in the leaf committee of the committee overlay
      ifmemberOfInternalnodes(): returns true if a node is member of internal committees within the committee tree overlay
      childcommittee(nodeIndx): returns if the node id in the nodeIndx is member of the child committee
-
+     supermajority(votes): returns if the number of distinctive signers of votes for a block is above threshold or returns if the qourum size is correct.
 
 
 #Core Functions of the Carnot consensus:
@@ -130,6 +130,11 @@ Utilities:
 		if vote.block.view < curView - 1{ return}
 		if ifmemberOfInternalnodes(nodeIndx) && nodeIndx=!leader(curViewSeed) {
 			if childcommittee(vote.signer) { collection[vote.block].append(vote)}
+			if supermajority(collection[vote.block]){
+			send(vote, parentCommittee)
+			reset()
+			tryToCommitGrandParent(block)
+			}
 		
 		}
 	
