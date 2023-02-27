@@ -43,7 +43,7 @@ Local Variables:
 
 
 Utilities:
-     leader (randseed): returns the leader of the view.
+     leader (view): returns the leader of the view.
      reset(): resets timer. If the timer expires a node times out.
      extends(block, ancestor): returns true if block is descendant of the ancestor in the chain.
      download(view): Download missing block for the view.
@@ -142,12 +142,12 @@ Utilities:
 			if childcommittee(vote.signer) { collection[vote.block].append(vote)}
 			if supermajority(collection[vote.block]){
 			qc=buildQC(collection[vote.block])
-			send(qc, leader)
-			send(vote, leader)
+			send(qc, leader(curView+1))
+			send(vote, leader(curView+1))
 			reset()
 			tryToCommitGrandParent(block)
 			}
-			if morethanSsupermajority(collection[vote.block]){send(vote, leader)}
+			if morethanSsupermajority(collection[vote.block]){send(vote, leader(curView+1))}
 		
 		}
 		
