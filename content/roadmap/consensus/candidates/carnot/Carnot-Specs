@@ -48,8 +48,8 @@ Utilities:
      download(view): Download missing block for the view.
      getMaxViewQC(qcs): returns the qc with the highest view number.
      memberOfLeafCommittee(): returns true if a node is in the leaf committee of the committee overlay
-     ifmemberOfInternalnodes(): returns true if a node is member of internal committees within the committee tree overlay
-     childcommittee(nodeIndx): returns if the node id in the nodeIndx is member of the child committee
+     ifmemberOfInternalComExceptRoot(): returns true if a node is member of internal committees within the committee tree overlay
+     childcommittee(nodeIndx): returns true if the node id in the nodeIndx is member internal node (but not root) of the overlay
      supermajority(votes): returns if the number of distinctive signers of votes for a block is above threshold or returns if the qourum size is correct.
 
 
@@ -128,7 +128,7 @@ Utilities:
 	Func receive(vote){ 
 		if vote.block missing {download(vote.block)}
 		if vote.block.view < curView - 1{ return}
-		if ifmemberOfInternalnodes(nodeIndx) && nodeIndx=!leader(curViewSeed) {
+		if ifmemberOfInternalComExceptRoot(nodeIndx) {
 			if childcommittee(vote.signer) { collection[vote.block].append(vote)}
 			if supermajority(collection[vote.block]){
 			send(vote, parentCommittee)
