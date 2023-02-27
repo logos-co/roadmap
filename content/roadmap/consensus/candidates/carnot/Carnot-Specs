@@ -183,8 +183,12 @@ Utilities:
 	
 	}
 	
+	# Failure Case
+	Func receive (newView){
+		if newview.highQC.block missing {download(new_view.high_qc.block)} # download the missing block 
+		adjust_high_qc_and_view(new_view.high_qc, Null)
 	
-	Func receive (newView){}
+	}
 	
 	Func timeout(){}
         
