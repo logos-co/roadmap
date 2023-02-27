@@ -119,7 +119,12 @@ Utilities:
 			if memberOfLeafCommittee(){ send(vote, parentCommittee)
 			reset()
 			tryToCommitGrandParent(block)
-			}	
+			}
+			if onlyOneCommittee(){
+				send(vote, leader(view+1))
+				reset()
+				tryToCommitGrandParent(block)
+			}
 		
 		}
 		
@@ -153,7 +158,12 @@ Utilities:
 		
 		}
 		
-		if 
+	
+		
+		if nodeIndx==leader(view){
+		
+		
+		}
 		
 	
 	}
