@@ -133,6 +133,7 @@ Utilities:
 			if childcommittee(vote.signer) { collection[vote.block].append(vote)}
 			if supermajority(collection[vote.block]){
 			send(vote, parentCommittee)
+			curView++
 			reset()
 			tryToCommitGrandParent(block)
 			}
@@ -144,12 +145,15 @@ Utilities:
 			qc=buildQC(collection[vote.block])
 			send(qc, leader(curView+1))
 			send(vote, leader(curView+1))
+			curView++
 			reset()
 			tryToCommitGrandParent(block)
 			}
 			if morethanSsupermajority(collection[vote.block]){send(vote, leader(curView+1))}
 		
 		}
+		
+		if 
 		
 	
 	}
