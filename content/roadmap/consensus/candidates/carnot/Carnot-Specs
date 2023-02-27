@@ -148,7 +148,7 @@ Utilities:
 			if childcommittee(vote.signer) { collection[vote.block].append(vote)}
 			if supermajority(collection[vote.block]){
 			qc=buildQC(collection[vote.block])
-			send(qc, leader(curView+1))
+			vote.qc=qc
 			send(vote, leader(curView+1))
 			curView++
 			reset()
@@ -172,4 +172,9 @@ Utilities:
 		
 	
 	}
+	
+	
+	Func receive (newView){}
+	
+	Func timeout(){}
         
