@@ -161,7 +161,12 @@ Utilities:
 	
 		
 		if nodeIndx==leader(view){
-		
+			collection[vote.block].append(vote)
+			if supermajority(collection[vote.block]){
+			qc=buildQC(collection[vote.block])
+			block=buildBlock()
+			Broadcast(block)
+			}
 		
 		}
 		
