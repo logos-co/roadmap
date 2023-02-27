@@ -16,6 +16,7 @@ Types:
         view 
         signer
         signature
+	qc
         
         
         3: A QC has the following fields:
@@ -48,10 +49,10 @@ Utilities:
      download(view): Download missing block for the view.
      getMaxViewQC(qcs): returns the qc with the highest view number.
      memberOfLeafCommittee(): returns true if a node is in the leaf committee of the committee overlay
-     ifmemberOfInternalComExceptRoot(): returns true if a node is member of internal committees within the committee tree overlay
+     memberOfInternalComExceptRoot(): returns true if a node is member of internal committees within the committee tree overlay
      childcommittee(nodeIndx): returns true if the node id in the nodeIndx is member internal node (but not root) of the overlay
-     supermajority(votes): returns if the number of distinctive signers of votes for a block is above threshold or returns if the qourum size is correct.
-
+     supermajority(votes): returns if the number of distinctive signers of votes for a block is is equal to the threshold or returns if the qourum size has reached.
+     morethanSsupermajority(votes): returns if the number of distinctive signers of votes for a block is is more than the threshold
 
 #Core Functions of the Carnot consensus:
 
@@ -128,7 +129,7 @@ Utilities:
 	Func receive(vote){ 
 		if vote.block missing {download(vote.block)}
 		if vote.block.view < curView - 1{ return}
-		if ifmemberOfInternalComExceptRoot(nodeIndx) {
+		if memberOfInternalComExceptRoot(nodeIndx) {
 			if childcommittee(vote.signer) { collection[vote.block].append(vote)}
 			if supermajority(collection[vote.block]){
 			send(vote, parentCommittee)
@@ -137,6 +138,19 @@ Utilities:
 			}
 		
 		}
+		if memberofRootCommittee(nodeIndx){
+			if childcommittee(vote.signer) { collection[vote.block].append(vote)}
+			if supermajority(collection[vote.block]){
+			qc=buildQC(collection[vote.block])
+			send(qc, leader)
+			send(vote, leader)
+			reset()
+			tryToCommitGrandParent(block)
+			}
+			if morethanSsupermajority(collection[vote.block]){send(vote, leader)}
+		
+		}
+		
 	
 	}
         
