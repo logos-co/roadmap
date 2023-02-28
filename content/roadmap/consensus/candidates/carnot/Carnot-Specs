@@ -1,6 +1,6 @@
 Types:
         1: A Block has the following fields:
-        parent
+        parent 
 	hash
         view
         qc
@@ -16,7 +16,7 @@ Types:
         view 
         signer
         signature
-	qc
+	qc #
         
         
         3: A QC has the following fields:
@@ -24,7 +24,7 @@ Types:
         view
         signers
         signature
-        Type
+        Type # Better to have two different types of QCs
         
 
         4: An aggQC has the following fields:
@@ -36,7 +36,7 @@ Types:
 
 Local Variables:
         highQC
-	qc_c # QC built from messages received from child committees
+	#qc_c # QC built from messages received from child committees
         curView
         latestCommittedBlock
 
@@ -62,10 +62,10 @@ Utilities:
 
         Func safeBlock(block){
 		 # this check makes sure block is not old and the previous leader did not fail
-	        if block.QC != Null{
+	        if block.qc != Null{
 		        return block.view >= curView and block.view == block.qc.block.view + 1
                 }
-		# this meails previous leader/leaders have failed. But still we need to check if the block is not old and the block extends from a valid ancestor.
+		# this means previous leader/leaders have failed. But still we need to check if the block is not old and the block extends from a valid ancestor.
 	        if block.aggQC != Null{ 
 		        return block.view >= curView and extends(block, block.aggQC.highQC.block)
 
@@ -77,6 +77,7 @@ Utilities:
 	          parentBlock = block.qc.block
 		  grandparentBlock = parentBlock.qc.block
 		  return parentBlock.view = grandparentBlock.view+1
+		  #update latest committed block
 
 	}
 
@@ -122,7 +123,7 @@ Utilities:
 		# Previous leader failed
 		if block.aggQC! = Null
 			{ 
-			block.aggQC.highQC = getMaxViewQC (block.agg_qc.qcs)
+			block.aggQC.highQC = getMaxViewQC (block.aggQC.qcs)
 			# Since verification of signatures  is not included in this psuedocode, it is worth mentioning that here verification of block.aggQC.highQC
 			# along with the block.aggQC.signature is suffice. No need to verify each qc inside block.aggQC
 			if block.aggQC.highQC.view <= latestCommittedBlock.view {return}
@@ -131,11 +132,13 @@ Utilities:
 		if safeBlock(block){
 			update_higQC(block.qc, block.aggQC)
 			if memberOfLeafCommittee(){ send(vote, parentCommittee)
+			curView++
 			reset()
 			tryToCommitGrandParent(block)
 			}
 			if onlyOneCommittee(){
 				send(vote, leader(view+1))
+				curView++
 				reset()
 				tryToCommitGrandParent(block)
 			}
@@ -147,6 +150,7 @@ Utilities:
 	
 	Func receive(vote){ 
 		if vote.block missing {download(vote.block)}
+		#Make sure block is verified before voting
 		if vote.block.view < curView - 1{ return}
 		if memberOfInternalComExceptRoot(nodeIndx) {
 			if childcommittee (vote.signer) { collection[vote.block].append(vote)}
@@ -186,6 +190,7 @@ Utilities:
 		
 	
 	}
+	
 	
 	# Failure Case
 	Func receive (newView){
