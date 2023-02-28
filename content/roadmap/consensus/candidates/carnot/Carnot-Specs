@@ -41,6 +41,9 @@ Local Variables:
         latestCommittedBlock
 
 
+#####Supermajority of child votes is 2/3 +1 votes from members of child committees
+#####Supermajority for the qc to be included in the block, should have at least 2/3+1 votes from both children of the root committee and overal 2/3 +1
+#####combined votes of the root committee+its child committees.
 
 Utilities:
      leader (view): returns the leader of the view.
@@ -50,6 +53,7 @@ Utilities:
      getMaxViewQC(qcs): returns the qc with the highest view number.
      memberOfLeafCommittee(): returns true if a node is in the leaf committee of the committee overlay
      memberOfInternalComExceptRoot(): returns true if a node is member of internal committees within the committee tree overlay except root committee
+     memberOfInternalCom(): returns truee if a node is member of internal committees within the committee tree overlay
      childcommittee (signer): returns true if the node id (signer) in the nodeIndx is member of the child committee 
      supermajority(votes): returns if the number of distinctive signers of votes for a block is is equal to the threshold or returns if the qourum size has reached.
      morethanSsupermajority(votes): returns if the number of distinctive signers of votes for a block is is more than the threshold
@@ -187,6 +191,20 @@ Utilities:
 	Func receive (newView){
 		if newview.highQC.block missing {download(new_view.high_qc.block)} # download the missing block 
 		adjust_high_qc_and_view(new_view.high_qc, Null)
+		if newView.view < curView: return # It's an old message. Ignore it.
+		if memberOfInternalCom(nodeIndx){
+		collection[newView.view].append(newView)
+		if supermajority[newView.view]{
+			newViewQC=buildQC(collection[newView.view])
+			if memberofRootCommittee(nodeIndx){
+				send(newViewQC, leader(view+1))
+				curView++
+			}
+			send(newViewQC, parentCommittee)
+			}
+		}
+		
+
 	
 	}
 	
