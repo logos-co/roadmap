@@ -29,9 +29,16 @@ Types:
 
         4: An aggQC has the following fields:
         qcs
+	highQC # latest qc in qcs
         view
         signers
         signature
+	
+	5: A newView message has the followiing fields:
+	view
+	highQC
+	signer
+	signature
 
 
 Local Variables:
@@ -127,6 +134,7 @@ Utilities:
 			# Since verification of signatures  is not included in this psuedocode, it is worth mentioning that here verification of block.aggQC.highQC
 			# along with the block.aggQC.signature is suffice. No need to verify each qc inside block.aggQC
 			if block.aggQC.highQC.view <= latestCommittedBlock.view {return}
+			#if block.aggQC.view < curView
 			}
 		
 		if safeBlock(block){
