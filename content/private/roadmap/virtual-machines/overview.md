@@ -60,5 +60,5 @@ LINK TO APPROPRIATE NETWORK REQUIREMENTS HERE
 	- MAST (as used in MIDEN)
 
 ## Roles
-- [ZK Research Engineer](roles/zero-knowledge-research-engineer.md)
+- [ZK Research Engineer](zero-knowledge-research-engineer.md)
 - Senior Rust Developer

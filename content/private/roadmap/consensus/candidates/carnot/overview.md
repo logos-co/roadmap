@@ -15,7 +15,7 @@ Carnot (formerly LogosBFT) is a Byzantine Fault Tolerant (BFT) [consensus](roadm
   1. Wastage of resources on orphan blocks and reduced throughput with increased latency for transactions in orphan blocks
   2. Increased attack vector on PoS as attackers can employ a strategy to force the network to accept their fork resulting in increased stake for adversaries.
 
-- [FAQ](roadmap/consensus/candidates/carnot/FAQ.md): Here is a page that tracks various questions people have around Carnot.
+- [FAQ](FAQ.md): Here is a page that tracks various questions people have around Carnot.
 
 ## Work Streams
 

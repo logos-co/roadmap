@@ -8,7 +8,7 @@ tags:
 
 This page creates a model to describe the impact of the various clients within the Status ecosystem by describing their individual contribution to the messages within the Waku network they leverage. 
 
-This model will serve to create a realistic network topology while also informing the appropriate _dimensions of scale_ that are relevant to explore in the [Status Waku scalability study](roadmap/networking/status-waku-kurtosis.md)
+This model will serve to create a realistic network topology while also informing the appropriate _dimensions of scale_ that are relevant to explore in the [Status Waku scalability study](status-waku-kurtosis.md)
 
 Status has three main clients that users interface with (in increasing "network weight" ordering):
 - Status Web
