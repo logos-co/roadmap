@@ -2,126 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://roadmap.logos.co/roadmap/virtual-machines/overview/</loc>
-    <lastmod>2023-01-03T15:41:43-05:00</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/roadmap/networking/carnot-waku-specification/</loc>
-    <lastmod>2022-11-30T14:45:02-05:00</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/tags/candidate/</loc>
-    <lastmod>2023-02-02T16:39:13-05:00</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/tags/Carnot/</loc>
-    <lastmod>2023-02-02T16:39:13-05:00</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/roadmap/consensus/candidates/carnot/overview/</loc>
-    <lastmod>2023-02-02T16:39:13-05:00</lastmod>
+    <loc>https://roadmap.logos.co/roadmap/vac/updates/2023-07-10/</loc>
+    <lastmod>2023-07-16T17:52:03+02:00</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/categories/</loc>
   </url><url>
-    <loc>https://roadmap.logos.co/tags/claro/</loc>
-    <lastmod>2022-11-29T15:20:11-05:00</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/roadmap/consensus/candidates/claro/</loc>
-    <lastmod>2022-11-29T15:20:11-05:00</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/tags/consensus/</loc>
-    <lastmod>2023-02-02T16:39:13-05:00</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/roadmap/consensus/development/prototypes/</loc>
-    <lastmod>2022-11-29T15:20:11-05:00</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/roadmap/consensus/theory/overview/</loc>
-    <lastmod>2022-08-19T15:10:38-04:00</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/roadmap/consensus/overview/</loc>
-    <lastmod>2022-11-29T15:20:11-05:00</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/tags/development/</loc>
-    <lastmod>2022-11-29T15:20:11-05:00</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/roadmap/consensus/development/overview/</loc>
-    <lastmod>2022-08-19T15:10:38-04:00</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/tags/engineering/</loc>
-    <lastmod>2022-10-26T16:15:35-04:00</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/roadmap/consensus/candidates/carnot/FAQ/</loc>
-    <lastmod>2023-02-02T16:39:13-05:00</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/requirements/overview/</loc>
-    <lastmod>2022-10-26T16:15:35-04:00</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/tags/networking/</loc>
-    <lastmod>2022-12-01T13:50:44-05:00</lastmod>
-  </url><url>
     <loc>https://roadmap.logos.co/</loc>
-    <lastmod>2022-11-30T13:08:02-05:00</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/roles/distributed-systems-researcher/</loc>
-    <lastmod>2022-08-19T15:10:38-04:00</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/tags/overview/</loc>
-    <lastmod>2022-12-01T13:50:44-05:00</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/roadmap/networking/overview/</loc>
-    <lastmod>2022-12-01T13:50:44-05:00</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/requirements/</loc>
-    <lastmod>2022-10-26T16:15:35-04:00</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/tags/requirements/</loc>
-    <lastmod>2022-10-26T16:15:35-04:00</lastmod>
+    <lastmod>2023-07-16T17:52:03+02:00</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/roadmap/</loc>
-    <lastmod>2023-02-02T16:39:13-05:00</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/tags/role/</loc>
-    <lastmod>2022-10-26T16:15:35-04:00</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/roles/</loc>
-    <lastmod>2022-10-26T16:15:35-04:00</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/tags/rust/</loc>
-    <lastmod>2022-10-26T16:15:35-04:00</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/roles/rust-developer/</loc>
-    <lastmod>2022-10-26T16:15:35-04:00</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/tags/scalability/</loc>
-    <lastmod>2022-12-01T13:50:44-05:00</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/tags/snow/</loc>
-    <lastmod>2022-11-16T09:33:46-05:00</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/tags/status/</loc>
-    <lastmod>2022-11-30T13:28:01-05:00</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/roadmap/networking/status-network-agents/</loc>
-    <lastmod>2022-11-30T13:28:01-05:00</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/roadmap/networking/status-waku-kurtosis/</loc>
-    <lastmod>2022-12-01T13:50:44-05:00</lastmod>
+    <lastmod>2023-07-16T17:52:03+02:00</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/</loc>
-    <lastmod>2023-02-02T16:39:13-05:00</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/roadmap/consensus/theory/snow-family/</loc>
-    <lastmod>2022-11-16T09:33:46-05:00</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/tags/theory/</loc>
-    <lastmod>2022-11-16T09:33:46-05:00</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/tags/virtual-machines/</loc>
-    <lastmod>2023-01-03T15:41:43-05:00</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/tags/waku/</loc>
-    <lastmod>2022-12-01T13:50:44-05:00</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/tags/zero-knowledge/</loc>
-    <lastmod>2023-01-03T15:41:43-05:00</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/roles/zero-knowledge-research-engineer/</loc>
-    <lastmod>2022-10-26T16:15:35-04:00</lastmod>
   </url>
 </urlset>

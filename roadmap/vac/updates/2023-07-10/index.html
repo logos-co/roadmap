@@ -5,10 +5,10 @@
   <meta charset="UTF-8" />
   <meta
     name="description"
-    content=""
+    content="vc::Deep Research  refined deep research roadmaps https://github.com/vacp2p/research/issues/190, https://github.com/vacp2p/research/issues/192 working on comprehensive current/related work study on Validator Privacy working on PoC of Tor push in Nimbus working towards comprehensive current/related work study on gossipsub scaling   vsu::P2P  Prepared Paris talks Implemented perf protocol to compare the performances with other libp2ps https://github."
   />
   <title>
-    waku
+    2023-07-10 Vac Weekly
   </title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -96,13 +96,13 @@
   <script>
     const BASE_URL = "https://roadmap.logos.co/"
     const fetchData = Promise.all([
-          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.962d11570e51c6030b2bafdfad1a5960.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.2ce0a58cd89e5f20fc9940fe2259e723.min.json")
             .then(data => data.json())
             .then(data => ({
               index: data.index,
               links: data.links,
             })),
-          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.404486eb6c35c315436590933c3a03cc.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.ff330282ec12c236e56bad7bc3a92f70.min.json")
             .then(data => data.json()),
         ])
         .then(([{index, links}, content]) => ({
@@ -227,81 +227,167 @@
 
 
     <article>
-        <h1>Tag: waku</h1>
-        
-        <ul class="section-ul"><li class="section-li">
-        <div class="section">
-            <p class="meta">
-                
-Nov 30, 2022
+      <h1>2023-07-10 Vac Weekly</h1>
+      <p class="meta">
+          Last updated 
+Jul 16, 2023
+
+ 
+          
+<a href="https://github.com/logos-co/roadmap/tree/hugo/content/roadmap/vac/updates/2023-07-10.md" rel="noopener">Edit Source</a>
 
 
-            </p>
-            <div class="desc">
-              <h3><a href="https://roadmap.logos.co/roadmap/networking/carnot-waku-specification/" class="internal-link" data-src="/roadmap/networking/carnot-waku-specification/">A Specification proposal for using Waku for Carnot Consensus</a></h3>
-            </div>
-            <div class="spacer"></div>
-            <ul class="tags">
-                
-                <li><a href="https://roadmap.logos.co/tags/waku/">Waku</a></li>
-                
-                <li><a href="https://roadmap.logos.co/tags/Carnot/">Carnot</a></li>
-                
-                <li><a href="https://roadmap.logos.co/tags/networking/">Networking</a></li>
-                
-                <li><a href="https://roadmap.logos.co/tags/consensus/">Consensus</a></li>
-                
-            </ul>
-        </div>
-    </li><li class="section-li">
-        <div class="section">
-            <p class="meta">
-                
-Nov 30, 2022
+      </p>
+      <ul class="tags">
+          
+      </ul>
+      
+
+      
 
 
-            </p>
-            <div class="desc">
-              <h3><a href="https://roadmap.logos.co/roadmap/networking/status-network-agents/" class="internal-link" data-src="/roadmap/networking/status-network-agents/">Status Network Agents Breakdown</a></h3>
-            </div>
-            <div class="spacer"></div>
-            <ul class="tags">
-                
-                <li><a href="https://roadmap.logos.co/tags/status/">Status</a></li>
-                
-                <li><a href="https://roadmap.logos.co/tags/waku/">Waku</a></li>
-                
-                <li><a href="https://roadmap.logos.co/tags/scalability/">Scalability</a></li>
-                
-            </ul>
-        </div>
-    </li><li class="section-li">
-        <div class="section">
-            <p class="meta">
-                
-Dec 1, 2022
 
 
-            </p>
-            <div class="desc">
-              <h3><a href="https://roadmap.logos.co/roadmap/networking/status-waku-kurtosis/" class="internal-link" data-src="/roadmap/networking/status-waku-kurtosis/">Status&#39; use of Waku - A Scalability Study</a></h3>
-            </div>
-            <div class="spacer"></div>
-            <ul class="tags">
-                
-                <li><a href="https://roadmap.logos.co/tags/networking/">Networking</a></li>
-                
-                <li><a href="https://roadmap.logos.co/tags/scalability/">Scalability</a></li>
-                
-                <li><a href="https://roadmap.logos.co/tags/waku/">Waku</a></li>
-                
-            </ul>
-        </div>
-    </li></ul>
 
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+<ul>
+<li><em>vc::Deep Research</em>
+<ul>
+<li>refined deep research roadmaps 
+
+<a href="https://github.com/vacp2p/research/issues/190" rel="noopener">https://github.com/vacp2p/research/issues/190</a>, 
+
+<a href="https://github.com/vacp2p/research/issues/192" rel="noopener">https://github.com/vacp2p/research/issues/192</a></li>
+<li>working on comprehensive current/related work study on Validator Privacy</li>
+<li>working on PoC of Tor push in Nimbus</li>
+<li>working towards comprehensive current/related work study on gossipsub scaling</li>
+</ul>
+</li>
+<li><em>vsu::P2P</em>
+<ul>
+<li>Prepared Paris talks</li>
+<li>Implemented perf protocol to compare the performances with other libp2ps 
+
+<a href="https://github.com/status-im/nim-libp2p/pull/925" rel="noopener">https://github.com/status-im/nim-libp2p/pull/925</a></li>
+</ul>
+</li>
+<li><em>vsu::Tokenomics</em>
+<ul>
+<li>Fixing bugs on the SNT staking contract;</li>
+<li>Definition of the first formal verification tests for the SNT staking contract;</li>
+<li>Slides for the Paris off-site</li>
+</ul>
+</li>
+<li><em>vsu::Distributed Systems Testing</em>
+<ul>
+<li>Replicated message rate issue (still on it)</li>
+<li>First mockup of offline data</li>
+<li>Nomos consensus test working</li>
+</ul>
+</li>
+<li><em>vip::zkVM</em>
+<ul>
+<li>hiring</li>
+<li>onboarding new researcher</li>
+<li>presentation on ECC during Logos Research Call (incl. preparation)</li>
+<li>more research on nova, considering additional options</li>
+<li>Identified 3 research questions to be taken into consideration for the ZKVM and the publication</li>
+<li>Researched Poseidon implementation for Nova, Nova-Scotia, Circom</li>
+</ul>
+</li>
+<li><em>vip::RLNP2P</em>
+<ul>
+<li>finished rln contract for waku product - 
+
+<a href="https://github.com/waku-org/rln-contract" rel="noopener">https://github.com/waku-org/rln-contract</a></li>
+<li>fixed homebrew issue that prevented zerokit from building - 
+
+<a href="https://github.com/vacp2p/zerokit/commit/8a365f0c9e5c4a744f70c5dd4904ce8d8f926c34" rel="noopener">https://github.com/vacp2p/zerokit/commit/8a365f0c9e5c4a744f70c5dd4904ce8d8f926c34</a></li>
+<li>rln-relay: verify proofs based upon bandwidth usage - 
+
+<a href="https://github.com/waku-org/nwaku/commit/3fe4522a7e9e48a3196c10973975d924269d872a" rel="noopener">https://github.com/waku-org/nwaku/commit/3fe4522a7e9e48a3196c10973975d924269d872a</a></li>
+<li>RLN contract audit cont' 
+
+<a href="https://hackmd.io/@blockdev/B195lgIth" rel="noopener">https://hackmd.io/@blockdev/B195lgIth</a></li>
+</ul>
+</li>
+</ul>
+
+
     </article>
     
+
+<hr/>
+
+
+<div class="page-end" id="footer">
+    <div class="backlinks-container">
+        <h3>Backlinks</h3>
+<ul class="backlinks">
+    
+    
+    
+    
+    
+    
+    
+    <li>
+        No backlinks found
+    </li>
+    
+</ul>
+
+    </div>
+    <div>
+        <script
+  src="https://cdn.jsdelivr.net/npm/d3@6.7.0/dist/d3.min.js"
+  integrity="sha256-+7jaYCp29O1JusNWHaYtgUn6EhuP0VaFuswhNV06MyI="
+  crossorigin="anonymous"
+></script>
+<h3>Interactive Graph</h3>
+<div id="graph-container"></div>
+<style>
+  :root {
+    --g-node: var(--secondary);
+    --g-node-active: var(--primary);
+    --g-node-inactive: var(--visited);
+    --g-link: var(--outlinegray);
+    --g-link-active: #5a7282;
+  }
+</style>
+
+<script src="https://roadmap.logos.co/js/graph.abd4bc2af3869a96524d7d23b76152c7.js"></script>
+
+    </div>
+</div>
+
+
+
 <div id="contact_buttons">
     <footer>
         <p>Made by Nomos using <a href="https://github.com/jackyzha0/quartz">Quartz</a>, © 2023</p>
@@ -311,6 +397,7 @@ Dec 1, 2022
             <li><a href="https://github.com/logos-co/roadmap">Github</a></li></ul>
     </footer>
 </div>
+
 
 </div>
 </body>

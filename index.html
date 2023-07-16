@@ -9,7 +9,7 @@
     content="Information on how Nomos plans to build its network, what it has done so far, and how you can get involved."
   />
   <title>
-    Nomos Technical Roadmap
+    Logos Technical Roadmap and Activity
   </title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -97,13 +97,13 @@
   <script>
     const BASE_URL = "https://roadmap.logos.co/"
     const fetchData = Promise.all([
-          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.962d11570e51c6030b2bafdfad1a5960.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.2ce0a58cd89e5f20fc9940fe2259e723.min.json")
             .then(data => data.json())
             .then(data => ({
               index: data.index,
               links: data.links,
             })),
-          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.404486eb6c35c315436590933c3a03cc.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.ff330282ec12c236e56bad7bc3a92f70.min.json")
             .then(data => data.json()),
         ])
         .then(([{index, links}, content]) => ({
@@ -262,7 +262,7 @@
   
 
 
-<p>This site attempts to inform the previous, current, and future work required to fulfill the requirements of the Nomos Project [LINK TO NOMOS LANDING PAGE HERE], a complete tech stack that provides infrastructure for the self-sovereign network state. To learn more about the motivation, please visit the 
+<p>This site attempts to inform the previous, current, and future work required to fulfill the requirements of the projects under the Logos Collective, a complete tech stack that provides infrastructure for the self-sovereign network state. To learn more about the motivation, please visit the 
 
 <a href="https://logos.co" rel="noopener">Logos Collective Site</a>.</p>
 <a href="#navigation"><h2 id="navigation"><span class="hanchor" ariaLabel="Anchor"># </span>Navigation</h2></a>
@@ -274,9 +274,9 @@
 
 
 <a
-  href="/requirements/overview/"
-  rel="noopener" class="internal-link"
-  data-src="/requirements/overview/">Network Requirements</a></li>
+  
+  rel="noopener" class="internal-link broken"
+  data-src="private/requirements/overview">Network Requirements</a></li>
 <li>Research and Development Roadmap
 <ul>
 <li>
@@ -286,9 +286,9 @@
 
 
 <a
-  href="/roadmap/networking/overview/"
-  rel="noopener" class="internal-link"
-  data-src="/roadmap/networking/overview/">Networking</a></li>
+  
+  rel="noopener" class="internal-link broken"
+  data-src="roadmap/vac">Vac</a></li>
 <li>
 
 
@@ -296,9 +296,9 @@
 
 
 <a
-  href="/roadmap/consensus/overview/"
-  rel="noopener" class="internal-link"
-  data-src="/roadmap/consensus/overview/">Consensus</a></li>
+  
+  rel="noopener" class="internal-link broken"
+  data-src="roadmap/waku">Waku</a></li>
 <li>
 
 
@@ -306,25 +306,21 @@
 
 
 <a
-  href="/roadmap/virtual-machines/overview/"
-  rel="noopener" class="internal-link"
-  data-src="/roadmap/virtual-machines/overview/">Virtual Machines</a></li>
-<li>Economics</li>
-<li>Data Model</li>
-<li>Applications / Wallets</li>
+  
+  rel="noopener" class="internal-link broken"
+  data-src="roadmap/codex">Codex</a></li>
+<li>
+
+
+
+
+
+<a
+  
+  rel="noopener" class="internal-link broken"
+  data-src="roadmap/nomos">Nomos</a></li>
 </ul>
 </li>
-<li>Specifications</li>
-<li>
-
-
-
-
-
-<a
-  href="/tags/role/"
-  rel="noopener" class="internal-link"
-  data-src="/tags/role/">Open Roles</a></li>
 </ul>
 
 
