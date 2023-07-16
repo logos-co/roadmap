@@ -97,13 +97,13 @@
   <script>
     const BASE_URL = "https://roadmap.logos.co/"
     const fetchData = Promise.all([
-          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.2ce0a58cd89e5f20fc9940fe2259e723.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.158a3031ac3c2269050cf0e9bf16434f.min.json")
             .then(data => data.json())
             .then(data => ({
               index: data.index,
               links: data.links,
             })),
-          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.ff330282ec12c236e56bad7bc3a92f70.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.1497b513865cd75393463920a7688385.min.json")
             .then(data => data.json()),
         ])
         .then(([{index, links}, content]) => ({
@@ -267,17 +267,7 @@
 <a href="https://logos.co" rel="noopener">Logos Collective Site</a>.</p>
 <a href="#navigation"><h2 id="navigation"><span class="hanchor" ariaLabel="Anchor"># </span>Navigation</h2></a>
 <ul>
-<li>
-
-
-
-
-
-<a
-  
-  rel="noopener" class="internal-link broken"
-  data-src="private/requirements/overview">Network Requirements</a></li>
-<li>Research and Development Roadmap
+<li>Research and Development Updates
 <ul>
 <li>
 
@@ -286,9 +276,9 @@
 
 
 <a
-  
-  rel="noopener" class="internal-link broken"
-  data-src="roadmap/vac">Vac</a></li>
+  href="/tags/vac-updates/"
+  rel="noopener" class="internal-link"
+  data-src="/tags/vac-updates/">Vac updates</a></li>
 <li>
 
 
@@ -298,7 +288,7 @@
 <a
   
   rel="noopener" class="internal-link broken"
-  data-src="roadmap/waku">Waku</a></li>
+  data-src="tags/waku-updates">Waku updates</a></li>
 <li>
 
 
@@ -308,7 +298,7 @@
 <a
   
   rel="noopener" class="internal-link broken"
-  data-src="roadmap/codex">Codex</a></li>
+  data-src="tags/codex-updates">Codex updates</a></li>
 <li>
 
 
@@ -318,7 +308,7 @@
 <a
   
   rel="noopener" class="internal-link broken"
-  data-src="roadmap/nomos">Nomos</a></li>
+  data-src="tags/nomos-updates">Nomos updates</a></li>
 </ul>
 </li>
 </ul>

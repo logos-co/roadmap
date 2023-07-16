@@ -96,13 +96,13 @@
   <script>
     const BASE_URL = "https://roadmap.logos.co/"
     const fetchData = Promise.all([
-          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.2ce0a58cd89e5f20fc9940fe2259e723.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.158a3031ac3c2269050cf0e9bf16434f.min.json")
             .then(data => data.json())
             .then(data => ({
               index: data.index,
               links: data.links,
             })),
-          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.ff330282ec12c236e56bad7bc3a92f70.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.1497b513865cd75393463920a7688385.min.json")
             .then(data => data.json()),
         ])
         .then(([{index, links}, content]) => ({
@@ -230,6 +230,33 @@
         <h1>All Categories</h1>
         
         <div class="tags">
+            
+            <div class="meta">
+                <h1><a href="https://roadmap.logos.co/tags/vac-updates/">Vac updates</a></h1>
+                <p><b>1</b> notes with this tag </p>
+            </div>
+            
+            <ul class="section-ul"><li class="section-li">
+        <div class="section">
+            <p class="meta">
+                
+Jul 10, 2023
+
+
+            </p>
+            <div class="desc">
+              <h3><a href="https://roadmap.logos.co/roadmap/vac/updates/2023-07-10/" class="internal-link" data-src="/roadmap/vac/updates/2023-07-10/">2023-07-10 Vac Weekly</a></h3>
+            </div>
+            <div class="spacer"></div>
+            <ul class="tags">
+                
+                <li><a href="https://roadmap.logos.co/tags/vac-updates/">Vac-Updates</a></li>
+                
+            </ul>
+        </div>
+    </li></ul>
+
+            
             
         </div>
     </article>

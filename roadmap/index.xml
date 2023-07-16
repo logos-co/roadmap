@@ -5,11 +5,12 @@
     <link>https://roadmap.logos.co/roadmap/</link>
     <description>Recent content in Roadmaps on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://roadmap.logos.co/roadmap/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://roadmap.logos.co/roadmap/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2023-07-10 Vac Weekly</title>
       <link>https://roadmap.logos.co/roadmap/vac/updates/2023-07-10/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://roadmap.logos.co/roadmap/vac/updates/2023-07-10/</guid>
       <description>vc::Deep Research  refined deep research roadmaps https://github.com/vacp2p/research/issues/190, https://github.com/vacp2p/research/issues/192 working on comprehensive current/related work study on Validator Privacy working on PoC of Tor push in Nimbus working towards comprehensive current/related work study on gossipsub scaling   vsu::P2P  Prepared Paris talks Implemented perf protocol to compare the performances with other libp2ps https://github.</description>
