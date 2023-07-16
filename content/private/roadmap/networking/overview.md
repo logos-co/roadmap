@@ -14,8 +14,8 @@ It is hopeful that Nomos can leverage the work of the Waku project to provide th
 
 ### Scalability and Fault-Tolerance Studies
 Currently, the amount of research and analysis of the scalability of Waku is not sufficient to give enough confidence that Waku can serve as the networking layer for the Nomos project. Thusly, it is our effort to push this analysis forward by investigating the various boundaries of scale for Waku. Below is a list of endeavors in this direction which we hope serves the broader community: 
-- [Status' use of Waku study w/ Kurtosis](roadmap/networking/status-waku-kurtosis.md)
-- [Using Waku for Carnot Overlay](roadmap/networking/carnot-waku-specification.md)
+- [Status' use of Waku study w/ Kurtosis](status-waku-kurtosis.md)
+- [Using Waku for Carnot Overlay](carnot-waku-specification.md)
 
 ### Rust implementations
 We have created and maintain a stop-gap solution to using Waku with the Rust programming language, which is wrapping the [go-waku](https://github.com/status-im/go-waku) library in Rust and publishing it as a crate. This library allows us to do tests with our [Tiny Node](roadmap/development/prototypes.md#Tiny-Node) implementation more quickly while also providing other projects in the ecosystem to leverage Waku within their Rust codebases more quickly. 
