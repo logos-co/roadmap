@@ -15,9 +15,9 @@ GitHubLink: https://github.com/logos-co/roadmap/tree/hugo/content
 enableSemanticSearch: true
 operandApiKey: "e1ec9cdc-56d2-420e-a5bd-c6019af4be58"
 description:
-  Information on how Nomos plans to build its network, what it has done so far, and how you can get involved.
+  Information on how the Logos Collective plans to build its products, what it has done so far, and how you can get involved.
 page_title:
-  "Nomos Technical Roadmap"
+  "Logos Collective Technical Roadmap and Activity"
 links:
   # - link_name: Twitter
   #   link: https://twitter.com/_jzhao
