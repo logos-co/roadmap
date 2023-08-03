@@ -9,3 +9,5 @@ This site attempts to inform the previous, current, and future work required to 
 	- [Waku updates](tags/waku-updates)
 	- [Codex updates](tags/codex-updates)
 	- [Nomos updates](tags/nomos-updates)
+	- [Innovation Lab updates](tags/ilab-updates)
+	- [Comms updates](tags/acid-updates)
