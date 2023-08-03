@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name="generator" content="Hugo 0.92.2" />
   
   <meta charset="UTF-8" />
   <meta
     name="description"
-    content="Information on how the Logos Collective plans to build its products, what it has done so far, and how you can get involved."
+    content="Waku 31 Jul
+ Waku Docs
+Milestone: Docs general improvement/incorporating feedback (continuous) next: rewrite docs in British English Milestone: Running nwaku in the cloud next: publish guides for Digital Ocean, Oracle, Fly."
   />
   <title>
-    Logos Technical Roadmap and Activity
+    2023-07-31 Waku weekly
   </title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -228,9 +229,32 @@
 
 
     <article>
-        
+      <h1>2023-07-31 Waku weekly</h1>
+      <p class="meta">
+          Last updated 
+Jul 31, 2023
 
-        
+ 
+          
+<a href="https://github.com/logos-co/roadmap/tree/hugo/content/roadmap/waku/updates/2023-07-31.md" rel="noopener">Edit Source</a>
+
+
+      </p>
+      <ul class="tags">
+          
+          <li><a href="https://roadmap.logos.co/tags/waku-updates/">Waku updates</a></li>
+          
+      </ul>
+      
+<aside class="mainTOC">
+    <details >
+        <summary>Table of Contents</summary>
+        <nav id="TableOfContents"></nav>
+    </details>
+</aside>
+
+
+      
 
 
 
@@ -262,86 +286,97 @@
   
 
 
-<p>This site attempts to inform the previous, current, and future work required to fulfill the requirements of the projects under the Logos Collective, a complete tech stack that provides infrastructure for the self-sovereign network state. To learn more about the motivation, please visit the 
+<p><strong>Waku 31 Jul</strong></p>
+<hr>
+<p>Waku
+Docs</p>
+<p><strong>Milestone</strong>: Docs general improvement/incorporating feedback (continuous)
+<em>next:</em> rewrite docs in British English
+<strong>Milestone</strong>: Running nwaku in the cloud
+<em>next:</em> publish guides for Digital Ocean, Oracle, Fly.io</p>
+<hr>
+<p>Waku
+Eco Dev (WIP)</p>
+<hr>
+<p>Waku
+Research</p>
+<p><strong>Milestone</strong>: Detailed network requirements and task breakdown
+<em>achieved:</em> gathering rough network requirements
+<em>next:</em> detailed task breakdown per milestone and effort allocation</p>
+<p><strong>Milestone</strong>: 
 
-<a href="https://logos.co" rel="noopener">Logos Collective Site</a>.</p>
-<a href="#navigation"><h2 id="navigation"><span class="hanchor" ariaLabel="Anchor"># </span>Navigation</h2></a>
+<a href="https://github.com/waku-org/nwaku/issues/1846" rel="noopener">Autosharding v1</a>
+<em>achieved:</em> update FILTER &amp; STORE for autosharding
+<em>next:</em> RFC review &amp; updates, code review &amp; updates</p>
+<hr>
+<p>Waku
+nwaku</p>
+<p><strong>Milestone</strong>: nwaku release process automation
+<em>next</em>:</p>
 <ul>
-<li>Research and Development Updates
-<ul>
-<li>
-
-
-
-
-
-<a
-  href="/tags/vac-updates/"
-  rel="noopener" class="internal-link"
-  data-src="/tags/vac-updates/">Vac updates</a></li>
-<li>
-
-
-
-
-
-<a
-  href="/tags/waku-updates/"
-  rel="noopener" class="internal-link"
-  data-src="/tags/waku-updates/">Waku updates</a></li>
-<li>
-
-
-
-
-
-<a
-  href="/tags/codex-updates/"
-  rel="noopener" class="internal-link"
-  data-src="/tags/codex-updates/">Codex updates</a></li>
-<li>
-
-
-
-
-
-<a
-  href="/tags/nomos-updates/"
-  rel="noopener" class="internal-link"
-  data-src="/tags/nomos-updates/">Nomos updates</a></li>
-<li>
-
-
-
-
-
-<a
-  href="/tags/ilab-updates/"
-  rel="noopener" class="internal-link"
-  data-src="/tags/ilab-updates/">Innovation Lab updates</a></li>
-<li>
-
-
-
-
-
-<a
-  href="/tags/acid-updates/"
-  rel="noopener" class="internal-link"
-  data-src="/tags/acid-updates/">Comms updates</a></li>
+<li>setup automation to test/simulate current <code>master</code> to prevent/limit regressions</li>
+<li>expand target architectures and platforms for release artifacts (e.g. arm64, Win&hellip;)
+<strong>Milestone</strong>: HTTP Rest API for protocols
+<em>next:</em> Filter API added, tests to complete.</li>
 </ul>
-</li>
-</ul>
+<hr>
+<p>Waku
+go-waku</p>
+<p><strong>Milestone</strong>: Increase Maintability Score. Refer to 
+
+<a href="https://codeclimate.com/github/waku-org/go-waku" rel="noopener">CodeClimate report</a>
+<em>next:</em> define scope on which issues reported by CodeClimate should be fixed. Initially it should be limited to reduce code complexity and duplication.</p>
+<p><strong>Milestone</strong>: RLN updates, refer 
+
+<a href="https://github.com/waku-org/go-waku/issues/608" rel="noopener">issue</a>.
+<em>achieved</em>: expose <code>set_tree</code>, <code>key_gen</code>, <code>seeded_key_gen</code>, <code>extended_seeded_keygen</code>, <code>recover_id_secret</code>, <code>set_leaf</code>, <code>init_tree_with_leaves</code>, <code>set_metadata</code>, <code>get_metadata</code> and <code>get_leaf</code>; created an example on how to use RLN with go-waku; service node can pass in index to keystore credentials and can verify proofs based on bandwidth usage
+<em>next</em>: merkle tree batch operations (in progress); usage of persisted merkle tree db</p>
+<p><strong>Milestone</strong>: Improve test coverage for functional tests of all protocols. Refer to [CodeClimate report]
+<em>next</em>: define scope on which code sections should be covered by tests</p>
+<p><strong>Milestone</strong>: C-Bindings
+<em>next</em>: update API to match nwaku&rsquo;s (by using callbacks instead of strings that require freeing)</p>
+<hr>
+<p>Waku
+js-waku</p>
+<p><strong>Milestone</strong>: 
+
+<a href="https://github.com/waku-org/js-waku/issues/914" rel="noopener">Peer management</a>
+<em>achieved</em>: extend ConnectionManager with EventEmitter and dispatch peers tagged with their discovery + make it public on the Waku interface
+<em>next</em>: fallback improvement for peer connect rejection</p>
+<p><strong>Milestone</strong>: 
+
+<a href="https://github.com/waku-org/js-waku/issues/1429" rel="noopener">Peer Exchange</a>
+<em>next</em>: robusting support around peer-exchange for examples;
+<strong>Milestone</strong>: Static Sharding
+<em>achieved</em>: WIP implementation of static sharding in js-waku
+<em>next</em>: investigation around gauging connection loss;</p>
+<p><strong>Milestone</strong>: Developer Experience
+<em>achieved</em>: improve &amp; update @waku/react; merge and release js-libp2p upgrade
+update examples to latest release + make sure no old/unused packages there</p>
+<p><strong>Milestone</strong>: Maintenance
+<em>next</em>: update to 
 
 
-        
+
+
+
+<a
+  
+  rel="noopener" class="internal-link broken"
+  data-src="mailto:libp2p@0.46.0">libp2p@0.46.0</a>
+<em>next</em>: suit of optional tests in pipeline</p>
+<hr>
+
+
     </article>
     
-  
-      <hr/>
-      <div class="page-end" id="footer">
-        <div class="backlinks-container">
-            <h3>Backlinks</h3>
+
+<hr/>
+
+
+<div class="page-end" id="footer">
+    <div class="backlinks-container">
+        <h3>Backlinks</h3>
 <ul class="backlinks">
     
     
@@ -356,9 +391,9 @@
     
 </ul>
 
-        </div>
-        <div>
-            <script
+    </div>
+    <div>
+        <script
   src="https://cdn.jsdelivr.net/npm/d3@6.7.0/dist/d3.min.js"
   integrity="sha256-+7jaYCp29O1JusNWHaYtgUn6EhuP0VaFuswhNV06MyI="
   crossorigin="anonymous"
@@ -377,10 +412,8 @@
 
 <script src="https://roadmap.logos.co/js/graph.abd4bc2af3869a96524d7d23b76152c7.js"></script>
 
-        </div>
-
-      </div>
-  
+    </div>
+</div>
 
 
 
@@ -388,6 +421,8 @@
     <footer>
         <p>Made by Nomos using <a href="https://github.com/jackyzha0/quartz">Quartz</a>, © 2023</p>
         <ul>
+            
+            <li><a href="https://roadmap.logos.co/">Home</a></li>
             <li><a href="https://github.com/logos-co/roadmap">Github</a></li></ul>
     </footer>
 </div>
@@ -395,4 +430,5 @@
 
 </div>
 </body>
+
 </html>

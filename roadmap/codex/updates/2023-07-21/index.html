@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8" />
+  <meta
+    name="description"
+    content="Codex update 07/12/2023 to 07/21/2023 Overall we continue working in various directions, distributed testing, marketplace, p2p client, research, etc&hellip;
+Our main milestone is to have a fully functional testnet with the marketplace and durability guarantees deployed by end of year."
+  />
+  <title>
+    2023-07-21 Codex weekly
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  
+  
+  
+  
+  
+  <link rel="shortcut icon" type="image/png"  href="https://roadmap.logos.co//icon.png" />
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <link href="https://roadmap.logos.co/styles.7fdbd93987bfba941d84b8a4050caaba.min.css" rel="stylesheet" />
+
+  
+  <link href="https://roadmap.logos.co/styles/_light_syntax.86a48a52faebeaaf42158b72922b1c90.min.css" rel="stylesheet" id="theme-link">
+
+   
+  
+  
+  
+  
+  <script src="https://roadmap.logos.co/js/darkmode.4ee460c38f180dd44f1565712a1f3c8a.min.js"></script>
+  
+  
+  
+  <script src="https://roadmap.logos.co/js/util.9825137f5e7825e8553c68ce39ac9e44.min.js"></script>
+  
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css" integrity="sha384-R4558gYOUz8mP9YWpZJjofhk+zx0AS11p36HnD2ZKj/6JR5z27gSSULCNHIRReVs" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js" integrity="sha384-z1fJDqw8ZApjGO3/unPWUPsIymfsJmyrDVWC8Tv/a1HeOtGmkwNd/7xUS0Xcnvsx" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"></script>
+
+
+    
+  <script src="https://unpkg.com/@floating-ui/core@0.7.3"></script>
+  <script src="https://unpkg.com/@floating-ui/dom@0.5.4"></script>
+  
+  <script src="https://roadmap.logos.co/js/popover.37b1455b8f0603154072b9467132c659.min.js"></script>
+
+  
+  
+  
+  <script src="https://roadmap.logos.co/js/code-title.b35124ad8db0ba37162b886afb711cbc.min.js"></script>
+  
+
+  
+  
+  <script src="https://roadmap.logos.co/js/clipboard.c20857734e53a3fb733b7443879efa61.min.js"></script>
+  
+
+  
+  
+  <script src="https://roadmap.logos.co/js/callouts.7723cac461d613d118ee8bb8216b9838.min.js"></script>
+  
+
+  
+   
+  <script>
+    const BASE_URL = "https://roadmap.logos.co/"
+    const fetchData = Promise.all([
+          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.b8ed7d42cd13945833cd2c8cb2e40d15.min.json")
+            .then(data => data.json())
+            .then(data => ({
+              index: data.index,
+              links: data.links,
+            })),
+          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.fac68475ffec5f5f9e8dca14f02f2bba.min.json")
+            .then(data => data.json()),
+        ])
+        .then(([{index, links}, content]) => ({
+          index,
+          links,
+          content,
+        }))
+
+      const render = () => {
+      
+
+      const siteBaseURL = new URL(BASE_URL);
+      const pathBase = siteBaseURL.pathname;
+      const pathWindow = window.location.pathname;
+      const isHome = pathBase == pathWindow;
+
+      addCopyButtons();
+      
+
+      addTitleToCodeBlocks();
+      
+
+      addCollapsibleCallouts();
+      
+     
+      
+      initPopover(
+        "https://roadmap.logos.co",
+         true ,
+         true 
+      )
+      
+
+      
+      const footer = document.getElementById("footer")
+      if (footer) {
+        const container = document.getElementById("graph-container")
+        
+        if (!container) return requestAnimationFrame(render)
+        
+        container.textContent = ""
+
+        const drawGlobal = isHome &&  false ;
+        drawGraph(
+            "https://roadmap.logos.co",
+            drawGlobal,
+            [{"/moc":"#4388cc"}],
+            drawGlobal ? {"centerForce":1,"depth":-1,"enableDrag":true,"enableLegend":false,"enableZoom":true,"fontSize":0.5,"linkDistance":1,"opacityScale":3,"repelForce":1,"scale":1.4} : {"centerForce":1,"depth":1,"enableDrag":true,"enableLegend":false,"enableZoom":true,"fontSize":0.6,"linkDistance":1,"opacityScale":3,"repelForce":2,"scale":1.2}
+          );
+
+        }
+      
+    }
+
+    const init = (doc = document) => {
+      
+      addCopyButtons();
+      
+
+      addTitleToCodeBlocks();
+      renderMathInElement(doc.body, {
+        delimiters: [
+          {left: '$$', right: '$$', display: true},
+          {left: '$', right: '$', display: false},
+        ],
+        throwOnError : false
+      });
+      
+    };
+  </script>
+  
+  
+  <script type="module">
+    import { attachSPARouting } from "https:\/\/roadmap.logos.co\/js\/router.9d4974281069e9ebb189f642ae1e3ca2.min.js"
+    attachSPARouting(init, render)
+  </script>
+  
+</head>
+
+
+
+<body>
+<div id="search-container">
+  <div id="search-space">
+    <input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search"
+      placeholder="Search for something...">
+    <div id="results-container">
+    </div>
+  </div>
+</div>
+
+
+<script defer src="https://roadmap.logos.co/js/semantic-search.d4032d4a6a967938235ae76d08a55b46.min.js"></script>
+
+
+
+<div class="singlePage">
+    
+    <header>
+    <h1 id="page-title"><a href="https://roadmap.logos.co/">Logos Collective Technical Roadmap and Activity</a></h1>
+    <div class="spacer"></div>
+    <div id="search-icon">
+      <p>Search</p>
+      <svg tabindex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search Icon</title><desc id="desc">Icon to open search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"/><circle cx="8" cy="8" r="7"/></g></svg>
+    </div>
+    <div class='darkmode'>
+    <input class='toggle' id='darkmode-toggle' type='checkbox' tabindex="-1">
+    <label id="toggle-label-light" for='darkmode-toggle' tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xml:space="preserve">
+            <title>Light Mode</title>
+            <path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z" />
+        </svg>
+    </label>
+    <label id="toggle-label-dark" for='darkmode-toggle' tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xml:space="preserve">
+            <title>Dark Mode</title>
+            <path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z" />
+        </svg>
+    </label>
+</div>
+</header>
+
+
+    <article>
+      <h1>2023-07-21 Codex weekly</h1>
+      <p class="meta">
+          Last updated 
+Jul 21, 2023
+
+ 
+          
+<a href="https://github.com/logos-co/roadmap/tree/hugo/content/roadmap/codex/updates/2023-07-21.md" rel="noopener">Edit Source</a>
+
+
+      </p>
+      <ul class="tags">
+          
+          <li><a href="https://roadmap.logos.co/tags/codex-updates/">Codex updates</a></li>
+          
+      </ul>
+      
+<aside class="mainTOC">
+    <details >
+        <summary>Table of Contents</summary>
+        <nav id="TableOfContents">
+  <ol>
+    <li><a href="#codex-update-07122023-to-07212023">Codex update 07/12/2023 to 07/21/2023</a>
+      <ol>
+        <li><a href="#devopsinfrastructure">DevOps/Infrastructure:</a></li>
+        <li><a href="#testing">Testing:</a></li>
+        <li><a href="#development">Development:</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#cross-functional-combination-of-devopstestingdevelopment">Cross-functional (Combination of DevOps/Testing/Development):</a></li>
+      </ol>
+    </li>
+    <li><a href="#dealing-with-dishonest-majorities">Dealing with dishonest majorities</a>
+      <ol>
+        <li><a href="#dryajov-__-07262023-442-pm">dryajov <em>—</em> 07/26/2023 4:42 PM</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+    </details>
+</aside>
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+      
+      
+    
+    
+  
+    
+    
+      
+      
+    
+    
+  
+    
+    
+      
+      
+    
+    
+  
+    
+    
+      
+      
+    
+    
+  
+    
+    
+      
+      
+    
+    
+  
+  
+  
+
+
+<a href="#codex-update-07122023-to-07212023"><h2 id="codex-update-07122023-to-07212023"><span class="hanchor" ariaLabel="Anchor"># </span>Codex update 07/12/2023 to 07/21/2023</h2></a>
+<p>Overall we continue working in various directions, distributed testing, marketplace, p2p client, research, etc&hellip;</p>
+<p>Our main milestone is to have a fully functional testnet with the marketplace and durability guarantees deployed by end of year. A lot of grunt work is being done to make that possible. Progress is steady, but there are lots of stabilization and testing &amp; infra related work going on.</p>
+<p>We&rsquo;re also onboarding several new members to the team (4 to be precise), this will ultimately accelerate our progress, but it requires some upfront investment from some of the more experienced team members.</p>
+<a href="#devopsinfrastructure"><h3 id="devopsinfrastructure"><span class="hanchor" ariaLabel="Anchor"># </span>DevOps/Infrastructure:</h3></a>
+<ul>
+<li>Adopted nim-codex Docker builds for Dist Tests.</li>
+<li>Ordered Dedicated node on Hetzner.</li>
+<li>Configured Hetzner StorageBox for local backup on Dedicated server.</li>
+<li>Configured new Logs shipper and Grafana in Dist-Tests cluster.</li>
+<li>Created Geth and Prometheus Docker images for Dist-Tests.</li>
+<li>Created a separate codex-contracts-eth Docker image for Dist-Tests.</li>
+<li>Set up Ingress Controller in Dist-Tests cluster.</li>
+</ul>
+<a href="#testing"><h3 id="testing"><span class="hanchor" ariaLabel="Anchor"># </span>Testing:</h3></a>
+<ul>
+<li>Set up deployer to gather metrics.</li>
+<li>Debugging and identifying potential deadlock in the Codex client.</li>
+<li>Added metrics, built image, and ran tests.</li>
+<li>Updated dist-test log for Kibana compatibility.</li>
+<li>Ran dist-tests on a new master image.</li>
+<li>Debugging continuous tests.</li>
+</ul>
+<a href="#development"><h3 id="development"><span class="hanchor" ariaLabel="Anchor"># </span>Development:</h3></a>
+<ul>
+<li>Worked on codex-dht nimble updates and fixing key format issue.</li>
+<li>Updated CI and split Windows CI tests to run on two CI machines.</li>
+<li>Continued updating dependencies in codex-dht.</li>
+<li>Fixed decoding large manifests (
+
+<a href="https://github.com/codex-storage/nim-codex/pull/497" rel="noopener">PR #479</a>).</li>
+<li>Explored the existing implementation of NAT Traversal techniques in <code>nim-libp2p</code>.</li>
+</ul>
+<a href="#research"><h3 id="research"><span class="hanchor" ariaLabel="Anchor"># </span>Research</h3></a>
+<ul>
+<li>Exploring additional directions for remote verification techniques and the interplay of different encoding approaches and cryptographic primitives
+<ul>
+<li>
+
+<a href="https://eprint.iacr.org/2021/1500.pdf" rel="noopener">https://eprint.iacr.org/2021/1500.pdf</a></li>
+<li>
+
+<a href="https://dankradfeist.de/ethereum/2021/06/18/pcs-multiproofs.html" rel="noopener">https://dankradfeist.de/ethereum/2021/06/18/pcs-multiproofs.html</a></li>
+<li>
+
+<a href="https://eprint.iacr.org/2021/1544.pdf" rel="noopener">https://eprint.iacr.org/2021/1544.pdf</a></li>
+</ul>
+</li>
+<li>Onboarding Balázs as our ZK researcher/engineer</li>
+<li>Continued research in DAS related topics
+<ul>
+<li>Running simulation on newly setup infrastructure</li>
+</ul>
+</li>
+<li>Devised a new direction to reduce metadata overhead and enable remote verification 
+
+<a href="https://github.com/codex-storage/codex-research/blob/master/design/metadata-overhead" rel="noopener">https://github.com/codex-storage/codex-research/blob/master/design/metadata-overhead.md</a></li>
+<li>Looked into NAT Traversal (
+
+<a href="https://github.com/codex-storage/nim-codex/issues/166" rel="noopener">issue #166</a>).</li>
+</ul>
+<a href="#cross-functional-combination-of-devopstestingdevelopment"><h3 id="cross-functional-combination-of-devopstestingdevelopment"><span class="hanchor" ariaLabel="Anchor"># </span>Cross-functional (Combination of DevOps/Testing/Development):</h3></a>
+<ul>
+<li>Fixed discovery related issues.</li>
+<li>Planned Codex Demo update for the Logos event and prepared environment for the demo.</li>
+<li>Described requirements for Dist Tests logs format.</li>
+<li>Configured new Logs shipper and Grafana in Dist-Tests cluster.</li>
+<li>Dist Tests logs adoption requirements - Updated log format for Kibana compatibility.</li>
+<li>Hetzner Dedicated server was configured.</li>
+<li>Set up Hetzner StorageBox for local backup on Dedicated server.</li>
+<li>Configured new Logs shipper in Dist-Tests cluster.</li>
+<li>Setup Grafana in Dist-Tests cluster.</li>
+<li>Created a separate codex-contracts-eth Docker image for Dist-Tests.</li>
+<li>Setup Ingress Controller in Dist-Tests cluster.</li>
+</ul>
+<hr>
+<a href="#conversations"><h4 id="conversations"><span class="hanchor" ariaLabel="Anchor"># </span>Conversations</h4></a>
+<ol>
+<li>zk_id <em>—</em> 07/24/2023 11:59 AM</li>
+</ol>
+<blockquote>
+<p>We&rsquo;ve explored VDI for rollups ourselves in the last week, curious to know your thoughts</p>
+</blockquote>
+<ol start="2">
+<li>dryajov <em>—</em> 07/25/2023 1:28 PM</li>
+</ol>
+<blockquote>
+<p>It depends on what you mean, from a high level (A)VID is probably the closest thing to DAS in academic research, in fact DAS is probably either a subset or a superset of VID, so it&rsquo;s definitely worth digging into. But I&rsquo;m not sure what exactly you&rsquo;re interested in, in the context of rollups&hellip;</p>
+</blockquote>
+<ol>
+<li>
+<p>zk_id <em>—</em> 07/25/2023 3:28 PM</p>
+<p>The part of the rollups seems to be the base for choosing proofs that scale linearly with the amount of nodes (which makes it impractical for large numbers of nodes). The protocol is very simple, and would only need to instead provide constant proofs with the Kate commitments (at the cost of large computational resources is my understanding). This was at least the rationale that I get from reading the paper and the conversation with Bunz, one of the founders of the Espresso shared sequencer (which is where I found the first reference to this paper). I guess my main open question is why would you do the sampling if you can do VID in the context of blockchains as well. With the proofs of dispersal on-chain, you wouldn&rsquo;t need to do that for the agreement of the dispersal. You still would need the sampling for the light clients though, of course.</p>
+</li>
+<li>
+<p>dryajov <em>—</em> 07/25/2023 8:31 PM</p>
+<blockquote>
+<p>I guess my main open question is why would you do the sampling if you can do VID in the context of blockchains as well. With the proofs of dispersal on-chain, you wouldn&rsquo;t need to do that for the agreement of the dispersal.</p>
+</blockquote>
+<p>Yeah, great question. What follows is strictly IMO, as I haven&rsquo;t seen this formally contrasted anywhere, so my reasoning can be wrong in subtle ways.</p>
+<ul>
+<li>(A)VID - <strong>dispersing</strong> and storing data in a verifiable manner</li>
+<li>Sampling - verifying already <strong>dispersed</strong> data</li>
+</ul>
+<p>tl;dr Sampling allows light nodes to protect against dishonest majority attacks. In other words, a light node cannot be tricked to follow an incorrect chain by a dishonest validator majority that withholds data. More details are here - 
+
+<a href="https://dankradfeist.de/ethereum/2019/12/20/data-availability-checks.html" rel="noopener">https://dankradfeist.de/ethereum/2019/12/20/data-availability-checks.html</a> &mdash;&mdash;&mdash;&mdash;- First, DAS implies (A)VID, as there is an initial phase where data is distributed to some subset of nodes. Moreover, these nodes, usually the validators, attest that they received the data and that it is correct. If a majority of validators accepts, then the block is considered correct, otherwise it is rejected. This is the verifiable dispersal part. But what if the majority of validators are dishonest? Can you prevent them from tricking the rest of the network from following the chain?</p>
+<p>Dankrad Feist</p>
+<p>
+
+<a href="https://dankradfeist.de/ethereum/2019/12/20/data-availability-checks.html" rel="noopener">Data availability checks</a></p>
+<p>Primer on data availability checks</p>
+</li>
+<li>
+<p><em>[<em>8:31 PM</em>]</em></p>
+<a href="#dealing-with-dishonest-majorities"><h2 id="dealing-with-dishonest-majorities"><span class="hanchor" ariaLabel="Anchor"># </span>Dealing with dishonest majorities</h2></a>
+<p>This is easy if all the data is downloaded by all nodes all the time, but we&rsquo;re trying to avoid just that. But lets assume, for the sake of the argument, that there are full nodes in the network that download all the data and are able to construct fraud proofs for missing data, can this mitigate the problem? It turns out that it can&rsquo;t, because proving data (un)availability isn&rsquo;t a directly attributable fault - in other words, you can observe/detect it but there is no way you can prove it to the rest of the network reliably. More details here 
+
+<a href="https://github.com/ethereum/research/wiki/A-note-on-data-availability-and-erasure-coding" rel="noopener">https://github.com/ethereum/research/wiki/A-note-on-data-availability-and-erasure-coding</a> So, if there isn&rsquo;t much that can be done by detecting that a block isn&rsquo;t available, what good is it for? Well nodes can still avoid following the unavailable chain and thus be tricked by a dishonest majority. However, simply attesting that data has been publishing is not enough to prevent a dishonest majority from attacking the network. (edited)</p>
+</li>
+<li>
+<p>dryajov <em>—</em> 07/25/2023 9:06 PM</p>
+<p>To complement, the relevant quote from 
+
+<a href="https://github.com/ethereum/research/wiki/A-note-on-data-availability-and-erasure-coding" rel="noopener">https://github.com/ethereum/research/wiki/A-note-on-data-availability-and-erasure-coding</a>, is:</p>
+<blockquote>
+<p>Here, fraud proofs are not a solution, because not publishing data is not a uniquely attributable fault - in any scheme where a node (&ldquo;fisherman&rdquo;) has the ability to &ldquo;raise the alarm&rdquo; about some piece of data not being available, if the publisher then publishes the remaining data, all nodes who were not paying attention to that specific piece of data at that exact time cannot determine whether it was the publisher that was maliciously withholding data or whether it was the fisherman that was maliciously making a false alarm.</p>
+</blockquote>
+<p>The relevant quote from from 
+
+<a href="https://dankradfeist.de/ethereum/2019/12/20/data-availability-checks.html" rel="noopener">https://dankradfeist.de/ethereum/2019/12/20/data-availability-checks.html</a>, is:</p>
+<blockquote>
+<p>There is one gap in the solution of using fraud proofs to protect light clients from incorrect state transitions: What if a consensus supermajority has signed a block header, but will not publish some of the data (in particular, it could be fraudulent transactions that they will publish later to trick someone into accepting printed/stolen money)? Honest full nodes, obviously, will not follow this chain, as they can’t download the data. But light clients will not know that the data is not available since they don’t try to download the data, only the header. So we are in a situation where the honest full nodes know that something fishy is going on, but they have no means of alerting the light clients, as they are missing the piece of data that might be needed to create a fraud proof.</p>
+</blockquote>
+<p>Both articles are a bit old, but the intuitions still hold.</p>
+</li>
+</ol>
+<p>July 26, 2023</p>
+<ol start="6">
+<li>
+<p>zk_id <em>—</em> 07/26/2023 10:42 AM</p>
+<p>Thanks a ton @dryajov ! We are on the same page. TBH it took me a while to get to this point, as it&rsquo;s not an intuitive problem at first. The relationship between the VID and the DAS, and what each is for is crucial for us, btw. Your writing here and your references give us the confidence that we understand the problem and are equipped to evaluate the different solutions. Deeply appreciate that you took the time to write this, and is very valuable.</p>
+</li>
+<li>
+<p><em>[<em>10:45 AM</em>]</em></p>
+<p>The dishonest majority is critical scenario for Nomos (essential part of the whole sovereignty narrative), and generally not considered by most blockchain designs</p>
+</li>
+<li>
+<p>zk_id</p>
+<p>Thanks a ton @dryajov ! We are on the same page. TBH it took me a while to get to this point, as it&rsquo;s not an intuitive problem at first. The relationship between the VID and the DAS, and what each is for is crucial for us, btw. Your writing here and your references give us the confidence that we understand the problem and are equipped to evaluate the different solutions. Deeply appreciate that you took the time to write this, and is very valuable.</p>
+<a href="#dryajov-__-07262023-442-pm"><h3 id="dryajov-__-07262023-442-pm"><span class="hanchor" ariaLabel="Anchor"># </span>dryajov <em>—</em> 07/26/2023 4:42 PM</h3></a>
+<p>Great! Glad to help anytime</p>
+</li>
+<li>
+<p>zk_id</p>
+<p>The dishonest majority is critical scenario for Nomos (essential part of the whole sovereignty narrative), and generally not considered by most blockchain designs</p>
+<p>dryajov <em>—</em> 07/26/2023 4:43 PM</p>
+<p>Yes, I&rsquo;d argue it is crucial in a network with distributed validation, where all nodes are either fully light or partially light nodes.</p>
+</li>
+<li>
+<p><em>[<em>4:46 PM</em>]</em></p>
+<p>Btw, there is probably more we can share/compare notes on in this problem space, we&rsquo;re looking at similar things, perhaps from a slightly different perspective in Codex&rsquo;s case, but the work done on DAS with the EF directly is probably very relevant for you as well</p>
+</li>
+</ol>
+<p>July 27, 2023</p>
+<ol start="12">
+<li>
+<p>zk_id <em>—</em> 07/27/2023 3:05 AM</p>
+<p>I would love to. Do you have those notes somewhere?</p>
+</li>
+<li>
+<p>zk_id <em>—</em> 07/27/2023 4:01 AM</p>
+<p>all the links you have, anything, would be useful</p>
+</li>
+<li>
+<p>zk_id</p>
+<p>I would love to. Do you have those notes somewhere?</p>
+<p>dryajov <em>—</em> 07/27/2023 4:50 PM</p>
+<p>A bit scattered all over the place, mainly from @Leobago and @cskiraly @cskiraly has a draft paper somewhere</p>
+</li>
+</ol>
+<p>July 28, 2023</p>
+<ol start="16">
+<li>
+<p>zk_id <em>—</em> 07/28/2023 5:47 AM</p>
+<p>Would love to see anything that is possible</p>
+</li>
+<li>
+<p><em>[<em>5:47 AM</em>]</em></p>
+<p>Our setting is much simpler, but any progress that you make (specifically in the computational cost of the polynomial commitments or alternative proofs) would be really useful for us</p>
+</li>
+<li>
+<p>zk_id</p>
+<p>Our setting is much simpler, but any progress that you make (specifically in the computational cost of the polynomial commitments or alternative proofs) would be really useful for us</p>
+<p>dryajov <em>—</em> 07/28/2023 4:07 PM</p>
+<p>Yes, we&rsquo;re also working in this direction as this is crucial for us as well. There should be some result coming soon(tm), now that @bkomuves is helping us with this part.</p>
+</li>
+<li>
+<p>zk_id</p>
+<p>Our setting is much simpler, but any progress that you make (specifically in the computational cost of the polynomial commitments or alternative proofs) would be really useful for us</p>
+<p>bkomuves <em>—</em> 07/28/2023 4:44 PM</p>
+<p>my current view (it&rsquo;s changing pretty often :) is that there is tension between:</p>
+<ul>
+<li>commitment cost</li>
+<li>proof cost</li>
+<li>and verification cost</li>
+</ul>
+<p>the holy grail which is the best for all of them doesn&rsquo;t seem to exist. Hence, you have to make tradeoffs, and it depends on your specific use case what you should optimize for, or what balance you aim for. we plan to find some points in this 3 dimensional space which are hopefully close to the optimal surface, and in parallel to that figure out what balance to aim for, and then choose a solution based on that (and also based on what&rsquo;s possible, there are external restrictions)</p>
+</li>
+</ol>
+<p>July 29, 2023</p>
+<ol start="21">
+<li>
+<p>bkomuves</p>
+<p>my current view (it&rsquo;s changing pretty often :) is that there is tension between: </p>
+<ul>
+<li>commitment cost</li>
+<li>proof cost</li>
+<li>and verification cost</li>
+</ul>
+<p> the holy grail which is the best for all of them doesn&rsquo;t seem to exist. Hence, you have to make tradeoffs, and it depends on your specific use case what you should optimize for, or what balance you aim for. we plan to find some points in this 3 dimensional space which are hopefully close to the optimal surface, and in parallel to that figure out what balance to aim for, and then choose a solution based on that (and also based on what&rsquo;s possible, there are external restrictions)</p>
+<p>zk_id <em>—</em> 07/29/2023 4:23 AM</p>
+<p>I agree. That&rsquo;s also my understanding (although surely much more superficial).</p>
+</li>
+<li>
+<p><em>[<em>4:24 AM</em>]</em></p>
+<p>There is also the dimension of computation vs size cost</p>
+</li>
+<li>
+<p><em>[<em>4:25 AM</em>]</em></p>
+<p>ie the VID scheme (of the paper that kickstarted this conversation) has all the properties we need, but it scales n^2 in message complexity which makes it lose the properties we are looking for after 1k nodes. We need to scale confortably to 10k nodes.</p>
+</li>
+<li>
+<p><em>[<em>4:29 AM</em>]</em></p>
+<p>So we are at the moment most likely to use KZG commitments with a 2d RS polynomial. Basically just copy Ethereum. Reason is:</p>
+<ul>
+<li>Our rollups/EZ leader will generate this, and those are beefier machines than the Base Layer. The base layer nodes just need to verify and sign the EC fragments and return them to complete the VID protocol (and then run consensus on the aggregated signed proofs).</li>
+<li>If we ever decide to change the design for the VID dispersal to be done by Base Layer leaders (in a multileader fashion), it can be distributed (rows/columns can be reconstructed and proven separately). I don&rsquo;t think we will pursue this, but we will have to if this scheme doesn&rsquo;t scale with the first option.</li>
+</ul>
+</li>
+</ol>
+<p>August 1, 2023</p>
+<ol start="26">
+<li>
+<p>dryajov</p>
+<p>A bit scattered all over the place, mainly from @Leobago and @cskiraly @cskiraly has a draft paper somewhere</p>
+<p>Leobago <em>—</em> 08/01/2023 1:13 PM</p>
+<p>Note much public write-ups yet. You can find some content here:</p>
+<ul>
+<li>
+<p>
+
+<a href="https://blog.codex.storage/data-availability-sampling/" rel="noopener">https://blog.codex.storage/data-availability-sampling/</a></p>
+<ul>
+<li>
+
+<a href="https://github.com/codex-storage/das-research" rel="noopener">https://github.com/codex-storage/das-research</a></li>
+</ul>
+</li>
+</ul>
+<p>We also have a few Jupiter notebooks but they are not public yet. As soon as that content is out we can let you know 
+
+<img src="https://discord.com/assets/da3651e59d6006dfa5fa07ec3102d1f3.svg" width="auto" alt="🙂"  /></p>
+<p>Codex Storage Blog</p>
+<p>
+
+<a href="https://blog.codex.storage/data-availability-sampling/" rel="noopener">Data Availability Sampling</a></p>
+<p>The Codex team is busy building a new web3 decentralized storage platform with the latest advances in erasure coding and verification systems. Part of the challenge of deploying decentralized storage infrastructure is to guarantee that the data that has been stored and is available for retrieval from the beginning until</p>
+<p>GitHub</p>
+<p>
+
+<a href="https://github.com/codex-storage/das-research" rel="noopener">GitHub - codex-storage/das-research: This repository hosts all the &hellip;</a></p>
+<p>This repository hosts all the research on DAS for the collaboration between Codex and the EF. - GitHub - codex-storage/das-research: This repository hosts all the research on DAS for the collabora&hellip;</p>
+<p>
+
+<a href="https://opengraph.githubassets.com/39769464ebae80ca62c111bf2acb6af95fde1b9dc6e3c5a9eb56316ea363e3d8/codex-storage/das-research" rel="noopener"></a></p>
+<p>
+
+<img src="https://images-ext-2.discordapp.net/external/DxXI-YBkzTrPfx_p6_kVpJzvVe6Ix6DrNxgrCbcsjxo/https/opengraph.githubassets.com/39769464ebae80ca62c111bf2acb6af95fde1b9dc6e3c5a9eb56316ea363e3d8/codex-storage/das-research?width=400&amp;height=200" width="auto" alt="GitHub - codex-storage/das-research: This repository hosts all the &amp;hellip;"  /></p>
+</li>
+<li>
+<p>zk_id</p>
+<p>So we are at the moment most likely to use KZG commitments with a 2d RS polynomial. Basically just copy Ethereum. Reason is: </p>
+<ul>
+<li>Our rollups/EZ leader will generate this, and those are beefier machines than the Base Layer. The base layer nodes just need to verify and sign the EC fragments and return them to complete the VID protocol (and then run consensus on the aggregated signed proofs).</li>
+<li>If we ever decide to change the design for the VID dispersal to be done by Base Layer leaders (in a multileader fashion), it can be distributed (rows/columns can be reconstructed and proven separately). I don&rsquo;t think we will pursue this, but we will have to if this scheme doesn&rsquo;t scale with the first option.</li>
+</ul>
+<p>dryajov <em>—</em> 08/01/2023 1:55 PM</p>
+<p>This might interest you as well - 
+
+<a href="https://blog.subspace.network/combining-kzg-and-erasure-coding-fc903dc78f1a" rel="noopener">https://blog.subspace.network/combining-kzg-and-erasure-coding-fc903dc78f1a</a></p>
+<p>Medium</p>
+<p>
+
+<a href="https://blog.subspace.network/combining-kzg-and-erasure-coding-fc903dc78f1a" rel="noopener">Combining KZG and erasure coding</a></p>
+<p>The Hitchhiker’s Guide to Subspace  — Episode II</p>
+<p>
+
+<a href="https://miro.medium.com/v2/resize:fit:1200/0*KGb5QHFQEd0cvPeP.png" rel="noopener"></a></p>
+<p>
+
+<img src="https://images-ext-2.discordapp.net/external/LkoJxMEskKGMwVs8XTPVQEEu0senjEQf42taOjAYu0k/https/miro.medium.com/v2/resize%3Afit%3A1200/0%2AKGb5QHFQEd0cvPeP.png?width=400&amp;height=200" width="auto" alt="Combining KZG and erasure coding"  /></p>
+</li>
+<li>
+<p><em>[<em>1:56 PM</em>]</em></p>
+<p>This is a great analysis of the current state of the art in structure of data + commitment and the interplay. I would also recoment reading the first article of the series which it also links to</p>
+</li>
+<li>
+<p>zk_id <em>—</em> 08/01/2023 3:04 PM</p>
+<p>Thanks @dryajov @Leobago ! Much appreciated!</p>
+</li>
+<li>
+<p><em>[<em>3:05 PM</em>]</em></p>
+<p>Very glad that we can discuss these things with you. Maybe I have some specific questions once I finish reading a huge pile of pending docs that I&rsquo;m tackling starting today&hellip;</p>
+</li>
+<li>
+<p>zk_id <em>—</em> 08/01/2023 6:34 PM</p>
+<p>@Leobago @dryajov I was playing with the DAS simulator. It seems the results are a bunch of XML. Is there a way so I visualize the results?</p>
+</li>
+<li>
+<p>zk_id</p>
+<p>@Leobago @dryajov I was playing with the DAS simulator. It seems the results are a bunch of XML. Is there a way so I visualize the results?</p>
+<p>Leobago <em>—</em> 08/01/2023 6:36 PM</p>
+<p>Yes, checkout the visual branch and make sure to enable plotting in the config file, it should produce a bunch of figures 
+
+<img src="https://discord.com/assets/da3651e59d6006dfa5fa07ec3102d1f3.svg" width="auto" alt="🙂"  /></p>
+</li>
+<li>
+<p><em>[<em>6:37 PM</em>]</em></p>
+<p>You might find also some bugs here and there on that branch 
+
+<img src="https://discord.com/assets/b45af785b0e648fe2fb7e318a6b8010c.svg" width="auto" alt="😅"  /></p>
+</li>
+<li>
+<p>zk_id <em>—</em> 08/01/2023 7:44 PM</p>
+<p>Thanks!</p>
+</li>
+</ol>
+
+
+    </article>
+    
+
+<hr/>
+
+
+<div class="page-end" id="footer">
+    <div class="backlinks-container">
+        <h3>Backlinks</h3>
+<ul class="backlinks">
+    
+    
+    
+    
+    
+    
+    
+    <li>
+        No backlinks found
+    </li>
+    
+</ul>
+
+    </div>
+    <div>
+        <script
+  src="https://cdn.jsdelivr.net/npm/d3@6.7.0/dist/d3.min.js"
+  integrity="sha256-+7jaYCp29O1JusNWHaYtgUn6EhuP0VaFuswhNV06MyI="
+  crossorigin="anonymous"
+></script>
+<h3>Interactive Graph</h3>
+<div id="graph-container"></div>
+<style>
+  :root {
+    --g-node: var(--secondary);
+    --g-node-active: var(--primary);
+    --g-node-inactive: var(--visited);
+    --g-link: var(--outlinegray);
+    --g-link-active: #5a7282;
+  }
+</style>
+
+<script src="https://roadmap.logos.co/js/graph.abd4bc2af3869a96524d7d23b76152c7.js"></script>
+
+    </div>
+</div>
+
+
+
+<div id="contact_buttons">
+    <footer>
+        <p>Made by Nomos using <a href="https://github.com/jackyzha0/quartz">Quartz</a>, © 2023</p>
+        <ul>
+            
+            <li><a href="https://roadmap.logos.co/">Home</a></li>
+            <li><a href="https://github.com/logos-co/roadmap">Github</a></li></ul>
+    </footer>
+</div>
+
+
+</div>
+</body>
+
+</html>

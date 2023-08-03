@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nomos-updates on </title>
+    <link>https://roadmap.logos.co/tags/nomos-updates/</link>
+    <description>Recent content in nomos-updates on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 31 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://roadmap.logos.co/tags/nomos-updates/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2023-07-31 Nomos weekly</title>
+      <link>https://roadmap.logos.co/roadmap/nomos/updates/2023-07-31/</link>
+      <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://roadmap.logos.co/roadmap/nomos/updates/2023-07-31/</guid>
+      <description>Nomos 31st July
+[Network implementation and Mixnet]:
+Research
+ Initial analysis on the mixnet Proof of Concept (PoC) was performed, assessing components like Sphinx for packets and delay-forwarder.</description>
+    </item>
+    
+    <item>
+      <title>2023-07-24 Nomos weekly</title>
+      <link>https://roadmap.logos.co/roadmap/nomos/updates/2023-07-24/</link>
+      <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://roadmap.logos.co/roadmap/nomos/updates/2023-07-24/</guid>
+      <description>Research
+ Milestone 1: Understanding Data Availability (DA) Problem High-level exploration and discussion on data availability problems in a collaborative offsite meeting in Paris.</description>
+    </item>
+    
+  </channel>
+</rss>

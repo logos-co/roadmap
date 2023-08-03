@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name="generator" content="Hugo 0.92.2" />
   
   <meta charset="UTF-8" />
   <meta
     name="description"
-    content="Information on how the Logos Collective plans to build its products, what it has done so far, and how you can get involved."
+    content="NOTE: This is a first experimental version moving towards the new reporting structure:
+Last week
+ vc vc::Deep Research  milestone (15%, 2023/11/30) paper on gossipsub improvements ready for submission  related work section   milestone (15%, 2023/08/31) Nimbus Tor-push PoC  basic torpush encode/decode ( https://github."
   />
   <title>
-    Logos Technical Roadmap and Activity
+    2023-08-03 Vac weekly
   </title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -228,9 +229,32 @@
 
 
     <article>
-        
+      <h1>2023-08-03 Vac weekly</h1>
+      <p class="meta">
+          Last updated 
+Aug 3, 2023
 
-        
+ 
+          
+<a href="https://github.com/logos-co/roadmap/tree/hugo/content/roadmap/vac/updates/2023-07-24.md" rel="noopener">Edit Source</a>
+
+
+      </p>
+      <ul class="tags">
+          
+          <li><a href="https://roadmap.logos.co/tags/vac-updates/">Vac updates</a></li>
+          
+      </ul>
+      
+<aside class="mainTOC">
+    <details >
+        <summary>Table of Contents</summary>
+        <nav id="TableOfContents"></nav>
+    </details>
+</aside>
+
+
+      
 
 
 
@@ -262,86 +286,268 @@
   
 
 
-<p>This site attempts to inform the previous, current, and future work required to fulfill the requirements of the projects under the Logos Collective, a complete tech stack that provides infrastructure for the self-sovereign network state. To learn more about the motivation, please visit the 
-
-<a href="https://logos.co" rel="noopener">Logos Collective Site</a>.</p>
-<a href="#navigation"><h2 id="navigation"><span class="hanchor" ariaLabel="Anchor"># </span>Navigation</h2></a>
+<p>NOTE: This is a first experimental version moving towards the new reporting structure:</p>
+<p><strong>Last week</strong></p>
 <ul>
-<li>Research and Development Updates
+<li><em>vc</em></li>
+<li><em>vc::Deep Research</em>
 <ul>
-<li>
+<li>milestone (15%, 2023/11/30) paper on gossipsub improvements ready for submission
+<ul>
+<li>related work section</li>
+</ul>
+</li>
+<li>milestone (15%, 2023/08/31) Nimbus Tor-push PoC
+<ul>
+<li>basic torpush encode/decode ( 
 
-
-
-
-
-<a
-  href="/tags/vac-updates/"
-  rel="noopener" class="internal-link"
-  data-src="/tags/vac-updates/">Vac updates</a></li>
-<li>
-
-
-
-
-
-<a
-  href="/tags/waku-updates/"
-  rel="noopener" class="internal-link"
-  data-src="/tags/waku-updates/">Waku updates</a></li>
-<li>
-
-
-
-
-
-<a
-  href="/tags/codex-updates/"
-  rel="noopener" class="internal-link"
-  data-src="/tags/codex-updates/">Codex updates</a></li>
-<li>
-
-
-
-
-
-<a
-  href="/tags/nomos-updates/"
-  rel="noopener" class="internal-link"
-  data-src="/tags/nomos-updates/">Nomos updates</a></li>
-<li>
-
-
-
-
-
-<a
-  href="/tags/ilab-updates/"
-  rel="noopener" class="internal-link"
-  data-src="/tags/ilab-updates/">Innovation Lab updates</a></li>
-<li>
-
-
-
-
-
-<a
-  href="/tags/acid-updates/"
-  rel="noopener" class="internal-link"
-  data-src="/tags/acid-updates/">Comms updates</a></li>
+<a href="https://github.com/vacp2p/nim-libp2p-experimental/pull/1" rel="noopener">https://github.com/vacp2p/nim-libp2p-experimental/pull/1</a> )</li>
+</ul>
+</li>
+<li>milestone (15%, 2023/11/30) paper on Tor push validator privacy
+<ul>
+<li>(focus on Tor-push PoC)</li>
 </ul>
 </li>
 </ul>
+</li>
+<li><em>vsu::P2P</em>
+<ul>
+<li>admin/misc
+<ul>
+<li>EthCC (all CCs)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><em>vsu::Tokenomics</em>
+<ul>
+<li>admin/misc
+<ul>
+<li>Attended EthCC and side events in Paris</li>
+</ul>
+</li>
+<li>milestone (30%, 2023/09/30) Codex economic analysis, Codex token utility, Codex collateral management
+<ul>
+<li>Kicked off a new approach for Codex collateral problem</li>
+</ul>
+</li>
+<li>milestone (50%, 2023/08/30) SNT staking smart contract
+<ul>
+<li>Integrated SNT staking contracts with Python</li>
+</ul>
+</li>
+<li>milestone (50%, 2023/07/14) SNT litepaper
+<ul>
+<li>(delayed)</li>
+</ul>
+</li>
+<li>milestone(30%, 2023/09/29) Nomos Token: requirements and constraints</li>
+</ul>
+</li>
+<li><em>vsu::Distributed Systems Testing</em>
+<ul>
+<li>milestone (95%, 2023/07/31) Wakurtosis Waku Report
+<ul>
+<li>Add timout to injection async call in WLS to avoid further issues (PR #139 
+
+<a href="https://github.com/vacp2p/wakurtosis/pull/139" rel="noopener">https://github.com/vacp2p/wakurtosis/pull/139</a>)</li>
+<li>Plotting &amp; analyse 100 msg/s off line Prometehus data</li>
+</ul>
+</li>
+<li>milestone (90%, 2023/07/31) Nomos CI testing
+<ul>
+<li>fixed errors in Nomos consensus simulation</li>
+</ul>
+</li>
+<li>milestone (30%, &hellip;) gossipsub model analysis
+<ul>
+<li>add config options to script, allowing to load configs that can be directly compared to Wakurtosis results</li>
+<li>added support for small world networks</li>
+</ul>
+</li>
+<li>admin/misc
+<ul>
+<li>Interviews &amp; reports for SE and STA positions</li>
+<li>EthCC (1 CC)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><em>vip::zkVM</em>
+<ul>
+<li>milestone(50%, 2023/08/31) background/research on existing proof systems (nova, sangria&hellip;)
+<ul>
+<li>(write ups will be available here: 
+
+<a href="https://www.notion.so/zkVM-cd358fe429b14fa2ab38ca42835a8451" rel="noopener">https://www.notion.so/zkVM-cd358fe429b14fa2ab38ca42835a8451</a>)</li>
+<li>Solved the open questions on Nova adn completed the document (will update the page)</li>
+<li>Reviewed Nescience and working on a document</li>
+<li>Reviewed partly the write up on FHE</li>
+<li>writeup for Nova and Sangria; research on super nova</li>
+<li>reading a new paper revisiting Nova (
+
+<a href="https://eprint.iacr.org/2023/969" rel="noopener">https://eprint.iacr.org/2023/969</a>)</li>
+</ul>
+</li>
+<li>milestone (50%, 2023/08/31) new fair benchmarks + recursive implementations</li>
+<li>zkvm
+<ul>
+<li>Researching Nova to understand the folding technique for ZKVM adaptation</li>
+</ul>
+</li>
+<li>zerokit
+<ul>
+<li>Rostyslav became circom-compat maintainer</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><em>vip::RLNP2P</em>
+<ul>
+<li>milestone (100%, 2023/07/31) rln-relay testnet 3 completed and retro
+<ul>
+<li>completed</li>
+</ul>
+</li>
+<li>milestone (95%, 2023/07/31) RLN-Relay Waku production readiness</li>
+<li>admin/misc
+<ul>
+<li>EthCC + offsite</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>This week</strong></p>
+<ul>
+<li><em>vc</em></li>
+<li><em>vc::Deep Research</em>
+<ul>
+<li>milestone (15%, 2023/11/30) paper on gossipsub improvements ready for submission
+<ul>
+<li>working on contributions section, based on 
+
+<a href="https://hackmd.io/X1DoBHtYTtuGqYg0qK4zJw" rel="noopener">https://hackmd.io/X1DoBHtYTtuGqYg0qK4zJw</a></li>
+</ul>
+</li>
+<li>milestone (15%, 2023/08/31) Nimbus Tor-push PoC
+<ul>
+<li>working on establishing a connection via nim-libp2p tor-transport</li>
+<li>setting up goerli test node (cont')</li>
+</ul>
+</li>
+<li>milestone (15%, 2023/11/30) paper on Tor push validator privacy
+<ul>
+<li>continue working on paper</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><em>vsu::P2P</em>
+<ul>
+<li>milestone (&hellip;)
+<ul>
+<li>Implement ChokeMessage for GossipSub</li>
+<li>Continue &ldquo;limited flood publishing&rdquo; (
+
+<a href="https://github.com/status-im/nim-libp2p/pull/911" rel="noopener">https://github.com/status-im/nim-libp2p/pull/911</a>)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><em>vsu::Tokenomics</em>
+<ul>
+<li>admin/misc:
+<ul>
+<li>(3 CC days off)</li>
+<li>Catch up with EthCC talks that we couldn&rsquo;t attend (schedule conflicts)</li>
+</ul>
+</li>
+<li>milestone (50%, 2023/07/14) SNT litepaper
+<ul>
+<li>Start building the SNT agent-based simulation</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><em>vsu::Distributed Systems Testing</em>
+<ul>
+<li>milestone (100%, 2023/07/31) Wakurtosis Waku Report
+<ul>
+<li>finalize simulations</li>
+<li>finalize report</li>
+</ul>
+</li>
+<li>milestone (100%, 2023/07/31) Nomos CI testing
+<ul>
+<li>finalize milestone</li>
+</ul>
+</li>
+<li>milestone (30%, &hellip;) gossipsub model analysis
+<ul>
+<li>Incorporate Status control messages</li>
+</ul>
+</li>
+<li>admin/misc
+<ul>
+<li>Interviews &amp; reports for SE and STA positions</li>
+<li>EthCC (1 CC)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><em>vip::zkVM</em>
+<ul>
+<li>milestone(50%, 2023/08/31) background/research on existing proof systems (nova, sangria&hellip;)
+<ul>
+<li>Refine the Nescience WIP and FHE documents</li>
+<li>research HyperNova</li>
+</ul>
+</li>
+<li>milestone (50%, 2023/08/31) new fair benchmarks + recursive implementations
+<ul>
+<li>Continue exploring Nova and other ZKPs and start technical writing on Nova benchmarks</li>
+</ul>
+</li>
+<li>zkvm</li>
+<li>zerokit
+<ul>
+<li>circom: reach an agreement with other maintainers on master branch situation</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><em>vip::RLNP2P</em>
+<ul>
+<li>maintenance
+<ul>
+<li>investigate why docker builds of nwaku are failing [zerokit dependency related]</li>
+<li>documentation on how to use rln for projects interested (
+
+<a href="https://discord.com/channels/864066763682218004/1131734908474236968/1131735766163267695%29%28https://ci.infra.status.im/job/nim-waku/job/manual/45/console" rel="noopener">https://discord.com/channels/864066763682218004/1131734908474236968/1131735766163267695)(https://ci.infra.status.im/job/nim-waku/job/manual/45/console</a>)</li>
+</ul>
+</li>
+<li>milestone (95%, 2023/07/31) RLN-Relay Waku production readiness
+<ul>
+<li>revert rln bandwidth reduction based on offsite discussion, move to different validator</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><em>blockers</em></li>
+</ul>
 
 
-        
     </article>
     
-  
-      <hr/>
-      <div class="page-end" id="footer">
-        <div class="backlinks-container">
-            <h3>Backlinks</h3>
+
+<hr/>
+
+
+<div class="page-end" id="footer">
+    <div class="backlinks-container">
+        <h3>Backlinks</h3>
 <ul class="backlinks">
     
     
@@ -356,9 +562,9 @@
     
 </ul>
 
-        </div>
-        <div>
-            <script
+    </div>
+    <div>
+        <script
   src="https://cdn.jsdelivr.net/npm/d3@6.7.0/dist/d3.min.js"
   integrity="sha256-+7jaYCp29O1JusNWHaYtgUn6EhuP0VaFuswhNV06MyI="
   crossorigin="anonymous"
@@ -377,10 +583,8 @@
 
 <script src="https://roadmap.logos.co/js/graph.abd4bc2af3869a96524d7d23b76152c7.js"></script>
 
-        </div>
-
-      </div>
-  
+    </div>
+</div>
 
 
 
@@ -388,6 +592,8 @@
     <footer>
         <p>Made by Nomos using <a href="https://github.com/jackyzha0/quartz">Quartz</a>, © 2023</p>
         <ul>
+            
+            <li><a href="https://roadmap.logos.co/">Home</a></li>
             <li><a href="https://github.com/logos-co/roadmap">Github</a></li></ul>
     </footer>
 </div>
@@ -395,4 +601,5 @@
 
 </div>
 </body>
+
 </html>

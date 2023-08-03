@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name="generator" content="Hugo 0.92.2" />
   
   <meta charset="UTF-8" />
   <meta
     name="description"
-    content="Information on how the Logos Collective plans to build its products, what it has done so far, and how you can get involved."
+    content="Nomos 31st July
+[Network implementation and Mixnet]:
+Research
+ Initial analysis on the mixnet Proof of Concept (PoC) was performed, assessing components like Sphinx for packets and delay-forwarder."
   />
   <title>
-    Logos Technical Roadmap and Activity
+    2023-07-31 Nomos weekly
   </title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -228,9 +230,25 @@
 
 
     <article>
-        
+      <h1>2023-07-31 Nomos weekly</h1>
+      <p class="meta">
+          Last updated 
+Jul 31, 2023
 
-        
+ 
+          
+<a href="https://github.com/logos-co/roadmap/tree/hugo/content/roadmap/nomos/updates/2023-07-31.md" rel="noopener">Edit Source</a>
+
+
+      </p>
+      <ul class="tags">
+          
+          <li><a href="https://roadmap.logos.co/tags/nomos-updates/">Nomos updates</a></li>
+          
+      </ul>
+      
+
+      
 
 
 
@@ -262,86 +280,63 @@
   
 
 
-<p>This site attempts to inform the previous, current, and future work required to fulfill the requirements of the projects under the Logos Collective, a complete tech stack that provides infrastructure for the self-sovereign network state. To learn more about the motivation, please visit the 
-
-<a href="https://logos.co" rel="noopener">Logos Collective Site</a>.</p>
-<a href="#navigation"><h2 id="navigation"><span class="hanchor" ariaLabel="Anchor"># </span>Navigation</h2></a>
+<p><strong>Nomos 31st July</strong></p>
+<p>[Network implementation and Mixnet]:</p>
+<p>Research</p>
 <ul>
-<li>Research and Development Updates
-<ul>
-<li>
+<li>Initial analysis on the mixnet Proof of Concept (PoC) was performed, assessing components like Sphinx for packets and delay-forwarder.</li>
+<li>Considered the use of a new NetworkInterface in the simulation to mimic the mixnet, but currently, no significant benefits from doing so have been identified.
+Development</li>
+<li>Fixes were made on the Overlay interface.</li>
+<li>Near completion of the libp2p integration with all tests passing so far, a PR is expected to be opened soon.</li>
+<li>Link to libp2p PRs: 
 
+<a href="https://github.com/logos-co/nomos-node/pull/278" rel="noopener">https://github.com/logos-co/nomos-node/pull/278</a>, 
 
+<a href="https://github.com/logos-co/nomos-node/pull/279" rel="noopener">https://github.com/logos-co/nomos-node/pull/279</a>, 
 
+<a href="https://github.com/logos-co/nomos-node/pull/280" rel="noopener">https://github.com/logos-co/nomos-node/pull/280</a>, 
 
-
-<a
-  href="/tags/vac-updates/"
-  rel="noopener" class="internal-link"
-  data-src="/tags/vac-updates/">Vac updates</a></li>
-<li>
-
-
-
-
-
-<a
-  href="/tags/waku-updates/"
-  rel="noopener" class="internal-link"
-  data-src="/tags/waku-updates/">Waku updates</a></li>
-<li>
-
-
-
-
-
-<a
-  href="/tags/codex-updates/"
-  rel="noopener" class="internal-link"
-  data-src="/tags/codex-updates/">Codex updates</a></li>
-<li>
-
-
-
-
-
-<a
-  href="/tags/nomos-updates/"
-  rel="noopener" class="internal-link"
-  data-src="/tags/nomos-updates/">Nomos updates</a></li>
-<li>
-
-
-
-
-
-<a
-  href="/tags/ilab-updates/"
-  rel="noopener" class="internal-link"
-  data-src="/tags/ilab-updates/">Innovation Lab updates</a></li>
-<li>
-
-
-
-
-
-<a
-  href="/tags/acid-updates/"
-  rel="noopener" class="internal-link"
-  data-src="/tags/acid-updates/">Comms updates</a></li>
+<a href="https://github.com/logos-co/nomos-node/pull/281" rel="noopener">https://github.com/logos-co/nomos-node/pull/281</a></li>
+<li>Started working on the foundation of the libp2p-mixnet transport.</li>
 </ul>
-</li>
+<p>[Private PoS]:</p>
+<p>Research</p>
+<ul>
+<li>Discussions were held on the Privacy PoS (PPoS) proposal, aligning a general direction of team members.</li>
+<li>Reviews on the PPoS proposal were done.</li>
+<li>A proposal to merge the PPoS proposal with the efficient one was made, in order to have both privacy and efficiency.</li>
+<li>Discussions on merging Efficient PoS (EPoS) with PPoS are in progress.</li>
+</ul>
+<p>[Carnot]:</p>
+<p>Research</p>
+<ul>
+<li>Analyzing Bribery attack scenarios, which seem to make Carnot more vulnerable than expected.</li>
+</ul>
+<p><strong>Development</strong></p>
+<ul>
+<li>Improved simulation application to meet test scale requirements (
+
+<a href="https://github.com/logos-co/nomos-node/pull/274%29" rel="noopener">https://github.com/logos-co/nomos-node/pull/274)</a>.</li>
+<li>Created a strategy to solve the large message sending issue in the simulation application.</li>
+</ul>
+<p>[Data Availability Sampling (or VID)]:</p>
+<p>Research</p>
+<ul>
+<li>Conducted an analysis of stored data &ldquo;degradation&rdquo; problem for data availability, modeling fractions of nodes which leave the system at regular time intervals</li>
+<li>Continued literature reading on Verifiable Information Dispersal (VID) for DA problem, as well as encoding/commitment schemes.</li>
 </ul>
 
 
-        
     </article>
     
-  
-      <hr/>
-      <div class="page-end" id="footer">
-        <div class="backlinks-container">
-            <h3>Backlinks</h3>
+
+<hr/>
+
+
+<div class="page-end" id="footer">
+    <div class="backlinks-container">
+        <h3>Backlinks</h3>
 <ul class="backlinks">
     
     
@@ -356,9 +351,9 @@
     
 </ul>
 
-        </div>
-        <div>
-            <script
+    </div>
+    <div>
+        <script
   src="https://cdn.jsdelivr.net/npm/d3@6.7.0/dist/d3.min.js"
   integrity="sha256-+7jaYCp29O1JusNWHaYtgUn6EhuP0VaFuswhNV06MyI="
   crossorigin="anonymous"
@@ -377,10 +372,8 @@
 
 <script src="https://roadmap.logos.co/js/graph.abd4bc2af3869a96524d7d23b76152c7.js"></script>
 
-        </div>
-
-      </div>
-  
+    </div>
+</div>
 
 
 
@@ -388,6 +381,8 @@
     <footer>
         <p>Made by Nomos using <a href="https://github.com/jackyzha0/quartz">Quartz</a>, © 2023</p>
         <ul>
+            
+            <li><a href="https://roadmap.logos.co/">Home</a></li>
             <li><a href="https://github.com/logos-co/roadmap">Github</a></li></ul>
     </footer>
 </div>
@@ -395,4 +390,5 @@
 
 </div>
 </body>
+
 </html>

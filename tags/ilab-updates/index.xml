@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ilab-updates on </title>
+    <link>https://roadmap.logos.co/tags/ilab-updates/</link>
+    <description>Recent content in ilab-updates on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 02 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://roadmap.logos.co/tags/ilab-updates/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2023-08-02 Innovation Lab weekly</title>
+      <link>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-08-02/</link>
+      <pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-08-02/</guid>
+      <description>Logos Lab 2nd of August Currently working on the Waku Objects prototype, which is a modular system for transactional chat objects.</description>
+    </item>
+    
+    <item>
+      <title>2023-07-12 Innovation Lab Weekly</title>
+      <link>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-07-12/</link>
+      <pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-07-12/</guid>
+      <description>Logos Lab 12th of July Currently working on the Waku Objects prototype, which is a modular system for transactional chat objects.</description>
+    </item>
+    
+  </channel>
+</rss>
