@@ -5,9 +5,8 @@
   <meta charset="UTF-8" />
   <meta
     name="description"
-    content="Waku 31 Jul
- Waku Docs
-Milestone: Docs general improvement/incorporating feedback (continuous) next: rewrite docs in British English Milestone: Running nwaku in the cloud next: publish guides for Digital Ocean, Oracle, Fly."
+    content="##Docs
+Milestone: Docs general improvement/incorporating feedback (continuous) next:  rewrite docs in British English  Milestone: Running nwaku in the cloud next:  publish guides for Digital Ocean, Oracle, Fly."
   />
   <title>
     2023-07-31 Waku weekly
@@ -104,7 +103,7 @@ Milestone: Docs general improvement/incorporating feedback (continuous) next: re
               index: data.index,
               links: data.links,
             })),
-          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.7df7b9d5330d839733e334d553ef23c2.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.5f867de57d8553b69d0887be33481a40.min.json")
             .then(data => data.json()),
         ])
         .then(([{index, links}, content]) => ({
@@ -249,7 +248,46 @@ Jul 31, 2023
 <aside class="mainTOC">
     <details >
         <summary>Table of Contents</summary>
-        <nav id="TableOfContents"></nav>
+        <nav id="TableOfContents">
+  <ol>
+    <li>
+      <ol>
+        <li><a href="#milestone-docs-general-improvementincorporating-feedback-continuous"><strong>Milestone</strong>: Docs general improvement/incorporating feedback (continuous)</a></li>
+        <li><a href="#milestone-running-nwaku-in-the-cloud"><strong>Milestone</strong>: Running nwaku in the cloud</a></li>
+      </ol>
+    </li>
+    <li><a href="#eco-dev-wip">Eco Dev (WIP)</a></li>
+    <li><a href="#research">Research</a>
+      <ol>
+        <li><a href="#milestone-detailed-network-requirements-and-task-breakdown"><strong>Milestone</strong>: Detailed network requirements and task breakdown</a></li>
+        <li><a href="#milestone-autosharding-v1httpsgithubcomwaku-orgnwakuissues1846"><strong>Milestone</strong>: <a href="https://github.com/waku-org/nwaku/issues/1846">Autosharding v1</a></a></li>
+      </ol>
+    </li>
+    <li><a href="#nwaku">nwaku</a>
+      <ol>
+        <li><a href="#milestone-nwaku-release-process-automation"><strong>Milestone</strong>: nwaku release process automation</a></li>
+        <li><a href="#milestone-http-rest-api-for-protocols"><strong>Milestone</strong>: HTTP Rest API for protocols</a></li>
+      </ol>
+    </li>
+    <li><a href="#go-waku">go-waku</a>
+      <ol>
+        <li><a href="#milestone-increase-maintability-score-refer-to-codeclimate-reporthttpscodeclimatecomgithubwaku-orggo-waku"><strong>Milestone</strong>: Increase Maintability Score. Refer to <a href="https://codeclimate.com/github/waku-org/go-waku">CodeClimate report</a></a></li>
+        <li><a href="#milestone-rln-updates-refer-issuehttpsgithubcomwaku-orggo-wakuissues608"><strong>Milestone</strong>: RLN updates, refer <a href="https://github.com/waku-org/go-waku/issues/608">issue</a>.</a></li>
+        <li><a href="#milestone-improve-test-coverage-for-functional-tests-of-all-protocols-refer-to-codeclimate-report"><strong>Milestone</strong>: Improve test coverage for functional tests of all protocols. Refer to [CodeClimate report]</a></li>
+        <li><a href="#milestone-c-bindings"><strong>Milestone</strong>: C-Bindings</a></li>
+      </ol>
+    </li>
+    <li><a href="#js-waku">js-waku</a>
+      <ol>
+        <li><a href="#milestone-peer-managementhttpsgithubcomwaku-orgjs-wakuissues914"><strong>Milestone</strong>: <a href="https://github.com/waku-org/js-waku/issues/914">Peer management</a></a></li>
+        <li><a href="#milestone-peer-exchangehttpsgithubcomwaku-orgjs-wakuissues1429"><strong>Milestone</strong>: <a href="https://github.com/waku-org/js-waku/issues/1429">Peer Exchange</a></a></li>
+        <li><a href="#milestone-static-sharding"><strong>Milestone</strong>: Static Sharding</a></li>
+        <li><a href="#milestone-developer-experience"><strong>Milestone</strong>: Developer Experience</a></li>
+        <li><a href="#milestone-maintenance"><strong>Milestone</strong>: Maintenance</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
     </details>
 </aside>
 
@@ -286,75 +324,132 @@ Jul 31, 2023
   
 
 
-<p><strong>Waku 31 Jul</strong></p>
-<hr>
-<p>Waku
-Docs</p>
-<p><strong>Milestone</strong>: Docs general improvement/incorporating feedback (continuous)
-<em>next:</em> rewrite docs in British English
-<strong>Milestone</strong>: Running nwaku in the cloud
-<em>next:</em> publish guides for Digital Ocean, Oracle, Fly.io</p>
-<hr>
-<p>Waku
-Eco Dev (WIP)</p>
-<hr>
-<p>Waku
-Research</p>
-<p><strong>Milestone</strong>: Detailed network requirements and task breakdown
-<em>achieved:</em> gathering rough network requirements
-<em>next:</em> detailed task breakdown per milestone and effort allocation</p>
-<p><strong>Milestone</strong>: 
-
-<a href="https://github.com/waku-org/nwaku/issues/1846" rel="noopener">Autosharding v1</a>
-<em>achieved:</em> update FILTER &amp; STORE for autosharding
-<em>next:</em> RFC review &amp; updates, code review &amp; updates</p>
-<hr>
-<p>Waku
-nwaku</p>
-<p><strong>Milestone</strong>: nwaku release process automation
-<em>next</em>:</p>
+<p>##Docs</p>
+<a href="#milestone-docs-general-improvementincorporating-feedback-continuous"><h3 id="milestone-docs-general-improvementincorporating-feedback-continuous"><span class="hanchor" ariaLabel="Anchor"># </span><strong>Milestone</strong>: Docs general improvement/incorporating feedback (continuous)</h3></a>
+<a href="#_next_"><h4 id="_next_"><span class="hanchor" ariaLabel="Anchor"># </span><em>next:</em></h4></a>
 <ul>
-<li>setup automation to test/simulate current <code>master</code> to prevent/limit regressions</li>
-<li>expand target architectures and platforms for release artifacts (e.g. arm64, Win&hellip;)
-<strong>Milestone</strong>: HTTP Rest API for protocols
-<em>next:</em> Filter API added, tests to complete.</li>
+<li>rewrite docs in British English</li>
+</ul>
+<a href="#milestone-running-nwaku-in-the-cloud"><h3 id="milestone-running-nwaku-in-the-cloud"><span class="hanchor" ariaLabel="Anchor"># </span><strong>Milestone</strong>: Running nwaku in the cloud</h3></a>
+<a href="#_next_-1"><h4 id="_next_-1"><span class="hanchor" ariaLabel="Anchor"># </span><em>next:</em></h4></a>
+<ul>
+<li>publish guides for Digital Ocean, Oracle, Fly.io</li>
 </ul>
 <hr>
-<p>Waku
-go-waku</p>
-<p><strong>Milestone</strong>: Increase Maintability Score. Refer to 
-
-<a href="https://codeclimate.com/github/waku-org/go-waku" rel="noopener">CodeClimate report</a>
-<em>next:</em> define scope on which issues reported by CodeClimate should be fixed. Initially it should be limited to reduce code complexity and duplication.</p>
-<p><strong>Milestone</strong>: RLN updates, refer 
-
-<a href="https://github.com/waku-org/go-waku/issues/608" rel="noopener">issue</a>.
-<em>achieved</em>: expose <code>set_tree</code>, <code>key_gen</code>, <code>seeded_key_gen</code>, <code>extended_seeded_keygen</code>, <code>recover_id_secret</code>, <code>set_leaf</code>, <code>init_tree_with_leaves</code>, <code>set_metadata</code>, <code>get_metadata</code> and <code>get_leaf</code>; created an example on how to use RLN with go-waku; service node can pass in index to keystore credentials and can verify proofs based on bandwidth usage
-<em>next</em>: merkle tree batch operations (in progress); usage of persisted merkle tree db</p>
-<p><strong>Milestone</strong>: Improve test coverage for functional tests of all protocols. Refer to [CodeClimate report]
-<em>next</em>: define scope on which code sections should be covered by tests</p>
-<p><strong>Milestone</strong>: C-Bindings
-<em>next</em>: update API to match nwaku&rsquo;s (by using callbacks instead of strings that require freeing)</p>
+<a href="#eco-dev-wip"><h2 id="eco-dev-wip"><span class="hanchor" ariaLabel="Anchor"># </span>Eco Dev (WIP)</h2></a>
 <hr>
-<p>Waku
-js-waku</p>
-<p><strong>Milestone</strong>: 
+<a href="#research"><h2 id="research"><span class="hanchor" ariaLabel="Anchor"># </span>Research</h2></a>
+<a href="#milestone-detailed-network-requirements-and-task-breakdown"><h3 id="milestone-detailed-network-requirements-and-task-breakdown"><span class="hanchor" ariaLabel="Anchor"># </span><strong>Milestone</strong>: Detailed network requirements and task breakdown</h3></a>
+<a href="#_achieved_"><h4 id="_achieved_"><span class="hanchor" ariaLabel="Anchor"># </span><em>achieved:</em></h4></a>
+<ul>
+<li>gathering rough network requirements</li>
+</ul>
+<a href="#_next_-2"><h4 id="_next_-2"><span class="hanchor" ariaLabel="Anchor"># </span><em>next:</em></h4></a>
+<ul>
+<li>detailed task breakdown per milestone and effort allocation</li>
+</ul>
+<h3 id="milestone-autosharding-v1httpsgithubcomwaku-orgnwakuissues1846"><strong>Milestone</strong>: 
 
-<a href="https://github.com/waku-org/js-waku/issues/914" rel="noopener">Peer management</a>
-<em>achieved</em>: extend ConnectionManager with EventEmitter and dispatch peers tagged with their discovery + make it public on the Waku interface
-<em>next</em>: fallback improvement for peer connect rejection</p>
-<p><strong>Milestone</strong>: 
+<a href="https://github.com/waku-org/nwaku/issues/1846" rel="noopener">Autosharding v1</a></h3>
+<a href="#_achieved_-1"><h4 id="_achieved_-1"><span class="hanchor" ariaLabel="Anchor"># </span><em>achieved:</em></h4></a>
+<ul>
+<li>update FILTER &amp; STORE for autosharding</li>
+</ul>
+<a href="#_next_-3"><h4 id="_next_-3"><span class="hanchor" ariaLabel="Anchor"># </span><em>next:</em></h4></a>
+<ul>
+<li>RFC review &amp; updates</li>
+<li>code review &amp; updates</li>
+</ul>
+<hr>
+<a href="#nwaku"><h2 id="nwaku"><span class="hanchor" ariaLabel="Anchor"># </span>nwaku</h2></a>
+<a href="#milestone-nwaku-release-process-automation"><h3 id="milestone-nwaku-release-process-automation"><span class="hanchor" ariaLabel="Anchor"># </span><strong>Milestone</strong>: nwaku release process automation</h3></a>
+<a href="#_next_-4"><h4 id="_next_-4"><span class="hanchor" ariaLabel="Anchor"># </span><em>next</em>:</h4></a>
+<ul>
+<li>setup automation to test/simulate current <code>master</code> to prevent/limit regressions</li>
+<li>expand target architectures and platforms for release artifacts (e.g. arm64, Win&hellip;)</li>
+</ul>
+<a href="#milestone-http-rest-api-for-protocols"><h3 id="milestone-http-rest-api-for-protocols"><span class="hanchor" ariaLabel="Anchor"># </span><strong>Milestone</strong>: HTTP Rest API for protocols</h3></a>
+<a href="#_next_-5"><h4 id="_next_-5"><span class="hanchor" ariaLabel="Anchor"># </span><em>next:</em></h4></a>
+<ul>
+<li>Filter API added</li>
+<li>tests to complete.</li>
+</ul>
+<hr>
+<a href="#go-waku"><h2 id="go-waku"><span class="hanchor" ariaLabel="Anchor"># </span>go-waku</h2></a>
+<h3 id="milestone-increase-maintability-score-refer-to-codeclimate-reporthttpscodeclimatecomgithubwaku-orggo-waku"><strong>Milestone</strong>: Increase Maintability Score. Refer to 
 
-<a href="https://github.com/waku-org/js-waku/issues/1429" rel="noopener">Peer Exchange</a>
-<em>next</em>: robusting support around peer-exchange for examples;
-<strong>Milestone</strong>: Static Sharding
-<em>achieved</em>: WIP implementation of static sharding in js-waku
-<em>next</em>: investigation around gauging connection loss;</p>
-<p><strong>Milestone</strong>: Developer Experience
-<em>achieved</em>: improve &amp; update @waku/react; merge and release js-libp2p upgrade
-update examples to latest release + make sure no old/unused packages there</p>
-<p><strong>Milestone</strong>: Maintenance
-<em>next</em>: update to 
+<a href="https://codeclimate.com/github/waku-org/go-waku" rel="noopener">CodeClimate report</a></h3>
+<a href="#_next_-6"><h4 id="_next_-6"><span class="hanchor" ariaLabel="Anchor"># </span><em>next:</em></h4></a>
+<ul>
+<li>define scope on which issues reported by CodeClimate should be fixed. Initially it should be limited to reduce code complexity and duplication.</li>
+</ul>
+<h3 id="milestone-rln-updates-refer-issuehttpsgithubcomwaku-orggo-wakuissues608"><strong>Milestone</strong>: RLN updates, refer 
+
+<a href="https://github.com/waku-org/go-waku/issues/608" rel="noopener">issue</a>.</h3>
+<p><em>achieved</em>:</p>
+<ul>
+<li>expose <code>set_tree</code>, <code>key_gen</code>, <code>seeded_key_gen</code>, <code>extended_seeded_keygen</code>, <code>recover_id_secret</code>, <code>set_leaf</code>, <code>init_tree_with_leaves</code>, <code>set_metadata</code>, <code>get_metadata</code> and <code>get_leaf</code></li>
+<li>created an example on how to use RLN with go-waku</li>
+<li>service node can pass in index to keystore credentials and can verify proofs based on bandwidth usage</li>
+</ul>
+<a href="#_next_-7"><h4 id="_next_-7"><span class="hanchor" ariaLabel="Anchor"># </span><em>next</em>:</h4></a>
+<ul>
+<li>merkle tree batch operations (in progress)</li>
+<li>usage of persisted merkle tree db</li>
+</ul>
+<a href="#milestone-improve-test-coverage-for-functional-tests-of-all-protocols-refer-to-codeclimate-report"><h3 id="milestone-improve-test-coverage-for-functional-tests-of-all-protocols-refer-to-codeclimate-report"><span class="hanchor" ariaLabel="Anchor"># </span><strong>Milestone</strong>: Improve test coverage for functional tests of all protocols. Refer to [CodeClimate report]</h3></a>
+<a href="#_next_-8"><h4 id="_next_-8"><span class="hanchor" ariaLabel="Anchor"># </span><em>next</em>:</h4></a>
+<ul>
+<li>define scope on which code sections should be covered by tests</li>
+</ul>
+<a href="#milestone-c-bindings"><h3 id="milestone-c-bindings"><span class="hanchor" ariaLabel="Anchor"># </span><strong>Milestone</strong>: C-Bindings</h3></a>
+<a href="#_next_-9"><h4 id="_next_-9"><span class="hanchor" ariaLabel="Anchor"># </span><em>next</em>:</h4></a>
+<ul>
+<li>update API to match nwaku&rsquo;s (by using callbacks instead of strings that require freeing)</li>
+</ul>
+<hr>
+<a href="#js-waku"><h2 id="js-waku"><span class="hanchor" ariaLabel="Anchor"># </span>js-waku</h2></a>
+<h3 id="milestone-peer-managementhttpsgithubcomwaku-orgjs-wakuissues914"><strong>Milestone</strong>: 
+
+<a href="https://github.com/waku-org/js-waku/issues/914" rel="noopener">Peer management</a></h3>
+<a href="#_achieved_-2"><h4 id="_achieved_-2"><span class="hanchor" ariaLabel="Anchor"># </span><em>achieved</em>:</h4></a>
+<ul>
+<li>extend ConnectionManager with EventEmitter and dispatch peers tagged with their discovery + make it public on the Waku interface</li>
+</ul>
+<a href="#_next_-10"><h4 id="_next_-10"><span class="hanchor" ariaLabel="Anchor"># </span><em>next</em>:</h4></a>
+<ul>
+<li>fallback improvement for peer connect rejection</li>
+</ul>
+<h3 id="milestone-peer-exchangehttpsgithubcomwaku-orgjs-wakuissues1429"><strong>Milestone</strong>: 
+
+<a href="https://github.com/waku-org/js-waku/issues/1429" rel="noopener">Peer Exchange</a></h3>
+<a href="#_next_-11"><h4 id="_next_-11"><span class="hanchor" ariaLabel="Anchor"># </span><em>next</em>:</h4></a>
+<ul>
+<li>robusting support around peer-exchange for examples</li>
+</ul>
+<a href="#milestone-static-sharding"><h3 id="milestone-static-sharding"><span class="hanchor" ariaLabel="Anchor"># </span><strong>Milestone</strong>: Static Sharding</h3></a>
+<a href="#_achieved_-3"><h4 id="_achieved_-3"><span class="hanchor" ariaLabel="Anchor"># </span><em>achieved</em>:</h4></a>
+<ul>
+<li>WIP implementation of static sharding in js-waku</li>
+</ul>
+<a href="#_next_-12"><h4 id="_next_-12"><span class="hanchor" ariaLabel="Anchor"># </span><em>next</em>:</h4></a>
+<ul>
+<li>investigation around gauging connection loss;</li>
+</ul>
+<a href="#milestone-developer-experience"><h3 id="milestone-developer-experience"><span class="hanchor" ariaLabel="Anchor"># </span><strong>Milestone</strong>: Developer Experience</h3></a>
+<a href="#_achieved_-4"><h4 id="_achieved_-4"><span class="hanchor" ariaLabel="Anchor"># </span><em>achieved</em>:</h4></a>
+<ul>
+<li>improve &amp; update @waku/react</li>
+<li>merge and release js-libp2p upgrade</li>
+</ul>
+<a href="#_next_-13"><h4 id="_next_-13"><span class="hanchor" ariaLabel="Anchor"># </span><em>next:</em></h4></a>
+<ul>
+<li>update examples to latest release + make sure no old/unused packages there</li>
+</ul>
+<a href="#milestone-maintenance"><h3 id="milestone-maintenance"><span class="hanchor" ariaLabel="Anchor"># </span><strong>Milestone</strong>: Maintenance</h3></a>
+<a href="#_achieved_-5"><h4 id="_achieved_-5"><span class="hanchor" ariaLabel="Anchor"># </span><em>achieved</em>:</h4></a>
+<ul>
+<li>update to 
 
 
 
@@ -363,8 +458,12 @@ update examples to latest release + make sure no old/unused packages there</p>
 <a
   
   rel="noopener" class="internal-link broken"
-  data-src="mailto:libp2p@0.46.0">libp2p@0.46.0</a>
-<em>next</em>: suit of optional tests in pipeline</p>
+  data-src="mailto:libp2p@0.46.0">libp2p@0.46.0</a></li>
+</ul>
+<a href="#_next_-14"><h4 id="_next_-14"><span class="hanchor" ariaLabel="Anchor"># </span><em>next</em>:</h4></a>
+<ul>
+<li>suit of optional tests in pipeline</li>
+</ul>
 <hr>
 
 
