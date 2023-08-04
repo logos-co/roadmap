@@ -102,7 +102,7 @@
               index: data.index,
               links: data.links,
             })),
-          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.fac68475ffec5f5f9e8dca14f02f2bba.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.7df7b9d5330d839733e334d553ef23c2.min.json")
             .then(data => data.json()),
         ])
         .then(([{index, links}, content]) => ({
@@ -249,14 +249,52 @@ Jul 24, 2023
         <summary>Table of Contents</summary>
         <nav id="TableOfContents">
   <ol>
-    <li>
+    <li><a href="#docs">Docs</a>
       <ol>
-        <li><a href="#docs">Docs</a></li>
-        <li><a href="#eco-dev-wip">Eco Dev (WIP)</a></li>
-        <li><a href="#research-wip">Research (WIP)</a></li>
-        <li><a href="#nwaku-wip">nwaku (WIP)</a></li>
-        <li><a href="#go-waku-wip">go-waku (WIP)</a></li>
-        <li><a href="#js-waku-wip">js-waku (WIP)</a></li>
+        <li><a href="#milestone-foundation-for-waku-docs-done"><strong>Milestone</strong>: Foundation for Waku docs (done)</a></li>
+        <li><a href="#milestone-foundation-for-node-operator-docs-done"><strong>Milestone</strong>: Foundation for node operator docs (done)</a></li>
+        <li><a href="#milestone-foundation-for-js-waku-docs"><strong>Milestone</strong>: Foundation for js-waku docs</a></li>
+        <li><a href="#milestone-docs-general-improvementincorporating-feedback-continuous"><strong>Milestone</strong>: Docs general improvement/incorporating feedback (continuous)</a></li>
+        <li><a href="#milestone-running-nwaku-in-the-cloud"><strong>Milestone</strong>: Running nwaku in the cloud</a></li>
+        <li><a href="#milestone-add-waku-guide-to-learnweb3io"><strong>Milestone</strong>: Add Waku guide to learnweb3.io</a></li>
+        <li><a href="#milestone-encryption-docs-for-js-waku"><strong>Milestone</strong>: Encryption docs for js-waku</a></li>
+        <li><a href="#milestone-advanced-node-operator-doc-postgres-wss-monitoring-common-config"><strong>Milestone</strong>: Advanced node operator doc (postgres, WSS, monitoring, common config)</a></li>
+        <li><a href="#milestone-foundation-for-go-waku-docs"><strong>Milestone</strong>: Foundation for go-waku docs</a></li>
+        <li><a href="#milestone-foundation-for-rust-waku-bindings-docs"><strong>Milestone</strong>: Foundation for rust-waku-bindings docs</a></li>
+        <li><a href="#milestone-waku-architecture-docs"><strong>Milestone</strong>: Waku architecture docs</a></li>
+        <li><a href="#milestone-waku-detailed-roadmap-and-milestones"><strong>Milestone</strong>: Waku detailed roadmap and milestones</a></li>
+        <li><a href="#milestone-explain-rln"><strong>Milestone</strong>: Explain RLN</a></li>
+      </ol>
+    </li>
+    <li><a href="#eco-dev-wip">Eco Dev (WIP)</a>
+      <ol>
+        <li><a href="#milestone-ethcc-logos-side-event-organisation-done"><strong>Milestone</strong>: EthCC Logos side event organisation (done)</a></li>
+        <li><a href="#milestone-community-growth"><strong>Milestone</strong>: Community Growth</a></li>
+        <li><a href="#milestone-business-development-continuous"><strong>Milestone</strong>: Business Development (continuous)</a></li>
+        <li><a href="#milestone-setting-up-content-strategy-for-waku"><strong>Milestone</strong>: Setting Up Content Strategy for Waku</a></li>
+        <li><a href="#milestone-web3conf-dates"><strong>Milestone</strong>: Web3Conf (dates)</a></li>
+        <li><a href="#milestone-decompute-conf"><strong>Milestone</strong>: DeCompute conf</a></li>
+      </ol>
+    </li>
+    <li><a href="#research-wip">Research (WIP)</a>
+      <ol>
+        <li><a href="#milestone-autosharding-v1httpsgithubcomwaku-orgnwakuissues1846"><strong>Milestone</strong>: <a href="https://github.com/waku-org/nwaku/issues/1846">Autosharding v1</a></a></li>
+      </ol>
+    </li>
+    <li><a href="#nwaku-wip">nwaku (WIP)</a>
+      <ol>
+        <li><a href="#milestone-postgres-integration"><strong>Milestone</strong>: Postgres integration.</a></li>
+        <li><a href="#milestone-nwaku-as-a-library-c-bindings"><strong>Milestone</strong>: nwaku as a library (C-bindings)</a></li>
+      </ol>
+    </li>
+    <li><a href="#go-waku-wip">go-waku (WIP)</a></li>
+    <li><a href="#js-waku-wip">js-waku (WIP)</a>
+      <ol>
+        <li><a href="#milestone-peer-managementhttpsgithubcomwaku-orgjs-wakuissues914"><strong>Milestone</strong>: <a href="https://github.com/waku-org/js-waku/issues/914">Peer management</a></a></li>
+        <li><a href="#milestone-peer-exchangehttpsgithubcomwaku-orgjs-wakuissues1429"><strong>Milestone</strong>: <a href="https://github.com/waku-org/js-waku/issues/1429">Peer Exchange</a></a></li>
+        <li><a href="#milestone-static-sharding"><strong>Milestone</strong>: Static Sharding</a></li>
+        <li><a href="#milestone-developer-experience"><strong>Milestone</strong>: Developer Experience</a></li>
+        <li><a href="#milestone-waku-relay-in-the-browser"><strong>Milestone</strong>: Waku Relay in the Browser</a></li>
       </ol>
     </li>
   </ol>
@@ -299,107 +337,145 @@ Jul 24, 2023
 
 <p>Disclaimer: First attempt playing with the format. Incomplete as not everyone is back and we are still adjusting the milestones.</p>
 <hr>
-<a href="#docs"><h3 id="docs"><span class="hanchor" ariaLabel="Anchor"># </span>Docs</h3></a>
-<p><strong>Milestone</strong>: Foundation for Waku docs (done)
-<em>achieved</em>:</p>
+<a href="#docs"><h2 id="docs"><span class="hanchor" ariaLabel="Anchor"># </span>Docs</h2></a>
+<a href="#milestone-foundation-for-waku-docs-done"><h3 id="milestone-foundation-for-waku-docs-done"><span class="hanchor" ariaLabel="Anchor"># </span><strong>Milestone</strong>: Foundation for Waku docs (done)</h3></a>
+<a href="#_achieved_"><h4 id="_achieved_"><span class="hanchor" ariaLabel="Anchor"># </span><em>achieved</em>:</h4></a>
 <ul>
 <li>overall layout</li>
 <li>concept docs</li>
-<li>community/showcase pages
-<strong>Milestone</strong>: Foundation for node operator docs (done)
-<em>achieved</em>:</li>
+<li>community/showcase pages</li>
+</ul>
+<a href="#milestone-foundation-for-node-operator-docs-done"><h3 id="milestone-foundation-for-node-operator-docs-done"><span class="hanchor" ariaLabel="Anchor"># </span><strong>Milestone</strong>: Foundation for node operator docs (done)</h3></a>
+<a href="#_achieved_-1"><h4 id="_achieved_-1"><span class="hanchor" ariaLabel="Anchor"># </span><em>achieved</em>:</h4></a>
+<ul>
 <li>nodes overview page</li>
 <li>guide for running nwaku (binaries, source, docker)</li>
 <li>peer discovery config guide</li>
-<li>reference docs for config methods and options
-<strong>Milestone</strong>: Foundation for js-waku docs
-<em>achieved</em>:</li>
+<li>reference docs for config methods and options</li>
+</ul>
+<a href="#milestone-foundation-for-js-waku-docs"><h3 id="milestone-foundation-for-js-waku-docs"><span class="hanchor" ariaLabel="Anchor"># </span><strong>Milestone</strong>: Foundation for js-waku docs</h3></a>
+<a href="#_achieved_-2"><h4 id="_achieved_-2"><span class="hanchor" ariaLabel="Anchor"># </span><em>achieved</em>:</h4></a>
+<ul>
 <li>js-waku overview + installation guide</li>
 <li>lightpush + filter guide</li>
 <li>store guide</li>
 <li>@waku/create-app guide</li>
 </ul>
-<p><em>next:</em></p>
+<a href="#_next_"><h4 id="_next_"><span class="hanchor" ariaLabel="Anchor"># </span><em>next:</em></h4></a>
 <ul>
 <li>improve @waku/react guide</li>
 </ul>
-<p><em>blocker:</em></p>
+<a href="#_blocker_"><h4 id="_blocker_"><span class="hanchor" ariaLabel="Anchor"># </span><em>blocker:</em></h4></a>
 <ul>
 <li>polyfills issue with 
 
 <a href="https://github.com/waku-org/js-waku/issues/1415" rel="noopener">js-waku</a></li>
 </ul>
-<p><strong>Milestone</strong>: Docs general improvement/incorporating feedback (continuous)
-<strong>Milestone</strong>: Running nwaku in the cloud
-<strong>Milestone</strong>: Add Waku guide to learnweb3.io
-<strong>Milestone</strong>: Encryption docs for js-waku
-<strong>Milestone</strong>: Advanced node operator doc (postgres, WSS, monitoring, common config)
-<strong>Milestone</strong>: Foundation for go-waku docs
-<strong>Milestone</strong>: Foundation for rust-waku-bindings docs
-<strong>Milestone</strong>: Waku architecture docs
-<strong>Milestone</strong>: Waku detailed roadmap and milestones
-<strong>Milestone</strong>: Explain RLN</p>
+<a href="#milestone-docs-general-improvementincorporating-feedback-continuous"><h3 id="milestone-docs-general-improvementincorporating-feedback-continuous"><span class="hanchor" ariaLabel="Anchor"># </span><strong>Milestone</strong>: Docs general improvement/incorporating feedback (continuous)</h3></a>
+<a href="#milestone-running-nwaku-in-the-cloud"><h3 id="milestone-running-nwaku-in-the-cloud"><span class="hanchor" ariaLabel="Anchor"># </span><strong>Milestone</strong>: Running nwaku in the cloud</h3></a>
+<a href="#milestone-add-waku-guide-to-learnweb3io"><h3 id="milestone-add-waku-guide-to-learnweb3io"><span class="hanchor" ariaLabel="Anchor"># </span><strong>Milestone</strong>: Add Waku guide to learnweb3.io</h3></a>
+<a href="#milestone-encryption-docs-for-js-waku"><h3 id="milestone-encryption-docs-for-js-waku"><span class="hanchor" ariaLabel="Anchor"># </span><strong>Milestone</strong>: Encryption docs for js-waku</h3></a>
+<a href="#milestone-advanced-node-operator-doc-postgres-wss-monitoring-common-config"><h3 id="milestone-advanced-node-operator-doc-postgres-wss-monitoring-common-config"><span class="hanchor" ariaLabel="Anchor"># </span><strong>Milestone</strong>: Advanced node operator doc (postgres, WSS, monitoring, common config)</h3></a>
+<a href="#milestone-foundation-for-go-waku-docs"><h3 id="milestone-foundation-for-go-waku-docs"><span class="hanchor" ariaLabel="Anchor"># </span><strong>Milestone</strong>: Foundation for go-waku docs</h3></a>
+<a href="#milestone-foundation-for-rust-waku-bindings-docs"><h3 id="milestone-foundation-for-rust-waku-bindings-docs"><span class="hanchor" ariaLabel="Anchor"># </span><strong>Milestone</strong>: Foundation for rust-waku-bindings docs</h3></a>
+<a href="#milestone-waku-architecture-docs"><h3 id="milestone-waku-architecture-docs"><span class="hanchor" ariaLabel="Anchor"># </span><strong>Milestone</strong>: Waku architecture docs</h3></a>
+<a href="#milestone-waku-detailed-roadmap-and-milestones"><h3 id="milestone-waku-detailed-roadmap-and-milestones"><span class="hanchor" ariaLabel="Anchor"># </span><strong>Milestone</strong>: Waku detailed roadmap and milestones</h3></a>
+<a href="#milestone-explain-rln"><h3 id="milestone-explain-rln"><span class="hanchor" ariaLabel="Anchor"># </span><strong>Milestone</strong>: Explain RLN</h3></a>
 <hr>
-<a href="#eco-dev-wip"><h3 id="eco-dev-wip"><span class="hanchor" ariaLabel="Anchor"># </span>Eco Dev (WIP)</h3></a>
-<p><strong>Milestone</strong>: EthCC Logos side event organisation (done)
-<strong>Milestone</strong>: Community Growth
-<em>achieved</em>: Wrote several bounties, improved template; setup onboarding flow in Discord.
-<em>next</em>: Review template, publish on GitHub</p>
-<p><strong>Milestone</strong>: Business Development (continuous)
-<em>achieved</em>: Discussions with various leads in EthCC
-<em>next</em>: Booking calls with said leads</p>
-<p><strong>Milestone</strong>: Setting Up Content Strategy for Waku
-<em>achieved</em>: Discussions with Comms Hubs re Waku Blog, expressed needs and intent around future blog post and needed amplification; discuss strategies to onboard/involve non-dev and potential CTAs.</p>
-<p><strong>Milestone</strong>: Web3Conf (dates)
-<strong>Milestone</strong>: DeCompute conf</p>
+<a href="#eco-dev-wip"><h2 id="eco-dev-wip"><span class="hanchor" ariaLabel="Anchor"># </span>Eco Dev (WIP)</h2></a>
+<a href="#milestone-ethcc-logos-side-event-organisation-done"><h3 id="milestone-ethcc-logos-side-event-organisation-done"><span class="hanchor" ariaLabel="Anchor"># </span><strong>Milestone</strong>: EthCC Logos side event organisation (done)</h3></a>
+<a href="#milestone-community-growth"><h3 id="milestone-community-growth"><span class="hanchor" ariaLabel="Anchor"># </span><strong>Milestone</strong>: Community Growth</h3></a>
+<a href="#_achieved_-3"><h4 id="_achieved_-3"><span class="hanchor" ariaLabel="Anchor"># </span><em>achieved</em>:</h4></a>
+<ul>
+<li>Wrote several bounties, improved template; setup onboarding flow in Discord.</li>
+</ul>
+<a href="#_next_-1"><h4 id="_next_-1"><span class="hanchor" ariaLabel="Anchor"># </span><em>next</em>:</h4></a>
+<ul>
+<li>Review template, publish on GitHub</li>
+</ul>
+<a href="#milestone-business-development-continuous"><h3 id="milestone-business-development-continuous"><span class="hanchor" ariaLabel="Anchor"># </span><strong>Milestone</strong>: Business Development (continuous)</h3></a>
+<a href="#_achieved_-4"><h4 id="_achieved_-4"><span class="hanchor" ariaLabel="Anchor"># </span><em>achieved</em>:</h4></a>
+<ul>
+<li>Discussions with various leads in EthCC</li>
+</ul>
+<a href="#_next_-2"><h4 id="_next_-2"><span class="hanchor" ariaLabel="Anchor"># </span><em>next</em>:</h4></a>
+<ul>
+<li>Booking calls with said leads</li>
+</ul>
+<a href="#milestone-setting-up-content-strategy-for-waku"><h3 id="milestone-setting-up-content-strategy-for-waku"><span class="hanchor" ariaLabel="Anchor"># </span><strong>Milestone</strong>: Setting Up Content Strategy for Waku</h3></a>
+<a href="#_achieved_-5"><h4 id="_achieved_-5"><span class="hanchor" ariaLabel="Anchor"># </span><em>achieved</em>:</h4></a>
+<ul>
+<li>Discussions with Comms Hubs re Waku Blog</li>
+<li>expressed needs and intent around future blog post and needed amplification</li>
+<li>discuss strategies to onboard/involve non-dev and potential CTAs.</li>
+</ul>
+<a href="#milestone-web3conf-dates"><h3 id="milestone-web3conf-dates"><span class="hanchor" ariaLabel="Anchor"># </span><strong>Milestone</strong>: Web3Conf (dates)</h3></a>
+<a href="#milestone-decompute-conf"><h3 id="milestone-decompute-conf"><span class="hanchor" ariaLabel="Anchor"># </span><strong>Milestone</strong>: DeCompute conf</h3></a>
 <hr>
-<a href="#research-wip"><h3 id="research-wip"><span class="hanchor" ariaLabel="Anchor"># </span>Research (WIP)</h3></a>
-<p><strong>Milestone</strong>: 
+<a href="#research-wip"><h2 id="research-wip"><span class="hanchor" ariaLabel="Anchor"># </span>Research (WIP)</h2></a>
+<h3 id="milestone-autosharding-v1httpsgithubcomwaku-orgnwakuissues1846"><strong>Milestone</strong>: 
 
-<a href="https://github.com/waku-org/nwaku/issues/1846" rel="noopener">Autosharding v1</a>
-<em>achieved:</em> rendezvous hashing; weighting function; updated LIGHTPUSH to handle autosharding</p>
-<p><em>next:</em></p>
+<a href="https://github.com/waku-org/nwaku/issues/1846" rel="noopener">Autosharding v1</a></h3>
+<a href="#_achieved_-6"><h4 id="_achieved_-6"><span class="hanchor" ariaLabel="Anchor"># </span><em>achieved:</em></h4></a>
+<ul>
+<li>rendezvous hashing</li>
+<li>weighting function</li>
+<li>updated LIGHTPUSH to handle autosharding</li>
+</ul>
+<a href="#_next_-3"><h4 id="_next_-3"><span class="hanchor" ariaLabel="Anchor"># </span><em>next:</em></h4></a>
 <ul>
 <li>update FILTER &amp; STORE for autosharding</li>
 </ul>
 <hr>
-<a href="#nwaku-wip"><h3 id="nwaku-wip"><span class="hanchor" ariaLabel="Anchor"># </span>nwaku (WIP)</h3></a>
-<p><strong>Milestone</strong>: Postgres integration.
-<em>achieved:</em></p>
+<a href="#nwaku-wip"><h2 id="nwaku-wip"><span class="hanchor" ariaLabel="Anchor"># </span>nwaku (WIP)</h2></a>
+<a href="#milestone-postgres-integration"><h3 id="milestone-postgres-integration"><span class="hanchor" ariaLabel="Anchor"># </span><strong>Milestone</strong>: Postgres integration.</h3></a>
+<a href="#_achieved_-7"><h4 id="_achieved_-7"><span class="hanchor" ariaLabel="Anchor"># </span><em>achieved:</em></h4></a>
 <ul>
 <li>nwaku can store messages in a Postgres database</li>
 <li>we started to perform stress tests</li>
 </ul>
-<p><em>next:</em></p>
+<a href="#_next_-4"><h4 id="_next_-4"><span class="hanchor" ariaLabel="Anchor"># </span><em>next:</em></h4></a>
 <ul>
 <li>Analyse why some messages are not stored during stress tests happened in both sqlite and Postgres, so maybe the issue isn&rsquo;t directly related to <em>store</em>.</li>
 </ul>
-<p><strong>Milestone</strong>: nwaku as a library (C-bindings)
-<em>achieved:</em></p>
+<a href="#milestone-nwaku-as-a-library-c-bindings"><h3 id="milestone-nwaku-as-a-library-c-bindings"><span class="hanchor" ariaLabel="Anchor"># </span><strong>Milestone</strong>: nwaku as a library (C-bindings)</h3></a>
+<a href="#_achieved_-8"><h4 id="_achieved_-8"><span class="hanchor" ariaLabel="Anchor"># </span><em>achieved:</em></h4></a>
 <ul>
 <li>The integration is in progress through N-API framework</li>
 </ul>
-<p><em>next:</em></p>
+<a href="#_next_-5"><h4 id="_next_-5"><span class="hanchor" ariaLabel="Anchor"># </span><em>next:</em></h4></a>
 <ul>
 <li>Make the nodejs to properly work by running the <em>nwaku</em> node in a separate thread.</li>
 </ul>
 <hr>
-<a href="#go-waku-wip"><h3 id="go-waku-wip"><span class="hanchor" ariaLabel="Anchor"># </span>go-waku (WIP)</h3></a>
+<a href="#go-waku-wip"><h2 id="go-waku-wip"><span class="hanchor" ariaLabel="Anchor"># </span>go-waku (WIP)</h2></a>
 <hr>
-<a href="#js-waku-wip"><h3 id="js-waku-wip"><span class="hanchor" ariaLabel="Anchor"># </span>js-waku (WIP)</h3></a>
-<p><strong>Milestone</strong>: 
+<a href="#js-waku-wip"><h2 id="js-waku-wip"><span class="hanchor" ariaLabel="Anchor"># </span>js-waku (WIP)</h2></a>
+<h3 id="milestone-peer-managementhttpsgithubcomwaku-orgjs-wakuissues914"><strong>Milestone</strong>: 
 
-<a href="https://github.com/waku-org/js-waku/issues/914" rel="noopener">Peer management</a>
-_achieved: spec test for connection manager</p>
-<p><strong>Milestone</strong>: 
+<a href="https://github.com/waku-org/js-waku/issues/914" rel="noopener">Peer management</a></h3>
+<a href="#_achieved"><h4 id="_achieved"><span class="hanchor" ariaLabel="Anchor"># </span>_achieved:</h4></a>
+<ul>
+<li>spec test for connection manager</li>
+</ul>
+<h3 id="milestone-peer-exchangehttpsgithubcomwaku-orgjs-wakuissues1429"><strong>Milestone</strong>: 
 
-<a href="https://github.com/waku-org/js-waku/issues/1429" rel="noopener">Peer Exchange</a>
-<strong>Milestone</strong>: Static Sharding
-<em>next</em>: start implementation of static sharding in js-waku</p>
-<p><strong>Milestone</strong>: Developer Experience
-<em>achieved</em>: js-lip2p upgrade to remove usage of polyfills (draft PR)
-<em>next</em>: merge and release js-libp2p upgrade</p>
-<p><strong>Milestone</strong>: Waku Relay in the Browser</p>
+<a href="https://github.com/waku-org/js-waku/issues/1429" rel="noopener">Peer Exchange</a></h3>
+<a href="#milestone-static-sharding"><h3 id="milestone-static-sharding"><span class="hanchor" ariaLabel="Anchor"># </span><strong>Milestone</strong>: Static Sharding</h3></a>
+<a href="#_next_-6"><h4 id="_next_-6"><span class="hanchor" ariaLabel="Anchor"># </span><em>next</em>:</h4></a>
+<ul>
+<li>start implementation of static sharding in js-waku</li>
+</ul>
+<a href="#milestone-developer-experience"><h3 id="milestone-developer-experience"><span class="hanchor" ariaLabel="Anchor"># </span><strong>Milestone</strong>: Developer Experience</h3></a>
+<a href="#_achieved_-9"><h4 id="_achieved_-9"><span class="hanchor" ariaLabel="Anchor"># </span><em>achieved</em>:</h4></a>
+<ul>
+<li>js-lip2p upgrade to remove usage of polyfills (draft PR)</li>
+</ul>
+<a href="#_next_-7"><h4 id="_next_-7"><span class="hanchor" ariaLabel="Anchor"># </span><em>next</em>:</h4></a>
+<ul>
+<li>merge and release js-libp2p upgrade</li>
+</ul>
+<a href="#milestone-waku-relay-in-the-browser"><h3 id="milestone-waku-relay-in-the-browser"><span class="hanchor" ariaLabel="Anchor"># </span><strong>Milestone</strong>: Waku Relay in the Browser</h3></a>
 <hr>
 
 
