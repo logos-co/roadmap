@@ -70,6 +70,11 @@
   <script src="{{$callouts.Permalink}}"></script>
   {{ end }}
 
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+</script>
+
   <!--  Preload page vars  -->
   {{$linkIndex := resources.Get "indices/linkIndex.json" | resources.Fingerprint
   "md5" | resources.Minify | }} {{$contentIndex := resources.Get
@@ -162,6 +167,7 @@
       {{end}}
     };
   </script>
+  
   {{if $.Site.Data.config.enableSPA}}
   {{ $router := resources.Get "js/router.js" | resources.Fingerprint "md5" |
   resources.Minify }}

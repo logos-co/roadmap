@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ .Lang }}">
 {{ partial "head.html" . }}
-
 <body>
 {{partial "search.html" .}}
 <div class="singlePage">
@@ -22,7 +21,14 @@
       {{partial "textprocessing.html" . }}
     </article>
     {{partial "footer.html" .}}
+    {{ if .Page.Store.Get "hasMermaid" }}
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    {{ end }}
 </div>
 </body>
 
 </html>
+
