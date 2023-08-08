@@ -5,10 +5,11 @@
   <meta charset="UTF-8" />
   <meta
     name="description"
-    content="Logos Lab 12th of July Currently working on the Waku Objects prototype, which is a modular system for transactional chat objects."
+    content="Milestones for current works are created and used. Next steps are:
+Refine scope of research work for rest of the year and create matching milestones for research and waku clients Review work not coming from research and setting dates Note that format matches the Notion page but can be changed easily as it&rsquo;s scripted nwaku Release Process Improvements {E:2023-qa}"
   />
   <title>
-    2023-07-12 Innovation Lab Weekly
+    2023-08-06 Waku weekly
   </title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -232,20 +233,20 @@
 
 
     <article>
-      <h1>2023-07-12 Innovation Lab Weekly</h1>
+      <h1>2023-08-06 Waku weekly</h1>
       <p class="meta">
           Last updated 
-Jul 12, 2023
+Aug 8, 2023
 
  
           
-<a href="https://github.com/logos-co/roadmap/tree/hugo/content/roadmap/innovation_lab/updates/2023-07-12.md" rel="noopener">Edit Source</a>
+<a href="https://github.com/logos-co/roadmap/tree/hugo/content/roadmap/waku/updates/2023-08-06.md" rel="noopener">Edit Source</a>
 
 
       </p>
       <ul class="tags">
           
-          <li><a href="https://roadmap.logos.co/tags/ilab-updates/">Ilab updates</a></li>
+          <li><a href="https://roadmap.logos.co/tags/waku-updates/">Waku updates</a></li>
           
       </ul>
       
@@ -254,11 +255,12 @@ Jul 12, 2023
         <summary>Table of Contents</summary>
         <nav id="TableOfContents">
   <ol>
-    <li>
-      <ol>
-        <li></li>
-      </ol>
-    </li>
+    <li><a href="#nwaku">nwaku</a></li>
+    <li><a href="#js-waku">js-waku</a></li>
+    <li><a href="#go-waku">go-waku</a></li>
+    <li><a href="#eco-dev">Eco Dev</a></li>
+    <li><a href="#docs">Docs</a></li>
+    <li><a href="#research">Research</a></li>
   </ol>
 </nav>
     </details>
@@ -297,49 +299,154 @@ Jul 12, 2023
   
 
 
-<p><strong>Logos Lab</strong> 12th of July
-Currently working on the Waku Objects prototype, which is a modular system for transactional chat objects.</p>
-<p><strong>Milestone</strong>: deliver the first transactional Waku Object called Payggy (attached some design screenshots).</p>
-<p>It is now possible to make transactions on the blockchain and the objects send notifications over the messaging layer (e.g. Waku) to the other participants. What is left is the proper transaction status management and some polishing.</p>
-<p>There is also work being done on supporting external objects, this enables creating the objects with any web technology. This work will guide the separation of the interfaces between the app and the objects and lead us to release it as an SDK.</p>
-<p><strong>Next milestone</strong>: group chat support</p>
-<p>The design is already done for the group chat functionality. There is ongoing design work for a new Waku Object that would showcase what can be done in a group chat context.</p>
-<p>Deployed version of the main branch:
-
-
-<a href="https://waku-objects-playground.vercel.app/" rel="noopener">https://waku-objects-playground.vercel.app/</a></p>
-<p>Link to Payggy design files:
-
-
-<a href="https://scene.zeplin.io/project/64ae9e965652632169060c7d" rel="noopener">https://scene.zeplin.io/project/64ae9e965652632169060c7d</a></p>
-<p>Main development repo:
-
-
-<a href="https://github.com/logos-innovation-lab/waku-objects-playground" rel="noopener">https://github.com/logos-innovation-lab/waku-objects-playground</a></p>
-<p>Contact:
-You can find us at 
-
-<a href="https://discord.com/channels/973324189794697286/1118949151225413872" rel="noopener">https://discord.com/channels/973324189794697286/1118949151225413872</a> or join our discord at 
-
-<a href="https://discord.gg/UtVHf2EU" rel="noopener">https://discord.gg/UtVHf2EU</a></p>
-<hr>
-<a href="#conversation"><h4 id="conversation"><span class="hanchor" ariaLabel="Anchor"># </span>Conversation</h4></a>
+<p>Milestones for current works are created and used. Next steps are:</p>
 <ol>
-<li>
-<p>petty <em>—</em> 07/15/2023 5:49 AM</p>
-<p>the <code>waku-objects</code> repo is empty. Where is the code storing that part vs the playground that is using them?</p>
-</li>
-<li>
-<p>petty</p>
-<p>the <code>waku-objects</code> repo is empty. Where is the code storing that part vs the playground that is using them?</p>
-</li>
-<li>
-<p>attila🍀 <em>—</em> 07/15/2023 6:18 AM</p>
-<p>at the moment most of the code is in the <code>waku-objects-playground</code> repo later we may split it to several repos here is the link: 
+<li>Refine scope of 
 
-<a href="https://github.com/logos-innovation-lab/waku-objects-playground" rel="noopener">https://github.com/logos-innovation-lab/waku-objects-playground</a></p>
-</li>
+<a href="https://github.com/waku-org/research/issues/3" rel="noopener">research work</a> for rest of the year and create matching milestones for research and waku clients</li>
+<li>Review work not coming from research and setting dates
+Note that format matches the Notion page but can be changed easily as it&rsquo;s scripted</li>
 </ol>
+<a href="#nwaku"><h2 id="nwaku"><span class="hanchor" ariaLabel="Anchor"># </span>nwaku</h2></a>
+<p><strong>
+
+<a href="https://github.com/waku-org/nwaku/issues/1889" rel="noopener">Release Process Improvements</a></strong> {E:2023-qa}</p>
+<ul>
+<li><em>achieved</em>: fixed a bug in release CI workflow, enhanced the CI workflow to build and push a docker image on each PR to make simulations per PR more feasible</li>
+<li><em>next</em>: document how to run PR built images in waku-simulator, adding Linux arm64 binaries and images</li>
+<li><em>blocker</em>:</li>
+</ul>
+<p><strong>
+
+<a href="https://github.com/waku-org/nwaku/issues/1888" rel="noopener">PostgreSQL</a></strong> {E:2023-10k-users}</p>
+<ul>
+<li><em>achieved</em>: Docker compose with <code>nwaku</code> + <code>postgres</code> + <code>prometheus</code> + <code>grafana</code> + <code>postgres_exporter</code> 
+
+<a href="https://github.com/alrevuelta/nwaku-compose/pull/3" rel="noopener">https://github.com/alrevuelta/nwaku-compose/pull/3</a></li>
+<li><em>next</em>: Carry on with stress testing</li>
+</ul>
+<p><strong>
+
+<a href="https://github.com/waku-org/nwaku/issues/1846" rel="noopener">Autosharding v1</a></strong> {E:2023-1mil-users}</p>
+<ul>
+<li><em>achieved</em>: feedback/update cycles for FILTER &amp; LIGHTPUSH</li>
+<li><em>next</em>: New fleet, updating ENR from live subscriptions and merging</li>
+<li><em>blocker</em>: Architecturally it seams difficult to send the info to Discv5 from JSONRPC for the Waku app.</li>
+</ul>
+<p><strong>
+
+<a href="https://github.com/waku-org/nwaku/issues/1767" rel="noopener">Move Waku v1 and Waku-Bridge to new repos</a></strong> {E:2023-qa}</p>
+<ul>
+<li><em>achieved</em>: Removed v1 and wakubridge code from nwaku repo</li>
+<li><em>next</em>: Remove references to <code>v2</code> from nwaku directory structure and documents</li>
+</ul>
+<p><strong>
+
+<a href="https://github.com/waku-org/nwaku/issues/1332" rel="noopener">nwaku c-bindings</a></strong> {E:2023-many-platforms}</p>
+<ul>
+<li><em>achieved</em>:
+<ul>
+<li>Moved the Waku execution into a secondary working thread. Essential for NodeJs.</li>
+<li>Adapted the NodeJs example to use the <code>libwaku</code> with the working-thread approach. The example had been receiving relay messages during a weekend. The memory was stable without crashing.</li>
+</ul>
+</li>
+<li><em>next</em>: start applying the thread-safety recommendations 
+
+<a href="https://github.com/waku-org/nwaku/issues/1878" rel="noopener">https://github.com/waku-org/nwaku/issues/1878</a></li>
+</ul>
+<p><strong>
+
+<a href="https://github.com/waku-org/nwaku/issues/1076" rel="noopener">HTTP REST API: Store, Filter, Lightpush, Admin and Private APIs</a></strong> {E:2023-many-platforms}</p>
+<ul>
+<li><em>achieved</em>: Legacy Filter - v1 - interface Rest Api support added.</li>
+<li><em>next</em>: Extend Rest Api interface for new v2 filter. Get v2 filter service supported from node.</li>
+</ul>
+<hr>
+<a href="#js-waku"><h2 id="js-waku"><span class="hanchor" ariaLabel="Anchor"># </span>js-waku</h2></a>
+<p><strong>
+
+<a href="https://github.com/waku-org/js-waku/issues/1429" rel="noopener">Peer Exchange is supported and used by default</a></strong> {E:2023-light-protocols}</p>
+<ul>
+<li><em>achieved</em>: robustness around peer-exchange, and highlight discovery vs connections for PX on the web-chat example</li>
+<li><em>next</em>: saving successfully connected PX peers to local storage for easier connections on reload</li>
+</ul>
+<p><strong>
+
+<a href="https://github.com/waku-org/js-waku/issues/905" rel="noopener">Waku Relay scalability in the Browser</a></strong> {NO EPIC}</p>
+<ul>
+<li><em>achieved</em>: draft of direct browser-browser RTC example 
+
+<a href="https://github.com/waku-org/js-waku-examples/pull/260" rel="noopener">https://github.com/waku-org/js-waku-examples/pull/260</a></li>
+<li><em>next</em>: improve the example (connection re-usage), work on contentTopic based RTC example</li>
+</ul>
+<hr>
+<a href="#go-waku"><h2 id="go-waku"><span class="hanchor" ariaLabel="Anchor"># </span>go-waku</h2></a>
+<p><strong>
+
+<a href="https://github.com/waku-org/go-waku/issues/629" rel="noopener">C-Bindings Improvement: Callbacks and Duplications</a></strong> {E:2023-many-platforms}</p>
+<ul>
+<li><em>achieved</em>: updated c-bindings to use callbacks</li>
+<li><em>next</em>: refactor v1 encoding functions and update RFC</li>
+</ul>
+<p><strong>
+
+<a href="https://github.com/waku-org/go-waku/issues/620" rel="noopener">Improve Test Coverage</a></strong> {E:2023-qa}</p>
+<ul>
+<li><em>achieved</em>: Enabled -race flag and ran all unit tests to identify data races.</li>
+<li><em>next</em>: Fix issues reported by the data race detector tool</li>
+</ul>
+<p><strong>
+
+<a href="https://github.com/waku-org/go-waku/issues/605" rel="noopener">RLN: Post-Testnet3 Improvements</a></strong> {E:2023-rln}</p>
+<ul>
+<li><em>achieved</em>: use zerokit batch insert/delete for members, exposed function to retrieve data from merkle tree, modified zerokit and go-zerokit-rln to pass merkle tree persistance configuration settings</li>
+<li><em>next</em>: resume onchain sync from persisted tree db</li>
+</ul>
+<p><strong>
+
+<a href="https://github.com/waku-org/go-waku/issues/594" rel="noopener">Introduce Peer Management</a></strong> {E:2023-peer-mgmt}</p>
+<ul>
+<li><em>achieved</em>: Basic peer management to ensure standard in/out ratio for relay peers.</li>
+<li><em>next</em>:  add service slots to peer manager</li>
+</ul>
+<hr>
+<a href="#eco-dev"><h2 id="eco-dev"><span class="hanchor" ariaLabel="Anchor"># </span>Eco Dev</h2></a>
+<p><strong>
+
+<a href="https://github.com/waku-org/internal-waku-outreach/issues/103" rel="noopener">Aug 2023</a></strong> {E:2023-eco-growth}</p>
+<ul>
+<li><em>achieved</em>: production of swags and marketing collaterals for web3conf completed</li>
+<li><em>next</em>: web3conf talk and side event production. various calls with commshub for preparing marketing collaterals.</li>
+</ul>
+<hr>
+<a href="#docs"><h2 id="docs"><span class="hanchor" ariaLabel="Anchor"># </span>Docs</h2></a>
+<p><strong>
+
+<a href="https://github.com/waku-org/docs.waku.org/issues/104" rel="noopener">Advanced docs for js-waku</a></strong> {E:2023-eco-growth}</p>
+<ul>
+<li><em>next</em>: create guide on <code>@waku/react</code> and debugging js-waku web apps</li>
+</ul>
+<p><strong>
+
+<a href="https://github.com/waku-org/docs.waku.org/issues/102" rel="noopener">Docs general improvement/incorporating feedback (2023)</a></strong> {E:2023-eco-growth}</p>
+<ul>
+<li><em>achieved</em>: rewrote the docs in UK English</li>
+<li><em>next</em>: update docs terms, announce js-waku docs</li>
+</ul>
+<p><strong>
+
+<a href="https://github.com/waku-org/docs.waku.org/issues/101" rel="noopener">Foundation of js-waku docs</a></strong> {E:2023-eco-growth}</p>
+<p><em>achieved</em>: added guide on js-waku bootstrapping</p>
+<hr>
+<a href="#research"><h2 id="research"><span class="hanchor" ariaLabel="Anchor"># </span>Research</h2></a>
+<p><strong>
+
+<a href="https://github.com/waku-org/research/issues/6" rel="noopener">1.1 Network requirements and task breakdown</a></strong> {E:2023-1mil-users}</p>
+<ul>
+<li><em>achieved</em>: Setup project management tools; determined number of shards to 8; some conversations on RLN memberships</li>
+<li><em>next</em>: Breakdown and assign tasks under each milestone for the 1 million users/public Waku Network epic.</li>
+</ul>
+<hr>
 
 
     </article>

@@ -6,7 +6,16 @@
     <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://roadmap.logos.co/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://roadmap.logos.co/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>waku-updates</title>
+      <link>https://roadmap.logos.co/tags/waku-updates/</link>
+      <pubDate>Tue, 08 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://roadmap.logos.co/tags/waku-updates/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>milestones-overview</title>
       <link>https://roadmap.logos.co/tags/milestones-overview/</link>
@@ -58,15 +67,6 @@
       <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
       
       <guid>https://roadmap.logos.co/tags/codex-updates/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>waku-updates</title>
-      <link>https://roadmap.logos.co/tags/waku-updates/</link>
-      <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://roadmap.logos.co/tags/waku-updates/</guid>
       <description></description>
     </item>
     

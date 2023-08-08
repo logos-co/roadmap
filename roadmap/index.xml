@@ -6,7 +6,17 @@
     <description>Recent content in Roadmaps on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://roadmap.logos.co/roadmap/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://roadmap.logos.co/roadmap/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2023-08-06 Waku weekly</title>
+      <link>https://roadmap.logos.co/roadmap/waku/updates/2023-08-06/</link>
+      <pubDate>Tue, 08 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://roadmap.logos.co/roadmap/waku/updates/2023-08-06/</guid>
+      <description>Milestones for current works are created and used. Next steps are:
+Refine scope of research work for rest of the year and create matching milestones for research and waku clients Review work not coming from research and setting dates Note that format matches the Notion page but can be changed easily as it&amp;rsquo;s scripted nwaku Release Process Improvements {E:2023-qa}</description>
+    </item>
+    
     <item>
       <title>2023-08-07 Nomos weekly</title>
       <link>https://roadmap.logos.co/roadmap/nomos/updates/2023-08-07/</link>
