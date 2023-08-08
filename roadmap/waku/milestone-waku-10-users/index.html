@@ -5,11 +5,10 @@
   <meta charset="UTF-8" />
   <meta
     name="description"
-    content="Research
-Milestone 1: Understanding Data Availability (DA) Problem High-level exploration and discussion on data availability problems in a collaborative offsite meeting in Paris."
+    content="%%{ init: { &#39;theme&#39;: &#39;base&#39;, &#39;themeVariables&#39;: { &#39;primaryColor&#39;: &#39;#BB2528&#39;, &#39;primaryTextColor&#39;: &#39;#fff&#39;, &#39;primaryBorderColor&#39;: &#39;#7C0000&#39;, &#39;lineColor&#39;: &#39;#F8B229&#39;, &#39;secondaryColor&#39;: &#39;#006100&#39;, &#39;tertiaryColor&#39;: &#39;#fff&#39; } } }%% gantt dateFormat YYYY-MM-DD section Scaling 10k Users :done, 2023-01-20, 2023-07-31 Completion Deliverable TBD"
   />
   <title>
-    2023-07-24 Nomos weekly
+    Milestone: Waku Network supports 10k Users
   </title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -233,30 +232,21 @@ Milestone 1: Understanding Data Availability (DA) Problem High-level exploration
 
 
     <article>
-      <h1>2023-07-24 Nomos weekly</h1>
+      <h1>Milestone: Waku Network supports 10k Users</h1>
       <p class="meta">
           Last updated 
-Jul 24, 2023
+Aug 7, 2023
 
  
           
-<a href="https://github.com/logos-co/roadmap/tree/hugo/content/roadmap/nomos/updates/2023-07-24.md" rel="noopener">Edit Source</a>
+<a href="https://github.com/logos-co/roadmap/tree/hugo/content/roadmap/waku/milestone-waku-10-users.md" rel="noopener">Edit Source</a>
 
 
       </p>
       <ul class="tags">
           
-          <li><a href="https://roadmap.logos.co/tags/nomos-updates/">Nomos updates</a></li>
-          
       </ul>
       
-<aside class="mainTOC">
-    <details >
-        <summary>Table of Contents</summary>
-        <nav id="TableOfContents"></nav>
-    </details>
-</aside>
-
 
       
 
@@ -290,53 +280,31 @@ Jul 24, 2023
   
 
 
-<p><strong>Research</strong></p>
+<pre class="mermaid">%%{ 
+  init: { 
+    'theme': 'base', 
+    'themeVariables': { 
+      'primaryColor': '#BB2528', 
+      'primaryTextColor': '#fff', 
+      'primaryBorderColor': '#7C0000', 
+      'lineColor': '#F8B229', 
+      'secondaryColor': '#006100', 
+      'tertiaryColor': '#fff' 
+    } 
+  } 
+}%%
+gantt
+	dateFormat YYYY-MM-DD 
+	section Scaling
+		10k Users :done, 2023-01-20, 2023-07-31
+</pre>
+<a href="#completion-deliverable"><h2 id="completion-deliverable"><span class="hanchor" ariaLabel="Anchor"># </span>Completion Deliverable</h2></a>
+<p>TBD</p>
+<a href="#epics"><h2 id="epics"><span class="hanchor" ariaLabel="Anchor"># </span>Epics</h2></a>
 <ul>
-<li>Milestone 1: Understanding Data Availability (DA) Problem</li>
-<li>High-level exploration and discussion on data availability problems in a collaborative offsite meeting in Paris.</li>
-<li>Explored the necessity and key challenges associated with DA.</li>
-<li>In-depth study of Verifiable Information Dispersal (VID) as it relates to data availability.</li>
-<li><strong>Blocker:</strong> The experimental tests for our specific EC scheme are pending, which is blocking progress to make final decision on KZG + commitments for our architecture.</li>
-<li>Milestone 2: Privacy for Proof of Stake (PoS)</li>
-<li>Analyzed the capabilities and limitations of mixnets, specifically within the context of timing attacks in private PoS.</li>
-<li>Invested time in understanding timing attacks and how Nym mixnet caters to these challenges.</li>
-<li>Reviewed the Crypsinous paper to understand its privacy vulnerabilities, notably the issue with probabilistic leader election and the vulnerability of anonymous broadcast channels to timing attacks.</li>
-</ul>
-<p><strong>Development</strong></p>
-<ul>
-<li>Milestone 1: Mixnet and Networking</li>
-<li>Initiated integration of libp2p to be used as the full node&rsquo;s backend, planning to complete in the next phase.</li>
-<li>Begun planning for the next steps for mixnet integration, with a focus on understanding the components of the Nym mixnet, its problem-solving mechanisms, and the potential for integrating some of its components into our codebase.</li>
-<li>Milestone 2: Simulation Application</li>
-<li>Completed pseudocode for Carnot Simulator, created a test pseudocode, and provided a detailed description of the simulation. The relevant resources can be found at the following links:
-<ul>
-<li>Carnot Simulator pseudocode (
+<li>
 
-<a href="https://github.com/logos-co/nomos-specs/blob/Carnot-Simulation/carnot/carnot_simulation_psuedocode.py" rel="noopener">https://github.com/logos-co/nomos-specs/blob/Carnot-Simulation/carnot/carnot_simulation_psuedocode.py</a>)</li>
-<li>Test pseudocode (
-
-<a href="https://github.com/logos-co/nomos-specs/blob/Carnot-Simulation/carnot/test_carnot_simulation.py" rel="noopener">https://github.com/logos-co/nomos-specs/blob/Carnot-Simulation/carnot/test_carnot_simulation.py</a>)</li>
-<li>Description of the simulation (
-
-<a href="https://www.notion.so/Carnot-Simulation-c025dbab6b374c139004aae45831cf78" rel="noopener">https://www.notion.so/Carnot-Simulation-c025dbab6b374c139004aae45831cf78</a>)</li>
-</ul>
-</li>
-<li>Implemented simulation network fixes and warding improvements, and increased the run duration of integration tests. The corresponding pull requests can be accessed here:
-<ul>
-<li>Simulation network fix (
-
-<a href="https://github.com/logos-co/nomos-node/pull/262" rel="noopener">https://github.com/logos-co/nomos-node/pull/262</a>)</li>
-<li>Vote tally fix (
-
-<a href="https://github.com/logos-co/nomos-node/pull/268" rel="noopener">https://github.com/logos-co/nomos-node/pull/268</a>)</li>
-<li>Increased run duration of integration tests (
-
-<a href="https://github.com/logos-co/nomos-node/pull/263" rel="noopener">https://github.com/logos-co/nomos-node/pull/263</a>)</li>
-<li>Warding improvements (
-
-<a href="https://github.com/logos-co/nomos-node/pull/269" rel="noopener">https://github.com/logos-co/nomos-node/pull/269</a>)</li>
-</ul>
-</li>
+<a href="https://github.com/waku-org/pm/issues/12" rel="noopener">Github Issue Tracker</a></li>
 </ul>
 
 
@@ -357,10 +325,20 @@ Jul 24, 2023
     
     
     
-    <li>
-        No backlinks found
-    </li>
     
+    
+      
+      
+      
+    
+      
+      
+      <li>
+        <a href="/roadmap/waku/milestones-overview/" data-ctx="Waku Network support for 10k users" data-src="/roadmap/waku/milestones-overview" class="internal-link">Waku Milestones Overview</a>
+      </li>
+      
+      
+      
 </ul>
 
     </div>
@@ -400,6 +378,11 @@ Jul 24, 2023
 </div>
 
 
+    
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ startOnLoad: true });
+    </script>
     
 </div>
 </body>

@@ -6,7 +6,52 @@
     <description>Recent content in Roadmaps on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://roadmap.logos.co/roadmap/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://roadmap.logos.co/roadmap/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2023-08-07 Nomos weekly</title>
+      <link>https://roadmap.logos.co/roadmap/nomos/updates/2023-08-07/</link>
+      <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://roadmap.logos.co/roadmap/nomos/updates/2023-08-07/</guid>
+      <description>Nomos weekly report Network implementation and Mixnet: Research Researched the Nym mixnet architecture in depth in order to design our prototype architecture.</description>
+    </item>
+    
+    <item>
+      <title>2023-08-07 Vac weekly</title>
+      <link>https://roadmap.logos.co/roadmap/vac/updates/2023-08-07/</link>
+      <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://roadmap.logos.co/roadmap/vac/updates/2023-08-07/</guid>
+      <description>More info on Vac Milestones, including due date and progress (currently working on this, some milestones do not have the new format yet, first version planned for this week): https://www.</description>
+    </item>
+    
+    <item>
+      <title>Codex Milestones Overview</title>
+      <link>https://roadmap.logos.co/roadmap/codex/milestones-overview/</link>
+      <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://roadmap.logos.co/roadmap/codex/milestones-overview/</guid>
+      <description>Milestones </description>
+    </item>
+    
+    <item>
+      <title>Milestone: Waku Network supports 10k Users</title>
+      <link>https://roadmap.logos.co/roadmap/waku/milestone-waku-10-users/</link>
+      <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://roadmap.logos.co/roadmap/waku/milestone-waku-10-users/</guid>
+      <description>%%{ init: { &#39;theme&#39;: &#39;base&#39;, &#39;themeVariables&#39;: { &#39;primaryColor&#39;: &#39;#BB2528&#39;, &#39;primaryTextColor&#39;: &#39;#fff&#39;, &#39;primaryBorderColor&#39;: &#39;#7C0000&#39;, &#39;lineColor&#39;: &#39;#F8B229&#39;, &#39;secondaryColor&#39;: &#39;#006100&#39;, &#39;tertiaryColor&#39;: &#39;#fff&#39; } } }%% gantt dateFormat YYYY-MM-DD section Scaling 10k Users :done, 2023-01-20, 2023-07-31 Completion Deliverable TBD</description>
+    </item>
+    
+    <item>
+      <title>Waku Milestones Overview</title>
+      <link>https://roadmap.logos.co/roadmap/waku/milestones-overview/</link>
+      <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://roadmap.logos.co/roadmap/waku/milestones-overview/</guid>
+      <description> Waku Network support for 10k users </description>
+    </item>
+    
     <item>
       <title>2023-08-02 Acid weekly</title>
       <link>https://roadmap.logos.co/roadmap/acid/updates/2023-08-02/</link>
@@ -14,7 +59,7 @@
       
       <guid>https://roadmap.logos.co/roadmap/acid/updates/2023-08-02/</guid>
       <description>Leads roundup - acid Al / Comms
- Status app relaunch comms campaign plan in the works. Approx. date for launch 31.</description>
+Status app relaunch comms campaign plan in the works. Approx. date for launch 31.</description>
     </item>
     
     <item>
@@ -25,7 +70,7 @@
       <guid>https://roadmap.logos.co/roadmap/vac/updates/2023-07-24/</guid>
       <description>NOTE: This is a first experimental version moving towards the new reporting structure:
 Last week
- vc vc::Deep Research  milestone (15%, 2023/11/30) paper on gossipsub improvements ready for submission  related work section   milestone (15%, 2023/08/31) Nimbus Tor-push PoC  basic torpush encode/decode ( https://github.</description>
+vc vc::Deep Research milestone (15%, 2023/11/30) paper on gossipsub improvements ready for submission related work section milestone (15%, 2023/08/31) Nimbus Tor-push PoC basic torpush encode/decode ( https://github.</description>
     </item>
     
     <item>
@@ -43,7 +88,7 @@ Last week
       <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
       
       <guid>https://roadmap.logos.co/roadmap/codex/updates/2023-08-01/</guid>
-      <description>Codex update Aug 1st Client Milestone: Merkelizing block data  Initial design writeup https://github.com/codex-storage/codex-research/blob/master/design/metadata-overhead.md  Work break down and review for Ben and Tomasz (epic coming up) This is required to integrate the proving system    Milestone: Block discovery and retrieval  Some initial work break down and milestones here - https://docs.</description>
+      <description>Codex update Aug 1st Client Milestone: Merkelizing block data Initial design writeup https://github.com/codex-storage/codex-research/blob/master/design/metadata-overhead.md Work break down and review for Ben and Tomasz (epic coming up) This is required to integrate the proving system Milestone: Block discovery and retrieval Some initial work break down and milestones here - https://docs.</description>
     </item>
     
     <item>
@@ -55,7 +100,7 @@ Last week
       <description>Nomos 31st July
 [Network implementation and Mixnet]:
 Research
- Initial analysis on the mixnet Proof of Concept (PoC) was performed, assessing components like Sphinx for packets and delay-forwarder.</description>
+Initial analysis on the mixnet Proof of Concept (PoC) was performed, assessing components like Sphinx for packets and delay-forwarder.</description>
     </item>
     
     <item>
@@ -64,7 +109,7 @@ Research
       <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://roadmap.logos.co/roadmap/vac/updates/2023-07-31/</guid>
-      <description>vc::Deep Research  milestone (20%, 2023/11/30) paper on gossipsub improvements ready for submission  proposed solution section   milestone (15%, 2023/08/31) Nimbus Tor-push PoC  establishing torswitch and testing code   milestone (15%, 2023/11/30) paper on Tor push validator privacy addressed feedback on current version of paper   vsu::P2P  nim-libp2p: (100%, 2023/07/31) GossipSub optimizations for ETH&amp;rsquo;s EIP-4844  Merged IDontWant ( https://github.</description>
+      <description>vc::Deep Research milestone (20%, 2023/11/30) paper on gossipsub improvements ready for submission proposed solution section milestone (15%, 2023/08/31) Nimbus Tor-push PoC establishing torswitch and testing code milestone (15%, 2023/11/30) paper on Tor push validator privacy addressed feedback on current version of paper vsu::P2P nim-libp2p: (100%, 2023/07/31) GossipSub optimizations for ETH&amp;rsquo;s EIP-4844 Merged IDontWant ( https://github.</description>
     </item>
     
     <item>
@@ -73,7 +118,7 @@ Research
       <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://roadmap.logos.co/roadmap/waku/updates/2023-07-31/</guid>
-      <description>Docs Milestone: Docs general improvement/incorporating feedback (continuous) next:  rewrite docs in British English  Milestone: Running nwaku in the cloud next:  publish guides for Digital Ocean, Oracle, Fly.</description>
+      <description>Docs Milestone: Docs general improvement/incorporating feedback (continuous) next: rewrite docs in British English Milestone: Running nwaku in the cloud next: publish guides for Digital Ocean, Oracle, Fly.</description>
     </item>
     
     <item>
@@ -83,7 +128,7 @@ Research
       
       <guid>https://roadmap.logos.co/roadmap/nomos/updates/2023-07-24/</guid>
       <description>Research
- Milestone 1: Understanding Data Availability (DA) Problem High-level exploration and discussion on data availability problems in a collaborative offsite meeting in Paris.</description>
+Milestone 1: Understanding Data Availability (DA) Problem High-level exploration and discussion on data availability problems in a collaborative offsite meeting in Paris.</description>
     </item>
     
     <item>
@@ -112,7 +157,7 @@ Our main milestone is to have a fully functional testnet with the marketplace an
       
       <guid>https://roadmap.logos.co/roadmap/vac/updates/2023-07-17/</guid>
       <description>Last week
- vc  Vac day in Paris (13th)   vc::Deep Research  working on comprehensive current/related work study on Validator Privacy working on PoC of Tor push in Nimbus: setting up goerli nim-eth2 node working towards comprehensive current/related work study on gossipsub scaling   vsu::P2P  Paris offsite Paris (all CCs)   vsu::Tokenomics  Bugs found and solved in the SNT staking contract attend events in Paris   vsu::Distributed Systems Testing  Events in Paris QoS on all four infras Continue work on theoretical gossipsub analysis (varying regular graph sizes) Peer extraction using WLS (almost finished) Discv5 testing Wakurtosis CI improvements Provide offline data   vip::zkVM  onboarding new researcher Prepared and presented ZKVM work during VAC offsite Deep research on Nova vs Stark in terms of performance and related open questions researching Sangria Worked on NEscience document ( https://www.</description>
+vc Vac day in Paris (13th) vc::Deep Research working on comprehensive current/related work study on Validator Privacy working on PoC of Tor push in Nimbus: setting up goerli nim-eth2 node working towards comprehensive current/related work study on gossipsub scaling vsu::P2P Paris offsite Paris (all CCs) vsu::Tokenomics Bugs found and solved in the SNT staking contract attend events in Paris vsu::Distributed Systems Testing Events in Paris QoS on all four infras Continue work on theoretical gossipsub analysis (varying regular graph sizes) Peer extraction using WLS (almost finished) Discv5 testing Wakurtosis CI improvements Provide offline data vip::zkVM onboarding new researcher Prepared and presented ZKVM work during VAC offsite Deep research on Nova vs Stark in terms of performance and related open questions researching Sangria Worked on NEscience document ( https://www.</description>
     </item>
     
     <item>
@@ -130,7 +175,7 @@ Our main milestone is to have a fully functional testnet with the marketplace an
       <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://roadmap.logos.co/roadmap/vac/updates/2023-07-10/</guid>
-      <description>vc::Deep Research  refined deep research roadmaps https://github.com/vacp2p/research/issues/190, https://github.com/vacp2p/research/issues/192 working on comprehensive current/related work study on Validator Privacy working on PoC of Tor push in Nimbus working towards comprehensive current/related work study on gossipsub scaling   vsu::P2P  Prepared Paris talks Implemented perf protocol to compare the performances with other libp2ps https://github.</description>
+      <description>vc::Deep Research refined deep research roadmaps https://github.com/vacp2p/research/issues/190, https://github.com/vacp2p/research/issues/192 working on comprehensive current/related work study on Validator Privacy working on PoC of Tor push in Nimbus working towards comprehensive current/related work study on gossipsub scaling vsu::P2P Prepared Paris talks Implemented perf protocol to compare the performances with other libp2ps https://github.</description>
     </item>
     
   </channel>

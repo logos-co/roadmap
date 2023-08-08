@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta
     name="description"
-    content="vc::Deep Research  refined deep research roadmaps https://github.com/vacp2p/research/issues/190, https://github.com/vacp2p/research/issues/192 working on comprehensive current/related work study on Validator Privacy working on PoC of Tor push in Nimbus working towards comprehensive current/related work study on gossipsub scaling   vsu::P2P  Prepared Paris talks Implemented perf protocol to compare the performances with other libp2ps https://github."
+    content="vc::Deep Research refined deep research roadmaps https://github.com/vacp2p/research/issues/190, https://github.com/vacp2p/research/issues/192 working on comprehensive current/related work study on Validator Privacy working on PoC of Tor push in Nimbus working towards comprehensive current/related work study on gossipsub scaling vsu::P2P Prepared Paris talks Implemented perf protocol to compare the performances with other libp2ps https://github."
   />
   <title>
     2023-07-10 Vac Weekly
@@ -91,18 +91,23 @@
   <script src="https://roadmap.logos.co/js/callouts.7723cac461d613d118ee8bb8216b9838.min.js"></script>
   
 
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+</script>
+
   
    
   <script>
     const BASE_URL = "https://roadmap.logos.co/"
     const fetchData = Promise.all([
-          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.b8ed7d42cd13945833cd2c8cb2e40d15.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.6cf348040d2d17fddcc3c5b88898e318.min.json")
             .then(data => data.json())
             .then(data => ({
               index: data.index,
               links: data.links,
             })),
-          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.cc405da5be2c5262686308a3b9ab8cbb.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.07d96fdebf8a98151699e34e25b1a8b3.min.json")
             .then(data => data.json()),
         ])
         .then(([{index, links}, content]) => ({
@@ -175,13 +180,13 @@
   </script>
   
   
+  
   <script type="module">
     import { attachSPARouting } from "https:\/\/roadmap.logos.co\/js\/router.9d4974281069e9ebb189f642ae1e3ca2.min.js"
     attachSPARouting(init, render)
   </script>
   
 </head>
-
 
 
 <body>
@@ -333,7 +338,7 @@ Jul 10, 2023
 <li>rln-relay: verify proofs based upon bandwidth usage - 
 
 <a href="https://github.com/waku-org/nwaku/commit/3fe4522a7e9e48a3196c10973975d924269d872a" rel="noopener">https://github.com/waku-org/nwaku/commit/3fe4522a7e9e48a3196c10973975d924269d872a</a></li>
-<li>RLN contract audit cont' 
+<li>RLN contract audit cont&rsquo; 
 
 <a href="https://hackmd.io/@blockdev/B195lgIth" rel="noopener">https://hackmd.io/@blockdev/B195lgIth</a></li>
 </ul>
@@ -401,7 +406,9 @@ Jul 10, 2023
 </div>
 
 
+    
 </div>
 </body>
 
 </html>
+

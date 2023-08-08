@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name="generator" content="Hugo 0.92.2" />
+	<meta name="generator" content="Hugo 0.117.0">
   
   <meta charset="UTF-8" />
   <meta
@@ -92,18 +92,23 @@
   <script src="https://roadmap.logos.co/js/callouts.7723cac461d613d118ee8bb8216b9838.min.js"></script>
   
 
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+</script>
+
   
    
   <script>
     const BASE_URL = "https://roadmap.logos.co/"
     const fetchData = Promise.all([
-          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.b8ed7d42cd13945833cd2c8cb2e40d15.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.6cf348040d2d17fddcc3c5b88898e318.min.json")
             .then(data => data.json())
             .then(data => ({
               index: data.index,
               links: data.links,
             })),
-          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.cc405da5be2c5262686308a3b9ab8cbb.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.07d96fdebf8a98151699e34e25b1a8b3.min.json")
             .then(data => data.json()),
         ])
         .then(([{index, links}, content]) => ({
@@ -174,6 +179,7 @@
       
     };
   </script>
+  
   
   
   <script type="module">
@@ -266,8 +272,7 @@
 
 <a href="https://logos.co" rel="noopener">Logos Collective Site</a>.</p>
 <a href="#navigation"><h2 id="navigation"><span class="hanchor" ariaLabel="Anchor"># </span>Navigation</h2></a>
-<ul>
-<li>Research and Development Updates
+<a href="#waku"><h3 id="waku"><span class="hanchor" ariaLabel="Anchor"># </span>Waku</h3></a>
 <ul>
 <li>
 
@@ -276,9 +281,9 @@
 
 
 <a
-  href="/tags/vac-updates/"
+  href="/roadmap/waku/milestones-overview/"
   rel="noopener" class="internal-link"
-  data-src="/tags/vac-updates/">Vac updates</a></li>
+  data-src="/roadmap/waku/milestones-overview/">Milestones</a></li>
 <li>
 
 
@@ -288,7 +293,20 @@
 <a
   href="/tags/waku-updates/"
   rel="noopener" class="internal-link"
-  data-src="/tags/waku-updates/">Waku updates</a></li>
+  data-src="/tags/waku-updates/">weekly updates</a></li>
+</ul>
+<a href="#codex"><h3 id="codex"><span class="hanchor" ariaLabel="Anchor"># </span>Codex</h3></a>
+<ul>
+<li>
+
+
+
+
+
+<a
+  href="/roadmap/codex/milestones-overview/"
+  rel="noopener" class="internal-link"
+  data-src="/roadmap/codex/milestones-overview/">Milestones</a></li>
 <li>
 
 
@@ -298,7 +316,20 @@
 <a
   href="/tags/codex-updates/"
   rel="noopener" class="internal-link"
-  data-src="/tags/codex-updates/">Codex updates</a></li>
+  data-src="/tags/codex-updates/">weekly updates</a></li>
+</ul>
+<a href="#nomos"><h3 id="nomos"><span class="hanchor" ariaLabel="Anchor"># </span>Nomos</h3></a>
+<ul>
+<li>
+
+
+
+
+
+<a
+  
+  rel="noopener" class="internal-link broken"
+  data-src="roadmap/nomos/milestones-overview">Milestones</a></li>
 <li>
 
 
@@ -308,7 +339,43 @@
 <a
   href="/tags/nomos-updates/"
   rel="noopener" class="internal-link"
-  data-src="/tags/nomos-updates/">Nomos updates</a></li>
+  data-src="/tags/nomos-updates/">weekly updates</a></li>
+</ul>
+<a href="#vac"><h3 id="vac"><span class="hanchor" ariaLabel="Anchor"># </span>Vac</h3></a>
+<ul>
+<li>
+
+
+
+
+
+<a
+  
+  rel="noopener" class="internal-link broken"
+  data-src="roadmap/vac/milestones-overview">Milestones</a></li>
+<li>
+
+
+
+
+
+<a
+  href="/tags/vac-updates/"
+  rel="noopener" class="internal-link"
+  data-src="/tags/vac-updates/">weekly updates</a></li>
+</ul>
+<a href="#innovation-lab"><h3 id="innovation-lab"><span class="hanchor" ariaLabel="Anchor"># </span>Innovation Lab</h3></a>
+<ul>
+<li>
+
+
+
+
+
+<a
+  
+  rel="noopener" class="internal-link broken"
+  data-src="roadmap/innovation_lab/milestones_overview">Milestones</a></li>
 <li>
 
 
@@ -318,7 +385,20 @@
 <a
   href="/tags/ilab-updates/"
   rel="noopener" class="internal-link"
-  data-src="/tags/ilab-updates/">Innovation Lab updates</a></li>
+  data-src="/tags/ilab-updates/">weekly updates</a></li>
+</ul>
+<a href="#comms-acid-info"><h3 id="comms-acid-info"><span class="hanchor" ariaLabel="Anchor"># </span>Comms (Acid Info)</h3></a>
+<ul>
+<li>
+
+
+
+
+
+<a
+  
+  rel="noopener" class="internal-link broken"
+  data-src="roadmap/acid/milestones-overview">Milestones</a></li>
 <li>
 
 
@@ -328,9 +408,7 @@
 <a
   href="/tags/acid-updates/"
   rel="noopener" class="internal-link"
-  data-src="/tags/acid-updates/">Comms updates</a></li>
-</ul>
-</li>
+  data-src="/tags/acid-updates/">weekly updates</a></li>
 </ul>
 
 

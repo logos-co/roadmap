@@ -91,18 +91,23 @@
   <script src="https://roadmap.logos.co/js/callouts.7723cac461d613d118ee8bb8216b9838.min.js"></script>
   
 
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+</script>
+
   
    
   <script>
     const BASE_URL = "https://roadmap.logos.co/"
     const fetchData = Promise.all([
-          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.b8ed7d42cd13945833cd2c8cb2e40d15.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.6cf348040d2d17fddcc3c5b88898e318.min.json")
             .then(data => data.json())
             .then(data => ({
               index: data.index,
               links: data.links,
             })),
-          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.cc405da5be2c5262686308a3b9ab8cbb.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.07d96fdebf8a98151699e34e25b1a8b3.min.json")
             .then(data => data.json()),
         ])
         .then(([{index, links}, content]) => ({
@@ -175,6 +180,7 @@
   </script>
   
   
+  
   <script type="module">
     import { attachSPARouting } from "https:\/\/roadmap.logos.co\/js\/router.9d4974281069e9ebb189f642ae1e3ca2.min.js"
     attachSPARouting(init, render)
@@ -230,6 +236,24 @@
         <h1>Tag: nomos-updates</h1>
         
         <ul class="section-ul"><li class="section-li">
+        <div class="section">
+            <p class="meta">
+                
+Aug 7, 2023
+
+
+            </p>
+            <div class="desc">
+              <h3><a href="https://roadmap.logos.co/roadmap/nomos/updates/2023-08-07/" class="internal-link" data-src="/roadmap/nomos/updates/2023-08-07/">2023-08-07 Nomos weekly</a></h3>
+            </div>
+            <div class="spacer"></div>
+            <ul class="tags">
+                
+                <li><a href="https://roadmap.logos.co/tags/nomos-updates/">Nomos-Updates</a></li>
+                
+            </ul>
+        </div>
+    </li><li class="section-li">
         <div class="section">
             <p class="meta">
                 

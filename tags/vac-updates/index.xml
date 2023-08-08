@@ -6,7 +6,16 @@
     <description>Recent content in vac-updates on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://roadmap.logos.co/tags/vac-updates/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://roadmap.logos.co/tags/vac-updates/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2023-08-07 Vac weekly</title>
+      <link>https://roadmap.logos.co/roadmap/vac/updates/2023-08-07/</link>
+      <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://roadmap.logos.co/roadmap/vac/updates/2023-08-07/</guid>
+      <description>More info on Vac Milestones, including due date and progress (currently working on this, some milestones do not have the new format yet, first version planned for this week): https://www.</description>
+    </item>
+    
     <item>
       <title>2023-08-03 Vac weekly</title>
       <link>https://roadmap.logos.co/roadmap/vac/updates/2023-07-24/</link>
@@ -15,7 +24,7 @@
       <guid>https://roadmap.logos.co/roadmap/vac/updates/2023-07-24/</guid>
       <description>NOTE: This is a first experimental version moving towards the new reporting structure:
 Last week
- vc vc::Deep Research  milestone (15%, 2023/11/30) paper on gossipsub improvements ready for submission  related work section   milestone (15%, 2023/08/31) Nimbus Tor-push PoC  basic torpush encode/decode ( https://github.</description>
+vc vc::Deep Research milestone (15%, 2023/11/30) paper on gossipsub improvements ready for submission related work section milestone (15%, 2023/08/31) Nimbus Tor-push PoC basic torpush encode/decode ( https://github.</description>
     </item>
     
     <item>
@@ -24,7 +33,7 @@ Last week
       <pubDate>Mon, 31 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://roadmap.logos.co/roadmap/vac/updates/2023-07-31/</guid>
-      <description>vc::Deep Research  milestone (20%, 2023/11/30) paper on gossipsub improvements ready for submission  proposed solution section   milestone (15%, 2023/08/31) Nimbus Tor-push PoC  establishing torswitch and testing code   milestone (15%, 2023/11/30) paper on Tor push validator privacy addressed feedback on current version of paper   vsu::P2P  nim-libp2p: (100%, 2023/07/31) GossipSub optimizations for ETH&amp;rsquo;s EIP-4844  Merged IDontWant ( https://github.</description>
+      <description>vc::Deep Research milestone (20%, 2023/11/30) paper on gossipsub improvements ready for submission proposed solution section milestone (15%, 2023/08/31) Nimbus Tor-push PoC establishing torswitch and testing code milestone (15%, 2023/11/30) paper on Tor push validator privacy addressed feedback on current version of paper vsu::P2P nim-libp2p: (100%, 2023/07/31) GossipSub optimizations for ETH&amp;rsquo;s EIP-4844 Merged IDontWant ( https://github.</description>
     </item>
     
     <item>
@@ -34,7 +43,7 @@ Last week
       
       <guid>https://roadmap.logos.co/roadmap/vac/updates/2023-07-17/</guid>
       <description>Last week
- vc  Vac day in Paris (13th)   vc::Deep Research  working on comprehensive current/related work study on Validator Privacy working on PoC of Tor push in Nimbus: setting up goerli nim-eth2 node working towards comprehensive current/related work study on gossipsub scaling   vsu::P2P  Paris offsite Paris (all CCs)   vsu::Tokenomics  Bugs found and solved in the SNT staking contract attend events in Paris   vsu::Distributed Systems Testing  Events in Paris QoS on all four infras Continue work on theoretical gossipsub analysis (varying regular graph sizes) Peer extraction using WLS (almost finished) Discv5 testing Wakurtosis CI improvements Provide offline data   vip::zkVM  onboarding new researcher Prepared and presented ZKVM work during VAC offsite Deep research on Nova vs Stark in terms of performance and related open questions researching Sangria Worked on NEscience document ( https://www.</description>
+vc Vac day in Paris (13th) vc::Deep Research working on comprehensive current/related work study on Validator Privacy working on PoC of Tor push in Nimbus: setting up goerli nim-eth2 node working towards comprehensive current/related work study on gossipsub scaling vsu::P2P Paris offsite Paris (all CCs) vsu::Tokenomics Bugs found and solved in the SNT staking contract attend events in Paris vsu::Distributed Systems Testing Events in Paris QoS on all four infras Continue work on theoretical gossipsub analysis (varying regular graph sizes) Peer extraction using WLS (almost finished) Discv5 testing Wakurtosis CI improvements Provide offline data vip::zkVM onboarding new researcher Prepared and presented ZKVM work during VAC offsite Deep research on Nova vs Stark in terms of performance and related open questions researching Sangria Worked on NEscience document ( https://www.</description>
     </item>
     
     <item>
@@ -43,7 +52,7 @@ Last week
       <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>https://roadmap.logos.co/roadmap/vac/updates/2023-07-10/</guid>
-      <description>vc::Deep Research  refined deep research roadmaps https://github.com/vacp2p/research/issues/190, https://github.com/vacp2p/research/issues/192 working on comprehensive current/related work study on Validator Privacy working on PoC of Tor push in Nimbus working towards comprehensive current/related work study on gossipsub scaling   vsu::P2P  Prepared Paris talks Implemented perf protocol to compare the performances with other libp2ps https://github.</description>
+      <description>vc::Deep Research refined deep research roadmaps https://github.com/vacp2p/research/issues/190, https://github.com/vacp2p/research/issues/192 working on comprehensive current/related work study on Validator Privacy working on PoC of Tor push in Nimbus working towards comprehensive current/related work study on gossipsub scaling vsu::P2P Prepared Paris talks Implemented perf protocol to compare the performances with other libp2ps https://github.</description>
     </item>
     
   </channel>

@@ -6,7 +6,7 @@
   <meta
     name="description"
     content="Last week
- vc  Vac day in Paris (13th)   vc::Deep Research  working on comprehensive current/related work study on Validator Privacy working on PoC of Tor push in Nimbus: setting up goerli nim-eth2 node working towards comprehensive current/related work study on gossipsub scaling   vsu::P2P  Paris offsite Paris (all CCs)   vsu::Tokenomics  Bugs found and solved in the SNT staking contract attend events in Paris   vsu::Distributed Systems Testing  Events in Paris QoS on all four infras Continue work on theoretical gossipsub analysis (varying regular graph sizes) Peer extraction using WLS (almost finished) Discv5 testing Wakurtosis CI improvements Provide offline data   vip::zkVM  onboarding new researcher Prepared and presented ZKVM work during VAC offsite Deep research on Nova vs Stark in terms of performance and related open questions researching Sangria Worked on NEscience document ( https://www."
+vc Vac day in Paris (13th) vc::Deep Research working on comprehensive current/related work study on Validator Privacy working on PoC of Tor push in Nimbus: setting up goerli nim-eth2 node working towards comprehensive current/related work study on gossipsub scaling vsu::P2P Paris offsite Paris (all CCs) vsu::Tokenomics Bugs found and solved in the SNT staking contract attend events in Paris vsu::Distributed Systems Testing Events in Paris QoS on all four infras Continue work on theoretical gossipsub analysis (varying regular graph sizes) Peer extraction using WLS (almost finished) Discv5 testing Wakurtosis CI improvements Provide offline data vip::zkVM onboarding new researcher Prepared and presented ZKVM work during VAC offsite Deep research on Nova vs Stark in terms of performance and related open questions researching Sangria Worked on NEscience document ( https://www."
   />
   <title>
     2023-07-17 Vac weekly
@@ -92,18 +92,23 @@
   <script src="https://roadmap.logos.co/js/callouts.7723cac461d613d118ee8bb8216b9838.min.js"></script>
   
 
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+</script>
+
   
    
   <script>
     const BASE_URL = "https://roadmap.logos.co/"
     const fetchData = Promise.all([
-          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.b8ed7d42cd13945833cd2c8cb2e40d15.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.6cf348040d2d17fddcc3c5b88898e318.min.json")
             .then(data => data.json())
             .then(data => ({
               index: data.index,
               links: data.links,
             })),
-          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.cc405da5be2c5262686308a3b9ab8cbb.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.07d96fdebf8a98151699e34e25b1a8b3.min.json")
             .then(data => data.json()),
         ])
         .then(([{index, links}, content]) => ({
@@ -176,13 +181,13 @@
   </script>
   
   
+  
   <script type="module">
     import { attachSPARouting } from "https:\/\/roadmap.logos.co\/js\/router.9d4974281069e9ebb189f642ae1e3ca2.min.js"
     attachSPARouting(init, render)
   </script>
   
 </head>
-
 
 
 <body>
@@ -462,7 +467,9 @@ Jul 17, 2023
 </div>
 
 
+    
 </div>
 </body>
 
 </html>
+

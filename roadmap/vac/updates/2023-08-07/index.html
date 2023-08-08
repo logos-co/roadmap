@@ -5,11 +5,10 @@
   <meta charset="UTF-8" />
   <meta
     name="description"
-    content="Research
-Milestone 1: Understanding Data Availability (DA) Problem High-level exploration and discussion on data availability problems in a collaborative offsite meeting in Paris."
+    content="More info on Vac Milestones, including due date and progress (currently working on this, some milestones do not have the new format yet, first version planned for this week): https://www."
   />
   <title>
-    2023-07-24 Nomos weekly
+    2023-08-07 Vac weekly
   </title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -233,20 +232,20 @@ Milestone 1: Understanding Data Availability (DA) Problem High-level exploration
 
 
     <article>
-      <h1>2023-07-24 Nomos weekly</h1>
+      <h1>2023-08-07 Vac weekly</h1>
       <p class="meta">
           Last updated 
-Jul 24, 2023
+Aug 7, 2023
 
  
           
-<a href="https://github.com/logos-co/roadmap/tree/hugo/content/roadmap/nomos/updates/2023-07-24.md" rel="noopener">Edit Source</a>
+<a href="https://github.com/logos-co/roadmap/tree/hugo/content/roadmap/vac/updates/2023-08-07.md" rel="noopener">Edit Source</a>
 
 
       </p>
       <ul class="tags">
           
-          <li><a href="https://roadmap.logos.co/tags/nomos-updates/">Nomos updates</a></li>
+          <li><a href="https://roadmap.logos.co/tags/vac-updates/">Vac updates</a></li>
           
       </ul>
       
@@ -290,51 +289,172 @@ Jul 24, 2023
   
 
 
-<p><strong>Research</strong></p>
-<ul>
-<li>Milestone 1: Understanding Data Availability (DA) Problem</li>
-<li>High-level exploration and discussion on data availability problems in a collaborative offsite meeting in Paris.</li>
-<li>Explored the necessity and key challenges associated with DA.</li>
-<li>In-depth study of Verifiable Information Dispersal (VID) as it relates to data availability.</li>
-<li><strong>Blocker:</strong> The experimental tests for our specific EC scheme are pending, which is blocking progress to make final decision on KZG + commitments for our architecture.</li>
-<li>Milestone 2: Privacy for Proof of Stake (PoS)</li>
-<li>Analyzed the capabilities and limitations of mixnets, specifically within the context of timing attacks in private PoS.</li>
-<li>Invested time in understanding timing attacks and how Nym mixnet caters to these challenges.</li>
-<li>Reviewed the Crypsinous paper to understand its privacy vulnerabilities, notably the issue with probabilistic leader election and the vulnerability of anonymous broadcast channels to timing attacks.</li>
-</ul>
-<p><strong>Development</strong></p>
-<ul>
-<li>Milestone 1: Mixnet and Networking</li>
-<li>Initiated integration of libp2p to be used as the full node&rsquo;s backend, planning to complete in the next phase.</li>
-<li>Begun planning for the next steps for mixnet integration, with a focus on understanding the components of the Nym mixnet, its problem-solving mechanisms, and the potential for integrating some of its components into our codebase.</li>
-<li>Milestone 2: Simulation Application</li>
-<li>Completed pseudocode for Carnot Simulator, created a test pseudocode, and provided a detailed description of the simulation. The relevant resources can be found at the following links:
-<ul>
-<li>Carnot Simulator pseudocode (
+<p>More info on Vac Milestones, including due date and progress (currently working on this, some milestones do not have the new format yet, first version planned for this week):
 
-<a href="https://github.com/logos-co/nomos-specs/blob/Carnot-Simulation/carnot/carnot_simulation_psuedocode.py" rel="noopener">https://github.com/logos-co/nomos-specs/blob/Carnot-Simulation/carnot/carnot_simulation_psuedocode.py</a>)</li>
-<li>Test pseudocode (
 
-<a href="https://github.com/logos-co/nomos-specs/blob/Carnot-Simulation/carnot/test_carnot_simulation.py" rel="noopener">https://github.com/logos-co/nomos-specs/blob/Carnot-Simulation/carnot/test_carnot_simulation.py</a>)</li>
-<li>Description of the simulation (
+<a href="https://www.notion.so/Vac-Roadmap-907df7eeac464143b00c6f49a20bb632" rel="noopener">https://www.notion.so/Vac-Roadmap-907df7eeac464143b00c6f49a20bb632</a></p>
+<p><strong>Vac week 32</strong> August 7th</p>
+<ul>
+<li><em>vsu::P2P</em>
+<ul>
+<li><code>vac:p2p:nim-libp2p:vac:maintenance</code>
+<ul>
+<li>Improve gossipsub DDoS resistance 
 
-<a href="https://www.notion.so/Carnot-Simulation-c025dbab6b374c139004aae45831cf78" rel="noopener">https://www.notion.so/Carnot-Simulation-c025dbab6b374c139004aae45831cf78</a>)</li>
+<a href="https://github.com/status-im/nim-libp2p/pull/920" rel="noopener">https://github.com/status-im/nim-libp2p/pull/920</a></li>
 </ul>
 </li>
-<li>Implemented simulation network fixes and warding improvements, and increased the run duration of integration tests. The corresponding pull requests can be accessed here:
+<li><code>vac:p2p:nim-chronos:vac:maintenance</code>
 <ul>
-<li>Simulation network fix (
+<li>Remove hard-coded ports from test 
 
-<a href="https://github.com/logos-co/nomos-node/pull/262" rel="noopener">https://github.com/logos-co/nomos-node/pull/262</a>)</li>
-<li>Vote tally fix (
+<a href="https://github.com/status-im/nim-chronos/pull/429" rel="noopener">https://github.com/status-im/nim-chronos/pull/429</a></li>
+<li>Investigate flaky test using REUSE_PORT</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><em>vsu::Tokenomics</em>
+<ul>
+<li>(&hellip;)</li>
+</ul>
+</li>
+<li><em>vsu::Distributed Systems Testing</em>
+<ul>
+<li><code>vac:dst:wakurtosis:waku:techreport</code>
+<ul>
+<li>delivered: Wakurtosis Tech Report v2 (
 
-<a href="https://github.com/logos-co/nomos-node/pull/268" rel="noopener">https://github.com/logos-co/nomos-node/pull/268</a>)</li>
-<li>Increased run duration of integration tests (
+<a href="https://docs.google.com/document/d/1U3bzlbk_Z3ZxN9tPAnORfYdPRWyskMuShXbdxCj4xOM/edit?usp=sharing" rel="noopener">https://docs.google.com/document/d/1U3bzlbk_Z3ZxN9tPAnORfYdPRWyskMuShXbdxCj4xOM/edit?usp=sharing</a>)</li>
+</ul>
+</li>
+<li><code>vac:dst:wakurtosis:vac:rlog</code>
+<ul>
+<li>working on research log post on Waku Wakurtosis simulations</li>
+</ul>
+</li>
+<li><code>vac:dst:gsub-model:status:control-messages</code>
+<ul>
+<li>delivered: the analytical model can now handle Status messages; status analysis now has a separate cli and config; handles top 5 message types (by expected bandwidth consumption)</li>
+</ul>
+</li>
+<li><code>vac:dst:gsub-model:vac:refactoring</code>
+<ul>
+<li>Refactoring and bug fixes</li>
+<li>introduced and tested 2 new analytical models</li>
+</ul>
+</li>
+<li><code>vac:dst:wakurtosis:waku:topology-analysis</code>
+<ul>
+<li>delivered: extracted into separate module, independent of wls message</li>
+</ul>
+</li>
+<li><code>vac:dst:wakurtosis:nomos:ci-integration_02</code>
+<ul>
+<li>planning</li>
+</ul>
+</li>
+<li><code>vac:dst:10ksim:vac:10ksim-bandwidth-test</code>
+<ul>
+<li>planning; check usage of new codex simulator tool (
 
-<a href="https://github.com/logos-co/nomos-node/pull/263" rel="noopener">https://github.com/logos-co/nomos-node/pull/263</a>)</li>
-<li>Warding improvements (
+<a href="https://github.com/codex-storage/cs-codex-dist-tests" rel="noopener">https://github.com/codex-storage/cs-codex-dist-tests</a>)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><em>vip::zkVM</em>
+<ul>
+<li><code>vac:zkvm::vac:research-existing-proof-systems</code>
+<ul>
+<li>90% Nescience WIP done – to be reviewed carefully since no other follow up documents were giiven to me</li>
+<li>50% FHE review - needs to be refined and summarized</li>
+<li>finished SuperNova writeup ( 
 
-<a href="https://github.com/logos-co/nomos-node/pull/269" rel="noopener">https://github.com/logos-co/nomos-node/pull/269</a>)</li>
+<a href="https://www.notion.so/SuperNova-research-document-8deab397f8fe413fa3a1ef3aa5669f37" rel="noopener">https://www.notion.so/SuperNova-research-document-8deab397f8fe413fa3a1ef3aa5669f37</a> )</li>
+<li>researched starky</li>
+<li>80% Halo2 notes ( 
+
+<a href="https://www.notion.so/halo2-fb8d7d0b857f43af9eb9f01c44e76fb9" rel="noopener">https://www.notion.so/halo2-fb8d7d0b857f43af9eb9f01c44e76fb9</a> )</li>
+</ul>
+</li>
+<li><code>vac:zkvm::vac:proof-system-benchmarks</code>
+<ul>
+<li>More discoveries on benchmarks done on ZK-snarks and ZK-starks but all are high level</li>
+<li>Viewed some circuits on Nova and Poseidon</li>
+<li>Read through Halo2 code (and Poseidon code) from Axiom</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><em>vip::RLNP2P</em>
+<ul>
+<li><code>vac:acz:rlnp2p:waku:production-readiness</code>
+<ul>
+<li>Waku rln contract registry - 
+
+<a href="https://github.com/waku-org/waku-rln-contract/pull/3" rel="noopener">https://github.com/waku-org/waku-rln-contract/pull/3</a></li>
+<li>mark duplicated messages as spam - 
+
+<a href="https://github.com/waku-org/nwaku/pull/1867" rel="noopener">https://github.com/waku-org/nwaku/pull/1867</a></li>
+<li>use waku-org/waku-rln-contract as a submodule in nwaku - 
+
+<a href="https://github.com/waku-org/nwaku/pull/1884" rel="noopener">https://github.com/waku-org/nwaku/pull/1884</a></li>
+</ul>
+</li>
+<li><code>vac:acz:zerokit:vac:maintenance</code>
+<ul>
+<li>Fixed atomic_operation ffi edge case error - 
+
+<a href="https://github.com/vacp2p/zerokit/pull/195" rel="noopener">https://github.com/vacp2p/zerokit/pull/195</a></li>
+<li>docs cleanup - 
+
+<a href="https://github.com/vacp2p/zerokit/pull/196" rel="noopener">https://github.com/vacp2p/zerokit/pull/196</a></li>
+<li>fixed version tags - 
+
+<a href="https://github.com/vacp2p/zerokit/pull/194" rel="noopener">https://github.com/vacp2p/zerokit/pull/194</a></li>
+<li>released zerokit v0.3.1 - 
+
+<a href="https://github.com/vacp2p/zerokit/pull/198" rel="noopener">https://github.com/vacp2p/zerokit/pull/198</a></li>
+<li>marked all functions as virtual in rln-contract for inheritors - 
+
+<a href="https://github.com/vacp2p/rln-contract/commit/a092b934a6293203abbd4b9e3412db23ff59877e" rel="noopener">https://github.com/vacp2p/rln-contract/commit/a092b934a6293203abbd4b9e3412db23ff59877e</a></li>
+<li>make nwaku use zerokit v0.3.1 - 
+
+<a href="https://github.com/waku-org/nwaku/pull/1886" rel="noopener">https://github.com/waku-org/nwaku/pull/1886</a></li>
+<li>rlnp2p implementers draft - 
+
+<a href="https://hackmd.io/@rymnc/rln-impl-w-waku" rel="noopener">https://hackmd.io/@rymnc/rln-impl-w-waku</a></li>
+</ul>
+</li>
+<li><code>vac:acz:zerokit:vac:zerokit-v0.4</code>
+<ul>
+<li>zerokit v0.4.0 release planning - 
+
+<a href="https://github.com/vacp2p/zerokit/issues/197" rel="noopener">https://github.com/vacp2p/zerokit/issues/197</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><em>vc::Deep Research</em>
+<ul>
+<li><code>vac:dr:valpriv:vac:tor-push-poc</code>
+<ul>
+<li>redesigned the torpush integration in nimbus 
+
+<a href="https://github.com/vacp2p/nimbus-eth2-experimental/pull/2" rel="noopener">https://github.com/vacp2p/nimbus-eth2-experimental/pull/2</a></li>
+</ul>
+</li>
+<li><code>vac:dr:valpriv:vac:tor-push-relwork</code>
+<ul>
+<li>Addressed further comments in paper, improved intro, added source level variation approach</li>
+</ul>
+</li>
+<li><code>vac:dr:gsub-scaling:vac:gossipsub-improvements-tech-report</code>
+<ul>
+<li>cont&rsquo; work on the document</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>

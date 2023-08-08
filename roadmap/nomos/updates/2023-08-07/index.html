@@ -5,11 +5,10 @@
   <meta charset="UTF-8" />
   <meta
     name="description"
-    content="Research
-Milestone 1: Understanding Data Availability (DA) Problem High-level exploration and discussion on data availability problems in a collaborative offsite meeting in Paris."
+    content="Nomos weekly report Network implementation and Mixnet: Research Researched the Nym mixnet architecture in depth in order to design our prototype architecture."
   />
   <title>
-    2023-07-24 Nomos weekly
+    2023-08-07 Nomos weekly
   </title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -233,14 +232,14 @@ Milestone 1: Understanding Data Availability (DA) Problem High-level exploration
 
 
     <article>
-      <h1>2023-07-24 Nomos weekly</h1>
+      <h1>2023-08-07 Nomos weekly</h1>
       <p class="meta">
           Last updated 
-Jul 24, 2023
+Aug 7, 2023
 
  
           
-<a href="https://github.com/logos-co/roadmap/tree/hugo/content/roadmap/nomos/updates/2023-07-24.md" rel="noopener">Edit Source</a>
+<a href="https://github.com/logos-co/roadmap/tree/hugo/content/roadmap/nomos/updates/2023-08-07.md" rel="noopener">Edit Source</a>
 
 
       </p>
@@ -253,7 +252,18 @@ Jul 24, 2023
 <aside class="mainTOC">
     <details >
         <summary>Table of Contents</summary>
-        <nav id="TableOfContents"></nav>
+        <nav id="TableOfContents">
+  <ol>
+    <li>
+      <ol>
+        <li><a href="#network-implementation-and-mixnet">Network implementation and Mixnet:</a></li>
+        <li><a href="#private-pos">Private PoS:</a></li>
+        <li><a href="#carnot">Carnot:</a></li>
+        <li><a href="#data-availability-sampling-vid">Data Availability Sampling (VID):</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
     </details>
 </aside>
 
@@ -290,53 +300,85 @@ Jul 24, 2023
   
 
 
-<p><strong>Research</strong></p>
+<a href="#nomos-weekly-report"><h1 id="nomos-weekly-report"><span class="hanchor" ariaLabel="Anchor"># </span>Nomos weekly report</h1></a>
+<a href="#network-implementation-and-mixnet"><h3 id="network-implementation-and-mixnet"><span class="hanchor" ariaLabel="Anchor"># </span>Network implementation and Mixnet:</h3></a>
+<a href="#research"><h4 id="research"><span class="hanchor" ariaLabel="Anchor"># </span>Research</h4></a>
 <ul>
-<li>Milestone 1: Understanding Data Availability (DA) Problem</li>
-<li>High-level exploration and discussion on data availability problems in a collaborative offsite meeting in Paris.</li>
-<li>Explored the necessity and key challenges associated with DA.</li>
-<li>In-depth study of Verifiable Information Dispersal (VID) as it relates to data availability.</li>
-<li><strong>Blocker:</strong> The experimental tests for our specific EC scheme are pending, which is blocking progress to make final decision on KZG + commitments for our architecture.</li>
-<li>Milestone 2: Privacy for Proof of Stake (PoS)</li>
-<li>Analyzed the capabilities and limitations of mixnets, specifically within the context of timing attacks in private PoS.</li>
-<li>Invested time in understanding timing attacks and how Nym mixnet caters to these challenges.</li>
-<li>Reviewed the Crypsinous paper to understand its privacy vulnerabilities, notably the issue with probabilistic leader election and the vulnerability of anonymous broadcast channels to timing attacks.</li>
+<li>Researched the Nym mixnet architecture in depth in order to design our prototype architecture.
+(Link: 
+
+<a href="https://github.com/logos-co/nomos-node/issues/273#issuecomment-1661386628" rel="noopener">https://github.com/logos-co/nomos-node/issues/273#issuecomment-1661386628</a>)</li>
+<li>Discussions about how to manage the mixnet topology.
+(Link: 
+
+<a href="https://github.com/logos-co/nomos-node/issues/273#issuecomment-1665101243" rel="noopener">https://github.com/logos-co/nomos-node/issues/273#issuecomment-1665101243</a>)</li>
 </ul>
-<p><strong>Development</strong></p>
+<a href="#development"><h4 id="development"><span class="hanchor" ariaLabel="Anchor"># </span>Development</h4></a>
 <ul>
-<li>Milestone 1: Mixnet and Networking</li>
-<li>Initiated integration of libp2p to be used as the full node&rsquo;s backend, planning to complete in the next phase.</li>
-<li>Begun planning for the next steps for mixnet integration, with a focus on understanding the components of the Nym mixnet, its problem-solving mechanisms, and the potential for integrating some of its components into our codebase.</li>
-<li>Milestone 2: Simulation Application</li>
-<li>Completed pseudocode for Carnot Simulator, created a test pseudocode, and provided a detailed description of the simulation. The relevant resources can be found at the following links:
-<ul>
-<li>Carnot Simulator pseudocode (
+<li>Implemented a prototype for building a Sphinx packet, mixing packets at the first hop of gossipsub with 3 mixnodes (+ encryption + delay), raw TCP connections between mixnodes, and the static entire mixnode topology.
+(Link: 
 
-<a href="https://github.com/logos-co/nomos-specs/blob/Carnot-Simulation/carnot/carnot_simulation_psuedocode.py" rel="noopener">https://github.com/logos-co/nomos-specs/blob/Carnot-Simulation/carnot/carnot_simulation_psuedocode.py</a>)</li>
-<li>Test pseudocode (
+<a href="https://github.com/logos-co/nomos-node/pull/288" rel="noopener">https://github.com/logos-co/nomos-node/pull/288</a>)</li>
+<li>Added support for libp2p in tests.
+(Link: 
 
-<a href="https://github.com/logos-co/nomos-specs/blob/Carnot-Simulation/carnot/test_carnot_simulation.py" rel="noopener">https://github.com/logos-co/nomos-specs/blob/Carnot-Simulation/carnot/test_carnot_simulation.py</a>)</li>
-<li>Description of the simulation (
+<a href="https://github.com/logos-co/nomos-node/pull/287" rel="noopener">https://github.com/logos-co/nomos-node/pull/287</a>)</li>
+<li>Added support for libp2p in nomos node.
+(Link: 
 
-<a href="https://www.notion.so/Carnot-Simulation-c025dbab6b374c139004aae45831cf78" rel="noopener">https://www.notion.so/Carnot-Simulation-c025dbab6b374c139004aae45831cf78</a>)</li>
+<a href="https://github.com/logos-co/nomos-node/pull/285" rel="noopener">https://github.com/logos-co/nomos-node/pull/285</a>)</li>
 </ul>
-</li>
-<li>Implemented simulation network fixes and warding improvements, and increased the run duration of integration tests. The corresponding pull requests can be accessed here:
+<a href="#private-pos"><h3 id="private-pos"><span class="hanchor" ariaLabel="Anchor"># </span>Private PoS:</h3></a>
+<a href="#research-1"><h4 id="research-1"><span class="hanchor" ariaLabel="Anchor"># </span>Research</h4></a>
 <ul>
-<li>Simulation network fix (
-
-<a href="https://github.com/logos-co/nomos-node/pull/262" rel="noopener">https://github.com/logos-co/nomos-node/pull/262</a>)</li>
-<li>Vote tally fix (
-
-<a href="https://github.com/logos-co/nomos-node/pull/268" rel="noopener">https://github.com/logos-co/nomos-node/pull/268</a>)</li>
-<li>Increased run duration of integration tests (
-
-<a href="https://github.com/logos-co/nomos-node/pull/263" rel="noopener">https://github.com/logos-co/nomos-node/pull/263</a>)</li>
-<li>Warding improvements (
-
-<a href="https://github.com/logos-co/nomos-node/pull/269" rel="noopener">https://github.com/logos-co/nomos-node/pull/269</a>)</li>
+<li>Worked on PPoS design and addressed potential metadata leakage due to staking and rewarding.</li>
+<li>Focus on potential bribery attacks and privacy reasoning, but not much progress yet.</li>
+<li>Stopped work on Accountability mechanism and PPoS efficiency due to prioritizing bribery attacks.</li>
 </ul>
-</li>
+<a href="#carnot"><h3 id="carnot"><span class="hanchor" ariaLabel="Anchor"># </span>Carnot:</h3></a>
+<a href="#research-2"><h4 id="research-2"><span class="hanchor" ariaLabel="Anchor"># </span>Research</h4></a>
+<ul>
+<li>Addressed two solutions for the bribery attack. Proposals pending.</li>
+<li>Work on accountability against attacks in Carnot including Slashing mechanism for attackers is paused at the moment.</li>
+<li>Modeled data decimation using a specific set of parameters and derived equations related to it.</li>
+<li>Proposed solutions to address bribery attacks without compromising the protocol&rsquo;s scalability.</li>
+</ul>
+<a href="#data-availability-sampling-vid"><h3 id="data-availability-sampling-vid"><span class="hanchor" ariaLabel="Anchor"># </span>Data Availability Sampling (VID):</h3></a>
+<a href="#research-3"><h4 id="research-3"><span class="hanchor" ariaLabel="Anchor"># </span>Research</h4></a>
+<ul>
+<li>Analyzed data decimation in data availability problem.
+(Link: 
+
+<a href="https://www.overleaf.com/read/gzqvbbmfnxyp" rel="noopener">https://www.overleaf.com/read/gzqvbbmfnxyp</a>)</li>
+<li>DA benchmarks and analysis for data commitments and encoding. This confirms that (for now), we are on the right path.</li>
+<li>Explored the idea of node sharding: 
+
+<a href="https://arxiv.org/abs/1907.03331" rel="noopener">https://arxiv.org/abs/1907.03331</a> (taken from Celestia), but discarded it because it doesn&rsquo;t fit our architecture.</li>
+</ul>
+<a href="#testing-and-node-development"><h4 id="testing-and-node-development"><span class="hanchor" ariaLabel="Anchor"># </span>Testing and Node development:</h4></a>
+<ul>
+<li>Fixes and enhancements made to nomos-node.
+(Link: 
+
+<a href="https://github.com/logos-co/nomos-node/pull/282" rel="noopener">https://github.com/logos-co/nomos-node/pull/282</a>)
+(Link: 
+
+<a href="https://github.com/logos-co/nomos-node/pull/289" rel="noopener">https://github.com/logos-co/nomos-node/pull/289</a>)
+(Link: 
+
+<a href="https://github.com/logos-co/nomos-node/pull/293" rel="noopener">https://github.com/logos-co/nomos-node/pull/293</a>)
+(Link: 
+
+<a href="https://github.com/logos-co/nomos-node/pull/295" rel="noopener">https://github.com/logos-co/nomos-node/pull/295</a>)</li>
+<li>Ran simulations with 10K nodes.</li>
+<li>Updated integration tests in CI to use waku or libp2p network.
+(Link: 
+
+<a href="https://github.com/logos-co/nomos-node/pull/290" rel="noopener">https://github.com/logos-co/nomos-node/pull/290</a>)</li>
+<li>Fix for the node throughput during simulations.
+(Link: 
+
+<a href="https://github.com/logos-co/nomos-node/pull/295" rel="noopener">https://github.com/logos-co/nomos-node/pull/295</a>)</li>
 </ul>
 
 
