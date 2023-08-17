@@ -22,7 +22,7 @@ This site attempts to inform the previous, current, and future work required to 
 - [weekly updates](tags/vac-updates)
 
 ### Innovation Lab
-- [Milestones](roadmap/innovation_lab/milestones_overview.md)
+- [Milestones](roadmap/innovation_lab/milestones-overview.md)
 - [weekly updates](tags/ilab-updates)
 ### Comms (Acid Info)
 - [Milestones](roadmap/acid/milestones-overview.md)
