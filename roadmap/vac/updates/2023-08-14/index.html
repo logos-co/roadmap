@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8" />
+  <meta
+    name="description"
+    content="Vac Milestones: https://www.notion.so/Vac-Roadmap-907df7eeac464143b00c6f49a20bb632
+Vac week 33 August 14th vsu::P2P vac:p2p:nim-libp2p:vac:maintenance Improve gossipsub DDoS resistance https://github.com/status-im/nim-libp2p/pull/920 delivered: Perf protocol https://github.com/status-im/nim-libp2p/pull/925 delivered: Test-plans for the perf protocol https://github."
+  />
+  <title>
+    2023-08-17 Vac weekly
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  
+  
+  
+  
+  
+  <link rel="shortcut icon" type="image/png"  href="https://roadmap.logos.co//icon.png" />
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <link href="https://roadmap.logos.co/styles.7fdbd93987bfba941d84b8a4050caaba.min.css" rel="stylesheet" />
+
+  
+  <link href="https://roadmap.logos.co/styles/_light_syntax.86a48a52faebeaaf42158b72922b1c90.min.css" rel="stylesheet" id="theme-link">
+
+   
+  
+  
+  
+  
+  <script src="https://roadmap.logos.co/js/darkmode.4ee460c38f180dd44f1565712a1f3c8a.min.js"></script>
+  
+  
+  
+  <script src="https://roadmap.logos.co/js/util.9825137f5e7825e8553c68ce39ac9e44.min.js"></script>
+  
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css" integrity="sha384-R4558gYOUz8mP9YWpZJjofhk+zx0AS11p36HnD2ZKj/6JR5z27gSSULCNHIRReVs" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js" integrity="sha384-z1fJDqw8ZApjGO3/unPWUPsIymfsJmyrDVWC8Tv/a1HeOtGmkwNd/7xUS0Xcnvsx" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"></script>
+
+
+    
+  <script src="https://unpkg.com/@floating-ui/core@0.7.3"></script>
+  <script src="https://unpkg.com/@floating-ui/dom@0.5.4"></script>
+  
+  <script src="https://roadmap.logos.co/js/popover.37b1455b8f0603154072b9467132c659.min.js"></script>
+
+  
+  
+  
+  <script src="https://roadmap.logos.co/js/code-title.b35124ad8db0ba37162b886afb711cbc.min.js"></script>
+  
+
+  
+  
+  <script src="https://roadmap.logos.co/js/clipboard.c20857734e53a3fb733b7443879efa61.min.js"></script>
+  
+
+  
+  
+  <script src="https://roadmap.logos.co/js/callouts.7723cac461d613d118ee8bb8216b9838.min.js"></script>
+  
+
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+</script>
+
+  
+   
+  <script>
+    const BASE_URL = "https://roadmap.logos.co/"
+    const fetchData = Promise.all([
+          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.6cf348040d2d17fddcc3c5b88898e318.min.json")
+            .then(data => data.json())
+            .then(data => ({
+              index: data.index,
+              links: data.links,
+            })),
+          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.45924f9af8144078960b64186b90a620.min.json")
+            .then(data => data.json()),
+        ])
+        .then(([{index, links}, content]) => ({
+          index,
+          links,
+          content,
+        }))
+
+      const render = () => {
+      
+
+      const siteBaseURL = new URL(BASE_URL);
+      const pathBase = siteBaseURL.pathname;
+      const pathWindow = window.location.pathname;
+      const isHome = pathBase == pathWindow;
+
+      addCopyButtons();
+      
+
+      addTitleToCodeBlocks();
+      
+
+      addCollapsibleCallouts();
+      
+     
+      
+      initPopover(
+        "https://roadmap.logos.co",
+         true ,
+         true 
+      )
+      
+
+      
+      const footer = document.getElementById("footer")
+      if (footer) {
+        const container = document.getElementById("graph-container")
+        
+        if (!container) return requestAnimationFrame(render)
+        
+        container.textContent = ""
+
+        const drawGlobal = isHome &&  false ;
+        drawGraph(
+            "https://roadmap.logos.co",
+            drawGlobal,
+            [{"/moc":"#4388cc"}],
+            drawGlobal ? {"centerForce":1,"depth":-1,"enableDrag":true,"enableLegend":false,"enableZoom":true,"fontSize":0.5,"linkDistance":1,"opacityScale":3,"repelForce":1,"scale":1.4} : {"centerForce":1,"depth":1,"enableDrag":true,"enableLegend":false,"enableZoom":true,"fontSize":0.6,"linkDistance":1,"opacityScale":3,"repelForce":2,"scale":1.2}
+          );
+
+        }
+      
+    }
+
+    const init = (doc = document) => {
+      
+      addCopyButtons();
+      
+
+      addTitleToCodeBlocks();
+      renderMathInElement(doc.body, {
+        delimiters: [
+          {left: '$$', right: '$$', display: true},
+          {left: '$', right: '$', display: false},
+        ],
+        throwOnError : false
+      });
+      
+    };
+  </script>
+  
+  
+  
+  <script type="module">
+    import { attachSPARouting } from "https:\/\/roadmap.logos.co\/js\/router.9d4974281069e9ebb189f642ae1e3ca2.min.js"
+    attachSPARouting(init, render)
+  </script>
+  
+</head>
+
+
+<body>
+<div id="search-container">
+  <div id="search-space">
+    <input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search"
+      placeholder="Search for something...">
+    <div id="results-container">
+    </div>
+  </div>
+</div>
+
+
+<script defer src="https://roadmap.logos.co/js/semantic-search.d4032d4a6a967938235ae76d08a55b46.min.js"></script>
+
+
+
+<div class="singlePage">
+    
+    <header>
+    <h1 id="page-title"><a href="https://roadmap.logos.co/">Logos Collective Technical Roadmap and Activity</a></h1>
+    <div class="spacer"></div>
+    <div id="search-icon">
+      <p>Search</p>
+      <svg tabindex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search Icon</title><desc id="desc">Icon to open search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"/><circle cx="8" cy="8" r="7"/></g></svg>
+    </div>
+    <div class='darkmode'>
+    <input class='toggle' id='darkmode-toggle' type='checkbox' tabindex="-1">
+    <label id="toggle-label-light" for='darkmode-toggle' tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xml:space="preserve">
+            <title>Light Mode</title>
+            <path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z" />
+        </svg>
+    </label>
+    <label id="toggle-label-dark" for='darkmode-toggle' tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xml:space="preserve">
+            <title>Dark Mode</title>
+            <path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z" />
+        </svg>
+    </label>
+</div>
+</header>
+
+
+    <article>
+      <h1>2023-08-17 Vac weekly</h1>
+      <p class="meta">
+          Last updated 
+Aug 14, 2023
+
+ 
+          
+<a href="https://github.com/logos-co/roadmap/tree/hugo/content/roadmap/vac/updates/2023-08-14.md" rel="noopener">Edit Source</a>
+
+
+      </p>
+      <ul class="tags">
+          
+          <li><a href="https://roadmap.logos.co/tags/vac-updates/">Vac updates</a></li>
+          
+      </ul>
+      
+<aside class="mainTOC">
+    <details >
+        <summary>Table of Contents</summary>
+        <nav id="TableOfContents">
+  <ol>
+    <li><a href="#vsup2p"><em>vsu::P2P</em></a>
+      <ol>
+        <li><a href="#vacp2pnim-libp2pvacmaintenance"><code>vac:p2p:nim-libp2p:vac:maintenance</code></a></li>
+        <li><a href="#vacp2pnim-chronosvacmaintenance"><code>vac:p2p:nim-chronos:vac:maintenance</code></a></li>
+      </ol>
+    </li>
+    <li><a href="#vsutokenomics"><em>vsu::Tokenomics</em></a>
+      <ol>
+        <li><a href="#vactkecodexeconomic-analysis"><code>vac:tke::codex:economic-analysis</code></a></li>
+        <li><a href="#vactkestatussnt-staking"><code>vac:tke::status:SNT-staking</code></a></li>
+        <li><a href="#vactkenomoseconomic-analysis"><code>vac:tke::nomos:economic-analysis</code></a></li>
+      </ol>
+    </li>
+    <li><a href="#vsudistributed-systems-testing-dst"><em>vsu::Distributed Systems Testing (DST)</em></a>
+      <ol>
+        <li><a href="#vacdstwakurtosiswakutechreport"><code>vac:dst:wakurtosis:waku:techreport</code></a></li>
+        <li><a href="#vacdstshadowvacbasic-shadow-simulation"><code>vac:dst:shadow:vac:basic-shadow-simulation</code></a></li>
+        <li><a href="#vacdst10ksimvac10ksim-bandwidth-test"><code>vac:dst:10ksim:vac:10ksim-bandwidth-test</code></a></li>
+        <li><a href="#vacdstwakurtosisnomosci-integration_02"><code>vac:dst:wakurtosis:nomos:ci-integration_02</code></a></li>
+        <li><a href="#vacdstengvacbundle-simulation-data"><code>vac:dst:eng:vac:bundle-simulation-data</code></a></li>
+      </ol>
+    </li>
+    <li><a href="#vsusmart-contracts-sc"><em>vsu:Smart Contracts (SC)</em></a>
+      <ol>
+        <li><a href="#vacscvacsecureum-upskilling"><code>vac:sc::vac:secureum-upskilling</code></a></li>
+        <li><a href="#vacscvacmaintainancemisc"><code>vac:sc::vac:maintainance/misc</code></a></li>
+      </ol>
+    </li>
+    <li><a href="#vsuapplied-cryptogarphy--zk-acz"><em>vsu:Applied Cryptogarphy &amp; ZK (ACZ)</em></a></li>
+    <li><a href="#vipzkvm"><em>vip::zkVM</em></a>
+      <ol>
+        <li><a href="#vaczkvmvacresearch-existing-proof-systems"><code>vac:zkvm::vac:research-existing-proof-systems</code></a></li>
+        <li><a href="#vaczkvmvacproof-system-benchmarks"><code>vac:zkvm::vac:proof-system-benchmarks</code></a></li>
+      </ol>
+    </li>
+    <li><a href="#vcdeep-research"><em>vc::Deep Research</em></a>
+      <ol>
+        <li><a href="#vacdrvalprivvactor-push-poc"><code>vac:dr:valpriv:vac:tor-push-poc</code></a></li>
+        <li><a href="#vacdrvalprivvactor-push-relwork"><code>vac:dr:valpriv:vac:tor-push-relwork</code></a></li>
+        <li><a href="#vacdrgsub-scalingvacgossipsub-simulation"><code>vac:dr:gsub-scaling:vac:gossipsub-simulation</code></a></li>
+        <li><a href="#vacdrgsub-scalingvacgossipsub-improvements-tech-report"><code>vac:dr:gsub-scaling:vac:gossipsub-improvements-tech-report</code></a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+    </details>
+</aside>
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+<p>Vac Milestones: 
+
+<a href="https://www.notion.so/Vac-Roadmap-907df7eeac464143b00c6f49a20bb632" rel="noopener">https://www.notion.so/Vac-Roadmap-907df7eeac464143b00c6f49a20bb632</a></p>
+<a href="#vac-week-33-august-14th"><h1 id="vac-week-33-august-14th"><span class="hanchor" ariaLabel="Anchor"># </span>Vac week 33 August 14th</h1></a>
+<hr>
+<a href="#vsup2p"><h2 id="vsup2p"><span class="hanchor" ariaLabel="Anchor"># </span><em>vsu::P2P</em></h2></a>
+<a href="#vacp2pnim-libp2pvacmaintenance"><h3 id="vacp2pnim-libp2pvacmaintenance"><span class="hanchor" ariaLabel="Anchor"># </span><code>vac:p2p:nim-libp2p:vac:maintenance</code></h3></a>
+<ul>
+<li>Improve gossipsub DDoS resistance  
+
+<a href="https://github.com/status-im/nim-libp2p/pull/920" rel="noopener">https://github.com/status-im/nim-libp2p/pull/920</a></li>
+<li>delivered: Perf protocol 
+
+<a href="https://github.com/status-im/nim-libp2p/pull/925" rel="noopener">https://github.com/status-im/nim-libp2p/pull/925</a></li>
+<li>delivered: Test-plans for the perf protocol  
+
+<a href="https://github.com/lchenut/test-plans/tree/perf-nim" rel="noopener">https://github.com/lchenut/test-plans/tree/perf-nim</a></li>
+<li>Bandwidth estimate as a parameter (waiting for final review) 
+
+<a href="https://github.com/status-im/nim-libp2p/pull/941" rel="noopener">https://github.com/status-im/nim-libp2p/pull/941</a></li>
+</ul>
+<a href="#vacp2pnim-chronosvacmaintenance"><h3 id="vacp2pnim-chronosvacmaintenance"><span class="hanchor" ariaLabel="Anchor"># </span><code>vac:p2p:nim-chronos:vac:maintenance</code></h3></a>
+<ul>
+<li>delivered: Remove hard-coded ports from test 
+
+<a href="https://github.com/status-im/nim-chronos/pull/429" rel="noopener">https://github.com/status-im/nim-chronos/pull/429</a></li>
+<li>delivered: fixed flaky test using REUSE_PORT  
+
+<a href="https://github.com/status-im/nim-chronos/pull/438" rel="noopener">https://github.com/status-im/nim-chronos/pull/438</a></li>
+</ul>
+<hr>
+<a href="#vsutokenomics"><h2 id="vsutokenomics"><span class="hanchor" ariaLabel="Anchor"># </span><em>vsu::Tokenomics</em></h2></a>
+<ul>
+<li>admin/misc:
+<ul>
+<li>(5 CC days off)</li>
+</ul>
+</li>
+</ul>
+<a href="#vactkecodexeconomic-analysis"><h3 id="vactkecodexeconomic-analysis"><span class="hanchor" ariaLabel="Anchor"># </span><code>vac:tke::codex:economic-analysis</code></h3></a>
+<ul>
+<li>Filecoin economic structure and Codex token requirements</li>
+</ul>
+<a href="#vactkestatussnt-staking"><h3 id="vactkestatussnt-staking"><span class="hanchor" ariaLabel="Anchor"># </span><code>vac:tke::status:SNT-staking</code></h3></a>
+<ul>
+<li>tests with the contracts</li>
+</ul>
+<a href="#vactkenomoseconomic-analysis"><h3 id="vactkenomoseconomic-analysis"><span class="hanchor" ariaLabel="Anchor"># </span><code>vac:tke::nomos:economic-analysis</code></h3></a>
+<ul>
+<li>resume discussions with Nomos team</li>
+</ul>
+<hr>
+<a href="#vsudistributed-systems-testing-dst"><h2 id="vsudistributed-systems-testing-dst"><span class="hanchor" ariaLabel="Anchor"># </span><em>vsu::Distributed Systems Testing (DST)</em></h2></a>
+<a href="#vacdstwakurtosiswakutechreport"><h3 id="vacdstwakurtosiswakutechreport"><span class="hanchor" ariaLabel="Anchor"># </span><code>vac:dst:wakurtosis:waku:techreport</code></h3></a>
+<ul>
+<li>1st Draft of Wakurtosis Research Blog (
+
+<a href="https://github.com/vacp2p/vac.dev/pull/123" rel="noopener">https://github.com/vacp2p/vac.dev/pull/123</a>)</li>
+<li>Data Process / Analysis of Non-Discv5 K13 Simulations (Wakurtosis Tech Report v2.5)</li>
+</ul>
+<a href="#vacdstshadowvacbasic-shadow-simulation"><h3 id="vacdstshadowvacbasic-shadow-simulation"><span class="hanchor" ariaLabel="Anchor"># </span><code>vac:dst:shadow:vac:basic-shadow-simulation</code></h3></a>
+<ul>
+<li>Basic Shadow Simulation of a gossipsub node (Setup, 5nodes)</li>
+</ul>
+<a href="#vacdst10ksimvac10ksim-bandwidth-test"><h3 id="vacdst10ksimvac10ksim-bandwidth-test"><span class="hanchor" ariaLabel="Anchor"># </span><code>vac:dst:10ksim:vac:10ksim-bandwidth-test</code></h3></a>
+<ul>
+<li>Try and plan on how to refactor/generalize testing tool from Codex.</li>
+<li>Learn more about Kubernetes</li>
+</ul>
+<a href="#vacdstwakurtosisnomosci-integration_02"><h3 id="vacdstwakurtosisnomosci-integration_02"><span class="hanchor" ariaLabel="Anchor"># </span><code>vac:dst:wakurtosis:nomos:ci-integration_02</code></h3></a>
+<ul>
+<li>Enable subnetworks</li>
+<li>Plan how to use wakurtosis with fixed version</li>
+</ul>
+<a href="#vacdstengvacbundle-simulation-data"><h3 id="vacdstengvacbundle-simulation-data"><span class="hanchor" ariaLabel="Anchor"># </span><code>vac:dst:eng:vac:bundle-simulation-data</code></h3></a>
+<ul>
+<li>Run requested simulations</li>
+</ul>
+<hr>
+<a href="#vsusmart-contracts-sc"><h2 id="vsusmart-contracts-sc"><span class="hanchor" ariaLabel="Anchor"># </span><em>vsu:Smart Contracts (SC)</em></h2></a>
+<a href="#vacscvacsecureum-upskilling"><h3 id="vacscvacsecureum-upskilling"><span class="hanchor" ariaLabel="Anchor"># </span><code>vac:sc::vac:secureum-upskilling</code></h3></a>
+<ul>
+<li>Learned about
+<ul>
+<li>cold vs warm storage reads and their gas implications</li>
+<li>UTXO vs account models</li>
+<li><code>DELEGATECALL</code> vs <code>CALLCODE</code> opcodes, <code>CREATE</code> vs <code>CREATE2</code> opcodes; Yul Assembly</li>
+<li>Unstructured proxies 
+
+<a href="https://eips.ethereum.org/EIPS/eip-1967" rel="noopener">https://eips.ethereum.org/EIPS/eip-1967</a></li>
+<li>C3 Linearization 
+
+<a href="https://forum.openzeppelin.com/t/solidity-diamond-inheritance/2694" rel="noopener">https://forum.openzeppelin.com/t/solidity-diamond-inheritance/2694</a>) (Diamond inheritance and resolution)</li>
+</ul>
+</li>
+<li>Uniswap deep dive</li>
+<li>Finished Secureum slot 2 and 3</li>
+</ul>
+<a href="#vacscvacmaintainancemisc"><h3 id="vacscvacmaintainancemisc"><span class="hanchor" ariaLabel="Anchor"># </span><code>vac:sc::vac:maintainance/misc</code></h3></a>
+<ul>
+<li>Introduced Vac&rsquo;s own <code>foundry-template</code> for smart contract projects
+<ul>
+<li>Goal is to have the same project structure across projects</li>
+<li>Github repository: 
+
+<a href="https://github.com/vacp2p/foundry-template" rel="noopener">https://github.com/vacp2p/foundry-template</a></li>
+</ul>
+</li>
+</ul>
+<hr>
+<a href="#vsuapplied-cryptogarphy--zk-acz"><h2 id="vsuapplied-cryptogarphy--zk-acz"><span class="hanchor" ariaLabel="Anchor"># </span><em>vsu:Applied Cryptogarphy &amp; ZK (ACZ)</em></h2></a>
+<ul>
+<li><code>vac:acz:zerokit:vac:maintenance</code>
+<ul>
+<li>PR reviews 
+
+<a href="https://github.com/vacp2p/zerokit/pull/200" rel="noopener">https://github.com/vacp2p/zerokit/pull/200</a>, 
+
+<a href="https://github.com/vacp2p/zerokit/pull/201" rel="noopener">https://github.com/vacp2p/zerokit/pull/201</a></li>
+</ul>
+</li>
+</ul>
+<hr>
+<a href="#vipzkvm"><h2 id="vipzkvm"><span class="hanchor" ariaLabel="Anchor"># </span><em>vip::zkVM</em></h2></a>
+<a href="#vaczkvmvacresearch-existing-proof-systems"><h3 id="vaczkvmvacresearch-existing-proof-systems"><span class="hanchor" ariaLabel="Anchor"># </span><code>vac:zkvm::vac:research-existing-proof-systems</code></h3></a>
+<ul>
+<li>delivered Nescience WIP doc</li>
+<li>delivered FHE review</li>
+<li>delivered Nova vs Sangria done - Some discussions during the meeting</li>
+<li>started HyperNova writeup</li>
+<li>started writing a trimmed version of FHE writeup</li>
+<li>researched CCS (for HyperNova)</li>
+<li>Research Protogalaxy 
+
+<a href="https://eprint.iacr.org/2023/1106" rel="noopener">https://eprint.iacr.org/2023/1106</a> and Protostar 
+
+<a href="https://eprint.iacr.org/2023/620" rel="noopener">https://eprint.iacr.org/2023/620</a>.</li>
+</ul>
+<a href="#vaczkvmvacproof-system-benchmarks"><h3 id="vaczkvmvacproof-system-benchmarks"><span class="hanchor" ariaLabel="Anchor"># </span><code>vac:zkvm::vac:proof-system-benchmarks</code></h3></a>
+<ul>
+<li>More work on benchmarks is ongoing</li>
+<li>Putting down a document that explains the differences</li>
+</ul>
+<hr>
+<a href="#vcdeep-research"><h2 id="vcdeep-research"><span class="hanchor" ariaLabel="Anchor"># </span><em>vc::Deep Research</em></h2></a>
+<a href="#vacdrvalprivvactor-push-poc"><h3 id="vacdrvalprivvactor-push-poc"><span class="hanchor" ariaLabel="Anchor"># </span><code>vac:dr:valpriv:vac:tor-push-poc</code></h3></a>
+<ul>
+<li>revised the code for PR</li>
+</ul>
+<a href="#vacdrvalprivvactor-push-relwork"><h3 id="vacdrvalprivvactor-push-relwork"><span class="hanchor" ariaLabel="Anchor"># </span><code>vac:dr:valpriv:vac:tor-push-relwork</code></h3></a>
+<ul>
+<li>added section for mixnet, non-Tor/non-onion routing-based anonymity network</li>
+</ul>
+<a href="#vacdrgsub-scalingvacgossipsub-simulation"><h3 id="vacdrgsub-scalingvacgossipsub-simulation"><span class="hanchor" ariaLabel="Anchor"># </span><code>vac:dr:gsub-scaling:vac:gossipsub-simulation</code></h3></a>
+<ul>
+<li>Used shadow simulator to run first GossibSub simulation</li>
+</ul>
+<a href="#vacdrgsub-scalingvacgossipsub-improvements-tech-report"><h3 id="vacdrgsub-scalingvacgossipsub-improvements-tech-report"><span class="hanchor" ariaLabel="Anchor"># </span><code>vac:dr:gsub-scaling:vac:gossipsub-improvements-tech-report</code></h3></a>
+<ul>
+<li>Finalized 1st draft of the GossipSub scaling article</li>
+</ul>
+
+
+    </article>
+    
+
+<hr/>
+
+
+<div class="page-end" id="footer">
+    <div class="backlinks-container">
+        <h3>Backlinks</h3>
+<ul class="backlinks">
+    
+    
+    
+    
+    
+    
+    
+    <li>
+        No backlinks found
+    </li>
+    
+</ul>
+
+    </div>
+    <div>
+        <script
+  src="https://cdn.jsdelivr.net/npm/d3@6.7.0/dist/d3.min.js"
+  integrity="sha256-+7jaYCp29O1JusNWHaYtgUn6EhuP0VaFuswhNV06MyI="
+  crossorigin="anonymous"
+></script>
+<h3>Interactive Graph</h3>
+<div id="graph-container"></div>
+<style>
+  :root {
+    --g-node: var(--secondary);
+    --g-node-active: var(--primary);
+    --g-node-inactive: var(--visited);
+    --g-link: var(--outlinegray);
+    --g-link-active: #5a7282;
+  }
+</style>
+
+<script src="https://roadmap.logos.co/js/graph.abd4bc2af3869a96524d7d23b76152c7.js"></script>
+
+    </div>
+</div>
+
+
+
+<div id="contact_buttons">
+    <footer>
+        <p>Made by Logos Collective using <a href="https://github.com/jackyzha0/quartz">Quartz</a>, © 2023</p>
+        <ul>
+            
+            <li><a href="https://roadmap.logos.co/">Home</a></li>
+            <li><a href="https://github.com/logos-co/roadmap">Github</a></li></ul>
+    </footer>
+</div>
+
+
+    
+</div>
+</body>
+
+</html>
+

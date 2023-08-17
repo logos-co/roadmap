@@ -5,11 +5,12 @@
   <meta charset="UTF-8" />
   <meta
     name="description"
-    content="Leads roundup - acid Al / Comms
-Status app relaunch comms campaign plan in the works. Approx. date for launch 31."
+    content="2023-08-14 Waku weekly Epics Waku Network Can Support 10K Users {E:2023-10k-users}
+All software has been delivered. Pending items are:
+Running stress testing on PostgreSQL to confirm performance gain https://github."
   />
   <title>
-    2023-08-02 Acid weekly
+    2023-08-14 Waku weekly
   </title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -233,20 +234,20 @@ Status app relaunch comms campaign plan in the works. Approx. date for launch 31
 
 
     <article>
-      <h1>2023-08-02 Acid weekly</h1>
+      <h1>2023-08-14 Waku weekly</h1>
       <p class="meta">
           Last updated 
-Aug 3, 2023
+Aug 14, 2023
 
  
           
-<a href="https://github.com/logos-co/roadmap/tree/hugo/content/roadmap/acid/updates/2023-08-02.md" rel="noopener">Edit Source</a>
+<a href="https://github.com/logos-co/roadmap/tree/hugo/content/roadmap/waku/updates/2023-08-14.md" rel="noopener">Edit Source</a>
 
 
       </p>
       <ul class="tags">
           
-          <li><a href="https://roadmap.logos.co/tags/acid-updates/">Acid updates</a></li>
+          <li><a href="https://roadmap.logos.co/tags/waku-updates/">Waku updates</a></li>
           
       </ul>
       
@@ -255,7 +256,12 @@ Aug 3, 2023
         <summary>Table of Contents</summary>
         <nav id="TableOfContents">
   <ol>
-    <li><a href="#leads-roundup---acid">Leads roundup - acid</a></li>
+    <li><a href="#epics">Epics</a></li>
+    <li><a href="#eco-dev">Eco Dev</a></li>
+    <li><a href="#docs">Docs</a></li>
+    <li><a href="#nwaku">nwaku</a></li>
+    <li><a href="#js-waku">js-waku</a></li>
+    <li><a href="#go-waku">go-waku</a></li>
   </ol>
 </nav>
     </details>
@@ -294,45 +300,131 @@ Aug 3, 2023
   
 
 
-<a href="#leads-roundup---acid"><h2 id="leads-roundup---acid"><span class="hanchor" ariaLabel="Anchor"># </span>Leads roundup - acid</h2></a>
-<p><strong>Al / Comms</strong></p>
+<a href="#2023-08-14-waku-weekly"><h1 id="2023-08-14-waku-weekly"><span class="hanchor" ariaLabel="Anchor"># </span>2023-08-14 Waku weekly</h1></a>
+<hr>
+<a href="#epics"><h2 id="epics"><span class="hanchor" ariaLabel="Anchor"># </span>Epics</h2></a>
+<p><strong>
+
+<a href="https://github.com/waku-org/pm/issues/12" rel="noopener">Waku Network Can Support 10K Users</a></strong> {E:2023-10k-users}</p>
+<p>All software has been delivered. Pending items are:</p>
 <ul>
-<li>Status app relaunch comms campaign plan in the works. Approx. date for launch 31.08.</li>
-<li>Logos comms + growth plan post launch is next up TBD.</li>
-<li>Will be waiting for specs for data room, raise etc.</li>
-<li>Hires: split the role for content studio to be more realistic in getting top level talent.</li>
+<li>Running stress testing on PostgreSQL to confirm performance gain 
+
+<a href="https://github.com/waku-org/nwaku/issues/1894" rel="noopener">https://github.com/waku-org/nwaku/issues/1894</a></li>
+<li>Setting up a staging fleet for Status to try static sharding</li>
+<li>Running simulations for Store protocol: 
+
+<a href="https://github.com/vacp2p/research/issues/191#issuecomment-1672542165" rel="noopener">Will confirm with Vac/DST on dates/commitment</a> and probably move this to 
+
+<a href="https://github.com/waku-org/pm/issues/31" rel="noopener">1mil epic</a></li>
 </ul>
-<p><strong>Matt  / Copy</strong></p>
+<hr>
+<a href="#eco-dev"><h2 id="eco-dev"><span class="hanchor" ariaLabel="Anchor"># </span>Eco Dev</h2></a>
+<p><strong>
+
+<a href="https://github.com/waku-org/internal-waku-outreach/issues/103" rel="noopener">Aug 2023</a></strong> {E:2023-eco-growth}</p>
 <ul>
-<li>Initiative updating old documentation like CC guide to reflect broader scope of BUs</li>
-<li>Brand guidelines/ modes of presentation are in process</li>
-<li>Wikipedia entry on network states and virtual states is live on</li>
+<li><em>achieved</em>: web3conf talk, swags, 2 side events, twitter promotions, requested for marketing collateral to commshub</li>
+<li><em>next</em>: complete waku metrics, coordinate events with Lou, ethsafari planning, muchangmai planning</li>
+<li><em>blocker</em>: was blocked on infra for hosting nextjs app for waku metrics but migrating to SSR and hosting on vercel</li>
 </ul>
-<p><strong>Eddy / Digital Comms</strong></p>
+<hr>
+<a href="#docs"><h2 id="docs"><span class="hanchor" ariaLabel="Anchor"># </span>Docs</h2></a>
+<p><strong>
+
+<a href="https://github.com/waku-org/docs.waku.org/issues/104" rel="noopener">Advanced docs for js-waku</a></strong></p>
 <ul>
-<li>Logos Discord will be completed by EOD.</li>
-<li>Codex Discord will be done tomorrow.</li>
-<li>LPE rollout plan, currently working on it, will be ready EOW</li>
-<li>Podcast rollout needs some</li>
-<li>Overarching BU plan will be ready in next couple of weeks as things on top have taken priority.</li>
+<li><em>next</em>: document notes/recommendations for NodeJS, begin docs on <code>js-waku</code> encryption</li>
 </ul>
-<p><strong>Amir / Studio</strong></p>
+<hr>
+<a href="#nwaku"><h2 id="nwaku"><span class="hanchor" ariaLabel="Anchor"># </span>nwaku</h2></a>
+<p><strong>
+
+<a href="https://github.com/waku-org/nwaku/issues/1889" rel="noopener">Release Process Improvements</a></strong> {E:2023-qa}</p>
 <ul>
-<li>Started execution of LPE for new requirements, broken down in smaller deliveries. Looking to have it working and live by EOM.</li>
-<li>Hires: still looking for 3 positions with main focus on developer side.</li>
+<li><em>achieved</em>: minor CI fixes and improvements</li>
+<li><em>next</em>: document how to run PR built images in waku-simulator, adding Linux arm64 binaries and images</li>
 </ul>
-<p><strong>Jonny / Podcast</strong></p>
+<p><strong>
+
+<a href="https://github.com/waku-org/nwaku/issues/1888" rel="noopener">PostgreSQL</a></strong> {E:2023-10k-users}</p>
 <ul>
-<li>Podcast timelines are being set. In production right now. Nick delivered graphics for HiO but we need a full pack.</li>
-<li>First HiO episode is in the works. Will be ready in 2 weeks to fit in the rollout of the LPE.</li>
+<li><em>achieved</em>: Learned that the insertion rate is constrained by the <code>relay</code> protocol. i.e. the maximum insert rate is limited by <code>relay</code> so I couldn&rsquo;t push the &ldquo;insert&rdquo; operation to a limit from a <em>Postgres</em> point of view. For example, if 25 clients publish messages concurrently, and each client publishes 300 msgs, all the messages are correctly stored. If repeating the same operation but with 50 clients, then many messages are lost because the <em>relay</em> protocol doesn&rsquo;t process all of them.</li>
+<li><em>next</em>: Carry on with stress testing. Analyze the performance differences between <em>Postgres</em> and <em>SQLite</em> regarding the <em>read</em> operations.</li>
 </ul>
-<p><strong>Louisa / Events</strong></p>
+<p><strong>
+
+<a href="https://github.com/waku-org/nwaku/issues/1846" rel="noopener">Autosharding v1</a></strong> {E:2023-1mil-users}</p>
 <ul>
-<li>Global strategy paper for wider comms plan.</li>
-<li>Template for processes and executions when preparing events.</li>
-<li>Decision made with Carl to move Network State event to November in satellite of other events. Looking into ETH Lisbon / Staking Summit etc.</li>
-<li>Seoul Q4 hackathon is already in the works. Needs bounty planning.</li>
+<li><em>achieved</em>: many feedback/update cycles for FILTER, LIGHTPUSH, STORE &amp; RFC</li>
+<li><em>next</em>: updating ENR for live subscriptions</li>
 </ul>
+<p><strong>
+
+<a href="https://github.com/waku-org/nwaku/issues/1076" rel="noopener">HTTP REST API: Store, Filter, Lightpush, Admin and Private APIs</a></strong> {E:2023-many-platforms}</p>
+<ul>
+<li><em>achieved</em>: Legacy Filter - v1 - interface Rest Api support added.</li>
+<li><em>next</em>: Extend Rest Api interface for new v2 filter. Get v2 filter service supported from node. Add more tests.</li>
+</ul>
+<hr>
+<a href="#js-waku"><h2 id="js-waku"><span class="hanchor" ariaLabel="Anchor"># </span>js-waku</h2></a>
+<p><strong>
+
+<a href="https://github.com/waku-org/js-waku/issues/1455" rel="noopener">Maintenance</a></strong> {E:2023-qa}</p>
+<ul>
+<li>achieved: upgrade libp2p &amp; chainsafe deps to libp2p 0.46.3 while removing deprecated libp2p standalone interface packages (new breaking change libp2p w/ other deps), add tsdoc for referenced types, setting up/fixing prettier/eslint conflict</li>
+</ul>
+<p><strong>
+
+<a href="https://github.com/waku-org/js-waku/issues/1453" rel="noopener">Developer Experience (2023)</a></strong> {E:2023-eco-growth}</p>
+<ul>
+<li><em>achieved</em>: non blocking pipeline step (
+
+<a href="https://github.com/waku-org/js-waku/issues/1411" rel="noopener">https://github.com/waku-org/js-waku/issues/1411</a>)</li>
+</ul>
+<p><strong>
+
+<a href="https://github.com/waku-org/js-waku/issues/1429" rel="noopener">Peer Exchange is supported and used by default</a></strong> {E:2023-light-protocols}</p>
+<ul>
+<li><em>achieved</em>: close the &ldquo;fallback mechanism for peer rejections&rdquo;, refactor peer-exchange compliance test</li>
+<li><em>next</em>: peer-exchange to be included with default discovery, action peer-exchange browser feedback</li>
+</ul>
+<hr>
+<a href="#go-waku"><h2 id="go-waku"><span class="hanchor" ariaLabel="Anchor"># </span>go-waku</h2></a>
+<p><strong>
+
+<a href="https://github.com/waku-org/go-waku/issues/634" rel="noopener">Maintenance</a></strong> {E:2023-qa}</p>
+<ul>
+<li><em>achieved</em>: improved keep alive logic for identifying if machine is waking up; added vacuum feature to sqlite and postgresql; made migrations optional; refactored db and migration code, extracted code to generate node key to its own separate subcommand</li>
+</ul>
+<p><strong>
+
+<a href="https://github.com/waku-org/go-waku/issues/629" rel="noopener">C-Bindings Improvement: Callbacks and Duplications</a></strong> {E:2023-many-platforms}</p>
+<ul>
+<li><em>achieved</em>: PR for updating the RFC to use callbacks, and refactored the encoding functions</li>
+</ul>
+<p><strong>
+
+<a href="https://github.com/waku-org/go-waku/issues/620" rel="noopener">Improve Test Coverage</a></strong> {E:2023-qa}</p>
+<ul>
+<li><em>achieved</em>: Fixed issues reported by the data race detector tool.</li>
+<li><em>next</em>: identify areas where test coverage needs improvement.</li>
+</ul>
+<p><strong>
+
+<a href="https://github.com/waku-org/go-waku/issues/605" rel="noopener">RLN: Post-Testnet3 Improvements</a></strong> {E:2023-rln}</p>
+<ul>
+<li><em>achieved</em>: exposed merkle tree configuration, removed embedded resources from go-zerokit-rln, fixed nwaku / go-waku rlnKeystore compatibility, added merkle tree persistence and modified zerokit to print to stderr any error obtained while executing functions via FFI.</li>
+<li><em>next</em>: interop with nwaku</li>
+</ul>
+<p><strong>
+
+<a href="https://github.com/waku-org/go-waku/issues/594" rel="noopener">Introduce Peer Management</a></strong> {E:2023-peer-mgmt}</p>
+<ul>
+<li><em>achieved</em>: add service slots to peer manager.</li>
+<li><em>next</em>: implement relay connectivity loop, integrate gossipsub scoring for peer disconnections</li>
+</ul>
+<hr>
 
 
     </article>

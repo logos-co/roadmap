@@ -6,7 +6,16 @@
     <description>Recent content in codex-updates on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://roadmap.logos.co/tags/codex-updates/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://roadmap.logos.co/tags/codex-updates/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2023-08-11 Codex weekly</title>
+      <link>https://roadmap.logos.co/roadmap/codex/updates/2023-08-11/</link>
+      <pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://roadmap.logos.co/roadmap/codex/updates/2023-08-11/</guid>
+      <description>Codex update August 11 Client Milestone: Merkelizing block data Initial Merkle Tree implementation - https://github.com/codex-storage/nim-codex/pull/504 Work on persisting/serializing Merkle Tree is underway, PR upcoming Milestone: Block discovery and retrieval Continued analysis of block discovery and retrieval - https://hackmd.</description>
+    </item>
+    
     <item>
       <title>2023-08-01 Codex weekly</title>
       <link>https://roadmap.logos.co/roadmap/codex/updates/2023-08-01/</link>

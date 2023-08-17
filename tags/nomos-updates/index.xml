@@ -6,7 +6,16 @@
     <description>Recent content in nomos-updates on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://roadmap.logos.co/tags/nomos-updates/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://roadmap.logos.co/tags/nomos-updates/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2023-08-17 Nomos weekly</title>
+      <link>https://roadmap.logos.co/roadmap/nomos/updates/2023-08-14/</link>
+      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://roadmap.logos.co/roadmap/nomos/updates/2023-08-14/</guid>
+      <description>Nomos weekly report 14th August Network Privacy and Mixnet Research Mixnet architecture discussions. Potential agreement on architecture not very different from PoC Mixnet preliminary design [https://www.</description>
+    </item>
+    
     <item>
       <title>2023-08-07 Nomos weekly</title>
       <link>https://roadmap.logos.co/roadmap/nomos/updates/2023-08-07/</link>

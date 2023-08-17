@@ -7,6 +7,45 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://roadmap.logos.co/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>2023-08-14 Waku weekly</title>
+      <link>https://roadmap.logos.co/roadmap/waku/updates/2023-08-14/</link>
+      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://roadmap.logos.co/roadmap/waku/updates/2023-08-14/</guid>
+      <description>2023-08-14 Waku weekly Epics Waku Network Can Support 10K Users {E:2023-10k-users}
+All software has been delivered. Pending items are:
+Running stress testing on PostgreSQL to confirm performance gain https://github.</description>
+    </item>
+    
+    <item>
+      <title>2023-08-17 Nomos weekly</title>
+      <link>https://roadmap.logos.co/roadmap/nomos/updates/2023-08-14/</link>
+      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://roadmap.logos.co/roadmap/nomos/updates/2023-08-14/</guid>
+      <description>Nomos weekly report 14th August Network Privacy and Mixnet Research Mixnet architecture discussions. Potential agreement on architecture not very different from PoC Mixnet preliminary design [https://www.</description>
+    </item>
+    
+    <item>
+      <title>2023-08-17 Vac weekly</title>
+      <link>https://roadmap.logos.co/roadmap/vac/updates/2023-08-14/</link>
+      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://roadmap.logos.co/roadmap/vac/updates/2023-08-14/</guid>
+      <description>Vac Milestones: https://www.notion.so/Vac-Roadmap-907df7eeac464143b00c6f49a20bb632
+Vac week 33 August 14th vsu::P2P vac:p2p:nim-libp2p:vac:maintenance Improve gossipsub DDoS resistance https://github.com/status-im/nim-libp2p/pull/920 delivered: Perf protocol https://github.com/status-im/nim-libp2p/pull/925 delivered: Test-plans for the perf protocol https://github.</description>
+    </item>
+    
+    <item>
+      <title>2023-08-11 Codex weekly</title>
+      <link>https://roadmap.logos.co/roadmap/codex/updates/2023-08-11/</link>
+      <pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://roadmap.logos.co/roadmap/codex/updates/2023-08-11/</guid>
+      <description>Codex update August 11 Client Milestone: Merkelizing block data Initial Merkle Tree implementation - https://github.com/codex-storage/nim-codex/pull/504 Work on persisting/serializing Merkle Tree is underway, PR upcoming Milestone: Block discovery and retrieval Continued analysis of block discovery and retrieval - https://hackmd.</description>
+    </item>
+    
+    <item>
       <title>2023-08-09 Acid weekly</title>
       <link>https://roadmap.logos.co/roadmap/acid/updates/2023-08-09/</link>
       <pubDate>Wed, 09 Aug 2023 00:00:00 +0000</pubDate>
@@ -67,7 +106,7 @@ Refine scope of research work for rest of the year and create matching milestone
       <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
       
       <guid>https://roadmap.logos.co/roadmap/waku/milestones-overview/</guid>
-      <description> Waku Network support for 10k users </description>
+      <description> 90% - Waku Network support for 10k users 80% - Waku Network support for 1MM users 65% - Restricted-run (light node) protocols are production ready 60% - Peer management strategy for relay and light nodes are defined and implemented 10% - Quality processes are implemented for nwaku and go-waku 80% - Define and track network and community metrics for continuous monitoring improvement 20% - Executed an array of community growth activity (8 hackathons, workshops, and bounties) 15% - Dogfooding of RLN by platforms has started 06% - First protocol to incentivize operators has been defined </description>
     </item>
     
     <item>

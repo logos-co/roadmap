@@ -6,7 +6,18 @@
     <description>Recent content in waku-updates on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://roadmap.logos.co/tags/waku-updates/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://roadmap.logos.co/tags/waku-updates/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2023-08-14 Waku weekly</title>
+      <link>https://roadmap.logos.co/roadmap/waku/updates/2023-08-14/</link>
+      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://roadmap.logos.co/roadmap/waku/updates/2023-08-14/</guid>
+      <description>2023-08-14 Waku weekly Epics Waku Network Can Support 10K Users {E:2023-10k-users}
+All software has been delivered. Pending items are:
+Running stress testing on PostgreSQL to confirm performance gain https://github.</description>
+    </item>
+    
     <item>
       <title>2023-08-06 Waku weekly</title>
       <link>https://roadmap.logos.co/roadmap/waku/updates/2023-08-06/</link>
