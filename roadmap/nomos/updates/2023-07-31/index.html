@@ -104,13 +104,13 @@ Initial analysis on the mixnet Proof of Concept (PoC) was performed, assessing c
   <script>
     const BASE_URL = "https://roadmap.logos.co/"
     const fetchData = Promise.all([
-          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.6cf348040d2d17fddcc3c5b88898e318.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/linkIndex.4aa205a552c456d43d65dac37acc8f8e.min.json")
             .then(data => data.json())
             .then(data => ({
               index: data.index,
               links: data.links,
             })),
-          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.027ede60fcd9605cf267214a85541ca0.min.json")
+          fetch("https:\/\/roadmap.logos.co\/indices\/contentIndex.815a9f600820229dfebe874a95dab3f8.min.json")
             .then(data => data.json()),
         ])
         .then(([{index, links}, content]) => ({
