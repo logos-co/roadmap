@@ -6,7 +6,25 @@
     <description>Recent content in Roadmaps on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://roadmap.logos.co/roadmap/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://roadmap.logos.co/roadmap/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Innovation Lab Milestones Overview</title>
+      <link>https://roadmap.logos.co/roadmap/innovation_lab/milestones-overview/</link>
+      <pubDate>Thu, 17 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://roadmap.logos.co/roadmap/innovation_lab/milestones-overview/</guid>
+      <description>iLab Milestones can be found on the Notion Page</description>
+    </item>
+    
+    <item>
+      <title>Nomos Milestones Overview</title>
+      <link>https://roadmap.logos.co/roadmap/nomos/milestones-overview/</link>
+      <pubDate>Thu, 17 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://roadmap.logos.co/roadmap/nomos/milestones-overview/</guid>
+      <description>Milestones Overview Notion Page</description>
+    </item>
+    
     <item>
       <title>2023-08-14 Waku weekly</title>
       <link>https://roadmap.logos.co/roadmap/waku/updates/2023-08-14/</link>
@@ -44,6 +62,15 @@ Vac week 33 August 14th vsu::P2P vac:p2p:nim-libp2p:vac:maintenance Improve goss
       
       <guid>https://roadmap.logos.co/roadmap/codex/updates/2023-08-11/</guid>
       <description>Codex update August 11 Client Milestone: Merkelizing block data Initial Merkle Tree implementation - https://github.com/codex-storage/nim-codex/pull/504 Work on persisting/serializing Merkle Tree is underway, PR upcoming Milestone: Block discovery and retrieval Continued analysis of block discovery and retrieval - https://hackmd.</description>
+    </item>
+    
+    <item>
+      <title>2023-08-17 &lt;TEAM&gt; weekly</title>
+      <link>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-08-11/</link>
+      <pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-08-11/</guid>
+      <description>Logos Lab 11th of August Currently working on the Waku Objects prototype, which is a modular system for transactional chat objects.</description>
     </item>
     
     <item>
@@ -89,7 +116,7 @@ Refine scope of research work for rest of the year and create matching milestone
       <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
       
       <guid>https://roadmap.logos.co/roadmap/codex/milestones-overview/</guid>
-      <description>Milestones </description>
+      <description>Milestones Zenhub Tracker Miro Tracker </description>
     </item>
     
     <item>
@@ -234,6 +261,17 @@ vc Vac day in Paris (13th) vc::Deep Research working on comprehensive current/re
       
       <guid>https://roadmap.logos.co/roadmap/vac/updates/2023-07-10/</guid>
       <description>vc::Deep Research refined deep research roadmaps https://github.com/vacp2p/research/issues/190, https://github.com/vacp2p/research/issues/192 working on comprehensive current/related work study on Validator Privacy working on PoC of Tor push in Nimbus working towards comprehensive current/related work study on gossipsub scaling vsu::P2P Prepared Paris talks Implemented perf protocol to compare the performances with other libp2ps https://github.</description>
+    </item>
+    
+    <item>
+      <title>Vac Milestones Overview</title>
+      <link>https://roadmap.logos.co/roadmap/vac/milestones-overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roadmap.logos.co/roadmap/vac/milestones-overview/</guid>
+      <description>Overview Notion Page - Information copied here for now
+Info Structure of milestone names: vac:&amp;lt;unit&amp;gt;:&amp;lt;tag&amp;gt;:&amp;lt;for_project&amp;gt;:&amp;lt;title&amp;gt;_&amp;lt;counter&amp;gt;
+vac indicates it is a vac milestone unit indicates the vac unit p2p, dst, tke, acz, sc, zkvm, dr, rfc tag tags a specific area / project / epic within the respective vac unit, e.</description>
     </item>
     
   </channel>

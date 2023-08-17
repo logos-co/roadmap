@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>milestones on </title>
+    <link>https://roadmap.logos.co/tags/milestones/</link>
+    <description>Recent content in milestones on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://roadmap.logos.co/tags/milestones/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Innovation Lab Milestones Overview</title>
+      <link>https://roadmap.logos.co/roadmap/innovation_lab/milestones-overview/</link>
+      <pubDate>Thu, 17 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://roadmap.logos.co/roadmap/innovation_lab/milestones-overview/</guid>
+      <description>iLab Milestones can be found on the Notion Page</description>
+    </item>
+    
+    <item>
+      <title>Nomos Milestones Overview</title>
+      <link>https://roadmap.logos.co/roadmap/nomos/milestones-overview/</link>
+      <pubDate>Thu, 17 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://roadmap.logos.co/roadmap/nomos/milestones-overview/</guid>
+      <description>Milestones Overview Notion Page</description>
+    </item>
+    
+    <item>
+      <title>Vac Milestones Overview</title>
+      <link>https://roadmap.logos.co/roadmap/vac/milestones-overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://roadmap.logos.co/roadmap/vac/milestones-overview/</guid>
+      <description>Overview Notion Page - Information copied here for now
+Info Structure of milestone names: vac:&amp;lt;unit&amp;gt;:&amp;lt;tag&amp;gt;:&amp;lt;for_project&amp;gt;:&amp;lt;title&amp;gt;_&amp;lt;counter&amp;gt;
+vac indicates it is a vac milestone unit indicates the vac unit p2p, dst, tke, acz, sc, zkvm, dr, rfc tag tags a specific area / project / epic within the respective vac unit, e.</description>
+    </item>
+    
+  </channel>
+</rss>
