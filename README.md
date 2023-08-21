@@ -1,19 +1,25 @@
-# Quartz
+# Logos Collective Project Roadmaps
 
-Host your second brain and [digital garden](https://jzhao.xyz/posts/networked-thought) for free. Quartz features
+## Overview
+This repository contains the aggregated technical roadmaps of projects under and associated with the Logos Collective. It is an attempt to provide easy access to what we're all actively working on, and how it's going. 
 
-1. Extremely fast full-text search by pressing `Ctrl` + `k`
-2. Customizable and hackable design based on Hugo
-3. Automatically generated backlinks, link previews, and local graph
-4. Built-in CJK + Latex Support
-5. Support for both Markdown Links and Wikilinks
+In its current form, it is an implementation of a [Quartz]() "mind-garden", which is a [Hugo]() theme that allows for easy text and graph-based searching of markdown files. This repository is built and served to https://roadmap.logos.co 
 
-Check out some of the [amazing gardens that community members](https://quartz.jzhao.xyz/notes/showcase/) have published with Quartz!
+The content, today, contains the definition of work planned by various projects, broken up via:
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+`Project --> Milestones --> Epics --> Issues`
 
-🔗 Get Started: https://quartz.jzhao.xyz/
+Each project is given as much autonomy as possible to work as they see fit, with a minimal reporting scheme that sits on top that allows for aggregation of information and project tracking. 
 
-![Quartz Example Screenshot](./screenshot.png)*Quartz Example Screenshot*
+In a nutshell, projects give a definitions of their roadmap up-front, which includes the mapping of issues to epics, and epics to milestones. They also provide perceived risks and dependencies associated with their work. 
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+The projects then report a weekly "diff" associated with the work they did each week, which is ostensibly a stand-up. The Insights team can work from there to do what they need. 
+
+## Contribution
+The bulk of the content is added by the Insights team within the Logos Collective, which is a team that works to keep track of activity within the projects in order to provide analysis and insight based on that work to various stakeholders, including the projects themselves.
+
+For now, this process is quite manual, purposely. In order to solidify the format that the content is delivered in, manual processing and iteration are required. Once this is more consistent and smooth, we plan to open the door to more contributors. Step one is transparency and consistency. 
+
+If you see a type or broken link, PRs are always welcome :)
+
+If there is information you'd like to see included that isn't here, create and issue :)
