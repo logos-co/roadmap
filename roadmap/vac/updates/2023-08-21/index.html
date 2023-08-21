@@ -5,11 +5,11 @@
   <meta charset="UTF-8" />
   <meta
     name="description"
-    content="Vac Milestones: https://www.notion.so/Vac-Roadmap-907df7eeac464143b00c6f49a20bb632
-Vac week 33 August 14th vsu::P2P vac:p2p:nim-libp2p:vac:maintenance Improve gossipsub DDoS resistance https://github.com/status-im/nim-libp2p/pull/920 delivered: Perf protocol https://github.com/status-im/nim-libp2p/pull/925 delivered: Test-plans for the perf protocol https://github."
+    content="Vac Milestones: https://www.notion.so/Vac-Roadmap-907df7eeac464143b00c6f49a20bb632 Vac Github Repos: https://www.notion.so/Vac-Repositories-75f7feb3861048f897f0fe95ead08b06
+Vac week 34 August 21th vsu::P2P vac:p2p:nim-libp2p:vac:maintenance Test-plans for the perf protocol (99%: need to find why the executable doesn&rsquo;t work) https://github."
   />
   <title>
-    2023-08-17 Vac weekly
+    2023-08-21 Vac weekly
   </title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -233,14 +233,14 @@ Vac week 33 August 14th vsu::P2P vac:p2p:nim-libp2p:vac:maintenance Improve goss
 
 
     <article>
-      <h1>2023-08-17 Vac weekly</h1>
+      <h1>2023-08-21 Vac weekly</h1>
       <p class="meta">
           Last updated 
-Aug 14, 2023
+Aug 21, 2023
 
  
           
-<a href="https://github.com/logos-co/roadmap/tree/hugo/content/roadmap/vac/updates/2023-08-14.md" rel="noopener">Edit Source</a>
+<a href="https://github.com/logos-co/roadmap/tree/hugo/content/roadmap/vac/updates/2023-08-21.md" rel="noopener">Edit Source</a>
 
 
       </p>
@@ -255,49 +255,13 @@ Aug 14, 2023
         <summary>Table of Contents</summary>
         <nav id="TableOfContents">
   <ol>
-    <li><a href="#vsup2p"><em>vsu::P2P</em></a>
-      <ol>
-        <li><a href="#vacp2pnim-libp2pvacmaintenance"><code>vac:p2p:nim-libp2p:vac:maintenance</code></a></li>
-        <li><a href="#vacp2pnim-chronosvacmaintenance"><code>vac:p2p:nim-chronos:vac:maintenance</code></a></li>
-      </ol>
-    </li>
-    <li><a href="#vsutokenomics"><em>vsu::Tokenomics</em></a>
-      <ol>
-        <li><a href="#vactkecodexeconomic-analysis"><code>vac:tke::codex:economic-analysis</code></a></li>
-        <li><a href="#vactkestatussnt-staking"><code>vac:tke::status:SNT-staking</code></a></li>
-        <li><a href="#vactkenomoseconomic-analysis"><code>vac:tke::nomos:economic-analysis</code></a></li>
-      </ol>
-    </li>
-    <li><a href="#vsudistributed-systems-testing-dst"><em>vsu::Distributed Systems Testing (DST)</em></a>
-      <ol>
-        <li><a href="#vacdstwakurtosiswakutechreport"><code>vac:dst:wakurtosis:waku:techreport</code></a></li>
-        <li><a href="#vacdstshadowvacbasic-shadow-simulation"><code>vac:dst:shadow:vac:basic-shadow-simulation</code></a></li>
-        <li><a href="#vacdst10ksimvac10ksim-bandwidth-test"><code>vac:dst:10ksim:vac:10ksim-bandwidth-test</code></a></li>
-        <li><a href="#vacdstwakurtosisnomosci-integration_02"><code>vac:dst:wakurtosis:nomos:ci-integration_02</code></a></li>
-        <li><a href="#vacdstengvacbundle-simulation-data"><code>vac:dst:eng:vac:bundle-simulation-data</code></a></li>
-      </ol>
-    </li>
-    <li><a href="#vsusmart-contracts-sc"><em>vsu:Smart Contracts (SC)</em></a>
-      <ol>
-        <li><a href="#vacscvacsecureum-upskilling"><code>vac:sc::vac:secureum-upskilling</code></a></li>
-        <li><a href="#vacscvacmaintainancemisc"><code>vac:sc::vac:maintainance/misc</code></a></li>
-      </ol>
-    </li>
+    <li><a href="#vsup2p"><em>vsu::P2P</em></a></li>
+    <li><a href="#vsutokenomics"><em>vsu::Tokenomics</em></a></li>
+    <li><a href="#vsudistributed-systems-testing-dst"><em>vsu::Distributed Systems Testing (DST)</em></a></li>
+    <li><a href="#vsusmart-contracts-sc"><em>vsu:Smart Contracts (SC)</em></a></li>
     <li><a href="#vsuapplied-cryptogarphy--zk-acz"><em>vsu:Applied Cryptogarphy &amp; ZK (ACZ)</em></a></li>
-    <li><a href="#vipzkvm"><em>vip::zkVM</em></a>
-      <ol>
-        <li><a href="#vaczkvmvacresearch-existing-proof-systems"><code>vac:zkvm::vac:research-existing-proof-systems</code></a></li>
-        <li><a href="#vaczkvmvacproof-system-benchmarks"><code>vac:zkvm::vac:proof-system-benchmarks</code></a></li>
-      </ol>
-    </li>
-    <li><a href="#vcdeep-research"><em>vc::Deep Research</em></a>
-      <ol>
-        <li><a href="#vacdrvalprivvactor-push-poc"><code>vac:dr:valpriv:vac:tor-push-poc</code></a></li>
-        <li><a href="#vacdrvalprivvactor-push-relwork"><code>vac:dr:valpriv:vac:tor-push-relwork</code></a></li>
-        <li><a href="#vacdrgsub-scalingvacgossipsub-simulation"><code>vac:dr:gsub-scaling:vac:gossipsub-simulation</code></a></li>
-        <li><a href="#vacdrgsub-scalingvacgossipsub-improvements-tech-report"><code>vac:dr:gsub-scaling:vac:gossipsub-improvements-tech-report</code></a></li>
-      </ol>
-    </li>
+    <li><a href="#vipzkvm"><em>vip::zkVM</em></a></li>
+    <li><a href="#vcdeep-research"><em>vc::Deep Research</em></a></li>
   </ol>
 </nav>
     </details>
@@ -338,164 +302,245 @@ Aug 14, 2023
 
 <p>Vac Milestones: 
 
-<a href="https://www.notion.so/Vac-Roadmap-907df7eeac464143b00c6f49a20bb632" rel="noopener">https://www.notion.so/Vac-Roadmap-907df7eeac464143b00c6f49a20bb632</a></p>
-<a href="#vac-week-33-august-14th"><h1 id="vac-week-33-august-14th"><span class="hanchor" ariaLabel="Anchor"># </span>Vac week 33 August 14th</h1></a>
-<hr>
+<a href="https://www.notion.so/Vac-Roadmap-907df7eeac464143b00c6f49a20bb632" rel="noopener">https://www.notion.so/Vac-Roadmap-907df7eeac464143b00c6f49a20bb632</a>
+Vac Github Repos: 
+
+<a href="https://www.notion.so/Vac-Repositories-75f7feb3861048f897f0fe95ead08b06" rel="noopener">https://www.notion.so/Vac-Repositories-75f7feb3861048f897f0fe95ead08b06</a></p>
+<a href="#vac-week-34-august-21th"><h1 id="vac-week-34-august-21th"><span class="hanchor" ariaLabel="Anchor"># </span><strong>Vac week 34</strong> August 21th</h1></a>
 <a href="#vsup2p"><h2 id="vsup2p"><span class="hanchor" ariaLabel="Anchor"># </span><em>vsu::P2P</em></h2></a>
-<a href="#vacp2pnim-libp2pvacmaintenance"><h3 id="vacp2pnim-libp2pvacmaintenance"><span class="hanchor" ariaLabel="Anchor"># </span><code>vac:p2p:nim-libp2p:vac:maintenance</code></h3></a>
 <ul>
-<li>Improve gossipsub DDoS resistance  
-
-<a href="https://github.com/status-im/nim-libp2p/pull/920" rel="noopener">https://github.com/status-im/nim-libp2p/pull/920</a></li>
-<li>delivered: Perf protocol 
-
-<a href="https://github.com/status-im/nim-libp2p/pull/925" rel="noopener">https://github.com/status-im/nim-libp2p/pull/925</a></li>
-<li>delivered: Test-plans for the perf protocol  
-
-<a href="https://github.com/lchenut/test-plans/tree/perf-nim" rel="noopener">https://github.com/lchenut/test-plans/tree/perf-nim</a></li>
-<li>Bandwidth estimate as a parameter (waiting for final review) 
-
-<a href="https://github.com/status-im/nim-libp2p/pull/941" rel="noopener">https://github.com/status-im/nim-libp2p/pull/941</a></li>
-</ul>
-<a href="#vacp2pnim-chronosvacmaintenance"><h3 id="vacp2pnim-chronosvacmaintenance"><span class="hanchor" ariaLabel="Anchor"># </span><code>vac:p2p:nim-chronos:vac:maintenance</code></h3></a>
+<li><code>vac:p2p:nim-libp2p:vac:maintenance</code>
 <ul>
-<li>delivered: Remove hard-coded ports from test 
+<li>Test-plans for the perf protocol (99%: need to find why the executable doesn&rsquo;t work) 
 
-<a href="https://github.com/status-im/nim-chronos/pull/429" rel="noopener">https://github.com/status-im/nim-chronos/pull/429</a></li>
-<li>delivered: fixed flaky test using REUSE_PORT  
+<a href="https://github.com/libp2p/test-plans/pull/262" rel="noopener">https://github.com/libp2p/test-plans/pull/262</a></li>
+<li>WebRTC: Merge all protocols (60%: slowed down by some complications and bad planning with Mbed-TLS) 
 
-<a href="https://github.com/status-im/nim-chronos/pull/438" rel="noopener">https://github.com/status-im/nim-chronos/pull/438</a></li>
+<a href="https://github.com/status-im/nim-webrtc/pull/3" rel="noopener">https://github.com/status-im/nim-webrtc/pull/3</a></li>
+<li>WebRTC: DataChannel (25%)</li>
 </ul>
-<hr>
+</li>
+</ul>
 <a href="#vsutokenomics"><h2 id="vsutokenomics"><span class="hanchor" ariaLabel="Anchor"># </span><em>vsu::Tokenomics</em></h2></a>
 <ul>
 <li>admin/misc:
 <ul>
-<li>(5 CC days off)</li>
+<li>(3 CC days off)</li>
+</ul>
+</li>
+<li><code>vac:tke::codex:economic-analysis</code>
+<ul>
+<li>Call w/ Codex on token incentives, business analysis of Filecoin</li>
+</ul>
+</li>
+<li><code>vac:tke::status:SNT-staking</code>
+<ul>
+<li>Bug fixes for tests for the contracts</li>
+</ul>
+</li>
+<li><code>vac:tke::nomos:economic-analysis</code>
+<ul>
+<li>Narrowed focus to: 1) quantifying bribery attacks, 2) assessing how to min risks and max privacy of delegated staking</li>
+</ul>
+</li>
+<li><code>vac:tke::waku:economic-analysis</code>
+<ul>
+<li>Caught up w/ Waku team on RLN, adopting a proactive effort to pitch them solutions</li>
 </ul>
 </li>
 </ul>
-<a href="#vactkecodexeconomic-analysis"><h3 id="vactkecodexeconomic-analysis"><span class="hanchor" ariaLabel="Anchor"># </span><code>vac:tke::codex:economic-analysis</code></h3></a>
-<ul>
-<li>Filecoin economic structure and Codex token requirements</li>
-</ul>
-<a href="#vactkestatussnt-staking"><h3 id="vactkestatussnt-staking"><span class="hanchor" ariaLabel="Anchor"># </span><code>vac:tke::status:SNT-staking</code></h3></a>
-<ul>
-<li>tests with the contracts</li>
-</ul>
-<a href="#vactkenomoseconomic-analysis"><h3 id="vactkenomoseconomic-analysis"><span class="hanchor" ariaLabel="Anchor"># </span><code>vac:tke::nomos:economic-analysis</code></h3></a>
-<ul>
-<li>resume discussions with Nomos team</li>
-</ul>
-<hr>
 <a href="#vsudistributed-systems-testing-dst"><h2 id="vsudistributed-systems-testing-dst"><span class="hanchor" ariaLabel="Anchor"># </span><em>vsu::Distributed Systems Testing (DST)</em></h2></a>
-<a href="#vacdstwakurtosiswakutechreport"><h3 id="vacdstwakurtosiswakutechreport"><span class="hanchor" ariaLabel="Anchor"># </span><code>vac:dst:wakurtosis:waku:techreport</code></h3></a>
 <ul>
-<li>1st Draft of Wakurtosis Research Blog (
+<li><code>vac:dst:wakurtosis:vac:rlog</code>
+<ul>
+<li>Pushed second draft and figures (
 
-<a href="https://github.com/vacp2p/vac.dev/pull/123" rel="noopener">https://github.com/vacp2p/vac.dev/pull/123</a>)</li>
-<li>Data Process / Analysis of Non-Discv5 K13 Simulations (Wakurtosis Tech Report v2.5)</li>
+<a href="https://github.com/vacp2p/vac.dev/tree/DST-Wakurtosis" rel="noopener">https://github.com/vacp2p/vac.dev/tree/DST-Wakurtosis</a>)</li>
 </ul>
-<a href="#vacdstshadowvacbasic-shadow-simulation"><h3 id="vacdstshadowvacbasic-shadow-simulation"><span class="hanchor" ariaLabel="Anchor"># </span><code>vac:dst:shadow:vac:basic-shadow-simulation</code></h3></a>
+</li>
+<li><code>vac:dst:shadow:vac:basic-shadow-simulation</code>
 <ul>
-<li>Basic Shadow Simulation of a gossipsub node (Setup, 5nodes)</li>
+<li>Run 10K simulation of basic gossipsub node</li>
 </ul>
-<a href="#vacdst10ksimvac10ksim-bandwidth-test"><h3 id="vacdst10ksimvac10ksim-bandwidth-test"><span class="hanchor" ariaLabel="Anchor"># </span><code>vac:dst:10ksim:vac:10ksim-bandwidth-test</code></h3></a>
+</li>
+<li><code>vac:dst:gsub-model:status:control-messages</code>
 <ul>
-<li>Try and plan on how to refactor/generalize testing tool from Codex.</li>
-<li>Learn more about Kubernetes</li>
+<li>Got access to status superset</li>
 </ul>
-<a href="#vacdstwakurtosisnomosci-integration_02"><h3 id="vacdstwakurtosisnomosci-integration_02"><span class="hanchor" ariaLabel="Anchor"># </span><code>vac:dst:wakurtosis:nomos:ci-integration_02</code></h3></a>
+</li>
+<li><code>vac:dst:analysis:nomos:nomos-simulation-analysis</code>
 <ul>
-<li>Enable subnetworks</li>
-<li>Plan how to use wakurtosis with fixed version</li>
+<li>Basic CLI done, json to csv, can handle 10k nodes</li>
 </ul>
-<a href="#vacdstengvacbundle-simulation-data"><h3 id="vacdstengvacbundle-simulation-data"><span class="hanchor" ariaLabel="Anchor"># </span><code>vac:dst:eng:vac:bundle-simulation-data</code></h3></a>
+</li>
+<li><code>vac:dst:wakurtosis:waku:topology-analysis</code>
 <ul>
-<li>Run requested simulations</li>
+<li>Collection + analysis: now supports all waku protocols, along with relay</li>
+<li>Cannot get gossip-sub peerage from waku or prometheus (working on getting info from gossipsub layer)</li>
 </ul>
-<hr>
+</li>
+<li><code>vac:dst:wakurtosis:waku:techreport_02</code>
+<ul>
+<li>Merged 4 pending PRs; master now supports regular graphs</li>
+</ul>
+</li>
+<li><code>vac:dst:eng:vac:bundle-simulation-data</code>
+<ul>
+<li>Run 1 and 10 rate simulations. 100 still being run</li>
+</ul>
+</li>
+<li><code>vac:dst:10ksim:vac:10ksim-bandwidth-test</code>
+<ul>
+<li>Working on split the structure of codex tool; Working on diagrams also</li>
+</ul>
+</li>
+</ul>
 <a href="#vsusmart-contracts-sc"><h2 id="vsusmart-contracts-sc"><span class="hanchor" ariaLabel="Anchor"># </span><em>vsu:Smart Contracts (SC)</em></h2></a>
-<a href="#vacscvacsecureum-upskilling"><h3 id="vacscvacsecureum-upskilling"><span class="hanchor" ariaLabel="Anchor"># </span><code>vac:sc::vac:secureum-upskilling</code></h3></a>
 <ul>
-<li>Learned about
+<li><code>vac:sc::status:community-contracts-ERC721</code>
 <ul>
-<li>cold vs warm storage reads and their gas implications</li>
-<li>UTXO vs account models</li>
-<li><code>DELEGATECALL</code> vs <code>CALLCODE</code> opcodes, <code>CREATE</code> vs <code>CREATE2</code> opcodes; Yul Assembly</li>
-<li>Unstructured proxies 
-
-<a href="https://eips.ethereum.org/EIPS/eip-1967" rel="noopener">https://eips.ethereum.org/EIPS/eip-1967</a></li>
-<li>C3 Linearization 
-
-<a href="https://forum.openzeppelin.com/t/solidity-diamond-inheritance/2694" rel="noopener">https://forum.openzeppelin.com/t/solidity-diamond-inheritance/2694</a>) (Diamond inheritance and resolution)</li>
+<li>delivered (will need maintenance and adding features as requested in the future)</li>
 </ul>
 </li>
-<li>Uniswap deep dive</li>
-<li>Finished Secureum slot 2 and 3</li>
+<li><code>vac:sc::status:community-contracts-ERC20</code>
+<ul>
+<li>started working on ERC20 contracts</li>
 </ul>
-<a href="#vacscvacmaintainancemisc"><h3 id="vacscvacmaintainancemisc"><span class="hanchor" ariaLabel="Anchor"># </span><code>vac:sc::vac:maintainance/misc</code></h3></a>
+</li>
+<li><code>vac:sc::vac:secureum-upskilling</code>
 <ul>
-<li>Introduced Vac&rsquo;s own <code>foundry-template</code> for smart contract projects
+<li>Secureum: Finished Epoch 0, Slot 4 and 5</li>
+<li>Deep dive on First Depositor/Inflation attacks</li>
+<li>Learned about Minimal Proxy Contract pattern</li>
+<li>More Uniswap V2 protocol reading</li>
+</ul>
+</li>
+<li><code>vac:sc::vac:maintainance/misc</code>
 <ul>
-<li>Goal is to have the same project structure across projects</li>
-<li>Github repository: 
-
-<a href="https://github.com/vacp2p/foundry-template" rel="noopener">https://github.com/vacp2p/foundry-template</a></li>
+<li>Worked on moving community dapp contracts to new foundry-template</li>
 </ul>
 </li>
 </ul>
-<hr>
 <a href="#vsuapplied-cryptogarphy--zk-acz"><h2 id="vsuapplied-cryptogarphy--zk-acz"><span class="hanchor" ariaLabel="Anchor"># </span><em>vsu:Applied Cryptogarphy &amp; ZK (ACZ)</em></h2></a>
 <ul>
+<li><code>vac:acz:rlnp2p:waku:rln-relay-enhancments</code>
+<ul>
+<li>rpc handler for waku rln relay - 
+
+<a href="https://github.com/waku-org/nwaku/pull/1852" rel="noopener">https://github.com/waku-org/nwaku/pull/1852</a></li>
+<li>fixed ganache&rsquo;s change in method to manage subprocesses, fixed timeouts related to it - 
+
+<a href="https://github.com/waku-org/nwaku/pull/1913" rel="noopener">https://github.com/waku-org/nwaku/pull/1913</a></li>
+<li>should error out on rln-relay mount failure - 
+
+<a href="https://github.com/waku-org/nwaku/pull/1904" rel="noopener">https://github.com/waku-org/nwaku/pull/1904</a></li>
+<li>fixed invalid start index being used in rln-relay - 
+
+<a href="https://github.com/waku-org/nwaku/pull/1915" rel="noopener">https://github.com/waku-org/nwaku/pull/1915</a></li>
+<li>constrain the values that can be used as idCommitments in the rln-contract - 
+
+<a href="https://github.com/vacp2p/rln-contract/pull/26" rel="noopener">https://github.com/vacp2p/rln-contract/pull/26</a></li>
+<li>assist with waku-simulator testing</li>
+<li>remove registration capabilities from nwaku, it should be done out of band - 
+
+<a href="https://github.com/waku-org/nwaku/pull/1916" rel="noopener">https://github.com/waku-org/nwaku/pull/1916</a></li>
+<li>add <code>deployedBlockNumber</code> to the rln-contract for ease of fetching events from the client - 
+
+<a href="https://github.com/vacp2p/rln-contract/pull/27" rel="noopener">https://github.com/vacp2p/rln-contract/pull/27</a></li>
+</ul>
+</li>
 <li><code>vac:acz:zerokit:vac:maintenance</code>
 <ul>
-<li>PR reviews 
+<li>exposed <code>seq_atomic_operation</code> ffi api to allow users to make use of the current index without making multiple ffi calls - 
 
-<a href="https://github.com/vacp2p/zerokit/pull/200" rel="noopener">https://github.com/vacp2p/zerokit/pull/200</a>, 
+<a href="https://github.com/vacp2p/zerokit/pull/206" rel="noopener">https://github.com/vacp2p/zerokit/pull/206</a></li>
+<li>use pmtree instead of vacp2p_pmtree now that changes have been upstreamed - 
 
-<a href="https://github.com/vacp2p/zerokit/pull/201" rel="noopener">https://github.com/vacp2p/zerokit/pull/201</a></li>
+<a href="https://github.com/vacp2p/zerokit/pull/203" rel="noopener">https://github.com/vacp2p/zerokit/pull/203</a></li>
+<li>Prepared a PR to fix a stopgap introduces by PR 201 
+
+<a href="https://github.com/vacp2p/zerokit/pull/207" rel="noopener">https://github.com/vacp2p/zerokit/pull/207</a></li>
+<li>PR review 
+
+<a href="https://github.com/vacp2p/zerokit/pull/202" rel="noopener">https://github.com/vacp2p/zerokit/pull/202</a>, 
+
+<a href="https://github.com/vacp2p/zerokit/pull/206" rel="noopener">https://github.com/vacp2p/zerokit/pull/206</a></li>
+</ul>
+</li>
+<li><code>vac:acz:zerokit:vac:zerokit-v0.4</code>
+<ul>
+<li>substitute id_commitments for rate_commitments and update tests in rln-v2 - 
+
+<a href="https://github.com/vacp2p/zerokit/pull/205" rel="noopener">https://github.com/vacp2p/zerokit/pull/205</a></li>
+<li>rln-v2 working branch - 
+
+<a href="https://github.com/vacp2p/zerokit/pull/204" rel="noopener">https://github.com/vacp2p/zerokit/pull/204</a></li>
+<li>misc research while ooo:</li>
+<li>stealth commitment scheme inspired by erc-5564 - 
+
+<a href="https://github.com/rymnc/erc-5564-bn254" rel="noopener">https://github.com/rymnc/erc-5564-bn254</a>, associated circuit - 
+
+<a href="https://github.com/rymnc/circom-rln-erc5564" rel="noopener">https://github.com/rymnc/circom-rln-erc5564</a> (very heavy on the constraints)</li>
 </ul>
 </li>
 </ul>
-<hr>
 <a href="#vipzkvm"><h2 id="vipzkvm"><span class="hanchor" ariaLabel="Anchor"># </span><em>vip::zkVM</em></h2></a>
-<a href="#vaczkvmvacresearch-existing-proof-systems"><h3 id="vaczkvmvacresearch-existing-proof-systems"><span class="hanchor" ariaLabel="Anchor"># </span><code>vac:zkvm::vac:research-existing-proof-systems</code></h3></a>
 <ul>
-<li>delivered Nescience WIP doc</li>
-<li>delivered FHE review</li>
-<li>delivered Nova vs Sangria done - Some discussions during the meeting</li>
-<li>started HyperNova writeup</li>
-<li>started writing a trimmed version of FHE writeup</li>
-<li>researched CCS (for HyperNova)</li>
-<li>Research Protogalaxy 
-
-<a href="https://eprint.iacr.org/2023/1106" rel="noopener">https://eprint.iacr.org/2023/1106</a> and Protostar 
-
-<a href="https://eprint.iacr.org/2023/620" rel="noopener">https://eprint.iacr.org/2023/620</a>.</li>
-</ul>
-<a href="#vaczkvmvacproof-system-benchmarks"><h3 id="vaczkvmvacproof-system-benchmarks"><span class="hanchor" ariaLabel="Anchor"># </span><code>vac:zkvm::vac:proof-system-benchmarks</code></h3></a>
+<li><code>vac:zkvm::vac:research-existing-proof-systems</code>
 <ul>
-<li>More work on benchmarks is ongoing</li>
-<li>Putting down a document that explains the differences</li>
+<li>Updated the Nova questions document (
+
+<a href="https://www.notion.so/zkVM-cd358fe429b14fa2ab38ca42835a8451" rel="noopener">https://www.notion.so/zkVM-cd358fe429b14fa2ab38ca42835a8451</a> -&gt; Projects -&gt; Nova_Research_Answers.pdf)</li>
+<li>Researched ProtoStar and Nova aleternatives</li>
 </ul>
-<hr>
+</li>
+<li><code>vac:zkvm::vac:proof-system-benchmarks</code>
+<ul>
+<li>Drafted the Nova Benchamarks document (
+
+<a href="https://www.notion.so/zkVM-cd358fe429b14fa2ab38ca42835a8451" rel="noopener">https://www.notion.so/zkVM-cd358fe429b14fa2ab38ca42835a8451</a> -&gt; Projects -&gt; Benchmarks.pdf)</li>
+<li>Researched hash functions</li>
+<li>Researched benchmarks</li>
+</ul>
+</li>
+</ul>
 <a href="#vcdeep-research"><h2 id="vcdeep-research"><span class="hanchor" ariaLabel="Anchor"># </span><em>vc::Deep Research</em></h2></a>
-<a href="#vacdrvalprivvactor-push-poc"><h3 id="vacdrvalprivvactor-push-poc"><span class="hanchor" ariaLabel="Anchor"># </span><code>vac:dr:valpriv:vac:tor-push-poc</code></h3></a>
 <ul>
-<li>revised the code for PR</li>
+<li><code>vac:dr:valpriv:vac:tor-push-poc</code>
+<ul>
+<li>Reimplemented torpush without any gossip sharing</li>
+<li>Added discovering peers for torpush in every epoch/10 minutes</li>
+<li>torswitch directly pushes messages to separately identified peers</li>
 </ul>
-<a href="#vacdrvalprivvactor-push-relwork"><h3 id="vacdrvalprivvactor-push-relwork"><span class="hanchor" ariaLabel="Anchor"># </span><code>vac:dr:valpriv:vac:tor-push-relwork</code></h3></a>
+</li>
+<li><code>vac:dr:valpriv:vac:tor-push-relwork</code>
 <ul>
-<li>added section for mixnet, non-Tor/non-onion routing-based anonymity network</li>
+<li>added quantified measures related to privacy in the paper section</li>
 </ul>
-<a href="#vacdrgsub-scalingvacgossipsub-simulation"><h3 id="vacdrgsub-scalingvacgossipsub-simulation"><span class="hanchor" ariaLabel="Anchor"># </span><code>vac:dr:gsub-scaling:vac:gossipsub-simulation</code></h3></a>
+</li>
+<li><code>vac:dr:gsub-scaling:vac:gossipsub-improvements-tech-report</code>
 <ul>
-<li>Used shadow simulator to run first GossibSub simulation</li>
+<li>Explored different unstructured p2p application architectuture</li>
+<li>Studied literature on better bandwidth utilization in unstructured p2p networks.</li>
 </ul>
-<a href="#vacdrgsub-scalingvacgossipsub-improvements-tech-report"><h3 id="vacdrgsub-scalingvacgossipsub-improvements-tech-report"><span class="hanchor" ariaLabel="Anchor"># </span><code>vac:dr:gsub-scaling:vac:gossipsub-improvements-tech-report</code></h3></a>
+</li>
+<li><code>vac:dr:gsub-scaling:vac:gossipsub-simulation</code>
 <ul>
-<li>Finalized 1st draft of the GossipSub scaling article</li>
+<li>Worked on GossibSup simulation in shadow simulator. Tried understanding different libp2p functions</li>
+<li>Created short awk scripts for analyzing results.</li>
+</ul>
+</li>
+<li><code>vac:dr:consensus:nomos:carnot-bribery-article</code>
+<ul>
+<li>Continue work on the article on  bribery attacks, PoS and Carnot</li>
+<li>Completed presentation about the bribery attacks and Carnot</li>
+</ul>
+</li>
+<li><code>vac:dr:consensus:nomos:carnot-paper</code>
+<ul>
+<li>Discussed  Carnot tests and results with Nomos team. Some adjustment to the parameters needed to be made to accurate results.</li>
+</ul>
+</li>
 </ul>
 
 

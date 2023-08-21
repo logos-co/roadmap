@@ -6,7 +6,17 @@
     <description>Recent content in Roadmaps on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://roadmap.logos.co/roadmap/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://roadmap.logos.co/roadmap/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2023-08-21 Vac weekly</title>
+      <link>https://roadmap.logos.co/roadmap/vac/updates/2023-08-21/</link>
+      <pubDate>Mon, 21 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://roadmap.logos.co/roadmap/vac/updates/2023-08-21/</guid>
+      <description>Vac Milestones: https://www.notion.so/Vac-Roadmap-907df7eeac464143b00c6f49a20bb632 Vac Github Repos: https://www.notion.so/Vac-Repositories-75f7feb3861048f897f0fe95ead08b06
+Vac week 34 August 21th vsu::P2P vac:p2p:nim-libp2p:vac:maintenance Test-plans for the perf protocol (99%: need to find why the executable doesn&amp;rsquo;t work) https://github.</description>
+    </item>
+    
     <item>
       <title>Comms Milestones Overview</title>
       <link>https://roadmap.logos.co/roadmap/acid/milestones-overview/</link>
