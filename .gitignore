@@ -2,8 +2,11 @@
 public
 resources
 .idea
+node_modules/
+quartz/.quartz-cache/
 content/.obsidian
 static/linkmap
 assets/indices/linkIndex.json
 assets/indices/contentIndex.json
+quartz/.quartz-cache/
 linkmap
