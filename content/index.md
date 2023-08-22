@@ -8,7 +8,6 @@ This site attempts to inform the previous, current, and future work required to 
 ### Waku
 - [Milestones](roadmap/waku/milestones-overview.md)
 - [weekly updates](tags/waku-updates)
-- [test](roadmap/waku-updates)
 
 ### Codex
 - [Milestones](roadmap/codex/milestones-overview.md)
