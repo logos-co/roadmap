@@ -23,16 +23,13 @@ pipeline {
   stages {
     stage('Deps') {
       steps {
-        sh 'make setup'
+        sh 'npm install'
       }
     }
 
     stage('Build') {
       steps {
-        /* Make hugo-obsidian available. */
-        withEnv(["PATH+EXTRA=${env.HOME}/go/bin"]) {
-          sh 'make build'
-        }
+        sh 'npx quartz build'
       }
     }
 
