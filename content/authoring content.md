@@ -1,5 +1,6 @@
 ---
 title: Authoring Content
+draft: true
 ---
 
 All of the content in your Quartz should go in the `/content` folder. The content for the home page of your Quartz lives in `content/index.md`. If you've [[index#🪴 Get Started|setup Quartz]] already, this folder should already be initailized. Any Markdown in this folder will get processed by Quartz.
