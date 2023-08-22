@@ -35,7 +35,7 @@
     <link>https://roadmap.logos.co/</link>
     <guid>https://roadmap.logos.co/</guid>
     <description>This site attempts to inform the previous, current, and future work required to fulfill the requirements of the projects under the Logos Collective, a complete tech stack that provides infrastructure for the self-sovereign network state.</description>
-    <pubDate>Tue, 22 Aug 2023 08:20:28 GMT</pubDate>
+    <pubDate>Tue, 22 Aug 2023 13:07:41 GMT</pubDate>
   </items><items>
     <title>Welcome to Quartz 4</title>
     <link>https://roadmap.logos.co/index_default</link>
@@ -270,5 +270,11 @@
     <guid>https://roadmap.logos.co/roadmap/waku/updates/2023-08-14</guid>
     <description>2023-08-14 Waku weekly § Epics § Waku Network Can Support 10K Users {E:2023-10k-users} All software has been delivered. Pending items are: Running stress testing on PostgreSQL to confirm performance gain 1894 Setting up a staging fleet for Status to try static sharding Running simulations for Store protocol: commitment and probably move this to 1mil epic Eco Dev § Aug 2023 {E:2023-eco-growth} achieved: web3conf talk, swags, 2 side events, twitter promotions, requested for marketing collateral to commshub next: complete waku metrics, coordinate events with Lou, ethsafari planning, muchangmai planning blocker: was blocked on infra for hosting nextjs app for waku metrics but migrating to SSR and hosting on vercel Docs § Advanced docs for js-waku next: document notes/recommendations for NodeJS, begin docs on js-waku encryption nwaku § Release Process Improvements {E:2023-qa} achieved: minor CI fixes and improvements next: document how to run PR built images in waku-simulator, adding Linux arm64 binaries and images PostgreSQL {E:2023-10k-users} achieved: Learned that the insertion rate is constrained by the relay protocol.</description>
     <pubDate>Thu, 17 Aug 2023 00:00:00 GMT</pubDate>
+  </items><items>
+    <title>2023-08-21 Waku weekly</title>
+    <link>https://roadmap.logos.co/roadmap/waku/updates/2023-08-21</link>
+    <guid>https://roadmap.logos.co/roadmap/waku/updates/2023-08-21</guid>
+    <description>2023-08-21 Waku weekly § Eco Dev § Aug 2023 {E:2023-eco-growth} achieved: +20% increase on twitter followers and had a discussion with digital comms team regarding improving Waku’s metrics on social handles.</description>
+    <pubDate>Tue, 22 Aug 2023 00:00:00 GMT</pubDate>
   </items>
   </rss>
