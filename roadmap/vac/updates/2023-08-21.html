@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html><head><title>2023-08-21 Vac weekly</title><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="2023-08-21 Vac weekly"/><meta property="og:description" content="Vac Milestones: Vac-Roadmap-907df7eeac464143b00c6f49a20bb632 Vac Github Repos: Vac-Repositories-75f7feb3861048f897f0fe95ead08b06 Vac week 34 August 21th § vsu::P2P § vac:p2p:nim-libp2p:vac:maintenance Test-plans for the perf protocol (99%: need to find why the executable doesn’t work) 262 WebRTC: Merge all protocols (60%: slowed down by some complications and bad planning with Mbed-TLS) 3 WebRTC: DataChannel (25%) vsu::Tokenomics § admin/misc: (3 CC days off) vac:tke::codex:economic-analysis Call w/ Codex on token incentives, business analysis of Filecoin vac:tke::status:SNT-staking Bug fixes for tests for the contracts vac:tke::nomos:economic-analysis Narrowed focus to: 1) quantifying bribery attacks, 2) assessing how to min risks and max privacy of delegated staking vac:tke::waku:economic-analysis Caught up w/ Waku team on RLN, adopting a proactive effort to pitch them solutions vsu::Distributed Systems Testing (DST) § vac:dst:wakurtosis:vac:rlog Pushed second draft and figures (DST-Wakurtosis) vac:dst:shadow:vac:basic-shadow-simulation Run 10K simulation of basic gossipsub node vac:dst:gsub-model:status:control-messages Got access to status superset vac:dst:analysis:nomos:nomos-simulation-analysis Basic CLI done, json to csv, can handle 10k nodes vac:dst:wakurtosis:waku:topology-analysis Collection + analysis: now supports all waku protocols, along with relay Cannot get gossip-sub peerage from waku or prometheus (working on getting info from gossipsub layer) vac:dst:wakurtosis:waku:techreport_02 Merged 4 pending PRs; master now supports regular graphs vac:dst:eng:vac:bundle-simulation-data Run 1 and 10 rate simulations."/><meta property="og:image" content="https://roadmap.logos.co/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../../../static/icon.png"/><meta name="description" content="Vac Milestones: Vac-Roadmap-907df7eeac464143b00c6f49a20bb632 Vac Github Repos: Vac-Repositories-75f7feb3861048f897f0fe95ead08b06 Vac week 34 August 21th § vsu::P2P § vac:p2p:nim-libp2p:vac:maintenance Test-plans for the perf protocol (99%: need to find why the executable doesn’t work) 262 WebRTC: Merge all protocols (60%: slowed down by some complications and bad planning with Mbed-TLS) 3 WebRTC: DataChannel (25%) vsu::Tokenomics § admin/misc: (3 CC days off) vac:tke::codex:economic-analysis Call w/ Codex on token incentives, business analysis of Filecoin vac:tke::status:SNT-staking Bug fixes for tests for the contracts vac:tke::nomos:economic-analysis Narrowed focus to: 1) quantifying bribery attacks, 2) assessing how to min risks and max privacy of delegated staking vac:tke::waku:economic-analysis Caught up w/ Waku team on RLN, adopting a proactive effort to pitch them solutions vsu::Distributed Systems Testing (DST) § vac:dst:wakurtosis:vac:rlog Pushed second draft and figures (DST-Wakurtosis) vac:dst:shadow:vac:basic-shadow-simulation Run 10K simulation of basic gossipsub node vac:dst:gsub-model:status:control-messages Got access to status superset vac:dst:analysis:nomos:nomos-simulation-analysis Basic CLI done, json to csv, can handle 10k nodes vac:dst:wakurtosis:waku:topology-analysis Collection + analysis: now supports all waku protocols, along with relay Cannot get gossip-sub peerage from waku or prometheus (working on getting info from gossipsub layer) vac:dst:wakurtosis:waku:techreport_02 Merged 4 pending PRs; master now supports regular graphs vac:dst:eng:vac:bundle-simulation-data Run 1 and 10 rate simulations."/><meta name="generator" content="Quartz"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="../../../index.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="../../../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch(`../../../static/contentIndex.json`).then(data => data.json())</script></head><body data-slug="roadmap/vac/updates/2023-08-21"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title"><a href="../../..">Logos Collective Project Roadmaps</a></h1><div class="spacer mobile-only"></div><div class="search"><div id="search-icon"><p>Search</p><div></div><svg tabIndex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search</title><desc id="desc">Search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="results-container"></div></div></div></div><div class="darkmode"><input class="toggle" id="darkmode-toggle" type="checkbox" tabIndex="-1"/><label id="toggle-label-light" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xmlSpace="preserve"><title>Light mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg></label><label id="toggle-label-dark" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xmlSpace="preserve"><title>Dark mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></label></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#vac-week-34-august-21th" data-for="vac-week-34-august-21th">Vac week 34 August 21th</a></li><li class="depth-1"><a href="#vsup2p" data-for="vsup2p">vsu::P2P</a></li><li class="depth-1"><a href="#vsutokenomics" data-for="vsutokenomics">vsu::Tokenomics</a></li><li class="depth-1"><a href="#vsudistributed-systems-testing-dst" data-for="vsudistributed-systems-testing-dst">vsu::Distributed Systems Testing (DST)</a></li><li class="depth-1"><a href="#vsusmart-contracts-sc" data-for="vsusmart-contracts-sc">vsu:Smart Contracts (SC)</a></li><li class="depth-1"><a href="#vsuapplied-cryptogarphy--zk-acz" data-for="vsuapplied-cryptogarphy--zk-acz">vsu:Applied Cryptogarphy &amp; ZK (ACZ)</a></li><li class="depth-1"><a href="#vipzkvm" data-for="vipzkvm">vip::zkVM</a></li><li class="depth-1"><a href="#vcdeep-research" data-for="vcdeep-research">vc::Deep Research</a></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><h1 class="article-title">2023-08-21 Vac weekly</h1><p class="content-meta">Aug 21, 2023, 4 min read</p><ul class="tags"><li><a href="../../../tags/vac-updates" class="internal tag-link">#vac-updates</a></li></ul></div></div><article class="popover-hint"><p>Vac Milestones: <a href="https://www.notion.so/Vac-Roadmap-907df7eeac464143b00c6f49a20bb632" class="external">Vac-Roadmap-907df7eeac464143b00c6f49a20bb632</a>
+Vac Github Repos: <a href="https://www.notion.so/Vac-Repositories-75f7feb3861048f897f0fe95ead08b06" class="external">Vac-Repositories-75f7feb3861048f897f0fe95ead08b06</a></p>
+<h1 id="vac-week-34-august-21th"><strong>Vac week 34</strong> August 21th<a aria-hidden="true" tabindex="-1" href="#vac-week-34-august-21th" class="internal"> §</a></h1>
+<h2 id="vsup2p"><em>vsu::P2P</em><a aria-hidden="true" tabindex="-1" href="#vsup2p" class="internal"> §</a></h2>
+<ul>
+<li><code>vac:p2p:nim-libp2p:vac:maintenance</code>
+<ul>
+<li>Test-plans for the perf protocol (99%: need to find why the executable doesn’t work) <a href="https://github.com/libp2p/test-plans/pull/262" class="external">262</a></li>
+<li>WebRTC: Merge all protocols (60%: slowed down by some complications and bad planning with Mbed-TLS) <a href="https://github.com/status-im/nim-webrtc/pull/3" class="external">3</a></li>
+<li>WebRTC: DataChannel (25%)</li>
+</ul>
+</li>
+</ul>
+<h2 id="vsutokenomics"><em>vsu::Tokenomics</em><a aria-hidden="true" tabindex="-1" href="#vsutokenomics" class="internal"> §</a></h2>
+<ul>
+<li>admin/misc:
+<ul>
+<li>(3 CC days off)</li>
+</ul>
+</li>
+<li><code>vac:tke::codex:economic-analysis</code>
+<ul>
+<li>Call w/ Codex on token incentives, business analysis of Filecoin</li>
+</ul>
+</li>
+<li><code>vac:tke::status:SNT-staking</code>
+<ul>
+<li>Bug fixes for tests for the contracts</li>
+</ul>
+</li>
+<li><code>vac:tke::nomos:economic-analysis</code>
+<ul>
+<li>Narrowed focus to: 1) quantifying bribery attacks, 2) assessing how to min risks and max privacy of delegated staking</li>
+</ul>
+</li>
+<li><code>vac:tke::waku:economic-analysis</code>
+<ul>
+<li>Caught up w/ Waku team on RLN, adopting a proactive effort to pitch them solutions</li>
+</ul>
+</li>
+</ul>
+<h2 id="vsudistributed-systems-testing-dst"><em>vsu::Distributed Systems Testing (DST)</em><a aria-hidden="true" tabindex="-1" href="#vsudistributed-systems-testing-dst" class="internal"> §</a></h2>
+<ul>
+<li><code>vac:dst:wakurtosis:vac:rlog</code>
+<ul>
+<li>Pushed second draft and figures (<a href="https://github.com/vacp2p/vac.dev/tree/DST-Wakurtosis" class="external">DST-Wakurtosis</a>)</li>
+</ul>
+</li>
+<li><code>vac:dst:shadow:vac:basic-shadow-simulation</code>
+<ul>
+<li>Run 10K simulation of basic gossipsub node</li>
+</ul>
+</li>
+<li><code>vac:dst:gsub-model:status:control-messages</code>
+<ul>
+<li>Got access to status superset</li>
+</ul>
+</li>
+<li><code>vac:dst:analysis:nomos:nomos-simulation-analysis</code>
+<ul>
+<li>Basic CLI done, json to csv, can handle 10k nodes</li>
+</ul>
+</li>
+<li><code>vac:dst:wakurtosis:waku:topology-analysis</code>
+<ul>
+<li>Collection + analysis: now supports all waku protocols, along with relay</li>
+<li>Cannot get gossip-sub peerage from waku or prometheus (working on getting info from gossipsub layer)</li>
+</ul>
+</li>
+<li><code>vac:dst:wakurtosis:waku:techreport_02</code>
+<ul>
+<li>Merged 4 pending PRs; master now supports regular graphs</li>
+</ul>
+</li>
+<li><code>vac:dst:eng:vac:bundle-simulation-data</code>
+<ul>
+<li>Run 1 and 10 rate simulations. 100 still being run</li>
+</ul>
+</li>
+<li><code>vac:dst:10ksim:vac:10ksim-bandwidth-test</code>
+<ul>
+<li>Working on split the structure of codex tool; Working on diagrams also</li>
+</ul>
+</li>
+</ul>
+<h2 id="vsusmart-contracts-sc"><em>vsu:Smart Contracts (SC)</em><a aria-hidden="true" tabindex="-1" href="#vsusmart-contracts-sc" class="internal"> §</a></h2>
+<ul>
+<li><code>vac:sc::status:community-contracts-ERC721</code>
+<ul>
+<li>delivered (will need maintenance and adding features as requested in the future)</li>
+</ul>
+</li>
+<li><code>vac:sc::status:community-contracts-ERC20</code>
+<ul>
+<li>started working on ERC20 contracts</li>
+</ul>
+</li>
+<li><code>vac:sc::vac:secureum-upskilling</code>
+<ul>
+<li>Secureum: Finished Epoch 0, Slot 4 and 5</li>
+<li>Deep dive on First Depositor/Inflation attacks</li>
+<li>Learned about Minimal Proxy Contract pattern</li>
+<li>More Uniswap V2 protocol reading</li>
+</ul>
+</li>
+<li><code>vac:sc::vac:maintainance/misc</code>
+<ul>
+<li>Worked on moving community dapp contracts to new foundry-template</li>
+</ul>
+</li>
+</ul>
+<h2 id="vsuapplied-cryptogarphy--zk-acz"><em>vsu:Applied Cryptogarphy &amp; ZK (ACZ)</em><a aria-hidden="true" tabindex="-1" href="#vsuapplied-cryptogarphy--zk-acz" class="internal"> §</a></h2>
+<ul>
+<li><code>vac:acz:rlnp2p:waku:rln-relay-enhancments</code>
+<ul>
+<li>rpc handler for waku rln relay - <a href="https://github.com/waku-org/nwaku/pull/1852" class="external">1852</a></li>
+<li>fixed ganache’s change in method to manage subprocesses, fixed timeouts related to it - <a href="https://github.com/waku-org/nwaku/pull/1913" class="external">1913</a></li>
+<li>should error out on rln-relay mount failure - <a href="https://github.com/waku-org/nwaku/pull/1904" class="external">1904</a></li>
+<li>fixed invalid start index being used in rln-relay - <a href="https://github.com/waku-org/nwaku/pull/1915" class="external">1915</a></li>
+<li>constrain the values that can be used as idCommitments in the rln-contract - <a href="https://github.com/vacp2p/rln-contract/pull/26" class="external">26</a></li>
+<li>assist with waku-simulator testing</li>
+<li>remove registration capabilities from nwaku, it should be done out of band - <a href="https://github.com/waku-org/nwaku/pull/1916" class="external">1916</a></li>
+<li>add <code>deployedBlockNumber</code> to the rln-contract for ease of fetching events from the client - <a href="https://github.com/vacp2p/rln-contract/pull/27" class="external">27</a></li>
+</ul>
+</li>
+<li><code>vac:acz:zerokit:vac:maintenance</code>
+<ul>
+<li>exposed <code>seq_atomic_operation</code> ffi api to allow users to make use of the current index without making multiple ffi calls - <a href="https://github.com/vacp2p/zerokit/pull/206" class="external">206</a></li>
+<li>use pmtree instead of vacp2p_pmtree now that changes have been upstreamed - <a href="https://github.com/vacp2p/zerokit/pull/203" class="external">203</a></li>
+<li>Prepared a PR to fix a stopgap introduces by PR 201 <a href="https://github.com/vacp2p/zerokit/pull/207" class="external">207</a></li>
+<li>PR review <a href="https://github.com/vacp2p/zerokit/pull/202" class="external">202</a>, <a href="https://github.com/vacp2p/zerokit/pull/206" class="external">206</a></li>
+</ul>
+</li>
+<li><code>vac:acz:zerokit:vac:zerokit-v0.4</code>
+<ul>
+<li>substitute id_commitments for rate_commitments and update tests in rln-v2 - <a href="https://github.com/vacp2p/zerokit/pull/205" class="external">205</a></li>
+<li>rln-v2 working branch - <a href="https://github.com/vacp2p/zerokit/pull/204" class="external">204</a></li>
+<li>misc research while ooo:</li>
+<li>stealth commitment scheme inspired by erc-5564 - <a href="https://github.com/rymnc/erc-5564-bn254" class="external">erc-5564-bn254</a>, associated circuit - <a href="https://github.com/rymnc/circom-rln-erc5564" class="external">circom-rln-erc5564</a> (very heavy on the constraints)</li>
+</ul>
+</li>
+</ul>
+<h2 id="vipzkvm"><em>vip::zkVM</em><a aria-hidden="true" tabindex="-1" href="#vipzkvm" class="internal"> §</a></h2>
+<ul>
+<li><code>vac:zkvm::vac:research-existing-proof-systems</code>
+<ul>
+<li>Updated the Nova questions document (<a href="https://www.notion.so/zkVM-cd358fe429b14fa2ab38ca42835a8451" class="external">zkVM-cd358fe429b14fa2ab38ca42835a8451</a> -> Projects -> Nova_Research_Answers.pdf)</li>
+<li>Researched ProtoStar and Nova aleternatives</li>
+</ul>
+</li>
+<li><code>vac:zkvm::vac:proof-system-benchmarks</code>
+<ul>
+<li>Drafted the Nova Benchamarks document (<a href="https://www.notion.so/zkVM-cd358fe429b14fa2ab38ca42835a8451" class="external">zkVM-cd358fe429b14fa2ab38ca42835a8451</a> -> Projects -> Benchmarks.pdf)</li>
+<li>Researched hash functions</li>
+<li>Researched benchmarks</li>
+</ul>
+</li>
+</ul>
+<h2 id="vcdeep-research"><em>vc::Deep Research</em><a aria-hidden="true" tabindex="-1" href="#vcdeep-research" class="internal"> §</a></h2>
+<ul>
+<li><code>vac:dr:valpriv:vac:tor-push-poc</code>
+<ul>
+<li>Reimplemented torpush without any gossip sharing</li>
+<li>Added discovering peers for torpush in every epoch/10 minutes</li>
+<li>torswitch directly pushes messages to separately identified peers</li>
+</ul>
+</li>
+<li><code>vac:dr:valpriv:vac:tor-push-relwork</code>
+<ul>
+<li>added quantified measures related to privacy in the paper section</li>
+</ul>
+</li>
+<li><code>vac:dr:gsub-scaling:vac:gossipsub-improvements-tech-report</code>
+<ul>
+<li>Explored different unstructured p2p application architectuture</li>
+<li>Studied literature on better bandwidth utilization in unstructured p2p networks.</li>
+</ul>
+</li>
+<li><code>vac:dr:gsub-scaling:vac:gossipsub-simulation</code>
+<ul>
+<li>Worked on GossibSup simulation in shadow simulator. Tried understanding different libp2p functions</li>
+<li>Created short awk scripts for analyzing results.</li>
+</ul>
+</li>
+<li><code>vac:dr:consensus:nomos:carnot-bribery-article</code>
+<ul>
+<li>Continue work on the article on  bribery attacks, PoS and Carnot</li>
+<li>Completed presentation about the bribery attacks and Carnot</li>
+</ul>
+</li>
+<li><code>vac:dr:consensus:nomos:carnot-paper</code>
+<ul>
+<li>Discussed  Carnot tests and results with Nomos team. Some adjustment to the parameters needed to be made to accurate results.</li>
+</ul>
+</li>
+</ul></article></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+	C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+	c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+	v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+	s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div></div></div><div class="backlinks"><h3>Backlinks</h3><ul class="overflow"><li>No backlinks found</li></ul></div></div></div><footer><hr/><p>Created by Logos  with <a href="https://quartz.jzhao.xyz/">Quartz v4.0.8</a>, © 2023</p><ul><li><a href="https://github.com/logos-co/roadmap">GitHub</a></li><li><a href="https://discord.com/invite/logos-state">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+function toggleCallout() {
+  const outerBlock = this.parentElement;
+  outerBlock.classList.toggle(`is-collapsed`);
+  const collapsed = outerBlock.classList.contains(`is-collapsed`);
+  const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight;
+  outerBlock.style.maxHeight = height + `px`;
+  let current = outerBlock;
+  let parent = outerBlock.parentElement;
+  while (parent) {
+    if (!parent.classList.contains(`callout`)) {
+      return;
+    }
+    const collapsed2 = parent.classList.contains(`is-collapsed`);
+    const height2 = collapsed2 ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight;
+    parent.style.maxHeight = height2 + `px`;
+    current = parent;
+    parent = parent.parentElement;
+  }
+}
+function setupCallout() {
+  const collapsible = document.getElementsByClassName(
+    `callout is-collapsible`
+  );
+  for (const div of collapsible) {
+    const title = div.firstElementChild;
+    if (title) {
+      title.removeEventListener(`click`, toggleCallout);
+      title.addEventListener(`click`, toggleCallout);
+      const collapsed = div.classList.contains(`is-collapsed`);
+      const height = collapsed ? title.scrollHeight : div.scrollHeight;
+      div.style.maxHeight = height + `px`;
+    }
+  }
+}
+document.addEventListener(`nav`, setupCallout);
+window.addEventListener(`resize`, setupCallout);
+</script><script type="module">
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+          const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
+          mermaid.initialize({ 
+            startOnLoad: false,
+            securityLevel: 'loose',
+            theme: darkMode ? 'dark' : 'default'
+          });
+          document.addEventListener('nav', async () => {
+            await mermaid.run({
+              querySelector: '.mermaid'
+            })
+          });
+          </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../../../postscript.js" type="module"></script></html>
