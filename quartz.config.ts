@@ -11,6 +11,7 @@ const config: QuartzConfig = {
     },
     baseUrl: "roadmap.logos.co",
     ignorePatterns: ["private", "templates"],
+    defaultDateType: "created",
     theme: {
       typography: {
         header: "sans-serif",
