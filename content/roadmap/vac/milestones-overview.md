@@ -26,3 +26,10 @@ tags:
 - [Roadmap: zkVM](https://www.notion.so/Roadmap-zkVM-59cb588bd2404e659633e008101310b5?pvs=21)
 - [Roadmap: Deep Research (DR)](https://www.notion.so/Roadmap-Deep-Research-DR-561a864c890549c3861bf52ab979d7ab?pvs=21)
 - [Roadmap: RFC Process](https://www.notion.so/Roadmap-RFC-Process-f8516d19132b41a0beb29c24510ebc09?pvs=21)
+
+--- 
+
+### P2P
+```mermaid
+
+```
