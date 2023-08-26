@@ -119,7 +119,7 @@
     <link>https://roadmap.logos.co/roadmap/vac/milestones-overview</link>
     <guid>https://roadmap.logos.co/roadmap/vac/milestones-overview</guid>
     <description>Overview Notion Page - Information copied here for now Info § Structure of milestone names: § vac:&lt;unit&gt;:&lt;tag&gt;:&lt;for_project&gt;:&lt;title&gt;_&lt;counter&gt; vac indicates it is a vac milestone unit indicates the vac unit p2p, dst, tke, acz, sc, zkvm, dr, rfc tag tags a specific area / project / epic within the respective vac unit, e.</description>
-    <pubDate>Thu, 17 Aug 2023 20:15:32 GMT</pubDate>
+    <pubDate>Sat, 26 Aug 2023 00:49:25 GMT</pubDate>
   </items><items>
     <title>Vac Roadmap</title>
     <link>https://roadmap.logos.co/roadmap/vac/overview</link>
@@ -250,7 +250,7 @@
     <title>Smart Contracts Service Unit</title>
     <link>https://roadmap.logos.co/roadmap/vac/sc/overview</link>
     <guid>https://roadmap.logos.co/roadmap/vac/sc/overview</guid>
-    <description>vac:sc §.</description>
+    <description>vac:sc:: § status: § snt-staking-contract due: 2023/08/31 status: 100% more details snt-staking-contract_02 due: status: more details snt-staking-contract-maintenance due: status: more details governance due: status: more details community-contracts-ERC721 due: 2023/08/31 status: 100% community-contracts-maintenance due: status: community-contracts-ERC20 due: status: vac: § secureum-upskilling due: 2023/10/15 status: TBDd rln-contract-support due: 2023/09/15 status: 10% more details .</description>
     <pubDate>Fri, 25 Aug 2023 00:00:00 GMT</pubDate>
   </items><items>
     <title>Token Engineering Service Unit</title>
@@ -342,6 +342,36 @@
     <guid>https://roadmap.logos.co/roadmap/vac/acz/zerokit/zerokit-v0.4</guid>
     <description>vac:acz:zerokit::vac:zerokit-v0.4 § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section zerokit v0.</description>
     <pubDate>Fri, 25 Aug 2023 20:26:23 GMT</pubDate>
+  </items><items>
+    <title>Status Governance Contract Details</title>
+    <link>https://roadmap.logos.co/roadmap/vac/sc/status/governance</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/sc/status/governance</guid>
+    <description> due date: 2023 status: TBD Description §.</description>
+    <pubDate>Sat, 26 Aug 2023 00:49:25 GMT</pubDate>
+  </items><items>
+    <title>Status Staking Contract - next - Details</title>
+    <link>https://roadmap.logos.co/roadmap/vac/sc/status/staking-contract-02</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/sc/status/staking-contract-02</guid>
+    <description>vac:sc::status:staking-contract_02 § due date: TBD status: TBD Description § TBD.</description>
+    <pubDate>Sat, 26 Aug 2023 00:49:25 GMT</pubDate>
+  </items><items>
+    <title>Status Staking Contract Maintenance Details</title>
+    <link>https://roadmap.logos.co/roadmap/vac/sc/status/staking-contract-maintenance</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/sc/status/staking-contract-maintenance</guid>
+    <description>%%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section Status Staking contract maintenance :, 2023-01-20, 2023-08-31 due date: 2023/08/31 status: 100% Description § Status staking contract MVP maintenance Deliverable § TBD.</description>
+    <pubDate>Sat, 26 Aug 2023 00:49:25 GMT</pubDate>
+  </items><items>
+    <title>Status Staking Contract</title>
+    <link>https://roadmap.logos.co/roadmap/vac/sc/status/staking-contract</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/sc/status/staking-contract</guid>
+    <description>vac:sc::status:staking-contract § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section Status Staking Contract :, 2023-01-20, 2023-08-31 due date: status: 100% Description § MVP for the Status staking contract Deliverable § TBD.</description>
+    <pubDate>Sat, 26 Aug 2023 00:49:25 GMT</pubDate>
+  </items><items>
+    <title>Vac RLN Contract Support Details</title>
+    <link>https://roadmap.logos.co/roadmap/vac/sc/vac/rln-contract-support</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/sc/vac/rln-contract-support</guid>
+    <description>%%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section Vac RLN Contract Support :, 2023-01-20, 2023-09-15 due date: 2023/09/15 status: 10% Description § Kick-off task for the Vac SC Unit.</description>
+    <pubDate>Sat, 26 Aug 2023 00:49:25 GMT</pubDate>
   </items><items>
     <title>Codex Economic Analysis Details</title>
     <link>https://roadmap.logos.co/roadmap/vac/tke/codex/economic-analysis</link>
