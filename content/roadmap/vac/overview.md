@@ -2,6 +2,7 @@
 title: Vac Roadmap
 ---
 ## `vac`
+---
 
 ### Structure
 
@@ -14,7 +15,7 @@ title: Vac Roadmap
 - `counter` an optional counter; `01` is implicit; marked with a `02` onward indicates extensions of previous milestones
 
 ### Groups
-- `p2p`: [[roadmap/vac/p2p/overview | Peer-to-peer]]
+- `p2p:` [[roadmap/vac/p2p/overview|Peer-to-peer]]
 - `tke:` [[roadmap/vac/tke/overview|Token Engineering]]
 - `dst:` [[roadmap/vac/dst/overview|Distributed Systems Testing]]
 - `acz:` [[roadmap/vac/acz/overview|Applied Cryptography and Zero-knowledge]]
