@@ -181,6 +181,12 @@
     <description>Codex update August 11 § Client § Milestone: Merkelizing block data § Initial Merkle Tree implementation - 504 Work on persisting/serializing Merkle Tree is underway, PR upcoming Milestone: Block discovery and retrieval § Continued analysis of block discovery and retrieval - _KOAm8kNQamMx-lkQvw-Iw?both=#fn5 Reviewing papers on peers sampling and related topics Wormhole Peer Sampling paper Smoothcache Starting work on simulations based on the above work Milestone: Distributed Client Testing § Continuing working on log collection/analysis and monitoring Details here 41 More related issues/PRs: 20 20 Testing and debugging Condex in continuous testing environment Debugging continuous tests 44 pod labeling 39 Infra § Milestone: Kubernetes Configuration and Management § Move Dist-Tests cluster to OVH and define naming conventions Configure Ingress Controller for Kibana/Grafana Create documentation for Kubernetes management Configure Dist/Continuous-Tests Pods logs shipping Milestone: Continuous Testing and Labeling § Watch the Continuous tests demo Implement and configure Dist-Tests labeling Set up logs shipping based on labels Improve Docker workflows and add ‘latest’ tag Milestone: CI/CD and Synchronization § Set up synchronization by codex-storage Configure Codex Storage and Demo CI/CD environments Marketplace § Milestone: L2 § Taiko L2 integration Done but merge is blocked by a few issues - 483 Milestone: Marketplace Sales § Lots of cleanup and refactoring Finished refactoring state machine PR link Added support for loading node’s slots during Sale’s module start link DAS § Milestone: DHT simulations § Implementing a DHT in Python for the DAS simulator - py-dht.</description>
     <pubDate>Thu, 17 Aug 2023 00:00:00 GMT</pubDate>
   </items><items>
+    <title>2023-08-31 Codex weekly</title>
+    <link>https://roadmap.logos.co/roadmap/codex/updates/2023-08-31</link>
+    <guid>https://roadmap.logos.co/roadmap/codex/updates/2023-08-31</guid>
+    <description>Codex Update August 21-31 § Client § Milestone: Block Merkelization § Storing and retrieving data using merkle trees Coders for merkle trees Refine merkle tree construction Milestone: Block Exchange protocol refinements and simulations § Tracker simulation implementation Block exchange protocol thoughts ydT3AiliS8q2vdixBUXvCQ Follow swarmsim repo for updates Milestone: Async Disc Access &amp; Threading support § Tests on sharing thread data with refc errorVariable and thread safety Fix error binding in without statement on multiple threads WIP: Prototype proxy IO threadpool Milestone: Client stability and debugging § Major effort to stabilize the Codex client through continuous automated testing Start discovery after announce address is updated Start discovery after announce address is updated Retrieve empty blocks Infra § Milestone: Monitoring and Metrics § Install Node exporter and Prometheus in Dist-Tests cluster Grafana Dashboard updates Automated metrics scraping .</description>
+    <pubDate>Mon, 04 Sep 2023 00:00:00 GMT</pubDate>
+  </items><items>
     <title>2023-07-12 Innovation Lab Weekly</title>
     <link>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-07-12</link>
     <guid>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-07-12</guid>
@@ -433,6 +439,12 @@
     <description>vac:tke::nomos:economic-analysis § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section Nomos Economic Analysis :, 2023-01-20, 2023-10-31 due: 2023/10/31 status: 30% CC: Frederico Description § Nomos economic analysis, Nomos token utility, requirements and constraints.</description>
     <pubDate>Fri, 25 Aug 2023 20:26:23 GMT</pubDate>
   </items><items>
+    <title>Waku Economic Analysis Details</title>
+    <link>https://roadmap.logos.co/roadmap/vac/tke/waku/economic-analysis</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/tke/waku/economic-analysis</guid>
+    <description>vac:tke::waku:economic-analysis § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section Waku Economic Analysis :, 2023-01-20, 2023-11-30 due: 2023/10/31 status: 10% CC: Martin Description § Waku economic analysis, Nomos token utility, requirements and constraints.</description>
+    <pubDate>Fri, 25 Aug 2023 20:26:23 GMT</pubDate>
+  </items><items>
     <title>SNT Governance Proposal</title>
     <link>https://roadmap.logos.co/roadmap/vac/tke/status/snt-governance-proposal</link>
     <guid>https://roadmap.logos.co/roadmap/vac/tke/status/snt-governance-proposal</guid>
@@ -449,12 +461,6 @@
     <link>https://roadmap.logos.co/roadmap/vac/tke/status/snt-staking</link>
     <guid>https://roadmap.logos.co/roadmap/vac/tke/status/snt-staking</guid>
     <description>vac:tke::status:SNT-staking § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section Status SNT Staking :, 2023-01-20, 2023-08-30 due: 2023/08/30 status: 82% CC: Frederico (Python), Martin collab: smart contracts team Description: § TBD.</description>
-    <pubDate>Fri, 25 Aug 2023 20:26:23 GMT</pubDate>
-  </items><items>
-    <title>Waku Economic Analysis Details</title>
-    <link>https://roadmap.logos.co/roadmap/vac/tke/waku/economic-analysis</link>
-    <guid>https://roadmap.logos.co/roadmap/vac/tke/waku/economic-analysis</guid>
-    <description>vac:tke::waku:economic-analysis § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section Waku Economic Analysis :, 2023-01-20, 2023-11-30 due: 2023/10/31 status: 10% CC: Martin Description § Waku economic analysis, Nomos token utility, requirements and constraints.</description>
     <pubDate>Fri, 25 Aug 2023 20:26:23 GMT</pubDate>
   </items><items>
     <title>RLNP2P Waku Pruduction Readiness Details</title>
