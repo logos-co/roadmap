@@ -259,6 +259,12 @@
     <description>vac:tke:: § status:SNT-litepaper § due: 2023/07/31 status: 70% - delayed: other milestones taking precedence more details status:SNT-governance-proposal § due: TBD status: NA - taking precedence over SNT-litepaper CC: Matty status:SNT-staking § due: 2023/08/30 status: 82% more details codex:economic-analysis § due: 2023/08/30 status: 50% more details nomox:economic-analysis § due: 2023/10/31 status: 30% CC: Frederico .</description>
     <pubDate>Fri, 25 Aug 2023 00:00:00 GMT</pubDate>
   </items><items>
+    <title>Zero-knowledge Virtual Machine Incubation Project</title>
+    <link>https://roadmap.logos.co/roadmap/vac/zkvm/overview</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/zkvm/overview</guid>
+    <description>vac:zkvm §.</description>
+    <pubDate>Fri, 25 Aug 2023 00:00:00 GMT</pubDate>
+  </items><items>
     <title>2023-07-10 Vac Weekly</title>
     <link>https://roadmap.logos.co/roadmap/vac/updates/2023-07-10</link>
     <guid>https://roadmap.logos.co/roadmap/vac/updates/2023-07-10</guid>
@@ -307,11 +313,11 @@
     <description>Vac week 35 § Vac Milestones: Vac-Roadmap-907df7eeac464143b00c6f49a20bb632 Vac Github Repos: Vac-Repositories-75f7feb3861048f897f0fe95ead08b06 vsu::P2P § vac:p2p:nim-libp2p:vac:maintenance Becaming a Validator in the Nimbus Consensus client (95%) IWANT replies can be bigger than the pubsub message limit (100%, on review) 887 Improve gossipsub DDoS resistance (98%) 920 vsu::Tokenomics § admin/misc: vac:tke::codex:economic-analysis Timeline of Filecoin vs competitors, IPFS vs Filecoin usage, Filip: miners perspective vac:tke::status:SNT-staking Further debugging, verify Multiplier Points calculation (especially gas fee optimization, how GMX implements) vac:tke::nomos:economic-analysis Book seperate calls w/ Moh and Marcin to discuss helping them w/ their relative points of focus vac:tke::waku:economic-analysis Call w/ Aaryamann on RLN, condense our thoughts to a “proposal” for Waku vsu::Distributed Systems Testing (DST) § vac:dst:analysis:nomos:nomos-simulation-analysis Analysis done, scales to million nodes Exploratory sets of runs done Decided on the parameter set for the final runs vac:dst:software-testing:waku:test-plans get familiar with specs for some of the Waku protocols vac:dst:software-testing:waku:test-automation-js-waku Setup local env Investigated how the existing tests are running and how the code is structured admin/misc: 2 CCs ooo vsu:Smart Contracts (SC) § vac:sc::vac:secureum-upskilling Finished Secureum Slot 6 Read a bit into Upgradable contract patterns vac:sc::status:community-contracts-maintenance Moved communities-contracts repo to our Foundry template 1 Also implemented additional tests vac:sc::vac:maintainance/misc Finished up moving community-dapp/contracts to foundry template vac:sc::status:community-contracts-deployer Brainstormed and discussed desired deployer contract with desktop team; Discussion: 11954#issuecomment-1694591812 updating ERC2470 eip-2470 vac:sc::status:snt-staking-contract-maintenance discussing issue with order of processAccount giving advantages on first callers vsu:Applied Cryptogarphy &amp; ZK (ACZ) § vac:acz:rlnp2p:waku:membership-management Wrote a tool rln_keystore_generator : 1925, 1928, 1931 vac:acz:rlnp2p:waku:rln-relay-enhancments tree metadata should include chainId and contractAddress - 1932 set flush_interval appropriately -1933 integrate new WakuRlnRegistry contract - 1943 bump zerokit to v0.</description>
     <pubDate>Mon, 28 Aug 2023 00:00:00 GMT</pubDate>
   </items><items>
-    <title>Zero-knowledge Virtual Machine Incubation Project</title>
-    <link>https://roadmap.logos.co/roadmap/vac/zkvm/overview</link>
-    <guid>https://roadmap.logos.co/roadmap/vac/zkvm/overview</guid>
-    <description>vac:zkvm §.</description>
-    <pubDate>Fri, 25 Aug 2023 00:00:00 GMT</pubDate>
+    <title>2023-09-04 Vac weekly</title>
+    <link>https://roadmap.logos.co/roadmap/vac/updates/2023-09-04</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/updates/2023-09-04</guid>
+    <description>Vac 2023/09/04 § Vac Milestones [Vac Github Repos] (Vac-Repositories-75f7feb3861048f897f0fe95ead08b06) vsu::P2P § vac:p2p:nim-libp2p:vac:maintenance Becaming a Validator in the Nimbus Consensus client (95%) IWANT replies can be bigger than the pubsub message limit (100%, on review) 887 Improve gossipsub DDoS resistance (98%) 920 vsu::Tokenomics § vac:tke::codex:economic-analysis Presenting Filecoin findings to Codex team Litepaper: assumptions on collateral vac:tke::status:SNT-staking Highlighted multiple design requirements not met by SC implementation for SC team notion doc Open questions w/ John, epoch duration Staking governance proposal for when John returns Sep 12 vac:tke::nomos:economic-analysis Delegated staking specifications w/Marcin, update for privacy constraints Bribery attacks analysis, Moh asked to followup early/mid Sep vac:tke::waku:economic-analysis Formalized RLN thoughts shared w/ Aaryamann, will push for additional feedback once Martin returns vsu::Distributed Systems Testing (DST) § vac:dst:analysis:nomos:nomos-simulation-analysis Took over data generation on Tuesday Found a bug in simulations, working around it The comparison runs are now fully automated got the first full set of comparison plots: everything appears to be explainable for a fixed probability Tree runs now scale to 15k nodes vac:dst:wakurtosis:vac:retrospective-rlog Gather info and wrote summary of why we decided to stop using Kurtosis.</description>
+    <pubDate>Mon, 04 Sep 2023 00:00:00 GMT</pubDate>
   </items><items>
     <title>2023-07-24 Waku weekly</title>
     <link>https://roadmap.logos.co/roadmap/waku/updates/2023-07-24</link>
