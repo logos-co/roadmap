@@ -7,6 +7,9 @@ This site attempts to inform the previous, current, and future work required to 
 > This site is an ongoing work in progress. The links within are an attempt to capture a lot of moving targets. This means that the information here may or may not be the bleeding edge of what is true with respect to the development within the Logos Collective projects.
 > 
 > It is our aim to continuously get closer to that target, but we will continuously fail at that. If you know something is out of date or incorrect, raise an issue or make a PR.
+> 
+> Please read the [[content-disclaimer|content disclaimer]] for more information.
+
 ## Navigation
 
 - [Waku](roadmap/waku/overview.md)
