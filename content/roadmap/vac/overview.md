@@ -13,18 +13,25 @@ title: Vac Roadmap
 - `title` the title of the milestone
 - `counter` an optional counter; `01` is implicit; marked with a `02` onward indicates extensions of previous milestones
 
-### Groups
+### Vac Unit Roadmaps
+
+#### R&D Service Units
+
 - `p2p`: [[roadmap/vac/p2p/overview | Peer-to-peer]]
-- `tke:` [[roadmap/vac/tke/overview|Token Engineering]]
-- `dst:` [[roadmap/vac/dst/overview|Distributed Systems Testing]]
-- `acz:` [[roadmap/vac/acz/overview|Applied Cryptography and Zero-knowledge]]
-- `sc:` [[roadmap/vac/sc/overview|Smart Contracts]]
-- `zkvm:` [[roadmap/vac/zkvm/overview|Zero-knowledge Virtual Machine]]
+- `tke:` [[roadmap/vac/tke/overview | Token Engineering]]
+- `dst:` [[roadmap/vac/dst/overview | Distributed Systems Testing]]
+- `acz:` [[roadmap/vac/acz/overview | Applied Cryptography and Zero-knowledge]]
+- `sc:` [[roadmap/vac/sc/overview | Smart Contracts]]
+
+#### Vac Core
+
 - `dr:` [[roadmap/vac/dr/overview|Deep Research]]
 - `rfc:` [[roadmap/vac/rfc/overview|RFC Process and Maintenance]] 
+
+#### Incubator Projects
+
+- `zkvm:` [[roadmap/vac/zkvm/overview|Zero-knowledge Virtual Machine]]
 
 ### Weekly Updates
 - [weekly updates](tags/vac-updates)
 
---- 
-- [Milestones](roadmap/vac/milestones-overview.md)
