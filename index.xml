@@ -79,6 +79,18 @@
     <description>Welcome to the Comms Roadmap Overview Milestones weekly updates .</description>
     <pubDate>Tue, 22 Aug 2023 19:29:49 GMT</pubDate>
   </items><items>
+    <title>Innovation Lab Milestones Overview</title>
+    <link>https://roadmap.logos.co/roadmap/innovation_lab/milestones-overview</link>
+    <guid>https://roadmap.logos.co/roadmap/innovation_lab/milestones-overview</guid>
+    <description>iLab Milestones can be found on the Notion Page.</description>
+    <pubDate>Thu, 17 Aug 2023 00:00:00 GMT</pubDate>
+  </items><items>
+    <title>Innovation Lab Roadmap Overview</title>
+    <link>https://roadmap.logos.co/roadmap/innovation_lab/overview</link>
+    <guid>https://roadmap.logos.co/roadmap/innovation_lab/overview</guid>
+    <description>Welcome to the Innovation lab Roadmap Overview Milestones weekly updates .</description>
+    <pubDate>Tue, 22 Aug 2023 19:29:49 GMT</pubDate>
+  </items><items>
     <title>Codex Milestones Overview</title>
     <link>https://roadmap.logos.co/roadmap/codex/milestones-overview</link>
     <guid>https://roadmap.logos.co/roadmap/codex/milestones-overview</guid>
@@ -121,18 +133,6 @@
     <description>Welcome to the Waku Roadmap Overview Milestones weekly updates .</description>
     <pubDate>Tue, 22 Aug 2023 00:00:00 GMT</pubDate>
   </items><items>
-    <title>Innovation Lab Milestones Overview</title>
-    <link>https://roadmap.logos.co/roadmap/innovation_lab/milestones-overview</link>
-    <guid>https://roadmap.logos.co/roadmap/innovation_lab/milestones-overview</guid>
-    <description>iLab Milestones can be found on the Notion Page.</description>
-    <pubDate>Thu, 17 Aug 2023 00:00:00 GMT</pubDate>
-  </items><items>
-    <title>Innovation Lab Roadmap Overview</title>
-    <link>https://roadmap.logos.co/roadmap/innovation_lab/overview</link>
-    <guid>https://roadmap.logos.co/roadmap/innovation_lab/overview</guid>
-    <description>Welcome to the Innovation lab Roadmap Overview Milestones weekly updates .</description>
-    <pubDate>Tue, 22 Aug 2023 19:29:49 GMT</pubDate>
-  </items><items>
     <title>Vac Roadmap</title>
     <link>https://roadmap.logos.co/roadmap/vac/overview</link>
     <guid>https://roadmap.logos.co/roadmap/vac/overview</guid>
@@ -156,6 +156,24 @@
     <guid>https://roadmap.logos.co/roadmap/acid/updates/2023-08-29</guid>
     <description>Leads roundup - acid § Al - Comms § LPE &amp; Podcast are almost there. Content needs to be polished and reviewed by Carl and Jarrad. Might have an impact on the deadline but we start testing phase tomorrow.</description>
     <pubDate>Mon, 04 Sep 2023 00:00:00 GMT</pubDate>
+  </items><items>
+    <title>2023-07-12 Innovation Lab Weekly</title>
+    <link>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-07-12</link>
+    <guid>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-07-12</guid>
+    <description>Logos Lab 12th of July Currently working on the Waku Objects prototype, which is a modular system for transactional chat objects. Milestone: deliver the first transactional Waku Object called Payggy (attached some design screenshots).</description>
+    <pubDate>Thu, 03 Aug 2023 00:00:00 GMT</pubDate>
+  </items><items>
+    <title>2023-08-02 Innovation Lab weekly</title>
+    <link>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-08-02</link>
+    <guid>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-08-02</guid>
+    <description>Logos Lab 2nd of August Currently working on the Waku Objects prototype, which is a modular system for transactional chat objects. The last few weeks were a bit slower than usual because there were vacations, one team member got married, there was EthCC and a team offsite.</description>
+    <pubDate>Thu, 03 Aug 2023 00:00:00 GMT</pubDate>
+  </items><items>
+    <title>2023-08-17 <TEAM> weekly</title>
+    <link>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-08-11</link>
+    <guid>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-08-11</guid>
+    <description>Logos Lab 11th of August § Currently working on the Waku Objects prototype, which is a modular system for transactional chat objects. We merged the group chat but it surfaced plenty of issues that were not a problem with 1on1 chats, both with our Waku integration and from product perspective as well.</description>
+    <pubDate>Thu, 17 Aug 2023 00:00:00 GMT</pubDate>
   </items><items>
     <title>2023-07-21 Codex weekly</title>
     <link>https://roadmap.logos.co/roadmap/codex/updates/2023-07-21</link>
@@ -265,23 +283,11 @@
     <description>2023-09-04 Waku weekly § Epics § 1.1 Network requirements and task breakdown {E:2023-1mil-users} achieved: Started working on Waku Network RFC. Visibility and traceability in GH improvements.</description>
     <pubDate>Mon, 04 Sep 2023 00:00:00 GMT</pubDate>
   </items><items>
-    <title>2023-07-12 Innovation Lab Weekly</title>
-    <link>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-07-12</link>
-    <guid>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-07-12</guid>
-    <description>Logos Lab 12th of July Currently working on the Waku Objects prototype, which is a modular system for transactional chat objects. Milestone: deliver the first transactional Waku Object called Payggy (attached some design screenshots).</description>
-    <pubDate>Thu, 03 Aug 2023 00:00:00 GMT</pubDate>
-  </items><items>
-    <title>2023-08-02 Innovation Lab weekly</title>
-    <link>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-08-02</link>
-    <guid>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-08-02</guid>
-    <description>Logos Lab 2nd of August Currently working on the Waku Objects prototype, which is a modular system for transactional chat objects. The last few weeks were a bit slower than usual because there were vacations, one team member got married, there was EthCC and a team offsite.</description>
-    <pubDate>Thu, 03 Aug 2023 00:00:00 GMT</pubDate>
-  </items><items>
-    <title>2023-08-17 <TEAM> weekly</title>
-    <link>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-08-11</link>
-    <guid>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-08-11</guid>
-    <description>Logos Lab 11th of August § Currently working on the Waku Objects prototype, which is a modular system for transactional chat objects. We merged the group chat but it surfaced plenty of issues that were not a problem with 1on1 chats, both with our Waku integration and from product perspective as well.</description>
-    <pubDate>Thu, 17 Aug 2023 00:00:00 GMT</pubDate>
+    <title>Deep Research Service Unit</title>
+    <link>https://roadmap.logos.co/roadmap/vac/dr/overview</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/dr/overview</guid>
+    <description>vac:dr §.</description>
+    <pubDate>Fri, 25 Aug 2023 00:00:00 GMT</pubDate>
   </items><items>
     <title>Applied Cryptography and Zero-knowledge Service Unit</title>
     <link>https://roadmap.logos.co/roadmap/vac/acz/overview</link>
@@ -295,17 +301,11 @@
     <description>vac:dst: § wakurtosis:: § waku:techreport waku:techreport_02 waku:gossipsub-topology-analysis waku:wakurtosis:features vac:rlog nomos:ci-integration nomos:ci-integration_02 vac:maintenance analysis::nomos:nomos-simulation-analysis § gsub-model:: § vac:refactoring status:control-messages shadow:: § vac:shadow-gossipsub-analysis waku:shadow-waku-relay-analysis 10ksim:: § vac:10ksim-bandwidth-test vac:10ksim-QoS vac:10ksim-waku-protocols eng::vac:bundle-simulation-data § software-testing:: § waku:test-plans waku:test-automation-js-waku waku:test-automation-nwaku waku:test-automation-go-waku waku:test-automation-iterop-testing .</description>
     <pubDate>Fri, 25 Aug 2023 00:00:00 GMT</pubDate>
   </items><items>
-    <title>Deep Research Service Unit</title>
-    <link>https://roadmap.logos.co/roadmap/vac/dr/overview</link>
-    <guid>https://roadmap.logos.co/roadmap/vac/dr/overview</guid>
-    <description>vac:dr §.</description>
-    <pubDate>Fri, 25 Aug 2023 00:00:00 GMT</pubDate>
-  </items><items>
     <title>P2P Service Unit</title>
     <link>https://roadmap.logos.co/roadmap/vac/p2p/overview</link>
     <guid>https://roadmap.logos.co/roadmap/vac/p2p/overview</guid>
-    <description>vac:p2p: § nimlibp2p::vac:gossipsub-improvements-eip-4844 § due: 2023/07/31 status: 100% nimlibp2p::vac:webrtc-transport § due: 2023/07/31 status: 70% nimlibp2p::vac:maintenance § repo: nim-libp2p nimchronos::vac:maintenance § repo: nim-chronos .</description>
-    <pubDate>Fri, 25 Aug 2023 00:00:00 GMT</pubDate>
+    <description>vac:p2p: § vac:p2p:nimlibp2p: § The P2P Service unit develops nim-libp2p. nim-libp2p roadmap on github: 777 vac:p2p:nimlibp2p::vac:gossipsub-improvements-eip-4844 § due: 2023/07/31 status: 100% CC: Tanguy vac:p2p:nimlibp2p:vac:webrtc-transport § due: 2023/07/31 status: 70% CC: Ludovic vac:p2p:nimlibp2p:vac:gossipsub-ddos-mitigation § due: 2023/10/31 status: 30% CC: Diego vac:p2p:nimlibp2p:vac:gossipsub-stagger-send § due: 2023/10/31 status: 0% CC: Tanguy more info vac:p2p:nimlibp2p:vac:maintenance § repo: nim-libp2p Maintenance of futher libraries § vac:p2p:nimchronos:vac:maintenance § repo: nim-chronos .</description>
+    <pubDate>Tue, 05 Sep 2023 00:00:00 GMT</pubDate>
   </items><items>
     <title>RFC Specifications Service Unit</title>
     <link>https://roadmap.logos.co/roadmap/vac/rfc/overview</link>
@@ -403,12 +403,6 @@
     <description>vac:tke::codex:economic-analysis § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section Codex Economic Analysis :, 2023-01-20, 2023-08-30 due: 2023/08/30 status: 50% CC: Matty Description § Codex economic analysis, Codex token utility, Codex collateral management.</description>
     <pubDate>Fri, 25 Aug 2023 20:26:23 GMT</pubDate>
   </items><items>
-    <title>Waku Economic Analysis Details</title>
-    <link>https://roadmap.logos.co/roadmap/vac/tke/waku/economic-analysis</link>
-    <guid>https://roadmap.logos.co/roadmap/vac/tke/waku/economic-analysis</guid>
-    <description>vac:tke::waku:economic-analysis § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section Waku Economic Analysis :, 2023-01-20, 2023-11-30 due: 2023/10/31 status: 10% CC: Martin Description § Waku economic analysis, Nomos token utility, requirements and constraints.</description>
-    <pubDate>Fri, 25 Aug 2023 20:26:23 GMT</pubDate>
-  </items><items>
     <title>SNT Governance Proposal</title>
     <link>https://roadmap.logos.co/roadmap/vac/tke/status/snt-governance-proposal</link>
     <guid>https://roadmap.logos.co/roadmap/vac/tke/status/snt-governance-proposal</guid>
@@ -425,6 +419,12 @@
     <link>https://roadmap.logos.co/roadmap/vac/tke/status/snt-staking</link>
     <guid>https://roadmap.logos.co/roadmap/vac/tke/status/snt-staking</guid>
     <description>vac:tke::status:SNT-staking § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section Status SNT Staking :, 2023-01-20, 2023-08-30 due: 2023/08/30 status: 82% CC: Frederico (Python), Martin collab: smart contracts team Description: § TBD.</description>
+    <pubDate>Fri, 25 Aug 2023 20:26:23 GMT</pubDate>
+  </items><items>
+    <title>Waku Economic Analysis Details</title>
+    <link>https://roadmap.logos.co/roadmap/vac/tke/waku/economic-analysis</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/tke/waku/economic-analysis</guid>
+    <description>vac:tke::waku:economic-analysis § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section Waku Economic Analysis :, 2023-01-20, 2023-11-30 due: 2023/10/31 status: 10% CC: Martin Description § Waku economic analysis, Nomos token utility, requirements and constraints.</description>
     <pubDate>Fri, 25 Aug 2023 20:26:23 GMT</pubDate>
   </items><items>
     <title>Status Governance Contract Details</title>
