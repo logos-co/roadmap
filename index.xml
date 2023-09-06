@@ -13,12 +13,6 @@
     <description>Quartz is meant to be extremely configurable, even if you don’t know any coding. Most of the configuration you should need can be done by just editing quartz.</description>
     <pubDate>Tue, 22 Aug 2023 08:20:28 GMT</pubDate>
   </items><items>
-    <title>Content Disclaimer</title>
-    <link>https://roadmap.logos.co/content-disclaimer</link>
-    <guid>https://roadmap.logos.co/content-disclaimer</guid>
-    <description>This website contains forward-looking statements that are based only on current expectations, estimates, forecasts, assumptions and projections about the technology, industry and markets in general.</description>
-    <pubDate>Tue, 05 Sep 2023 15:22:49 GMT</pubDate>
-  </items><items>
     <title>Hosting</title>
     <link>https://roadmap.logos.co/hosting</link>
     <guid>https://roadmap.logos.co/hosting</guid>
@@ -29,13 +23,7 @@
     <link>https://roadmap.logos.co/</link>
     <guid>https://roadmap.logos.co/</guid>
     <description>This site attempts to inform the previous, current, and future work required to fulfill the requirements of the projects under the Logos Collective, a complete tech stack that provides infrastructure for the self-sovereign network state.</description>
-    <pubDate>Tue, 05 Sep 2023 15:22:49 GMT</pubDate>
-  </items><items>
-    <title>Welcome to Quartz 4</title>
-    <link>https://roadmap.logos.co/index_default</link>
-    <guid>https://roadmap.logos.co/index_default</guid>
-    <description>Quartz is a fast, batteries-included static-site generator that transforms Markdown content into fully functional websites. Thousands of students, developers, and teachers are already using Quartz to publish personal notes, wikis, and digital gardens to the web.</description>
-    <pubDate>Tue, 22 Aug 2023 08:20:28 GMT</pubDate>
+    <pubDate>Wed, 06 Sep 2023 12:58:38 GMT</pubDate>
   </items><items>
     <title>Layout</title>
     <link>https://roadmap.logos.co/layout</link>
