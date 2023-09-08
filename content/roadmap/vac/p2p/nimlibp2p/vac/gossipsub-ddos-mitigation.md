@@ -1,7 +1,7 @@
 ---
-title: "Gossipsub Improvements EIP 4844"
+title: "Gossipsub DDoS Mitigation"
 ---
-## `vac:p2p:nimlibp2p:vac:gossipsub-improvements-eip-4844`
+## `vac:p2p:nimlibp2p:vac:gossipsub-ddos-mitigation`
 ---
 
 ```mermaid
@@ -20,12 +20,12 @@ title: "Gossipsub Improvements EIP 4844"
 }%%
 gantt
   dateFormat YYYY-MM-DD 
-  section vac:nimlibp2p
-    Gossipsub Improvements EIP 4844 :done, 2023-03-01, 2023-07-31
+  section p2p:gossipsub-ddos-mitigation
+    Gossipsub DDoS mitigation , 2023-07-01, 2023-10-31
 ```
 
-- status: 100%
-- CC: Tanguy
+- status: 30%
+- CC: Diego
 
 ### Description
 

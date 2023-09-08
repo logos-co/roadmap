@@ -16,24 +16,10 @@ lastmod: 2023-09-05
 The P2P Service unit develops `nim-libp2p`.
 nim-libp2p  roadmap on github: https://github.com/status-im/nim-libp2p/issues/777
 
-* [[gossipsub-improvements-eip-4844|`vac:p2p:nimlibp2p::vac:gossipsub-improvements-eip-4844`]]
+* [x] [[gossipsub-improvements-eip-4844|`vac:p2p:nimlibp2p::vac:gossipsub-improvements-eip-4844`]]
+* [[webrtc-transport|`vac:p2p:nimlibp2p:vac:webrtc-transport`]]
+* [[gossipsub-ddos-mitigation|`vac:p2p:nimlibp2p:vac:gossipsub-ddos-mitigation`]]
 
-- due: 2023/07/31
-- status: 100%
-- CC: Tanguy
-
-#### `vac:p2p:nimlibp2p:vac:webrtc-transport`
-
-- due: 2023/07/31
-- status: 70%
-- CC: Ludovic
-- [[webrtc-transport|`more info`]]
-
-#### `vac:p2p:nimlibp2p:vac:gossipsub-ddos-mitigation`
-
-- due: 2023/10/31
-- status: 30%
-- CC: Diego
 
 ### `vac:p2p:nimlibp2p:vac:gossipsub-stagger-send`
 
