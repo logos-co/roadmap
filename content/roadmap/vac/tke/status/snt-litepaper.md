@@ -23,7 +23,8 @@ gantt
 	section Status
 		SNT Llitepaper :, 2023-01-20, 2023-08-30
 ```
-- Completion: TBD
+
+- status: 70% - delayed: governance proposal taking precedence
 - CC: Matty
 
 ## Description

@@ -5,7 +5,7 @@ title: SNT Governance Proposal
 ## `vac:tke::status:SNT-governance-proposal`
 ---
 
-due: TBD
+due: TDB
 status: TDB
 CC: Matty
 
