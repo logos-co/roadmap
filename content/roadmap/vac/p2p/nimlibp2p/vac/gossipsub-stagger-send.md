@@ -21,8 +21,11 @@ title: "Gossipsub Stagger Send"
 gantt
   dateFormat YYYY-MM-DD 
   section p2p:nimlibp2p
-    Gossipsub Stagger Send , 2023-06-01, 2023-07-31
+    Gossipsub Stagger Send , 2023-06-01, 2023-10-31
 ```
+
+- status: 20%
+- CC: Tanguy
 
 ### Description
 
