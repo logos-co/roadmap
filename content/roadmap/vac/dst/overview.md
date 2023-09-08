@@ -12,14 +12,14 @@ lastmod: 2023-09-08
 
 ### `wakurtosis:`
 
-* [[ roadmap/vac/dst/wakurtosis/waku/techreport | vac:dst:wakurtosis:waku:techreport ]]
-* [[ roadmap/vac/dst/wakurtosis/waku/techreport_02 | vac:dst:wakurtosis:waku:techreport_02 ]]
+* [x] [[ roadmap/vac/dst/wakurtosis/waku/techreport | vac:dst:wakurtosis:waku:techreport ]]
+* [x] [[ roadmap/vac/dst/wakurtosis/waku/techreport_02 | vac:dst:wakurtosis:waku:techreport_02 ]]
 * [[ roadmap/vac/dst/wakurtosis/waku/gossipsub-topology-analysis | vac:dst:wakurtosis:waku:gossipsub-topology-analysis ]]
 * [[ roadmap/vac/dst/wakurtosis/waku/features | vac:dst:wakurtosis:waku:waku:wakurtosis:features ]]
 * [[ roadmap/vac/dst/wakurtosis/vac/rlog | vac:dst:wakurtosis:vac:rlog ]]
 * [[ roadmap/vac/dst/wakurtosis/vac/retrospective-rlog | vac:dst:wakurtosis:vac:retrospective-rlog ]]
 * [[ roadmap/vac/dst/wakurtosis/nomos/ci-integration | vac:dst:wakurtosis:nomos:ci-integration ]]
-* [[ roadmap/vac/dst/wakurtosis/vac/maintenance | vac:dst:wakurtosis:vac:maintenance ]]
+* [x] [[ roadmap/vac/dst/wakurtosis/vac/maintenance | vac:dst:wakurtosis:vac:maintenance ]]
 
 ### `analysis::`
 
