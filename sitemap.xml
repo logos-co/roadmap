@@ -164,9 +164,6 @@
     <loc>https://roadmap.logos.co/roadmap/vac/tke/overview</loc>
     <lastmod>2023-08-25T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/roadmap/vac/zkvm/overview</loc>
-    <lastmod>2023-08-25T00:00:00.000Z</lastmod>
-  </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/updates/2023-07-10</loc>
     <lastmod>2023-07-16T00:00:00.000Z</lastmod>
   </url><url>
@@ -193,6 +190,15 @@
   </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/updates/2023-09-04</loc>
     <lastmod>2023-09-04T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/zkvm/benchmarks</loc>
+    <lastmod>2023-09-08T12:58:46.755Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/zkvm/overview</loc>
+    <lastmod>2023-08-25T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/zkvm/research-existing-proofsystems</loc>
+    <lastmod>2023-09-08T12:58:46.755Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/acz/zerokit/zerokit-v0.4</loc>
     <lastmod>2023-08-25T20:26:23.448Z</lastmod>
