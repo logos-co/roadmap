@@ -1,27 +1,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
-    <loc>https://roadmap.logos.co/configuration</loc>
-    <lastmod>2023-08-22T08:20:28.274Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/hosting</loc>
-    <lastmod>2023-08-22T08:20:28.274Z</lastmod>
-  </url><url>
     <loc>https://roadmap.logos.co/</loc>
     <lastmod>2023-09-06T12:58:38.629Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/layout</loc>
-    <lastmod>2023-08-22T08:20:28.274Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/migrating-from-Quartz-3</loc>
-    <lastmod>2023-08-22T08:20:28.274Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/philosophy</loc>
-    <lastmod>2023-08-22T08:20:28.274Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/showcase</loc>
-    <lastmod>2023-08-22T08:20:28.274Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/upgrading</loc>
-    <lastmod>2023-08-22T08:20:28.274Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/component</loc>
     <lastmod>2023-08-22T08:20:28.274Z</lastmod>
@@ -146,11 +125,11 @@
     <loc>https://roadmap.logos.co/roadmap/vac/acz/overview</loc>
     <lastmod>2023-08-25T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/roadmap/vac/dst/overview</loc>
-    <lastmod>2023-09-08T00:00:00.000Z</lastmod>
-  </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/dr/overview</loc>
     <lastmod>2023-08-25T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/dst/overview</loc>
+    <lastmod>2023-09-08T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/p2p/overview</loc>
     <lastmod>2023-09-05T00:00:00.000Z</lastmod>
@@ -203,9 +182,6 @@
     <loc>https://roadmap.logos.co/roadmap/vac/acz/zerokit/zerokit-v0.4</loc>
     <lastmod>2023-08-25T20:26:23.448Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/roadmap/vac/sc/vac/rln-contract-support</loc>
-    <lastmod>2023-08-26T00:49:25.045Z</lastmod>
-  </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/sc/status/governance</loc>
     <lastmod>2023-08-26T00:49:25.045Z</lastmod>
   </url><url>
@@ -216,6 +192,9 @@
     <lastmod>2023-08-26T00:49:25.045Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/sc/status/staking-contract</loc>
+    <lastmod>2023-08-26T00:49:25.045Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/sc/vac/rln-contract-support</loc>
     <lastmod>2023-08-26T00:49:25.045Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/tke/codex/economic-analysis</loc>

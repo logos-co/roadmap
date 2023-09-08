@@ -7,53 +7,11 @@
       <atom:link href="https://roadmap.logos.co/index.xml" rel="self" type="application/rss+xml"/>
     </channel>
     <items>
-    <title>Configuration</title>
-    <link>https://roadmap.logos.co/configuration</link>
-    <guid>https://roadmap.logos.co/configuration</guid>
-    <description>Quartz is meant to be extremely configurable, even if you don’t know any coding. Most of the configuration you should need can be done by just editing quartz.</description>
-    <pubDate>Tue, 22 Aug 2023 08:20:28 GMT</pubDate>
-  </items><items>
-    <title>Hosting</title>
-    <link>https://roadmap.logos.co/hosting</link>
-    <guid>https://roadmap.logos.co/hosting</guid>
-    <description>Quartz effectively turns your Markdown files and other resources into a bundle of HTML, JS, and CSS files (a website!). However, if you’d like to publish your site to the world, you need a way to host it online.</description>
-    <pubDate>Tue, 22 Aug 2023 08:20:28 GMT</pubDate>
-  </items><items>
     <title></title>
     <link>https://roadmap.logos.co/</link>
     <guid>https://roadmap.logos.co/</guid>
     <description>This site attempts to inform the previous, current, and future work required to fulfill the requirements of the projects under the Logos Collective, a complete tech stack that provides infrastructure for the self-sovereign network state.</description>
     <pubDate>Wed, 06 Sep 2023 12:58:38 GMT</pubDate>
-  </items><items>
-    <title>Layout</title>
-    <link>https://roadmap.logos.co/layout</link>
-    <guid>https://roadmap.logos.co/layout</guid>
-    <description>Certain emitters may also output HTML files. To enable easy customization, these emitters allow you to fully rearrange the layout of the page. The default page layouts can be found in quartz.</description>
-    <pubDate>Tue, 22 Aug 2023 08:20:28 GMT</pubDate>
-  </items><items>
-    <title>Migrating from Quartz 3</title>
-    <link>https://roadmap.logos.co/migrating-from-Quartz-3</link>
-    <guid>https://roadmap.logos.co/migrating-from-Quartz-3</guid>
-    <description>As you already have Quartz locally, you don’t need to fork or clone it again. Simply just checkout the alpha branch, install the dependencies, and import your old vault.</description>
-    <pubDate>Tue, 22 Aug 2023 08:20:28 GMT</pubDate>
-  </items><items>
-    <title>Philosophy of Quartz</title>
-    <link>https://roadmap.logos.co/philosophy</link>
-    <guid>https://roadmap.logos.co/philosophy</guid>
-    <description>A garden should be a true hypertext § The garden is the web as topology. Every walk through the garden creates new paths, new meanings, and when we add things to the garden we add them in a way that allows many future, unpredicted relationships.</description>
-    <pubDate>Tue, 22 Aug 2023 08:20:28 GMT</pubDate>
-  </items><items>
-    <title>Quartz Showcase</title>
-    <link>https://roadmap.logos.co/showcase</link>
-    <guid>https://roadmap.logos.co/showcase</guid>
-    <description>Want to see what Quartz can do? Here are some cool community gardens: Quartz Documentation (this site!) Jacky Zhao’s Garden Brandon Boswell’s Garden Scaling Synthesis - A hypertext research notebook AWAGMI Intern Notes Course notes for Information Technology Advanced Theory Data Dictionary 🧠 sspaeti.</description>
-    <pubDate>Tue, 22 Aug 2023 08:20:28 GMT</pubDate>
-  </items><items>
-    <title>Upgrading Quartz</title>
-    <link>https://roadmap.logos.co/upgrading</link>
-    <guid>https://roadmap.logos.co/upgrading</guid>
-    <description> Note This is specifically a guide for upgrading Quartz 4 version to a more recent update. If you are coming from Quartz 3, check out the migration guide for more info.</description>
-    <pubDate>Tue, 22 Aug 2023 08:20:28 GMT</pubDate>
   </items><items>
     <title>Components</title>
     <link>https://roadmap.logos.co/tags/component</link>
@@ -301,17 +259,17 @@
     <description>vac:acz § rlnp2p:: § waku:production-readiness due: 2023/07/31 status: 100% more info waku:rln-relay-enhancements due: 2023/09/30 status: 50% more info waku:rln-membership-management due: 2023/09/30 status: 10% more info zerokit:: § vac:zerokit-v0.</description>
     <pubDate>Fri, 25 Aug 2023 00:00:00 GMT</pubDate>
   </items><items>
-    <title>Distributed Systems Testing Service Unit</title>
-    <link>https://roadmap.logos.co/roadmap/vac/dst/overview</link>
-    <guid>https://roadmap.logos.co/roadmap/vac/dst/overview</guid>
-    <description>vac:dst: § wakurtosis: § vac:dst:wakurtosis:waku:techreport vac:dst:wakurtosis:waku:techreport_02 vac:dst:wakurtosis:waku:gossipsub-topology-analysis vac:dst:wakurtosis:waku:waku:wakurtosis:features vac:dst:wakurtosis:vac:rlog vac:dst:wakurtosis:vac:retrospective-rlog vac:dst:wakurtosis:nomos:ci-integration vac:dst:wakurtosis:vac:maintenance analysis:: § vac:dst:analysis::nomos:nomos-simulation-analysis analysis:gsub-model § vac:dst:analysis:gsub-model:vac:refactoring vac:dst:analysis:gsub-model:status:control-messages analysis:shadow: § vac:dst:analysis:shadow:vac:shadow-gossipsub-analysis vac:dst:analysis:shadow:waku:shadow-waku-relay-analysis eng:: § vac:dst:eng::vac:bundle-simulation-data eng:10ksim: § vac:dst:eng:10ksim:vac:bandwidth-test vac:dst:eng:10ksim:vac:QoS vac:dst:eng:10ksim:waku:waku-protocols vac:dst:eng:10ksim:waku:waku-protocols software-testing:test-plans § vac:dst:software-testing::waku:test-plans software-testing:test-automation § vac:dst:software-testing:test-automation:waku:js-waku vac:dst:software-testing:test-automation:waku:nwaku vac:dst:software-testing:test-automation:waku:go-waku vac:dst:software-testing:test-automation:waku:interop-testing .</description>
-    <pubDate>Fri, 08 Sep 2023 00:00:00 GMT</pubDate>
-  </items><items>
     <title>Deep Research Service Unit</title>
     <link>https://roadmap.logos.co/roadmap/vac/dr/overview</link>
     <guid>https://roadmap.logos.co/roadmap/vac/dr/overview</guid>
     <description>vac:dr §.</description>
     <pubDate>Fri, 25 Aug 2023 00:00:00 GMT</pubDate>
+  </items><items>
+    <title>Distributed Systems Testing Service Unit</title>
+    <link>https://roadmap.logos.co/roadmap/vac/dst/overview</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/dst/overview</guid>
+    <description>vac:dst: § wakurtosis: § vac:dst:wakurtosis:waku:techreport vac:dst:wakurtosis:waku:techreport_02 vac:dst:wakurtosis:waku:gossipsub-topology-analysis vac:dst:wakurtosis:waku:waku:wakurtosis:features vac:dst:wakurtosis:vac:rlog vac:dst:wakurtosis:vac:retrospective-rlog vac:dst:wakurtosis:nomos:ci-integration vac:dst:wakurtosis:vac:maintenance analysis:: § vac:dst:analysis::nomos:nomos-simulation-analysis analysis:gsub-model § vac:dst:analysis:gsub-model:vac:refactoring vac:dst:analysis:gsub-model:status:control-messages analysis:shadow: § vac:dst:analysis:shadow:vac:shadow-gossipsub-analysis vac:dst:analysis:shadow:waku:shadow-waku-relay-analysis eng:: § vac:dst:eng::vac:bundle-simulation-data eng:10ksim: § vac:dst:eng:10ksim:vac:bandwidth-test vac:dst:eng:10ksim:vac:QoS vac:dst:eng:10ksim:waku:waku-protocols vac:dst:eng:10ksim:waku:waku-protocols software-testing:test-plans § vac:dst:software-testing::waku:test-plans software-testing:test-automation § vac:dst:software-testing:test-automation:waku:js-waku vac:dst:software-testing:test-automation:waku:nwaku vac:dst:software-testing:test-automation:waku:go-waku vac:dst:software-testing:test-automation:waku:interop-testing .</description>
+    <pubDate>Fri, 08 Sep 2023 00:00:00 GMT</pubDate>
   </items><items>
     <title>P2P Service Unit</title>
     <link>https://roadmap.logos.co/roadmap/vac/p2p/overview</link>
@@ -415,12 +373,6 @@
     <description>vac:acz:zerokit::vac:zerokit-v0.4 § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section zerokit v0.</description>
     <pubDate>Fri, 25 Aug 2023 20:26:23 GMT</pubDate>
   </items><items>
-    <title>Vac RLN Contract Support Details</title>
-    <link>https://roadmap.logos.co/roadmap/vac/sc/vac/rln-contract-support</link>
-    <guid>https://roadmap.logos.co/roadmap/vac/sc/vac/rln-contract-support</guid>
-    <description>%%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section Vac RLN Contract Support :, 2023-01-20, 2023-09-15 due date: 2023/09/15 status: 10% Description § Kick-off task for the Vac SC Unit.</description>
-    <pubDate>Sat, 26 Aug 2023 00:49:25 GMT</pubDate>
-  </items><items>
     <title>Status Governance Contract Details</title>
     <link>https://roadmap.logos.co/roadmap/vac/sc/status/governance</link>
     <guid>https://roadmap.logos.co/roadmap/vac/sc/status/governance</guid>
@@ -443,6 +395,12 @@
     <link>https://roadmap.logos.co/roadmap/vac/sc/status/staking-contract</link>
     <guid>https://roadmap.logos.co/roadmap/vac/sc/status/staking-contract</guid>
     <description>vac:sc::status:staking-contract § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section Status Staking Contract :, 2023-01-20, 2023-08-31 due date: status: 100% Description § MVP for the Status staking contract Deliverable § TBD.</description>
+    <pubDate>Sat, 26 Aug 2023 00:49:25 GMT</pubDate>
+  </items><items>
+    <title>Vac RLN Contract Support Details</title>
+    <link>https://roadmap.logos.co/roadmap/vac/sc/vac/rln-contract-support</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/sc/vac/rln-contract-support</guid>
+    <description>%%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section Vac RLN Contract Support :, 2023-01-20, 2023-09-15 due date: 2023/09/15 status: 10% Description § Kick-off task for the Vac SC Unit.</description>
     <pubDate>Sat, 26 Aug 2023 00:49:25 GMT</pubDate>
   </items><items>
     <title>Codex Economic Analysis</title>
