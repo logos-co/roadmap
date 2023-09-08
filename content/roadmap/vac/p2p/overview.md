@@ -16,7 +16,7 @@ lastmod: 2023-09-05
 The P2P Service unit develops `nim-libp2p`.
 nim-libp2p  roadmap on github: https://github.com/status-im/nim-libp2p/issues/777
 
-* [[gossipsub-improvements-eip-4844 | `vac:p2p:nimlibp2p::vac:gossipsub-improvements-eip-4844`]]
+* [[gossipsub-improvements-eip-4844|`vac:p2p:nimlibp2p::vac:gossipsub-improvements-eip-4844`]]
 
 - due: 2023/07/31
 - status: 100%
