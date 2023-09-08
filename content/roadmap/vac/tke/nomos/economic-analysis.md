@@ -23,7 +23,6 @@ gantt
 	section Nomos
 		Economic Analysis :, 2023-05-01, 2023-10-31
 ```
-- due: 2023/10/31
 - status: 30%
 - CC: Frederico
 

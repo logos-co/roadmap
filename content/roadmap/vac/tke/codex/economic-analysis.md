@@ -23,7 +23,7 @@ gantt
 	section Codex
 		Economic Analysis :, 2023-01-20, 2023-08-30
 ```
-- due: 2023/08/30
+
 - status: 50%
 - CC: Matty
 

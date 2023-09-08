@@ -21,7 +21,7 @@ lastmod: 2023-08-25
 * [[roadmap/vac/tke/codex/economic-analysis | vac:tke::codex:economic-analysis]]
 
 ### `nomos:`
-* [[nomos/economic-analysis | vac:tke::nomos:economic-analysis]]
+* [[roadmap/vac/nomos/economic-analysis | vac:tke::nomos:economic-analysis]]
 
 ### `waku:`
-* [[waku/economic-analysis | vac:tke::waku:economic-analysis]]
+* [[roadmap/vac/waku/economic-analysis | vac:tke::waku:economic-analysis]]

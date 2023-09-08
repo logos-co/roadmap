@@ -23,7 +23,7 @@ gantt
 	section Status
 		SNT Staking :, 2023-01-20, 2023-08-30
 ```
-- due: 2023/08/30
+
 - status: 82%
 - CC: Frederico (Python), Martin
 - collab: [[roadmap/vac/sc/overview|smart contracts team]]

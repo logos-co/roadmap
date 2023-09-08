@@ -23,7 +23,6 @@ gantt
 	section Waku
 		Economic Analysis :, 2023-06-01, 2023-11-30
 ```
-- due: 2023/10/31
 - status: 10%
 - CC: Martin
 
