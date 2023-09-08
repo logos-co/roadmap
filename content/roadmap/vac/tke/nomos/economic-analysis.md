@@ -1,5 +1,5 @@
 ---
-title: "Nomos Economic Analysis Details"
+title: "Nomos Economic Analysis"
 ---
 ## `vac:tke::nomos:economic-analysis`
 ---
@@ -21,11 +21,16 @@ title: "Nomos Economic Analysis Details"
 gantt
 	dateFormat YYYY-MM-DD 
 	section Nomos
-		Economic Analysis :, 2023-01-20, 2023-10-31
+		Economic Analysis :, 2023-05-01, 2023-10-31
 ```
 - due: 2023/10/31
 - status: 30%
 - CC: Frederico
 
-#### Description
+### Description
+
 Nomos economic analysis, Nomos token utility, requirements and constraints
+
+### Justification
+
+Required for ensuring economic security and censorship resistance of Nomos chain

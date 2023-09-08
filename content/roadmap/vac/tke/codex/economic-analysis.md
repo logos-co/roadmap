@@ -1,5 +1,5 @@
 ---
-title: "Codex Economic Analysis Details"
+title: "Codex Economic Analysis"
 ---
 ### `vac:tke::codex:economic-analysis`
 ---
@@ -19,7 +19,7 @@ title: "Codex Economic Analysis Details"
   } 
 }%%
 gantt
-	dateFormat YYYY-MM-DD 
+	dateFormat YYYY-MM-DD
 	section Codex
 		Economic Analysis :, 2023-01-20, 2023-08-30
 ```
@@ -29,3 +29,7 @@ gantt
 
 ### Description
 Codex economic analysis, Codex token utility, Codex collateral management
+
+### Justification
+Per Dimitry and Jesse, required by Codex team for completing implementation of system and planning launch
+

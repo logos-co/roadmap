@@ -1,5 +1,5 @@
 ---
-title: "SNT Staking Details"
+title: "SNT Staking"
 ---
 ## `vac:tke::status:SNT-staking`
 ---
@@ -28,5 +28,10 @@ gantt
 - CC: Frederico (Python), Martin
 - collab: [[roadmap/vac/sc/overview|smart contracts team]]
 
-#### Description:
-TBD
+### Description:
+
+
+### Risks
+
+* implementation of the smart contract is being handed off to smart contract team
+

@@ -1,5 +1,5 @@
 ---
-title: "Waku Economic Analysis Details"
+title: "Waku Economic Analysis"
 ---
 ## `vac:tke::waku:economic-analysis`
 ---
@@ -21,11 +21,12 @@ title: "Waku Economic Analysis Details"
 gantt
 	dateFormat YYYY-MM-DD 
 	section Waku
-		Economic Analysis :, 2023-01-20, 2023-11-30
+		Economic Analysis :, 2023-06-01, 2023-11-30
 ```
 - due: 2023/10/31
 - status: 10%
 - CC: Martin
 
 #### Description
-Waku economic analysis, Nomos token utility, requirements and constraints
+
+Waku economic analysis
