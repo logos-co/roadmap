@@ -27,6 +27,7 @@ nim-libp2p  roadmap on github: https://github.com/status-im/nim-libp2p/issues/77
 - due: 2023/07/31
 - status: 70%
 - CC: Ludovic
+- [[webrtc-transport|more info]]
 
 #### `vac:p2p:nimlibp2p:vac:gossipsub-ddos-mitigation`
 
