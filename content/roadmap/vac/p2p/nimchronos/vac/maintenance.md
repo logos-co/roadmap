@@ -2,7 +2,7 @@
 ---
 title: "Libchronos Maintenance"
 ---
-## `vac:p2p:nimlibp2p:vac:maintenance`
+## `vac:p2p:nimchronos:vac:maintenance`
 ---
 
 - status: ongoing
