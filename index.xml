@@ -19,18 +19,6 @@
     <description>Want to create your own custom component? Check out the advanced guide on creating components for more information.</description>
     <pubDate>Tue, 22 Aug 2023 08:20:28 GMT</pubDate>
   </items><items>
-    <title>Comms Milestones Overview</title>
-    <link>https://roadmap.logos.co/roadmap/acid/milestones-overview</link>
-    <guid>https://roadmap.logos.co/roadmap/acid/milestones-overview</guid>
-    <description> Comms Roadmap Comms Projects Comms planner deadlines .</description>
-    <pubDate>Thu, 17 Aug 2023 00:00:00 GMT</pubDate>
-  </items><items>
-    <title>Comms Roadmap Overview</title>
-    <link>https://roadmap.logos.co/roadmap/acid/overview</link>
-    <guid>https://roadmap.logos.co/roadmap/acid/overview</guid>
-    <description>Welcome to the Comms Roadmap Overview Milestones weekly updates .</description>
-    <pubDate>Tue, 22 Aug 2023 19:29:49 GMT</pubDate>
-  </items><items>
     <title>Codex Milestones Overview</title>
     <link>https://roadmap.logos.co/roadmap/codex/milestones-overview</link>
     <guid>https://roadmap.logos.co/roadmap/codex/milestones-overview</guid>
@@ -41,6 +29,18 @@
     <link>https://roadmap.logos.co/roadmap/codex/overview</link>
     <guid>https://roadmap.logos.co/roadmap/codex/overview</guid>
     <description>Welcome to the Codex Roadmap Overview Milestones weekly updates .</description>
+    <pubDate>Tue, 22 Aug 2023 19:29:49 GMT</pubDate>
+  </items><items>
+    <title>Comms Milestones Overview</title>
+    <link>https://roadmap.logos.co/roadmap/acid/milestones-overview</link>
+    <guid>https://roadmap.logos.co/roadmap/acid/milestones-overview</guid>
+    <description> Comms Roadmap Comms Projects Comms planner deadlines .</description>
+    <pubDate>Thu, 17 Aug 2023 00:00:00 GMT</pubDate>
+  </items><items>
+    <title>Comms Roadmap Overview</title>
+    <link>https://roadmap.logos.co/roadmap/acid/overview</link>
+    <guid>https://roadmap.logos.co/roadmap/acid/overview</guid>
+    <description>Welcome to the Comms Roadmap Overview Milestones weekly updates .</description>
     <pubDate>Tue, 22 Aug 2023 19:29:49 GMT</pubDate>
   </items><items>
     <title>Innovation Lab Milestones Overview</title>
@@ -67,12 +67,6 @@
     <description>nomos: § network-privacy: overview § Welcome to the Nomos Roadmap Overview Milestones weekly updates .</description>
     <pubDate>Tue, 05 Sep 2023 15:22:49 GMT</pubDate>
   </items><items>
-    <title>Vac Roadmap</title>
-    <link>https://roadmap.logos.co/roadmap/vac/overview</link>
-    <guid>https://roadmap.logos.co/roadmap/vac/overview</guid>
-    <description>vac § Structure § vac:&lt;unit&gt;:&lt;tag&gt;::&lt;for_project&gt;:&lt;title&gt;_&lt;counter&gt; vac indicates it is a vac milestone unit indicates the vac unit p2p, dst, tke, acz, sc, zkvm, dr, rfc tag tags a specific area / project / epic within the respective vac unit, e.</description>
-    <pubDate>Tue, 05 Sep 2023 10:46:08 GMT</pubDate>
-  </items><items>
     <title>Milestone: Waku Network supports 10k Users</title>
     <link>https://roadmap.logos.co/roadmap/waku/milestone-waku-10-users</link>
     <guid>https://roadmap.logos.co/roadmap/waku/milestone-waku-10-users</guid>
@@ -91,23 +85,11 @@
     <description>Welcome to the Waku Roadmap Overview Milestones weekly updates .</description>
     <pubDate>Tue, 22 Aug 2023 00:00:00 GMT</pubDate>
   </items><items>
-    <title>2023-08-02 Acid weekly</title>
-    <link>https://roadmap.logos.co/roadmap/acid/updates/2023-08-02</link>
-    <guid>https://roadmap.logos.co/roadmap/acid/updates/2023-08-02</guid>
-    <description>Leads roundup - acid § Al / Comms Status app relaunch comms campaign plan in the works. Approx. date for launch 31.08. Logos comms + growth plan post launch is next up TBD.</description>
-    <pubDate>Thu, 03 Aug 2023 00:00:00 GMT</pubDate>
-  </items><items>
-    <title>2023-08-09 Acid weekly</title>
-    <link>https://roadmap.logos.co/roadmap/acid/updates/2023-08-09</link>
-    <guid>https://roadmap.logos.co/roadmap/acid/updates/2023-08-09</guid>
-    <description>Top level priorities: § Logos Growth Plan Status Relaunch Launch of LPE Podcasts (Target: Every week one podcast out) Hiring: TD studio and DC studio roles Movement Building: § Logos collective comms plan skeleton ready - will be applied for all BUs as next step Goal is to have plan + overview to set realistic KPIs and expectations Discord Server update on various views Status relaunch comms plan is ready for input from John et al.</description>
-    <pubDate>Wed, 09 Aug 2023 00:00:00 GMT</pubDate>
-  </items><items>
-    <title>2023-08-29 Comms weekly</title>
-    <link>https://roadmap.logos.co/roadmap/acid/updates/2023-08-29</link>
-    <guid>https://roadmap.logos.co/roadmap/acid/updates/2023-08-29</guid>
-    <description>Leads roundup - acid § Al - Comms § LPE &amp; Podcast are almost there. Content needs to be polished and reviewed by Carl and Jarrad. Might have an impact on the deadline but we start testing phase tomorrow.</description>
-    <pubDate>Mon, 04 Sep 2023 00:00:00 GMT</pubDate>
+    <title>Vac Roadmap</title>
+    <link>https://roadmap.logos.co/roadmap/vac/overview</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/overview</guid>
+    <description>vac § Structure § vac:&lt;unit&gt;:&lt;tag&gt;::&lt;for_project&gt;:&lt;title&gt;_&lt;counter&gt; vac indicates it is a vac milestone unit indicates the vac unit p2p, dst, tke, acz, sc, zkvm, dr, rfc tag tags a specific area / project / epic within the respective vac unit, e.</description>
+    <pubDate>Tue, 05 Sep 2023 10:46:08 GMT</pubDate>
   </items><items>
     <title>2023-07-21 Codex weekly</title>
     <link>https://roadmap.logos.co/roadmap/codex/updates/2023-07-21</link>
@@ -131,6 +113,24 @@
     <link>https://roadmap.logos.co/roadmap/codex/updates/2023-08-31</link>
     <guid>https://roadmap.logos.co/roadmap/codex/updates/2023-08-31</guid>
     <description>Codex Update August 21-31 § Client § Milestone: Block Merkelization § Storing and retrieving data using merkle trees Coders for merkle trees Refine merkle tree construction Milestone: Block Exchange protocol refinements and simulations § Tracker simulation implementation Block exchange protocol thoughts ydT3AiliS8q2vdixBUXvCQ Follow swarmsim repo for updates Milestone: Async Disc Access &amp; Threading support § Tests on sharing thread data with refc errorVariable and thread safety Fix error binding in without statement on multiple threads WIP: Prototype proxy IO threadpool Milestone: Client stability and debugging § Major effort to stabilize the Codex client through continuous automated testing Start discovery after announce address is updated Start discovery after announce address is updated Retrieve empty blocks Infra § Milestone: Monitoring and Metrics § Install Node exporter and Prometheus in Dist-Tests cluster Grafana Dashboard updates Automated metrics scraping .</description>
+    <pubDate>Mon, 04 Sep 2023 00:00:00 GMT</pubDate>
+  </items><items>
+    <title>2023-08-02 Acid weekly</title>
+    <link>https://roadmap.logos.co/roadmap/acid/updates/2023-08-02</link>
+    <guid>https://roadmap.logos.co/roadmap/acid/updates/2023-08-02</guid>
+    <description>Leads roundup - acid § Al / Comms Status app relaunch comms campaign plan in the works. Approx. date for launch 31.08. Logos comms + growth plan post launch is next up TBD.</description>
+    <pubDate>Thu, 03 Aug 2023 00:00:00 GMT</pubDate>
+  </items><items>
+    <title>2023-08-09 Acid weekly</title>
+    <link>https://roadmap.logos.co/roadmap/acid/updates/2023-08-09</link>
+    <guid>https://roadmap.logos.co/roadmap/acid/updates/2023-08-09</guid>
+    <description>Top level priorities: § Logos Growth Plan Status Relaunch Launch of LPE Podcasts (Target: Every week one podcast out) Hiring: TD studio and DC studio roles Movement Building: § Logos collective comms plan skeleton ready - will be applied for all BUs as next step Goal is to have plan + overview to set realistic KPIs and expectations Discord Server update on various views Status relaunch comms plan is ready for input from John et al.</description>
+    <pubDate>Wed, 09 Aug 2023 00:00:00 GMT</pubDate>
+  </items><items>
+    <title>2023-08-29 Comms weekly</title>
+    <link>https://roadmap.logos.co/roadmap/acid/updates/2023-08-29</link>
+    <guid>https://roadmap.logos.co/roadmap/acid/updates/2023-08-29</guid>
+    <description>Leads roundup - acid § Al - Comms § LPE &amp; Podcast are almost there. Content needs to be polished and reviewed by Carl and Jarrad. Might have an impact on the deadline but we start testing phase tomorrow.</description>
     <pubDate>Mon, 04 Sep 2023 00:00:00 GMT</pubDate>
   </items><items>
     <title>2023-07-12 Innovation Lab Weekly</title>
@@ -211,6 +211,48 @@
     <description>nomos: § network privacy and mixnet: § research § No specific research tasks reported this week related to this milestone. development § Made mixnet tests stable: 334 Finished the delay implementation: 362 Migrated the mixnode binary to Overwatch for better integration: 339 Added a retry mechanism to the libp2p backend for transient errors: 332 Fixed network tests failing with mixnet: 338 Fix panic for RandomDelayIter: 335 Connection cache for mixnet: 343 Implemented mempool network adapters for libp2p: 344 Implemented the libp2p version of the addtx endpoint: 345 testnet: § development: § POC/Draft for testnet using Docker Compose: 364 DNS Multiaddr parsing and peer id configuration: 346, 361 private PoS: § research: § Introduced the Base Design section, focusing on the ZCash design’s constructions, building an understanding of the data structures and algorithms, and presenting relevant algorithms with comprehensive descriptions.</description>
     <pubDate>Mon, 04 Sep 2023 00:00:00 GMT</pubDate>
   </items><items>
+    <title>2023-07-24 Waku weekly</title>
+    <link>https://roadmap.logos.co/roadmap/waku/updates/2023-07-24</link>
+    <guid>https://roadmap.logos.co/roadmap/waku/updates/2023-07-24</guid>
+    <description>Disclaimer: First attempt playing with the format. Incomplete as not everyone is back and we are still adjusting the milestones. Docs § Milestone: Foundation for Waku docs (done) § achieved: § overall layout concept docs community/showcase pages Milestone: Foundation for node operator docs (done) § achieved: § nodes overview page guide for running nwaku (binaries, source, docker) peer discovery config guide reference docs for config methods and options Milestone: Foundation for js-waku docs § achieved: § js-waku overview + installation guide lightpush + filter guide store guide @waku/create-app guide next: § improve @waku/react guide blocker: § polyfills issue with js-waku Milestone: Docs general improvement/incorporating feedback (continuous) § Milestone: Running nwaku in the cloud § Milestone: Add Waku guide to learnweb3.</description>
+    <pubDate>Fri, 04 Aug 2023 00:00:00 GMT</pubDate>
+  </items><items>
+    <title>2023-07-31 Waku weekly</title>
+    <link>https://roadmap.logos.co/roadmap/waku/updates/2023-07-31</link>
+    <guid>https://roadmap.logos.co/roadmap/waku/updates/2023-07-31</guid>
+    <description>Docs § Milestone: Docs general improvement/incorporating feedback (continuous) § next: § rewrite docs in British English Milestone: Running nwaku in the cloud § next: § publish guides for Digital Ocean, Oracle, Fly.</description>
+    <pubDate>Fri, 04 Aug 2023 00:00:00 GMT</pubDate>
+  </items><items>
+    <title>2023-08-06 Waku weekly</title>
+    <link>https://roadmap.logos.co/roadmap/waku/updates/2023-08-06</link>
+    <guid>https://roadmap.logos.co/roadmap/waku/updates/2023-08-06</guid>
+    <description>Milestones for current works are created and used. Next steps are: Refine scope of research work for rest of the year and create matching milestones for research and waku clients Review work not coming from research and setting dates Note that format matches the Notion page but can be changed easily as it’s scripted nwaku § Release Process Improvements {E:2023-qa} achieved: fixed a bug in release CI workflow, enhanced the CI workflow to build and push a docker image on each PR to make simulations per PR more feasible next: document how to run PR built images in waku-simulator, adding Linux arm64 binaries and images blocker: PostgreSQL {E:2023-10k-users} achieved: Docker compose with nwaku + postgres + prometheus + grafana + postgres_exporter 3 next: Carry on with stress testing Autosharding v1 {E:2023-1mil-users} achieved: feedback/update cycles for FILTER &amp; LIGHTPUSH next: New fleet, updating ENR from live subscriptions and merging blocker: Architecturally it seams difficult to send the info to Discv5 from JSONRPC for the Waku app.</description>
+    <pubDate>Tue, 08 Aug 2023 00:00:00 GMT</pubDate>
+  </items><items>
+    <title>2023-08-14 Waku weekly</title>
+    <link>https://roadmap.logos.co/roadmap/waku/updates/2023-08-14</link>
+    <guid>https://roadmap.logos.co/roadmap/waku/updates/2023-08-14</guid>
+    <description>2023-08-14 Waku weekly § Epics § Waku Network Can Support 10K Users {E:2023-10k-users} All software has been delivered. Pending items are: Running stress testing on PostgreSQL to confirm performance gain 1894 Setting up a staging fleet for Status to try static sharding Running simulations for Store protocol: commitment and probably move this to 1mil epic Eco Dev § Aug 2023 {E:2023-eco-growth} achieved: web3conf talk, swags, 2 side events, twitter promotions, requested for marketing collateral to commshub next: complete waku metrics, coordinate events with Lou, ethsafari planning, muchangmai planning blocker: was blocked on infra for hosting nextjs app for waku metrics but migrating to SSR and hosting on vercel Docs § Advanced docs for js-waku next: document notes/recommendations for NodeJS, begin docs on js-waku encryption nwaku § Release Process Improvements {E:2023-qa} achieved: minor CI fixes and improvements next: document how to run PR built images in waku-simulator, adding Linux arm64 binaries and images PostgreSQL {E:2023-10k-users} achieved: Learned that the insertion rate is constrained by the relay protocol.</description>
+    <pubDate>Thu, 17 Aug 2023 00:00:00 GMT</pubDate>
+  </items><items>
+    <title>2023-08-21 Waku weekly</title>
+    <link>https://roadmap.logos.co/roadmap/waku/updates/2023-08-21</link>
+    <guid>https://roadmap.logos.co/roadmap/waku/updates/2023-08-21</guid>
+    <description>2023-08-21 Waku weekly § Eco Dev § Aug 2023 {E:2023-eco-growth} achieved: +20% increase on twitter followers and had a discussion with digital comms team regarding improving Waku’s metrics on social handles.</description>
+    <pubDate>Tue, 22 Aug 2023 00:00:00 GMT</pubDate>
+  </items><items>
+    <title>2023-08-28 Waku weekly</title>
+    <link>https://roadmap.logos.co/roadmap/waku/updates/2023-08-28</link>
+    <guid>https://roadmap.logos.co/roadmap/waku/updates/2023-08-28</guid>
+    <description>2023-08-28 Waku weekly § Epics § Status MVP: Status Core Contributors use Status Mobile {E:2023-light-protocols} Light push and filter protocols are available in Status Mobile and Desktop.</description>
+    <pubDate>Mon, 28 Aug 2023 00:00:00 GMT</pubDate>
+  </items><items>
+    <title>2023-09-04 Waku weekly</title>
+    <link>https://roadmap.logos.co/roadmap/waku/updates/2023-09-04</link>
+    <guid>https://roadmap.logos.co/roadmap/waku/updates/2023-09-04</guid>
+    <description>2023-09-04 Waku weekly § Epics § 1.1 Network requirements and task breakdown {E:2023-1mil-users} achieved: Started working on Waku Network RFC. Visibility and traceability in GH improvements.</description>
+    <pubDate>Mon, 04 Sep 2023 00:00:00 GMT</pubDate>
+  </items><items>
     <title>Applied Cryptography and Zero-knowledge Service Unit</title>
     <link>https://roadmap.logos.co/roadmap/vac/acz/overview</link>
     <guid>https://roadmap.logos.co/roadmap/vac/acz/overview</guid>
@@ -244,8 +286,8 @@
     <title>Smart Contracts Service Unit</title>
     <link>https://roadmap.logos.co/roadmap/vac/sc/overview</link>
     <guid>https://roadmap.logos.co/roadmap/vac/sc/overview</guid>
-    <description>vac:sc:: § status: § snt-staking-contract due: 2023/08/31 status: 100% more details snt-staking-contract_02 due: status: more details snt-staking-contract-maintenance due: status: more details governance due: status: more details community-contracts-ERC721 due: 2023/08/31 status: 100% community-contracts-maintenance due: status: community-contracts-ERC20 due: status: vac: § secureum-upskilling due: 2023/10/15 status: TBDd rln-contract-support due: 2023/09/15 status: 10% more details .</description>
-    <pubDate>Fri, 25 Aug 2023 00:00:00 GMT</pubDate>
+    <description>vac:sc:: § status: § staking-contract staking-contract_02 staking-contract-maintenance governance community-contracts-ERC721 community-contracts-ERC20 community-contracts-maintenance vac: § secureum-upskilling rln-contract-support .</description>
+    <pubDate>Wed, 06 Sep 2023 00:00:00 GMT</pubDate>
   </items><items>
     <title>Token Engineering Service Unit</title>
     <link>https://roadmap.logos.co/roadmap/vac/tke/overview</link>
@@ -325,78 +367,6 @@
     <description>vac:zkvm:proofsystems:vac:research-existing-proofsystems § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section zkvm:proofsystems Research Existing Proofsystems , 2023-01-01, 2023-11-30 status: 70% CC: team Description § Deliverables §.</description>
     <pubDate>Fri, 08 Sep 2023 12:58:46 GMT</pubDate>
   </items><items>
-    <title>2023-07-24 Waku weekly</title>
-    <link>https://roadmap.logos.co/roadmap/waku/updates/2023-07-24</link>
-    <guid>https://roadmap.logos.co/roadmap/waku/updates/2023-07-24</guid>
-    <description>Disclaimer: First attempt playing with the format. Incomplete as not everyone is back and we are still adjusting the milestones. Docs § Milestone: Foundation for Waku docs (done) § achieved: § overall layout concept docs community/showcase pages Milestone: Foundation for node operator docs (done) § achieved: § nodes overview page guide for running nwaku (binaries, source, docker) peer discovery config guide reference docs for config methods and options Milestone: Foundation for js-waku docs § achieved: § js-waku overview + installation guide lightpush + filter guide store guide @waku/create-app guide next: § improve @waku/react guide blocker: § polyfills issue with js-waku Milestone: Docs general improvement/incorporating feedback (continuous) § Milestone: Running nwaku in the cloud § Milestone: Add Waku guide to learnweb3.</description>
-    <pubDate>Fri, 04 Aug 2023 00:00:00 GMT</pubDate>
-  </items><items>
-    <title>2023-07-31 Waku weekly</title>
-    <link>https://roadmap.logos.co/roadmap/waku/updates/2023-07-31</link>
-    <guid>https://roadmap.logos.co/roadmap/waku/updates/2023-07-31</guid>
-    <description>Docs § Milestone: Docs general improvement/incorporating feedback (continuous) § next: § rewrite docs in British English Milestone: Running nwaku in the cloud § next: § publish guides for Digital Ocean, Oracle, Fly.</description>
-    <pubDate>Fri, 04 Aug 2023 00:00:00 GMT</pubDate>
-  </items><items>
-    <title>2023-08-06 Waku weekly</title>
-    <link>https://roadmap.logos.co/roadmap/waku/updates/2023-08-06</link>
-    <guid>https://roadmap.logos.co/roadmap/waku/updates/2023-08-06</guid>
-    <description>Milestones for current works are created and used. Next steps are: Refine scope of research work for rest of the year and create matching milestones for research and waku clients Review work not coming from research and setting dates Note that format matches the Notion page but can be changed easily as it’s scripted nwaku § Release Process Improvements {E:2023-qa} achieved: fixed a bug in release CI workflow, enhanced the CI workflow to build and push a docker image on each PR to make simulations per PR more feasible next: document how to run PR built images in waku-simulator, adding Linux arm64 binaries and images blocker: PostgreSQL {E:2023-10k-users} achieved: Docker compose with nwaku + postgres + prometheus + grafana + postgres_exporter 3 next: Carry on with stress testing Autosharding v1 {E:2023-1mil-users} achieved: feedback/update cycles for FILTER &amp; LIGHTPUSH next: New fleet, updating ENR from live subscriptions and merging blocker: Architecturally it seams difficult to send the info to Discv5 from JSONRPC for the Waku app.</description>
-    <pubDate>Tue, 08 Aug 2023 00:00:00 GMT</pubDate>
-  </items><items>
-    <title>2023-08-14 Waku weekly</title>
-    <link>https://roadmap.logos.co/roadmap/waku/updates/2023-08-14</link>
-    <guid>https://roadmap.logos.co/roadmap/waku/updates/2023-08-14</guid>
-    <description>2023-08-14 Waku weekly § Epics § Waku Network Can Support 10K Users {E:2023-10k-users} All software has been delivered. Pending items are: Running stress testing on PostgreSQL to confirm performance gain 1894 Setting up a staging fleet for Status to try static sharding Running simulations for Store protocol: commitment and probably move this to 1mil epic Eco Dev § Aug 2023 {E:2023-eco-growth} achieved: web3conf talk, swags, 2 side events, twitter promotions, requested for marketing collateral to commshub next: complete waku metrics, coordinate events with Lou, ethsafari planning, muchangmai planning blocker: was blocked on infra for hosting nextjs app for waku metrics but migrating to SSR and hosting on vercel Docs § Advanced docs for js-waku next: document notes/recommendations for NodeJS, begin docs on js-waku encryption nwaku § Release Process Improvements {E:2023-qa} achieved: minor CI fixes and improvements next: document how to run PR built images in waku-simulator, adding Linux arm64 binaries and images PostgreSQL {E:2023-10k-users} achieved: Learned that the insertion rate is constrained by the relay protocol.</description>
-    <pubDate>Thu, 17 Aug 2023 00:00:00 GMT</pubDate>
-  </items><items>
-    <title>2023-08-21 Waku weekly</title>
-    <link>https://roadmap.logos.co/roadmap/waku/updates/2023-08-21</link>
-    <guid>https://roadmap.logos.co/roadmap/waku/updates/2023-08-21</guid>
-    <description>2023-08-21 Waku weekly § Eco Dev § Aug 2023 {E:2023-eco-growth} achieved: +20% increase on twitter followers and had a discussion with digital comms team regarding improving Waku’s metrics on social handles.</description>
-    <pubDate>Tue, 22 Aug 2023 00:00:00 GMT</pubDate>
-  </items><items>
-    <title>2023-08-28 Waku weekly</title>
-    <link>https://roadmap.logos.co/roadmap/waku/updates/2023-08-28</link>
-    <guid>https://roadmap.logos.co/roadmap/waku/updates/2023-08-28</guid>
-    <description>2023-08-28 Waku weekly § Epics § Status MVP: Status Core Contributors use Status Mobile {E:2023-light-protocols} Light push and filter protocols are available in Status Mobile and Desktop.</description>
-    <pubDate>Mon, 28 Aug 2023 00:00:00 GMT</pubDate>
-  </items><items>
-    <title>2023-09-04 Waku weekly</title>
-    <link>https://roadmap.logos.co/roadmap/waku/updates/2023-09-04</link>
-    <guid>https://roadmap.logos.co/roadmap/waku/updates/2023-09-04</guid>
-    <description>2023-09-04 Waku weekly § Epics § 1.1 Network requirements and task breakdown {E:2023-1mil-users} achieved: Started working on Waku Network RFC. Visibility and traceability in GH improvements.</description>
-    <pubDate>Mon, 04 Sep 2023 00:00:00 GMT</pubDate>
-  </items><items>
-    <title>Status Governance Contract Details</title>
-    <link>https://roadmap.logos.co/roadmap/vac/sc/status/governance</link>
-    <guid>https://roadmap.logos.co/roadmap/vac/sc/status/governance</guid>
-    <description> due date: 2023 status: TBD Description §.</description>
-    <pubDate>Sat, 26 Aug 2023 00:49:25 GMT</pubDate>
-  </items><items>
-    <title>Status Staking Contract - next - Details</title>
-    <link>https://roadmap.logos.co/roadmap/vac/sc/status/staking-contract-02</link>
-    <guid>https://roadmap.logos.co/roadmap/vac/sc/status/staking-contract-02</guid>
-    <description>vac:sc::status:staking-contract_02 § due date: TBD status: TBD Description § TBD.</description>
-    <pubDate>Sat, 26 Aug 2023 00:49:25 GMT</pubDate>
-  </items><items>
-    <title>Status Staking Contract Maintenance Details</title>
-    <link>https://roadmap.logos.co/roadmap/vac/sc/status/staking-contract-maintenance</link>
-    <guid>https://roadmap.logos.co/roadmap/vac/sc/status/staking-contract-maintenance</guid>
-    <description>%%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section Status Staking contract maintenance :, 2023-01-20, 2023-08-31 due date: 2023/08/31 status: 100% Description § Status staking contract MVP maintenance Deliverable § TBD.</description>
-    <pubDate>Sat, 26 Aug 2023 00:49:25 GMT</pubDate>
-  </items><items>
-    <title>Status Staking Contract</title>
-    <link>https://roadmap.logos.co/roadmap/vac/sc/status/staking-contract</link>
-    <guid>https://roadmap.logos.co/roadmap/vac/sc/status/staking-contract</guid>
-    <description>vac:sc::status:staking-contract § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section Status Staking Contract :, 2023-01-20, 2023-08-31 due date: status: 100% Description § MVP for the Status staking contract Deliverable § TBD.</description>
-    <pubDate>Sat, 26 Aug 2023 00:49:25 GMT</pubDate>
-  </items><items>
-    <title>Vac RLN Contract Support Details</title>
-    <link>https://roadmap.logos.co/roadmap/vac/sc/vac/rln-contract-support</link>
-    <guid>https://roadmap.logos.co/roadmap/vac/sc/vac/rln-contract-support</guid>
-    <description>%%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section Vac RLN Contract Support :, 2023-01-20, 2023-09-15 due date: 2023/09/15 status: 10% Description § Kick-off task for the Vac SC Unit.</description>
-    <pubDate>Sat, 26 Aug 2023 00:49:25 GMT</pubDate>
-  </items><items>
     <title>RLNP2P Waku Pruduction Readiness Details</title>
     <link>https://roadmap.logos.co/roadmap/vac/acz/rlnp2p/waku/production-readiness</link>
     <guid>https://roadmap.logos.co/roadmap/vac/acz/rlnp2p/waku/production-readiness</guid>
@@ -456,6 +426,36 @@
     <guid>https://roadmap.logos.co/roadmap/vac/p2p/nimlibp2p/vac/webrtc-transport</guid>
     <description>vac:p2p:nimlibp2p:vac:webrtc-transport § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section p2p:nimlibp2p WebRTC Transport , 2023-04-01, 2023-07-31 status: 70% CC: Diego Description § Deliverables §.</description>
     <pubDate>Fri, 08 Sep 2023 09:48:24 GMT</pubDate>
+  </items><items>
+    <title>Status Governance Contract Details</title>
+    <link>https://roadmap.logos.co/roadmap/vac/sc/g/status/governance</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/sc/g/status/governance</guid>
+    <description> due date: 2023 status: TBD Description §.</description>
+    <pubDate>Sat, 09 Sep 2023 09:46:57 GMT</pubDate>
+  </items><items>
+    <title>Status Staking Contract Maintenance Details</title>
+    <link>https://roadmap.logos.co/roadmap/vac/sc/g/status/staking-contract-maintenance</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/sc/g/status/staking-contract-maintenance</guid>
+    <description>%%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section Status Staking contract maintenance :, 2023-01-20, 2023-08-31 due date: 2023/08/31 status: 100% Description § Status staking contract MVP maintenance Deliverable § TBD.</description>
+    <pubDate>Sat, 09 Sep 2023 09:46:57 GMT</pubDate>
+  </items><items>
+    <title>Status Staking Contract</title>
+    <link>https://roadmap.logos.co/roadmap/vac/sc/g/status/staking-contract</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/sc/g/status/staking-contract</guid>
+    <description>vac:sc::status:staking-contract § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section Status Staking Contract :, 2023-01-20, 2023-08-31 due date: status: 100% Description § MVP for the Status staking contract Deliverable § TBD.</description>
+    <pubDate>Sat, 09 Sep 2023 09:46:57 GMT</pubDate>
+  </items><items>
+    <title>Status Staking Contract - next - Details</title>
+    <link>https://roadmap.logos.co/roadmap/vac/sc/g/status/staking-contract_02</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/sc/g/status/staking-contract_02</guid>
+    <description>vac:sc::status:staking-contract_02 § due date: TBD status: TBD Description § TBD.</description>
+    <pubDate>Sat, 09 Sep 2023 09:46:57 GMT</pubDate>
+  </items><items>
+    <title>Vac RLN Contract Support Details</title>
+    <link>https://roadmap.logos.co/roadmap/vac/sc/g/vac/rln-contract-support</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/sc/g/vac/rln-contract-support</guid>
+    <description>%%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section Vac RLN Contract Support :, 2023-01-20, 2023-09-15 due date: 2023/09/15 status: 10% Description § Kick-off task for the Vac SC Unit.</description>
+    <pubDate>Sat, 09 Sep 2023 09:46:57 GMT</pubDate>
   </items><items>
     <title>Codex Economic Analysis</title>
     <link>https://roadmap.logos.co/roadmap/vac/tke/g/codex/economic-analysis</link>
