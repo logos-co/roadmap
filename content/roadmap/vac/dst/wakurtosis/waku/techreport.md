@@ -22,7 +22,7 @@ gantt
   tickInterval 1month
   dateFormat YYYY-MM-DD 
   section Status
-    Techreport: :done, 2023-06-01, 2023-07-31
+    Techreport: done, 2023-06-01, 2023-07-31
 ```
 
 - status: 100%
