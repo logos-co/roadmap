@@ -31,18 +31,6 @@
     <description>Welcome to the Comms Roadmap Overview Milestones weekly updates .</description>
     <pubDate>Tue, 22 Aug 2023 19:29:49 GMT</pubDate>
   </items><items>
-    <title>Innovation Lab Milestones Overview</title>
-    <link>https://roadmap.logos.co/roadmap/innovation_lab/milestones-overview</link>
-    <guid>https://roadmap.logos.co/roadmap/innovation_lab/milestones-overview</guid>
-    <description>iLab Milestones can be found on the Notion Page.</description>
-    <pubDate>Thu, 17 Aug 2023 00:00:00 GMT</pubDate>
-  </items><items>
-    <title>Innovation Lab Roadmap Overview</title>
-    <link>https://roadmap.logos.co/roadmap/innovation_lab/overview</link>
-    <guid>https://roadmap.logos.co/roadmap/innovation_lab/overview</guid>
-    <description>Welcome to the Innovation lab Roadmap Overview Milestones weekly updates .</description>
-    <pubDate>Tue, 22 Aug 2023 19:29:49 GMT</pubDate>
-  </items><items>
     <title>Codex Milestones Overview</title>
     <link>https://roadmap.logos.co/roadmap/codex/milestones-overview</link>
     <guid>https://roadmap.logos.co/roadmap/codex/milestones-overview</guid>
@@ -53,6 +41,18 @@
     <link>https://roadmap.logos.co/roadmap/codex/overview</link>
     <guid>https://roadmap.logos.co/roadmap/codex/overview</guid>
     <description>Welcome to the Codex Roadmap Overview Milestones weekly updates .</description>
+    <pubDate>Tue, 22 Aug 2023 19:29:49 GMT</pubDate>
+  </items><items>
+    <title>Innovation Lab Milestones Overview</title>
+    <link>https://roadmap.logos.co/roadmap/innovation_lab/milestones-overview</link>
+    <guid>https://roadmap.logos.co/roadmap/innovation_lab/milestones-overview</guid>
+    <description>iLab Milestones can be found on the Notion Page.</description>
+    <pubDate>Thu, 17 Aug 2023 00:00:00 GMT</pubDate>
+  </items><items>
+    <title>Innovation Lab Roadmap Overview</title>
+    <link>https://roadmap.logos.co/roadmap/innovation_lab/overview</link>
+    <guid>https://roadmap.logos.co/roadmap/innovation_lab/overview</guid>
+    <description>Welcome to the Innovation lab Roadmap Overview Milestones weekly updates .</description>
     <pubDate>Tue, 22 Aug 2023 19:29:49 GMT</pubDate>
   </items><items>
     <title>Nomos Milestones Overview</title>
@@ -109,24 +109,6 @@
     <description>Leads roundup - acid § Al - Comms § LPE &amp; Podcast are almost there. Content needs to be polished and reviewed by Carl and Jarrad. Might have an impact on the deadline but we start testing phase tomorrow.</description>
     <pubDate>Mon, 04 Sep 2023 00:00:00 GMT</pubDate>
   </items><items>
-    <title>2023-07-12 Innovation Lab Weekly</title>
-    <link>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-07-12</link>
-    <guid>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-07-12</guid>
-    <description>Logos Lab 12th of July Currently working on the Waku Objects prototype, which is a modular system for transactional chat objects. Milestone: deliver the first transactional Waku Object called Payggy (attached some design screenshots).</description>
-    <pubDate>Thu, 03 Aug 2023 00:00:00 GMT</pubDate>
-  </items><items>
-    <title>2023-08-02 Innovation Lab weekly</title>
-    <link>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-08-02</link>
-    <guid>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-08-02</guid>
-    <description>Logos Lab 2nd of August Currently working on the Waku Objects prototype, which is a modular system for transactional chat objects. The last few weeks were a bit slower than usual because there were vacations, one team member got married, there was EthCC and a team offsite.</description>
-    <pubDate>Thu, 03 Aug 2023 00:00:00 GMT</pubDate>
-  </items><items>
-    <title>2023-08-17 <TEAM> weekly</title>
-    <link>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-08-11</link>
-    <guid>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-08-11</guid>
-    <description>Logos Lab 11th of August § Currently working on the Waku Objects prototype, which is a modular system for transactional chat objects. We merged the group chat but it surfaced plenty of issues that were not a problem with 1on1 chats, both with our Waku integration and from product perspective as well.</description>
-    <pubDate>Thu, 17 Aug 2023 00:00:00 GMT</pubDate>
-  </items><items>
     <title>2023-07-21 Codex weekly</title>
     <link>https://roadmap.logos.co/roadmap/codex/updates/2023-07-21</link>
     <guid>https://roadmap.logos.co/roadmap/codex/updates/2023-07-21</guid>
@@ -150,6 +132,24 @@
     <guid>https://roadmap.logos.co/roadmap/codex/updates/2023-08-31</guid>
     <description>Codex Update August 21-31 § Client § Milestone: Block Merkelization § Storing and retrieving data using merkle trees Coders for merkle trees Refine merkle tree construction Milestone: Block Exchange protocol refinements and simulations § Tracker simulation implementation Block exchange protocol thoughts ydT3AiliS8q2vdixBUXvCQ Follow swarmsim repo for updates Milestone: Async Disc Access &amp; Threading support § Tests on sharing thread data with refc errorVariable and thread safety Fix error binding in without statement on multiple threads WIP: Prototype proxy IO threadpool Milestone: Client stability and debugging § Major effort to stabilize the Codex client through continuous automated testing Start discovery after announce address is updated Start discovery after announce address is updated Retrieve empty blocks Infra § Milestone: Monitoring and Metrics § Install Node exporter and Prometheus in Dist-Tests cluster Grafana Dashboard updates Automated metrics scraping .</description>
     <pubDate>Mon, 04 Sep 2023 00:00:00 GMT</pubDate>
+  </items><items>
+    <title>2023-07-12 Innovation Lab Weekly</title>
+    <link>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-07-12</link>
+    <guid>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-07-12</guid>
+    <description>Logos Lab 12th of July Currently working on the Waku Objects prototype, which is a modular system for transactional chat objects. Milestone: deliver the first transactional Waku Object called Payggy (attached some design screenshots).</description>
+    <pubDate>Thu, 03 Aug 2023 00:00:00 GMT</pubDate>
+  </items><items>
+    <title>2023-08-02 Innovation Lab weekly</title>
+    <link>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-08-02</link>
+    <guid>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-08-02</guid>
+    <description>Logos Lab 2nd of August Currently working on the Waku Objects prototype, which is a modular system for transactional chat objects. The last few weeks were a bit slower than usual because there were vacations, one team member got married, there was EthCC and a team offsite.</description>
+    <pubDate>Thu, 03 Aug 2023 00:00:00 GMT</pubDate>
+  </items><items>
+    <title>2023-08-17 <TEAM> weekly</title>
+    <link>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-08-11</link>
+    <guid>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-08-11</guid>
+    <description>Logos Lab 11th of August § Currently working on the Waku Objects prototype, which is a modular system for transactional chat objects. We merged the group chat but it surfaced plenty of issues that were not a problem with 1on1 chats, both with our Waku integration and from product perspective as well.</description>
+    <pubDate>Thu, 17 Aug 2023 00:00:00 GMT</pubDate>
   </items><items>
     <title>Nomos Data Availability Details</title>
     <link>https://roadmap.logos.co/roadmap/nomos/data-avail/overview</link>
@@ -226,7 +226,7 @@
     <title>Distributed Systems Testing Service Unit</title>
     <link>https://roadmap.logos.co/roadmap/vac/dst/overview</link>
     <guid>https://roadmap.logos.co/roadmap/vac/dst/overview</guid>
-    <description>vac:dst: § wakurtosis: § techreport techreport_02 gossipsub-topology-analysis wakurtosis:features rlog retrospective-rlog ci-integration maintenance analysis:: § nomos-simulation-analysis analysis:gsub-model § refactoring control-messages analysis:shadow: § shadow-basic-simulation shadow-gossipsub-analysis shadow-waku-relay-analysis eng:: § bundle-simulation-data eng:10ksim: § bandwidth-test QoS waku-protocols software-testing:test-plans § test-plans software-testing:test-automation § js-waku nwaku go-waku interop-testing .</description>
+    <description>vac:dst: § wakurtosis: § techreport techreport_02 gossipsub-topology-analysis wakurtosis:features rlog retrospective-rlog ci-integration maintenance analysis:: § simulation-analysis analysis:gsub-model § refactoring control-messages analysis:shadow: § shadow-basic-simulation shadow-gossipsub-analysis shadow-waku-relay-analysis eng:: § bundle-simulation-data eng:10ksim: § bandwidth-test QoS waku-protocols software-testing:waku § test-plans test-automation-js-waku test-automation-nwaku test-automation-go-waku interop-testing .</description>
     <pubDate>Fri, 08 Sep 2023 00:00:00 GMT</pubDate>
   </items><items>
     <title>P2P Service Unit</title>
@@ -390,6 +390,132 @@
     <guid>https://roadmap.logos.co/roadmap/vac/acz/zerokit/vac/zerokit-v0-4</guid>
     <description>vac:acz:zerokit::vac:zerokit-v0.4 § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section zerokit v0.</description>
     <pubDate>Sat, 09 Sep 2023 09:19:52 GMT</pubDate>
+  </items><items>
+    <title>Simulation Analysis</title>
+    <link>https://roadmap.logos.co/roadmap/vac/dst/analysis/nomos/nomos-simulation-analysis</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/dst/analysis/nomos/nomos-simulation-analysis</guid>
+    <description>vac:dst:analysis:nomos:simulation-analysis § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Simulation Analysis: 2023-08-01, 2023-09-15 status: 70% CC: Ganesh Description § Justification § Info § Extended: include signature aggregation into analysis write analysis section in Carnot paper nomos node nomos simulations Deliverables §.</description>
+    <pubDate>Sat, 09 Sep 2023 14:05:44 GMT</pubDate>
+  </items><items>
+    <title>Control Messages</title>
+    <link>https://roadmap.logos.co/roadmap/vac/dst/analysis-gsub-model/status/control-messages</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/dst/analysis-gsub-model/status/control-messages</guid>
+    <description>vac:dst:analysis-gsub-model:status:control-messages § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Control Messages: 2023-07-01, 2023-09-15 status: 85% CC: Ganesh Description § Justification § Info § delayed because of extending Nomos analysis milestone Deliverables §.</description>
+    <pubDate>Sat, 09 Sep 2023 14:05:44 GMT</pubDate>
+  </items><items>
+    <title>Refactoring</title>
+    <link>https://roadmap.logos.co/roadmap/vac/dst/analysis-gsub-model/vac/refactoring</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/dst/analysis-gsub-model/vac/refactoring</guid>
+    <description>vac:dst:analysis-gsub-model:vac:refactoring § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Refactoring: 2023-08-01, 2023-09-30 status: 40% CC: Ganesh Description § Justification § Deliverables §.</description>
+    <pubDate>Sat, 09 Sep 2023 14:05:44 GMT</pubDate>
+  </items><items>
+    <title>Basic Shadow Simulation</title>
+    <link>https://roadmap.logos.co/roadmap/vac/dst/analysis-shadow/vac/basic-shadow-simulation</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/dst/analysis-shadow/vac/basic-shadow-simulation</guid>
+    <description>vac:dst:analysis-shadow:vac:basic-shadow-simulation § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Basic Shadow Simulation: 2023-08-01, 2023-08-31 status: 40% CC: Jordi Description § Justification § Deliverables §.</description>
+    <pubDate>Sat, 09 Sep 2023 14:05:44 GMT</pubDate>
+  </items><items>
+    <title>Shadow Gossipsub Analysis</title>
+    <link>https://roadmap.logos.co/roadmap/vac/dst/analysis-shadow/vac/shadow-gossipsub-analysis</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/dst/analysis-shadow/vac/shadow-gossipsub-analysis</guid>
+    <description>vac:dst:analysis-shadow:vac:shadow-gossipsub-analysis § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Shadow Gossipsub Analysis: 2023-09-01, 2023-10-31 status: 0% CC: Jordi Description § develop a gossipsub node with allows to set desired message rates and other properties try to get to a higher node number (50k?) research log post Justification § Deliverables §.</description>
+    <pubDate>Sat, 09 Sep 2023 14:05:44 GMT</pubDate>
+  </items><items>
+    <title>Shadow Waku Relay Analysis</title>
+    <link>https://roadmap.logos.co/roadmap/vac/dst/analysis-shadow/vac/shadow-waku-relay-analysis</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/dst/analysis-shadow/vac/shadow-waku-relay-analysis</guid>
+    <description>vac:dst:analysis-shadow:waku:shadow-waku-relay-analysis § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Shadow Waku Relay Analysis: done, 2023-10-01, 2023-11-30 status: 0% CC: Jordi Description § Justification § Deliverables §.</description>
+    <pubDate>Sat, 09 Sep 2023 14:05:44 GMT</pubDate>
+  </items><items>
+    <title>Bundle Simulation Data</title>
+    <link>https://roadmap.logos.co/roadmap/vac/dst/eng/vac/bundle-simulation-data</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/dst/eng/vac/bundle-simulation-data</guid>
+    <description>vac:acz:rlnp2p:waku:production-readiness § status: ongoing CC: Description § The Vac DST engineering team runs simulations, bundles the resulting data, and delivers.</description>
+    <pubDate>Sat, 09 Sep 2023 14:05:44 GMT</pubDate>
+  </items><items>
+    <title>Bandwidth Test</title>
+    <link>https://roadmap.logos.co/roadmap/vac/dst/eng-10ktool/vac/bandwidth-test</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/dst/eng-10ktool/vac/bandwidth-test</guid>
+    <description>vac:dst:eng-10ktool:vac:bandwidth § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Bandwidth Test: 2023-08-01, 2023-10-31 status: 20% CC: Alberto Description § A first version of tool that allows running &gt;10k gossipsub / waku relay nodes.</description>
+    <pubDate>Sat, 09 Sep 2023 14:05:44 GMT</pubDate>
+  </items><items>
+    <title>QoS</title>
+    <link>https://roadmap.logos.co/roadmap/vac/dst/eng-10ktool/vac/qos</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/dst/eng-10ktool/vac/qos</guid>
+    <description>vac:dst:eng-10ktool:vac:qos § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status QoS 10ktool: 2023-11-01, 2023-12-31 status: 0% CC: Alberto Description § Add QoS parameter support to the 10k tool.</description>
+    <pubDate>Sat, 09 Sep 2023 14:05:44 GMT</pubDate>
+  </items><items>
+    <title>Waku Protocols</title>
+    <link>https://roadmap.logos.co/roadmap/vac/dst/eng-10ktool/waku/waku-protocols</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/dst/eng-10ktool/waku/waku-protocols</guid>
+    <description>vac:dst:eng-10ktool:waku:waku-protocols § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Waku Protocols: 2023-11-01, 2023-12-31 status: 0% CC: Alberto Description § So far, we tested gossip / relay, as well as discv5.</description>
+    <pubDate>Sat, 09 Sep 2023 14:05:44 GMT</pubDate>
+  </items><items>
+    <title>Interop Testing</title>
+    <link>https://roadmap.logos.co/roadmap/vac/dst/software-testing/waku/interop-testing</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/dst/software-testing/waku/interop-testing</guid>
+    <description>vac:dst:software-testing:waku:interop-testing § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Interop Testing: 2023-09-01, 2024-02-29 status: 0% CC: Florin, Alex, Roman Description § filter nwaku service node + js waku client node (t, Florin) nwaku &lt;&gt; go-waku interop (t, Alex) Justification § Deliverables §.</description>
+    <pubDate>Sat, 09 Sep 2023 14:05:44 GMT</pubDate>
+  </items><items>
+    <title>Test Automation go-waku</title>
+    <link>https://roadmap.logos.co/roadmap/vac/dst/software-testing/waku/test-automation-go-waku</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/dst/software-testing/waku/test-automation-go-waku</guid>
+    <description>vac:dst:software-testing:waku:test-automation-go-waku § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Test Automation go-waku: 2023-10-01, 2024-02-29 status: 0% CC: Roman Description § filter (t) ← first group of tests added in PR to JS waku lightpush (t) store (t) relay peer exchange discv5 peer &amp; connection management CI integration Justification § Deliverables §.</description>
+    <pubDate>Sat, 09 Sep 2023 14:05:44 GMT</pubDate>
+  </items><items>
+    <title>Test Automation js-waku</title>
+    <link>https://roadmap.logos.co/roadmap/vac/dst/software-testing/waku/test-automation-js-waku</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/dst/software-testing/waku/test-automation-js-waku</guid>
+    <description>vac:dst:software-testing:waku:test-automation-js-waku § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Test Automation js-waku: 2023-09-15, 2024-02-29 status: 10% CC: Florin Description § filter (t) ← first group of tests added in PR to JS waku lightpush (t) store (t) relay peer exchange discv5 peer &amp; connection management CI integration Interoperability (t) Additional requirements: It should be possible to choose the nwaku version the js waku test use (done via github actions inputs) Justification § Deliverables §.</description>
+    <pubDate>Sat, 09 Sep 2023 14:05:44 GMT</pubDate>
+  </items><items>
+    <title>Test Automation nwaku</title>
+    <link>https://roadmap.logos.co/roadmap/vac/dst/software-testing/waku/test-automation-nwaku</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/dst/software-testing/waku/test-automation-nwaku</guid>
+    <description>vac:dst:software-testing:waku:test-automation-nwaku § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Test Automation nwaku: 2023-09-15, 2024-02-29 status: 0% CC: Alex Description § Justification § Deliverables §.</description>
+    <pubDate>Sat, 09 Sep 2023 14:05:44 GMT</pubDate>
+  </items><items>
+    <title>Test Plans</title>
+    <link>https://roadmap.logos.co/roadmap/vac/dst/software-testing/waku/test-plans</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/dst/software-testing/waku/test-plans</guid>
+    <description>vac:dst:software-testing:waku:test-plans § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Test Plans: 2023-09-01, 2024-02-29 status: 15% CC: Florin Description § unit + integration test (contains actually understanding the protocols, critically engage with the protocols) (instruct the engineer) filter (t) lightpush (t) store (t) relay () peer exchange discv5 peer &amp; connection management interoperability (t, starting) simulation plans Justification § Deliverables § test plans .</description>
+    <pubDate>Sat, 09 Sep 2023 14:05:44 GMT</pubDate>
+  </items><items>
+    <title>CI Integration</title>
+    <link>https://roadmap.logos.co/roadmap/vac/dst/wakurtosis/nomos/ci-integration</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/dst/wakurtosis/nomos/ci-integration</guid>
+    <description>vac:dst:wakurtosis:nomos:ci-integration § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status CI Integration: done, 2023-07-01, 2023-07-31 status: 100% CC: Alberto Description § Add Nomos integration to wakurtosis so Nomos can be also used in it.</description>
+    <pubDate>Sat, 09 Sep 2023 14:05:44 GMT</pubDate>
+  </items><items>
+    <title>Wakurtosis Maintenance</title>
+    <link>https://roadmap.logos.co/roadmap/vac/dst/wakurtosis/vac/maintenance</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/dst/wakurtosis/vac/maintenance</guid>
+    <description>vac:dst:wakurtosis:vac:wakurtosis-maintenance § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Wakurtosis Maintenance: done, 2023-01-01, 2023-08-31 status: 100% CC: Alberto Description § Keep up to date the tool if there are crashing changes in the services that are being used in it (Waku, Nomos…) Justification § Services being used are in constant change, thus it can lead wakurtosis to break.</description>
+    <pubDate>Sat, 09 Sep 2023 14:05:44 GMT</pubDate>
+  </items><items>
+    <title>Rlog: Wakurtosis Retrospective</title>
+    <link>https://roadmap.logos.co/roadmap/vac/dst/wakurtosis/vac/retrospective-rlog</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/dst/wakurtosis/vac/retrospective-rlog</guid>
+    <description>vac:dst:wakurtosis:waku:retrospective-rlog § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Wakurtosis Retrospective: 2023-08-01, 2023-09-30 status: 20% CC: Jordi Description § Research log discussing what would we have needed from Wakurtosis to make it work for us beyond our smaller solution.</description>
+    <pubDate>Sat, 09 Sep 2023 14:05:44 GMT</pubDate>
+  </items><items>
+    <title>Wakurtosis Rlog</title>
+    <link>https://roadmap.logos.co/roadmap/vac/dst/wakurtosis/vac/rlog</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/dst/wakurtosis/vac/rlog</guid>
+    <description>vac:dst:wakurtosis:waku:rlog § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Rlog Wakurtosis: 2023-06-01, 2023-08-31 status: 90% CC: Jordi Description § Research log post based on the Wakurtosis tech reports and addendum.</description>
+    <pubDate>Sat, 09 Sep 2023 14:05:44 GMT</pubDate>
+  </items><items>
+    <title>Wakurtosis Features</title>
+    <link>https://roadmap.logos.co/roadmap/vac/dst/wakurtosis/waku/features</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/dst/wakurtosis/waku/features</guid>
+    <description>vac:dst:wakurtosis:waku:wakurtosis-features § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Wakurtosis Features: done, 2023-04-01, 2023-07-31 status: 100% CC: Alberto Description § Features requested by Waku for the simulations done in wakurtosis (e.</description>
+    <pubDate>Sat, 09 Sep 2023 14:05:44 GMT</pubDate>
+  </items><items>
+    <title>Gossipsub Topology Analysis</title>
+    <link>https://roadmap.logos.co/roadmap/vac/dst/wakurtosis/waku/gossipsub-topology-analysis</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/dst/wakurtosis/waku/gossipsub-topology-analysis</guid>
+    <description>vac:dst:wakurtosis:waku:gossipsub-topology-analysis § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Gossipsub Topology Analysis: 2023-07-01, 2023-10-15 status: 60% CC: Ganesh Description § Analysis of the topology of a gossipsub topic mesh.</description>
+    <pubDate>Sat, 09 Sep 2023 14:05:44 GMT</pubDate>
   </items><items>
     <title>Techreport</title>
     <link>https://roadmap.logos.co/roadmap/vac/dst/wakurtosis/waku/techreport</link>

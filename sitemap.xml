@@ -11,16 +11,16 @@
     <loc>https://roadmap.logos.co/roadmap/acid/overview</loc>
     <lastmod>2023-08-22T19:29:49.405Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/roadmap/innovation_lab/milestones-overview</loc>
-    <lastmod>2023-08-17T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/roadmap/innovation_lab/overview</loc>
-    <lastmod>2023-08-22T19:29:49.405Z</lastmod>
-  </url><url>
     <loc>https://roadmap.logos.co/roadmap/codex/milestones-overview</loc>
     <lastmod>2023-08-07T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/roadmap/codex/overview</loc>
+    <lastmod>2023-08-22T19:29:49.405Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/innovation_lab/milestones-overview</loc>
+    <lastmod>2023-08-17T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/innovation_lab/overview</loc>
     <lastmod>2023-08-22T19:29:49.405Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/roadmap/nomos/milestones-overview</loc>
@@ -50,15 +50,6 @@
     <loc>https://roadmap.logos.co/roadmap/acid/updates/2023-08-29</loc>
     <lastmod>2023-09-04T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-07-12</loc>
-    <lastmod>2023-08-03T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-08-02</loc>
-    <lastmod>2023-08-03T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-08-11</loc>
-    <lastmod>2023-08-17T00:00:00.000Z</lastmod>
-  </url><url>
     <loc>https://roadmap.logos.co/roadmap/codex/updates/2023-07-21</loc>
     <lastmod>2023-08-03T00:00:00.000Z</lastmod>
   </url><url>
@@ -70,6 +61,15 @@
   </url><url>
     <loc>https://roadmap.logos.co/roadmap/codex/updates/2023-08-31</loc>
     <lastmod>2023-09-04T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-07-12</loc>
+    <lastmod>2023-08-03T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-08-02</loc>
+    <lastmod>2023-08-03T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-08-11</loc>
+    <lastmod>2023-08-17T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/roadmap/nomos/data-avail/overview</loc>
     <lastmod>2023-09-05T15:22:49.347Z</lastmod>
@@ -190,6 +190,69 @@
   </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/acz/zerokit/vac/zerokit-v0-4</loc>
     <lastmod>2023-09-09T09:19:52.307Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/dst/analysis/nomos/nomos-simulation-analysis</loc>
+    <lastmod>2023-09-09T14:05:44.604Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/dst/analysis-gsub-model/status/control-messages</loc>
+    <lastmod>2023-09-09T14:05:44.604Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/dst/analysis-gsub-model/vac/refactoring</loc>
+    <lastmod>2023-09-09T14:05:44.604Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/dst/analysis-shadow/vac/basic-shadow-simulation</loc>
+    <lastmod>2023-09-09T14:05:44.604Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/dst/analysis-shadow/vac/shadow-gossipsub-analysis</loc>
+    <lastmod>2023-09-09T14:05:44.604Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/dst/analysis-shadow/vac/shadow-waku-relay-analysis</loc>
+    <lastmod>2023-09-09T14:05:44.604Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/dst/eng/vac/bundle-simulation-data</loc>
+    <lastmod>2023-09-09T14:05:44.604Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/dst/eng-10ktool/vac/bandwidth-test</loc>
+    <lastmod>2023-09-09T14:05:44.604Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/dst/eng-10ktool/vac/qos</loc>
+    <lastmod>2023-09-09T14:05:44.604Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/dst/eng-10ktool/waku/waku-protocols</loc>
+    <lastmod>2023-09-09T14:05:44.604Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/dst/software-testing/waku/interop-testing</loc>
+    <lastmod>2023-09-09T14:05:44.604Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/dst/software-testing/waku/test-automation-go-waku</loc>
+    <lastmod>2023-09-09T14:05:44.604Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/dst/software-testing/waku/test-automation-js-waku</loc>
+    <lastmod>2023-09-09T14:05:44.604Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/dst/software-testing/waku/test-automation-nwaku</loc>
+    <lastmod>2023-09-09T14:05:44.604Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/dst/software-testing/waku/test-plans</loc>
+    <lastmod>2023-09-09T14:05:44.604Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/dst/wakurtosis/nomos/ci-integration</loc>
+    <lastmod>2023-09-09T14:05:44.604Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/dst/wakurtosis/vac/maintenance</loc>
+    <lastmod>2023-09-09T14:05:44.604Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/dst/wakurtosis/vac/retrospective-rlog</loc>
+    <lastmod>2023-09-09T14:05:44.604Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/dst/wakurtosis/vac/rlog</loc>
+    <lastmod>2023-09-09T14:05:44.604Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/dst/wakurtosis/waku/features</loc>
+    <lastmod>2023-09-09T14:05:44.604Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/dst/wakurtosis/waku/gossipsub-topology-analysis</loc>
+    <lastmod>2023-09-09T14:05:44.604Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/dst/wakurtosis/waku/techreport</loc>
     <lastmod>2023-09-09T13:00:38.164Z</lastmod>
