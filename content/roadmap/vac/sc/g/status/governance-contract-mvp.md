@@ -1,7 +1,7 @@
 ---
-title: "Secureum Upskilling"
+title: "Governance Contract MVP"
 ---
-## `vac:sc::vac:secureum-upskilling`
+## `vac:sc::status:governance-contract-mvp`
 ---
 
 ```mermaid
@@ -22,14 +22,17 @@ gantt
   tickInterval 1month
   dateFormat YYYY-MM-DD 
   section Status
-    Secureum Upskilling:  2023-08-15, 2023-10-15
+    Governance Contract MVP:  2023-08-01, 2023-09-30
 ```
 
-- status: 70%
-- CC: team
+- status: 20%
+- CC: Ricardo
 
 ### Description
 
+* voting within communities
+* replace the current community-dapp voting contracts https://github.com/status-im/community-dapp/tree/master/packages/contracts/contracts
+* testing is out of scope for that milestone
 
 ### Justification
 

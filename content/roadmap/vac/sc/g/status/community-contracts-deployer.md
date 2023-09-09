@@ -1,7 +1,7 @@
 ---
-title: "Secureum Upskilling"
+title: "Community Contracts Deployer"
 ---
-## `vac:sc::vac:secureum-upskilling`
+## `vac:sc::status:community-contracts-deployer`
 ---
 
 ```mermaid
@@ -22,11 +22,11 @@ gantt
   tickInterval 1month
   dateFormat YYYY-MM-DD 
   section Status
-    Secureum Upskilling:  2023-08-15, 2023-10-15
+    Community Contracts Deployer:  2023-09-01, 2023-09-30
 ```
 
-- status: 70%
-- CC: team
+- status: 20%
+- CC: r4bbit
 
 ### Description
 
