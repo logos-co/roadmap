@@ -10,25 +10,12 @@ lastmod: 2023-08-25
 ## `vac:acz`
 ---
 
-### `rlnp2p::`
-- [x] `waku:production-readiness` 
-	- due: 2023/07/31
-	- status: 100%
-	- [[production-readiness|more info]]
-- `waku:rln-relay-enhancements`
-	- due: 2023/09/30
-	- status: 50%
-	- [[rln-relay-enhancements|more info]]
-- `waku:rln-membership-management`
-	- due: 2023/09/30
-	- status: 10%
-	- [[rln-membership-management|more info]]
+### `rlnp2p:waku`
+* [x] [[roadmap/vac/acz/rlnp2p/waku/producion-readiness | production-readiness]]
+* [[roadmap/vac/acz/rlnp2p/waku/rln-membership-management | rln-membership-management]]
+* [[roadmap/vac/acz/rlnp2p/waku/rln-relay-enhancements| rln-relay-enhancements]]
 
-### `zerokit::`
-- `vac:zerokit-v0.4`
-	- due: 2023/09/07
-	- status: 0%
-	- [[zerokit-v0.4|more details]]
-- `vac:maintenance`
-	- due: ongoing
-	- status: ongoing
+
+### `zerokit:vac`
+* [[roadmap/vac/acz/zerokit/vac/zerokit-v0.4 | zerokit-v0.4]]
+* [[roadmap/vac/acz/zerokit/vac/maintenance | maintenance]]
