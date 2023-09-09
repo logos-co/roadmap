@@ -19,9 +19,10 @@ title: "Gossipsub Improvements EIP 4844"
   } 
 }%%
 gantt
-  dateFormat YYYY-MM-DD 
-  section vac:nimlibp2p
-    Gossipsub Improvements EIP 4844 :done, 2023-03-01, 2023-07-31
+  tickInterval 1month
+  dateFormat YYYY-MM-DD
+  section Status
+    Gossipsub Improvements EIP 4844: done, 2023-03-01, 2023-07-31
 ```
 
 - status: 100%

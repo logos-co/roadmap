@@ -19,9 +19,10 @@ title: "Gossipsub DDoS Mitigation"
   } 
 }%%
 gantt
-  dateFormat YYYY-MM-DD 
-  section p2p:gossipsub-ddos-mitigation
-    Gossipsub DDoS mitigation , 2023-07-01, 2023-10-31
+  tickInterval 1month
+  dateFormat YYYY-MM-DD
+  section Status
+    Gossipsub DDoS mitigation: 2023-07-01, 2023-10-31
 ```
 
 - status: 30%
