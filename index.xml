@@ -265,17 +265,17 @@
     <description>vac:dr §.</description>
     <pubDate>Fri, 25 Aug 2023 00:00:00 GMT</pubDate>
   </items><items>
-    <title>P2P Service Unit</title>
-    <link>https://roadmap.logos.co/roadmap/vac/p2p/overview</link>
-    <guid>https://roadmap.logos.co/roadmap/vac/p2p/overview</guid>
-    <description>vac:p2p: § vac:p2p:nimlibp2p: § The P2P Service unit develops nim-libp2p. nim-libp2p roadmap on github: 777 vac:p2p:nimlibp2p::vac:gossipsub-improvements-eip-4844 vac:p2p:nimlibp2p:vac:webrtc-transport vac:p2p:nimlibp2p:vac:gossipsub-ddos-mitigation vac:p2p:nimlibp2p:vac:gossipsub-stagger-send vac:p2p:nimlibp2p:vac:maintenance § repo: nim-libp2p Maintenance of futher libraries § vac:p2p:nimchronos:vac:maintenance § repo: nim-chronos .</description>
-    <pubDate>Tue, 05 Sep 2023 00:00:00 GMT</pubDate>
-  </items><items>
     <title>Distributed Systems Testing Service Unit</title>
     <link>https://roadmap.logos.co/roadmap/vac/dst/overview</link>
     <guid>https://roadmap.logos.co/roadmap/vac/dst/overview</guid>
     <description>vac:dst: § wakurtosis: § vac:dst:wakurtosis:waku:techreport vac:dst:wakurtosis:waku:techreport_02 vac:dst:wakurtosis:waku:gossipsub-topology-analysis vac:dst:wakurtosis:waku:waku:wakurtosis:features vac:dst:wakurtosis:vac:rlog vac:dst:wakurtosis:vac:retrospective-rlog vac:dst:wakurtosis:nomos:ci-integration vac:dst:wakurtosis:vac:maintenance analysis:: § vac:dst:analysis::nomos:nomos-simulation-analysis analysis:gsub-model § vac:dst:analysis:gsub-model:vac:refactoring vac:dst:analysis:gsub-model:status:control-messages analysis:shadow: § vac:dst:analysis:shadow:vac:shadow-gossipsub-analysis vac:dst:analysis:shadow:waku:shadow-waku-relay-analysis eng:: § vac:dst:eng::vac:bundle-simulation-data eng:10ksim: § vac:dst:eng:10ksim:vac:bandwidth-test vac:dst:eng:10ksim:vac:QoS vac:dst:eng:10ksim:waku:waku-protocols vac:dst:eng:10ksim:waku:waku-protocols software-testing:test-plans § vac:dst:software-testing::waku:test-plans software-testing:test-automation § vac:dst:software-testing:test-automation:waku:js-waku vac:dst:software-testing:test-automation:waku:nwaku vac:dst:software-testing:test-automation:waku:go-waku vac:dst:software-testing:test-automation:waku:interop-testing .</description>
     <pubDate>Fri, 08 Sep 2023 00:00:00 GMT</pubDate>
+  </items><items>
+    <title>P2P Service Unit</title>
+    <link>https://roadmap.logos.co/roadmap/vac/p2p/overview</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/p2p/overview</guid>
+    <description>vac:p2p: § nimlibp2p:vac: § The P2P Service unit develops nim-libp2p. nim-libp2p roadmap on github: 777 gossipsub-improvements-eip-4844 webrtc-transport gossipsub-ddos-mitigation gossipsub-stagger-send maintenance Maintenance of futher libraries § vac:p2p:nimchronos:vac:maintenance § repo: nim-chronos .</description>
+    <pubDate>Tue, 05 Sep 2023 00:00:00 GMT</pubDate>
   </items><items>
     <title>RFC Specifications Service Unit</title>
     <link>https://roadmap.logos.co/roadmap/vac/rfc/overview</link>
@@ -457,6 +457,12 @@
     <description>vac:acz:zerokit::vac:zerokit-v0.4 § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section zerokit v0.</description>
     <pubDate>Sat, 09 Sep 2023 09:19:52 GMT</pubDate>
   </items><items>
+    <title>Libchronos Maintenance</title>
+    <link>https://roadmap.logos.co/roadmap/vac/p2p/nimchronos/vac/maintenance</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/p2p/nimchronos/vac/maintenance</guid>
+    <description>vac:p2p:nimlibp2p:vac:maintenance § status: ongoing CC: p2p team Description § repo: nim-chronos .</description>
+    <pubDate>Sat, 09 Sep 2023 09:28:47 GMT</pubDate>
+  </items><items>
     <title>Gossipsub DDoS Mitigation</title>
     <link>https://roadmap.logos.co/roadmap/vac/p2p/nimlibp2p/vac/gossipsub-ddos-mitigation</link>
     <guid>https://roadmap.logos.co/roadmap/vac/p2p/nimlibp2p/vac/gossipsub-ddos-mitigation</guid>
@@ -474,6 +480,12 @@
     <guid>https://roadmap.logos.co/roadmap/vac/p2p/nimlibp2p/vac/gossipsub-stagger-send</guid>
     <description>vac:p2p:nimlibp2p:vac:gossipsub-stagger-send § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section p2p:nimlibp2p Gossipsub Stagger Send , 2023-06-01, 2023-10-31 status: 20% CC: Tanguy Description § specification first implementation (not deployable yet, deploy version will be in a separate milestone after syncing with other implementations) Deliverables §.</description>
     <pubDate>Fri, 08 Sep 2023 09:54:24 GMT</pubDate>
+  </items><items>
+    <title>Libp2p Maintenance</title>
+    <link>https://roadmap.logos.co/roadmap/vac/p2p/nimlibp2p/vac/maintenance</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/p2p/nimlibp2p/vac/maintenance</guid>
+    <description>vac:p2p:nimlibp2p:vac:maintenance § status: ongoing CC: p2p team Description § repo: nim-libp2p .</description>
+    <pubDate>Sat, 09 Sep 2023 09:28:47 GMT</pubDate>
   </items><items>
     <title>WebRTC Transport</title>
     <link>https://roadmap.logos.co/roadmap/vac/p2p/nimlibp2p/vac/webrtc-transport</link>
