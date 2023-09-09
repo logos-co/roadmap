@@ -31,18 +31,6 @@
     <description>Welcome to the Comms Roadmap Overview Milestones weekly updates .</description>
     <pubDate>Tue, 22 Aug 2023 19:29:49 GMT</pubDate>
   </items><items>
-    <title>Codex Milestones Overview</title>
-    <link>https://roadmap.logos.co/roadmap/codex/milestones-overview</link>
-    <guid>https://roadmap.logos.co/roadmap/codex/milestones-overview</guid>
-    <description>Milestones § Zenhub Tracker Miro Tracker .</description>
-    <pubDate>Mon, 07 Aug 2023 00:00:00 GMT</pubDate>
-  </items><items>
-    <title>Codex Roadmap Overview</title>
-    <link>https://roadmap.logos.co/roadmap/codex/overview</link>
-    <guid>https://roadmap.logos.co/roadmap/codex/overview</guid>
-    <description>Welcome to the Codex Roadmap Overview Milestones weekly updates .</description>
-    <pubDate>Tue, 22 Aug 2023 19:29:49 GMT</pubDate>
-  </items><items>
     <title>Innovation Lab Milestones Overview</title>
     <link>https://roadmap.logos.co/roadmap/innovation_lab/milestones-overview</link>
     <guid>https://roadmap.logos.co/roadmap/innovation_lab/milestones-overview</guid>
@@ -53,6 +41,18 @@
     <link>https://roadmap.logos.co/roadmap/innovation_lab/overview</link>
     <guid>https://roadmap.logos.co/roadmap/innovation_lab/overview</guid>
     <description>Welcome to the Innovation lab Roadmap Overview Milestones weekly updates .</description>
+    <pubDate>Tue, 22 Aug 2023 19:29:49 GMT</pubDate>
+  </items><items>
+    <title>Codex Milestones Overview</title>
+    <link>https://roadmap.logos.co/roadmap/codex/milestones-overview</link>
+    <guid>https://roadmap.logos.co/roadmap/codex/milestones-overview</guid>
+    <description>Milestones § Zenhub Tracker Miro Tracker .</description>
+    <pubDate>Mon, 07 Aug 2023 00:00:00 GMT</pubDate>
+  </items><items>
+    <title>Codex Roadmap Overview</title>
+    <link>https://roadmap.logos.co/roadmap/codex/overview</link>
+    <guid>https://roadmap.logos.co/roadmap/codex/overview</guid>
+    <description>Welcome to the Codex Roadmap Overview Milestones weekly updates .</description>
     <pubDate>Tue, 22 Aug 2023 19:29:49 GMT</pubDate>
   </items><items>
     <title>Nomos Milestones Overview</title>
@@ -109,6 +109,24 @@
     <description>Leads roundup - acid § Al - Comms § LPE &amp; Podcast are almost there. Content needs to be polished and reviewed by Carl and Jarrad. Might have an impact on the deadline but we start testing phase tomorrow.</description>
     <pubDate>Mon, 04 Sep 2023 00:00:00 GMT</pubDate>
   </items><items>
+    <title>2023-07-12 Innovation Lab Weekly</title>
+    <link>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-07-12</link>
+    <guid>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-07-12</guid>
+    <description>Logos Lab 12th of July Currently working on the Waku Objects prototype, which is a modular system for transactional chat objects. Milestone: deliver the first transactional Waku Object called Payggy (attached some design screenshots).</description>
+    <pubDate>Thu, 03 Aug 2023 00:00:00 GMT</pubDate>
+  </items><items>
+    <title>2023-08-02 Innovation Lab weekly</title>
+    <link>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-08-02</link>
+    <guid>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-08-02</guid>
+    <description>Logos Lab 2nd of August Currently working on the Waku Objects prototype, which is a modular system for transactional chat objects. The last few weeks were a bit slower than usual because there were vacations, one team member got married, there was EthCC and a team offsite.</description>
+    <pubDate>Thu, 03 Aug 2023 00:00:00 GMT</pubDate>
+  </items><items>
+    <title>2023-08-17 <TEAM> weekly</title>
+    <link>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-08-11</link>
+    <guid>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-08-11</guid>
+    <description>Logos Lab 11th of August § Currently working on the Waku Objects prototype, which is a modular system for transactional chat objects. We merged the group chat but it surfaced plenty of issues that were not a problem with 1on1 chats, both with our Waku integration and from product perspective as well.</description>
+    <pubDate>Thu, 17 Aug 2023 00:00:00 GMT</pubDate>
+  </items><items>
     <title>2023-07-21 Codex weekly</title>
     <link>https://roadmap.logos.co/roadmap/codex/updates/2023-07-21</link>
     <guid>https://roadmap.logos.co/roadmap/codex/updates/2023-07-21</guid>
@@ -132,24 +150,6 @@
     <guid>https://roadmap.logos.co/roadmap/codex/updates/2023-08-31</guid>
     <description>Codex Update August 21-31 § Client § Milestone: Block Merkelization § Storing and retrieving data using merkle trees Coders for merkle trees Refine merkle tree construction Milestone: Block Exchange protocol refinements and simulations § Tracker simulation implementation Block exchange protocol thoughts ydT3AiliS8q2vdixBUXvCQ Follow swarmsim repo for updates Milestone: Async Disc Access &amp; Threading support § Tests on sharing thread data with refc errorVariable and thread safety Fix error binding in without statement on multiple threads WIP: Prototype proxy IO threadpool Milestone: Client stability and debugging § Major effort to stabilize the Codex client through continuous automated testing Start discovery after announce address is updated Start discovery after announce address is updated Retrieve empty blocks Infra § Milestone: Monitoring and Metrics § Install Node exporter and Prometheus in Dist-Tests cluster Grafana Dashboard updates Automated metrics scraping .</description>
     <pubDate>Mon, 04 Sep 2023 00:00:00 GMT</pubDate>
-  </items><items>
-    <title>2023-07-12 Innovation Lab Weekly</title>
-    <link>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-07-12</link>
-    <guid>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-07-12</guid>
-    <description>Logos Lab 12th of July Currently working on the Waku Objects prototype, which is a modular system for transactional chat objects. Milestone: deliver the first transactional Waku Object called Payggy (attached some design screenshots).</description>
-    <pubDate>Thu, 03 Aug 2023 00:00:00 GMT</pubDate>
-  </items><items>
-    <title>2023-08-02 Innovation Lab weekly</title>
-    <link>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-08-02</link>
-    <guid>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-08-02</guid>
-    <description>Logos Lab 2nd of August Currently working on the Waku Objects prototype, which is a modular system for transactional chat objects. The last few weeks were a bit slower than usual because there were vacations, one team member got married, there was EthCC and a team offsite.</description>
-    <pubDate>Thu, 03 Aug 2023 00:00:00 GMT</pubDate>
-  </items><items>
-    <title>2023-08-17 <TEAM> weekly</title>
-    <link>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-08-11</link>
-    <guid>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-08-11</guid>
-    <description>Logos Lab 11th of August § Currently working on the Waku Objects prototype, which is a modular system for transactional chat objects. We merged the group chat but it surfaced plenty of issues that were not a problem with 1on1 chats, both with our Waku integration and from product perspective as well.</description>
-    <pubDate>Thu, 17 Aug 2023 00:00:00 GMT</pubDate>
   </items><items>
     <title>Nomos Data Availability Details</title>
     <link>https://roadmap.logos.co/roadmap/nomos/data-avail/overview</link>
@@ -394,8 +394,14 @@
     <title>Techreport</title>
     <link>https://roadmap.logos.co/roadmap/vac/dst/wakurtosis/waku/techreport</link>
     <guid>https://roadmap.logos.co/roadmap/vac/dst/wakurtosis/waku/techreport</guid>
-    <description>vac:ds:wakurtosis:waku:techreport § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Techreport: done, 2023-06-01, 2023-07-31 status: 100% CC: Jordi Description § Justification § Deliverables § techreport .</description>
-    <pubDate>Sat, 09 Sep 2023 12:54:23 GMT</pubDate>
+    <description>vac:dst:wakurtosis:waku:techreport § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Techreport: done, 2023-06-01, 2023-07-31 status: 100% CC: Jordi Description § Justification § Deliverables § techreport .</description>
+    <pubDate>Sat, 09 Sep 2023 13:00:38 GMT</pubDate>
+  </items><items>
+    <title>Techreport_02</title>
+    <link>https://roadmap.logos.co/roadmap/vac/dst/wakurtosis/waku/techreport_02</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/dst/wakurtosis/waku/techreport_02</guid>
+    <description>vac:dst:wakurtosis:waku:techreport_02 § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Techreport_02: done, 2023-08-01, 2023-08-31 status: 100% CC: Jordi Description § Run extra batches of simulations of the non-Discv5 case with average degree K=13, and K=50.</description>
+    <pubDate>Sat, 09 Sep 2023 13:00:38 GMT</pubDate>
   </items><items>
     <title>Libchronos Maintenance</title>
     <link>https://roadmap.logos.co/roadmap/vac/p2p/nimchronos/vac/maintenance</link>
