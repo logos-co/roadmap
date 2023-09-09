@@ -20,7 +20,7 @@ title: "WebRTC Transport"
 }%%
 gantt
   dateFormat YYYY-MM-DD
-  section p2p:nimlibp2p
+  section Status
     WebRTC Transport: , 2023-04-01, 2023-07-31
 ```
 
