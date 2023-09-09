@@ -1,7 +1,7 @@
 ---
 title: "Wakurtosis Maintenance"
 ---
-## `vac:dst:wakurtosis:vac:wakurtosis-maintenance`
+## `vac:dst:wakurtosis:vac:maintenance`
 ---
 
 ```mermaid
