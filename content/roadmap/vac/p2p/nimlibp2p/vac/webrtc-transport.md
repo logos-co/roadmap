@@ -15,11 +15,11 @@ title: "WebRTC Transport"
       'lineColor': '#F8B229',
       'secondaryColor': '#006100',
       'tertiaryColor': '#fff',
-      'tickInterval': '1month'
     }
   }
 }%%
 gantt
+  tickInterval 1month
   dateFormat YYYY-MM-DD
   section Status
     WebRTC Transport: 2023-04-01, 2023-07-31
