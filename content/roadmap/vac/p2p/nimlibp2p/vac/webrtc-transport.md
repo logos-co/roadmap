@@ -21,7 +21,7 @@ title: "WebRTC Transport"
 gantt
   dateFormat YYYY-MM-DD
   section Status
-    WebRTC Transport: , 2023-04-01, 2023-07-31
+    WebRTC Transport: 2023-04-01, 2023-07-31
 ```
 
 - status: 70%
