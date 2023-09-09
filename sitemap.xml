@@ -122,9 +122,6 @@
     <loc>https://roadmap.logos.co/roadmap/vac/tke/overview</loc>
     <lastmod>2023-09-09T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/roadmap/vac/zkvm/overview</loc>
-    <lastmod>2023-09-06T00:00:00.000Z</lastmod>
-  </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/updates/2023-07-10</loc>
     <lastmod>2023-07-16T00:00:00.000Z</lastmod>
   </url><url>
@@ -151,6 +148,9 @@
   </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/updates/2023-09-04</loc>
     <lastmod>2023-09-04T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/zkvm/overview</loc>
+    <lastmod>2023-09-06T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/roadmap/waku/updates/2023-07-24</loc>
     <lastmod>2023-08-04T00:00:00.000Z</lastmod>
@@ -230,6 +230,12 @@
     <loc>https://roadmap.logos.co/roadmap/vac/dst/analysis/nomos/nomos-simulation-analysis</loc>
     <lastmod>2023-09-09T14:05:44.604Z</lastmod>
   </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/dst/analysis-gsub-model/status/control-messages</loc>
+    <lastmod>2023-09-09T14:05:44.604Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/dst/analysis-gsub-model/vac/refactoring</loc>
+    <lastmod>2023-09-09T14:05:44.604Z</lastmod>
+  </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/dst/analysis-shadow/vac/shadow-basic-simulation</loc>
     <lastmod>2023-09-09T14:15:53.514Z</lastmod>
   </url><url>
@@ -238,12 +244,6 @@
   </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/dst/analysis-shadow/waku/shadow-waku-relay-analysis</loc>
     <lastmod>2023-09-09T14:15:53.514Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/roadmap/vac/dst/analysis-gsub-model/status/control-messages</loc>
-    <lastmod>2023-09-09T14:05:44.604Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/roadmap/vac/dst/analysis-gsub-model/vac/refactoring</loc>
-    <lastmod>2023-09-09T14:05:44.604Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/dst/eng/vac/bundle-simulation-data</loc>
     <lastmod>2023-09-09T14:05:44.604Z</lastmod>
