@@ -22,8 +22,6 @@ nim-libp2p  roadmap on github: https://github.com/status-im/nim-libp2p/issues/77
 * [[roadmap/vac/p2p/nimlibp2p/vac/gossipsub-stagger-send | gossipsub-stagger-send]]
 * [[roadmap/vac/p2p/nimlibp2p/vac/maintenance | maintenance]]
 
-### Maintenance of futher libraries
+### `nimchronos:vac:`
 
-#### `vac:p2p:nimchronos:vac:maintenance`
-
-- repo: https://github.com/status-im/nim-chronos
+* [[roadmap/vac/p2p/nimchronos/vac/maintenance | maintenance]]
