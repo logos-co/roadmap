@@ -1,7 +1,7 @@
 ---
-title: "Benchmarks"
+title: "Research Existing Proofsystems"
 ---
-## `vac:zkvm:proofsystems:vac:benchmarks`
+## `vac:zkvm:proofsystems:vac:research-existing-proofsystems`
 ---
 
 ```mermaid
@@ -19,9 +19,10 @@ title: "Benchmarks"
   } 
 }%%
 gantt
+  timeInterval 1month
   dateFormat YYYY-MM-DD 
-  section zkvm: proofsystems
-    Benchmarks: 2023-03-01, 2023-11-30
+  section Status
+    Research Existing Proofsystems:  2023-01-01, 2023-11-30
 ```
 
 - status: 70%
@@ -29,12 +30,6 @@ gantt
 
 ### Description
 
-Comprises:
-
-* research log post
-* make benchmark repo public + README (explaining how to execute benchmarks)
-* benchmarks (recursive) for all current proof-systems (unless there is a good reason not to include one)
-* scientific paper
 
 ### Deliverables
 
