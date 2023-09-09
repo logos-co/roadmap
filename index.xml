@@ -226,7 +226,7 @@
     <title>Distributed Systems Testing Service Unit</title>
     <link>https://roadmap.logos.co/roadmap/vac/dst/overview</link>
     <guid>https://roadmap.logos.co/roadmap/vac/dst/overview</guid>
-    <description>vac:dst: § wakurtosis: § techreport techreport_02 gossipsub-topology-analysis wakurtosis:features rlog retrospective-rlog ci-integration maintenance analysis:: § simulation-analysis analysis:gsub-model § refactoring control-messages analysis:shadow: § shadow-basic-simulation shadow-gossipsub-analysis shadow-waku-relay-analysis eng:: § bundle-simulation-data eng:10ksim: § bandwidth-test QoS waku-protocols software-testing:waku § test-plans test-automation-js-waku test-automation-nwaku test-automation-go-waku interop-testing .</description>
+    <description>vac:dst: § wakurtosis:waku § techreport techreport_02 wakurtosis:features gossipsub-topology-analysis wakurtosis:nomos § ci-integration wakurtosis:vac § rlog retrospective-rlog maintenance analysis:: § simulation-analysis analysis:gsub-model § refactoring control-messages analysis:shadow: § shadow-basic-simulation shadow-gossipsub-analysis shadow-waku-relay-analysis eng:: § bundle-simulation-data eng:10ksim: § bandwidth-test QoS waku-protocols software-testing:waku § test-plans test-automation-js-waku test-automation-nwaku test-automation-go-waku interop-testing .</description>
     <pubDate>Fri, 08 Sep 2023 00:00:00 GMT</pubDate>
   </items><items>
     <title>P2P Service Unit</title>
