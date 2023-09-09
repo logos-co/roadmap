@@ -395,31 +395,31 @@
     <link>https://roadmap.logos.co/roadmap/vac/p2p/nimchronos/vac/maintenance</link>
     <guid>https://roadmap.logos.co/roadmap/vac/p2p/nimchronos/vac/maintenance</guid>
     <description>vac:p2p:nimchronos:vac:maintenance § status: ongoing CC: p2p team Description § repo: nim-chronos .</description>
-    <pubDate>Sat, 09 Sep 2023 09:30:57 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 12:45:48 GMT</pubDate>
   </items><items>
     <title>Gossipsub DDoS Mitigation</title>
     <link>https://roadmap.logos.co/roadmap/vac/p2p/nimlibp2p/vac/gossipsub-ddos-mitigation</link>
     <guid>https://roadmap.logos.co/roadmap/vac/p2p/nimlibp2p/vac/gossipsub-ddos-mitigation</guid>
-    <description>vac:p2p:nimlibp2p:vac:gossipsub-ddos-mitigation § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section p2p:gossipsub-ddos-mitigation Gossipsub DDoS mitigation , 2023-07-01, 2023-10-31 status: 30% CC: Diego Description § Deliverables §.</description>
-    <pubDate>Fri, 08 Sep 2023 09:48:24 GMT</pubDate>
+    <description>vac:p2p:nimlibp2p:vac:gossipsub-ddos-mitigation § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Gossipsub DDoS mitigation: 2023-07-01, 2023-10-31 status: 30% CC: Diego Description § Deliverables §.</description>
+    <pubDate>Sat, 09 Sep 2023 12:45:48 GMT</pubDate>
   </items><items>
     <title>Gossipsub Improvements EIP 4844</title>
     <link>https://roadmap.logos.co/roadmap/vac/p2p/nimlibp2p/vac/gossipsub-improvements-eip-4844</link>
     <guid>https://roadmap.logos.co/roadmap/vac/p2p/nimlibp2p/vac/gossipsub-improvements-eip-4844</guid>
-    <description>vac:p2p:nimlibp2p:vac:gossipsub-improvements-eip-4844 § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section vac:nimlibp2p Gossipsub Improvements EIP 4844 :done, 2023-03-01, 2023-07-31 status: 100% CC: Tanguy Description § Deliverables §.</description>
-    <pubDate>Fri, 08 Sep 2023 09:48:24 GMT</pubDate>
+    <description>vac:p2p:nimlibp2p:vac:gossipsub-improvements-eip-4844 § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Gossipsub Improvements EIP 4844: done, 2023-03-01, 2023-07-31 status: 100% CC: Tanguy Description § Deliverables §.</description>
+    <pubDate>Sat, 09 Sep 2023 12:45:48 GMT</pubDate>
   </items><items>
     <title>Gossipsub Stagger Send</title>
     <link>https://roadmap.logos.co/roadmap/vac/p2p/nimlibp2p/vac/gossipsub-stagger-send</link>
     <guid>https://roadmap.logos.co/roadmap/vac/p2p/nimlibp2p/vac/gossipsub-stagger-send</guid>
-    <description>vac:p2p:nimlibp2p:vac:gossipsub-stagger-send § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section p2p:nimlibp2p Gossipsub Stagger Send , 2023-06-01, 2023-10-31 status: 20% CC: Tanguy Description § specification first implementation (not deployable yet, deploy version will be in a separate milestone after syncing with other implementations) Deliverables §.</description>
-    <pubDate>Fri, 08 Sep 2023 09:54:24 GMT</pubDate>
+    <description>vac:p2p:nimlibp2p:vac:gossipsub-stagger-send § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Gossipsub Stagger Send: 2023-06-01, 2023-10-31 status: 20% CC: Tanguy Description § specification first implementation (not deployable yet, deploy version will be in a separate milestone after syncing with other implementations) Deliverables §.</description>
+    <pubDate>Sat, 09 Sep 2023 12:45:48 GMT</pubDate>
   </items><items>
     <title>Libp2p Maintenance</title>
     <link>https://roadmap.logos.co/roadmap/vac/p2p/nimlibp2p/vac/maintenance</link>
     <guid>https://roadmap.logos.co/roadmap/vac/p2p/nimlibp2p/vac/maintenance</guid>
     <description>vac:p2p:nimlibp2p:vac:maintenance § status: ongoing CC: p2p team Description § repo: nim-libp2p .</description>
-    <pubDate>Sat, 09 Sep 2023 09:28:47 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 12:45:48 GMT</pubDate>
   </items><items>
     <title>WebRTC Transport</title>
     <link>https://roadmap.logos.co/roadmap/vac/p2p/nimlibp2p/vac/webrtc-transport</link>
