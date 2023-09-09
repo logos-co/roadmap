@@ -424,8 +424,8 @@
     <title>WebRTC Transport</title>
     <link>https://roadmap.logos.co/roadmap/vac/p2p/nimlibp2p/vac/webrtc-transport</link>
     <guid>https://roadmap.logos.co/roadmap/vac/p2p/nimlibp2p/vac/webrtc-transport</guid>
-    <description>vac:p2p:nimlibp2p:vac:webrtc-transport § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section p2p:nimlibp2p WebRTC Transport: , 2023-04-01, 2023-07-31 status: 70% CC: Diego Description § Deliverables §.</description>
-    <pubDate>Sat, 09 Sep 2023 12:26:29 GMT</pubDate>
+    <description>vac:p2p:nimlibp2p:vac:webrtc-transport § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section Status WebRTC Transport: , 2023-04-01, 2023-07-31 status: 70% CC: Diego Description § Deliverables §.</description>
+    <pubDate>Sat, 09 Sep 2023 12:30:22 GMT</pubDate>
   </items><items>
     <title>Status Governance Contract Details</title>
     <link>https://roadmap.logos.co/roadmap/vac/sc/g/status/governance</link>
