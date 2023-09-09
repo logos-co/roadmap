@@ -244,7 +244,7 @@
     <title>Smart Contracts Service Unit</title>
     <link>https://roadmap.logos.co/roadmap/vac/sc/overview</link>
     <guid>https://roadmap.logos.co/roadmap/vac/sc/overview</guid>
-    <description>vac:sc:: § status: § staking-contract staking-contract_02 staking-contract-maintenance governance community-contracts-ERC721 community-contracts-ERC20 community-contracts-maintenance vac: § secureum-upskilling rln-contract-support .</description>
+    <description>vac:sc:: § status: § staking-contract staking-contract_02 staking-contract-maintenance governance-contract-mvp community-contracts-ERC721 community-contracts-ERC20 community-contracts-deployer community-contracts-maintenance vac: § secureum-upskilling rln-contract-support .</description>
     <pubDate>Wed, 06 Sep 2023 00:00:00 GMT</pubDate>
   </items><items>
     <title>Token Engineering Service Unit</title>
@@ -565,11 +565,35 @@
     <description>vac:p2p:nimlibp2p:vac:webrtc-transport § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039;, } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status WebRTC Transport: 2023-04-01, 2023-07-31 status: 70% CC: Diego Description § Deliverables §.</description>
     <pubDate>Sat, 09 Sep 2023 12:39:17 GMT</pubDate>
   </items><items>
-    <title>Status Governance Contract Details</title>
-    <link>https://roadmap.logos.co/roadmap/vac/sc/g/status/governance</link>
-    <guid>https://roadmap.logos.co/roadmap/vac/sc/g/status/governance</guid>
-    <description> due date: 2023 status: TBD Description §.</description>
-    <pubDate>Sat, 09 Sep 2023 09:46:57 GMT</pubDate>
+    <title>Community Contracts ERC20</title>
+    <link>https://roadmap.logos.co/roadmap/vac/sc/g/status/community-contracts-ERC20</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/sc/g/status/community-contracts-ERC20</guid>
+    <description>vac:sc:rlnp2p:status:community-contracts-erc20 § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Community Contracts ERC20: 2023-08-01, 2023-11-31 status: 0% CC: Andrea Description § Justification § Deliverables §.</description>
+    <pubDate>Sat, 09 Sep 2023 14:55:23 GMT</pubDate>
+  </items><items>
+    <title>Community Contracts ERC721</title>
+    <link>https://roadmap.logos.co/roadmap/vac/sc/g/status/community-contracts-ERC721</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/sc/g/status/community-contracts-ERC721</guid>
+    <description>vac:sc::status:community-contracts-erc721 § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Community Contracts ERC721: done, 2023-01-20, 2023-08-31 status: 100% CC: Andrea Description § Justification § Deliverables §.</description>
+    <pubDate>Sat, 09 Sep 2023 14:55:23 GMT</pubDate>
+  </items><items>
+    <title>Community Contracts Deployer</title>
+    <link>https://roadmap.logos.co/roadmap/vac/sc/g/status/community-contracts-deployer</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/sc/g/status/community-contracts-deployer</guid>
+    <description>vac:sc::status:community-contracts-deployer § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Community Contracts Deployer: 2023-09-01, 2023-09-30 status: 20% CC: r4bbit Description § Justification § Deliverables §.</description>
+    <pubDate>Sat, 09 Sep 2023 14:55:23 GMT</pubDate>
+  </items><items>
+    <title>Community Contracts Maintenance</title>
+    <link>https://roadmap.logos.co/roadmap/vac/sc/g/status/community-contracts-maintenance</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/sc/g/status/community-contracts-maintenance</guid>
+    <description>vac:sc::status:community-contracts-maintenance § status: ongoing CC: Andrea Description § Justification § Deliverables §.</description>
+    <pubDate>Sat, 09 Sep 2023 14:55:23 GMT</pubDate>
+  </items><items>
+    <title>Governance Contract MVP</title>
+    <link>https://roadmap.logos.co/roadmap/vac/sc/g/status/governance-contract-mvp</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/sc/g/status/governance-contract-mvp</guid>
+    <description>vac:sc::status:governance-contract-mvp § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Governance Contract MVP: 2023-08-01, 2023-09-30 status: 20% CC: Ricardo Description § voting within communities replace the current community-dapp voting contracts contracts testing is out of scope for that milestone Justification § Deliverables §.</description>
+    <pubDate>Sat, 09 Sep 2023 14:55:23 GMT</pubDate>
   </items><items>
     <title>Status Staking Contract Maintenance Details</title>
     <link>https://roadmap.logos.co/roadmap/vac/sc/g/status/staking-contract-maintenance</link>
@@ -594,6 +618,12 @@
     <guid>https://roadmap.logos.co/roadmap/vac/sc/g/vac/rln-contract-support</guid>
     <description>%%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section Vac RLN Contract Support :, 2023-01-20, 2023-09-15 due date: 2023/09/15 status: 10% Description § Kick-off task for the Vac SC Unit.</description>
     <pubDate>Sat, 09 Sep 2023 09:46:57 GMT</pubDate>
+  </items><items>
+    <title>Secureum Upskilling</title>
+    <link>https://roadmap.logos.co/roadmap/vac/sc/g/vac/secureum-upskilling</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/sc/g/vac/secureum-upskilling</guid>
+    <description>vac:sc::vac:secureum-upskilling § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Secureum Upskilling: 2023-08-15, 2023-10-15 status: 70% CC: team Description § Justification § Deliverables §.</description>
+    <pubDate>Sat, 09 Sep 2023 14:55:23 GMT</pubDate>
   </items><items>
     <title>Codex Economic Analysis</title>
     <link>https://roadmap.logos.co/roadmap/vac/tke/g/codex/economic-analysis</link>

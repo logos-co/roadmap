@@ -278,8 +278,20 @@
     <loc>https://roadmap.logos.co/roadmap/vac/p2p/nimlibp2p/vac/webrtc-transport</loc>
     <lastmod>2023-09-09T12:39:17.974Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/roadmap/vac/sc/g/status/governance</loc>
-    <lastmod>2023-09-09T09:46:57.951Z</lastmod>
+    <loc>https://roadmap.logos.co/roadmap/vac/sc/g/status/community-contracts-ERC20</loc>
+    <lastmod>2023-09-09T14:55:23.791Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/sc/g/status/community-contracts-ERC721</loc>
+    <lastmod>2023-09-09T14:55:23.791Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/sc/g/status/community-contracts-deployer</loc>
+    <lastmod>2023-09-09T14:55:23.791Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/sc/g/status/community-contracts-maintenance</loc>
+    <lastmod>2023-09-09T14:55:23.791Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/sc/g/status/governance-contract-mvp</loc>
+    <lastmod>2023-09-09T14:55:23.791Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/sc/g/status/staking-contract-maintenance</loc>
     <lastmod>2023-09-09T09:46:57.951Z</lastmod>
@@ -292,6 +304,9 @@
   </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/sc/g/vac/rln-contract-support</loc>
     <lastmod>2023-09-09T09:46:57.951Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/sc/g/vac/secureum-upskilling</loc>
+    <lastmod>2023-09-09T14:55:23.791Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/tke/g/codex/economic-analysis</loc>
     <lastmod>2023-09-09T09:35:12.422Z</lastmod>
