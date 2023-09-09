@@ -1,7 +1,7 @@
 ---
 title: "Techreport"
 ---
-## `vac:ds:wakurtosis:waku:techreport`
+## `vac:dst:wakurtosis:waku:techreport`
 ---
 
 ```mermaid
