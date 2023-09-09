@@ -17,5 +17,5 @@ lastmod: 2023-08-25
 
 
 ### `zerokit:vac`
-* [[roadmap/vac/acz/zerokit/vac/zerokit-v0.4 | zerokit-v0.4]]
+* [[roadmap/vac/acz/zerokit/vac/zerokit-v0-4 | zerokit-v0.4]]
 * [[roadmap/vac/acz/zerokit/vac/maintenance | maintenance]]
