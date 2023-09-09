@@ -1,7 +1,7 @@
 ---
-title: "Tor Push Paper"
+title: "Unstructured P2P Improvements Survey"
 ---
-## `vac:dr:valpriv:vac:tor-push-paper`
+## `vac:dr:gsub-scaling:vac:unstructured-p2p-improvements-survey`
 ---
 
 ```mermaid
@@ -22,20 +22,16 @@ gantt
   tickInterval 1month
   dateFormat YYYY-MM-DD 
   section Status
-    Tor Push Paper:  2023-08-01, 2023-11-30
+    Unstructured P2P Improvements Survey:  2023-08-15, 2023-12-31
 ```
 
-- status: 30%
-- CC: Umar
+- status: 20%
+- CC: Farooq
 
 ### Description
 
-Comprises:
-
-* thorough anonymity/sec analysis of Tor push for Validator privacy
-* thorough latency analysis of Tor push
-* paper (for workshop) on introducing and analysing Tor-push
-
+* survey techreport
+* survey scientific paper if there is enough to justify a paper
 
 ### Justification
 
