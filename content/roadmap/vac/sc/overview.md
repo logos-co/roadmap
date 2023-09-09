@@ -4,44 +4,22 @@ tags:
 - sc
 - vac
 date: 2023-08-25
-lastmod: 2023-08-25
+lastmod: 2023-09-06
 ---
 
 ## `vac:sc::`
 ---
 
 ### `status:`
-- [x] `snt-staking-contract`
-	- due: 2023/08/31
-	- status: 100%
-	- [[staking-contract|more details]]
-- `snt-staking-contract_02`
-	- due:
-	- status:
-	- [[staking-contract-02|more details]]
-- `snt-staking-contract-maintenance`
-	- due:
-	- status:
-	- [[staking-contract-maintenance|more details]]
-- `governance`
-	- due:
-	- status:
-	- [[governance|more details]]
-- [x] `community-contracts-ERC721`
-	- due: 2023/08/31
-	- status: 100%
-- `community-contracts-maintenance`
-	- due:
-	- status:
-- `community-contracts-ERC20`
-	- due:
-	- status:
+* [[roadmap/vac/sc/g/status/staking-contract.md | staking-contract]]
+* [[roadmap/vac/sc/g/status/staking-contract_02.md | staking-contract_02]]
+* [[roadmap/vac/sc/g/status/staking-contract-maintenance.md | staking-contract-maintenance]]
+* [[roadmap/vac/sc/g/status/governance.md | governance]]
+* [[roadmap/vac/sc/g/status/community-contracts-ERC721.md | community-contracts-ERC721]]
+* [[roadmap/vac/sc/g/status/community-contracts-ERC20.md | community-contracts-ERC20]]
+* [[roadmap/vac/sc/g/status/community-contracts-maintenance.md | community-contracts-maintenance]]
 
 ### `vac:`
-- `secureum-upskilling`
-	- due: 2023/10/15
-	- status: TBDd
-- `rln-contract-support`
-	- due: 2023/09/15
-	- status: 10%
-	- [[rln-contract-support|more details]]
+* [[roadmap/vac/sc/g/vac/secureum-upskilling.md | secureum-upskilling]]
+* [[roadmap/vac/sc/g/vac/rln-contract-support.md | rln-contract-support]]
+
