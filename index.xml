@@ -55,6 +55,12 @@
     <description>Welcome to the Innovation lab Roadmap Overview Milestones weekly updates .</description>
     <pubDate>Tue, 22 Aug 2023 19:29:49 GMT</pubDate>
   </items><items>
+    <title>Vac Roadmap</title>
+    <link>https://roadmap.logos.co/roadmap/vac/overview</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/overview</guid>
+    <description>vac § Structure § vac:&lt;unit&gt;:&lt;tag&gt;::&lt;for_project&gt;:&lt;title&gt;_&lt;counter&gt; vac indicates it is a vac milestone unit indicates the vac unit p2p, dst, tke, acz, sc, zkvm, dr, rfc tag tags a specific area / project / epic within the respective vac unit, e.</description>
+    <pubDate>Tue, 05 Sep 2023 10:46:08 GMT</pubDate>
+  </items><items>
     <title>Nomos Milestones Overview</title>
     <link>https://roadmap.logos.co/roadmap/nomos/milestones-overview</link>
     <guid>https://roadmap.logos.co/roadmap/nomos/milestones-overview</guid>
@@ -66,12 +72,6 @@
     <guid>https://roadmap.logos.co/roadmap/nomos/overview</guid>
     <description>nomos: § network-privacy: overview § Welcome to the Nomos Roadmap Overview Milestones weekly updates .</description>
     <pubDate>Tue, 05 Sep 2023 15:22:49 GMT</pubDate>
-  </items><items>
-    <title>Vac Roadmap</title>
-    <link>https://roadmap.logos.co/roadmap/vac/overview</link>
-    <guid>https://roadmap.logos.co/roadmap/vac/overview</guid>
-    <description>vac § Structure § vac:&lt;unit&gt;:&lt;tag&gt;::&lt;for_project&gt;:&lt;title&gt;_&lt;counter&gt; vac indicates it is a vac milestone unit indicates the vac unit p2p, dst, tke, acz, sc, zkvm, dr, rfc tag tags a specific area / project / epic within the respective vac unit, e.</description>
-    <pubDate>Tue, 05 Sep 2023 10:46:08 GMT</pubDate>
   </items><items>
     <title>Milestone: Waku Network supports 10k Users</title>
     <link>https://roadmap.logos.co/roadmap/waku/milestone-waku-10-users</link>
@@ -151,66 +151,6 @@
     <description>Logos Lab 11th of August § Currently working on the Waku Objects prototype, which is a modular system for transactional chat objects. We merged the group chat but it surfaced plenty of issues that were not a problem with 1on1 chats, both with our Waku integration and from product perspective as well.</description>
     <pubDate>Thu, 17 Aug 2023 00:00:00 GMT</pubDate>
   </items><items>
-    <title>Nomos Data Availability Details</title>
-    <link>https://roadmap.logos.co/roadmap/nomos/data-avail/overview</link>
-    <guid>https://roadmap.logos.co/roadmap/nomos/data-avail/overview</guid>
-    <description>nomos:data-avail: § Description § Research § Engineering §.</description>
-    <pubDate>Tue, 05 Sep 2023 15:22:49 GMT</pubDate>
-  </items><items>
-    <title>Nomos Network Privacy Details</title>
-    <link>https://roadmap.logos.co/roadmap/nomos/network-privacy/overview</link>
-    <guid>https://roadmap.logos.co/roadmap/nomos/network-privacy/overview</guid>
-    <description>nomos:network-priavcy: § Description § Research § Engineering §.</description>
-    <pubDate>Tue, 05 Sep 2023 15:22:49 GMT</pubDate>
-  </items><items>
-    <title>Nomos Testnet Details</title>
-    <link>https://roadmap.logos.co/roadmap/nomos/testnet/overview</link>
-    <guid>https://roadmap.logos.co/roadmap/nomos/testnet/overview</guid>
-    <description>nomos:testnet: § Description § Research § Engineering §.</description>
-    <pubDate>Tue, 05 Sep 2023 15:22:49 GMT</pubDate>
-  </items><items>
-    <title>2023-07-24 Nomos weekly</title>
-    <link>https://roadmap.logos.co/roadmap/nomos/updates/2023-07-24</link>
-    <guid>https://roadmap.logos.co/roadmap/nomos/updates/2023-07-24</guid>
-    <description>Research Milestone 1: Understanding Data Availability (DA) Problem High-level exploration and discussion on data availability problems in a collaborative offsite meeting in Paris.</description>
-    <pubDate>Thu, 03 Aug 2023 00:00:00 GMT</pubDate>
-  </items><items>
-    <title>2023-07-31 Nomos weekly</title>
-    <link>https://roadmap.logos.co/roadmap/nomos/updates/2023-07-31</link>
-    <guid>https://roadmap.logos.co/roadmap/nomos/updates/2023-07-31</guid>
-    <description>Nomos 31st July [Network implementation and Mixnet]: Research Initial analysis on the mixnet Proof of Concept (PoC) was performed, assessing components like Sphinx for packets and delay-forwarder.</description>
-    <pubDate>Thu, 03 Aug 2023 00:00:00 GMT</pubDate>
-  </items><items>
-    <title>2023-08-07 Nomos weekly</title>
-    <link>https://roadmap.logos.co/roadmap/nomos/updates/2023-08-07</link>
-    <guid>https://roadmap.logos.co/roadmap/nomos/updates/2023-08-07</guid>
-    <description>Nomos weekly report § Network implementation and Mixnet: § Research § Researched the Nym mixnet architecture in depth in order to design our prototype architecture.</description>
-    <pubDate>Mon, 07 Aug 2023 00:00:00 GMT</pubDate>
-  </items><items>
-    <title>2023-08-17 Nomos weekly</title>
-    <link>https://roadmap.logos.co/roadmap/nomos/updates/2023-08-14</link>
-    <guid>https://roadmap.logos.co/roadmap/nomos/updates/2023-08-14</guid>
-    <description>Nomos weekly report 14th August § Network Privacy and Mixnet § Research § Mixnet architecture discussions. Potential agreement on architecture not very different from PoC Mixnet preliminary design [Mixnet-Architecture-613f53cf11a245098c50af6b191d31d2] Development § Mixnet PoC implementation starting [302] Implementation of mixnode: a core module for implementing a mixnode binary Implementation of mixnet-client: a client library for mixnet users, such as nomos-node Private PoS § No progress this week.</description>
-    <pubDate>Thu, 17 Aug 2023 00:00:00 GMT</pubDate>
-  </items><items>
-    <title>2023-08-21 Nomos weekly</title>
-    <link>https://roadmap.logos.co/roadmap/nomos/updates/2023-08-21</link>
-    <guid>https://roadmap.logos.co/roadmap/nomos/updates/2023-08-21</guid>
-    <description>Nomos weekly report 21st Oct § (delayed as I was on holidays and then took me some time to clarify some things with the team) Network Privacy and Mixnet § Improved the mixnet implementation based on latest discussion.</description>
-    <pubDate>Mon, 04 Sep 2023 00:00:00 GMT</pubDate>
-  </items><items>
-    <title>2023-08-29 Nomos weekly</title>
-    <link>https://roadmap.logos.co/roadmap/nomos/updates/2023-08-29</link>
-    <guid>https://roadmap.logos.co/roadmap/nomos/updates/2023-08-29</guid>
-    <description>Nomos weekly report § Milestone 1: Network Privacy and Mixnet § Research § A Mixnet PoC was conducted to gauge end-to-end latency, revealing a slight latency increase when utilizing mixnet.</description>
-    <pubDate>Mon, 04 Sep 2023 00:00:00 GMT</pubDate>
-  </items><items>
-    <title>2023-09-04 Nomos weekly</title>
-    <link>https://roadmap.logos.co/roadmap/nomos/updates/2023-09-04</link>
-    <guid>https://roadmap.logos.co/roadmap/nomos/updates/2023-09-04</guid>
-    <description>nomos: § network privacy and mixnet: § research § No specific research tasks reported this week related to this milestone. development § Made mixnet tests stable: 334 Finished the delay implementation: 362 Migrated the mixnode binary to Overwatch for better integration: 339 Added a retry mechanism to the libp2p backend for transient errors: 332 Fixed network tests failing with mixnet: 338 Fix panic for RandomDelayIter: 335 Connection cache for mixnet: 343 Implemented mempool network adapters for libp2p: 344 Implemented the libp2p version of the addtx endpoint: 345 testnet: § development: § POC/Draft for testnet using Docker Compose: 364 DNS Multiaddr parsing and peer id configuration: 346, 361 private PoS: § research: § Introduced the Base Design section, focusing on the ZCash design’s constructions, building an understanding of the data structures and algorithms, and presenting relevant algorithms with comprehensive descriptions.</description>
-    <pubDate>Mon, 04 Sep 2023 00:00:00 GMT</pubDate>
-  </items><items>
     <title>Applied Cryptography and Zero-knowledge Service Unit</title>
     <link>https://roadmap.logos.co/roadmap/vac/acz/overview</link>
     <guid>https://roadmap.logos.co/roadmap/vac/acz/overview</guid>
@@ -235,16 +175,16 @@
     <description>vac:p2p: § nimlibp2p:vac: § The P2P Service unit develops nim-libp2p. nim-libp2p roadmap on github: 777 gossipsub-improvements-eip-4844 webrtc-transport gossipsub-ddos-mitigation gossipsub-stagger-send maintenance nimchronos:vac: § maintenance .</description>
     <pubDate>Tue, 05 Sep 2023 00:00:00 GMT</pubDate>
   </items><items>
-    <title>RFC Specifications Service Unit</title>
-    <link>https://roadmap.logos.co/roadmap/vac/rfc/overview</link>
-    <guid>https://roadmap.logos.co/roadmap/vac/rfc/overview</guid>
-    <description>vac:rfc: § rfc:status: § port-status-specs .</description>
-    <pubDate>Wed, 06 Sep 2023 00:00:00 GMT</pubDate>
-  </items><items>
     <title>Smart Contracts Service Unit</title>
     <link>https://roadmap.logos.co/roadmap/vac/sc/overview</link>
     <guid>https://roadmap.logos.co/roadmap/vac/sc/overview</guid>
     <description>vac:sc:: § status: § staking-contract staking-contract_02 staking-contract-maintenance governance community-contracts-ERC721 community-contracts-ERC20 community-contracts-maintenance vac: § secureum-upskilling rln-contract-support .</description>
+    <pubDate>Wed, 06 Sep 2023 00:00:00 GMT</pubDate>
+  </items><items>
+    <title>RFC Specifications Service Unit</title>
+    <link>https://roadmap.logos.co/roadmap/vac/rfc/overview</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/rfc/overview</guid>
+    <description>vac:rfc: § rfc:status: § port-status-specs .</description>
     <pubDate>Wed, 06 Sep 2023 00:00:00 GMT</pubDate>
   </items><items>
     <title>Token Engineering Service Unit</title>
@@ -324,6 +264,66 @@
     <guid>https://roadmap.logos.co/roadmap/vac/zkvm/research-existing-proofsystems</guid>
     <description>vac:zkvm:proofsystems:vac:research-existing-proofsystems § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section zkvm:proofsystems Research Existing Proofsystems , 2023-01-01, 2023-11-30 status: 70% CC: team Description § Deliverables §.</description>
     <pubDate>Fri, 08 Sep 2023 12:58:46 GMT</pubDate>
+  </items><items>
+    <title>Nomos Data Availability Details</title>
+    <link>https://roadmap.logos.co/roadmap/nomos/data-avail/overview</link>
+    <guid>https://roadmap.logos.co/roadmap/nomos/data-avail/overview</guid>
+    <description>nomos:data-avail: § Description § Research § Engineering §.</description>
+    <pubDate>Tue, 05 Sep 2023 15:22:49 GMT</pubDate>
+  </items><items>
+    <title>Nomos Network Privacy Details</title>
+    <link>https://roadmap.logos.co/roadmap/nomos/network-privacy/overview</link>
+    <guid>https://roadmap.logos.co/roadmap/nomos/network-privacy/overview</guid>
+    <description>nomos:network-priavcy: § Description § Research § Engineering §.</description>
+    <pubDate>Tue, 05 Sep 2023 15:22:49 GMT</pubDate>
+  </items><items>
+    <title>Nomos Testnet Details</title>
+    <link>https://roadmap.logos.co/roadmap/nomos/testnet/overview</link>
+    <guid>https://roadmap.logos.co/roadmap/nomos/testnet/overview</guid>
+    <description>nomos:testnet: § Description § Research § Engineering §.</description>
+    <pubDate>Tue, 05 Sep 2023 15:22:49 GMT</pubDate>
+  </items><items>
+    <title>2023-07-24 Nomos weekly</title>
+    <link>https://roadmap.logos.co/roadmap/nomos/updates/2023-07-24</link>
+    <guid>https://roadmap.logos.co/roadmap/nomos/updates/2023-07-24</guid>
+    <description>Research Milestone 1: Understanding Data Availability (DA) Problem High-level exploration and discussion on data availability problems in a collaborative offsite meeting in Paris.</description>
+    <pubDate>Thu, 03 Aug 2023 00:00:00 GMT</pubDate>
+  </items><items>
+    <title>2023-07-31 Nomos weekly</title>
+    <link>https://roadmap.logos.co/roadmap/nomos/updates/2023-07-31</link>
+    <guid>https://roadmap.logos.co/roadmap/nomos/updates/2023-07-31</guid>
+    <description>Nomos 31st July [Network implementation and Mixnet]: Research Initial analysis on the mixnet Proof of Concept (PoC) was performed, assessing components like Sphinx for packets and delay-forwarder.</description>
+    <pubDate>Thu, 03 Aug 2023 00:00:00 GMT</pubDate>
+  </items><items>
+    <title>2023-08-07 Nomos weekly</title>
+    <link>https://roadmap.logos.co/roadmap/nomos/updates/2023-08-07</link>
+    <guid>https://roadmap.logos.co/roadmap/nomos/updates/2023-08-07</guid>
+    <description>Nomos weekly report § Network implementation and Mixnet: § Research § Researched the Nym mixnet architecture in depth in order to design our prototype architecture.</description>
+    <pubDate>Mon, 07 Aug 2023 00:00:00 GMT</pubDate>
+  </items><items>
+    <title>2023-08-17 Nomos weekly</title>
+    <link>https://roadmap.logos.co/roadmap/nomos/updates/2023-08-14</link>
+    <guid>https://roadmap.logos.co/roadmap/nomos/updates/2023-08-14</guid>
+    <description>Nomos weekly report 14th August § Network Privacy and Mixnet § Research § Mixnet architecture discussions. Potential agreement on architecture not very different from PoC Mixnet preliminary design [Mixnet-Architecture-613f53cf11a245098c50af6b191d31d2] Development § Mixnet PoC implementation starting [302] Implementation of mixnode: a core module for implementing a mixnode binary Implementation of mixnet-client: a client library for mixnet users, such as nomos-node Private PoS § No progress this week.</description>
+    <pubDate>Thu, 17 Aug 2023 00:00:00 GMT</pubDate>
+  </items><items>
+    <title>2023-08-21 Nomos weekly</title>
+    <link>https://roadmap.logos.co/roadmap/nomos/updates/2023-08-21</link>
+    <guid>https://roadmap.logos.co/roadmap/nomos/updates/2023-08-21</guid>
+    <description>Nomos weekly report 21st Oct § (delayed as I was on holidays and then took me some time to clarify some things with the team) Network Privacy and Mixnet § Improved the mixnet implementation based on latest discussion.</description>
+    <pubDate>Mon, 04 Sep 2023 00:00:00 GMT</pubDate>
+  </items><items>
+    <title>2023-08-29 Nomos weekly</title>
+    <link>https://roadmap.logos.co/roadmap/nomos/updates/2023-08-29</link>
+    <guid>https://roadmap.logos.co/roadmap/nomos/updates/2023-08-29</guid>
+    <description>Nomos weekly report § Milestone 1: Network Privacy and Mixnet § Research § A Mixnet PoC was conducted to gauge end-to-end latency, revealing a slight latency increase when utilizing mixnet.</description>
+    <pubDate>Mon, 04 Sep 2023 00:00:00 GMT</pubDate>
+  </items><items>
+    <title>2023-09-04 Nomos weekly</title>
+    <link>https://roadmap.logos.co/roadmap/nomos/updates/2023-09-04</link>
+    <guid>https://roadmap.logos.co/roadmap/nomos/updates/2023-09-04</guid>
+    <description>nomos: § network privacy and mixnet: § research § No specific research tasks reported this week related to this milestone. development § Made mixnet tests stable: 334 Finished the delay implementation: 362 Migrated the mixnode binary to Overwatch for better integration: 339 Added a retry mechanism to the libp2p backend for transient errors: 332 Fixed network tests failing with mixnet: 338 Fix panic for RandomDelayIter: 335 Connection cache for mixnet: 343 Implemented mempool network adapters for libp2p: 344 Implemented the libp2p version of the addtx endpoint: 345 testnet: § development: § POC/Draft for testnet using Docker Compose: 364 DNS Multiaddr parsing and peer id configuration: 346, 361 private PoS: § research: § Introduced the Base Design section, focusing on the ZCash design’s constructions, building an understanding of the data structures and algorithms, and presenting relevant algorithms with comprehensive descriptions.</description>
+    <pubDate>Mon, 04 Sep 2023 00:00:00 GMT</pubDate>
   </items><items>
     <title>2023-07-24 Waku weekly</title>
     <link>https://roadmap.logos.co/roadmap/waku/updates/2023-07-24</link>
@@ -409,22 +409,22 @@
     <description>vac:dst:analysis-gsub-model:vac:refactoring § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Refactoring: 2023-08-01, 2023-09-30 status: 40% CC: Ganesh Description § Justification § Deliverables §.</description>
     <pubDate>Sat, 09 Sep 2023 14:05:44 GMT</pubDate>
   </items><items>
+    <title>Shadow Waku Relay Analysis</title>
+    <link>https://roadmap.logos.co/roadmap/vac/dst/analysis-shadow/waku/shadow-waku-relay-analysis</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/dst/analysis-shadow/waku/shadow-waku-relay-analysis</guid>
+    <description>vac:dst:analysis-shadow:waku:shadow-waku-relay-analysis § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Shadow Waku Relay Analysis: done, 2023-10-01, 2023-11-30 status: 0% CC: Jordi Description § Justification § Deliverables §.</description>
+    <pubDate>Sat, 09 Sep 2023 14:15:53 GMT</pubDate>
+  </items><items>
     <title>Basic Shadow Simulation</title>
-    <link>https://roadmap.logos.co/roadmap/vac/dst/analysis-shadow/vac/basic-shadow-simulation</link>
-    <guid>https://roadmap.logos.co/roadmap/vac/dst/analysis-shadow/vac/basic-shadow-simulation</guid>
+    <link>https://roadmap.logos.co/roadmap/vac/dst/analysis-shadow/vac/shadow-basic-simulation</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/dst/analysis-shadow/vac/shadow-basic-simulation</guid>
     <description>vac:dst:analysis-shadow:vac:basic-shadow-simulation § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Basic Shadow Simulation: 2023-08-01, 2023-08-31 status: 40% CC: Jordi Description § Justification § Deliverables §.</description>
-    <pubDate>Sat, 09 Sep 2023 14:05:44 GMT</pubDate>
+    <pubDate>Sat, 09 Sep 2023 14:15:53 GMT</pubDate>
   </items><items>
     <title>Shadow Gossipsub Analysis</title>
     <link>https://roadmap.logos.co/roadmap/vac/dst/analysis-shadow/vac/shadow-gossipsub-analysis</link>
     <guid>https://roadmap.logos.co/roadmap/vac/dst/analysis-shadow/vac/shadow-gossipsub-analysis</guid>
     <description>vac:dst:analysis-shadow:vac:shadow-gossipsub-analysis § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Shadow Gossipsub Analysis: 2023-09-01, 2023-10-31 status: 0% CC: Jordi Description § develop a gossipsub node with allows to set desired message rates and other properties try to get to a higher node number (50k?) research log post Justification § Deliverables §.</description>
-    <pubDate>Sat, 09 Sep 2023 14:05:44 GMT</pubDate>
-  </items><items>
-    <title>Shadow Waku Relay Analysis</title>
-    <link>https://roadmap.logos.co/roadmap/vac/dst/analysis-shadow/vac/shadow-waku-relay-analysis</link>
-    <guid>https://roadmap.logos.co/roadmap/vac/dst/analysis-shadow/vac/shadow-waku-relay-analysis</guid>
-    <description>vac:dst:analysis-shadow:waku:shadow-waku-relay-analysis § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Shadow Waku Relay Analysis: done, 2023-10-01, 2023-11-30 status: 0% CC: Jordi Description § Justification § Deliverables §.</description>
     <pubDate>Sat, 09 Sep 2023 14:05:44 GMT</pubDate>
   </items><items>
     <title>Bundle Simulation Data</title>
@@ -490,8 +490,8 @@
     <title>Wakurtosis Maintenance</title>
     <link>https://roadmap.logos.co/roadmap/vac/dst/wakurtosis/vac/maintenance</link>
     <guid>https://roadmap.logos.co/roadmap/vac/dst/wakurtosis/vac/maintenance</guid>
-    <description>vac:dst:wakurtosis:vac:wakurtosis-maintenance § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Wakurtosis Maintenance: done, 2023-01-01, 2023-08-31 status: 100% CC: Alberto Description § Keep up to date the tool if there are crashing changes in the services that are being used in it (Waku, Nomos…) Justification § Services being used are in constant change, thus it can lead wakurtosis to break.</description>
-    <pubDate>Sat, 09 Sep 2023 14:05:44 GMT</pubDate>
+    <description>vac:dst:wakurtosis:vac:maintenance § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Wakurtosis Maintenance: done, 2023-01-01, 2023-08-31 status: 100% CC: Alberto Description § Keep up to date the tool if there are crashing changes in the services that are being used in it (Waku, Nomos…) Justification § Services being used are in constant change, thus it can lead wakurtosis to break.</description>
+    <pubDate>Sat, 09 Sep 2023 14:15:53 GMT</pubDate>
   </items><items>
     <title>Rlog: Wakurtosis Retrospective</title>
     <link>https://roadmap.logos.co/roadmap/vac/dst/wakurtosis/vac/retrospective-rlog</link>

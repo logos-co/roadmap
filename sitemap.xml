@@ -23,14 +23,14 @@
     <loc>https://roadmap.logos.co/roadmap/innovation_lab/overview</loc>
     <lastmod>2023-08-22T19:29:49.405Z</lastmod>
   </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/overview</loc>
+    <lastmod>2023-09-05T10:46:08.902Z</lastmod>
+  </url><url>
     <loc>https://roadmap.logos.co/roadmap/nomos/milestones-overview</loc>
     <lastmod>2023-08-17T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/roadmap/nomos/overview</loc>
     <lastmod>2023-09-05T15:22:49.347Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/roadmap/vac/overview</loc>
-    <lastmod>2023-09-05T10:46:08.902Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/roadmap/waku/milestone-waku-10-users</loc>
     <lastmod>2023-08-07T00:00:00.000Z</lastmod>
@@ -71,36 +71,6 @@
     <loc>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-08-11</loc>
     <lastmod>2023-08-17T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/roadmap/nomos/data-avail/overview</loc>
-    <lastmod>2023-09-05T15:22:49.347Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/roadmap/nomos/network-privacy/overview</loc>
-    <lastmod>2023-09-05T15:22:49.347Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/roadmap/nomos/testnet/overview</loc>
-    <lastmod>2023-09-05T15:22:49.347Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/roadmap/nomos/updates/2023-07-24</loc>
-    <lastmod>2023-08-03T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/roadmap/nomos/updates/2023-07-31</loc>
-    <lastmod>2023-08-03T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/roadmap/nomos/updates/2023-08-07</loc>
-    <lastmod>2023-08-07T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/roadmap/nomos/updates/2023-08-14</loc>
-    <lastmod>2023-08-17T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/roadmap/nomos/updates/2023-08-21</loc>
-    <lastmod>2023-09-04T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/roadmap/nomos/updates/2023-08-29</loc>
-    <lastmod>2023-09-04T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/roadmap/nomos/updates/2023-09-04</loc>
-    <lastmod>2023-09-04T00:00:00.000Z</lastmod>
-  </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/acz/overview</loc>
     <lastmod>2023-08-25T00:00:00.000Z</lastmod>
   </url><url>
@@ -113,10 +83,10 @@
     <loc>https://roadmap.logos.co/roadmap/vac/p2p/overview</loc>
     <lastmod>2023-09-05T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/roadmap/vac/rfc/overview</loc>
+    <loc>https://roadmap.logos.co/roadmap/vac/sc/overview</loc>
     <lastmod>2023-09-06T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/roadmap/vac/sc/overview</loc>
+    <loc>https://roadmap.logos.co/roadmap/vac/rfc/overview</loc>
     <lastmod>2023-09-06T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/tke/overview</loc>
@@ -157,6 +127,36 @@
   </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/zkvm/research-existing-proofsystems</loc>
     <lastmod>2023-09-08T12:58:46.755Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/nomos/data-avail/overview</loc>
+    <lastmod>2023-09-05T15:22:49.347Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/nomos/network-privacy/overview</loc>
+    <lastmod>2023-09-05T15:22:49.347Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/nomos/testnet/overview</loc>
+    <lastmod>2023-09-05T15:22:49.347Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/nomos/updates/2023-07-24</loc>
+    <lastmod>2023-08-03T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/nomos/updates/2023-07-31</loc>
+    <lastmod>2023-08-03T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/nomos/updates/2023-08-07</loc>
+    <lastmod>2023-08-07T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/nomos/updates/2023-08-14</loc>
+    <lastmod>2023-08-17T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/nomos/updates/2023-08-21</loc>
+    <lastmod>2023-09-04T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/nomos/updates/2023-08-29</loc>
+    <lastmod>2023-09-04T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/nomos/updates/2023-09-04</loc>
+    <lastmod>2023-09-04T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/roadmap/waku/updates/2023-07-24</loc>
     <lastmod>2023-08-04T00:00:00.000Z</lastmod>
@@ -200,13 +200,13 @@
     <loc>https://roadmap.logos.co/roadmap/vac/dst/analysis-gsub-model/vac/refactoring</loc>
     <lastmod>2023-09-09T14:05:44.604Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/roadmap/vac/dst/analysis-shadow/vac/basic-shadow-simulation</loc>
-    <lastmod>2023-09-09T14:05:44.604Z</lastmod>
+    <loc>https://roadmap.logos.co/roadmap/vac/dst/analysis-shadow/waku/shadow-waku-relay-analysis</loc>
+    <lastmod>2023-09-09T14:15:53.514Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/dst/analysis-shadow/vac/shadow-basic-simulation</loc>
+    <lastmod>2023-09-09T14:15:53.514Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/dst/analysis-shadow/vac/shadow-gossipsub-analysis</loc>
-    <lastmod>2023-09-09T14:05:44.604Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/roadmap/vac/dst/analysis-shadow/vac/shadow-waku-relay-analysis</loc>
     <lastmod>2023-09-09T14:05:44.604Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/dst/eng/vac/bundle-simulation-data</loc>
@@ -240,7 +240,7 @@
     <lastmod>2023-09-09T14:05:44.604Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/dst/wakurtosis/vac/maintenance</loc>
-    <lastmod>2023-09-09T14:05:44.604Z</lastmod>
+    <lastmod>2023-09-09T14:15:53.514Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/dst/wakurtosis/vac/retrospective-rlog</loc>
     <lastmod>2023-09-09T14:05:44.604Z</lastmod>
