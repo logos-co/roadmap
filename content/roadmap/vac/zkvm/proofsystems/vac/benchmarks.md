@@ -19,7 +19,7 @@ title: "Benchmarks"
   } 
 }%%
 gantt
-  timeInterval 1month
+  tickInterval 1month
   dateFormat YYYY-MM-DD 
   section Status
     Benchmarks: 2023-03-01, 2023-11-30

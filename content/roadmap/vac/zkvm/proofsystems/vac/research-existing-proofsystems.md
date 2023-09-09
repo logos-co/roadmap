@@ -19,7 +19,7 @@ title: "Research Existing Proofsystems"
   } 
 }%%
 gantt
-  timeInterval 1month
+  tickInterval 1month
   dateFormat YYYY-MM-DD 
   section Status
     Research Existing Proofsystems:  2023-01-01, 2023-11-30
