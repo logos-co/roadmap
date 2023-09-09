@@ -12,39 +12,39 @@ lastmod: 2023-09-08
 
 ### `wakurtosis:`
 
-* [x] [[ roadmap/vac/dst/wakurtosis/waku/techreport | vac:dst:wakurtosis:waku:techreport ]]
-* [x] [[ roadmap/vac/dst/wakurtosis/waku/techreport_02 | vac:dst:wakurtosis:waku:techreport_02 ]]
-* [[ roadmap/vac/dst/wakurtosis/waku/gossipsub-topology-analysis | vac:dst:wakurtosis:waku:gossipsub-topology-analysis ]]
-* [[ roadmap/vac/dst/wakurtosis/waku/features | vac:dst:wakurtosis:waku:waku:wakurtosis:features ]]
-* [[ roadmap/vac/dst/wakurtosis/vac/rlog | vac:dst:wakurtosis:vac:rlog ]]
-* [[ roadmap/vac/dst/wakurtosis/vac/retrospective-rlog | vac:dst:wakurtosis:vac:retrospective-rlog ]]
-* [[ roadmap/vac/dst/wakurtosis/nomos/ci-integration | vac:dst:wakurtosis:nomos:ci-integration ]]
-* [x] [[ roadmap/vac/dst/wakurtosis/vac/maintenance | vac:dst:wakurtosis:vac:maintenance ]]
+* [x] [[ roadmap/vac/dst/wakurtosis/waku/techreport | techreport ]]
+* [x] [[ roadmap/vac/dst/wakurtosis/waku/techreport_02 | techreport_02 ]]
+* [[ roadmap/vac/dst/wakurtosis/waku/gossipsub-topology-analysis | gossipsub-topology-analysis ]]
+* [[ roadmap/vac/dst/wakurtosis/waku/features | wakurtosis:features ]]
+* [[ roadmap/vac/dst/wakurtosis/vac/rlog | rlog ]]
+* [[ roadmap/vac/dst/wakurtosis/vac/retrospective-rlog | retrospective-rlog ]]
+* [[ roadmap/vac/dst/wakurtosis/nomos/ci-integration | ci-integration ]]
+* [x] [[ roadmap/vac/dst/wakurtosis/vac/maintenance | maintenance ]]
 
 ### `analysis::`
 
-* [[ roadmap/vac/dst/analysis/g/nomos/nomos-simulation-analysis | vac:dst:analysis::nomos:nomos-simulation-analysis ]]
+* [[ roadmap/vac/dst/analysis/g/nomos/nomos-simulation-analysis | nomos-simulation-analysis ]]
 
 ### `analysis:gsub-model`
 
-* [[ roadmap/vac/dst/analysis/gsub-model/vac/refactoring | vac:dst:analysis:gsub-model:vac:refactoring ]]
-* [[ roadmap/vac/dst/analysis/gsub-model/status/control-messages | vac:dst:analysis:gsub-model:status:control-messages ]]
+* [[ roadmap/vac/dst/analysis/gsub-model/vac/refactoring | refactoring ]]
+* [[ roadmap/vac/dst/analysis/gsub-model/status/control-messages | control-messages ]]
 
 ### `analysis:shadow:`
 
-* [[ roadmap/vac/dst/analysis/shadow/vac/shadow-gossipsub-analysis | vac:dst:analysis:shadow:vac:shadow-gossipsub-analysis ]]
-* [[ roadmap/vac/dst/analysis/shadow/waku/shadow-waku-relay-analysis | vac:dst:analysis:shadow:waku:shadow-waku-relay-analysis ]]
+* [[ roadmap/vac/dst/analysis/shadow/vac/shadow-basic-simulation | shadow-basic-simulation ]]
+* [[ roadmap/vac/dst/analysis/shadow/vac/shadow-gossipsub-analysis | shadow-gossipsub-analysis ]]
+* [[ roadmap/vac/dst/analysis/shadow/waku/shadow-waku-relay-analysis | shadow-waku-relay-analysis ]]
 
 ### `eng::`
 
-* [[ roadmap/vac/dst/eng/g/vac/bundle-simulation-data | vac:dst:eng::vac:bundle-simulation-data ]]
+* [[ roadmap/vac/dst/eng/g/vac/bundle-simulation-data | bundle-simulation-data ]]
 
 ### `eng:10ksim:`
 
-* [[ roadmap/vac/dst/eng/10ktool/vac/bandwidth | vac:dst:eng:10ksim:vac:bandwidth-test ]]
-* [[ roadmap/vac/dst/eng/10ktool/vac/bandwidth | vac:dst:eng:10ksim:vac:QoS ]]
-* [[ roadmap/vac/dst/eng/10ktool/waku/waku-protocols | vac:dst:eng:10ksim:waku:waku-protocols ]]
-* [[ roadmap/vac/dst/eng/10ktool/waku/waku-protocols | vac:dst:eng:10ksim:waku:waku-protocols ]]
+* [[ roadmap/vac/dst/eng/10ktool/vac/bandwidth | bandwidth-test ]]
+* [[ roadmap/vac/dst/eng/10ktool/vac/bandwidth | QoS ]]
+* [[ roadmap/vac/dst/eng/10ktool/waku/waku-protocols | waku-protocols ]]
 
 
 ### `software-testing:test-plans`
