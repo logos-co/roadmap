@@ -21,7 +21,7 @@ title: SNT Litepaper
 gantt
 	dateFormat YYYY-MM-DD 
 	section Status
-		SNT Llitepaper :, 2023-01-20, 2023-08-30
+		SNT Litepaper: 2023-01-20, 2023-08-30
 ```
 
 - status: 70% - delayed: governance proposal taking precedence
