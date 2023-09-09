@@ -50,8 +50,8 @@ lastmod: 2023-09-08
 ### `software-testing:waku`
 
 * [[ roadmap/vac/dst/software-testing/waku/test-plans | test-plans ]]
-* [[ roadmap/vac/dst/software-testing/waku/js-waku | test-automation-js-waku ]]
-* [[ roadmap/vac/dst/software-testing/waku/nwaku | test-automation-nwaku ]]
-* [[ roadmap/vac/dst/software-testing/waku/go-waku | test-automation-go-waku ]]
-* [[ roadmap/vac/dst/software-testing/waku/interop-testing | interop-testing ]]
+* [[ roadmap/vac/dst/software-testing/waku/test-automation-js-waku | test-automation-js-waku ]]
+* [[ roadmap/vac/dst/software-testing/waku/test-automation-nwaku | test-automation-nwaku ]]
+* [[ roadmap/vac/dst/software-testing/waku/test-automation-go-waku | test-automation-go-waku ]]
+* [[ roadmap/vac/dst/software-testing/waku/test-automation-interop-testing | interop-testing ]]
 
