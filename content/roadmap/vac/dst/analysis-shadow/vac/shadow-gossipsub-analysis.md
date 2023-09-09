@@ -1,7 +1,7 @@
 ---
-title: "Wakurtosis Features"
+title: "Shadow Gossipsub Analysis"
 ---
-## `vac:dst:wakurtosis:waku:wakurtosis-features`
+## `vac:dst:analysis-shadow:vac:shadow-gossipsub-analysis`
 ---
 
 ```mermaid
@@ -22,20 +22,21 @@ gantt
   tickInterval 1month
   dateFormat YYYY-MM-DD 
   section Status
-    Wakurtosis Features: done, 2023-04-01, 2023-07-31
+    Shadow Gossipsub Analysis:  2023-09-01, 2023-10-31
 ```
 
-- status: 100%
-- CC: Alberto
+- status: 0%
+- CC: Jordi
 
 ### Description
 
-* Features requested by Waku for the simulations done in wakurtosis (e.g. discv5 support).
+* develop a gossipsub node with allows to set desired message rates and other properties
+* try to get to a higher node number (50k?)
+* research log post
 
 
 ### Justification
 
-* Discv5 is an important protocol to test. Also, we should be able to work with offline data once the simulation is finished.
 
 ### Deliverables
 

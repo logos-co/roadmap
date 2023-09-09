@@ -1,7 +1,7 @@
 ---
-title: "Wakurtosis Features"
+title: "Control Messages"
 ---
-## `vac:dst:wakurtosis:waku:wakurtosis-features`
+## `vac:dst:analysis-gsub-model:status:control-messages`
 ---
 
 ```mermaid
@@ -22,20 +22,20 @@ gantt
   tickInterval 1month
   dateFormat YYYY-MM-DD 
   section Status
-    Wakurtosis Features: done, 2023-04-01, 2023-07-31
+    Control Messages:  2023-07-01, 2023-09-15
 ```
 
-- status: 100%
-- CC: Alberto
+- status: 85%
+- CC: Ganesh
 
 ### Description
-
-* Features requested by Waku for the simulations done in wakurtosis (e.g. discv5 support).
 
 
 ### Justification
 
-* Discv5 is an important protocol to test. Also, we should be able to work with offline data once the simulation is finished.
+### Info
+
+* delayed because of extending Nomos analysis milestone
 
 ### Deliverables
 

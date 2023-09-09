@@ -1,7 +1,7 @@
 ---
-title: "Wakurtosis Features"
+title: "Waku Protocols"
 ---
-## `vac:dst:wakurtosis:waku:wakurtosis-features`
+## `vac:dst:eng-10ktool:waku:waku-protocols`
 ---
 
 ```mermaid
@@ -22,20 +22,25 @@ gantt
   tickInterval 1month
   dateFormat YYYY-MM-DD 
   section Status
-    Wakurtosis Features: done, 2023-04-01, 2023-07-31
+    Waku Protocols:  2023-11-01, 2023-12-31
 ```
 
-- status: 100%
+- status: 0%
 - CC: Alberto
 
 ### Description
 
-* Features requested by Waku for the simulations done in wakurtosis (e.g. discv5 support).
+So far, we tested gossip / relay, as well as discv5.
+
+This milestone comprises running further Waku protocols, namely:
+* filter
+* lightpush
+* store
+* peer exchange
 
 
 ### Justification
 
-* Discv5 is an important protocol to test. Also, we should be able to work with offline data once the simulation is finished.
 
 ### Deliverables
 

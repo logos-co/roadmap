@@ -1,7 +1,7 @@
 ---
-title: "Wakurtosis Features"
+title: "Shadow Waku Relay Analysis"
 ---
-## `vac:dst:wakurtosis:waku:wakurtosis-features`
+## `vac:dst:analysis-shadow:waku:shadow-waku-relay-analysis`
 ---
 
 ```mermaid
@@ -22,20 +22,17 @@ gantt
   tickInterval 1month
   dateFormat YYYY-MM-DD 
   section Status
-    Wakurtosis Features: done, 2023-04-01, 2023-07-31
+    Shadow Waku Relay Analysis: done, 2023-10-01, 2023-11-30
 ```
 
-- status: 100%
-- CC: Alberto
+- status: 0%
+- CC: Jordi
 
 ### Description
-
-* Features requested by Waku for the simulations done in wakurtosis (e.g. discv5 support).
 
 
 ### Justification
 
-* Discv5 is an important protocol to test. Also, we should be able to work with offline data once the simulation is finished.
 
 ### Deliverables
 

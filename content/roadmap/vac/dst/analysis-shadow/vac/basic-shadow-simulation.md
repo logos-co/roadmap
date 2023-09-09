@@ -1,7 +1,7 @@
 ---
-title: "Wakurtosis Features"
+title: "Basic Shadow Simulation"
 ---
-## `vac:dst:wakurtosis:waku:wakurtosis-features`
+## `vac:dst:analysis-shadow:vac:basic-shadow-simulation`
 ---
 
 ```mermaid
@@ -22,20 +22,17 @@ gantt
   tickInterval 1month
   dateFormat YYYY-MM-DD 
   section Status
-    Wakurtosis Features: done, 2023-04-01, 2023-07-31
+    Basic Shadow Simulation:  2023-08-01, 2023-08-31
 ```
 
-- status: 100%
-- CC: Alberto
+- status: 40%
+- CC: Jordi
 
 ### Description
-
-* Features requested by Waku for the simulations done in wakurtosis (e.g. discv5 support).
 
 
 ### Justification
 
-* Discv5 is an important protocol to test. Also, we should be able to work with offline data once the simulation is finished.
 
 ### Deliverables
 

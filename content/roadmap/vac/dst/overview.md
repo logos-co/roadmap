@@ -23,38 +23,35 @@ lastmod: 2023-09-08
 
 ### `analysis::`
 
-* [[ roadmap/vac/dst/analysis/g/nomos/nomos-simulation-analysis | nomos-simulation-analysis ]]
+* [[ roadmap/vac/dst/analysis/nomos/nomos-simulation-analysis | simulation-analysis ]]
 
 ### `analysis:gsub-model`
 
-* [[ roadmap/vac/dst/analysis/gsub-model/vac/refactoring | refactoring ]]
-* [[ roadmap/vac/dst/analysis/gsub-model/status/control-messages | control-messages ]]
+* [[ roadmap/vac/dst/analysis-gsub-model/vac/refactoring | refactoring ]]
+* [[ roadmap/vac/dst/analysis-gsub-model/status/control-messages | control-messages ]]
 
 ### `analysis:shadow:`
 
-* [[ roadmap/vac/dst/analysis/shadow/vac/shadow-basic-simulation | shadow-basic-simulation ]]
-* [[ roadmap/vac/dst/analysis/shadow/vac/shadow-gossipsub-analysis | shadow-gossipsub-analysis ]]
-* [[ roadmap/vac/dst/analysis/shadow/waku/shadow-waku-relay-analysis | shadow-waku-relay-analysis ]]
+* [[ roadmap/vac/dst/analysis-shadow/vac/shadow-basic-simulation | shadow-basic-simulation ]]
+* [[ roadmap/vac/dst/analysis-shadow/vac/shadow-gossipsub-analysis | shadow-gossipsub-analysis ]]
+* [[ roadmap/vac/dst/analysis-shadow/waku/shadow-waku-relay-analysis | shadow-waku-relay-analysis ]]
 
 ### `eng::`
 
-* [[ roadmap/vac/dst/eng/g/vac/bundle-simulation-data | bundle-simulation-data ]]
+* [[ roadmap/vac/dst/eng/vac/bundle-simulation-data | bundle-simulation-data ]]
 
 ### `eng:10ksim:`
 
-* [[ roadmap/vac/dst/eng/10ktool/vac/bandwidth | bandwidth-test ]]
-* [[ roadmap/vac/dst/eng/10ktool/vac/bandwidth | QoS ]]
-* [[ roadmap/vac/dst/eng/10ktool/waku/waku-protocols | waku-protocols ]]
+* [[ roadmap/vac/dst/eng-10ktool/vac/bandwidth-test | bandwidth-test ]]
+* [[ roadmap/vac/dst/eng-10ktool/vac/qos | QoS ]]
+* [[ roadmap/vac/dst/eng-10ktool/waku/waku-protocols | waku-protocols ]]
 
 
-### `software-testing:test-plans`
+### `software-testing:waku`
 
-* [[ roadmap/vac/dst/software-testing/g/waku/test-plans | test-plans ]]
-
-### `software-testing:test-automation`
-
-* [[ roadmap/vac/dst/software-testing/test-automation/waku/js-waku | js-waku ]]
-* [[ roadmap/vac/dst/software-testing/test-automation/waku/nwaku | nwaku ]]
-* [[ roadmap/vac/dst/software-testing/test-automation/waku/go-waku | go-waku ]]
-* [[ roadmap/vac/dst/software-testing/test-automation/waku/interop-testing | interop-testing ]]
+* [[ roadmap/vac/dst/software-testing/waku/test-plans | test-plans ]]
+* [[ roadmap/vac/dst/software-testing/waku/js-waku | test-automation-js-waku ]]
+* [[ roadmap/vac/dst/software-testing/waku/nwaku | test-automation-nwaku ]]
+* [[ roadmap/vac/dst/software-testing/waku/go-waku | test-automation-go-waku ]]
+* [[ roadmap/vac/dst/software-testing/waku/interop-testing | interop-testing ]]
 

@@ -1,7 +1,7 @@
 ---
-title: "Wakurtosis Features"
+title: "Test Automation go-waku"
 ---
-## `vac:dst:wakurtosis:waku:wakurtosis-features`
+## `vac:dst:software-testing:waku:test-automation-go-waku`
 ---
 
 ```mermaid
@@ -22,20 +22,25 @@ gantt
   tickInterval 1month
   dateFormat YYYY-MM-DD 
   section Status
-    Wakurtosis Features: done, 2023-04-01, 2023-07-31
+    Test Automation go-waku:  2023-10-01, 2024-02-29
 ```
 
-- status: 100%
-- CC: Alberto
+- status: 0%
+- CC: Roman
 
 ### Description
 
-* Features requested by Waku for the simulations done in wakurtosis (e.g. discv5 support).
-
+* filter (t) ← first group of tests added in PR to JS waku
+* lightpush (t)
+* store (t)
+* relay
+* peer exchange
+* discv5
+* peer & connection management
+* CI integration
 
 ### Justification
 
-* Discv5 is an important protocol to test. Also, we should be able to work with offline data once the simulation is finished.
 
 ### Deliverables
 

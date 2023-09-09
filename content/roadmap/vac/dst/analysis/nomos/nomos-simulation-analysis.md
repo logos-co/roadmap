@@ -1,7 +1,7 @@
 ---
-title: "Wakurtosis Features"
+title: "Simulation Analysis"
 ---
-## `vac:dst:wakurtosis:waku:wakurtosis-features`
+## `vac:dst:analysis:nomos:simulation-analysis`
 ---
 
 ```mermaid
@@ -22,20 +22,25 @@ gantt
   tickInterval 1month
   dateFormat YYYY-MM-DD 
   section Status
-    Wakurtosis Features: done, 2023-04-01, 2023-07-31
+    Simulation Analysis:  2023-08-01, 2023-09-15
 ```
 
-- status: 100%
-- CC: Alberto
+- status: 70%
+- CC: Ganesh
 
 ### Description
-
-* Features requested by Waku for the simulations done in wakurtosis (e.g. discv5 support).
 
 
 ### Justification
 
-* Discv5 is an important protocol to test. Also, we should be able to work with offline data once the simulation is finished.
+### Info
+
+Extended:
+* include signature aggregation into analysis
+* write analysis section in Carnot paper
+
+* [nomos node](https://github.com/logos-co/nomos-node)
+* [nomos simulations](https://github.com/logos-co/nomos-simulations)
 
 ### Deliverables
 

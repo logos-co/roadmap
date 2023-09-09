@@ -1,7 +1,7 @@
 ---
-title: "Wakurtosis Features"
+title: "Interop Testing"
 ---
-## `vac:dst:wakurtosis:waku:wakurtosis-features`
+## `vac:dst:software-testing:waku:interop-testing`
 ---
 
 ```mermaid
@@ -22,20 +22,19 @@ gantt
   tickInterval 1month
   dateFormat YYYY-MM-DD 
   section Status
-    Wakurtosis Features: done, 2023-04-01, 2023-07-31
+    Interop Testing:  2023-09-01, 2024-02-29
 ```
 
-- status: 100%
-- CC: Alberto
+- status: 0%
+- CC: Florin, Alex, Roman
 
 ### Description
 
-* Features requested by Waku for the simulations done in wakurtosis (e.g. discv5 support).
-
+* filter nwaku service node + js waku client node (t, Florin)
+* nwaku <> go-waku interop (t, Alex)
 
 ### Justification
 
-* Discv5 is an important protocol to test. Also, we should be able to work with offline data once the simulation is finished.
 
 ### Deliverables
 

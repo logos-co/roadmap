@@ -1,7 +1,7 @@
 ---
-title: "Wakurtosis Features"
+title: "Bandwidth Test"
 ---
-## `vac:dst:wakurtosis:waku:wakurtosis-features`
+## `vac:dst:eng-10ktool:vac:bandwidth`
 ---
 
 ```mermaid
@@ -22,22 +22,23 @@ gantt
   tickInterval 1month
   dateFormat YYYY-MM-DD 
   section Status
-    Wakurtosis Features: done, 2023-04-01, 2023-07-31
+    Bandwidth Test: 2023-08-01, 2023-10-31
 ```
 
-- status: 100%
+- status: 20%
 - CC: Alberto
 
 ### Description
 
-* Features requested by Waku for the simulations done in wakurtosis (e.g. discv5 support).
-
+A first version of tool that allows running >10k gossipsub / waku relay nodes.
+The tool should measure bandwidth usage per node and bundle the simulation data for analaysis.
 
 ### Justification
 
-* Discv5 is an important protocol to test. Also, we should be able to work with offline data once the simulation is finished.
 
 ### Deliverables
+
+* https://github.com/vacp2p/cs-codex-dist-tests
 
 
 
