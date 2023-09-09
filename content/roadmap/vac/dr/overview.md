@@ -31,3 +31,9 @@ lastmod: 2023-09-06
 * [[roadmap/vac/dr/consensus/nomos/carnot-paper | carnot-paper]]
 * [[roadmap/vac/dr/consensus/nomos/carnot-bribary-article | carnot-bribary-article]]
 * [[roadmap/vac/dr/consensus/nomos/carnot-2-3rds-vote-aggregation | carnot-2-3rds-vote-aggregation]]
+* [[roadmap/vac/dr/consensus/nomos/blockchain-security-in-crypto-economic-model | blockchain-security-in-crypto-economic-model]]
+* [[roadmap/vac/dr/consensus/nomos/detecting-reporting-attacks-carnot | detecting-reporting-attacks-carnot]]
+* [[roadmap/vac/dr/consensus/nomos/stake-privacy | stake-privacy]
+* [[roadmap/vac/dr/consensus/nomos/inter-chain-protocol | inter-chain-protocol]]
+* [[roadmap/vac/dr/consensus/nomos/multi-leader-and-multi-overlay-carnot | multi-leader-and-multi-overlay-carnot ]]
+
