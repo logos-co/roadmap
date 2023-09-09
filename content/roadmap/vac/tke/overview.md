@@ -4,24 +4,23 @@ tags:
 - p2p
 - vac
 date: 2023-08-25
-lastmod: 2023-08-25
+lastmod: 2023-09-09
 ---
 
 ## `vac:tke::`
 ---
 
 
-
 ### `status:`
-* [[snt-litepaper| vac:tke::status:snt-lightpaper]]
-* [[snt-governance-proposal | vac:tke::status:SNT-governance-proposal]]
-* [[snt-staking | vac:tke::status:SNT-staking]]
+* [[roadmap/vac/tke/g/status/snt-litepaper | snt-lightpaper]]
+* [[roadmap/vac/tke/g/status/snt-governance-proposal | SNT-governance-proposal]]
+* [[roadmap/vac/tke/g/status/snt-staking | SNT-staking]]
 
 ### `codex:`
-* [[roadmap/vac/tke/codex/economic-analysis | vac:tke::codex:economic-analysis]]
+* [[roadmap/vac/tke/g/codex/economic-analysis | economic-analysis]]
 
 ### `nomos:`
-* [[roadmap/vac/tke/nomos/economic-analysis | vac:tke::nomos:economic-analysis]]
+* [[roadmap/vac/tke/g/nomos/economic-analysis | economic-analysis]]
 
 ### `waku:`
-* [[roadmap/vac/tke/waku/economic-analysis | vac:tke::waku:economic-analysis]]
+* [[roadmap/vac/tke/g/waku/economic-analysis | economic-analysis]]
