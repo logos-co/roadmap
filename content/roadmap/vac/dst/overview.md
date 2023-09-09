@@ -49,12 +49,12 @@ lastmod: 2023-09-08
 
 ### `software-testing:test-plans`
 
-* [[ roadmap/vac/dst/software-testing/g/waku/test-plans | vac:dst:software-testing::waku:test-plans ]]
+* [[ roadmap/vac/dst/software-testing/g/waku/test-plans | test-plans ]]
 
 ### `software-testing:test-automation`
 
-* [[ roadmap/vac/dst/software-testing/test-automation/waku/js-waku | vac:dst:software-testing:test-automation:waku:js-waku ]]
-* [[ roadmap/vac/dst/software-testing/test-automation/waku/nwaku | vac:dst:software-testing:test-automation:waku:nwaku ]]
-* [[ roadmap/vac/dst/software-testing/test-automation/waku/go-waku | vac:dst:software-testing:test-automation:waku:go-waku ]]
-* [[ roadmap/vac/dst/software-testing/test-automation/waku/interop-testing | vac:dst:software-testing:test-automation:waku:interop-testing ]]
+* [[ roadmap/vac/dst/software-testing/test-automation/waku/js-waku | js-waku ]]
+* [[ roadmap/vac/dst/software-testing/test-automation/waku/nwaku | nwaku ]]
+* [[ roadmap/vac/dst/software-testing/test-automation/waku/go-waku | go-waku ]]
+* [[ roadmap/vac/dst/software-testing/test-automation/waku/interop-testing | interop-testing ]]
 
