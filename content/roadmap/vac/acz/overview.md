@@ -15,6 +15,8 @@ lastmod: 2023-09-06
 * [[roadmap/vac/acz/rlnp2p/waku/rln-membership-management | rln-membership-management]]
 * [[roadmap/vac/acz/rlnp2p/waku/rln-relay-enhancements| rln-relay-enhancements]]
 
+### `rlnp2p:vac:`
+* [[roadmap/vac/acz/rlnp2p/vac/rln-doc-and-outreach| rln-doc-and-outreach]]
 
 ### `zerokit:vac:`
 * [[roadmap/vac/acz/zerokit/vac/zerokit-v0-4 | zerokit-v0.4]]
