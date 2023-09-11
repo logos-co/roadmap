@@ -30,7 +30,7 @@ gantt
 
 ### Description
 
-* Waku doc: How can a user setup a Waku + RLN?
+* Waku doc: How can a user setup Waku + RLN?
   - even though Waku RLN does not support slashing yet, we can see RLN as that provides an additional datapoint regarding message validity
 * doc explaining how the components of RLN (zerokit, contract, and a project using it, e.g. Waku, work together)
   - this can be in notion at first
