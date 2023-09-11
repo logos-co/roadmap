@@ -214,7 +214,7 @@
     <title>Applied Cryptography and Zero-knowledge Service Unit</title>
     <link>https://roadmap.logos.co/roadmap/vac/acz/overview</link>
     <guid>https://roadmap.logos.co/roadmap/vac/acz/overview</guid>
-    <description>vac:acz: § rlnp2p:waku: § production-readiness rln-membership-management rln-relay-enhancements zerokit:vac: § zerokit-v0.4 maintenance .</description>
+    <description>vac:acz: § rlnp2p:waku: § production-readiness rln-membership-management rln-relay-enhancements rlnp2p:vac: § rln-doc-and-outreach zerokit:vac: § zerokit-v0.</description>
     <pubDate>Wed, 06 Sep 2023 00:00:00 GMT</pubDate>
   </items><items>
     <title>Deep Research Service Unit</title>
@@ -226,7 +226,7 @@
     <title>Distributed Systems Testing Service Unit</title>
     <link>https://roadmap.logos.co/roadmap/vac/dst/overview</link>
     <guid>https://roadmap.logos.co/roadmap/vac/dst/overview</guid>
-    <description>vac:dst: § wakurtosis:waku § techreport techreport_02 wakurtosis:features gossipsub-topology-analysis wakurtosis:nomos § ci-integration wakurtosis:vac § rlog retrospective-rlog maintenance analysis:: § simulation-analysis analysis:gsub-model § refactoring control-messages analysis:shadow: § shadow-basic-simulation shadow-gossipsub-analysis shadow-waku-relay-analysis eng:: § bundle-simulation-data eng:10ksim: § bandwidth-test QoS waku-protocols software-testing:waku § test-plans test-automation-js-waku test-automation-nwaku test-automation-go-waku interop-testing .</description>
+    <description>vac:dst: § wakurtosis:waku § techreport techreport_02 wakurtosis:features gossipsub-topology-analysis wakurtosis:nomos § ci-integration wakurtosis:vac § rlog retrospective-rlog maintenance analysis:: § simulation-analysis analysis:gsub-model § refactoring control-messages analysis:shadow: § shadow-basic-simulation shadow-gossipsub-analysis shadow-waku-relay-analysis eng:: § bundle-simulation-data eng:10ktool: § bandwidth-test QoS waku-protocols software-testing:waku § test-plans test-automation-js-waku test-automation-nwaku test-automation-go-waku interop-testing .</description>
     <pubDate>Fri, 08 Sep 2023 00:00:00 GMT</pubDate>
   </items><items>
     <title>P2P Service Unit</title>
@@ -355,6 +355,12 @@
     <description>2023-09-04 Waku weekly § Epics § 1.1 Network requirements and task breakdown {E:2023-1mil-users} achieved: Started working on Waku Network RFC. Visibility and traceability in GH improvements.</description>
     <pubDate>Mon, 04 Sep 2023 00:00:00 GMT</pubDate>
   </items><items>
+    <title>RLN Doc and Outreach</title>
+    <link>https://roadmap.logos.co/roadmap/vac/acz/rlnp2p/vac/rln-doc-and-outreach</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/acz/rlnp2p/vac/rln-doc-and-outreach</guid>
+    <description>vac:acz:rlnp2p:vac:rln-doc-and-outreach § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status RLN doc and outreach: done, 2023-01-20, 2023-07-31 status: 0% CC: Aaryamann Description § Waku doc: How can a user setup a Waku + RLN? even though Waku RLN does not support slashing yet, we can see RLN as that provides an additional datapoint regarding message validity doc explaining how the components of RLN (zerokit, contract, and a project using it, e.</description>
+    <pubDate>Mon, 11 Sep 2023 10:48:15 GMT</pubDate>
+  </items><items>
     <title>RLNP2P Waku Pruduction Readiness Details</title>
     <link>https://roadmap.logos.co/roadmap/vac/acz/rlnp2p/waku/production-readiness</link>
     <guid>https://roadmap.logos.co/roadmap/vac/acz/rlnp2p/waku/production-readiness</guid>
@@ -469,18 +475,6 @@
     <description>vac:dst:analysis:nomos:simulation-analysis § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Simulation Analysis: 2023-08-01, 2023-09-15 status: 70% CC: Ganesh Description § Justification § Info § Extended: include signature aggregation into analysis write analysis section in Carnot paper nomos node nomos simulations Deliverables §.</description>
     <pubDate>Sat, 09 Sep 2023 14:05:44 GMT</pubDate>
   </items><items>
-    <title>Control Messages</title>
-    <link>https://roadmap.logos.co/roadmap/vac/dst/analysis-gsub-model/status/control-messages</link>
-    <guid>https://roadmap.logos.co/roadmap/vac/dst/analysis-gsub-model/status/control-messages</guid>
-    <description>vac:dst:analysis-gsub-model:status:control-messages § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Control Messages: 2023-07-01, 2023-09-15 status: 85% CC: Ganesh Description § Justification § Info § delayed because of extending Nomos analysis milestone Deliverables §.</description>
-    <pubDate>Sat, 09 Sep 2023 14:05:44 GMT</pubDate>
-  </items><items>
-    <title>Refactoring</title>
-    <link>https://roadmap.logos.co/roadmap/vac/dst/analysis-gsub-model/vac/refactoring</link>
-    <guid>https://roadmap.logos.co/roadmap/vac/dst/analysis-gsub-model/vac/refactoring</guid>
-    <description>vac:dst:analysis-gsub-model:vac:refactoring § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Refactoring: 2023-08-01, 2023-09-30 status: 40% CC: Ganesh Description § Justification § Deliverables §.</description>
-    <pubDate>Sat, 09 Sep 2023 14:05:44 GMT</pubDate>
-  </items><items>
     <title>Basic Shadow Simulation</title>
     <link>https://roadmap.logos.co/roadmap/vac/dst/analysis-shadow/vac/shadow-basic-simulation</link>
     <guid>https://roadmap.logos.co/roadmap/vac/dst/analysis-shadow/vac/shadow-basic-simulation</guid>
@@ -498,6 +492,18 @@
     <guid>https://roadmap.logos.co/roadmap/vac/dst/analysis-shadow/waku/shadow-waku-relay-analysis</guid>
     <description>vac:dst:analysis-shadow:waku:shadow-waku-relay-analysis § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Shadow Waku Relay Analysis: done, 2023-10-01, 2023-11-30 status: 0% CC: Jordi Description § Justification § Deliverables §.</description>
     <pubDate>Sat, 09 Sep 2023 14:15:53 GMT</pubDate>
+  </items><items>
+    <title>Control Messages</title>
+    <link>https://roadmap.logos.co/roadmap/vac/dst/analysis-gsub-model/status/control-messages</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/dst/analysis-gsub-model/status/control-messages</guid>
+    <description>vac:dst:analysis-gsub-model:status:control-messages § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Control Messages: 2023-07-01, 2023-09-15 status: 85% CC: Ganesh Description § Justification § Info § delayed because of extending Nomos analysis milestone Deliverables §.</description>
+    <pubDate>Sat, 09 Sep 2023 14:05:44 GMT</pubDate>
+  </items><items>
+    <title>Refactoring</title>
+    <link>https://roadmap.logos.co/roadmap/vac/dst/analysis-gsub-model/vac/refactoring</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/dst/analysis-gsub-model/vac/refactoring</guid>
+    <description>vac:dst:analysis-gsub-model:vac:refactoring § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Refactoring: 2023-08-01, 2023-09-30 status: 40% CC: Ganesh Description § Justification § Deliverables §.</description>
+    <pubDate>Sat, 09 Sep 2023 14:05:44 GMT</pubDate>
   </items><items>
     <title>Bundle Simulation Data</title>
     <link>https://roadmap.logos.co/roadmap/vac/dst/eng/vac/bundle-simulation-data</link>

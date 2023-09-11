@@ -173,6 +173,9 @@
     <loc>https://roadmap.logos.co/roadmap/waku/updates/2023-09-04</loc>
     <lastmod>2023-09-04T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/acz/rlnp2p/vac/rln-doc-and-outreach</loc>
+    <lastmod>2023-09-11T10:48:15.489Z</lastmod>
+  </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/acz/rlnp2p/waku/production-readiness</loc>
     <lastmod>2023-08-25T20:26:23.444Z</lastmod>
   </url><url>
@@ -230,12 +233,6 @@
     <loc>https://roadmap.logos.co/roadmap/vac/dst/analysis/nomos/nomos-simulation-analysis</loc>
     <lastmod>2023-09-09T14:05:44.604Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/roadmap/vac/dst/analysis-gsub-model/status/control-messages</loc>
-    <lastmod>2023-09-09T14:05:44.604Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/roadmap/vac/dst/analysis-gsub-model/vac/refactoring</loc>
-    <lastmod>2023-09-09T14:05:44.604Z</lastmod>
-  </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/dst/analysis-shadow/vac/shadow-basic-simulation</loc>
     <lastmod>2023-09-09T14:15:53.514Z</lastmod>
   </url><url>
@@ -244,6 +241,12 @@
   </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/dst/analysis-shadow/waku/shadow-waku-relay-analysis</loc>
     <lastmod>2023-09-09T14:15:53.514Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/dst/analysis-gsub-model/status/control-messages</loc>
+    <lastmod>2023-09-09T14:05:44.604Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/dst/analysis-gsub-model/vac/refactoring</loc>
+    <lastmod>2023-09-09T14:05:44.604Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/dst/eng/vac/bundle-simulation-data</loc>
     <lastmod>2023-09-09T14:05:44.604Z</lastmod>
