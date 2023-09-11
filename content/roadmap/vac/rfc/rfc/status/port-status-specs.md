@@ -51,11 +51,18 @@ RFCs to be moved / updates:
 * `16/Keycard` (discuss with keycard team)
 * `16/Push-Notifications` (raw, needs update)
 * `10/waku-usage` (outdated, check if we need that, update to Waku 2 if makes sense)
+
+#### out of scope?
+
+* `14/Dapp browser API usage` (this is not part of chat SDK, is this still a RFC? API doc would be more fitting here.)
 * `13/3RD-PARTY` (investigate, most likely out-of-scope as it is not a protocol spec)
 * `8/EIPS` (clarify if we have to port this → this should not be an RFC, needs constant updates, link EIPS in RFCs where needed)
-* `14/Dapp browser API usage` ()
-* `11/Waku-Mailserver` (outdated, add with minor adjustments)
 
+#### stable - deprecated
+(just copy these; confirm this is OK)
+
+* `4/whisper-mailserver`
+* `11/Waku-Mailserver`
 
 ### Justification
 
