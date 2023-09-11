@@ -253,6 +253,12 @@
     <description>vac:tke:: § status: § snt-lightpaper SNT-governance-proposal SNT-staking codex: § economic-analysis nomos: § economic-analysis waku: § economic-analysis .</description>
     <pubDate>Sat, 09 Sep 2023 00:00:00 GMT</pubDate>
   </items><items>
+    <title>Zero-knowledge Virtual Machine Incubation Project</title>
+    <link>https://roadmap.logos.co/roadmap/vac/zkvm/overview</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/zkvm/overview</guid>
+    <description>vac:zkvm:proofsystems § research-existing-proofsystems benchmarks .</description>
+    <pubDate>Wed, 06 Sep 2023 00:00:00 GMT</pubDate>
+  </items><items>
     <title>2023-07-10 Vac Weekly</title>
     <link>https://roadmap.logos.co/roadmap/vac/updates/2023-07-10</link>
     <guid>https://roadmap.logos.co/roadmap/vac/updates/2023-07-10</guid>
@@ -306,12 +312,6 @@
     <guid>https://roadmap.logos.co/roadmap/vac/updates/2023-09-04</guid>
     <description>Vac 2023/09/04 § Vac Milestones Vac Github Repos vac:p2p: § nimlibp2p:vac:gossipsub-ddos-mitigation Opened upstream discussion about gossipsub peer exchange (which is a DDoS vector) 570 nimlibp2p:vac:webrtc-transport Hitting roadblocks on DTLS vac:tke:: § codex:economic-analysis Presenting Filecoin findings to Codex team Litepaper: assumptions on collateral status:SNT-staking Highlighted multiple design requirements not met by SC implementation for SC team notion doc Open questions w/ John, epoch duration Staking governance proposal for when John returns Sep 12 nomos:economic-analysis Delegated staking specifications w/Marcin, update for privacy constraints Bribery attacks analysis, Moh asked to followup early/mid Sep waku:economic-analysis Formalized RLN thoughts shared w/ Aaryamann, will push for additional feedback once Martin returns vac:dst: § analysis:nomos:nomos-simulation-analysis Took over data generation on Tuesday Found a bug in simulations, working around it The comparison runs are now fully automated got the first full set of comparison plots: everything appears to be explainable for a fixed probability Tree runs now scale to 15k nodes wakurtosis:vac:retrospective-rlog Gather info and wrote summary of why we decided to stop using Kurtosis.</description>
     <pubDate>Mon, 04 Sep 2023 00:00:00 GMT</pubDate>
-  </items><items>
-    <title>Zero-knowledge Virtual Machine Incubation Project</title>
-    <link>https://roadmap.logos.co/roadmap/vac/zkvm/overview</link>
-    <guid>https://roadmap.logos.co/roadmap/vac/zkvm/overview</guid>
-    <description>vac:zkvm:proofsystems § research-existing-proofsystems benchmarks .</description>
-    <pubDate>Wed, 06 Sep 2023 00:00:00 GMT</pubDate>
   </items><items>
     <title>2023-07-24 Waku weekly</title>
     <link>https://roadmap.logos.co/roadmap/waku/updates/2023-07-24</link>
@@ -475,6 +475,18 @@
     <description>vac:dst:analysis:nomos:simulation-analysis § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Simulation Analysis: 2023-08-01, 2023-09-15 status: 70% CC: Ganesh Description § Justification § Info § Extended: include signature aggregation into analysis write analysis section in Carnot paper nomos node nomos simulations Deliverables §.</description>
     <pubDate>Sat, 09 Sep 2023 14:05:44 GMT</pubDate>
   </items><items>
+    <title>Control Messages</title>
+    <link>https://roadmap.logos.co/roadmap/vac/dst/analysis-gsub-model/status/control-messages</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/dst/analysis-gsub-model/status/control-messages</guid>
+    <description>vac:dst:analysis-gsub-model:status:control-messages § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Control Messages: 2023-07-01, 2023-09-15 status: 85% CC: Ganesh Description § Justification § Info § delayed because of extending Nomos analysis milestone Deliverables §.</description>
+    <pubDate>Sat, 09 Sep 2023 14:05:44 GMT</pubDate>
+  </items><items>
+    <title>Refactoring</title>
+    <link>https://roadmap.logos.co/roadmap/vac/dst/analysis-gsub-model/vac/refactoring</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/dst/analysis-gsub-model/vac/refactoring</guid>
+    <description>vac:dst:analysis-gsub-model:vac:refactoring § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Refactoring: 2023-08-01, 2023-09-30 status: 40% CC: Ganesh Description § Justification § Deliverables §.</description>
+    <pubDate>Sat, 09 Sep 2023 14:05:44 GMT</pubDate>
+  </items><items>
     <title>Basic Shadow Simulation</title>
     <link>https://roadmap.logos.co/roadmap/vac/dst/analysis-shadow/vac/shadow-basic-simulation</link>
     <guid>https://roadmap.logos.co/roadmap/vac/dst/analysis-shadow/vac/shadow-basic-simulation</guid>
@@ -492,18 +504,6 @@
     <guid>https://roadmap.logos.co/roadmap/vac/dst/analysis-shadow/waku/shadow-waku-relay-analysis</guid>
     <description>vac:dst:analysis-shadow:waku:shadow-waku-relay-analysis § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Shadow Waku Relay Analysis: done, 2023-10-01, 2023-11-30 status: 0% CC: Jordi Description § Justification § Deliverables §.</description>
     <pubDate>Sat, 09 Sep 2023 14:15:53 GMT</pubDate>
-  </items><items>
-    <title>Control Messages</title>
-    <link>https://roadmap.logos.co/roadmap/vac/dst/analysis-gsub-model/status/control-messages</link>
-    <guid>https://roadmap.logos.co/roadmap/vac/dst/analysis-gsub-model/status/control-messages</guid>
-    <description>vac:dst:analysis-gsub-model:status:control-messages § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Control Messages: 2023-07-01, 2023-09-15 status: 85% CC: Ganesh Description § Justification § Info § delayed because of extending Nomos analysis milestone Deliverables §.</description>
-    <pubDate>Sat, 09 Sep 2023 14:05:44 GMT</pubDate>
-  </items><items>
-    <title>Refactoring</title>
-    <link>https://roadmap.logos.co/roadmap/vac/dst/analysis-gsub-model/vac/refactoring</link>
-    <guid>https://roadmap.logos.co/roadmap/vac/dst/analysis-gsub-model/vac/refactoring</guid>
-    <description>vac:dst:analysis-gsub-model:vac:refactoring § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Refactoring: 2023-08-01, 2023-09-30 status: 40% CC: Ganesh Description § Justification § Deliverables §.</description>
-    <pubDate>Sat, 09 Sep 2023 14:05:44 GMT</pubDate>
   </items><items>
     <title>Bundle Simulation Data</title>
     <link>https://roadmap.logos.co/roadmap/vac/dst/eng/vac/bundle-simulation-data</link>
@@ -647,7 +647,7 @@
     <link>https://roadmap.logos.co/roadmap/vac/rfc/rfc/status/port-status-specs</link>
     <guid>https://roadmap.logos.co/roadmap/vac/rfc/rfc/status/port-status-specs</guid>
     <description>vac:rfc:rfc:status:port-status-specs § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Port Status Spec: 2023-08-01, 2023-11-31 status: 30% CC: r4bbit, Aaryamann Description § This milestone comprises the first version of each of the specifications.</description>
-    <pubDate>Sat, 09 Sep 2023 15:38:44 GMT</pubDate>
+    <pubDate>Mon, 11 Sep 2023 13:33:44 GMT</pubDate>
   </items><items>
     <title>Community Contracts ERC20</title>
     <link>https://roadmap.logos.co/roadmap/vac/sc/g/status/community-contracts-ERC20</link>
