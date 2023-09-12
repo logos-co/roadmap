@@ -3,8 +3,8 @@ title: Applied Cryptography and Zero-knowledge Service Unit
 tags:
 - acz
 - vac
-date: 2023-08-25
-lastmod: 2023-09-06
+date: 2023-09-12
+lastmod: 2023-09-12
 ---
 
 ## `vac:acz:`
@@ -21,3 +21,6 @@ lastmod: 2023-09-06
 ### `zerokit:vac:`
 * [[roadmap/vac/acz/zerokit/vac/zerokit-v0-4 | zerokit-v0.4]]
 * [[roadmap/vac/acz/zerokit/vac/maintenance | maintenance]]
+
+### `secure-channels:waku:`
+* [[roadmap/vac/acz/secure-channels/waku/ethereum-chat | ethereum-chat]]
