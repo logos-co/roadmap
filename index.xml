@@ -241,23 +241,17 @@
     <description>vac:rfc: § rfc:status: § port-status-specs rfc:nomos: § carnot-specification carnot-threat-model-informational carnot-vote-2-3rds-vote-aggregation-specification inter-chain-protocol-specification multi-leader-and-multi-overlay-carnot-specification .</description>
     <pubDate>Wed, 06 Sep 2023 00:00:00 GMT</pubDate>
   </items><items>
-    <title>Token Engineering Service Unit</title>
-    <link>https://roadmap.logos.co/roadmap/vac/tke/overview</link>
-    <guid>https://roadmap.logos.co/roadmap/vac/tke/overview</guid>
-    <description>vac:tke:: § status: § snt-lightpaper SNT-governance-proposal SNT-staking codex: § economic-analysis nomos: § economic-analysis waku: § economic-analysis .</description>
-    <pubDate>Sat, 09 Sep 2023 00:00:00 GMT</pubDate>
-  </items><items>
     <title>Smart Contracts Service Unit</title>
     <link>https://roadmap.logos.co/roadmap/vac/sc/overview</link>
     <guid>https://roadmap.logos.co/roadmap/vac/sc/overview</guid>
     <description>vac:sc:: § status: § staking-contract staking-contract_02 staking-contract-maintenance governance-contract-mvp community-contracts-ERC721 community-contracts-ERC20 community-contracts-deployer community-contracts-maintenance vac: § secureum-upskilling rln-contract-support .</description>
     <pubDate>Wed, 06 Sep 2023 00:00:00 GMT</pubDate>
   </items><items>
-    <title>Zero-knowledge Virtual Machine Incubation Project</title>
-    <link>https://roadmap.logos.co/roadmap/vac/zkvm/overview</link>
-    <guid>https://roadmap.logos.co/roadmap/vac/zkvm/overview</guid>
-    <description>vac:zkvm:proofsystems § research-existing-proofsystems benchmarks .</description>
-    <pubDate>Wed, 06 Sep 2023 00:00:00 GMT</pubDate>
+    <title>Token Engineering Service Unit</title>
+    <link>https://roadmap.logos.co/roadmap/vac/tke/overview</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/tke/overview</guid>
+    <description>vac:tke:: § status: § snt-lightpaper SNT-governance-proposal SNT-staking codex: § economic-analysis nomos: § economic-analysis waku: § economic-analysis .</description>
+    <pubDate>Sat, 09 Sep 2023 00:00:00 GMT</pubDate>
   </items><items>
     <title>2023-07-10 Vac Weekly</title>
     <link>https://roadmap.logos.co/roadmap/vac/updates/2023-07-10</link>
@@ -319,6 +313,12 @@
     <description>vac:p2p: § vac:tke: § vac:dst: § wakurtosis:vac:rlog Address PR feedback (123) wakurtosis:waku:techreport_03 batch of simulation data with 0 msg/s rate.</description>
     <pubDate>Mon, 11 Sep 2023 00:00:00 GMT</pubDate>
   </items><items>
+    <title>Zero-knowledge Virtual Machine Incubation Project</title>
+    <link>https://roadmap.logos.co/roadmap/vac/zkvm/overview</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/zkvm/overview</guid>
+    <description>vac:zkvm:proofsystems § research-existing-proofsystems benchmarks .</description>
+    <pubDate>Wed, 06 Sep 2023 00:00:00 GMT</pubDate>
+  </items><items>
     <title>2023-07-24 Waku weekly</title>
     <link>https://roadmap.logos.co/roadmap/waku/updates/2023-07-24</link>
     <guid>https://roadmap.logos.co/roadmap/waku/updates/2023-07-24</guid>
@@ -361,11 +361,11 @@
     <description>2023-09-04 Waku weekly § Epics § 1.1 Network requirements and task breakdown {E:2023-1mil-users} achieved: Started working on Waku Network RFC. Visibility and traceability in GH improvements.</description>
     <pubDate>Mon, 04 Sep 2023 00:00:00 GMT</pubDate>
   </items><items>
-    <title>Zerokit v0.4 Release Details</title>
-    <link>https://roadmap.logos.co/roadmap/vac/acz/zerokit/vac/zerokit-v0-4</link>
-    <guid>https://roadmap.logos.co/roadmap/vac/acz/zerokit/vac/zerokit-v0-4</guid>
-    <description>vac:acz:zerokit::vac:zerokit-v0.4 § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section zerokit v0.</description>
-    <pubDate>Mon, 11 Sep 2023 15:31:14 GMT</pubDate>
+    <title>2023-09-11 Waku weekly</title>
+    <link>https://roadmap.logos.co/roadmap/waku/updates/2023-09-11</link>
+    <guid>https://roadmap.logos.co/roadmap/waku/updates/2023-09-11</guid>
+    <description>/usr/bin/node /home/fryorcraken/src/fryorcraken/milestone-update/index.js weekly 2023-09-11 Waku weekly § Research § 1.1 Network requirements and task breakdown {E:1.</description>
+    <pubDate>Mon, 11 Sep 2023 00:00:00 GMT</pubDate>
   </items><items>
     <title>RLN Doc and Outreach</title>
     <link>https://roadmap.logos.co/roadmap/vac/acz/rlnp2p/vac/rln-doc-and-outreach</link>
@@ -389,6 +389,12 @@
     <link>https://roadmap.logos.co/roadmap/vac/acz/rlnp2p/waku/rln-relay-enhancements</link>
     <guid>https://roadmap.logos.co/roadmap/vac/acz/rlnp2p/waku/rln-relay-enhancements</guid>
     <description>vac:acz:rlnp2p::waku:rln-relay-enhancements § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section rlnp2p-waku RLN-RELAY enhancements :, 2023-06-01, 2023-09-30 due: 2023/09/30 status: 100% Description § simple membership management setup (fixed CC list) instruction on how to register to the membership set / setup up (for Waku CCs) Goal § Run RLN relay on the Waku production fleet.</description>
+    <pubDate>Mon, 11 Sep 2023 15:31:14 GMT</pubDate>
+  </items><items>
+    <title>Zerokit v0.4 Release Details</title>
+    <link>https://roadmap.logos.co/roadmap/vac/acz/zerokit/vac/zerokit-v0-4</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/acz/zerokit/vac/zerokit-v0-4</guid>
+    <description>vac:acz:zerokit::vac:zerokit-v0.4 § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section zerokit v0.</description>
     <pubDate>Mon, 11 Sep 2023 15:31:14 GMT</pubDate>
   </items><items>
     <title>Blockchain Security in Crypto-economic Models</title>
@@ -655,42 +661,6 @@
     <description>vac:rfc:rfc:status:port-status-specs § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Port Status Spec: 2023-08-01, 2023-11-31 status: 30% CC: r4bbit, Aaryamann Description § This milestone comprises the first version of each of the specifications.</description>
     <pubDate>Mon, 11 Sep 2023 13:33:44 GMT</pubDate>
   </items><items>
-    <title>Codex Economic Analysis</title>
-    <link>https://roadmap.logos.co/roadmap/vac/tke/g/codex/economic-analysis</link>
-    <guid>https://roadmap.logos.co/roadmap/vac/tke/g/codex/economic-analysis</guid>
-    <description>vac:tke::codex:economic-analysis § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section Codex Economic Analysis :, 2023-01-20, 2023-08-30 status: 50% CC: Matty Description § Codex economic analysis, Codex token utility, Codex collateral management Justification § Per Dimitry and Jesse, required by Codex team for completing implementation of system and planning launch.</description>
-    <pubDate>Sat, 09 Sep 2023 09:35:12 GMT</pubDate>
-  </items><items>
-    <title>Nomos Economic Analysis</title>
-    <link>https://roadmap.logos.co/roadmap/vac/tke/g/nomos/economic-analysis</link>
-    <guid>https://roadmap.logos.co/roadmap/vac/tke/g/nomos/economic-analysis</guid>
-    <description>vac:tke::nomos:economic-analysis § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section Nomos Economic Analysis :, 2023-05-01, 2023-10-31 status: 30% CC: Frederico Description § Nomos economic analysis, Nomos token utility, requirements and constraints Justification § Required for ensuring economic security and censorship resistance of Nomos chain.</description>
-    <pubDate>Sat, 09 Sep 2023 09:35:12 GMT</pubDate>
-  </items><items>
-    <title>SNT Governance Proposal</title>
-    <link>https://roadmap.logos.co/roadmap/vac/tke/g/status/snt-governance-proposal</link>
-    <guid>https://roadmap.logos.co/roadmap/vac/tke/g/status/snt-governance-proposal</guid>
-    <description>vac:tke::status:SNT-governance-proposal § due: TDB status: TDB CC: Matty Description § took precedence over SNT litepaper first draft being prepared for next review with John on 2023/09/12 Justification § Per John’s request, high importance for involving community for relaunch of Status app and refresh of SNT token .</description>
-    <pubDate>Sat, 09 Sep 2023 09:35:12 GMT</pubDate>
-  </items><items>
-    <title>SNT Litepaper</title>
-    <link>https://roadmap.logos.co/roadmap/vac/tke/g/status/snt-litepaper</link>
-    <guid>https://roadmap.logos.co/roadmap/vac/tke/g/status/snt-litepaper</guid>
-    <description>vac:tke::status:SNT-litepaper § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section Status SNT Litepaper: 2023-01-20, 2023-08-30 status: 70% - delayed: governance proposal taking precedence CC: Matty Description § delayed, other milestones took precedence Per confirmation with John on 2023/08/22 litepaper is not a pressing need, much lower priority than governance proposal Justification § helpful to support relaunch of Status app and describe SNT’s new staking features .</description>
-    <pubDate>Sat, 09 Sep 2023 12:53:23 GMT</pubDate>
-  </items><items>
-    <title>SNT Staking</title>
-    <link>https://roadmap.logos.co/roadmap/vac/tke/g/status/snt-staking</link>
-    <guid>https://roadmap.logos.co/roadmap/vac/tke/g/status/snt-staking</guid>
-    <description>vac:tke::status:SNT-staking § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section Status SNT Staking :, 2023-01-20, 2023-08-30 status: 82% CC: Frederico (Python), Martin collab: smart contracts team Description: § Risks § implementation of the smart contract is being handed off to smart contract team .</description>
-    <pubDate>Sat, 09 Sep 2023 09:35:12 GMT</pubDate>
-  </items><items>
-    <title>Waku Economic Analysis</title>
-    <link>https://roadmap.logos.co/roadmap/vac/tke/g/waku/economic-analysis</link>
-    <guid>https://roadmap.logos.co/roadmap/vac/tke/g/waku/economic-analysis</guid>
-    <description>vac:tke::waku:economic-analysis § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section Waku Economic Analysis :, 2023-06-01, 2023-11-30 status: 10% CC: Martin Description § Waku economic analysis.</description>
-    <pubDate>Sat, 09 Sep 2023 09:35:12 GMT</pubDate>
-  </items><items>
     <title>Community Contracts ERC20</title>
     <link>https://roadmap.logos.co/roadmap/vac/sc/g/status/community-contracts-ERC20</link>
     <guid>https://roadmap.logos.co/roadmap/vac/sc/g/status/community-contracts-ERC20</guid>
@@ -750,6 +720,42 @@
     <guid>https://roadmap.logos.co/roadmap/vac/sc/g/vac/secureum-upskilling</guid>
     <description>vac:sc::vac:secureum-upskilling § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Secureum Upskilling: 2023-08-15, 2023-10-15 status: 70% CC: team Description § Justification § Deliverables §.</description>
     <pubDate>Sat, 09 Sep 2023 14:55:23 GMT</pubDate>
+  </items><items>
+    <title>Codex Economic Analysis</title>
+    <link>https://roadmap.logos.co/roadmap/vac/tke/g/codex/economic-analysis</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/tke/g/codex/economic-analysis</guid>
+    <description>vac:tke::codex:economic-analysis § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section Codex Economic Analysis :, 2023-01-20, 2023-08-30 status: 50% CC: Matty Description § Codex economic analysis, Codex token utility, Codex collateral management Justification § Per Dimitry and Jesse, required by Codex team for completing implementation of system and planning launch.</description>
+    <pubDate>Sat, 09 Sep 2023 09:35:12 GMT</pubDate>
+  </items><items>
+    <title>Nomos Economic Analysis</title>
+    <link>https://roadmap.logos.co/roadmap/vac/tke/g/nomos/economic-analysis</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/tke/g/nomos/economic-analysis</guid>
+    <description>vac:tke::nomos:economic-analysis § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section Nomos Economic Analysis :, 2023-05-01, 2023-10-31 status: 30% CC: Frederico Description § Nomos economic analysis, Nomos token utility, requirements and constraints Justification § Required for ensuring economic security and censorship resistance of Nomos chain.</description>
+    <pubDate>Sat, 09 Sep 2023 09:35:12 GMT</pubDate>
+  </items><items>
+    <title>SNT Governance Proposal</title>
+    <link>https://roadmap.logos.co/roadmap/vac/tke/g/status/snt-governance-proposal</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/tke/g/status/snt-governance-proposal</guid>
+    <description>vac:tke::status:SNT-governance-proposal § due: TDB status: TDB CC: Matty Description § took precedence over SNT litepaper first draft being prepared for next review with John on 2023/09/12 Justification § Per John’s request, high importance for involving community for relaunch of Status app and refresh of SNT token .</description>
+    <pubDate>Sat, 09 Sep 2023 09:35:12 GMT</pubDate>
+  </items><items>
+    <title>SNT Litepaper</title>
+    <link>https://roadmap.logos.co/roadmap/vac/tke/g/status/snt-litepaper</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/tke/g/status/snt-litepaper</guid>
+    <description>vac:tke::status:SNT-litepaper § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section Status SNT Litepaper: 2023-01-20, 2023-08-30 status: 70% - delayed: governance proposal taking precedence CC: Matty Description § delayed, other milestones took precedence Per confirmation with John on 2023/08/22 litepaper is not a pressing need, much lower priority than governance proposal Justification § helpful to support relaunch of Status app and describe SNT’s new staking features .</description>
+    <pubDate>Sat, 09 Sep 2023 12:53:23 GMT</pubDate>
+  </items><items>
+    <title>SNT Staking</title>
+    <link>https://roadmap.logos.co/roadmap/vac/tke/g/status/snt-staking</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/tke/g/status/snt-staking</guid>
+    <description>vac:tke::status:SNT-staking § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section Status SNT Staking :, 2023-01-20, 2023-08-30 status: 82% CC: Frederico (Python), Martin collab: smart contracts team Description: § Risks § implementation of the smart contract is being handed off to smart contract team .</description>
+    <pubDate>Sat, 09 Sep 2023 09:35:12 GMT</pubDate>
+  </items><items>
+    <title>Waku Economic Analysis</title>
+    <link>https://roadmap.logos.co/roadmap/vac/tke/g/waku/economic-analysis</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/tke/g/waku/economic-analysis</guid>
+    <description>vac:tke::waku:economic-analysis § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section Waku Economic Analysis :, 2023-06-01, 2023-11-30 status: 10% CC: Martin Description § Waku economic analysis.</description>
+    <pubDate>Sat, 09 Sep 2023 09:35:12 GMT</pubDate>
   </items><items>
     <title>Benchmarks</title>
     <link>https://roadmap.logos.co/roadmap/vac/zkvm/proofsystems/vac/benchmarks</link>

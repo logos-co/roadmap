@@ -116,14 +116,11 @@
     <loc>https://roadmap.logos.co/roadmap/vac/rfc/overview</loc>
     <lastmod>2023-09-06T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/roadmap/vac/tke/overview</loc>
-    <lastmod>2023-09-09T00:00:00.000Z</lastmod>
-  </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/sc/overview</loc>
     <lastmod>2023-09-06T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/roadmap/vac/zkvm/overview</loc>
-    <lastmod>2023-09-06T00:00:00.000Z</lastmod>
+    <loc>https://roadmap.logos.co/roadmap/vac/tke/overview</loc>
+    <lastmod>2023-09-09T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/updates/2023-07-10</loc>
     <lastmod>2023-07-16T00:00:00.000Z</lastmod>
@@ -155,6 +152,9 @@
     <loc>https://roadmap.logos.co/roadmap/vac/updates/2023-09-11</loc>
     <lastmod>2023-09-11T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/zkvm/overview</loc>
+    <lastmod>2023-09-06T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://roadmap.logos.co/roadmap/waku/updates/2023-07-24</loc>
     <lastmod>2023-08-04T00:00:00.000Z</lastmod>
   </url><url>
@@ -176,8 +176,8 @@
     <loc>https://roadmap.logos.co/roadmap/waku/updates/2023-09-04</loc>
     <lastmod>2023-09-04T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/roadmap/vac/acz/zerokit/vac/zerokit-v0-4</loc>
-    <lastmod>2023-09-11T15:31:14.941Z</lastmod>
+    <loc>https://roadmap.logos.co/roadmap/waku/updates/2023-09-11</loc>
+    <lastmod>2023-09-11T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/acz/rlnp2p/vac/rln-doc-and-outreach</loc>
     <lastmod>2023-09-11T15:31:14.941Z</lastmod>
@@ -189,6 +189,9 @@
     <lastmod>2023-09-11T15:31:14.941Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/acz/rlnp2p/waku/rln-relay-enhancements</loc>
+    <lastmod>2023-09-11T15:31:14.941Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/acz/zerokit/vac/zerokit-v0-4</loc>
     <lastmod>2023-09-11T15:31:14.941Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/dr/consensus/nomos/blockchain-security-in-crypto-economic-models</loc>
@@ -323,24 +326,6 @@
     <loc>https://roadmap.logos.co/roadmap/vac/rfc/rfc/status/port-status-specs</loc>
     <lastmod>2023-09-11T13:33:44.656Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/roadmap/vac/tke/g/codex/economic-analysis</loc>
-    <lastmod>2023-09-09T09:35:12.422Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/roadmap/vac/tke/g/nomos/economic-analysis</loc>
-    <lastmod>2023-09-09T09:35:12.422Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/roadmap/vac/tke/g/status/snt-governance-proposal</loc>
-    <lastmod>2023-09-09T09:35:12.422Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/roadmap/vac/tke/g/status/snt-litepaper</loc>
-    <lastmod>2023-09-09T12:53:23.017Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/roadmap/vac/tke/g/status/snt-staking</loc>
-    <lastmod>2023-09-09T09:35:12.422Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/roadmap/vac/tke/g/waku/economic-analysis</loc>
-    <lastmod>2023-09-09T09:35:12.422Z</lastmod>
-  </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/sc/g/status/community-contracts-ERC20</loc>
     <lastmod>2023-09-09T14:55:23.791Z</lastmod>
   </url><url>
@@ -370,6 +355,24 @@
   </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/sc/g/vac/secureum-upskilling</loc>
     <lastmod>2023-09-09T14:55:23.791Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/tke/g/codex/economic-analysis</loc>
+    <lastmod>2023-09-09T09:35:12.422Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/tke/g/nomos/economic-analysis</loc>
+    <lastmod>2023-09-09T09:35:12.422Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/tke/g/status/snt-governance-proposal</loc>
+    <lastmod>2023-09-09T09:35:12.422Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/tke/g/status/snt-litepaper</loc>
+    <lastmod>2023-09-09T12:53:23.017Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/tke/g/status/snt-staking</loc>
+    <lastmod>2023-09-09T09:35:12.422Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/tke/g/waku/economic-analysis</loc>
+    <lastmod>2023-09-09T09:35:12.422Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/zkvm/proofsystems/vac/benchmarks</loc>
     <lastmod>2023-09-09T15:28:18.670Z</lastmod>
