@@ -146,6 +146,9 @@
     <loc>https://roadmap.logos.co/roadmap/vac/tke/overview</loc>
     <lastmod>2023-09-09T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/zkvm/overview</loc>
+    <lastmod>2023-09-06T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/updates/2023-07-10</loc>
     <lastmod>2023-07-16T00:00:00.000Z</lastmod>
   </url><url>
@@ -175,9 +178,6 @@
   </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/updates/2023-09-11</loc>
     <lastmod>2023-09-11T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/roadmap/vac/zkvm/overview</loc>
-    <lastmod>2023-09-06T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/acz/rlnp2p/vac/rln-doc-and-outreach</loc>
     <lastmod>2023-09-11T15:31:14.941Z</lastmod>
@@ -210,7 +210,7 @@
     <lastmod>2023-09-12T16:12:30.676Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/dr/consensus/nomos/carnot-paper_02</loc>
-    <lastmod>2023-09-12T16:12:30.676Z</lastmod>
+    <lastmod>2023-09-12T16:15:55.111Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/dr/consensus/nomos/detecting-reporting-attacks-carnot</loc>
     <lastmod>2023-09-09T15:55:04.865Z</lastmod>

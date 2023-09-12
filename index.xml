@@ -301,6 +301,12 @@
     <description>vac:tke:: § status: § snt-lightpaper SNT-governance-proposal SNT-staking codex: § economic-analysis nomos: § economic-analysis waku: § economic-analysis .</description>
     <pubDate>Sat, 09 Sep 2023 00:00:00 GMT</pubDate>
   </items><items>
+    <title>Zero-knowledge Virtual Machine Incubation Project</title>
+    <link>https://roadmap.logos.co/roadmap/vac/zkvm/overview</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/zkvm/overview</guid>
+    <description>vac:zkvm:proofsystems § research-existing-proofsystems benchmarks .</description>
+    <pubDate>Wed, 06 Sep 2023 00:00:00 GMT</pubDate>
+  </items><items>
     <title>2023-07-10 Vac Weekly</title>
     <link>https://roadmap.logos.co/roadmap/vac/updates/2023-07-10</link>
     <guid>https://roadmap.logos.co/roadmap/vac/updates/2023-07-10</guid>
@@ -360,12 +366,6 @@
     <guid>https://roadmap.logos.co/roadmap/vac/updates/2023-09-11</guid>
     <description>vac:p2p: § vac:tke: § vac:dst: § wakurtosis:vac:rlog Address PR feedback (123) wakurtosis:waku:techreport_03 batch of simulation data with 0 msg/s rate.</description>
     <pubDate>Mon, 11 Sep 2023 00:00:00 GMT</pubDate>
-  </items><items>
-    <title>Zero-knowledge Virtual Machine Incubation Project</title>
-    <link>https://roadmap.logos.co/roadmap/vac/zkvm/overview</link>
-    <guid>https://roadmap.logos.co/roadmap/vac/zkvm/overview</guid>
-    <description>vac:zkvm:proofsystems § research-existing-proofsystems benchmarks .</description>
-    <pubDate>Wed, 06 Sep 2023 00:00:00 GMT</pubDate>
   </items><items>
     <title>RLN Doc and Outreach</title>
     <link>https://roadmap.logos.co/roadmap/vac/acz/rlnp2p/vac/rln-doc-and-outreach</link>
@@ -430,8 +430,8 @@
     <title>Carnot Paper 02</title>
     <link>https://roadmap.logos.co/roadmap/vac/dr/consensus/nomos/carnot-paper_02</link>
     <guid>https://roadmap.logos.co/roadmap/vac/dr/consensus/nomos/carnot-paper_02</guid>
-    <description>vac:dr:consensus:nomos:carnot-paper_02 § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Carnot Paper: 2023-09-01, 2024 status: 100% CC: Moh Description § complete experimental results publish the paper at a scientific conference or journal present the paper at the conference the goal is to submit before end of 2023 Risks § We need to find a fitting conference and the respective deadlines might not align.</description>
-    <pubDate>Tue, 12 Sep 2023 16:12:30 GMT</pubDate>
+    <description>vac:dr:consensus:nomos:carnot-paper_02 § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Carnot Paper: 2023-09-01, 2024 status: 10% CC: Moh Description § complete experimental results publish the paper at a scientific conference or journal present the paper at the conference the goal is to submit before end of 2023 Risks § We need to find a fitting conference and the respective deadlines might not align.</description>
+    <pubDate>Tue, 12 Sep 2023 16:15:55 GMT</pubDate>
   </items><items>
     <title>Detecting Reporting Attacks Carnot</title>
     <link>https://roadmap.logos.co/roadmap/vac/dr/consensus/nomos/detecting-reporting-attacks-carnot</link>
