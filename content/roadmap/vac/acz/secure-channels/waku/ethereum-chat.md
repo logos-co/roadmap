@@ -38,11 +38,13 @@ The goal of this milestone is having
   - should be transport agnostic
   - toy eth chat: https://rfc.vac.dev/spec/20/
     - this milestone requires forward secrecy (see limitations section of the toy eth chat RFC)
+  - consider using https://eips.ethereum.org/EIPS/eip-5564
 * Naive Groupchat functionality (using `n` 1:1 chat channels)
 * involve metamask here (metamask im team)
 
 * a follow up milestone will cover running Ethereum chat on top of Waku
 * follow up goal: develop this into an EIP
+
 
 
 ### Justification
