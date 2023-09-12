@@ -25,7 +25,7 @@ gantt
     Carnot Paper: 2023-09-01, 2024
 ```
 
-- status: 100%
+- status: 10%
 - CC: Moh
 
 ### Description
