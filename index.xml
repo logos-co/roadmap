@@ -215,7 +215,7 @@
     <link>https://roadmap.logos.co/roadmap/vac/acz/overview</link>
     <guid>https://roadmap.logos.co/roadmap/vac/acz/overview</guid>
     <description>vac:acz: § rlnp2p:waku: § production-readiness rln-membership-management rln-relay-enhancements rlnp2p:vac: § rln-doc-and-outreach zerokit:vac: § zerokit-v0.</description>
-    <pubDate>Wed, 06 Sep 2023 00:00:00 GMT</pubDate>
+    <pubDate>Tue, 12 Sep 2023 00:00:00 GMT</pubDate>
   </items><items>
     <title>Deep Research Service Unit</title>
     <link>https://roadmap.logos.co/roadmap/vac/dr/overview</link>
@@ -390,6 +390,12 @@
     <guid>https://roadmap.logos.co/roadmap/vac/acz/rlnp2p/waku/rln-relay-enhancements</guid>
     <description>vac:acz:rlnp2p::waku:rln-relay-enhancements § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section rlnp2p-waku RLN-RELAY enhancements :, 2023-06-01, 2023-09-30 due: 2023/09/30 status: 100% Description § simple membership management setup (fixed CC list) instruction on how to register to the membership set / setup up (for Waku CCs) Goal § Run RLN relay on the Waku production fleet.</description>
     <pubDate>Mon, 11 Sep 2023 15:31:14 GMT</pubDate>
+  </items><items>
+    <title>Ethereum Chat</title>
+    <link>https://roadmap.logos.co/roadmap/vac/acz/secure-channels/waku/ethereum-chat</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/acz/secure-channels/waku/ethereum-chat</guid>
+    <description>vac:acz:secure-channels:waku:ethereum-chat § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Ethereum Chat: 2023-09-12, 2023-11-31 status: 0% CC: Ramses Description § The goal of this milestone is having using the noise framework Ethereum Wallet address used to derive authentication key for noise expand this 20 Design an Ethereum address-based 1:1 chat should be transport agnostic toy eth chat: 20 this milestone requires forward secrecy Naive Groupchat functionality (using n 1:1 chat channels) involve metamask here (metamask im team) a follow up milestone will cover run Ethereum chat on top of Waku follow up goal: develop this into an EIP Justification § Deliverables § specification (RFC) of a secure Ethereum-based chat protocol .</description>
+    <pubDate>Tue, 12 Sep 2023 13:24:20 GMT</pubDate>
   </items><items>
     <title>Zerokit v0.4 Release Details</title>
     <link>https://roadmap.logos.co/roadmap/vac/acz/zerokit/vac/zerokit-v0-4</link>
