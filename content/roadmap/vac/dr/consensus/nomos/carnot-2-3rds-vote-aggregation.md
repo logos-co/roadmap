@@ -22,7 +22,7 @@ gantt
   tickInterval 1month
   dateFormat YYYY-MM-DD 
   section Status
-    Carnot 2/3 Vote Aggregation:  2023-08-01, 2023-10-31
+    Carnot 2/3 Vote Aggregation:  2023-08-01, 2023-10-15
 ```
 
 - status: 20%
@@ -33,6 +33,11 @@ gantt
 
 This research will use the Carnot flexible design to make it collect more than 2/3rd of cryptographic proof of votes cast for a block.
 
+* write a research log post
+* desciption of the solution
+
+* spec is part of the RFC roadmap [[roadmap/vac/rfc/rfc/nomos/carnot-vote-2-3rds-vote-aggregation-specification | carnot-vote-2-3rds-vote-aggregation-specification ]]
+
 ### Risks
 
 Might slightly increase the protocol overhead. But we make sure this overhead is minimal.
@@ -42,9 +47,12 @@ Might slightly increase the protocol overhead. But we make sure this overhead is
 
 ### Deliverables
 
-* Presentation slides and Pseudocode (potentially paper in a future milestone)
-* RFC, executable spec <- focus
+*  [x] Presentation slides (logos research)
+* Pseudocode (potentially paper in a future milestone)
+* notion doc describing the solution
+* research log post
+* python code
 
-Note:Need to be discussed: The Pseudocode can be completed earlier so that devs can began implementation, whereas the paper can be completed later.
+Note: Need to be discussed: The Pseudocode can be completed earlier so that devs can began implementation, whereas the paper can be completed later.
 
 
