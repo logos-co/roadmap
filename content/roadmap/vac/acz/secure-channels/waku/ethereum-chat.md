@@ -22,7 +22,7 @@ gantt
   tickInterval 1month
   dateFormat YYYY-MM-DD 
   section Status
-    Ethereum Chat: 2023-09-12, 2023-11-31
+    Ethereum Chat: 2023-09-12, 2023-11-30
 ```
 
 - status: 0%
