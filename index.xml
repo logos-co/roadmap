@@ -31,18 +31,6 @@
     <description>Welcome to the Comms Roadmap Overview Milestones weekly updates .</description>
     <pubDate>Tue, 22 Aug 2023 19:29:49 GMT</pubDate>
   </items><items>
-    <title>Codex Milestones Overview</title>
-    <link>https://roadmap.logos.co/roadmap/codex/milestones-overview</link>
-    <guid>https://roadmap.logos.co/roadmap/codex/milestones-overview</guid>
-    <description>Milestones § Zenhub Tracker Miro Tracker .</description>
-    <pubDate>Mon, 07 Aug 2023 00:00:00 GMT</pubDate>
-  </items><items>
-    <title>Codex Roadmap Overview</title>
-    <link>https://roadmap.logos.co/roadmap/codex/overview</link>
-    <guid>https://roadmap.logos.co/roadmap/codex/overview</guid>
-    <description>Welcome to the Codex Roadmap Overview Milestones weekly updates .</description>
-    <pubDate>Tue, 22 Aug 2023 19:29:49 GMT</pubDate>
-  </items><items>
     <title>Innovation Lab Milestones Overview</title>
     <link>https://roadmap.logos.co/roadmap/innovation_lab/milestones-overview</link>
     <guid>https://roadmap.logos.co/roadmap/innovation_lab/milestones-overview</guid>
@@ -53,6 +41,18 @@
     <link>https://roadmap.logos.co/roadmap/innovation_lab/overview</link>
     <guid>https://roadmap.logos.co/roadmap/innovation_lab/overview</guid>
     <description>Welcome to the Innovation lab Roadmap Overview Milestones weekly updates .</description>
+    <pubDate>Tue, 22 Aug 2023 19:29:49 GMT</pubDate>
+  </items><items>
+    <title>Codex Milestones Overview</title>
+    <link>https://roadmap.logos.co/roadmap/codex/milestones-overview</link>
+    <guid>https://roadmap.logos.co/roadmap/codex/milestones-overview</guid>
+    <description>Milestones § Zenhub Tracker Miro Tracker .</description>
+    <pubDate>Mon, 07 Aug 2023 00:00:00 GMT</pubDate>
+  </items><items>
+    <title>Codex Roadmap Overview</title>
+    <link>https://roadmap.logos.co/roadmap/codex/overview</link>
+    <guid>https://roadmap.logos.co/roadmap/codex/overview</guid>
+    <description>Welcome to the Codex Roadmap Overview Milestones weekly updates .</description>
     <pubDate>Tue, 22 Aug 2023 19:29:49 GMT</pubDate>
   </items><items>
     <title>Nomos Milestones Overview</title>
@@ -109,6 +109,24 @@
     <description>Leads roundup - acid § Al - Comms § LPE &amp; Podcast are almost there. Content needs to be polished and reviewed by Carl and Jarrad. Might have an impact on the deadline but we start testing phase tomorrow.</description>
     <pubDate>Mon, 04 Sep 2023 00:00:00 GMT</pubDate>
   </items><items>
+    <title>2023-07-12 Innovation Lab Weekly</title>
+    <link>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-07-12</link>
+    <guid>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-07-12</guid>
+    <description>Logos Lab 12th of July Currently working on the Waku Objects prototype, which is a modular system for transactional chat objects. Milestone: deliver the first transactional Waku Object called Payggy (attached some design screenshots).</description>
+    <pubDate>Thu, 03 Aug 2023 00:00:00 GMT</pubDate>
+  </items><items>
+    <title>2023-08-02 Innovation Lab weekly</title>
+    <link>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-08-02</link>
+    <guid>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-08-02</guid>
+    <description>Logos Lab 2nd of August Currently working on the Waku Objects prototype, which is a modular system for transactional chat objects. The last few weeks were a bit slower than usual because there were vacations, one team member got married, there was EthCC and a team offsite.</description>
+    <pubDate>Thu, 03 Aug 2023 00:00:00 GMT</pubDate>
+  </items><items>
+    <title>2023-08-17 <TEAM> weekly</title>
+    <link>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-08-11</link>
+    <guid>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-08-11</guid>
+    <description>Logos Lab 11th of August § Currently working on the Waku Objects prototype, which is a modular system for transactional chat objects. We merged the group chat but it surfaced plenty of issues that were not a problem with 1on1 chats, both with our Waku integration and from product perspective as well.</description>
+    <pubDate>Thu, 17 Aug 2023 00:00:00 GMT</pubDate>
+  </items><items>
     <title>2023-07-21 Codex weekly</title>
     <link>https://roadmap.logos.co/roadmap/codex/updates/2023-07-21</link>
     <guid>https://roadmap.logos.co/roadmap/codex/updates/2023-07-21</guid>
@@ -132,24 +150,6 @@
     <guid>https://roadmap.logos.co/roadmap/codex/updates/2023-08-31</guid>
     <description>Codex Update August 21-31 § Client § Milestone: Block Merkelization § Storing and retrieving data using merkle trees Coders for merkle trees Refine merkle tree construction Milestone: Block Exchange protocol refinements and simulations § Tracker simulation implementation Block exchange protocol thoughts ydT3AiliS8q2vdixBUXvCQ Follow swarmsim repo for updates Milestone: Async Disc Access &amp; Threading support § Tests on sharing thread data with refc errorVariable and thread safety Fix error binding in without statement on multiple threads WIP: Prototype proxy IO threadpool Milestone: Client stability and debugging § Major effort to stabilize the Codex client through continuous automated testing Start discovery after announce address is updated Start discovery after announce address is updated Retrieve empty blocks Infra § Milestone: Monitoring and Metrics § Install Node exporter and Prometheus in Dist-Tests cluster Grafana Dashboard updates Automated metrics scraping .</description>
     <pubDate>Mon, 04 Sep 2023 00:00:00 GMT</pubDate>
-  </items><items>
-    <title>2023-07-12 Innovation Lab Weekly</title>
-    <link>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-07-12</link>
-    <guid>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-07-12</guid>
-    <description>Logos Lab 12th of July Currently working on the Waku Objects prototype, which is a modular system for transactional chat objects. Milestone: deliver the first transactional Waku Object called Payggy (attached some design screenshots).</description>
-    <pubDate>Thu, 03 Aug 2023 00:00:00 GMT</pubDate>
-  </items><items>
-    <title>2023-08-02 Innovation Lab weekly</title>
-    <link>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-08-02</link>
-    <guid>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-08-02</guid>
-    <description>Logos Lab 2nd of August Currently working on the Waku Objects prototype, which is a modular system for transactional chat objects. The last few weeks were a bit slower than usual because there were vacations, one team member got married, there was EthCC and a team offsite.</description>
-    <pubDate>Thu, 03 Aug 2023 00:00:00 GMT</pubDate>
-  </items><items>
-    <title>2023-08-17 <TEAM> weekly</title>
-    <link>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-08-11</link>
-    <guid>https://roadmap.logos.co/roadmap/innovation_lab/updates/2023-08-11</guid>
-    <description>Logos Lab 11th of August § Currently working on the Waku Objects prototype, which is a modular system for transactional chat objects. We merged the group chat but it surfaced plenty of issues that were not a problem with 1on1 chats, both with our Waku integration and from product perspective as well.</description>
-    <pubDate>Thu, 17 Aug 2023 00:00:00 GMT</pubDate>
   </items><items>
     <title>Nomos Data Availability Details</title>
     <link>https://roadmap.logos.co/roadmap/nomos/data-avail/overview</link>
@@ -220,7 +220,7 @@
     <title>Deep Research Service Unit</title>
     <link>https://roadmap.logos.co/roadmap/vac/dr/overview</link>
     <guid>https://roadmap.logos.co/roadmap/vac/dr/overview</guid>
-    <description>vac:dr:valpriv:vac: § tor-push-poc tor-push-rel-work tor-push-paper tor-push-rln priv-validator-network mix-net-solution vac:dr:valpriv:nomos: § validator-privacy vac:dr:gsub-scaling:vac: § gossipsub-simulation gossipsub-improvements-paper unstructured-p2p-improvements-survey vac:dr:consensus:vac: § carnot-paper carnot-bribary-article carnot-2-3rds-vote-aggregation blockchain-security-in-crypto-economic-models detecting-reporting-attacks-carnot stake-privacy inter-chain-protocol multi-leader-and-multi-overlay-carnot .</description>
+    <description>vac:dr:valpriv:vac: § tor-push-poc tor-push-rel-work tor-push-paper tor-push-rln priv-validator-network mix-net-solution vac:dr:valpriv:nomos: § validator-privacy vac:dr:gsub-scaling:vac: § gossipsub-simulation gossipsub-improvements-paper unstructured-p2p-improvements-survey vac:dr:consensus:vac: § carnot-paper carnot-paper_02 carnot-bribary-article carnot-2-3rds-vote-aggregation blockchain-security-in-crypto-economic-models detecting-reporting-attacks-carnot stake-privacy inter-chain-protocol multi-leader-and-multi-overlay-carnot .</description>
     <pubDate>Wed, 06 Sep 2023 00:00:00 GMT</pubDate>
   </items><items>
     <title>Distributed Systems Testing Service Unit</title>
@@ -235,16 +235,16 @@
     <description>vac:p2p: § nimlibp2p:vac: § The P2P Service unit develops nim-libp2p. nim-libp2p roadmap on github: 777 gossipsub-improvements-eip-4844 webrtc-transport gossipsub-ddos-mitigation gossipsub-stagger-send maintenance nimchronos:vac: § maintenance .</description>
     <pubDate>Tue, 05 Sep 2023 00:00:00 GMT</pubDate>
   </items><items>
-    <title>Smart Contracts Service Unit</title>
-    <link>https://roadmap.logos.co/roadmap/vac/sc/overview</link>
-    <guid>https://roadmap.logos.co/roadmap/vac/sc/overview</guid>
-    <description>vac:sc:: § status: § staking-contract staking-contract_02 staking-contract-maintenance governance-contract-mvp community-contracts-ERC721 community-contracts-ERC20 community-contracts-deployer community-contracts-maintenance vac: § secureum-upskilling rln-contract-support .</description>
-    <pubDate>Wed, 06 Sep 2023 00:00:00 GMT</pubDate>
-  </items><items>
     <title>RFC Specifications Service Unit</title>
     <link>https://roadmap.logos.co/roadmap/vac/rfc/overview</link>
     <guid>https://roadmap.logos.co/roadmap/vac/rfc/overview</guid>
     <description>vac:rfc: § rfc:status: § port-status-specs rfc:nomos: § carnot-specification carnot-threat-model-informational carnot-vote-2-3rds-vote-aggregation-specification inter-chain-protocol-specification multi-leader-and-multi-overlay-carnot-specification .</description>
+    <pubDate>Wed, 06 Sep 2023 00:00:00 GMT</pubDate>
+  </items><items>
+    <title>Smart Contracts Service Unit</title>
+    <link>https://roadmap.logos.co/roadmap/vac/sc/overview</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/sc/overview</guid>
+    <description>vac:sc:: § status: § staking-contract staking-contract_02 staking-contract-maintenance governance-contract-mvp community-contracts-ERC721 community-contracts-ERC20 community-contracts-deployer community-contracts-maintenance vac: § secureum-upskilling rln-contract-support .</description>
     <pubDate>Wed, 06 Sep 2023 00:00:00 GMT</pubDate>
   </items><items>
     <title>Token Engineering Service Unit</title>
@@ -403,6 +403,24 @@
     <description>vac:acz:zerokit::vac:zerokit-v0.4 § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section zerokit v0.</description>
     <pubDate>Mon, 11 Sep 2023 15:31:14 GMT</pubDate>
   </items><items>
+    <title>Gossipsub Improvements Paper</title>
+    <link>https://roadmap.logos.co/roadmap/vac/dr/gsub-scaling/vac/gossipsub-improvements-paper</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/dr/gsub-scaling/vac/gossipsub-improvements-paper</guid>
+    <description>vac:dr:gsub-scaling:vac:gossipsub-improvements-paper § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Gossipsub Improvements paper: 2023-06-01, 2023-10-31 status: 70% CC: Farooq Description § background + first results + potential improvements ￼ comprehensive current/related work study on gossipsub scaling (including relevant work outside of gossipsub, in the broader area of unstructured P2P networks in general) complete technical report on gossip scaling / gossipsub improvements (containing, but not limited to, our previous research) research log post (vac.</description>
+    <pubDate>Sat, 09 Sep 2023 15:23:19 GMT</pubDate>
+  </items><items>
+    <title>Gossipsub Simulation</title>
+    <link>https://roadmap.logos.co/roadmap/vac/dr/gsub-scaling/vac/gossipsub-simulation</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/dr/gsub-scaling/vac/gossipsub-simulation</guid>
+    <description>vac:dr:gsub-scaling:vac:gossipsub-simulation § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Gossipsub Simulation: 2023-06-31, 2023-09-30 status: 20% CC: Farooq Description § simple gossipsub node (in nim) for DST/Wakurtosis simulations PoC shadow simulation Justification § Deliverables §.</description>
+    <pubDate>Sat, 09 Sep 2023 15:23:19 GMT</pubDate>
+  </items><items>
+    <title>Unstructured P2P Improvements Survey</title>
+    <link>https://roadmap.logos.co/roadmap/vac/dr/gsub-scaling/vac/unstructured-p2p-improvements-survey</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/dr/gsub-scaling/vac/unstructured-p2p-improvements-survey</guid>
+    <description>vac:dr:gsub-scaling:vac:unstructured-p2p-improvements-survey § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Unstructured P2P Improvements Survey: 2023-08-15, 2023-12-31 status: 20% CC: Farooq Description § survey techreport survey scientific paper if there is enough to justify a paper Justification § Deliverables §.</description>
+    <pubDate>Sat, 09 Sep 2023 15:23:19 GMT</pubDate>
+  </items><items>
     <title>Blockchain Security in Crypto-economic Models</title>
     <link>https://roadmap.logos.co/roadmap/vac/dr/consensus/nomos/blockchain-security-in-crypto-economic-models</link>
     <guid>https://roadmap.logos.co/roadmap/vac/dr/consensus/nomos/blockchain-security-in-crypto-economic-models</guid>
@@ -424,8 +442,14 @@
     <title>Carnot Paper</title>
     <link>https://roadmap.logos.co/roadmap/vac/dr/consensus/nomos/carnot-paper</link>
     <guid>https://roadmap.logos.co/roadmap/vac/dr/consensus/nomos/carnot-paper</guid>
-    <description>vac:dr:consensus:nomos:carnot-paper § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Carnot Paper: done, 2023-01-20, 2023-09-30 status: 100% CC: Moh Description § Justification § Deliverables §.</description>
-    <pubDate>Sat, 09 Sep 2023 15:23:19 GMT</pubDate>
+    <description>vac:dr:consensus:nomos:carnot-paper § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Carnot Paper: done, 2023-01-20, 2023-09-30 status: 100% CC: Moh Description § First version of a scientific carnot paper.</description>
+    <pubDate>Tue, 12 Sep 2023 16:12:30 GMT</pubDate>
+  </items><items>
+    <title>Carnot Paper 02</title>
+    <link>https://roadmap.logos.co/roadmap/vac/dr/consensus/nomos/carnot-paper_02</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/dr/consensus/nomos/carnot-paper_02</guid>
+    <description>vac:dr:consensus:nomos:carnot-paper_02 § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Carnot Paper: 2023-09-01, 2024 status: 100% CC: Moh Description § complete experimental results publish the paper at a scientific conference or journal present the paper at the conference the goal is to submit before end of 2023 Risks § We need to find a fitting conference and the respective deadlines might not align.</description>
+    <pubDate>Tue, 12 Sep 2023 16:12:30 GMT</pubDate>
   </items><items>
     <title>Detecting Reporting Attacks Carnot</title>
     <link>https://roadmap.logos.co/roadmap/vac/dr/consensus/nomos/detecting-reporting-attacks-carnot</link>
@@ -450,24 +474,6 @@
     <guid>https://roadmap.logos.co/roadmap/vac/dr/consensus/nomos/stake-privacy</guid>
     <description>vac:dr:consensus:nomos:stake-privacy § status: 0% CC: Description § Our endeavor in stake privacy research centers on preserving the confidentiality of validator stakes.</description>
     <pubDate>Sat, 09 Sep 2023 15:55:04 GMT</pubDate>
-  </items><items>
-    <title>Gossipsub Improvements Paper</title>
-    <link>https://roadmap.logos.co/roadmap/vac/dr/gsub-scaling/vac/gossipsub-improvements-paper</link>
-    <guid>https://roadmap.logos.co/roadmap/vac/dr/gsub-scaling/vac/gossipsub-improvements-paper</guid>
-    <description>vac:dr:gsub-scaling:vac:gossipsub-improvements-paper § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Gossipsub Improvements paper: 2023-06-01, 2023-10-31 status: 70% CC: Farooq Description § background + first results + potential improvements ￼ comprehensive current/related work study on gossipsub scaling (including relevant work outside of gossipsub, in the broader area of unstructured P2P networks in general) complete technical report on gossip scaling / gossipsub improvements (containing, but not limited to, our previous research) research log post (vac.</description>
-    <pubDate>Sat, 09 Sep 2023 15:23:19 GMT</pubDate>
-  </items><items>
-    <title>Gossipsub Simulation</title>
-    <link>https://roadmap.logos.co/roadmap/vac/dr/gsub-scaling/vac/gossipsub-simulation</link>
-    <guid>https://roadmap.logos.co/roadmap/vac/dr/gsub-scaling/vac/gossipsub-simulation</guid>
-    <description>vac:dr:gsub-scaling:vac:gossipsub-simulation § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Gossipsub Simulation: 2023-06-31, 2023-09-30 status: 20% CC: Farooq Description § simple gossipsub node (in nim) for DST/Wakurtosis simulations PoC shadow simulation Justification § Deliverables §.</description>
-    <pubDate>Sat, 09 Sep 2023 15:23:19 GMT</pubDate>
-  </items><items>
-    <title>Unstructured P2P Improvements Survey</title>
-    <link>https://roadmap.logos.co/roadmap/vac/dr/gsub-scaling/vac/unstructured-p2p-improvements-survey</link>
-    <guid>https://roadmap.logos.co/roadmap/vac/dr/gsub-scaling/vac/unstructured-p2p-improvements-survey</guid>
-    <description>vac:dr:gsub-scaling:vac:unstructured-p2p-improvements-survey § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Unstructured P2P Improvements Survey: 2023-08-15, 2023-12-31 status: 20% CC: Farooq Description § survey techreport survey scientific paper if there is enough to justify a paper Justification § Deliverables §.</description>
-    <pubDate>Sat, 09 Sep 2023 15:23:19 GMT</pubDate>
   </items><items>
     <title>Tor Push Paper</title>
     <link>https://roadmap.logos.co/roadmap/vac/dr/valpriv/vac/tor-push-paper</link>
@@ -583,24 +589,6 @@
     <description>vac:dst:wakurtosis:nomos:ci-integration § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status CI Integration: done, 2023-07-01, 2023-07-31 status: 100% CC: Alberto Description § Add Nomos integration to wakurtosis so Nomos can be also used in it.</description>
     <pubDate>Sat, 09 Sep 2023 14:05:44 GMT</pubDate>
   </items><items>
-    <title>Wakurtosis Maintenance</title>
-    <link>https://roadmap.logos.co/roadmap/vac/dst/wakurtosis/vac/maintenance</link>
-    <guid>https://roadmap.logos.co/roadmap/vac/dst/wakurtosis/vac/maintenance</guid>
-    <description>vac:dst:wakurtosis:vac:maintenance § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Wakurtosis Maintenance: done, 2023-01-01, 2023-08-31 status: 100% CC: Alberto Description § Keep up to date the tool if there are crashing changes in the services that are being used in it (Waku, Nomos…) Justification § Services being used are in constant change, thus it can lead wakurtosis to break.</description>
-    <pubDate>Sat, 09 Sep 2023 14:15:53 GMT</pubDate>
-  </items><items>
-    <title>Rlog: Wakurtosis Retrospective</title>
-    <link>https://roadmap.logos.co/roadmap/vac/dst/wakurtosis/vac/retrospective-rlog</link>
-    <guid>https://roadmap.logos.co/roadmap/vac/dst/wakurtosis/vac/retrospective-rlog</guid>
-    <description>vac:dst:wakurtosis:waku:retrospective-rlog § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Wakurtosis Retrospective: 2023-08-01, 2023-09-30 status: 20% CC: Jordi Description § Research log discussing what would we have needed from Wakurtosis to make it work for us beyond our smaller solution.</description>
-    <pubDate>Sat, 09 Sep 2023 14:05:44 GMT</pubDate>
-  </items><items>
-    <title>Wakurtosis Rlog</title>
-    <link>https://roadmap.logos.co/roadmap/vac/dst/wakurtosis/vac/rlog</link>
-    <guid>https://roadmap.logos.co/roadmap/vac/dst/wakurtosis/vac/rlog</guid>
-    <description>vac:dst:wakurtosis:waku:rlog § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Rlog Wakurtosis: 2023-06-01, 2023-08-31 status: 90% CC: Jordi Description § Research log post based on the Wakurtosis tech reports and addendum.</description>
-    <pubDate>Sat, 09 Sep 2023 14:05:44 GMT</pubDate>
-  </items><items>
     <title>Wakurtosis Features</title>
     <link>https://roadmap.logos.co/roadmap/vac/dst/wakurtosis/waku/features</link>
     <guid>https://roadmap.logos.co/roadmap/vac/dst/wakurtosis/waku/features</guid>
@@ -624,6 +612,24 @@
     <guid>https://roadmap.logos.co/roadmap/vac/dst/wakurtosis/waku/techreport_02</guid>
     <description>vac:dst:wakurtosis:waku:techreport_02 § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Techreport_02: done, 2023-08-01, 2023-08-31 status: 100% CC: Jordi Description § Run extra batches of simulations of the non-Discv5 case with average degree K=13, and K=50.</description>
     <pubDate>Sat, 09 Sep 2023 13:00:38 GMT</pubDate>
+  </items><items>
+    <title>Wakurtosis Maintenance</title>
+    <link>https://roadmap.logos.co/roadmap/vac/dst/wakurtosis/vac/maintenance</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/dst/wakurtosis/vac/maintenance</guid>
+    <description>vac:dst:wakurtosis:vac:maintenance § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Wakurtosis Maintenance: done, 2023-01-01, 2023-08-31 status: 100% CC: Alberto Description § Keep up to date the tool if there are crashing changes in the services that are being used in it (Waku, Nomos…) Justification § Services being used are in constant change, thus it can lead wakurtosis to break.</description>
+    <pubDate>Sat, 09 Sep 2023 14:15:53 GMT</pubDate>
+  </items><items>
+    <title>Rlog: Wakurtosis Retrospective</title>
+    <link>https://roadmap.logos.co/roadmap/vac/dst/wakurtosis/vac/retrospective-rlog</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/dst/wakurtosis/vac/retrospective-rlog</guid>
+    <description>vac:dst:wakurtosis:waku:retrospective-rlog § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Wakurtosis Retrospective: 2023-08-01, 2023-09-30 status: 20% CC: Jordi Description § Research log discussing what would we have needed from Wakurtosis to make it work for us beyond our smaller solution.</description>
+    <pubDate>Sat, 09 Sep 2023 14:05:44 GMT</pubDate>
+  </items><items>
+    <title>Wakurtosis Rlog</title>
+    <link>https://roadmap.logos.co/roadmap/vac/dst/wakurtosis/vac/rlog</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/dst/wakurtosis/vac/rlog</guid>
+    <description>vac:dst:wakurtosis:waku:rlog § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Rlog Wakurtosis: 2023-06-01, 2023-08-31 status: 90% CC: Jordi Description § Research log post based on the Wakurtosis tech reports and addendum.</description>
+    <pubDate>Sat, 09 Sep 2023 14:05:44 GMT</pubDate>
   </items><items>
     <title>Libchronos Maintenance</title>
     <link>https://roadmap.logos.co/roadmap/vac/p2p/nimchronos/vac/maintenance</link>
@@ -660,6 +666,12 @@
     <guid>https://roadmap.logos.co/roadmap/vac/p2p/nimlibp2p/vac/webrtc-transport</guid>
     <description>vac:p2p:nimlibp2p:vac:webrtc-transport § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039;, } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status WebRTC Transport: 2023-04-01, 2023-07-31 status: 70% CC: Diego Description § Deliverables §.</description>
     <pubDate>Sat, 09 Sep 2023 12:39:17 GMT</pubDate>
+  </items><items>
+    <title>Port Status Specs</title>
+    <link>https://roadmap.logos.co/roadmap/vac/rfc/rfc/status/port-status-specs</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/rfc/rfc/status/port-status-specs</guid>
+    <description>vac:rfc:rfc:status:port-status-specs § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Port Status Spec: 2023-08-01, 2023-11-31 status: 30% CC: r4bbit, Aaryamann Description § This milestone comprises the first version of each of the specifications.</description>
+    <pubDate>Mon, 11 Sep 2023 13:33:44 GMT</pubDate>
   </items><items>
     <title>Community Contracts ERC20</title>
     <link>https://roadmap.logos.co/roadmap/vac/sc/g/status/community-contracts-ERC20</link>
@@ -720,12 +732,6 @@
     <guid>https://roadmap.logos.co/roadmap/vac/sc/g/vac/secureum-upskilling</guid>
     <description>vac:sc::vac:secureum-upskilling § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Secureum Upskilling: 2023-08-15, 2023-10-15 status: 70% CC: team Description § Justification § Deliverables §.</description>
     <pubDate>Sat, 09 Sep 2023 14:55:23 GMT</pubDate>
-  </items><items>
-    <title>Port Status Specs</title>
-    <link>https://roadmap.logos.co/roadmap/vac/rfc/rfc/status/port-status-specs</link>
-    <guid>https://roadmap.logos.co/roadmap/vac/rfc/rfc/status/port-status-specs</guid>
-    <description>vac:rfc:rfc:status:port-status-specs § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Port Status Spec: 2023-08-01, 2023-11-31 status: 30% CC: r4bbit, Aaryamann Description § This milestone comprises the first version of each of the specifications.</description>
-    <pubDate>Mon, 11 Sep 2023 13:33:44 GMT</pubDate>
   </items><items>
     <title>Codex Economic Analysis</title>
     <link>https://roadmap.logos.co/roadmap/vac/tke/g/codex/economic-analysis</link>
