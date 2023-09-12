@@ -5,7 +5,7 @@ title: Vac Roadmap
 
 ### Structure
 
-`vac:<unit>:<tag>::<for_project>:<title>_<counter>`
+`vac:<unit>:<tag>:<for_project>:<title>_<counter>`
 - `vac` indicates it is a vac milestone
 - `unit` indicates the vac unit `p2p`, `dst`, `tke`, `acz`, `sc`, `zkvm`, `dr`, `rfc`
 - `tag` tags a specific area / project / epic within the respective vac unit, e.g. `nimlibp2p`, or `zerokit`

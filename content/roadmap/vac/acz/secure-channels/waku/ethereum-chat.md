@@ -34,15 +34,14 @@ The goal of this milestone is having
 
 * using the [noise](http://noiseprotocol.org/noise.html) framework
 * Ethereum Wallet address used to derive authentication key for noise
-* expand this https://rfc.vac.dev/spec/20/
 * Design an Ethereum address-based 1:1 chat
   - should be transport agnostic
   - toy eth chat: https://rfc.vac.dev/spec/20/
-    - this milestone requires forward secrecy
+    - this milestone requires forward secrecy (see limitations section of the toy eth chat RFC)
 * Naive Groupchat functionality (using `n` 1:1 chat channels)
 * involve metamask here (metamask im team)
 
-* a follow up milestone will cover run Ethereum chat on top of Waku
+* a follow up milestone will cover running Ethereum chat on top of Waku
 * follow up goal: develop this into an EIP
 
 
