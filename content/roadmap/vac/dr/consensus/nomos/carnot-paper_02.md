@@ -1,7 +1,7 @@
 ---
-title: "Carnot Paper"
+title: "Carnot Paper 02"
 ---
-## `vac:dr:consensus:nomos:carnot-paper`
+## `vac:dr:consensus:nomos:carnot-paper_02`
 ---
 
 ```mermaid
@@ -22,7 +22,7 @@ gantt
   tickInterval 1month
   dateFormat YYYY-MM-DD 
   section Status
-    Carnot Paper: done, 2023-01-20, 2023-09-30
+    Carnot Paper: 2023-09-01, 2024
 ```
 
 - status: 100%
@@ -30,15 +30,24 @@ gantt
 
 ### Description
 
-First version of a scientific carnot paper.
-Publish on arxiv.
+* complete experimental results
+* publish the paper at a scientific conference or journal
+* present the paper at the conference
+
+* the goal is to submit before end of 2023
+
+### Risks
+
+* We need to find a fitting conference and the respective deadlines might not align.
+* review process takes a long time
+
+(No fixed deadline because of these risks.)
 
 ### Justification
 
 
 ### Deliverables
 
-* https://arxiv.org/pdf/2308.16016.pdf
 
 
 
