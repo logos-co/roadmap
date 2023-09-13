@@ -31,7 +31,7 @@ lastmod: 2023-09-08
 ### `analysis-gsub-model:vac`
 * [[ roadmap/vac/dst/analysis-gsub-model/vac/refactoring | refactoring ]]
 
-### `analysis-gsub-model:status`
+### `analysis-gsub-model:status:`
 * [[ roadmap/vac/dst/analysis-gsub-model/status/control-messages | control-messages ]]
 
 ### `analysis-shadow:vac:`
