@@ -122,6 +122,9 @@
     <loc>https://roadmap.logos.co/roadmap/vac/tke/overview</loc>
     <lastmod>2023-09-09T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/zkvm/overview</loc>
+    <lastmod>2023-09-06T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/updates/2023-07-10</loc>
     <lastmod>2023-07-16T00:00:00.000Z</lastmod>
   </url><url>
@@ -152,9 +155,6 @@
     <loc>https://roadmap.logos.co/roadmap/vac/updates/2023-09-11</loc>
     <lastmod>2023-09-11T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/roadmap/vac/zkvm/overview</loc>
-    <lastmod>2023-09-06T00:00:00.000Z</lastmod>
-  </url><url>
     <loc>https://roadmap.logos.co/roadmap/waku/updates/2023-07-24</loc>
     <lastmod>2023-08-04T00:00:00.000Z</lastmod>
   </url><url>
@@ -179,9 +179,6 @@
     <loc>https://roadmap.logos.co/roadmap/waku/updates/2023-09-11</loc>
     <lastmod>2023-09-11T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/roadmap/vac/acz/secure-channels/waku/ethereum-chat</loc>
-    <lastmod>2023-09-12T15:05:06.132Z</lastmod>
-  </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/acz/rlnp2p/vac/rln-doc-and-outreach</loc>
     <lastmod>2023-09-11T15:31:14.941Z</lastmod>
   </url><url>
@@ -193,6 +190,9 @@
   </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/acz/rlnp2p/waku/rln-relay-enhancements</loc>
     <lastmod>2023-09-11T15:31:14.941Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/acz/secure-channels/waku/ethereum-chat</loc>
+    <lastmod>2023-09-12T15:05:06.132Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/acz/zerokit/vac/zerokit-v0-4</loc>
     <lastmod>2023-09-11T15:31:14.941Z</lastmod>
@@ -260,11 +260,11 @@
     <loc>https://roadmap.logos.co/roadmap/vac/dst/analysis-shadow/waku/shadow-waku-relay-analysis</loc>
     <lastmod>2023-09-09T14:15:53.514Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/roadmap/vac/dst/dr-support/vac/carnot-executable-spec</loc>
-    <lastmod>2023-09-13T10:29:39.978Z</lastmod>
-  </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/dst/eng/vac/bundle-simulation-data</loc>
     <lastmod>2023-09-09T14:05:44.604Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/dst/dr-support/vac/carnot-executable-spec</loc>
+    <lastmod>2023-09-13T10:29:39.978Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/dst/eng-10ktool/vac/bandwidth-test</loc>
     <lastmod>2023-09-09T14:05:44.604Z</lastmod>
