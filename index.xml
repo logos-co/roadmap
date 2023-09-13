@@ -226,7 +226,7 @@
     <title>Distributed Systems Testing Service Unit</title>
     <link>https://roadmap.logos.co/roadmap/vac/dst/overview</link>
     <guid>https://roadmap.logos.co/roadmap/vac/dst/overview</guid>
-    <description>vac:dst: § wakurtosis:waku § techreport techreport_02 wakurtosis:features gossipsub-topology-analysis wakurtosis:nomos § ci-integration wakurtosis:vac § rlog retrospective-rlog maintenance analysis:: § simulation-analysis analysis:gsub-model § refactoring control-messages analysis:shadow: § shadow-basic-simulation shadow-gossipsub-analysis shadow-waku-relay-analysis eng:: § bundle-simulation-data eng:10ktool: § bandwidth-test QoS waku-protocols software-testing:waku § test-plans test-automation-js-waku test-automation-nwaku test-automation-go-waku interop-testing .</description>
+    <description>vac:dst: § wakurtosis:waku: § techreport techreport_02 wakurtosis:features gossipsub-topology-analysis wakurtosis:nomos: § ci-integration wakurtosis:vac: § rlog retrospective-rlog maintenance analysis:nomos § simulation-analysis analysis-gsub-model:vac § refactoring analysis-gsub-model:status § control-messages analysis-shadow:vac: § shadow-basic-simulation shadow-gossipsub-analysis analysis-shadow:waku: § shadow-waku-relay-analysis dr-support: § carnot-2rds-executable-spec eng:vac: § bundle-simulation-data eng-10ktool: § bandwidth-test QoS waku-protocols software-testing:waku: § test-plans test-automation-js-waku test-automation-nwaku test-automation-go-waku interop-testing .</description>
     <pubDate>Fri, 08 Sep 2023 00:00:00 GMT</pubDate>
   </items><items>
     <title>P2P Service Unit</title>
@@ -252,12 +252,6 @@
     <guid>https://roadmap.logos.co/roadmap/vac/tke/overview</guid>
     <description>vac:tke:: § status: § snt-lightpaper SNT-governance-proposal SNT-staking codex: § economic-analysis nomos: § economic-analysis waku: § economic-analysis .</description>
     <pubDate>Sat, 09 Sep 2023 00:00:00 GMT</pubDate>
-  </items><items>
-    <title>Zero-knowledge Virtual Machine Incubation Project</title>
-    <link>https://roadmap.logos.co/roadmap/vac/zkvm/overview</link>
-    <guid>https://roadmap.logos.co/roadmap/vac/zkvm/overview</guid>
-    <description>vac:zkvm:proofsystems § research-existing-proofsystems benchmarks .</description>
-    <pubDate>Wed, 06 Sep 2023 00:00:00 GMT</pubDate>
   </items><items>
     <title>2023-07-10 Vac Weekly</title>
     <link>https://roadmap.logos.co/roadmap/vac/updates/2023-07-10</link>
@@ -319,6 +313,12 @@
     <description>vac:p2p: § nim-libp2p:vac:maintenance: IWANT splitting now ready for review nimlibp2p:vac:gossipsub-ddos-mitigation Traffic scoring now ready for review Pursuing upstream discussions about gossipsub Peer Exchange nim-chronos:vac:maintenance: Continued 418 vac:tke: § vac:tke::status:SNT-staking Write first draft of staking governance proposal standby to hear SC team questions vac:tke::nomos:economic-analysis Analysis of rewards for delegation vs validation vac:dst: § wakurtosis:vac:rlog Address PR feedback (123) wakurtosis:waku:techreport_03 batch of simulation data with 0 msg/s rate.</description>
     <pubDate>Mon, 11 Sep 2023 00:00:00 GMT</pubDate>
   </items><items>
+    <title>Zero-knowledge Virtual Machine Incubation Project</title>
+    <link>https://roadmap.logos.co/roadmap/vac/zkvm/overview</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/zkvm/overview</guid>
+    <description>vac:zkvm:proofsystems § research-existing-proofsystems benchmarks .</description>
+    <pubDate>Wed, 06 Sep 2023 00:00:00 GMT</pubDate>
+  </items><items>
     <title>2023-07-24 Waku weekly</title>
     <link>https://roadmap.logos.co/roadmap/waku/updates/2023-07-24</link>
     <guid>https://roadmap.logos.co/roadmap/waku/updates/2023-07-24</guid>
@@ -367,6 +367,12 @@
     <description>2023-09-11 Waku weekly § Research § 1.1 Network requirements and task breakdown {E:1.1 Network requirements and task breakdown} achieved: Opened first raw version of Waku Network RFC for review.</description>
     <pubDate>Mon, 11 Sep 2023 00:00:00 GMT</pubDate>
   </items><items>
+    <title>Ethereum Chat</title>
+    <link>https://roadmap.logos.co/roadmap/vac/acz/secure-channels/waku/ethereum-chat</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/acz/secure-channels/waku/ethereum-chat</guid>
+    <description>vac:acz:secure-channels:waku:ethereum-chat § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Ethereum Chat: 2023-09-12, 2023-11-30 status: 0% CC: Ramses Description § The goal of this milestone is having using the noise framework Ethereum Wallet address used to derive authentication key for noise Design an Ethereum address-based 1:1 chat should be transport agnostic toy eth chat: 20 this milestone requires forward secrecy (see limitations section of the toy eth chat RFC) consider using eip-5564 Naive Groupchat functionality (using n 1:1 chat channels) involve metamask here (metamask im team) a follow up milestone will cover running Ethereum chat on top of Waku follow up goal: develop this into an EIP Justification § Deliverables § specification (RFC) of a secure Ethereum-based chat protocol .</description>
+    <pubDate>Tue, 12 Sep 2023 15:05:06 GMT</pubDate>
+  </items><items>
     <title>RLN Doc and Outreach</title>
     <link>https://roadmap.logos.co/roadmap/vac/acz/rlnp2p/vac/rln-doc-and-outreach</link>
     <guid>https://roadmap.logos.co/roadmap/vac/acz/rlnp2p/vac/rln-doc-and-outreach</guid>
@@ -391,12 +397,6 @@
     <description>vac:acz:rlnp2p::waku:rln-relay-enhancements § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt dateFormat YYYY-MM-DD section rlnp2p-waku RLN-RELAY enhancements :, 2023-06-01, 2023-09-30 due: 2023/09/30 status: 100% Description § simple membership management setup (fixed CC list) instruction on how to register to the membership set / setup up (for Waku CCs) Goal § Run RLN relay on the Waku production fleet.</description>
     <pubDate>Mon, 11 Sep 2023 15:31:14 GMT</pubDate>
   </items><items>
-    <title>Ethereum Chat</title>
-    <link>https://roadmap.logos.co/roadmap/vac/acz/secure-channels/waku/ethereum-chat</link>
-    <guid>https://roadmap.logos.co/roadmap/vac/acz/secure-channels/waku/ethereum-chat</guid>
-    <description>vac:acz:secure-channels:waku:ethereum-chat § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Ethereum Chat: 2023-09-12, 2023-11-30 status: 0% CC: Ramses Description § The goal of this milestone is having using the noise framework Ethereum Wallet address used to derive authentication key for noise Design an Ethereum address-based 1:1 chat should be transport agnostic toy eth chat: 20 this milestone requires forward secrecy (see limitations section of the toy eth chat RFC) consider using eip-5564 Naive Groupchat functionality (using n 1:1 chat channels) involve metamask here (metamask im team) a follow up milestone will cover running Ethereum chat on top of Waku follow up goal: develop this into an EIP Justification § Deliverables § specification (RFC) of a secure Ethereum-based chat protocol .</description>
-    <pubDate>Tue, 12 Sep 2023 15:05:06 GMT</pubDate>
-  </items><items>
     <title>Zerokit v0.4 Release Details</title>
     <link>https://roadmap.logos.co/roadmap/vac/acz/zerokit/vac/zerokit-v0-4</link>
     <guid>https://roadmap.logos.co/roadmap/vac/acz/zerokit/vac/zerokit-v0-4</guid>
@@ -413,7 +413,7 @@
     <link>https://roadmap.logos.co/roadmap/vac/dr/consensus/nomos/carnot-2-3rds-vote-aggregation</link>
     <guid>https://roadmap.logos.co/roadmap/vac/dr/consensus/nomos/carnot-2-3rds-vote-aggregation</guid>
     <description>vac:dr:nomos:nomos:carnot-vote-2-3rds-vote-aggregation § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Carnot 2/3 Vote Aggregation: 2023-08-01, 2023-10-15 status: 20% CC: Moh Description § This research will use the Carnot flexible design to make it collect more than 2/3rd of cryptographic proof of votes cast for a block.</description>
-    <pubDate>Tue, 12 Sep 2023 16:14:16 GMT</pubDate>
+    <pubDate>Wed, 13 Sep 2023 10:29:39 GMT</pubDate>
   </items><items>
     <title>Carnot Bribary Article</title>
     <link>https://roadmap.logos.co/roadmap/vac/dr/consensus/nomos/carnot-bribary-article</link>
@@ -528,6 +528,12 @@
     <guid>https://roadmap.logos.co/roadmap/vac/dst/analysis-shadow/waku/shadow-waku-relay-analysis</guid>
     <description>vac:dst:analysis-shadow:waku:shadow-waku-relay-analysis § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Shadow Waku Relay Analysis: done, 2023-10-01, 2023-11-30 status: 0% CC: Jordi Description § Justification § Deliverables §.</description>
     <pubDate>Sat, 09 Sep 2023 14:15:53 GMT</pubDate>
+  </items><items>
+    <title>Carnot 2-3rds Vote Aggregation Python Implementation</title>
+    <link>https://roadmap.logos.co/roadmap/vac/dst/dr-support/vac/carnot-executable-spec</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/dst/dr-support/vac/carnot-executable-spec</guid>
+    <description>vac:dst:dr-support:vac:carnot-2-3rds-python-impl § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Carnot 2/3rds Python Impl: 2023-09-15, 2023-10-31 status: 0% CC: Ganesh Description § support the DR team with writing the python code for a executable specification of the Carnot 2/3rds vote aggregation see DR milestone: carnot-2-3rds-vote-aggregation Justification § Deliverables §.</description>
+    <pubDate>Wed, 13 Sep 2023 10:29:39 GMT</pubDate>
   </items><items>
     <title>Bundle Simulation Data</title>
     <link>https://roadmap.logos.co/roadmap/vac/dst/eng/vac/bundle-simulation-data</link>
@@ -666,6 +672,12 @@
     <guid>https://roadmap.logos.co/roadmap/vac/p2p/nimlibp2p/vac/webrtc-transport</guid>
     <description>vac:p2p:nimlibp2p:vac:webrtc-transport § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039;, } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status WebRTC Transport: 2023-04-01, 2023-07-31 status: 70% CC: Diego Description § Deliverables §.</description>
     <pubDate>Sat, 09 Sep 2023 12:39:17 GMT</pubDate>
+  </items><items>
+    <title>carnot-vote-2-3rds-vote-aggregation-specification</title>
+    <link>https://roadmap.logos.co/roadmap/vac/rfc/rfc/nomos/carnot-vote-2-3rds-vote-aggregation-specification</link>
+    <guid>https://roadmap.logos.co/roadmap/vac/rfc/rfc/nomos/carnot-vote-2-3rds-vote-aggregation-specification</guid>
+    <description> part of the DR roadmap: carnot-vote-2-3rds-vote-aggregation-specification .</description>
+    <pubDate>Wed, 13 Sep 2023 10:29:39 GMT</pubDate>
   </items><items>
     <title>Port Status Specs</title>
     <link>https://roadmap.logos.co/roadmap/vac/rfc/rfc/status/port-status-specs</link>
