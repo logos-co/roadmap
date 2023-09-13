@@ -1,0 +1,1 @@
+- part of the DR roadmap: [[roadmap/vac/rfc/rfc/nomos/carnot-vote-2-3rds-vote-aggregation-specification | carnot-vote-2-3rds-vote-aggregation-specification ]]

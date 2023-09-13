@@ -36,7 +36,7 @@ This research will use the Carnot flexible design to make it collect more than 2
 * write a research log post
 * desciption of the solution
 
-* spec is part of the RFC roadmap [[roadmap/vac/rfc/rfc/nomos/carnot-vote-2-3rds-vote-aggregation-specification | carnot-vote-2-3rds-vote-aggregation-specification ]]
+* support by the DST team: [[ roadmap/vac/dst/dr-support/vac/carnot-2-3rds-executable-spec | carnot-2rds-executable-spec ]]
 
 ### Risks
 
@@ -51,7 +51,8 @@ Might slightly increase the protocol overhead. But we make sure this overhead is
 * Pseudocode (potentially paper in a future milestone)
 * notion doc describing the solution
 * research log post
-* python code
+* python code, support by the DST team [[ roadmap/vac/dst/dr-support/vac/carnot-2-3rds-executable-spec | carnot-2rds-executable-spec ]]
+* RFC on rfc.vac.dev containing executable spec
 
 Note: Need to be discussed: The Pseudocode can be completed earlier so that devs can began implementation, whereas the paper can be completed later.
 
