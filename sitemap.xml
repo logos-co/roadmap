@@ -1,6 +1,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
     <loc>https://roadmap.logos.co/</loc>
-    <lastmod>2023-09-06T12:58:38.629Z</lastmod>
+    <lastmod>2023-09-14T13:53:21.844Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/terms-of-use</loc>
+    <lastmod>2023-09-14T13:53:21.844Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/component</loc>
     <lastmod>2023-08-22T08:20:28.274Z</lastmod>
@@ -191,11 +194,11 @@
     <loc>https://roadmap.logos.co/roadmap/vac/acz/rlnp2p/waku/rln-relay-enhancements</loc>
     <lastmod>2023-09-11T15:31:14.941Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/roadmap/vac/acz/zerokit/vac/zerokit-v0-4</loc>
-    <lastmod>2023-09-11T15:31:14.941Z</lastmod>
-  </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/acz/secure-channels/waku/ethereum-chat</loc>
     <lastmod>2023-09-12T15:05:06.132Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/acz/zerokit/vac/zerokit-v0-4</loc>
+    <lastmod>2023-09-11T15:31:14.941Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/dr/consensus/nomos/blockchain-security-in-crypto-economic-models</loc>
     <lastmod>2023-09-09T15:59:38.730Z</lastmod>
@@ -224,15 +227,6 @@
     <loc>https://roadmap.logos.co/roadmap/vac/dr/consensus/nomos/stake-privacy</loc>
     <lastmod>2023-09-09T15:55:04.865Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/roadmap/vac/dr/valpriv/vac/tor-push-paper</loc>
-    <lastmod>2023-09-09T15:23:19.432Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/roadmap/vac/dr/valpriv/vac/tor-push-poc</loc>
-    <lastmod>2023-09-09T15:23:19.432Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/roadmap/vac/dr/valpriv/vac/tor-push-rel-work</loc>
-    <lastmod>2023-09-09T15:23:19.432Z</lastmod>
-  </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/dr/gsub-scaling/vac/gossipsub-improvements-paper</loc>
     <lastmod>2023-09-09T15:23:19.432Z</lastmod>
   </url><url>
@@ -240,6 +234,15 @@
     <lastmod>2023-09-09T15:23:19.432Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/dr/gsub-scaling/vac/unstructured-p2p-improvements-survey</loc>
+    <lastmod>2023-09-09T15:23:19.432Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/dr/valpriv/vac/tor-push-paper</loc>
+    <lastmod>2023-09-09T15:23:19.432Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/dr/valpriv/vac/tor-push-poc</loc>
+    <lastmod>2023-09-09T15:23:19.432Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/roadmap/vac/dr/valpriv/vac/tor-push-rel-work</loc>
     <lastmod>2023-09-09T15:23:19.432Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/roadmap/vac/dst/analysis/nomos/nomos-simulation-analysis</loc>
