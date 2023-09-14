@@ -13,8 +13,8 @@ const config: QuartzConfig = {
     ignorePatterns: ["private", "templates"],
     theme: {
       typography: {
-        header: "Serif",
-        body: "Serif",
+        header: "sans-serif",
+        body: "sans-serif",
         code: "IBM Plex Mono",
       },
       colors: {
