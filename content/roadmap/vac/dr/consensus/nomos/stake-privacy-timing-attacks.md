@@ -31,14 +31,12 @@ gantt
 ### Description
 
 This milestone comprises component 3 of the [Nomos network pivacy stack](https://www.notion.so/Network-Privacy-Stack-2a2a86647d2a42ca9de6940c55f99851)
-in the context of consesus privacy:
-
-Upper layer protections of the network from the sender:
-
-* Simplest solution to prevent attacks to private PoS: minimum age of transaction for inclusion
-* Potential future solutions: proof of mixing + modifications to the base mixnet design. This seems like a difficult path, for long-term research if feasible.
+in the context of consensus privacy:
 
 The main goal of this work is finding in-protocol (carnot) mechanisms to solve the problem of timing attacks
+
+Upper layer protections of the network from the sender:  Simplest solution to prevent attacks to private PoS: minimum age of transaction for inclusion
+
 
 Certain types of timing attacks and network observation to identify high stake participants are already being worked on at the network level.
 However, this problem should be considered at the PoS/consesus layer as well.
@@ -64,6 +62,7 @@ Older docs:
 * Hash-based Node Id encryption Hash-based-Node-Id-encryption-7bfb11941a6840c49bfe065f535877c9?pvs=24
 * Carnot PoS Discussion notion.so/Carnot-PoS-Discussion-f2ef371102f6433da81fb1b1b9213c2b?pvs=24
 
+Potential future solutions (outside the scope of this mile stone) comprise: proof of mixing + modifications to the base mixnet design. This seems like a difficult path, for long-term research if feasible.
 
 ### Justification
 
