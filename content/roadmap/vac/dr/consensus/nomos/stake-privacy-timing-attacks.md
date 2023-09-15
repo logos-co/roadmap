@@ -1,7 +1,7 @@
 ---
 title: "Network Privacy Stack - Stakeholder Privacy"
 ---
-## `vac:dr:consesus:nomos:network-privacy-stack-stake-privacy`
+## `vac:dr:consesus:nomos:stake-privacy-timing-attacks`
 ---
 
 ```mermaid
@@ -22,7 +22,7 @@ gantt
   tickInterval 1month
   dateFormat YYYY-MM-DD 
   section Status
-    Network Privacy Stack - Stake:
+    Stake Privacy - Timing Attacks:
 ```
 
 - status: 0%
