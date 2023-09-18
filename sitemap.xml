@@ -24,7 +24,7 @@
     <lastmod>2023-09-18T20:20:20.465Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/nomos/overview</loc>
-    <lastmod>2023-09-18T20:20:20.465Z</lastmod>
+    <lastmod>2023-09-18T20:24:22.929Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/component</loc>
     <lastmod>2023-08-22T08:20:28.274Z</lastmod>
@@ -74,10 +74,10 @@
     <loc>https://roadmap.logos.co/innovation_lab/updates/2023-08-11</loc>
     <lastmod>2023-08-17T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/nomos/base-layer-testnet/overview</loc>
+    <loc>https://roadmap.logos.co/nomos/base-layer-spec/overview</loc>
     <lastmod>2023-09-18T20:20:20.465Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/nomos/base-layer-spec/overview</loc>
+    <loc>https://roadmap.logos.co/nomos/base-layer-testnet/overview</loc>
     <lastmod>2023-09-18T20:20:20.465Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/nomos/consensus-def/overview</loc>
@@ -194,13 +194,13 @@
     <loc>https://roadmap.logos.co/waku/updates/2023-09-18</loc>
     <lastmod>2023-09-18T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/nomos/base-layer-testnet/testnet/overview</loc>
-    <lastmod>2023-09-18T20:20:20.465Z</lastmod>
-  </url><url>
     <loc>https://roadmap.logos.co/nomos/base-layer-spec/data-avail/overview</loc>
     <lastmod>2023-09-18T20:20:20.465Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/nomos/base-layer-spec/network-privacy/overview</loc>
+    <lastmod>2023-09-18T20:20:20.465Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/nomos/base-layer-testnet/testnet/overview</loc>
     <lastmod>2023-09-18T20:20:20.465Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/vac/acz/rlnp2p/vac/rln-doc-and-outreach</loc>

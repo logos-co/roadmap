@@ -59,7 +59,7 @@
     <link>https://roadmap.logos.co/nomos/overview</link>
     <guid>https://roadmap.logos.co/nomos/overview</guid>
     <description>nomos: § Nomos Overview § The Nomos project is an attempt to make a scalable, modular, and private L1. To learn more about the project, please visit the website Nomos is currently in its initial phase as a project within Logos, namely the research and architecture design phase.</description>
-    <pubDate>Mon, 18 Sep 2023 20:20:20 GMT</pubDate>
+    <pubDate>Mon, 18 Sep 2023 20:24:22 GMT</pubDate>
   </items><items>
     <title>Components</title>
     <link>https://roadmap.logos.co/tags/component</link>
@@ -157,16 +157,16 @@
     <description>Logos Lab 11th of August § Currently working on the Waku Objects prototype, which is a modular system for transactional chat objects. We merged the group chat but it surfaced plenty of issues that were not a problem with 1on1 chats, both with our Waku integration and from product perspective as well.</description>
     <pubDate>Thu, 17 Aug 2023 00:00:00 GMT</pubDate>
   </items><items>
-    <title>Nomos Milestone: Base Layer Testnet Implementation</title>
-    <link>https://roadmap.logos.co/nomos/base-layer-testnet/overview</link>
-    <guid>https://roadmap.logos.co/nomos/base-layer-testnet/overview</guid>
-    <description>nomos:base-layer-testnet: § Description § Key Epics § testnet: overview § due: progress: short description: deployment of the initial testnet for the Nomos network Dependent Upon: § vac:dst:node-cicd § ci-integration .</description>
-    <pubDate>Mon, 18 Sep 2023 20:20:20 GMT</pubDate>
-  </items><items>
     <title>Nomos Milestone: Full Base Layer Specification</title>
     <link>https://roadmap.logos.co/nomos/base-layer-spec/overview</link>
     <guid>https://roadmap.logos.co/nomos/base-layer-spec/overview</guid>
     <description>nomos:base-layer-spec: § Description § The initial milestone of the Nomos project is a full specification of the Base Layer. This entails detailed explanations of the working parts of the architecture and how they lay the groundwork for future layers to be built on top.</description>
+    <pubDate>Mon, 18 Sep 2023 20:20:20 GMT</pubDate>
+  </items><items>
+    <title>Nomos Milestone: Base Layer Testnet Implementation</title>
+    <link>https://roadmap.logos.co/nomos/base-layer-testnet/overview</link>
+    <guid>https://roadmap.logos.co/nomos/base-layer-testnet/overview</guid>
+    <description>nomos:base-layer-testnet: § Description § Key Epics § testnet: overview § due: progress: short description: deployment of the initial testnet for the Nomos network Dependent Upon: § vac:dst:node-cicd § ci-integration .</description>
     <pubDate>Mon, 18 Sep 2023 20:20:20 GMT</pubDate>
   </items><items>
     <title>Nomos Milestone: Scalable Consensus Definition</title>
@@ -397,12 +397,6 @@
     <description>2023-09-18 Waku weekly Ivansete-status LordGhostX NagyZoltanPeter SionoiS alrevuelta chaitanyaprem danisharora099 fryorcraken gabrielmer hackyguru harsh-98 jm-clius richard-ramos s-tikhomirov vpavlin weboko Epics § 1.</description>
     <pubDate>Mon, 18 Sep 2023 00:00:00 GMT</pubDate>
   </items><items>
-    <title>Nomos Testnet Details</title>
-    <link>https://roadmap.logos.co/nomos/base-layer-testnet/testnet/overview</link>
-    <guid>https://roadmap.logos.co/nomos/base-layer-testnet/testnet/overview</guid>
-    <description>nomos:testnet: § Description § Research § Engineering §.</description>
-    <pubDate>Mon, 18 Sep 2023 20:20:20 GMT</pubDate>
-  </items><items>
     <title>Nomos Data Availability Details</title>
     <link>https://roadmap.logos.co/nomos/base-layer-spec/data-avail/overview</link>
     <guid>https://roadmap.logos.co/nomos/base-layer-spec/data-avail/overview</guid>
@@ -413,6 +407,12 @@
     <link>https://roadmap.logos.co/nomos/base-layer-spec/network-privacy/overview</link>
     <guid>https://roadmap.logos.co/nomos/base-layer-spec/network-privacy/overview</guid>
     <description>nomos:network-priavcy: § Description § Research § Engineering §.</description>
+    <pubDate>Mon, 18 Sep 2023 20:20:20 GMT</pubDate>
+  </items><items>
+    <title>Nomos Testnet Details</title>
+    <link>https://roadmap.logos.co/nomos/base-layer-testnet/testnet/overview</link>
+    <guid>https://roadmap.logos.co/nomos/base-layer-testnet/testnet/overview</guid>
+    <description>nomos:testnet: § Description § Research § Engineering §.</description>
     <pubDate>Mon, 18 Sep 2023 20:20:20 GMT</pubDate>
   </items><items>
     <title>RLN Doc and Outreach</title>
