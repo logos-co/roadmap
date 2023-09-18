@@ -6,7 +6,7 @@ title: "Nomos Milestone: Base Layer Testnet Implementation"
 ### Description
 
 ### Key Epics
-#### `testnet:` [[nomos/base-layer-testnet/testnet/overview|overview]]
+#### `testnet:` [[nomos/base-layer-testnet/testnet/index|index]]
 - due: 
 - progress: 
 - short description: deployment of the initial testnet for the Nomos network

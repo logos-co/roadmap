@@ -12,17 +12,17 @@ The initial milestone of the Nomos project is a full specification of the Base L
 This work can be tracked via the following epics.
 
 ### Key Epics
-#### `network-privacy:` [[nomos/base-layer-spec/network-privacy/overview|overview]]
+#### `network-privacy:` [[nomos/base-layer-spec/network-privacy/index|index]]
 - due: 
 - progress: 
 - short description: Creation of a privacy preserving network underlay
 
-#### `private-pos:` [[nomos/base-layer-spec/priv-pos/overview|overview]]
+#### `private-pos:` [[nomos/base-layer-spec/priv-pos/index|index]]
 - due: Sept 29, 2023
 - progress: 
 - short description: Creation of a Proof-of-Stake model that preserves the privacy of the stakers within the network
 
-#### `data-availability:` [[nomos/base-layer-spec/data-avail/overview|overview]]
+#### `data-availability:` [[nomos/base-layer-spec/data-avail/index|index]]
 - due: 
 - progress: 
 - short description: Definition of how Nomos makes data available to network participants, and its reference implementation for the Base Layer.

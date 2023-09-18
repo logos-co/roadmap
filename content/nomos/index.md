@@ -11,12 +11,12 @@ Nomos is currently in its initial phase as a project within Logos, namely the re
 
 ### Current Key Milestones
 
-#### `base-layer-spec:` [[nomos/base-layer-spec/overview|overview]]
+#### `base-layer-spec:` [[nomos/base-layer-spec/index|details]]
 - due: 2024 Q1
 - status: in progress
 - description: Full specification of the Nomos Base Layer along with accompanying research and justification.
 
-#### `base-layer-testnet:` [[nomos/base-layer-testnet/overview|overview]]
+#### `base-layer-testnet:` [[nomos/base-layer-testnet/index|details]]
 - due: 2024 Q3
 - status: in progress
 - description:
@@ -33,7 +33,7 @@ Nomos is currently in its initial phase as a project within Logos, namely the re
 
 ---
 ### Delivered Milestones
-#### `consensus-def:` [[nomos/consensus-def/overview|overview]]
+#### `consensus-def:` [[nomos/consensus-def/index|details]]
 - due: 2023 Q3
 - status: complete
 - description: Research and specification of an underlying consensus algorithm to be used as foundation for Nomos. 

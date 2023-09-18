@@ -6,7 +6,6 @@ title: Nomos Network Privacy Details
 
 ### Description
 
-
 ### Research
 
 ### Engineering
