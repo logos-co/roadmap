@@ -30,6 +30,7 @@ gantt
 
 ### Description
 
+* contract for deployment of SNT on Optimism
 
 ### Justification
 
