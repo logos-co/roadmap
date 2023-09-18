@@ -11,7 +11,7 @@
     <link>https://roadmap.logos.co/</link>
     <guid>https://roadmap.logos.co/</guid>
     <description>This site attempts to inform the previous, current, and future work required to fulfill the requirements of the projects under the Logos Collective, a complete tech stack that provides infrastructure for the self-sovereign network state.</description>
-    <pubDate>Mon, 18 Sep 2023 20:20:20 GMT</pubDate>
+    <pubDate>Mon, 18 Sep 2023 20:31:38 GMT</pubDate>
   </items><items>
     <title>Website Terms of Use</title>
     <link>https://roadmap.logos.co/terms-of-use</link>
@@ -54,6 +54,12 @@
     <guid>https://roadmap.logos.co/innovation_lab/overview</guid>
     <description>Welcome to the Innovation lab Roadmap Overview Milestones weekly updates .</description>
     <pubDate>Mon, 18 Sep 2023 20:20:20 GMT</pubDate>
+  </items><items>
+    <title>Nomos Roadmap Overview</title>
+    <link>https://roadmap.logos.co/nomos/</link>
+    <guid>https://roadmap.logos.co/nomos/</guid>
+    <description>nomos: § Nomos Overview § The Nomos project is an attempt to make a scalable, modular, and private L1. To learn more about the project, please visit the website Nomos is currently in its initial phase as a project within Logos, namely the research and architecture design phase.</description>
+    <pubDate>Mon, 18 Sep 2023 20:31:38 GMT</pubDate>
   </items><items>
     <title>Nomos Roadmap Overview</title>
     <link>https://roadmap.logos.co/nomos/overview</link>
@@ -229,6 +235,12 @@
     <description>nomos: § network privacy and mixnet: § research § No specific research tasks reported this week related to this milestone. development § Made mixnet tests stable: 334 Finished the delay implementation: 362 Migrated the mixnode binary to Overwatch for better integration: 339 Added a retry mechanism to the libp2p backend for transient errors: 332 Fixed network tests failing with mixnet: 338 Fix panic for RandomDelayIter: 335 Connection cache for mixnet: 343 Implemented mempool network adapters for libp2p: 344 Implemented the libp2p version of the addtx endpoint: 345 testnet: § development: § POC/Draft for testnet using Docker Compose: 364 DNS Multiaddr parsing and peer id configuration: 346, 361 private PoS: § research: § Introduced the Base Design section, focusing on the ZCash design’s constructions, building an understanding of the data structures and algorithms, and presenting relevant algorithms with comprehensive descriptions.</description>
     <pubDate>Mon, 04 Sep 2023 00:00:00 GMT</pubDate>
   </items><items>
+    <title>Nomos Weekly Updates</title>
+    <link>https://roadmap.logos.co/nomos/updates/</link>
+    <guid>https://roadmap.logos.co/nomos/updates/</guid>
+    <description>These are all the Nomos weekly updates that are reported to Logos Insight team.</description>
+    <pubDate>Mon, 18 Sep 2023 20:31:38 GMT</pubDate>
+  </items><items>
     <title>Applied Cryptography and Zero-knowledge Service Unit</title>
     <link>https://roadmap.logos.co/vac/acz/overview</link>
     <guid>https://roadmap.logos.co/vac/acz/overview</guid>
@@ -270,6 +282,12 @@
     <guid>https://roadmap.logos.co/vac/tke/overview</guid>
     <description>vac:tke:: § status: § snt-lightpaper SNT-governance-proposal SNT-staking codex: § economic-analysis nomos: § economic-analysis waku: § economic-analysis .</description>
     <pubDate>Sat, 09 Sep 2023 00:00:00 GMT</pubDate>
+  </items><items>
+    <title>Zero-knowledge Virtual Machine Incubation Project</title>
+    <link>https://roadmap.logos.co/vac/zkvm/overview</link>
+    <guid>https://roadmap.logos.co/vac/zkvm/overview</guid>
+    <description>vac:zkvm:proofsystems § research-existing-proofsystems benchmarks .</description>
+    <pubDate>Wed, 06 Sep 2023 00:00:00 GMT</pubDate>
   </items><items>
     <title>2023-07-10 Vac Weekly</title>
     <link>https://roadmap.logos.co/vac/updates/2023-07-10</link>
@@ -336,12 +354,6 @@
     <guid>https://roadmap.logos.co/vac/updates/2023-09-18</guid>
     <description>vac:p2p: § nim-libp2p:vac:maintenance: Fixed gossipsub Direct Peers Continued cross-libp2p perf implementation nimlibp2p:vac:gossipsub-ddos-mitigation Open eth specs issue about disabling gossipsub Peer Exchange nimlibp2p:vac:webrtc-transport Fixed the blocking DTLS issue, continuing vertical implementation vac:tke: § vac:tke::codex:economic-analysis Review litepaper feedback w/ Codex and identify steps to finalize Codex tokenomics vac:tke::status:SNT-staking Review staking governance proposal w/John in Status call vac:tke::nomos:economic-analysis Analysis of rewards for delegation vs validation Researching ETH 2.</description>
     <pubDate>Mon, 18 Sep 2023 00:00:00 GMT</pubDate>
-  </items><items>
-    <title>Zero-knowledge Virtual Machine Incubation Project</title>
-    <link>https://roadmap.logos.co/vac/zkvm/overview</link>
-    <guid>https://roadmap.logos.co/vac/zkvm/overview</guid>
-    <description>vac:zkvm:proofsystems § research-existing-proofsystems benchmarks .</description>
-    <pubDate>Wed, 06 Sep 2023 00:00:00 GMT</pubDate>
   </items><items>
     <title>2023-07-24 Waku weekly</title>
     <link>https://roadmap.logos.co/waku/updates/2023-07-24</link>
