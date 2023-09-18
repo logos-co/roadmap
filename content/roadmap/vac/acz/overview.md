@@ -14,6 +14,7 @@ lastmod: 2023-09-12
 * [x] [[roadmap/vac/acz/rlnp2p/waku/production-readiness | production-readiness]]
 * [[roadmap/vac/acz/rlnp2p/waku/rln-membership-management | rln-membership-management]]
 * [[roadmap/vac/acz/rlnp2p/waku/rln-relay-enhancements| rln-relay-enhancements]]
+* [[roadmap/vac/acz/rlnp2p/waku/rln-multi-epoch-constraints| rln-multi-epoch-constraints]]
 
 ### `rlnp2p:vac:`
 * [[roadmap/vac/acz/rlnp2p/vac/rln-doc-and-outreach| rln-doc-and-outreach]]
