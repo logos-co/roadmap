@@ -25,7 +25,7 @@ gantt
     Wakurtosis Retrospective:  2023-08-01, 2023-09-30
 ```
 
-- status: 20%
+- status: 50%
 - CC: Jordi
 
 ### Description

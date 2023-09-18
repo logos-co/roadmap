@@ -25,11 +25,12 @@ gantt
     Basic Shadow Simulation:  2023-08-01, 2023-08-31
 ```
 
-- status: 40%
+- status: 90%
 - CC: Jordi
 
 ### Description
 
+* simple 10k shadow sim of the gossipsub node as a PoC.
 
 ### Justification
 
