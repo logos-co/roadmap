@@ -7,10 +7,14 @@ This site is an ongoing work in progress. The links within are an attempt to cap
 
 ## Navigation
 
-- [Waku](roadmap/waku/overview.md)
-- [Codex](roadmap/codex/overview.md)
-- [Nomos](roadmap/nomos/overview.md)
-- [Vac](roadmap/vac/overview.md)
-- [Innovation Lab](roadmap/innovation_lab/overview.md)
-- [Comms (Acid Info)](roadmap/acid/overview.md)
+### Projects
+- [Waku](waku/overview.md)
+- [Codex](codex/overview.md)
+- [Nomos](nomos/overview.md)
 
+### Services
+- [Vac](vac/overview.md)
+- [Comms (Acid Info)](acid/overview.md)
+
+### Skunk works
+- [Innovation Lab](innovation_lab/overview.md)
