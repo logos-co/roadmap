@@ -14,6 +14,7 @@ lastmod: 2023-09-08
 
 * [x] [[ roadmap/vac/dst/wakurtosis/waku/techreport | techreport ]]
 * [x] [[ roadmap/vac/dst/wakurtosis/waku/techreport_02 | techreport_02 ]]
+* [[ roadmap/vac/dst/wakurtosis/waku/techreport_03 | techreport_03 ]]
 * [x] [[ roadmap/vac/dst/wakurtosis/waku/features | wakurtosis:features ]]
 * [[ roadmap/vac/dst/wakurtosis/waku/gossipsub-topology-analysis | gossipsub-topology-analysis ]]
 
