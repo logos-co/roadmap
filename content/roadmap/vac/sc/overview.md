@@ -4,7 +4,7 @@ tags:
 - sc
 - vac
 date: 2023-08-25
-lastmod: 2023-09-06
+lastmod: 2023-09-18
 ---
 
 ## `vac:sc::`
@@ -19,6 +19,9 @@ lastmod: 2023-09-06
 * [[roadmap/vac/sc/g/status/community-contracts-ERC20.md | community-contracts-ERC20]]
 * [[roadmap/vac/sc/g/status/community-contracts-deployer.md | community-contracts-deployer]]
 * [[roadmap/vac/sc/g/status/community-contracts-maintenance.md | community-contracts-maintenance]]
+
+### `codex:`
+* [[roadmap/vac/sc/g/codex/review-codex-contracts.md | review-codex-contracts]]
 
 ### `vac:`
 * [[roadmap/vac/sc/g/vac/secureum-upskilling.md | secureum-upskilling]]
