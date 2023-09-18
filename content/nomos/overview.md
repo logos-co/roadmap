@@ -36,9 +36,9 @@ Nomos is currently in its initial phase as a project within Logos, namely the re
 ---
 ### Delivered Milestones
 #### `consensus-def:` [[nomos/consensus-def/overview|overview]]
-due: 2023 Q3
-status: complete
-description: Research and specification of an underlying consensus algorithm to be used as foundation for Nomos. 
+- due: 2023 Q3
+- status: complete
+- description: Research and specification of an underlying consensus algorithm to be used as foundation for Nomos. 
 
 ---
 ### Useful Links
