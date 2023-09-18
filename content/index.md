@@ -10,7 +10,7 @@ This site is an ongoing work in progress. The links within are an attempt to cap
 ### Projects
 - [Waku](waku/overview.md)
 - [Codex](codex/overview.md)
-- [Nomos](nomos/overview.md)
+- [Nomos](nomos)
 
 ### Services
 - [Vac](vac/overview.md)
