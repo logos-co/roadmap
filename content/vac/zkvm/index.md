@@ -9,6 +9,6 @@ lastmod: 2023-09-06
 
 ### `vac:zkvm:proofsystems`
 
-* [[research-existing-proofsystems| research-existing-proofsystems ]]
-* [[benchmarks| benchmarks ]]
+* [[vac/zkvm/proofsystems/vac/research-existing-proofsystems|research-existing-proofsystems ]]
+* [[vac/zkvm/proofsystems/vac/benchmarks|benchmarks]]
 

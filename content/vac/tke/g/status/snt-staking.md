@@ -26,7 +26,7 @@ gantt
 
 - status: 82%
 - CC: Frederico (Python), Martin
-- collab: [[vac/sc/overview|smart contracts team]]
+- collab: [[vac/sc/index|smart contracts team]]
 
 ### Description:
 

@@ -30,7 +30,7 @@ gantt
 Enhancing the first simple CC membership list
 
 ### Risks
-- depends on input from [[waku/overview|Waku]]
+- depends on input from [[waku/index|Waku]]
 
 ### Info
 

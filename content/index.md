@@ -8,12 +8,12 @@ This site is an ongoing work in progress. The links within are an attempt to cap
 ## Navigation
 
 ### Projects
-- [Waku](waku/overview.md)
+- [Waku](waku/index.md)
 - [Codex](codex/overview.md)
 - [Nomos](nomos)
 
 ### Services
-- [Vac](vac/overview.md)
+- [Vac](vac/index.md)
 - [Comms (Acid Info)](acid/overview.md)
 
 ### Skunk works

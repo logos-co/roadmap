@@ -17,20 +17,20 @@ title: Vac Roadmap
 
 #### R&D Service Units
 
-- `p2p`: [[vac/p2p/overview| Peer-to-peer]]
-- `tke:` [[vac/tke/overview| Token Engineering]]
-- `dst:` [[vac/dst/overview| Distributed Systems Testing]]
-- `acz:` [[vac/acz/overview| Applied Cryptography and Zero-knowledge]]
-- `sc:` [[vac/sc/overview| Smart Contracts]]
+- `p2p:` [[vac/p2p/index|Peer-to-peer]]
+- `tke:` [[vac/tke/index|Token Engineering]]
+- `dst:` [[vac/dst/index|Distributed Systems Testing]]
+- `acz:` [[vac/acz/index| Applied Cryptography and Zero-knowledge]]
+- `sc:` [[vac/sc/index| Smart Contracts]]
 
 #### Vac Core
 
-- `dr:` [[vac/dr/overview|Deep Research]]
-- `rfc:` [[vac/rfc/overview|RFC Process and Maintenance]] 
+- `dr:` [[vac/dr/index|Deep Research]]
+- `rfc:` [[vac/rfc/index|RFC Process and Maintenance]] 
 
 #### Incubator Projects
 
-- `zkvm:` [[vac/zkvm/overview|Zero-knowledge Virtual Machine]]
+- `zkvm:` [[vac/zkvm/index|Zero-knowledge Virtual Machine]]
 
 ### Weekly Updates
 - [weekly updates](tags/vac-updates)
