@@ -5,5 +5,6 @@ tags:
 date: <% tp.date.now() %>
 lastmod: <% tp.date.now() %>
 draft: false
+description: "Weekly update of <project>"
 ---
 

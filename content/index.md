@@ -17,4 +17,4 @@ This site is an ongoing work in progress. The links within are an attempt to cap
 - [Comms (Acid Info)](acid/overview.md)
 
 ### Skunk works
-- [Innovation Lab](innovation_lab/overview.md)
+- [Innovation Lab](innovation_lab/index.md)

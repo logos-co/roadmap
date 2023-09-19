@@ -1,6 +1,6 @@
 ---
 title: Nomos Roadmap Overview
-description: The Nomos project is an attempt to make a scalable, modular, and private L1. To learn more about the project, please visit [the website](https://nomos.tech). Nomos is currently in its initial phase as a project within Logos, namely the research and architecture design phase.
+description: The Nomos project is an attempt to make a scalable, modular, and private L1. To learn more about the project, please visit https://nomos.tech. Nomos is currently in its initial phase as a project within Logos, namely the research and architecture design phase.
 ---
 ## `nomos:`
 ---

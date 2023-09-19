@@ -2,6 +2,7 @@
 title: <year> <month> <project> Monthly Report
 draft: true
 lastmod: <% tp.date.now() %>
+description: "Monthly Report of <project>"
 ---
 
 ## Executive Summary

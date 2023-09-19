@@ -1,5 +1,6 @@
 ---
 title: "Nomos Milestone: Full Base Layer Specification"
+description: The initial milestone of the Nomos project is a full specification of the Base Layer. This entails detailed explanations of the working parts of the architecture and how they lay the groundwork for future layers to be built on top.
 ---
 ## `nomos:base-layer-spec:`
 ---
@@ -12,24 +13,24 @@ The initial milestone of the Nomos project is a full specification of the Base L
 This work can be tracked via the following epics.
 
 ### Key Epics
-#### `network-privacy:` [[nomos/base-layer-spec/network-privacy/index|index]]
+#### `network-privacy:` [[nomos/base-layer-spec/network-privacy/index|details]]
 - due: 
 - progress: 
 - short description: Creation of a privacy preserving network underlay
 
-#### `private-pos:` [[nomos/base-layer-spec/priv-pos/index|index]]
+#### `private-pos:` [[nomos/base-layer-spec/priv-pos/index|details]]
 - due: Sept 29, 2023
 - progress: 
 - short description: Creation of a Proof-of-Stake model that preserves the privacy of the stakers within the network
 
-#### `data-availability:` [[nomos/base-layer-spec/data-avail/index|index]]
+#### `data-availability:` [[nomos/base-layer-spec/data-avail/index|details]]
 - due: 
 - progress: 
 - short description: Definition of how Nomos makes data available to network participants, and its reference implementation for the Base Layer.
 
 ### Dependent Upon:
 #### `vac:dr:carnot-aggregation-spec`
-- [[carnot-2-3rds-vote-aggregation]]
+- [[vac/dr/consensus/nomos/carnot-2-3rds-vote-aggregation|carnot-2-3rds-vote-aggregation]]
 
 #### `vac:tke:stake-rewards`
 - [[vac/tke/g/nomos/economic-analysis|economic-analysis]]

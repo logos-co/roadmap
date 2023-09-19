@@ -1,7 +1,8 @@
 ---
-title: "Innovation Lab Roadmap Overview"
+title: Innovation Lab Roadmap Overview
 tags:
-- "overview"
+  - overview
+description: Overview of the Logos Innovation Lab development
 ---
 
 Welcome to the Innovation lab Roadmap Overview
