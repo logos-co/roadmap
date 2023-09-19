@@ -31,7 +31,7 @@ gantt
 
 ### Description
 
-This milestone comprises component 3 of the [Nomos network pivacy stack](https://www.notion.so/Network-Privacy-Stack-2a2a86647d2a42ca9de6940c55f99851)
+This milestone comprises component 3 of the [Nomos network privacy stack](https://www.notion.so/Network-Privacy-Stack-2a2a86647d2a42ca9de6940c55f99851)
 in the context of consensus privacy:
 
 The main goal of this work is finding in-protocol (carnot) mechanisms to solve the problem of timing attacks.
