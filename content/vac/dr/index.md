@@ -26,7 +26,7 @@ lastmod: 2023-09-06
 * [[vac/dr/gsub-scaling/vac/gossipsub-improvements-paper|gossipsub-improvements-paper]]
 * [[vac/dr/gsub-scaling/vac/unstructured-p2p-improvements-survey|unstructured-p2p-improvements-survey]]
 
-## `vac:dr:consensus:vac:`
+## `vac:dr:consensus:nomos:`
 
 * [x] [[vac/dr/consensus/nomos/carnot-paper|carnot-paper]]
 * [[vac/dr/consensus/nomos/carnot-paper_02|carnot-paper_02 ]]
