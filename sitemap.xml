@@ -1,6 +1,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
     <loc>https://roadmap.logos.co/</loc>
-    <lastmod>2023-09-19T12:41:52.647Z</lastmod>
+    <lastmod>2023-09-19T23:23:08.474Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/terms-of-use</loc>
     <lastmod>2023-09-14T13:53:21.844Z</lastmod>
@@ -17,17 +17,17 @@
     <loc>https://roadmap.logos.co/codex/overview</loc>
     <lastmod>2023-09-18T20:20:20.465Z</lastmod>
   </url><url>
+    <loc>https://roadmap.logos.co/innovation_lab/</loc>
+    <lastmod>2023-09-19T23:23:08.474Z</lastmod>
+  </url><url>
     <loc>https://roadmap.logos.co/innovation_lab/milestones-overview</loc>
     <lastmod>2023-08-17T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/innovation_lab/overview</loc>
-    <lastmod>2023-09-18T20:20:20.465Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/nomos/</loc>
-    <lastmod>2023-09-19T13:34:42.675Z</lastmod>
-  </url><url>
     <loc>https://roadmap.logos.co/tags/component</loc>
     <lastmod>2023-08-22T08:20:28.274Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/nomos/</loc>
+    <lastmod>2023-09-19T23:23:08.474Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/vac/</loc>
     <lastmod>2023-09-19T12:41:52.647Z</lastmod>
@@ -75,7 +75,7 @@
     <lastmod>2023-08-17T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/nomos/base-layer-spec/</loc>
-    <lastmod>2023-09-18T20:34:38.143Z</lastmod>
+    <lastmod>2023-09-19T23:23:08.474Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/nomos/base-layer-testnet/</loc>
     <lastmod>2023-09-18T20:34:38.143Z</lastmod>
