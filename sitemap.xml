@@ -23,17 +23,17 @@
     <loc>https://roadmap.logos.co/innovation_lab/milestones-overview</loc>
     <lastmod>2023-08-17T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/tags/component</loc>
-    <lastmod>2023-08-22T08:20:28.274Z</lastmod>
-  </url><url>
     <loc>https://roadmap.logos.co/nomos/</loc>
     <lastmod>2023-09-19T23:23:08.474Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/tags/component</loc>
+    <lastmod>2023-08-22T08:20:28.274Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/vac/</loc>
     <lastmod>2023-09-19T12:41:52.647Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/</loc>
-    <lastmod>2023-08-22T00:00:00.000Z</lastmod>
+    <lastmod>2023-09-19T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/milestone-waku-10-users</loc>
     <lastmod>2023-08-07T00:00:00.000Z</lastmod>
@@ -122,17 +122,20 @@
     <loc>https://roadmap.logos.co/vac/dst/</loc>
     <lastmod>2023-09-08T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/vac/p2p/</loc>
-    <lastmod>2023-09-05T00:00:00.000Z</lastmod>
-  </url><url>
     <loc>https://roadmap.logos.co/vac/rfc/</loc>
     <lastmod>2023-09-06T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/p2p/</loc>
+    <lastmod>2023-09-05T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/vac/sc/</loc>
     <lastmod>2023-09-18T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/vac/tke/</loc>
     <lastmod>2023-09-09T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/zkvm/</loc>
+    <lastmod>2023-09-06T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/vac/updates/2023-07-10</loc>
     <lastmod>2023-07-16T00:00:00.000Z</lastmod>
@@ -166,9 +169,6 @@
   </url><url>
     <loc>https://roadmap.logos.co/vac/updates/2023-09-18</loc>
     <lastmod>2023-09-18T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/vac/zkvm/</loc>
-    <lastmod>2023-09-06T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2023-07-24</loc>
     <lastmod>2023-08-04T00:00:00.000Z</lastmod>
@@ -293,10 +293,10 @@
     <loc>https://roadmap.logos.co/vac/dst/analysis-shadow/waku/shadow-waku-relay-analysis</loc>
     <lastmod>2023-09-18T20:20:20.469Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/vac/dst/dr-support/vac/carnot-executable-spec</loc>
+    <loc>https://roadmap.logos.co/vac/dst/eng/vac/bundle-simulation-data</loc>
     <lastmod>2023-09-18T20:20:20.469Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/vac/dst/eng/vac/bundle-simulation-data</loc>
+    <loc>https://roadmap.logos.co/vac/dst/dr-support/vac/carnot-executable-spec</loc>
     <lastmod>2023-09-18T20:20:20.469Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/vac/dst/eng-10ktool/vac/bandwidth-test</loc>
@@ -350,6 +350,12 @@
     <loc>https://roadmap.logos.co/vac/dst/wakurtosis/waku/techreport_03</loc>
     <lastmod>2023-09-18T20:20:20.469Z</lastmod>
   </url><url>
+    <loc>https://roadmap.logos.co/vac/rfc/rfc/nomos/carnot-vote-2-3rds-vote-aggregation-specification</loc>
+    <lastmod>2023-09-18T20:20:20.469Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/rfc/rfc/status/port-status-specs</loc>
+    <lastmod>2023-09-18T20:20:20.473Z</lastmod>
+  </url><url>
     <loc>https://roadmap.logos.co/vac/p2p/nimchronos/vac/maintenance</loc>
     <lastmod>2023-09-18T20:20:20.469Z</lastmod>
   </url><url>
@@ -367,12 +373,6 @@
   </url><url>
     <loc>https://roadmap.logos.co/vac/p2p/nimlibp2p/vac/webrtc-transport</loc>
     <lastmod>2023-09-18T20:20:20.469Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/vac/rfc/rfc/nomos/carnot-vote-2-3rds-vote-aggregation-specification</loc>
-    <lastmod>2023-09-18T20:20:20.469Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/vac/rfc/rfc/status/port-status-specs</loc>
-    <lastmod>2023-09-18T20:20:20.473Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/vac/sc/g/codex/review-codex-contracts</loc>
     <lastmod>2023-09-18T20:20:20.473Z</lastmod>
