@@ -14,7 +14,8 @@ This site is an ongoing work in progress. The links within are an attempt to cap
 
 ### Services
 - [Vac](vac/index.md)
-- [Comms (Acid Info)](acid/overview.md)
+- [Comms (Acid Info)](acid/index.md)
+- [[insight/index|Insight]]
 
 ### Skunk works
 - [Innovation Lab](innovation_lab/index.md)
