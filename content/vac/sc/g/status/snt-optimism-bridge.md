@@ -38,7 +38,7 @@ These issues are part of enhancing the MimiMe token.
 * https://github.com/vacp2p/minime/issues/17
 * https://github.com/vacp2p/minime/issues/7
 * https://github.com/vacp2p/minime/issues/5
-* https://github.com/vacp2p/minime/issues/20
+* https://github.com/vacp2p/minime/issues/31
 
 Following enhancments to the MimiMe token (future work) are tracked in:
 [[ vac/sc/g/status/mimime-token-enhancement | mimime-token-enhancement ]]
