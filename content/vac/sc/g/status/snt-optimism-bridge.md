@@ -43,6 +43,11 @@ These issues are part of enhancing the MimiMe token.
 Following enhancments to the MimiMe token (future work) are tracked in:
 [[ vac/sc/g/status/mimime-token-enhancement | mimime-token-enhancement ]]
 
+This milestone also contains:
+* a listing of issues identified in the 1st Certora audit, which we addressed
+* a listing of issues that are now out of scope because we forked the MimiMe repo, and removed parts we do not need
+* a second Certora audit including our new MimiMe fork
+
 ### Justification
 
 
