@@ -31,7 +31,11 @@ gantt
 
 ### Description
 
-* https://github.com/status-im/communities-contracts/issues/13
+Depends on finishing  [[ vac/sc/g/status/snt-optimism-bridge | SNT-optimism-bridge ]]
+
+The milestone has to be completed (can be a mitigation / preliminary fix):
+* https://github.com/status-im/community-dapp/issues/65
+
 
 ### Justification
 

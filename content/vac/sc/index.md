@@ -13,7 +13,7 @@ lastmod: 2023-09-21
 ### `status:`
 * [x] [[ vac/sc/g/status/community-contracts-ERC721 | community-contracts-ERC721 ]]
 * [[ vac/sc/g/status/community-contracts-ERC20 | community-contracts-ERC20 ]]
-* [[ vac/sc/g/status/community-contracts-deployer | community-contracts-deployer ]]
+* [x] [[ vac/sc/g/status/community-contracts-deployer | community-contracts-deployer ]]
 * [[ vac/sc/g/status/community-contracts-maintenance | community-contracts-maintenance ]]
 * [[ vac/sc/g/status/community-curation-contracts | community-curation-contracts ]]
 * [[ vac/sc/g/status/snt-optimism-bridge | SNT-optimism-bridge ]]

@@ -30,6 +30,7 @@ gantt
 
 ### Description
 
+* https://github.com/status-im/communities-contracts/issues/13
 
 ### Justification
 
