@@ -361,6 +361,12 @@
     <description>vac:tke:: § status: § snt-lightpaper SNT-governance-proposal SNT-staking codex: § economic-analysis nomos: § economic-analysis waku: § economic-analysis .</description>
     <pubDate>Sat, 09 Sep 2023 00:00:00 GMT</pubDate>
   </items><items>
+    <title>Zero-knowledge Virtual Machine Incubation Project</title>
+    <link>https://roadmap.logos.co/vac/zkvm/</link>
+    <guid>https://roadmap.logos.co/vac/zkvm/</guid>
+    <description>vac:zkvm:proofsystems § research-existing-proofsystems benchmarks .</description>
+    <pubDate>Wed, 06 Sep 2023 00:00:00 GMT</pubDate>
+  </items><items>
     <title>2023-07-10 Vac Weekly</title>
     <link>https://roadmap.logos.co/vac/updates/2023-07-10</link>
     <guid>https://roadmap.logos.co/vac/updates/2023-07-10</guid>
@@ -426,12 +432,6 @@
     <guid>https://roadmap.logos.co/vac/updates/2023-09-18</guid>
     <description>vac:p2p: § nim-libp2p:vac:maintenance: Fixed gossipsub Direct Peers Continued cross-libp2p perf implementation nimlibp2p:vac:gossipsub-ddos-mitigation Open eth specs issue about disabling gossipsub Peer Exchange nimlibp2p:vac:webrtc-transport Fixed the blocking DTLS issue, continuing vertical implementation vac:tke: § vac:tke::codex:economic-analysis Review litepaper feedback w/ Codex and identify steps to finalize Codex tokenomics vac:tke::status:SNT-staking Review staking governance proposal w/John in Status call vac:tke::nomos:economic-analysis Analysis of rewards for delegation vs validation Researching ETH 2.</description>
     <pubDate>Mon, 18 Sep 2023 00:00:00 GMT</pubDate>
-  </items><items>
-    <title>Zero-knowledge Virtual Machine Incubation Project</title>
-    <link>https://roadmap.logos.co/vac/zkvm/</link>
-    <guid>https://roadmap.logos.co/vac/zkvm/</guid>
-    <description>vac:zkvm:proofsystems § research-existing-proofsystems benchmarks .</description>
-    <pubDate>Wed, 06 Sep 2023 00:00:00 GMT</pubDate>
   </items><items>
     <title>Nomos Data Availability Details</title>
     <link>https://roadmap.logos.co/nomos/base-layer-spec/data-avail/</link>
@@ -595,6 +595,24 @@
     <description>vac:dst:analysis:nomos:simulation-analysis § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Simulation Analysis: 2023-08-01, 2023-09-15 status: 70% CC: Ganesh Description § Justification § Info § Extended: include signature aggregation into analysis write analysis section in Carnot paper nomos node nomos simulations Deliverables §.</description>
     <pubDate>Mon, 18 Sep 2023 20:20:20 GMT</pubDate>
   </items><items>
+    <title>Control Messages</title>
+    <link>https://roadmap.logos.co/vac/dst/analysis-gsub-model/status/control-messages</link>
+    <guid>https://roadmap.logos.co/vac/dst/analysis-gsub-model/status/control-messages</guid>
+    <description>vac:dst:analysis-gsub-model:status:control-messages § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Control Messages: 2023-07-01, 2023-09-15 status: 85% CC: Ganesh Description § Justification § Info § delayed because of extending Nomos analysis milestone Deliverables §.</description>
+    <pubDate>Mon, 18 Sep 2023 20:20:20 GMT</pubDate>
+  </items><items>
+    <title>Refactoring</title>
+    <link>https://roadmap.logos.co/vac/dst/analysis-gsub-model/vac/refactoring</link>
+    <guid>https://roadmap.logos.co/vac/dst/analysis-gsub-model/vac/refactoring</guid>
+    <description>vac:dst:analysis-gsub-model:vac:refactoring § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Refactoring: 2023-08-01, 2023-09-30 status: 40% CC: Ganesh Description § Justification § Deliverables §.</description>
+    <pubDate>Mon, 18 Sep 2023 20:20:20 GMT</pubDate>
+  </items><items>
+    <title>Carnot 2-3rds Vote Aggregation Python Implementation</title>
+    <link>https://roadmap.logos.co/vac/dst/dr-support/vac/carnot-executable-spec</link>
+    <guid>https://roadmap.logos.co/vac/dst/dr-support/vac/carnot-executable-spec</guid>
+    <description>vac:dst:dr-support:vac:carnot-2-3rds-python-impl § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Carnot 2/3rds Python Impl: 2023-09-15, 2023-10-31 status: 0% CC: Ganesh Description § support the DR team with writing the python code for a executable specification of the Carnot 2/3rds vote aggregation see DR milestone: carnot-2-3rds-vote-aggregation Justification § Deliverables §.</description>
+    <pubDate>Mon, 18 Sep 2023 20:20:20 GMT</pubDate>
+  </items><items>
     <title>Basic Shadow Simulation</title>
     <link>https://roadmap.logos.co/vac/dst/analysis-shadow/vac/shadow-basic-simulation</link>
     <guid>https://roadmap.logos.co/vac/dst/analysis-shadow/vac/shadow-basic-simulation</guid>
@@ -611,24 +629,6 @@
     <link>https://roadmap.logos.co/vac/dst/analysis-shadow/waku/shadow-waku-relay-analysis</link>
     <guid>https://roadmap.logos.co/vac/dst/analysis-shadow/waku/shadow-waku-relay-analysis</guid>
     <description>vac:dst:analysis-shadow:waku:shadow-waku-relay-analysis § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Shadow Waku Relay Analysis: done, 2023-10-01, 2023-11-30 status: 0% CC: Jordi Description § Justification § Deliverables §.</description>
-    <pubDate>Mon, 18 Sep 2023 20:20:20 GMT</pubDate>
-  </items><items>
-    <title>Refactoring</title>
-    <link>https://roadmap.logos.co/vac/dst/analysis-gsub-model/vac/refactoring</link>
-    <guid>https://roadmap.logos.co/vac/dst/analysis-gsub-model/vac/refactoring</guid>
-    <description>vac:dst:analysis-gsub-model:vac:refactoring § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Refactoring: 2023-08-01, 2023-09-30 status: 40% CC: Ganesh Description § Justification § Deliverables §.</description>
-    <pubDate>Mon, 18 Sep 2023 20:20:20 GMT</pubDate>
-  </items><items>
-    <title>Control Messages</title>
-    <link>https://roadmap.logos.co/vac/dst/analysis-gsub-model/status/control-messages</link>
-    <guid>https://roadmap.logos.co/vac/dst/analysis-gsub-model/status/control-messages</guid>
-    <description>vac:dst:analysis-gsub-model:status:control-messages § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Control Messages: 2023-07-01, 2023-09-15 status: 85% CC: Ganesh Description § Justification § Info § delayed because of extending Nomos analysis milestone Deliverables §.</description>
-    <pubDate>Mon, 18 Sep 2023 20:20:20 GMT</pubDate>
-  </items><items>
-    <title>Carnot 2-3rds Vote Aggregation Python Implementation</title>
-    <link>https://roadmap.logos.co/vac/dst/dr-support/vac/carnot-executable-spec</link>
-    <guid>https://roadmap.logos.co/vac/dst/dr-support/vac/carnot-executable-spec</guid>
-    <description>vac:dst:dr-support:vac:carnot-2-3rds-python-impl § %%{ init: { &#039;theme&#039;: &#039;base&#039;, &#039;themeVariables&#039;: { &#039;primaryColor&#039;: &#039;#BB2528&#039;, &#039;primaryTextColor&#039;: &#039;#fff&#039;, &#039;primaryBorderColor&#039;: &#039;#7C0000&#039;, &#039;lineColor&#039;: &#039;#F8B229&#039;, &#039;secondaryColor&#039;: &#039;#006100&#039;, &#039;tertiaryColor&#039;: &#039;#fff&#039; } } }%% gantt tickInterval 1month dateFormat YYYY-MM-DD section Status Carnot 2/3rds Python Impl: 2023-09-15, 2023-10-31 status: 0% CC: Ganesh Description § support the DR team with writing the python code for a executable specification of the Carnot 2/3rds vote aggregation see DR milestone: carnot-2-3rds-vote-aggregation Justification § Deliverables §.</description>
     <pubDate>Mon, 18 Sep 2023 20:20:20 GMT</pubDate>
   </items><items>
     <title>Bundle Simulation Data</title>
@@ -845,7 +845,7 @@
     <link>https://roadmap.logos.co/vac/sc/g/status/snt-optimism-bridge</link>
     <guid>https://roadmap.logos.co/vac/sc/g/status/snt-optimism-bridge</guid>
     <description>Finalizig work necessary to bridge SNT to Optimism.</description>
-    <pubDate>Fri, 22 Sep 2023 10:46:17 GMT</pubDate>
+    <pubDate>Fri, 22 Sep 2023 11:05:13 GMT</pubDate>
   </items><items>
     <title>Status Staking Contract Maintenance Details</title>
     <link>https://roadmap.logos.co/vac/sc/g/status/staking-contract-maintenance</link>

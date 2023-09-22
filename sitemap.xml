@@ -176,6 +176,9 @@
     <loc>https://roadmap.logos.co/vac/tke/</loc>
     <lastmod>2023-09-09T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://roadmap.logos.co/vac/zkvm/</loc>
+    <lastmod>2023-09-06T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://roadmap.logos.co/vac/updates/2023-07-10</loc>
     <lastmod>2023-07-16T00:00:00.000Z</lastmod>
   </url><url>
@@ -208,9 +211,6 @@
   </url><url>
     <loc>https://roadmap.logos.co/vac/updates/2023-09-18</loc>
     <lastmod>2023-09-18T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/vac/zkvm/</loc>
-    <lastmod>2023-09-06T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/nomos/base-layer-spec/data-avail/</loc>
     <lastmod>2023-09-18T20:34:38.143Z</lastmod>
@@ -293,6 +293,15 @@
     <loc>https://roadmap.logos.co/vac/dst/analysis/nomos/nomos-simulation-analysis</loc>
     <lastmod>2023-09-18T20:20:20.469Z</lastmod>
   </url><url>
+    <loc>https://roadmap.logos.co/vac/dst/analysis-gsub-model/status/control-messages</loc>
+    <lastmod>2023-09-18T20:20:20.469Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/dst/analysis-gsub-model/vac/refactoring</loc>
+    <lastmod>2023-09-18T20:20:20.469Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/dst/dr-support/vac/carnot-executable-spec</loc>
+    <lastmod>2023-09-18T20:20:20.469Z</lastmod>
+  </url><url>
     <loc>https://roadmap.logos.co/vac/dst/analysis-shadow/vac/shadow-basic-simulation</loc>
     <lastmod>2023-09-18T20:20:20.469Z</lastmod>
   </url><url>
@@ -300,15 +309,6 @@
     <lastmod>2023-09-18T20:20:20.469Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/vac/dst/analysis-shadow/waku/shadow-waku-relay-analysis</loc>
-    <lastmod>2023-09-18T20:20:20.469Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/vac/dst/analysis-gsub-model/vac/refactoring</loc>
-    <lastmod>2023-09-18T20:20:20.469Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/vac/dst/analysis-gsub-model/status/control-messages</loc>
-    <lastmod>2023-09-18T20:20:20.469Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/vac/dst/dr-support/vac/carnot-executable-spec</loc>
     <lastmod>2023-09-18T20:20:20.469Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/vac/dst/eng/vac/bundle-simulation-data</loc>
@@ -417,7 +417,7 @@
     <lastmod>2023-09-22T10:45:19.936Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/vac/sc/g/status/snt-optimism-bridge</loc>
-    <lastmod>2023-09-22T10:46:17.621Z</lastmod>
+    <lastmod>2023-09-22T11:05:13.248Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/vac/sc/g/status/staking-contract-maintenance</loc>
     <lastmod>2023-09-18T20:20:20.473Z</lastmod>
