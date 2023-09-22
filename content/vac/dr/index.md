@@ -38,3 +38,7 @@ lastmod: 2023-09-06
 * [[vac/dr/consensus/nomos/inter-chain-protocol|inter-chain-protocol]]
 * [[vac/dr/consensus/nomos/multi-leader-and-multi-overlay-carnot|multi-leader-and-multi-overlay-carnot ]]
 
+## `vac:dr:zk:codex:`
+
+* [[ vac/dr/zk/codex/storage-proofs-open-problems-review | storage-proofs-open-problems-review ]]
+
