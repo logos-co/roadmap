@@ -38,15 +38,16 @@ gantt
 
 * https://github.com/status-im/communities-contracts/commit/e7d799b761e87166ecee4efaaede0b7a6cc367ad
 
-Test net:
+* https://goerli-optimism.etherscan.io/address/0xfFa8A255D905c909379859eA45B959D090DDC2d4
+
+Test-net addresses:
 
 ```
-0: contract CommunityTokenDeployer 0x7Ff554af5b6624db2135E4364F416d1D397f43e6
-1: contract CommunityOwnerTokenRegistry 0x9C84f9f9970B22E67f1B2BE46ABb1C09741FF7d7
-2: contract CommunityOwnerTokenFactory 0x0B5DAd18B8791ddb24252B433ec4f21f9e6e5Ed0
-3: contract CommunityMasterTokenFactory 0x35Cded11D75cC10d38ED4456b8caDC9F36E85E42
+CommunityTokenDeployer 0xfFa8A255D905c909379859eA45B959D090DDC2d4
+CommunityOwnerTokenRegistry 0x99F0Eeb7E9F1Da6CA9DDf77dD7810B665FD85750
+CommunityOwnerTokenFactory 0x76d0E484e7c3398922636960Ab33bDe6E9936D81
+CommunityMasterTokenFactory 0x420BE6568c6E09782CEAE1575495Cd6C1c7EA04D
 ```
 
-* https://goerli-optimism.etherscan.io/address/0x7Ff554af5b6624db2135E4364F416d1D397f43e6
 
 

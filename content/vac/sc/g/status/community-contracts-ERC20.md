@@ -32,6 +32,12 @@ gantt
 
 * https://github.com/status-im/communities-contracts/issues/13
 
+#### Info
+
+This milestone comprises what the SC has to deliver towards the completion of Status No3 prio:
+
+`3) work on the Status Community ownership tokenisation smart contracts is the third priority`
+
 ### Justification
 
 
