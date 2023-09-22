@@ -48,6 +48,13 @@ This milestone also contains:
 * a listing of issues that are now out of scope because we forked the MimiMe repo, and removed parts we do not need
 * a second Certora audit including our new MimiMe fork
 
+#### Info
+
+This milestone comprises what the SC has to deliver towards the completion of Status No1 prio:
+
+`the SNT contract for deployment on Optimism is top priority`
+
+
 ### Justification
 
 

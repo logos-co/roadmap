@@ -47,12 +47,6 @@ This document is the basis for the following issues:
 
 The milestone is achived when these issues have been resolved.
 
-#### Info
-
-This milestone comprises what the SC has to deliver towards the completion of Status No1 prio:
-
-`the SNT contract for deployment on Optimism is top priority`
-
 ### Justification
 
 
