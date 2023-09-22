@@ -25,7 +25,7 @@ gantt
     Community Contracts ERC20:  2023-08-01, 2023-11-31
 ```
 
-- status: 0%
+- status: 70%
 - CC: Andrea
 
 ### Description
