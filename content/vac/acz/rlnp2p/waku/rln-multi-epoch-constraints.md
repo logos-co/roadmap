@@ -30,11 +30,11 @@ gantt
 
 ### Description
 
-Currenly, RLN v1 allows for a fixed message rate of 1/msg per epoch while RLN v2 allows for n msgs/epoch.
-The goal of this milestone is desiging the key derivation and related crypto for allowing several n msgs/epoch constraints.
+Currently, RLN v1 allows for a fixed message rate of 1/msg per epoch while RLN v2 allows for n msgs/epoch.
+The goal of this milestone is designing the key derivation and related cryptographic components for allowing several n msgs/epoch constraints.
 For example: 24 msg / day && 1 msg/10 seconds.
 
-The nullifier defined in https://rfc.vac.dev/spec/32/#slashing-and-shamirs-secret-sharing has to be adapted accordingly.
+* the nullifier defined in the [RLN RFC](https://rfc.vac.dev/spec/32/#slashing-and-shamirs-secret-sharing) has to be adapted accordingly.
 
 ### Justification
 
