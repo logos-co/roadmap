@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html><head><title>2023-09-25 Vac weekly</title><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="2023-09-25 Vac weekly"/><meta property="og:description" content="vac:p2p: § nimlibp2p:vac:gossipsub-ddos-mitigation Merged GossipSub Traffic Scoring 920 nimlibp2p:vac:gossipsub-stagger-send Continued simulations nim-libp2p:vac:maintenance Tried to integrate HP in nwaku, but rendezvous isn’t integrated yet nimlibp2p:vac:webrtc-transport Continued vertical integration of protocols vac:tke: § vac:tke::codex:economic-analysis Meeting with Codex on Tuesday, get in sync on timeline and steps for final delivery vac:tke::status:SNT-staking Review goverance process itself, governance proposal template, staking gov proposal w/ John vac:tke::nomos:economic-analysis Analysis of rewards for delegation vs validation Alvaro shared further docs to review on Private Addressing incentives and two-tiered staking vac:tke::waku:economic-analysis Reading WAKU papers and onboarding Sergei, establishing recurring cadence vac:dst: § wakurtosis:waku:techreport_03 Delivered (pending discussion with Waku team) analysis-shadow:vac:shadow-gossipsub-analysis Run 20K simulation (resources test) eng-10ktool:vac:bandwidth-test Check with Slava K8s configuration, to run nodes in master aswell (K3s) Code first multi-node deployment Dockerized DST node software-testing:waku:test-plans Started working at the Relay test plan software-testing:waku:test-automation-js-waku Addressed all comments from last week PRs and merged them Fixed the nwaku CI part that invokes js-waku: 2061 Bumped nwaku version in js-waku CI: 1591 Helped investigating nwaku issues caught by the js-waku tests Investigated some flaky tests and tried to fix them: 1592 Started working on adding new tests for the static sharding functionality for js-waku Added a bug report found during testing and a feature request for test reporting software-testing:waku:test-automation-nwaku Implement service to service waku filter tests: PR Implement coverage for nwaku: PR Rebase all test branches from master, fixing numerous git mishaps."/><meta property="og:image" content="https://roadmap.logos.co/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../../static/icon.png"/><meta name="description" content="vac:p2p: § nimlibp2p:vac:gossipsub-ddos-mitigation Merged GossipSub Traffic Scoring 920 nimlibp2p:vac:gossipsub-stagger-send Continued simulations nim-libp2p:vac:maintenance Tried to integrate HP in nwaku, but rendezvous isn’t integrated yet nimlibp2p:vac:webrtc-transport Continued vertical integration of protocols vac:tke: § vac:tke::codex:economic-analysis Meeting with Codex on Tuesday, get in sync on timeline and steps for final delivery vac:tke::status:SNT-staking Review goverance process itself, governance proposal template, staking gov proposal w/ John vac:tke::nomos:economic-analysis Analysis of rewards for delegation vs validation Alvaro shared further docs to review on Private Addressing incentives and two-tiered staking vac:tke::waku:economic-analysis Reading WAKU papers and onboarding Sergei, establishing recurring cadence vac:dst: § wakurtosis:waku:techreport_03 Delivered (pending discussion with Waku team) analysis-shadow:vac:shadow-gossipsub-analysis Run 20K simulation (resources test) eng-10ktool:vac:bandwidth-test Check with Slava K8s configuration, to run nodes in master aswell (K3s) Code first multi-node deployment Dockerized DST node software-testing:waku:test-plans Started working at the Relay test plan software-testing:waku:test-automation-js-waku Addressed all comments from last week PRs and merged them Fixed the nwaku CI part that invokes js-waku: 2061 Bumped nwaku version in js-waku CI: 1591 Helped investigating nwaku issues caught by the js-waku tests Investigated some flaky tests and tried to fix them: 1592 Started working on adding new tests for the static sharding functionality for js-waku Added a bug report found during testing and a feature request for test reporting software-testing:waku:test-automation-nwaku Implement service to service waku filter tests: PR Implement coverage for nwaku: PR Rebase all test branches from master, fixing numerous git mishaps."/><meta name="generator" content="Logos Roadmaps"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="../../index.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=sans-serif:wght@400;700&amp;family=sans-serif:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="../../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch(`../../static/contentIndex.json`).then(data => data.json())</script></head><body data-slug="vac/updates/2023-09-25"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title"><a href="../..">Logos Collective Project Roadmaps</a></h1><div class="spacer mobile-only"></div><div class="search"><div id="search-icon"><p>Search</p><div></div><svg tabIndex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search</title><desc id="desc">Search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="results-container"></div></div></div></div><div class="darkmode"><input class="toggle" id="darkmode-toggle" type="checkbox" tabIndex="-1"/><label id="toggle-label-light" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xmlSpace="preserve"><title>Light mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg></label><label id="toggle-label-dark" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xmlSpace="preserve"><title>Dark mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></label></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#vacp2p" data-for="vacp2p">vac:p2p:</a></li><li class="depth-0"><a href="#vactke" data-for="vactke">vac:tke:</a></li><li class="depth-0"><a href="#vacdst" data-for="vacdst">vac:dst:</a></li><li class="depth-0"><a href="#vacacz" data-for="vacacz">vac:acz:</a></li><li class="depth-0"><a href="#vacsc" data-for="vacsc">vac:sc::</a></li><li class="depth-0"><a href="#vaczkvm" data-for="vaczkvm">vac:zkvm:</a></li><li class="depth-0"><a href="#vacdr" data-for="vacdr">vac:dr:</a></li><li class="depth-0"><a href="#vacrfc" data-for="vacrfc">vac:rfc:</a></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><h1 class="article-title">2023-09-25 Vac weekly</h1><p class="content-meta">Sep 25, 2023, 3 min read</p><ul class="tags"><li><a href="../../tags/vac-updates" class="internal tag-link">#vac-updates</a></li></ul></div></div><article class="popover-hint"><h3 id="vacp2p">vac:p2p:<a aria-hidden="true" tabindex="-1" href="#vacp2p" class="internal"> §</a></h3>
+<ul>
+<li><code>nimlibp2p:vac:gossipsub-ddos-mitigation</code>
+<ul>
+<li>Merged GossipSub Traffic Scoring <a href="https://github.com/status-im/nim-libp2p/pull/920" class="external">920</a></li>
+</ul>
+</li>
+<li><code>nimlibp2p:vac:gossipsub-stagger-send</code>
+<ul>
+<li>Continued simulations</li>
+</ul>
+</li>
+<li><code>nim-libp2p:vac:maintenance</code>
+<ul>
+<li>Tried to integrate HP in nwaku, but rendezvous isn’t integrated <a href="https://github.com/waku-org/nwaku/pull/1766#issuecomment-1731030691" class="external">yet</a></li>
+</ul>
+</li>
+<li><code>nimlibp2p:vac:webrtc-transport</code>
+<ul>
+<li>Continued vertical integration of protocols</li>
+</ul>
+</li>
+</ul>
+<h3 id="vactke">vac:tke:<a aria-hidden="true" tabindex="-1" href="#vactke" class="internal"> §</a></h3>
+<ul>
+<li><code>vac:tke::codex:economic-analysis</code>
+<ul>
+<li>Meeting with Codex on Tuesday, get in sync on timeline and steps for final delivery</li>
+</ul>
+</li>
+<li><code>vac:tke::status:SNT-staking</code>
+<ul>
+<li>Review goverance process itself, governance proposal template, staking gov proposal w/ John</li>
+</ul>
+</li>
+<li><code>vac:tke::nomos:economic-analysis</code>
+<ul>
+<li>Analysis of rewards for delegation vs validation</li>
+<li>Alvaro shared further docs to review on Private Addressing incentives and two-tiered staking</li>
+</ul>
+</li>
+<li><code>vac:tke::waku:economic-analysis</code>
+<ul>
+<li>Reading WAKU papers and onboarding Sergei, establishing recurring cadence</li>
+</ul>
+</li>
+</ul>
+<h3 id="vacdst">vac:dst:<a aria-hidden="true" tabindex="-1" href="#vacdst" class="internal"> §</a></h3>
+<ul>
+<li><code>wakurtosis:waku:techreport_03</code>
+<ul>
+<li>Delivered (pending discussion with Waku team)</li>
+</ul>
+</li>
+<li><code>analysis-shadow:vac:shadow-gossipsub-analysis</code>
+<ul>
+<li>Run 20K simulation (resources test)</li>
+</ul>
+</li>
+<li><code>eng-10ktool:vac:bandwidth-test</code>
+<ul>
+<li>Check with Slava K8s configuration, to run nodes in master aswell (K3s)</li>
+<li>Code first multi-node deployment</li>
+<li>Dockerized DST node</li>
+</ul>
+</li>
+<li><code>software-testing:waku:test-plans</code>
+<ul>
+<li>Started working at the Relay test plan</li>
+</ul>
+</li>
+<li><code>software-testing:waku:test-automation-js-waku</code>
+<ul>
+<li>Addressed all comments from last week PRs and merged them</li>
+<li>Fixed the nwaku CI part that invokes js-waku: <a href="https://github.com/waku-org/nwaku/pull/2061" class="external">2061</a></li>
+<li>Bumped nwaku version in js-waku CI: <a href="https://github.com/waku-org/js-waku/pull/1591" class="external">1591</a></li>
+<li>Helped investigating nwaku issues caught by the js-waku tests</li>
+<li>Investigated some flaky tests and tried to fix them: <a href="https://github.com/waku-org/js-waku/pull/1592" class="external">1592</a></li>
+<li>Started working on adding new tests for the static sharding functionality for js-waku</li>
+<li>Added a bug report found during testing and a feature request for test reporting</li>
+</ul>
+</li>
+<li><code>software-testing:waku:test-automation-nwaku</code>
+<ul>
+<li>Implement service to service waku filter tests: <a href="https://github.com/waku-org/nwaku/pull/2057" class="external">PR</a></li>
+<li>Implement coverage for nwaku: <a href="https://github.com/waku-org/nwaku/pull/2067" class="external">PR</a></li>
+<li>Rebase all test branches from master, fixing numerous git mishaps.</li>
+<li>Update PRs with comments.</li>
+</ul>
+</li>
+</ul>
+<h3 id="vacacz">vac:acz:<a aria-hidden="true" tabindex="-1" href="#vacacz" class="internal"> §</a></h3>
+<ul>
+<li><code>rlnp2p:waku:rln-relay-enhancments</code>
+<ul>
+<li>fixed a segfault issue - <a href="https://github.com/waku-org/nwaku/pull/2047" class="external">2047</a></li>
+</ul>
+</li>
+<li><code>zerokit:vac:zerokit-v0.4</code>
+<ul>
+<li>still investigating the proof verification failures using the new artifacts. can confirm that the inputs for proof generation are valid, and are verified by using snarkjs.</li>
+</ul>
+</li>
+<li>Removed private <code>message_id</code> from <code>compute_id_secret</code> agruments
+<ul>
+<li>Fix <code>RLNProofValues</code></li>
+</ul>
+</li>
+<li><code>secure-channels:waku:ethereum-chat</code>
+<ul>
+<li>WiP Notion doc on the specifications of the protocol</li>
+</ul>
+</li>
+</ul>
+<h3 id="vacsc">vac:sc::<a aria-hidden="true" tabindex="-1" href="#vacsc" class="internal"> §</a></h3>
+<ul>
+<li><code>status:community-contracts-deployer</code>
+<ul>
+<li>Merged all pending PRs. This milestone is now done</li>
+<li>Deployed a version of token deployer contracts to optimism goerli</li>
+</ul>
+</li>
+<li><code>status:community-curation-contracts</code>
+<ul>
+<li>Discussed and started implementing necessary changes for beta release
+<ul>
+<li>Foundry deployment script</li>
+<li>batch processing of votes in finalization phase</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>status:SNT-optimism-bridge</code>
+<ul>
+<li>Sync call with Certora on audit report and next audit planning</li>
+<li>created tests for onTransfer reentrancy case <a href="https://github.com/vacp2p/minime/pull/29" class="external">29</a>
+<ul>
+<li>fixed reentrancy <a href="https://github.com/vacp2p/minime/pull/24" class="external">24</a></li>
+</ul>
+</li>
+<li>rised coverage from 54.62% to 67.23% <a href="https://github.com/vacp2p/minime/pull/33" class="external">33</a></li>
+<li>Alter Minime to allow being extended to specialized tokens (such as OptimismMintableERC20) <a href="https://github.com/vacp2p/minime/pull/32" class="external">32</a></li>
+<li>create script for detailed gas-report <a href="https://github.com/vacp2p/minime/pull/25" class="external">25</a></li>
+<li>locally optimized gas usage</li>
+</ul>
+</li>
+</ul>
+<h3 id="vaczkvm">vac:zkvm:<a aria-hidden="true" tabindex="-1" href="#vaczkvm" class="internal"> §</a></h3>
+<ul>
+<li>
+<p><code>proofsystems:vac:research-existing-proof-systems</code></p>
+<ul>
+<li>Written a document for <a href="https://www.notion.so/zkVM-cd358fe429b14fa2ab38ca42835a8451?pvs=4#0fcbf60bda2049d387334e5f5dd91547" class="external">State Separation</a> motivation for Nescience</li>
+<li>Readings to justify Goal 3</li>
+<li>Considered some scientific paper format for Nescience</li>
+<li>Worked on Jolt writeup draft (<a href="https://www.notion.so/zkVM-cd358fe429b14fa2ab38ca42835a8451?pvs=4#fae64ac478004b749f7b211a9542f2d2" class="external">zkVM-cd358fe429b14fa2ab38ca42835a8451?pvs=4#fae64ac478004b749f7b211a9542f2d2</a>)</li>
+<li>Started research on Poseidon paper (<a href="https://eprint.iacr.org/2019/458.pdf" class="external">458.pdf</a>) and is implementations</li>
+<li>Logos research call presentation.</li>
+<li>Notes on Recproof (WIP) and zkTree <a href="https://file.notion.so/f/f/1518abd9-c08f-4989-93c1-96525e62bce5/a9097bd6-371d-4408-9302-57dbb114f5ea/Recproof___Notes_(1).pdf?id=b6e0cccd-2aa9-4b7f-b340-6293e7c783e0&amp;table=block&amp;spaceId=1518abd9-c08f-4989-93c1-96525e62bce5&amp;expirationTimestamp=1695513600000&amp;signature=SbII5tn2mPT2yNloyJtnWw2bxzZQFFkjz-vyKqcPxtk&amp;downloadName=Notes+-+Recproofs+and+zkTrees+%28WIP%29.pdf" class="external">(same document)</a>.</li>
+<li>Notes on Poseidon2 (WIP)</li>
+</ul>
+</li>
+<li>
+<p><code>proofsystems:vac:benchmarks</code></p>
+<ul>
+<li>Added an explanation for <a href="https://www.notion.so/zkVM-cd358fe429b14fa2ab38ca42835a8451?pvs=4#6c98b04e92d0480c8d3ee24fab967f9b" class="external">Plonky2 circuit</a> [To add to GitHub]</li>
+<li>Started reading Nova circuit to provide an explanation of what the circuit is doing</li>
+<li>finish up Nova bellman benchmark <a href="https://github.com/vacp2p/zk-explorations/pull/14" class="external">14</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="vacdr">vac:dr:<a aria-hidden="true" tabindex="-1" href="#vacdr" class="internal"> §</a></h3>
+<ul>
+<li><code>valpriv:vac:tor-push-poc</code>
+<ul>
+<li>Investigated the issue with failing attestation, Fixed the exclusion of connected peer</li>
+<li>Debugged the latency script evaluation/ Recalculated stats.</li>
+</ul>
+</li>
+<li><code>valpriv:vac:tor-push-paper</code>
+<ul>
+<li>Updated the structure of the paper and added tentative contributions to the paper.</li>
+<li>Added sections on latency and security analysis in the results section along with the potential limitations of the proposed method.</li>
+</ul>
+</li>
+<li><code>gossipsub-improvements-paper</code>
+<ul>
+<li>Research log post for GossipSub improvements is ready for review</li>
+<li>Incorporated changes to the Introduction, and Related work. Results part is still a work in process.</li>
+</ul>
+</li>
+<li><code>consensus:nomos:carnot-vote-2-3rds-vote-aggregation</code>
+<ul>
+<li>Writing the pseudocode (<a href="https://github.com/logos-co/nomos-specs/blob/Carnot-vote-aggregation/carnot/carnot-vote-aggregation.py" class="external">carnot-vote-aggregation.py</a>).</li>
+<li>Adding discussion to the high level protocol document(<a href="https://www.notion.so/High-Level-Algorithm-6535ac0363df4629ad2c40dff4bc62cd" class="external">High-Level-Algorithm-6535ac0363df4629ad2c40dff4bc62cd</a>)</li>
+</ul>
+</li>
+<li><code>:nomos:review</code>
+<ul>
+<li>Reviewing <a href="https://www.notion.so/Data-Availability-Specification-c3961b681eba4ccdab2be9181e4207b4#3df2088e8a9b4c048310e51ff8e577a8" class="external">Data-Availability-Specification-c3961b681eba4ccdab2be9181e4207b4#3df2088e8a9b4c048310e51ff8e577a8</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="vacrfc">vac:rfc:<a aria-hidden="true" tabindex="-1" href="#vacrfc" class="internal"> §</a></h3>
+<ul>
+<li><code>status:port-status-specs</code>
+<ul>
+<li>porting 2/ACCOUNTS to vac rfcs (RFC 65); in review process</li>
+<li>63/STATUS-Keycard-Usage merged <a href="https://rfc.vac.dev/spec/63/" class="external">63</a></li>
+</ul>
+</li>
+</ul></article></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+	C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+	c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+	v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+	s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div></div></div><div class="backlinks"><h3>Backlinks</h3><ul class="overflow"><li>No backlinks found</li></ul></div></div></div><footer><hr/><p>Created by Logos  with <a href="https://quartz.jzhao.xyz/">Quartz v4.0.8</a>, © 2023</p><ul><li><a href="https://github.com/logos-co/roadmap">GitHub</a></li><li><a href="https://discord.com/invite/logos-state">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+function toggleCallout() {
+  const outerBlock = this.parentElement;
+  outerBlock.classList.toggle(`is-collapsed`);
+  const collapsed = outerBlock.classList.contains(`is-collapsed`);
+  const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight;
+  outerBlock.style.maxHeight = height + `px`;
+  let current = outerBlock;
+  let parent = outerBlock.parentElement;
+  while (parent) {
+    if (!parent.classList.contains(`callout`)) {
+      return;
+    }
+    const collapsed2 = parent.classList.contains(`is-collapsed`);
+    const height2 = collapsed2 ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight;
+    parent.style.maxHeight = height2 + `px`;
+    current = parent;
+    parent = parent.parentElement;
+  }
+}
+function setupCallout() {
+  const collapsible = document.getElementsByClassName(
+    `callout is-collapsible`
+  );
+  for (const div of collapsible) {
+    const title = div.firstElementChild;
+    if (title) {
+      title.removeEventListener(`click`, toggleCallout);
+      title.addEventListener(`click`, toggleCallout);
+      const collapsed = div.classList.contains(`is-collapsed`);
+      const height = collapsed ? title.scrollHeight : div.scrollHeight;
+      div.style.maxHeight = height + `px`;
+    }
+  }
+}
+document.addEventListener(`nav`, setupCallout);
+window.addEventListener(`resize`, setupCallout);
+</script><script type="module">
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+          const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
+          mermaid.initialize({ 
+            startOnLoad: false,
+            securityLevel: 'loose',
+            theme: darkMode ? 'dark' : 'default'
+          });
+          document.addEventListener('nav', async () => {
+            await mermaid.run({
+              querySelector: '.mermaid'
+            })
+          });
+          </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../../postscript.js" type="module"></script></html>
