@@ -18,5 +18,12 @@ document.addEventListener("nav", () => {
   if (currentTheme === "dark") {
     toggleSwitch.checked = true;
   }
+  const colorSchemeMediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+  colorSchemeMediaQuery.addEventListener("change", (e) => {
+    const newTheme = e.matches ? "dark" : "light";
+    document.documentElement.setAttribute("saved-theme", newTheme);
+    localStorage.setItem("theme", newTheme);
+    toggleSwitch.checked = e.matches;
+  });
 });
 })();

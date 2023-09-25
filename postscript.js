@@ -1001,7 +1001,7 @@ function resolveRelative(current, target) {
   return res;
 }
 function joinSegments(...args) {
-  return args.filter((segment) => segment !== "").join("/");
+  return args.filter((segment) => segment !== "").join("/").replace(/\/\/+/g, "/");
 }
 function _endsWith(s, suffix) {
   return s === suffix || s.endsWith("/" + suffix);
@@ -1024,8 +1024,10 @@ function _stripSlashes(s, onlyStripPrefix) {
 
 // quartz/components/scripts/quartz/components/scripts/search.inline.ts
 var index = void 0;
+var searchType = "basic";
 var contextWindowWords = 30;
 var numSearchResults = 5;
+var numTagResults = 3;
 function highlight(searchTerm, text, trim) {
   const tokenizedTerms = searchTerm.split(/\s+/).filter((t2) => t2 !== "").sort((a2, b2) => b2.length - a2.length);
   let tokenizedText = text.split(/\s+/).filter((t2) => t2 !== "");
@@ -1069,6 +1071,7 @@ document.addEventListener("nav", async (e) => {
   const searchIcon = document.getElementById("search-icon");
   const searchBar = document.getElementById("search-bar");
   const results = document.getElementById("results-container");
+  const resultCards = document.getElementsByClassName("result-card");
   const idDataMap = Object.keys(data);
   function hideSearch() {
     container?.classList.remove("active");
@@ -1081,8 +1084,10 @@ document.addEventListener("nav", async (e) => {
     if (results) {
       removeAllChildren(results);
     }
+    searchType = "basic";
   }
-  function showSearch() {
+  function showSearch(searchTypeNew) {
+    searchType = searchTypeNew;
     if (sidebar) {
       sidebar.style.zIndex = "1";
     }
@@ -1090,34 +1095,97 @@ document.addEventListener("nav", async (e) => {
     searchBar?.focus();
   }
   function shortcutHandler(e2) {
-    if (e2.key === "k" && (e2.ctrlKey || e2.metaKey)) {
+    if (e2.key === "k" && (e2.ctrlKey || e2.metaKey) && !e2.shiftKey) {
       e2.preventDefault();
       const searchBarOpen = container?.classList.contains("active");
-      searchBarOpen ? hideSearch() : showSearch();
+      searchBarOpen ? hideSearch() : showSearch("basic");
+    } else if (e2.shiftKey && (e2.ctrlKey || e2.metaKey) && e2.key.toLowerCase() === "k") {
+      e2.preventDefault();
+      const searchBarOpen = container?.classList.contains("active");
+      searchBarOpen ? hideSearch() : showSearch("tags");
+      if (searchBar)
+        searchBar.value = "#";
     } else if (e2.key === "Enter") {
-      const anchor = document.getElementsByClassName("result-card")[0];
-      if (anchor) {
-        anchor.click();
+      if (results?.contains(document.activeElement)) {
+        const active = document.activeElement;
+        active.click();
+      } else {
+        const anchor = document.getElementsByClassName("result-card")[0];
+        anchor?.click();
+      }
+    } else if (e2.key === "ArrowDown") {
+      e2.preventDefault();
+      if (!results?.contains(document.activeElement)) {
+        const firstResult = resultCards[0];
+        firstResult?.focus();
+      } else {
+        const nextResult = document.activeElement?.nextElementSibling;
+        nextResult?.focus();
+      }
+    } else if (e2.key === "ArrowUp") {
+      e2.preventDefault();
+      if (results?.contains(document.activeElement)) {
+        const prevResult = document.activeElement?.previousElementSibling;
+        prevResult?.focus();
       }
     }
+  }
+  function trimContent(content) {
+    const sentences = content.replace(/\s+/g, " ").split(".");
+    let finalDesc = "";
+    let sentenceIdx = 0;
+    const len = contextWindowWords * 5;
+    while (finalDesc.length < len) {
+      const sentence = sentences[sentenceIdx];
+      if (!sentence)
+        break;
+      finalDesc += sentence + ".";
+      sentenceIdx++;
+    }
+    if (finalDesc.length < content.length) {
+      finalDesc += "..";
+    }
+    return finalDesc;
   }
   const formatForDisplay = (term, id) => {
     const slug2 = idDataMap[id];
     return {
       id,
       slug: slug2,
-      title: highlight(term, data[slug2].title ?? ""),
-      content: highlight(term, data[slug2].content ?? "", true)
+      title: searchType === "tags" ? data[slug2].title : highlight(term, data[slug2].title ?? ""),
+      // if searchType is tag, display context from start of file and trim, otherwise use regular highlight
+      content: searchType === "tags" ? trimContent(data[slug2].content) : highlight(term, data[slug2].content ?? "", true),
+      tags: highlightTags(term, data[slug2].tags)
     };
   };
-  const resultToHTML = ({ slug: slug2, title, content }) => {
+  function highlightTags(term, tags) {
+    if (tags && searchType === "tags") {
+      const termLower = term.toLowerCase();
+      let matching = tags.filter((str) => str.includes(termLower));
+      if (matching.length > 0) {
+        let difference = tags.filter((x2) => !matching.includes(x2));
+        matching = matching.map((tag) => `<li><p class="match-tag">#${tag}</p></li>`);
+        difference = difference.map((tag) => `<li><p>#${tag}</p></li>`);
+        matching.push(...difference);
+      }
+      if (tags.length > numTagResults) {
+        matching.splice(numTagResults);
+      }
+      return matching;
+    } else {
+      return [];
+    }
+  }
+  const resultToHTML = ({ slug: slug2, title, content, tags }) => {
+    const htmlTags = tags.length > 0 ? `<ul>${tags.join("")}</ul>` : ``;
     const button = document.createElement("button");
     button.classList.add("result-card");
     button.id = slug2;
-    button.innerHTML = `<h3>${title}</h3><p>${content}</p>`;
+    button.innerHTML = `<h3>${title}</h3>${htmlTags}<p>${content}</p>`;
     button.addEventListener("click", () => {
       const targ = resolveRelative(currentSlug, slug2);
       window.spaNavigate(new URL(targ, window.location.toString()));
+      hideSearch();
     });
     return button;
   };
@@ -1135,13 +1203,37 @@ document.addEventListener("nav", async (e) => {
     }
   }
   async function onType(e2) {
-    const term = e2.target.value;
-    const searchResults = await index?.searchAsync(term, numSearchResults) ?? [];
+    let term = e2.target.value;
+    let searchResults;
+    if (term.toLowerCase().startsWith("#")) {
+      searchType = "tags";
+    } else {
+      searchType = "basic";
+    }
+    switch (searchType) {
+      case "tags": {
+        term = term.substring(1);
+        searchResults = await index?.searchAsync({ query: term, limit: numSearchResults, index: ["tags"] }) ?? [];
+        break;
+      }
+      case "basic":
+      default: {
+        searchResults = await index?.searchAsync({
+          query: term,
+          limit: numSearchResults,
+          index: ["title", "content"]
+        }) ?? [];
+      }
+    }
     const getByField = (field) => {
       const results2 = searchResults.filter((x2) => x2.field === field);
       return results2.length === 0 ? [] : [...results2[0].result];
     };
-    const allIds = /* @__PURE__ */ new Set([...getByField("title"), ...getByField("content")]);
+    const allIds = /* @__PURE__ */ new Set([
+      ...getByField("title"),
+      ...getByField("content"),
+      ...getByField("tags")
+    ]);
     const finalResults = [...allIds].map((id) => formatForDisplay(term, id));
     displayResults(finalResults);
   }
@@ -1150,8 +1242,8 @@ document.addEventListener("nav", async (e) => {
   }
   document.addEventListener("keydown", shortcutHandler);
   prevShortcutHandler = shortcutHandler;
-  searchIcon?.removeEventListener("click", showSearch);
-  searchIcon?.addEventListener("click", showSearch);
+  searchIcon?.removeEventListener("click", () => showSearch("basic"));
+  searchIcon?.addEventListener("click", () => showSearch("basic"));
   searchBar?.removeEventListener("input", onType);
   searchBar?.addEventListener("input", onType);
   if (!index) {
@@ -1170,61 +1262,135 @@ document.addEventListener("nav", async (e) => {
           {
             field: "content",
             tokenize: "reverse"
+          },
+          {
+            field: "tags",
+            tokenize: "reverse"
           }
         ]
       }
     });
-    let id = 0;
-    for (const [slug2, fileData] of Object.entries(data)) {
-      await index.addAsync(id, {
-        id,
-        slug: slug2,
-        title: fileData.title,
-        content: fileData.content
-      });
-      id++;
-    }
+    fillDocument(index, data);
   }
   registerEscapeHandler(container, hideSearch);
 });
+async function fillDocument(index2, data) {
+  let id = 0;
+  for (const [slug2, fileData] of Object.entries(data)) {
+    await index2.addAsync(id, {
+      id,
+      slug: slug2,
+      title: fileData.title,
+      content: fileData.content,
+      tags: fileData.tags
+    });
+    id++;
+  }
+}
 })();
-(function () {// quartz/components/scripts/quartz/components/scripts/toc.inline.ts
+(function () {// quartz/components/scripts/quartz/components/scripts/explorer.inline.ts
+var explorerState;
 var observer = new IntersectionObserver((entries) => {
+  const explorer = document.getElementById("explorer-ul");
   for (const entry of entries) {
-    const slug = entry.target.id;
-    const tocEntryElement = document.querySelector(`a[data-for="${slug}"]`);
-    const windowHeight = entry.rootBounds?.height;
-    if (windowHeight && tocEntryElement) {
-      if (entry.boundingClientRect.y < windowHeight) {
-        tocEntryElement.classList.add("in-view");
-      } else {
-        tocEntryElement.classList.remove("in-view");
-      }
+    if (entry.isIntersecting) {
+      explorer?.classList.add("no-background");
+    } else {
+      explorer?.classList.remove("no-background");
     }
   }
 });
-function toggleToc() {
+function toggleExplorer() {
   this.classList.toggle("collapsed");
   const content = this.nextElementSibling;
   content.classList.toggle("collapsed");
   content.style.maxHeight = content.style.maxHeight === "0px" ? content.scrollHeight + "px" : "0px";
 }
-function setupToc() {
-  const toc = document.getElementById("toc");
-  if (toc) {
-    const content = toc.nextElementSibling;
-    content.style.maxHeight = content.scrollHeight + "px";
-    toc.removeEventListener("click", toggleToc);
-    toc.addEventListener("click", toggleToc);
+function toggleFolder(evt) {
+  evt.stopPropagation();
+  const target = evt.target;
+  const isSvg = target.nodeName === "svg";
+  let childFolderContainer;
+  let currentFolderParent;
+  if (isSvg) {
+    childFolderContainer = target.parentElement?.nextSibling;
+    currentFolderParent = target.nextElementSibling;
+    childFolderContainer.classList.toggle("open");
+  } else {
+    childFolderContainer = target.parentElement?.parentElement?.nextElementSibling;
+    currentFolderParent = target.parentElement;
+    childFolderContainer.classList.toggle("open");
+  }
+  if (!childFolderContainer)
+    return;
+  const isCollapsed = childFolderContainer.classList.contains("open");
+  setFolderState(childFolderContainer, !isCollapsed);
+  const clickFolderPath = currentFolderParent.dataset.folderpath;
+  const fullFolderPath = clickFolderPath.substring(1);
+  toggleCollapsedByPath(explorerState, fullFolderPath);
+  const stringifiedFileTree = JSON.stringify(explorerState);
+  localStorage.setItem("fileTree", stringifiedFileTree);
+}
+function setupExplorer() {
+  const explorer = document.getElementById("explorer");
+  const storageTree = localStorage.getItem("fileTree");
+  const useSavedFolderState = explorer?.dataset.savestate === "true";
+  if (explorer) {
+    const collapseBehavior = explorer.dataset.behavior;
+    if (collapseBehavior === "collapse") {
+      Array.prototype.forEach.call(
+        document.getElementsByClassName("folder-button"),
+        function(item) {
+          item.removeEventListener("click", toggleFolder);
+          item.addEventListener("click", toggleFolder);
+        }
+      );
+    }
+    explorer.removeEventListener("click", toggleExplorer);
+    explorer.addEventListener("click", toggleExplorer);
+  }
+  Array.prototype.forEach.call(document.getElementsByClassName("folder-icon"), function(item) {
+    item.removeEventListener("click", toggleFolder);
+    item.addEventListener("click", toggleFolder);
+  });
+  if (storageTree && useSavedFolderState) {
+    explorerState = JSON.parse(storageTree);
+    explorerState.map((folderUl) => {
+      const folderLi = document.querySelector(
+        `[data-folderpath='/${folderUl.path}']`
+      );
+      if (folderLi) {
+        const folderUL = folderLi.parentElement?.nextElementSibling;
+        if (folderUL) {
+          setFolderState(folderUL, folderUl.collapsed);
+        }
+      }
+    });
+  } else {
+    explorerState = JSON.parse(explorer?.dataset.tree);
   }
 }
-window.addEventListener("resize", setupToc);
+window.addEventListener("resize", setupExplorer);
 document.addEventListener("nav", () => {
-  setupToc();
+  setupExplorer();
+  const explorerContent = document.getElementById("explorer-ul");
+  const lastItem = document.getElementById("explorer-end");
   observer.disconnect();
-  const headers = document.querySelectorAll("h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]");
-  headers.forEach((header) => observer.observe(header));
+  observer.observe(lastItem);
 });
+function setFolderState(folderElement, collapsed) {
+  if (collapsed) {
+    folderElement?.classList.remove("open");
+  } else {
+    folderElement?.classList.add("open");
+  }
+}
+function toggleCollapsedByPath(array, path) {
+  const entry = array.find((item) => item.path === path);
+  if (entry) {
+    entry.collapsed = !entry.collapsed;
+  }
+}
 })();
 (function () {// node_modules/d3-dispatch/src/dispatch.js
 var noop = { value: () => {
@@ -5138,7 +5304,7 @@ function resolveRelative(current, target) {
   return res;
 }
 function joinSegments(...args) {
-  return args.filter((segment) => segment !== "").join("/");
+  return args.filter((segment) => segment !== "").join("/").replace(/\/\/+/g, "/");
 }
 function _endsWith(s, suffix) {
   return s === suffix || s.endsWith("/" + suffix);
@@ -5185,16 +5351,27 @@ async function renderGraph(container, fullSlug) {
     centerForce,
     linkDistance,
     fontSize,
-    opacityScale
+    opacityScale,
+    removeTags,
+    showTags
   } = JSON.parse(graph.dataset["cfg"]);
   const data = await fetchData;
   const links = [];
+  const tags = [];
+  const validLinks = new Set(Object.keys(data).map((slug3) => simplifySlug(slug3)));
   for (const [src, details] of Object.entries(data)) {
     const source = simplifySlug(src);
     const outgoing = details.links ?? [];
     for (const dest of outgoing) {
-      if (dest in data) {
+      if (validLinks.has(dest)) {
         links.push({ source, target: dest });
+      }
+    }
+    if (showTags) {
+      const localTags = details.tags.filter((tag) => !removeTags.includes(tag)).map((tag) => simplifySlug("tags/" + tag));
+      tags.push(...localTags.filter((tag) => !tags.includes(tag)));
+      for (const tag of localTags) {
+        links.push({ source, target: tag });
       }
     }
   }
@@ -5215,13 +5392,18 @@ async function renderGraph(container, fullSlug) {
     }
   } else {
     Object.keys(data).forEach((id2) => neighbourhood.add(simplifySlug(id2)));
+    if (showTags)
+      tags.forEach((tag) => neighbourhood.add(tag));
   }
   const graphData = {
-    nodes: [...neighbourhood].map((url) => ({
-      id: url,
-      text: data[url]?.title ?? url,
-      tags: data[url]?.tags ?? []
-    })),
+    nodes: [...neighbourhood].map((url) => {
+      const text = url.startsWith("tags/") ? "#" + url.substring(5) : data[url]?.title ?? url;
+      return {
+        id: url,
+        text,
+        tags: data[url]?.tags ?? []
+      };
+    }),
     links: links.filter((l) => neighbourhood.has(l.source) && neighbourhood.has(l.target))
   };
   const simulation = simulation_default(graphData.nodes).force("charge", manyBody_default().strength(-100 * repelForce)).force(
@@ -5237,7 +5419,7 @@ async function renderGraph(container, fullSlug) {
     const isCurrent = d.id === slug2;
     if (isCurrent) {
       return "var(--secondary)";
-    } else if (visited.has(d.id)) {
+    } else if (visited.has(d.id) || d.id.startsWith("tags/")) {
       return "var(--tertiary)";
     } else {
       return "var(--gray)";
@@ -5288,9 +5470,7 @@ async function renderGraph(container, fullSlug) {
     const parent = this.parentNode;
     select_default2(parent).select("text").transition().duration(200).style("opacity", select_default2(parent).select("text").attr("opacityOld")).style("font-size", fontSize + "em");
   }).call(drag(simulation));
-  const labels = graphNode.append("text").attr("dx", 0).attr("dy", (d) => -nodeRadius(d) + "px").attr("text-anchor", "middle").text(
-    (d) => data[d.id]?.title || (d.id.charAt(1).toUpperCase() + d.id.slice(2)).replace("-", " ")
-  ).style("opacity", (opacityScale - 1) / 3.75).style("pointer-events", "none").style("font-size", fontSize + "em").raise().call(drag(simulation));
+  const labels = graphNode.append("text").attr("dx", 0).attr("dy", (d) => -nodeRadius(d) + "px").attr("text-anchor", "middle").text((d) => d.text).style("opacity", (opacityScale - 1) / 3.75).style("pointer-events", "none").style("font-size", fontSize + "em").raise().call(drag(simulation));
   if (enableZoom) {
     svg.call(
       zoom_default2().extent([
@@ -5339,6 +5519,44 @@ document.addEventListener("nav", async (e) => {
   const containerIcon = document.getElementById("global-graph-icon");
   containerIcon?.removeEventListener("click", renderGlobalGraph);
   containerIcon?.addEventListener("click", renderGlobalGraph);
+});
+})();
+(function () {// quartz/components/scripts/quartz/components/scripts/toc.inline.ts
+var observer = new IntersectionObserver((entries) => {
+  for (const entry of entries) {
+    const slug = entry.target.id;
+    const tocEntryElement = document.querySelector(`a[data-for="${slug}"]`);
+    const windowHeight = entry.rootBounds?.height;
+    if (windowHeight && tocEntryElement) {
+      if (entry.boundingClientRect.y < windowHeight) {
+        tocEntryElement.classList.add("in-view");
+      } else {
+        tocEntryElement.classList.remove("in-view");
+      }
+    }
+  }
+});
+function toggleToc() {
+  this.classList.toggle("collapsed");
+  const content = this.nextElementSibling;
+  content.classList.toggle("collapsed");
+  content.style.maxHeight = content.style.maxHeight === "0px" ? content.scrollHeight + "px" : "0px";
+}
+function setupToc() {
+  const toc = document.getElementById("toc");
+  if (toc) {
+    const content = toc.nextElementSibling;
+    content.style.maxHeight = content.scrollHeight + "px";
+    toc.removeEventListener("click", toggleToc);
+    toc.addEventListener("click", toggleToc);
+  }
+}
+window.addEventListener("resize", setupToc);
+document.addEventListener("nav", () => {
+  setupToc();
+  observer.disconnect();
+  const headers = document.querySelectorAll("h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]");
+  headers.forEach((header) => observer.observe(header));
 });
 })();
 (function () {// node_modules/@floating-ui/core/dist/floating-ui.core.browser.min.mjs
@@ -6204,7 +6422,7 @@ async function navigate(url, isBack = false) {
   P(document.body, html.body);
   if (!isBack) {
     if (url.hash) {
-      const el = document.getElementById(url.hash.substring(1));
+      const el = document.getElementById(decodeURIComponent(url.hash.substring(1)));
       el?.scrollIntoView();
     } else {
       window.scrollTo({ top: 0 });
@@ -6214,7 +6432,9 @@ async function navigate(url, isBack = false) {
   elementsToRemove.forEach((el) => el.remove());
   const elementsToAdd = html.head.querySelectorAll(":not([spa-preserve])");
   elementsToAdd.forEach((el) => document.head.appendChild(el));
-  history.pushState({}, "", url);
+  if (!isBack) {
+    history.pushState({}, "", url);
+  }
   notifyNav(getFullSlug(window));
   delete announcer.dataset.persist;
 }
