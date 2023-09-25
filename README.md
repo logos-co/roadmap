@@ -11,13 +11,9 @@ The content, today, contains the definition of work planned by various projects,
 
 Each project is given as much autonomy as possible to work as they see fit, with a minimal reporting scheme that sits on top that allows for aggregation of information and project tracking. 
 
-<<<<<<< HEAD
 In a nutshell, projects give a definitions of their roadmap up-front, which includes the mapping of issues to epics, and epics to milestones. They also provide perceived risks and dependencies associated with their work. 
 
 The projects then report a weekly "diff" associated with the work they did each week, which is ostensibly a stand-up. The Insights team can work from there to do what they need. 
-=======
-## Sponsors
->>>>>>> eed4472a (fix: use proper full base for links.ts)
 
 ## Contribution
 The bulk of the content is added by the Insights team within the Logos Collective, which is a team that works to keep track of activity within the projects in order to provide analysis and insight based on that work to various stakeholders, including the projects themselves.
