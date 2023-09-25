@@ -6,6 +6,7 @@ const config: QuartzConfig = {
     pageTitle: "Logos Collective Project Roadmaps",
     enableSPA: true,
     enablePopovers: true,
+    defaultDateType: "modified",
     analytics: {
       provider: "plausible",
     },
