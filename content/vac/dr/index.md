@@ -42,3 +42,5 @@ lastmod: 2023-09-06
 
 * [[ vac/dr/zk/codex/storage-proofs-open-problems-review | storage-proofs-open-problems-review ]]
 
+## `vac:dr::nomos:`
+* [[ vac/dr/g/nomos/reviews.md | reviews ]]
