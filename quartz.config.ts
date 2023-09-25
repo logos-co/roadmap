@@ -6,11 +6,13 @@ const config: QuartzConfig = {
     pageTitle: "Logos Collective Project Roadmaps",
     enableSPA: true,
     enablePopovers: true,
+    defaultDateType: "modified",
     analytics: {
       provider: "plausible",
     },
     baseUrl: "roadmap.logos.co",
     ignorePatterns: ["private", "templates"],
+    defaultDateType: "created",
     theme: {
       typography: {
         header: "sans-serif",
@@ -68,6 +70,7 @@ const config: QuartzConfig = {
       }),
       Plugin.Assets(),
       Plugin.Static(),
+      Plugin.NotFoundPage(),
     ],
   },
 }

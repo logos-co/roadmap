@@ -96,6 +96,15 @@ function addGlobalPageResources(
       });`)
   } else if (cfg.analytics?.provider === "plausible") {
     componentResources.afterDOMLoaded.push(plausibleScript)
+  } else if (cfg.analytics?.provider === "umami") {
+    componentResources.afterDOMLoaded.push(`
+      const umamiScript = document.createElement("script")
+      umamiScript.src = "https://analytics.umami.is/script.js"
+      umamiScript.setAttribute("data-website-id", "${cfg.analytics.websiteId}")
+      umamiScript.async = true
+  
+      document.head.appendChild(umamiScript)
+    `)
   }
 
   if (cfg.enableSPA) {
@@ -107,12 +116,18 @@ function addGlobalPageResources(
         document.dispatchEvent(event)`)
   }
 
+  let wsUrl = `ws://localhost:${ctx.argv.wsPort}`
+
+  if (ctx.argv.remoteDevHost) {
+    wsUrl = `wss://${ctx.argv.remoteDevHost}:${ctx.argv.wsPort}`
+  }
+
   if (reloadScript) {
     staticResources.js.push({
       loadTime: "afterDOMReady",
       contentType: "inline",
       script: `
-          const socket = new WebSocket('ws://localhost:3001')
+          const socket = new WebSocket('${wsUrl}')
           socket.addEventListener('message', () => document.location.reload())
         `,
     })

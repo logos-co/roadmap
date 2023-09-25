@@ -7,6 +7,7 @@ import style from "../styles/listPage.scss"
 import { PageList } from "../PageList"
 import { _stripSlashes, simplifySlug } from "../../util/path"
 import { Root } from "hast"
+import { pluralize } from "../../util/lang"
 
 function FolderContent(props: QuartzComponentProps) {
   const { tree, fileData, allFiles } = props
@@ -33,8 +34,10 @@ function FolderContent(props: QuartzComponentProps) {
 
   return (
     <div class="popover-hint">
-      <article>{content}</article>
-      <p>{allPagesInFolder.length} items under this folder.</p>
+      <article>
+        <p>{content}</p>
+      </article>
+      <p>{pluralize(allPagesInFolder.length, "item")} under this folder.</p>
       <div>
         <PageList {...listProps} />
       </div>
