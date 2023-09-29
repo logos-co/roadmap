@@ -19,11 +19,11 @@ This work can be tracked via the following epics.
 - short description: Creation of a privacy preserving network underlay
 
 #### `private-pos:` [[nomos/base-layer-spec/priv-pos/index|details]]
-- due: Sept 29, 2023
-- progress: 
+- next deliverable: Sept 29, 2023
+- progress: 99%
 - short description: Creation of a Proof-of-Stake model that preserves the privacy of the stakers within the network
 
-#### `data-availability:` [[nomos/base-layer-spec/data-avail/index|details]]
+#### `data-availability:` [[content/nomos/base-layer-spec/data-availability/index|details]]
 - due: 
 - progress: 
 - short description: Definition of how Nomos makes data available to network participants, and its reference implementation for the Base Layer.

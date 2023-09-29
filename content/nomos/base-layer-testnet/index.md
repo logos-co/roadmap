@@ -7,8 +7,8 @@ title: "Nomos Milestone: Base Layer Testnet Implementation"
 
 ### Key Epics
 #### `testnet:` [[nomos/base-layer-testnet/testnet/index|index]]
-- due: 
-- progress: 
+- due: October 27th
+- progress: 66% (unstable testnet)
 - short description: deployment of the initial testnet for the Nomos network
 
 ### Dependent Upon:

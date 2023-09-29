@@ -3,7 +3,7 @@ title: "Building your Quartz"
 draft: true
 ---
 
-Once you've [[index#🪴 Get Started|initialized]] Quartz, let's see what it looks like locally:
+Once you've [[docs/index#🪴 Get Started|initialized]] Quartz, let's see what it looks like locally:
 
 ```bash
 npx quartz build --serve

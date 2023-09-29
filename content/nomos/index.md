@@ -20,7 +20,7 @@ Nomos is currently in its initial phase as a project within Logos, namely the re
 #### `base-layer-testnet:` [[nomos/base-layer-testnet/index|details]]
 - due: 2024 Q3
 - status: in progress
-- description:
+- description: 
 
 #### `coord-layer-spec:`
 - due: 2024 Q4
