@@ -4,25 +4,24 @@ date: 2023-08-07
 lastmod: 2023-09-30
 draft: false
 ---
-[toc]
 ### Milestone: Waku Network can Support 1 Million Users
-Link: https://github.com/waku-org/pm/milestone/4
-Due by: 2023-11-30
+- Link: https://github.com/waku-org/pm/milestone/4
+- Due by: 2023-11-30
 
 ----------------------------
 
 Epic: [Epic] Cater for professional operators (Status Communities)
-Link: https://github.com/waku-org/pm/issues/92
-Issues in Epic:
-https://github.com/waku-org/nwaku/issues/1929
-https://github.com/fryorcraken/milestone-update/
+- Link: https://github.com/waku-org/pm/issues/92
+- Issues in Epic:
+	- https://github.com/waku-org/nwaku/issues/1929
+	- https://github.com/fryorcraken/milestone-update/
 
 ----------------------------
 
 Epic: [Epic] Simulation with 10k nodes
-Link: https://github.com/waku-org/pm/issues/85
-Issues in Epic:
-https://github.com/vacp2p/research/issues/191
+- Link: https://github.com/waku-org/pm/issues/85
+- Issues in Epic:
+	- https://github.com/vacp2p/research/issues/191
 
 ----------------------------
 
