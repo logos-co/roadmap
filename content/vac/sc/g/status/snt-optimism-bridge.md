@@ -26,7 +26,7 @@ gantt
     SNT Optimism Bridge:  2023-09-01, 2023-09-30
 ```
 
-- status: 70%
+- status: 100%
 - CC: Ricardo
 
 ### Description
@@ -54,6 +54,9 @@ This milestone comprises what the SC has to deliver towards the completion of St
 
 `the SNT contract for deployment on Optimism is top priority`
 
+Note: This milestone includes deployment on Goerli and "manual" testing.
+Integration tests for this milestone is out of scope for this milestone.
+If integration tests are desired, we would track and address this in a future milestone.
 
 ### Justification
 

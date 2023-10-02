@@ -16,7 +16,7 @@ lastmod: 2023-09-21
 * [x] [[ vac/sc/g/status/community-contracts-deployer | community-contracts-deployer ]]
 * [[ vac/sc/g/status/community-contracts-maintenance | community-contracts-maintenance ]]
 * [[ vac/sc/g/status/community-curation-contracts | community-curation-contracts ]]
-* [[ vac/sc/g/status/snt-optimism-bridge | SNT-optimism-bridge ]]
+* [x] [[ vac/sc/g/status/snt-optimism-bridge | SNT-optimism-bridge ]]
 * [[ vac/sc/g/status/mimime-token-enhancement | mimime-token-enhancement ]]
 * [[ vac/sc/g/status/mimime-token-maintenance | mimime-token-maintenance ]]
 * [[ vac/sc/g/status/governance-contract-mvp | governance-contract-mvp ]]
