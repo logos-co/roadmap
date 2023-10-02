@@ -46,9 +46,9 @@ Note that feature specs should NOT be added to the Vac RFC repo, only protocol s
 RFCs to be moved / updates:
 
 * (todo add RFCs we already ported)
-* `6/PAYLOADS` (needs significant update)
-* `2/ACCOUNT`
-* `16/Keycard` (discuss with keycard team)
+* [x] `6/PAYLOADS` (needs significant update)
+* [x] `2/ACCOUNT`
+* [x] `16/Keycard` (discuss with keycard team)
 * `16/Push-Notifications` (raw, needs update)
 * `10/waku-usage` (outdated, check if we need that, update to Waku 2 if makes sense)
 
@@ -74,5 +74,6 @@ RFCs to be moved / updates:
 * https://rfc.vac.dev/spec/55/
 * https://rfc.vac.dev/spec/56/
 * https://rfc.vac.dev/spec/61/
+* https://rfc.vac.dev/spec/63/
 
 
