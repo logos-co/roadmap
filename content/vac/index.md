@@ -30,7 +30,7 @@ title: Vac Roadmap
 
 #### Incubator Projects
 
-- `zkvm:` [[vac/zkvm/index|Zero-knowledge Virtual Machine]]
+- `nes:` [[vac/nes/index|Nescience]]
 
 ### Weekly Updates
 - [weekly updates](tags/vac-updates)
