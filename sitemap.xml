@@ -327,7 +327,19 @@
     <lastmod>2023-09-18T20:20:20.469Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/vac/</loc>
-    <lastmod>2023-09-19T12:41:52.647Z</lastmod>
+    <lastmod>2023-10-07T09:25:18.639Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/nes/</loc>
+    <lastmod>2023-10-07T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/nes/proofsystems/vac/benchmarks</loc>
+    <lastmod>2023-10-07T09:25:18.639Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/nes/proofsystems/vac/research-existing-proofsystems</loc>
+    <lastmod>2023-10-07T09:25:18.639Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/nes/state-separation/vac/state-separation-doc</loc>
+    <lastmod>2023-10-07T09:25:18.643Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/vac/p2p/</loc>
     <lastmod>2023-09-05T00:00:00.000Z</lastmod>
@@ -478,18 +490,6 @@
   </url><url>
     <loc>https://roadmap.logos.co/vac/updates/2023-10-02</loc>
     <lastmod>2023-10-02T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/vac/zkvm/</loc>
-    <lastmod>2023-09-06T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/vac/zkvm/proofsystems/vac/benchmarks</loc>
-    <lastmod>2023-09-18T20:20:20.473Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/vac/zkvm/proofsystems/vac/research-existing-proofsystems</loc>
-    <lastmod>2023-09-18T20:20:20.473Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/vac/zkvm/state-separation/vac/state-separation-doc</loc>
-    <lastmod>2023-09-29T12:56:26.701Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/</loc>
     <lastmod>2023-09-19T00:00:00.000Z</lastmod>
