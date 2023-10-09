@@ -11,7 +11,7 @@ The Nomos project is an attempt to make a scalable, modular, and private L1. To 
 Nomos is currently in its initial phase as a project within Logos, namely the research and architecture design phase. 
 
 #### Latest Monthly Report
-- [[content/nomos/monthly-reports/2023-sept|2023-sept]]
+- [[nomos/monthly-reports/2023-sept|2023-sept]]
 
 ### Current Key Milestones
 
