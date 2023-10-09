@@ -26,7 +26,7 @@ gantt
     SNT Optimism Bridge:
 ```
 
-- status: 0%
+- status: 20%
 - CC: Ricardo
 
 ### Description

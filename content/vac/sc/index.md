@@ -12,7 +12,7 @@ lastmod: 2023-09-21
 
 ### `status:`
 * [x] [[ vac/sc/g/status/community-contracts-ERC721 | community-contracts-ERC721 ]]
-* [[ vac/sc/g/status/community-contracts-ERC20 | community-contracts-ERC20 ]]
+* [x] [[ vac/sc/g/status/community-contracts-ERC20 | community-contracts-ERC20 ]]
 * [x] [[ vac/sc/g/status/community-contracts-deployer | community-contracts-deployer ]]
 * [[ vac/sc/g/status/community-contracts-maintenance | community-contracts-maintenance ]]
 * [[ vac/sc/g/status/community-curation-contracts | community-curation-contracts ]]
@@ -20,8 +20,8 @@ lastmod: 2023-09-21
 * [[ vac/sc/g/status/mimime-token-enhancement | mimime-token-enhancement ]]
 * [[ vac/sc/g/status/mimime-token-maintenance | mimime-token-maintenance ]]
 * [[ vac/sc/g/status/governance-contract-mvp | governance-contract-mvp ]]
+* [x] [[ vac/sc/g/status/staking-contract-mvp | staking-contract-mvp ]]
 * [[ vac/sc/g/status/staking-contract | staking-contract ]]
-* [[ vac/sc/g/status/staking-contract_02 | staking-contract_02 ]]
 * [[ vac/sc/g/status/staking-contract-maintenance | staking-contract-maintenance ]]
 
 ### `codex:`
