@@ -5,13 +5,12 @@
 <ul>
 <li><em>achieved</em>: /admin Rest API endpoint implemented</li>
 <li><em>next</em>: Restructure openapi descriptions and producing swagger ui like live document of all rest interfaces. Restructure Rest API schema types.</li>
-<li><em>blocking</em>:</li>
 </ul>
-<p><strong><a href="https://github.com/waku-org/nwaku/issues/2064" class="external">chore: notify user if docker-compose fails</a></strong></p>
+<p><strong><a href="https://github.com/waku-org/nwaku/issues/2064" class="external">chore: notify user if docker-compose fails</a></strong> {enhancement}, {E:3.2: Basic DoS protection in production}</p>
 <ul>
 <li><em>achieved</em>: discussed the issue with colleagues, implemented the solution and closed the issue</li>
 </ul>
-<p><strong><a href="https://github.com/waku-org/nwaku/issues/2042" class="external">feat: allowing users to choose port 0 for dynamically allocated ports</a></strong></p>
+<p><strong><a href="https://github.com/waku-org/nwaku/issues/2042" class="external">feat: allowing users to choose port 0 for dynamically allocated ports</a></strong> {enhancement}</p>
 <ul>
 <li><em>achieved</em>: analyzed code and found the different data structures affected by the dynamic port allocation. Considered the implications of different approaches to solve the issue, discussed and translated the different options into code.
 Started the implementation of the chosen solution, with part of the solution already working.</li>
@@ -23,8 +22,8 @@ Started the implementation of the chosen solution, with part of the solution alr
 </ul>
 <p><strong><a href="https://github.com/waku-org/nwaku/issues/1914" class="external">setting up static sharding fleet for Status</a></strong> {E:Static sharding}</p>
 <ul>
-<li><em>achieved</em>: negotiation with infra to improve fleet definition, clarify postgresql deployment</li>
-<li><em>next</em>: ensure fleet gets deployed as specified</li>
+<li><em>achieved</em>: fleet has been deployed, PostgreSQL setup has been tested.</li>
+<li><em>next</em>: Do some basic dogfooding with Status Desktop.</li>
 </ul>
 <p><strong><a href="https://github.com/waku-org/nwaku/issues/1888" class="external">PostgreSQL</a></strong> {E:2.1: Production testing of existing protocols}, {E:PostgreSQL}</p>
 <ul>
@@ -32,7 +31,7 @@ Started the implementation of the chosen solution, with part of the solution alr
 After directly comparing the <em>Store</em> protocol, noticed that the bottle neck is within the database itself. i.e. the <em>SQLite</em> database performs better than <em>Postgres</em>, given that we have a very simple schema and simple queries, without joins. Adding indexes to the <em>Postgres</em> database didn’t help very much. For example, given the same query, <em>SQLite</em> takes 1ms whereas <em>Postgres</em> takes 6ms.</li>
 <li><em>next</em>:
 <ul>
-<li>Wrap up the <em>Store</em> testing environment and install it into our sandbox machine, <code>metal-01.he-eu-hel1.wakudev.misc.statusim.net</code>, so that anyone can proceed from this point (two databases with the same dataset of ~2 million rows .) in case someone is keen on analyzing performance or debug in a more realistic testing scenery.</li>
+<li>Wrap up the <em>Store</em> testing environment and install it into our sandbox machine, <code>metal-01.he-eu-hel1.wakudev.misc.statusim.net</code>, so that anyone can proceed from this point (two databases with the same dataset of ~2 million rows .) in case someone is keen on analyzing performance or debug in a more realistic testing scenery. This will include concurrent queries from multiple nodes, where PostgreSQL is expected to perform better.</li>
 <li>Start extracting the database creation and indexes creation to outside the code base.</li>
 </ul>
 </li>
