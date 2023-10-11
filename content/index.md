@@ -11,12 +11,12 @@ This site is an ongoing work in progress. The links within are an attempt to cap
 ### Projects
 - [Waku](waku/index.md)
 - [Codex](codex/overview.md)
-- [[nomos/index.md|Nomos]]
+- [[nomos/index|Nomos]]
 
 ### Services
 - [Vac](vac/index.md)
 - [Comms (Acid Info)](acid/index.md)
-- [[insight/index.md|Insight]]
+- [[insight/index|Insight]]
 
 ### Skunk works
 - [Innovation Lab](innovation_lab/index.md)
