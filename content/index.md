@@ -11,7 +11,7 @@ This site is an ongoing work in progress. The links within are an attempt to cap
 ### Projects
 - [Waku](waku/index.md)
 - [Codex](codex/overview.md)
-- [Nomos](nomos/index.md)
+- [[nomos/index|Nomos]]
 
 ### Services
 - [Vac](vac/index.md)
