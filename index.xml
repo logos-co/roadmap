@@ -42,6 +42,12 @@
     <description>Overview/Priorities § Al departure Short term - We need to stabilise, Al brought a lot of value, we may have to step up a little bit, will meet with Carl and Jarrad weekly.</description>
     <pubDate>Thu, 21 Sep 2023 19:39:20 GMT</pubDate>
   </item><item>
+    <title>2023-10-10 Comms weekly</title>
+    <link>https://roadmap.logos.co/acid/updates/2023-10-03</link>
+    <guid>https://roadmap.logos.co/acid/updates/2023-10-03</guid>
+    <description>Weekly update of Comms.</description>
+    <pubDate>Tue, 10 Oct 2023 00:00:00 GMT</pubDate>
+  </item><item>
     <title>Codex Milestones Overview</title>
     <link>https://roadmap.logos.co/codex/milestones-overview</link>
     <guid>https://roadmap.logos.co/codex/milestones-overview</guid>
@@ -59,12 +65,6 @@
     <guid>https://roadmap.logos.co/codex/overview</guid>
     <description>Welcome to the Codex Roadmap Overview 2023 September Report Milestones weekly updates .</description>
     <pubDate>Mon, 09 Oct 2023 23:14:52 GMT</pubDate>
-  </item><item>
-    <title>2023-07-21 Codex weekly</title>
-    <link>https://roadmap.logos.co/codex/updates/2023-07-21</link>
-    <guid>https://roadmap.logos.co/codex/updates/2023-07-21</guid>
-    <description>Codex update 07/12/2023 to 07/21/2023 § Overall we continue working in various directions, distributed testing, marketplace, p2p client, research, etc… Our main milestone is to have a fully functional testnet with the marketplace and durability guarantees deployed by end of year.</description>
-    <pubDate>Thu, 03 Aug 2023 00:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
