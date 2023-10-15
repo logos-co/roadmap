@@ -18,7 +18,8 @@ title: Zerokit v0.5 Release
   } 
 }%%
 gantt
-	dateFormat YYYY-MM-DD 
+  tickInterval 1month
+	dateFormat YYYY-MM-DD
 	section zerokit
 		v0.5 Release: 2023-10-01, 2023-12-31
 ```
