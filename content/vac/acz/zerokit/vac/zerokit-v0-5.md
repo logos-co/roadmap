@@ -20,10 +20,10 @@ title: Zerokit v0.5 Release
 gantt
 	dateFormat YYYY-MM-DD 
 	section zerokit
-		v0.5 Release 2023-10-01, 2023-12-31
+		v0.5 Release: 2023-10-01, 2023-12-31
 ```
-- due: 2023/09/07
-- status: 100%
+- status: 5%
+- CC: Aaryamann
 
 ### Description
 - Release Planning:
