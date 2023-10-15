@@ -23,10 +23,14 @@ gantt
 		v0.4 Release :done, 2023-01-20, 2023-09-07
 ```
 - due: 2023/09/07
-- status: 40%
+- status: 100%
 
 ### Description
 - Release Planning - [Github Issue #197](https://github.com/vacp2p/zerokit/issues/197)
+
+### Deliverables
+
+* https://github.com/vacp2p/zerokit/releases/tag/v0.4.0
 
 ### Info
 

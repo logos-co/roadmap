@@ -21,7 +21,7 @@ title: Waku RLN Membership Management Details
 gantt
 	dateFormat YYYY-MM-DD 
 	section rlnp2p-waku
-		RLN Membership Management :, 2023-01-20, 2023-09-30
+		RLN Membership Management :done, 2023-01-20, 2023-09-30
 ```
 - due: 2023/09/30
 - status: 100%
