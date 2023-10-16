@@ -21,13 +21,21 @@ gantt
   tickInterval 1month
 	dateFormat YYYY-MM-DD
 	section zerokit
-		v0.5 Release: 2023-10-01, 2023-12-31
+		v0.5 Release: 2023-10-01, 2024-02-29
 ```
 - status: 5%
 - CC: Aaryamann
 
 ### Description
-- Release Planning:
+
+* Release Planning issue:
+
+* main focus: RLN performance improvements
+  - explore using kzg proofs
 
 ### Deliverables
 
+
+### Info
+
+* We have a benchmarking suite done

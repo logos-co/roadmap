@@ -23,13 +23,17 @@ gantt
   tickInterval 1month
   dateFormat YYYY-MM-DD 
   section Status
-    RLN v2 relay integration:  2023-11-01, 2023-12-31
+    RLN v2 relay integration:  2023-11-01, 2024-02-29
 ```
 
 - status: 0%
 - CC: Aaryamann
 
 ### Description
+
+* also involves
+  - TKE
+  - implemenations in various Waku versions
 
 
 ### Justification
