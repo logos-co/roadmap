@@ -9,4 +9,4 @@ tags:
 
 ## Milestones
 - [Zenhub Tracker](https://app.zenhub.com/workspaces/engineering-62cee4c7a335690012f826fa/roadmap)
-- [Miro Tracker](https://miro.com/app/board/uXjVOtZ40xI=/?share_link_id=33106977104)
+- [Miro Tracker](https://miro.com/app/board/uXjVNZ03E-c=/?share_link_id=987528411803)
