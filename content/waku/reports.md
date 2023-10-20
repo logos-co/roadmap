@@ -7,7 +7,7 @@ lastmod: 2023-10-19
 ---
 ## Meetings and Weekly Updates
 
-### High level reporting and overview
+### High level reporting overview
 
 - Daily standups are posted in the team [discord](https://discord.waku.org).
 - Weekly progress reports are submitted as comments on open issues in any public waku-org [github repository](https://github.com/orgs/waku-org/repositories). A script compiles the relevant comments and prepares for publication 
