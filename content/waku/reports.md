@@ -16,4 +16,4 @@ lastmod: 2023-10-19
 - Waku client-team PM meetings are held throughout the week depending on the general timezone and schedules of the team.
 - Weekly highlights are derived from the weekly dev updates and compiled in Notion for wider publication by the Comms team via the "Waku Wednesday" series on X. 
 
-![Reporting Pipeline](https://i.imgur.com/xJaO3UB.png)
+![](content/images/reporting-meeting-flow.png)
