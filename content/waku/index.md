@@ -13,4 +13,5 @@ Waku is a family of robust, censorship-resistant communication protocols designe
 
 - [[waku/monthly-reports/2023-sept|2023 September Report]]
 - [Milestones](waku/milestones-overview.md)
-- [weekly updates](tags/waku-updates)
+- [Weekly updates](tags/waku-updates)
+- [Reports](waku/reports.md)
