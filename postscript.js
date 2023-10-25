@@ -1248,7 +1248,6 @@ document.addEventListener("nav", async (e) => {
   searchBar?.addEventListener("input", onType);
   if (!index) {
     index = new import_flexsearch.Document({
-      cache: true,
       charset: "latin:extra",
       optimize: true,
       encode: encoder,
@@ -6384,6 +6383,8 @@ var isLocalUrl = (href) => {
 var getOpts = ({ target }) => {
   if (!isElement(target))
     return;
+  if (target.attributes.getNamedItem("target")?.value === "_blank")
+    return;
   const a = target.closest("a");
   if (!a)
     return;
@@ -6443,7 +6444,7 @@ function createRouter() {
   if (typeof window !== "undefined") {
     window.addEventListener("click", async (event) => {
       const { url } = getOpts(event) ?? {};
-      if (!url)
+      if (!url || event.ctrlKey || event.metaKey)
         return;
       event.preventDefault();
       try {
