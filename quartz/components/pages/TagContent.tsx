@@ -1,6 +1,4 @@
 import { QuartzComponentConstructor, QuartzComponentProps } from "../types"
-import { Fragment, jsx, jsxs } from "preact/jsx-runtime"
-import { toJsxRuntime } from "hast-util-to-jsx-runtime"
 import style from "../styles/listPage.scss"
 import { PageList } from "../PageList"
 import { FullSlug, getAllSegmentPrefixes, simplifySlug } from "../../util/path"
@@ -26,8 +24,7 @@ function TagContent(props: QuartzComponentProps) {
   const content =
     (tree as Root).children.length === 0
       ? fileData.description
-      : // @ts-ignore
-        toJsxRuntime(tree, { Fragment, jsx, jsxs, elementAttributeNameCase: "html" })
+      : htmlToJsx(fileData.filePath!, tree)
 
   if (tag === "") {
     const tags = [...new Set(allFiles.flatMap((data) => data.frontmatter?.tags ?? []))]

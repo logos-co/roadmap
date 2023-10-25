@@ -1,6 +1,4 @@
 import { QuartzComponentConstructor, QuartzComponentProps } from "../types"
-import { Fragment, jsx, jsxs } from "preact/jsx-runtime"
-import { toJsxRuntime } from "hast-util-to-jsx-runtime"
 import path from "path"
 
 import style from "../styles/listPage.scss"
@@ -29,8 +27,7 @@ function FolderContent(props: QuartzComponentProps) {
   const content =
     (tree as Root).children.length === 0
       ? fileData.description
-      : // @ts-ignore
-        toJsxRuntime(tree, { Fragment, jsx, jsxs, elementAttributeNameCase: "html" })
+      : htmlToJsx(fileData.filePath!, tree)
 
   return (
     <div class="popover-hint">
