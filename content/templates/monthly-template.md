@@ -1,8 +1,8 @@
 ---
-title: 2023 October Nomos Monthly Report
+title: <year> <month> <project> Monthly Report
 draft: true
-lastmod: 2023-10-25
-description: Monthly Report of Nomos
+lastmod: <% tp.date.now() %>
+description: "Monthly Report of <project>"
 ---
 
 ## Executive Summary
