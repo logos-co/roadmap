@@ -27,7 +27,7 @@ export default (() => {
         <meta property="og:height" content="675" />
         <link rel="icon" href={iconPath} />
         <meta name="description" content={description} />
-        <meta name="generator" content="Logos Roadmaps" />
+        <meta name="generator" content="Quartz" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         {css.map((href) => (

@@ -5,6 +5,7 @@ import { FullSlug, getAllSegmentPrefixes, simplifySlug } from "../../util/path"
 import { QuartzPluginData } from "../../plugins/vfile"
 import { Root } from "hast"
 import { pluralize } from "../../util/lang"
+import { htmlToJsx } from "../../util/jsx"
 
 const numPages = 10
 function TagContent(props: QuartzComponentProps) {

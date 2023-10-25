@@ -6,6 +6,7 @@ import { PageList } from "../PageList"
 import { _stripSlashes, simplifySlug } from "../../util/path"
 import { Root } from "hast"
 import { pluralize } from "../../util/lang"
+import { htmlToJsx } from "../../util/jsx"
 
 function FolderContent(props: QuartzComponentProps) {
   const { tree, fileData, allFiles } = props
