@@ -9,7 +9,7 @@ description: "Monthly Report of <project>"
 
 ## Key Updates
 
-### Personel
+### Personnel
 - 
 
 ### Milestones
