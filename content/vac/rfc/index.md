@@ -23,3 +23,8 @@ lastmod: 2023-09-06
 * [[vac/rfc/rfc/nomos/inter-chain-protocol-specification|inter-chain-protocol-specification ]]
 * [[vac/rfc/rfc/nomos/multi-leader-and-multi-overlay-carnot-specification|multi-leader-and-multi-overlay-carnot-specification ]]
 
+### `rfc:waku:`
+
+* [[vac/rfc/rfc/waku/waku-keystore|waku-keystore]]
+
+
