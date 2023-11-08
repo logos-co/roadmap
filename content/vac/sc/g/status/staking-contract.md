@@ -45,7 +45,7 @@ This document is the basis for the following issues:
 * https://github.com/logos-co/staking/issues/17
 * https://github.com/logos-co/staking/issues/18
 
-The milestone is achived when these issues have been resolved.
+The milestone is achieved when these issues have been resolved.
 
 ### Justification
 
