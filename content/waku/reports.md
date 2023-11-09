@@ -3,7 +3,7 @@ title: Waku Reporting
 tags:
   - WakuReporting
 date: 2023-10-19
-lastmod: 2023-10-19
+lastmod: 2023-11-08
 ---
 ## Meetings and Weekly Updates
 
