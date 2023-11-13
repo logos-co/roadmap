@@ -31,11 +31,11 @@ gantt
 
 ### Description
 
-*Note*: This milestones needs furters details, which will be agreed apon with Status in an upcoming meeting.
+*Note*: This milestones needs further details, which will be agreed apon with Status in an upcoming meeting.
 
 Preliminary description:
 
-Desing and implement a contract that offers a  token import functionality to communities.
+Design and implement a contract that offers a  token import functionality to communities.
 It should allow:
 - deploying a token vault for a given token
 - depositing tokens to specific token vaults
