@@ -25,7 +25,7 @@ gantt
     Bandwidth Test: 2023-08-01, 2023-10-31
 ```
 
-- status: 20%
+- status: 80%
 - CC: Alberto
 
 ### Description
