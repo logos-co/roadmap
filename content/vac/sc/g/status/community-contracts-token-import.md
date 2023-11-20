@@ -27,7 +27,7 @@ gantt
 ```
 
 - status: 0%
-- CC:
+- CC: Andrea
 
 ### Description
 
