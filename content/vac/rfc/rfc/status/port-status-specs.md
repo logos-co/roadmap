@@ -25,8 +25,8 @@ gantt
     Port Status Spec:  2023-08-01, 2023-11-31
 ```
 
-- status: 30%
-- CC: r4bbit, Aaryamann
+- status: 85%
+- CC: Jimmy
 
 ### Description
 
