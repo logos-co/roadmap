@@ -26,7 +26,7 @@ gantt
     Production Readiness:
 ```
 
-- status: 0%
+- status: 5%
 - CC: Andrea
 
 ### Description
