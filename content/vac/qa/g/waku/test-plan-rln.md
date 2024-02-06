@@ -1,7 +1,7 @@
 ---
-title: "Interop Testing"
+title: "Test Plan RLN"
 ---
-## `vac:dst:software-testing:waku:interop-testing`
+## `vac:qa::waku:test-plan-rln`
 ---
 
 ```mermaid
@@ -22,21 +22,19 @@ gantt
   tickInterval 1month
   dateFormat YYYY-MM-DD 
   section Status
-    Interop Testing:  2023-09-01, 2024-02-29
+    Test Plan RLN:  2023-02-01, 2024-02-29
 ```
 
-- status: 0%
-- CC: Florin, Alex, Roman
+- status: 80%
+- CC: Florin
 
 ### Description
 
-* filter nwaku service node + js waku client node (t, Florin)
-* nwaku <> go-waku interop (t, Alex)
+Test plan for the Waku RLN relay.
+
 
 ### Justification
 
 
 ### Deliverables
-
-
 

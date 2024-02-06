@@ -54,10 +54,3 @@ lastmod: 2023-09-08
 * [[vac/dst/eng-10ktool/waku/waku-protocols|waku-protocols ]]
 
 
-### `software-testing:waku:`
-* [[vac/dst/software-testing/waku/test-plans|test-plans ]]
-* [[vac/dst/software-testing/waku/test-automation-js-waku|test-automation-js-waku ]]
-* [[vac/dst/software-testing/waku/test-automation-nwaku|test-automation-nwaku ]]
-* [[vac/dst/software-testing/waku/test-automation-go-waku|test-automation-go-waku ]]
-* [[vac/dst/software-testing/waku/interop-testing|interop-testing ]]
-

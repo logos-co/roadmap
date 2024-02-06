@@ -1,7 +1,7 @@
 ---
-title: "Test Plans"
+title: "Test Automation js-waku"
 ---
-## `vac:dst:software-testing:waku:test-plans`
+## `vac:dst:software-testing:waku:test-automation-js-waku`
 ---
 
 ```mermaid
@@ -22,32 +22,30 @@ gantt
   tickInterval 1month
   dateFormat YYYY-MM-DD 
   section Status
-    Test Plans:  2023-09-01, 2024-02-29
+    Test Automation js-waku:  2023-09-15, 2024-02-29
 ```
 
-- status: 15%
+- status: 10%
 - CC: Florin
 
 ### Description
 
-unit + integration  test
-(contains actually understanding the protocols, critically engage with the protocols)
-(instruct the engineer)
-
-* filter (t)
+* filter (t) ← first group of tests added in PR to JS waku
 * lightpush (t)
 * store (t)
-* relay ()
+* relay
 * peer exchange
 * discv5
 * peer & connection management
-* interoperability (t, starting)
-* simulation plans
+* CI integration
+
+Additional requirements:
+It should be possible to choose the nwaku version the js waku test use (done via github actions inputs)
 
 ### Justification
 
 
 ### Deliverables
 
-* [test plans](https://www.notion.so/Waku-2b93b558eb3b4de482c45babb8581a2b)
+
 

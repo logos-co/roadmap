@@ -20,6 +20,7 @@ title: Vac Roadmap
 - `p2p:` [[vac/p2p/index|Peer-to-peer]]
 - `tke:` [[vac/tke/index|Token Engineering]]
 - `dst:` [[vac/dst/index|Distributed Systems Testing]]
+- `qa:` [[vac/qa/index|Quality Assurance]]
 - `acz:` [[vac/acz/index| Applied Cryptography and Zero-knowledge]]
 - `sc:` [[vac/sc/index| Smart Contracts]]
 
