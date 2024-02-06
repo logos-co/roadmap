@@ -12,7 +12,7 @@ lastmod: 2024-02-06
 
 ### `waku:`
 * [x] [[vac/qa/g/waku/test-plans|test-plans ]]
-* [[vac/qa/g/waku/test-plan-rln|test-plan-rln ]]
+* [x] [[vac/qa/g/waku/test-plan-rln|test-plan-rln ]]
 * [[vac/qa/g/waku/test-automation-js-waku|test-automation-js-waku ]]
 * [[vac/qa/g/waku/test-automation-nwaku|test-automation-nwaku ]]
 * [[vac/qa/g/waku/test-automation-nwaku-rln|test-automation-nwaku-rln ]]

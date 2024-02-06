@@ -25,7 +25,7 @@ gantt
     Test Plan RLN:  2023-02-01, 2024-02-29
 ```
 
-- status: 80%
+- status: 100%
 - CC: Florin
 
 ### Description
