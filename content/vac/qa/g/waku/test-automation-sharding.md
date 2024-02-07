@@ -1,7 +1,7 @@
 ---
 title: "Test Automation Sharding"
 ---
-## `vac:qa::test-automation-sharding`
+## `vac:qa::waku:test-automation-sharding`
 ---
 
 ```mermaid
