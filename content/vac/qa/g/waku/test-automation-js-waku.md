@@ -1,7 +1,7 @@
 ---
 title: "Test Automation js-waku"
 ---
-## `vac:qa::test-automation-js-waku`
+## `vac:qa::waku:test-automation-js-waku`
 ---
 
 ```mermaid
