@@ -1,7 +1,7 @@
 ---
 title: "Interop Testing"
 ---
-## `vac:qa::interop-testing`
+## `vac:qa::waku:interop-testing`
 ---
 
 ```mermaid
