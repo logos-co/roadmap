@@ -1,7 +1,7 @@
 ---
 title: "Interop Testing"
 ---
-## `vac:dst:software-testing:waku:interop-testing`
+## `vac:qa::interop-testing`
 ---
 
 ```mermaid
@@ -25,13 +25,22 @@ gantt
     Interop Testing:  2023-09-01, 2024-02-29
 ```
 
-- status: 70%
-- CC: Florin, Alex, Roman
+- status: 30%
+- CC: Florin, Roman
 
 ### Description
 
+* filter
+* lightpush
+* store
+* relay
+* peer exchange
+* discv5
+* peer & connection management
 * filter nwaku service node + js waku client node
 * nwaku <> go-waku interop
+* ci integrations
+* nightly reports
 
 ### Justification
 
