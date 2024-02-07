@@ -38,3 +38,4 @@ Test plan for the Waku RLN relay.
 
 ### Deliverables
 
+* [RLN Relay test plan](https://www.notion.so/RLN-Relay-9dd36da3029847aa86dda2cb4ccbc145)
