@@ -22,7 +22,7 @@ gantt
   tickInterval 1month
   dateFormat YYYY-MM-DD 
   section Status
-    Test Plan RLN:  2023-02-01, 2024-02-29
+    Test Plan RLN:  2023-12-01, 2024-02-29
 ```
 
 - status: 100%
