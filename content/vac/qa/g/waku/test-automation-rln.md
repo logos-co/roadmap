@@ -1,7 +1,7 @@
 ---
 title: "Test Automation RLN"
 ---
-## `vac:qa::test-automation-rln`
+## `vac:qa::waku:test-automation-rln`
 ---
 
 ```mermaid
