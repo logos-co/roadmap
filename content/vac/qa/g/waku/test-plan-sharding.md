@@ -38,4 +38,4 @@ Test plan for the Waku Sharding.
 
 ### Deliverables
 
-* [sharding test plans](https://www.notion.so/Sharding-fc4b21238cde41f3bed8c9aab016bd58)
+* [Sharding Test plan](https://www.notion.so/Sharding-fc4b21238cde41f3bed8c9aab016bd58)
