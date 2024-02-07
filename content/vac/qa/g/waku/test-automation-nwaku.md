@@ -1,7 +1,7 @@
 ---
 title: "Test Automation nwaku"
 ---
-## `vac:dst:software-testing:waku:test-automation-nwaku`
+## `vac:qa::test-automation-nwaku`
 ---
 
 ```mermaid
@@ -25,16 +25,21 @@ gantt
     Test Automation nwaku:  2023-09-15, 2024-02-29
 ```
 
-- status: 0%
+- status: 70%
 - CC: Alex
 
 ### Description
 
+* filter (t)
+* lightpush (t)
+* store (t)
+* relay
+* peer exchange
+* discv5
+* peer & connection management
+* CI integration
 
 ### Justification
 
 
 ### Deliverables
-
-
-
