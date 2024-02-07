@@ -1,7 +1,7 @@
 ---
-title: "Test Automation nwaku"
+title: "Test Automation Sharding"
 ---
-## `vac:qa::waku:test-automation-nwaku`
+## `vac:qa::waku:test-automation-sharding`
 ---
 
 ```mermaid
@@ -22,22 +22,19 @@ gantt
   tickInterval 1month
   dateFormat YYYY-MM-DD 
   section Status
-    Test Automation nwaku:  2023-09-15, 2024-02-29
+    Test Automation Sharding:  2024-01-01, 2024-03-31
 ```
 
-- status: 70%
-- CC: Alex
+- status: 30%
+- CC: Roman, Florin, Alex
 
 ### Description
 
-* filter (t)
-* lightpush (t)
-* store (t)
-* relay
-* peer exchange
-* discv5
-* peer & connection management
-* CI integration
+* nwaku unit tests
+* gowaku unit tests? (need to confirm if status uses sharding)
+* js-waku unit tests
+* interop sharding tests
+
 
 ### Justification
 

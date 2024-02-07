@@ -1,7 +1,7 @@
 ---
 title: "Test Plans"
 ---
-## `vac:dst:software-testing:waku:test-plans`
+## `vac:qa::waku:test-plans`
 ---
 
 ```mermaid
@@ -47,5 +47,5 @@ unit + integration  test
 
 ### Deliverables
 
-* [test plans](https://www.notion.so/Waku-2b93b558eb3b4de482c45babb8581a2b)
+* [test plans](https://www.notion.so/Test-Plans-09c8c7b7f6784c459fb774792665e37c)
 

@@ -1,7 +1,7 @@
 ---
 title: "Test Automation go-waku"
 ---
-## `vac:dst:software-testing:waku:test-automation-go-waku`
+## `vac:qa::waku:test-automation-go-waku`
 ---
 
 ```mermaid
@@ -25,12 +25,12 @@ gantt
     Test Automation go-waku:  2023-10-01, 2024-02-29
 ```
 
-- status: 0%
+- status: 70%
 - CC: Roman
 
 ### Description
 
-* filter (t) ← first group of tests added in PR to JS waku
+* filter (t)
 * lightpush (t)
 * store (t)
 * relay

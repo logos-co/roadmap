@@ -1,7 +1,7 @@
 ---
-title: "Test Automation nwaku"
+title: "Test Plan Sharding"
 ---
-## `vac:qa::waku:test-automation-nwaku`
+## `vac:qa::waku:test-plan-sharding`
 ---
 
 ```mermaid
@@ -22,24 +22,20 @@ gantt
   tickInterval 1month
   dateFormat YYYY-MM-DD 
   section Status
-    Test Automation nwaku:  2023-09-15, 2024-02-29
+    Test Plan RLN:  2023-12-01, 2024-02-29
 ```
 
-- status: 70%
-- CC: Alex
+- status: 100%
+- CC: Florin
 
 ### Description
 
-* filter (t)
-* lightpush (t)
-* store (t)
-* relay
-* peer exchange
-* discv5
-* peer & connection management
-* CI integration
+Test plan for the Waku Sharding.
+
 
 ### Justification
 
 
 ### Deliverables
+
+* [Sharding Test plan](https://www.notion.so/Sharding-fc4b21238cde41f3bed8c9aab016bd58)
