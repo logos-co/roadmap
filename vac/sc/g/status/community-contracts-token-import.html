@@ -21,26 +21,29 @@ gantt
     Production Readiness:
 </code></pre>
 <ul>
-<li>status: 5%</li>
+<li>status: 0%</li>
 <li>CC: Andrea</li>
 </ul>
+<p>**This milestone is updated on weekly basis. For a more up-to-date status head over to the <a href="https://github.com/status-im/communities-contracts/milestone/1" class="external">milestone on GitHub</a>.</p>
 <h3 id="description">Description<a aria-hidden="true" tabindex="-1" href="#description" class="internal"> §</a></h3>
-<p><em>Note</em>: This milestones needs further details, which will be agreed apon with Status in an upcoming meeting.</p>
-<p>Preliminary description:</p>
-<p>Design and implement a contract that offers a  token import functionality to communities.
-It should allow:</p>
+<p>This milestone is part of the effort to create “Community Vaults”.
+Community Vaults allow Status users to create communities that maintain their own token balances and later on allow for airdropping their tokens to other Status users or retail them.</p>
+<p>This milestone focusses on the “token import”.
+The naming is a bit misleading, but the basic idea is that users:</p>
 <ul>
-<li>deploying a token vault for a given token</li>
-<li>depositing tokens to specific token vaults</li>
-<li>specific community members (token masters) can alter (e.g. airdrop) tokens in the store</li>
-<li>tokens in the vault can be air dropped</li>
+<li>create Status communities and deploy a “vault” contract</li>
+<li>the vault contract acts as a wallet for the community</li>
+<li>any user can send ERC20 and ERC721 tokens to the vault</li>
 </ul>
-<p>A token vault is basically a community wallet that a community’s token masters can airdrop from.</p>
 <h3 id="justification">Justification<a aria-hidden="true" tabindex="-1" href="#justification" class="internal"> §</a></h3>
 <h3 id="deliverables">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables" class="internal"> §</a></h3>
 <ul>
-<li>design description</li>
-<li>smart contract</li>
+<li><code>CommunityVault</code> smart contract implementation</li>
+<li>Migration/upgrade strategy for vaults</li>
+<li>Ability for users to deposit/import tokens to vault</li>
+<li>Tests</li>
+<li>Documentation</li>
+<li>Formal verification</li>
 </ul></article></div><div class="right sidebar"><div class="graph "><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[]}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
 	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
 	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
