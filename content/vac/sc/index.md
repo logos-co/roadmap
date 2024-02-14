@@ -26,9 +26,9 @@ lastmod: 2023-09-21
 * [[ vac/sc/g/status/staking-contract-maintenance | staking-contract-maintenance ]]
 
 ### `codex:`
-* [[ vac/sc/g/codex/review-codex-contracts | review-codex-contracts ]]
+* [x] [[ vac/sc/g/codex/review-codex-contracts | review-codex-contracts ]]
 
 ### `vac:`
-* [[ vac/sc/g/vac/secureum-upskilling | secureum-upskilling ]]
+* [x] [[ vac/sc/g/vac/secureum-upskilling | secureum-upskilling ]]
 * [[ vac/sc/g/vac/rln-contract-support | rln-contract-support ]]
 
