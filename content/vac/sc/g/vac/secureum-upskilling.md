@@ -25,7 +25,7 @@ gantt
     Secureum Upskilling:  2023-08-15, 2023-10-15
 ```
 
-- status: 70%
+- status: 100%
 - CC: team
 
 ### Description
