@@ -1,8 +1,8 @@
 ---
-title: "Token Import"
+title: "Community Contracts Token Import"
 description: "token import"
 ---
-## `:sc:g:status:token-import`
+## `:sc:g:status:communty-contracts-token-import`
 ---
 
 ```mermaid
