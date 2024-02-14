@@ -26,7 +26,7 @@ gantt
     Production Readiness: 2023-09-15, 2023-10-21
 ```
 
-- status: 95%
+- status: 100%
 - CC: Ricardo
 
 ### Description
