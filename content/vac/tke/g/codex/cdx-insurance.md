@@ -1,7 +1,7 @@
 ---
-title: "Codex Economic Analysis"
+title: "Codex Economic Security Analysis"
 ---
-### `vac:tke::codex:economic-analysis`
+### `vac:tke::codex:cdx-insurance`
 ---
 
 ```mermaid
@@ -21,15 +21,15 @@ title: "Codex Economic Analysis"
 gantt
 	dateFormat YYYY-MM-DD
 	section Codex
-		Economic Analysis :, 2023-01-20, 2024-02-04
+		CDX Insurance :, 2024-03-01, 2024-03-15
 ```
 
-- status: 100%
-- CC: Matty
+- status: 0%
+- CC: Frederico
 
 ### Description
-Codex economic analysis, Codex token utility, Codex collateral management
+Mechanisms to make the system more stable
 
 ### Justification
-Per Dimitry and Jesse, required by Codex team for completing implementation of system and planning launch
+Understand the economic security of the protocol
 

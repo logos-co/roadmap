@@ -1,7 +1,7 @@
 ---
-title: "Codex Economic Analysis"
+title: "Codex Contract Finalization"
 ---
-### `vac:tke::codex:economic-analysis`
+### `vac:tke::codex:contract-finalization`
 ---
 
 ```mermaid
@@ -21,15 +21,14 @@ title: "Codex Economic Analysis"
 gantt
 	dateFormat YYYY-MM-DD
 	section Codex
-		Economic Analysis :, 2023-01-20, 2024-02-04
+		Contract Finalization :, 2024-06-01, 2024-06-15
 ```
 
-- status: 100%
-- CC: Matty
+- status: 0%
+- CC: Frederico
 
 ### Description
-Codex economic analysis, Codex token utility, Codex collateral management
+SPs & Users obligations, data retrieval incentives, collateral retrieval, contract extension.
 
 ### Justification
-Per Dimitry and Jesse, required by Codex team for completing implementation of system and planning launch
-
+As part of the contract finalization process.

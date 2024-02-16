@@ -1,7 +1,7 @@
 ---
-title: "Codex Economic Analysis"
+title: "Codex Contract Matching"
 ---
-### `vac:tke::codex:economic-analysis`
+### `vac:tke::codex:contract-matching`
 ---
 
 ```mermaid
@@ -21,15 +21,14 @@ title: "Codex Economic Analysis"
 gantt
 	dateFormat YYYY-MM-DD
 	section Codex
-		Economic Analysis :, 2023-01-20, 2024-02-04
+		Contract Matching :, 2024-05-01, 2024-05-31
 ```
 
-- status: 100%
+- status: 0%
 - CC: Matty
 
 ### Description
-Codex economic analysis, Codex token utility, Codex collateral management
+Define what triggers the auction recovery mechanism.
 
 ### Justification
-Per Dimitry and Jesse, required by Codex team for completing implementation of system and planning launch
-
+As part of the slot recovery mechanism.

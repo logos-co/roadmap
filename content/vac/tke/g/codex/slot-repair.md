@@ -1,7 +1,7 @@
 ---
-title: "Codex Economic Analysis"
+title: "Codex Slot Repair"
 ---
-### `vac:tke::codex:economic-analysis`
+### `vac:tke::codex:slot-repair`
 ---
 
 ```mermaid
@@ -21,15 +21,15 @@ title: "Codex Economic Analysis"
 gantt
 	dateFormat YYYY-MM-DD
 	section Codex
-		Economic Analysis :, 2023-01-20, 2024-02-04
+		Slot Repair :, 2024-07-15, 2024-07-31
 ```
 
-- status: 100%
-- CC: Matty
+- status: 0%
+- CC: Frederico
 
 ### Description
-Codex economic analysis, Codex token utility, Codex collateral management
+Design of the incentives to ensure data availability.
 
 ### Justification
-Per Dimitry and Jesse, required by Codex team for completing implementation of system and planning launch
+
 

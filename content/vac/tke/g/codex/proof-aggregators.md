@@ -1,7 +1,7 @@
 ---
-title: "Codex Economic Analysis"
+title: "Codex Proof Aggregators"
 ---
-### `vac:tke::codex:economic-analysis`
+### `vac:tke::codex:proof-aggregators`
 ---
 
 ```mermaid
@@ -21,15 +21,13 @@ title: "Codex Economic Analysis"
 gantt
 	dateFormat YYYY-MM-DD
 	section Codex
-		Economic Analysis :, 2023-01-20, 2024-02-04
+		Proof Aggregators :, 2024-06-15, 2024-06-30
 ```
 
-- status: 100%
-- CC: Matty
+- status: 0%
+- CC: Frederico
 
 ### Description
-Codex economic analysis, Codex token utility, Codex collateral management
+Economics of the proof aggregator (incentives, costs, pricing).
 
 ### Justification
-Per Dimitry and Jesse, required by Codex team for completing implementation of system and planning launch
-

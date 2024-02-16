@@ -1,7 +1,7 @@
 ---
-title: "Codex Economic Analysis"
+title: "Codex Testnet Incentives"
 ---
-### `vac:tke::codex:economic-analysis`
+### `vac:tke::codex:testnet-incentive`
 ---
 
 ```mermaid
@@ -21,15 +21,14 @@ title: "Codex Economic Analysis"
 gantt
 	dateFormat YYYY-MM-DD
 	section Codex
-		Economic Analysis :, 2023-01-20, 2024-02-04
+		Testnet Incentives :, 2024-08-15, 2024-08-31
 ```
 
-- status: 100%
+- status: 0%
 - CC: Matty
 
 ### Description
-Codex economic analysis, Codex token utility, Codex collateral management
+Design incentives for testnet.
 
 ### Justification
-Per Dimitry and Jesse, required by Codex team for completing implementation of system and planning launch
 

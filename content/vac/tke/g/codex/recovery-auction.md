@@ -1,7 +1,7 @@
 ---
-title: "Codex Economic Analysis"
+title: "Codex Recovery Auction"
 ---
-### `vac:tke::codex:economic-analysis`
+### `vac:tke::codex:recovery-auction`
 ---
 
 ```mermaid
@@ -21,15 +21,13 @@ title: "Codex Economic Analysis"
 gantt
 	dateFormat YYYY-MM-DD
 	section Codex
-		Economic Analysis :, 2023-01-20, 2024-02-04
+		Recovery Auction :, 2023-08-01, 2024-08-15
 ```
 
-- status: 100%
-- CC: Matty
+- status: 0%
+- CC: Frederico
 
 ### Description
-Codex economic analysis, Codex token utility, Codex collateral management
+Define details of the auction mechanisms for the slot recovery.
 
 ### Justification
-Per Dimitry and Jesse, required by Codex team for completing implementation of system and planning launch
-

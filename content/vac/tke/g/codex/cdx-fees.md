@@ -1,7 +1,7 @@
 ---
-title: "Codex Economic Analysis"
+title: "Codex Fee Mechanism"
 ---
-### `vac:tke::codex:economic-analysis`
+### `vac:tke::codex:cdx-fees`
 ---
 
 ```mermaid
@@ -21,15 +21,15 @@ title: "Codex Economic Analysis"
 gantt
 	dateFormat YYYY-MM-DD
 	section Codex
-		Economic Analysis :, 2023-01-20, 2024-02-04
+		Fees Mechanism :, 2024-03-15, 2024-03-30
 ```
 
-- status: 100%
-- CC: Matty
+- status: 0%
+- CC: Frederico
 
 ### Description
-Codex economic analysis, Codex token utility, Codex collateral management
+Understand the mechanisms to implement protocol fees, e.g. burn-and-mint equilibrium model;
 
 ### Justification
-Per Dimitry and Jesse, required by Codex team for completing implementation of system and planning launch
+Value capture mechanism.
 
