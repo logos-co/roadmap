@@ -21,10 +21,10 @@ title: "SNT Staking"
 gantt
 	dateFormat YYYY-MM-DD 
 	section Status
-		SNT Staking :, 2023-01-20, 2023-08-30
+		SNT Staking :, 2023-01-20, 2024-03-30
 ```
 
-- status: 82%
+- status: 90%
 - CC: Frederico (Python), Martin
 - collab: [[vac/sc/index|smart contracts team]]
 

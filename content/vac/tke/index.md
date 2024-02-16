@@ -15,6 +15,9 @@ lastmod: 2024-02-16
 * [[vac/tke/g/status/snt-litepaper|snt-lightpaper]]
 * [[vac/tke/g/status/snt-governance-proposal|SNT-governance-proposal]]
 * [[vac/tke/g/status/snt-staking|SNT-staking]]
+* [[vac/tke/g/status/L2-deployment|L2-deployment]]
+* [[vac/tke/g/status/waku-sharding|waku-sharding]]
+* [[vac/tke/g/status/incentivized-communitities|incentivized-communitities]]
 
 ### `codex:`
 * [[vac/tke/g/codex/economic-analysis|economic-analysis]]
