@@ -57,3 +57,7 @@ lastmod: 2024-02-16
 * [[vac/tke/g/waku/rln-risks-attacks-vectors|rln-risks-attacks-vectors]]
 * [[vac/tke/g/waku/store-incentives|store-incentives]]
 * [[vac/tke/g/waku/general-incentives|general-incentives]]
+
+### `finance:`
+* [[vac/tke/g/finance/growth-models|growth-models]]
+* [[vac/tke/g/finance/real-option-models|real-option-models]]
