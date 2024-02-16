@@ -1,7 +1,7 @@
 ---
-title: "Nomos Economic Analysis"
+title: "Nomos Delegation Research"
 ---
-## `vac:tke::nomos:economic-analysis`
+## `vac:tke::nomos:delegation-research`
 ---
 
 ```mermaid
@@ -21,15 +21,15 @@ title: "Nomos Economic Analysis"
 gantt
 	dateFormat YYYY-MM-DD 
 	section Nomos
-		Economic Analysis :, 2023-05-01, 2024-02-04
+		Delegation Research :, 2024-04-01, 2024-04-15
 ```
-- status: 30%
+- status: 0%
 - CC: Frederico
 
 ### Description
 
-Nomos economic analysis, Nomos token utility, requirements and constraints
+Understand what other chains are doing with respect to delegation and restaking.
 
 ### Justification
 
-Required for ensuring economic security and censorship resistance of Nomos chain
+As part of Nomos PoS development.

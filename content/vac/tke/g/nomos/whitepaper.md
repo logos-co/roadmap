@@ -1,7 +1,7 @@
 ---
-title: "Nomos Economic Analysis"
+title: "Nomos Whitepaper"
 ---
-## `vac:tke::nomos:economic-analysis`
+## `vac:tke::nomos:whitepaper`
 ---
 
 ```mermaid
@@ -21,15 +21,13 @@ title: "Nomos Economic Analysis"
 gantt
 	dateFormat YYYY-MM-DD 
 	section Nomos
-		Economic Analysis :, 2023-05-01, 2024-02-04
+		Nomos Whitepaper :, 2024-02-05, 2024-02-29
 ```
-- status: 30%
+- status: 50%
 - CC: Frederico
 
 ### Description
 
-Nomos economic analysis, Nomos token utility, requirements and constraints
+Provide feedback.
 
 ### Justification
-
-Required for ensuring economic security and censorship resistance of Nomos chain

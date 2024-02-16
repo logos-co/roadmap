@@ -36,6 +36,19 @@ lastmod: 2024-02-16
 
 ### `nomos:`
 * [[vac/tke/g/nomos/economic-analysis|economic-analysis]]
+* [[vac/tke/g/nomos/cryptarchia-wealth-concentration-known-stake|cryptarchia-wealth-concentration-known-stake]]
+* [[vac/tke/g/nomos/cryptarchia-wealth-concentration-estimated-stake|cryptarchia-wealth-concentration-estimated-stake]]
+* [[vac/tke/g/nomos/whitepaper|whitepaper]]
+* [[vac/tke/g/nomos/tdc-objectives|tdc-objectives]]
+* [[vac/tke/g/nomos/rewarded-actions|rewarded-actions]]
+* [[vac/tke/g/nomos/penalizable-actions|penalizable-actions]]
+* [[vac/tke/g/nomos/validator-rewards|validator-rewards]]
+* [[vac/tke/g/nomos/delegation-research|delegation-research]]
+* [[vac/tke/g/nomos/enshrined-delegation|enshrined-delegation]]
+* [[vac/tke/g/nomos/transaction-fee|transaction-fee]]
+* [[vac/tke/g/nomos/supply-policy|supply-policy]]
+* [[vac/tke/g/nomos/shared-liquidity|shared-liquidity]]
+* [[vac/tke/g/nomos/non-private-L2-consensus|non-private-L2-consensus]]
 
 ### `waku:`
 * [[vac/tke/g/waku/economic-analysis|economic-analysis]]

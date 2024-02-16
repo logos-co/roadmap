@@ -1,7 +1,7 @@
 ---
-title: "Nomos Economic Analysis"
+title: "Nomos Enshrined Delegation"
 ---
-## `vac:tke::nomos:economic-analysis`
+## `vac:tke::nomos:enshrined-delegation`
 ---
 
 ```mermaid
@@ -21,15 +21,15 @@ title: "Nomos Economic Analysis"
 gantt
 	dateFormat YYYY-MM-DD 
 	section Nomos
-		Economic Analysis :, 2023-05-01, 2024-02-04
+		Enshrined Delegation :, 2024-04-15, 2024-04-30
 ```
-- status: 30%
+- status: 0%
 - CC: Frederico
 
 ### Description
 
-Nomos economic analysis, Nomos token utility, requirements and constraints
+Define the best way is to incorporate delegation and restaking into Nomos.
 
 ### Justification
 
-Required for ensuring economic security and censorship resistance of Nomos chain
+As part of Nomos PoS development.

@@ -1,7 +1,7 @@
 ---
-title: "Nomos Economic Analysis"
+title: "Nomos Penalizable Actions"
 ---
-## `vac:tke::nomos:economic-analysis`
+## `vac:tke::nomos:penalizable-actions`
 ---
 
 ```mermaid
@@ -21,15 +21,15 @@ title: "Nomos Economic Analysis"
 gantt
 	dateFormat YYYY-MM-DD 
 	section Nomos
-		Economic Analysis :, 2023-05-01, 2024-02-04
+		Penalizable Actions :, 2024-03-01, 2024-03-15
 ```
-- status: 30%
+- status: 0%
 - CC: Frederico
 
 ### Description
 
-Nomos economic analysis, Nomos token utility, requirements and constraints
+Define actions that lead to a slash on Nomos.
 
 ### Justification
 
-Required for ensuring economic security and censorship resistance of Nomos chain
+As part of PoS development.

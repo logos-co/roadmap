@@ -1,7 +1,7 @@
 ---
-title: "Nomos Economic Analysis"
+title: "Nomos TDC Objectives"
 ---
-## `vac:tke::nomos:economic-analysis`
+## `vac:tke::nomos:tdc-objectives`
 ---
 
 ```mermaid
@@ -21,15 +21,13 @@ title: "Nomos Economic Analysis"
 gantt
 	dateFormat YYYY-MM-DD 
 	section Nomos
-		Economic Analysis :, 2023-05-01, 2024-02-04
+		TDC Objectives :, 2024-02-05, 2024-02-29
 ```
-- status: 30%
+- status: 20%
 - CC: Frederico
 
 ### Description
 
-Nomos economic analysis, Nomos token utility, requirements and constraints
+Write the Objectives & Requirements section of the Token Design Canvas.
 
 ### Justification
-
-Required for ensuring economic security and censorship resistance of Nomos chain

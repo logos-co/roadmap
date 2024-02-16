@@ -1,7 +1,7 @@
 ---
-title: "Nomos Economic Analysis"
+title: "Nomos Validator Rewards"
 ---
-## `vac:tke::nomos:economic-analysis`
+## `vac:tke::nomos:validator-rewards`
 ---
 
 ```mermaid
@@ -21,15 +21,15 @@ title: "Nomos Economic Analysis"
 gantt
 	dateFormat YYYY-MM-DD 
 	section Nomos
-		Economic Analysis :, 2023-05-01, 2024-02-04
+		Economic Analysis :, 2024-03-15, 2024-03-31
 ```
-- status: 30%
+- status: 0%
 - CC: Frederico
 
 ### Description
 
-Nomos economic analysis, Nomos token utility, requirements and constraints
+Define how much tokens are distributed as rewards to block proposers.
 
 ### Justification
 
-Required for ensuring economic security and censorship resistance of Nomos chain
+As part of PoS development.

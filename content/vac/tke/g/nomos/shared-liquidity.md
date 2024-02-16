@@ -1,7 +1,7 @@
 ---
-title: "Nomos Economic Analysis"
+title: "Nomos Shared Liquidity"
 ---
-## `vac:tke::nomos:economic-analysis`
+## `vac:tke::nomos:shared-liquidity`
 ---
 
 ```mermaid
@@ -21,15 +21,15 @@ title: "Nomos Economic Analysis"
 gantt
 	dateFormat YYYY-MM-DD 
 	section Nomos
-		Economic Analysis :, 2023-05-01, 2024-02-04
+	  Shared Liquidity :, 2024-06-01, 2024-06-15
 ```
-- status: 30%
+- status: 0%
 - CC: Frederico
 
 ### Description
 
-Nomos economic analysis, Nomos token utility, requirements and constraints
+Understand the problem of L2 liquidity fragmentation in general.
 
 ### Justification
 
-Required for ensuring economic security and censorship resistance of Nomos chain
+As part of PoS development.

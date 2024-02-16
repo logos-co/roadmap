@@ -1,7 +1,7 @@
 ---
-title: "Nomos Economic Analysis"
+title: "Nomos Non Private L2 Consensus"
 ---
-## `vac:tke::nomos:economic-analysis`
+## `vac:tke::nomos:non-private-L2-consensus`
 ---
 
 ```mermaid
@@ -21,15 +21,15 @@ title: "Nomos Economic Analysis"
 gantt
 	dateFormat YYYY-MM-DD 
 	section Nomos
-		Economic Analysis :, 2023-05-01, 2024-02-04
+		Non Private L2 Consensus :, 2024-06-15, 2024-06-30
 ```
-- status: 30%
+- status: 0%
 - CC: Frederico
 
 ### Description
 
-Nomos economic analysis, Nomos token utility, requirements and constraints
+These will work likely with isolated pools. Since these are pools, would also be important to understand.
 
 ### Justification
 
-Required for ensuring economic security and censorship resistance of Nomos chain
+As part of Nomos development.
