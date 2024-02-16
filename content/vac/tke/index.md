@@ -36,3 +36,8 @@ lastmod: 2024-02-16
 
 ### `waku:`
 * [[vac/tke/g/waku/economic-analysis|economic-analysis]]
+* [[vac/tke/g/waku/rln-membership|rln-membership]]
+* [[vac/tke/g/waku/rln-risks-L2|rln-risks-L2]]
+* [[vac/tke/g/waku/rln-risks-attacks-vectors|rln-risks-attacks-vectors]]
+* [[vac/tke/g/waku/store-incentives|store-incentives]]
+* [[vac/tke/g/waku/general-incentives|general-incentives]]

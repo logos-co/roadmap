@@ -1,7 +1,7 @@
 ---
-title: "Waku Economic Analysis"
+title: "Waku RLN Membership"
 ---
-## `vac:tke::waku:economic-analysis`
+## `vac:tke::waku:rln-membership`
 ---
 
 ```mermaid
@@ -21,11 +21,11 @@ title: "Waku Economic Analysis"
 gantt
 	dateFormat YYYY-MM-DD 
 	section Waku
-		Economic Analysis :, 2023-06-01, 2024-02-04
+		Economic Analysis :, 2024-02-05, 2024-03-30
 ```
-- status: 100%
+- status: 30%
 - CC: Martin
 
 #### Description
 
-Waku economic analysis
+Desigh a comprehensive strategy for RLN memberships, perhaps following the NFT-like approach. Strategy should consider pricing mechanisms, payment options, dev/node compensation and project sustainability, security, etc.

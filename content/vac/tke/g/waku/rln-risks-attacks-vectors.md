@@ -1,7 +1,7 @@
 ---
-title: "Waku Economic Analysis"
+title: "Waku RLN Attacks Vectors"
 ---
-## `vac:tke::waku:economic-analysis`
+## `vac:tke::waku:rln-risks-attacks-vectors`
 ---
 
 ```mermaid
@@ -21,11 +21,11 @@ title: "Waku Economic Analysis"
 gantt
 	dateFormat YYYY-MM-DD 
 	section Waku
-		Economic Analysis :, 2023-06-01, 2024-02-04
+		RLN Attacks Vectors :, 2024-05-01, 2024-05-31
 ```
-- status: 100%
+- status: 0%
 - CC: Martin
 
 #### Description
 
-Waku economic analysis
+Risk/attack analysis for RLN; recovery mechanisms.

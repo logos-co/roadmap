@@ -1,7 +1,7 @@
 ---
-title: "Waku Economic Analysis"
+title: "Waku RLN Risks"
 ---
-## `vac:tke::waku:economic-analysis`
+## `vac:tke::waku:rln-risks-L2`
 ---
 
 ```mermaid
@@ -21,11 +21,11 @@ title: "Waku Economic Analysis"
 gantt
 	dateFormat YYYY-MM-DD 
 	section Waku
-		Economic Analysis :, 2023-06-01, 2024-02-04
+		RLN Risks L2 :, 2024-04-15, 2024-04-30
 ```
-- status: 100%
+- status: 0%
 - CC: Martin
 
 #### Description
 
-Waku economic analysis
+Drive the discussion around feasibility/risks for RLN on L2, leading to a recommendation of a specific L2.

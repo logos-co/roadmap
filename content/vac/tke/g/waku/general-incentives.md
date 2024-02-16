@@ -1,7 +1,7 @@
 ---
-title: "Waku Economic Analysis"
+title: "Waku General Incentives"
 ---
-## `vac:tke::waku:economic-analysis`
+## `vac:tke::waku:general-incentives`
 ---
 
 ```mermaid
@@ -21,11 +21,11 @@ title: "Waku Economic Analysis"
 gantt
 	dateFormat YYYY-MM-DD 
 	section Waku
-		Economic Analysis :, 2023-06-01, 2024-02-04
+		Economic Analysis :, 2023-04-15, 2023-05-31
 ```
-- status: 100%
+- status: 0%
 - CC: Martin
 
 #### Description
 
-Waku economic analysis
+Give feedback and assist Waku's team in drafting incentivization mechanisms. 
