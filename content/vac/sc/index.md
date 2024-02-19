@@ -24,7 +24,7 @@ lastmod: 2023-09-21
 * [[ vac/sc/g/status/mimime-token-maintenance | mimime-token-maintenance ]]
 * [[ vac/sc/g/status/governance-contract-mvp | governance-contract-mvp ]]
 * [x] [[ vac/sc/g/status/staking-contract-mvp | staking-contract-mvp ]]
-* [[ vac/sc/g/status/staking-contract | staking-contract ]]
+* [[ vac/sc/g/status/staking-contract-v1 | staking-contract-v1 ]]
 * [[ vac/sc/g/status/staking-contract-maintenance | staking-contract-maintenance ]]
 
 ### `codex:`
