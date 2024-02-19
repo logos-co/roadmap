@@ -23,6 +23,7 @@ gantt
 	section Waku
 		Economic Analysis :, 2024-02-05, 2024-03-30
 ```
+
 - status: 30%
 - CC: Martin
 
