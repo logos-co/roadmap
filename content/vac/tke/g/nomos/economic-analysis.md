@@ -23,7 +23,7 @@ gantt
 	section Nomos
 		Economic Analysis :, 2023-05-01, 2024-02-04
 ```
-- status: 30%
+- status: 100%
 - CC: Frederico
 
 ### Description

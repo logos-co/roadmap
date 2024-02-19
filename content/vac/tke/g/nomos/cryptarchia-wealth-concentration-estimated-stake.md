@@ -21,9 +21,9 @@ title: "Cryptarchia Wealth Concentration Estimated Stake"
 gantt
 	dateFormat YYYY-MM-DD 
 	section Nomos
-		Economic Analysis :, 2024-02-15, 2024-02-29
+		Economic Analysis :, 2024-02-15, 2024-02-19
 ```
-- status: 95%
+- status: 100%
 - CC: Frederico
 
 ### Description
