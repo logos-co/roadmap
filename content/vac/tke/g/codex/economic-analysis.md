@@ -25,7 +25,7 @@ gantt
 ```
 
 - status: 100%
-- CC: Matty
+- CC: Matty, Frederico, Martin
 
 ### Description
 Codex economic analysis, Codex token utility, Codex collateral management
