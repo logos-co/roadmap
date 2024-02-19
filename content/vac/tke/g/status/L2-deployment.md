@@ -25,7 +25,7 @@ gantt
 		Status L2 deployment: 2024-02-05, 2024-05-31
 ```
 
-- status: 0%
+- status: 20%
 - CC: Martin
 
 ## Description
