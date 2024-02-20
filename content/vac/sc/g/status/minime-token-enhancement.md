@@ -1,6 +1,6 @@
 ---
-title: "MimiMe Token Enhancements"
-description: "Enhancements of the MimiMe Token after Optimism Deployment"
+title: "MiniMe Token Enhancements"
+description: "Enhancements of the MiniMe Token after Optimism Deployment"
 ---
 ## `vac:sc::status:minime-token-enhancement`
 ---
