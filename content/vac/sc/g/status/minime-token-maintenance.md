@@ -1,6 +1,6 @@
 ---
-title: "MimiMe Token Maintenance"
-description: "Maintenance of the MimiMe Token"
+title: "MiniMe Token Maintenance"
+description: "Maintenance of the MiniMe Token"
 ---
 ## `vac:sc::status:minime-token-maintenance`
 ---
