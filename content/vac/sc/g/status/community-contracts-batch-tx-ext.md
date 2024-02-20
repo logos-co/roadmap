@@ -1,7 +1,7 @@
 ---
-title: "Community Contracts Multitoken (EIP1155)"
+title: "Community Contracts CollectibleV1 Batch transaction Extension"
 ---
-## `vac:sc::status:community-contracts-multitoken`
+## `vac:sc::status:community-contracts-batch-tx-ext`
 ---
 
 ```mermaid
@@ -22,7 +22,7 @@ gantt
   tickInterval 1month
   dateFormat YYYY-MM-DD 
   section Status
-    Community Contracts Multitoken: 2024-02-19, 2024-03-21
+    Community Contracts CollectibleV1 Batch transaction Extension: 2024-02-19, 2024-03-21
 ```
 
 - status: 0%
@@ -39,15 +39,17 @@ At the time of creating this milestone, two types of token contracts existed:
 
 These are essentially ERC20 and ERC721 respectively, with some additional functionality, required by Status.
 
-In this milestone, we're adding a new contract that's meant to replace the `CollectibleV1`.
-It's supposed to be an EIP1155 multitoken implementation that otherwise comes with the same custom functionality that the `CollectibleV1` has.
+In this milestone, we're adding support for batch transacting tokens of the `BaseToken` which `CollectibleV1` is derived from. 
 
 ### Justification
 
+Status Desktop needs to allow community owners to first deploy and mint a certain amount of their own token and then batch transact them to other accounts later on.
+
+Right now the only way to do this is to either use the contract's `mintTo()` function, which mints to a list of accounts right away, or to perform multiple transactions for every token to be sent.
 
 ### Deliverables
 
-- `CommunityERC1155` implementation
+- `BaseToken/CollectibleV1` batch transfer functions
 - Tests
 - Documentation
 - Application properties
