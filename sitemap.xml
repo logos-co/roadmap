@@ -497,6 +497,9 @@
     <loc>https://roadmap.logos.co/vac/sc/g/status/community-contracts-ERC721</loc>
     <lastmod>2024-02-12T18:36:02.962Z</lastmod>
   </url><url>
+    <loc>https://roadmap.logos.co/vac/sc/g/status/community-contracts-batch-tx-ext</loc>
+    <lastmod>2024-02-20T10:02:35.074Z</lastmod>
+  </url><url>
     <loc>https://roadmap.logos.co/vac/sc/g/status/community-contracts-curation-dapp-contracts</loc>
     <lastmod>2024-02-15T08:21:57.372Z</lastmod>
   </url><url>
@@ -505,9 +508,6 @@
   </url><url>
     <loc>https://roadmap.logos.co/vac/sc/g/status/community-contracts-maintenance</loc>
     <lastmod>2024-02-12T18:36:02.962Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/vac/sc/g/status/community-contracts-multitoken</loc>
-    <lastmod>2024-02-15T16:58:05.941Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/vac/sc/g/status/community-contracts-token-import</loc>
     <lastmod>2024-02-14T18:23:50.938Z</lastmod>
@@ -663,7 +663,7 @@
     <lastmod>2024-02-12T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/vac/updates/2024-02-19</loc>
-    <lastmod>2024-02-19T19:23:14.296Z</lastmod>
+    <lastmod>2024-02-20T10:02:40.127Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/</loc>
     <lastmod>2023-09-19T00:00:00.000Z</lastmod>
