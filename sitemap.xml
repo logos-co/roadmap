@@ -548,26 +548,134 @@
     <loc>https://roadmap.logos.co/vac/sc/</loc>
     <lastmod>2023-09-21T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://roadmap.logos.co/vac/tke/g/codex/bandwidth-incentives</loc>
+    <lastmod>2024-02-21T15:03:58.193Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/tke/g/codex/cdx-fees</loc>
+    <lastmod>2024-02-21T15:03:58.193Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/tke/g/codex/cdx-insurance</loc>
+    <lastmod>2024-02-21T15:03:58.193Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/tke/g/codex/cdx</loc>
+    <lastmod>2024-02-21T15:03:58.193Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/tke/g/codex/contract-defaults</loc>
+    <lastmod>2024-02-21T15:03:58.193Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/tke/g/codex/contract-finalization</loc>
+    <lastmod>2024-02-21T15:03:58.193Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/tke/g/codex/contract-initiation</loc>
+    <lastmod>2024-02-21T15:03:58.193Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/tke/g/codex/contract-matching</loc>
+    <lastmod>2024-02-21T15:03:58.193Z</lastmod>
+  </url><url>
     <loc>https://roadmap.logos.co/vac/tke/g/codex/economic-analysis</loc>
-    <lastmod>2024-02-12T18:36:02.962Z</lastmod>
+    <lastmod>2024-02-21T15:03:58.193Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/tke/g/codex/proof-aggregators</loc>
+    <lastmod>2024-02-21T15:03:58.193Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/tke/g/codex/recovery-auction</loc>
+    <lastmod>2024-02-21T15:03:58.193Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/tke/g/codex/slot-repair</loc>
+    <lastmod>2024-02-21T15:03:58.193Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/tke/g/codex/testnet-incentive</loc>
+    <lastmod>2024-02-21T15:03:58.193Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/tke/g/finance/growth-models</loc>
+    <lastmod>2024-02-21T15:03:58.193Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/tke/g/finance/real-option-models</loc>
+    <lastmod>2024-02-21T15:03:58.193Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/tke/g/nomos/cryptarchia-wealth-concentration-estimated-stake</loc>
+    <lastmod>2024-02-21T15:03:58.193Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/tke/g/nomos/cryptarchia-wealth-concentration-known-stake</loc>
+    <lastmod>2024-02-21T15:03:58.193Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/tke/g/nomos/delegation-research</loc>
+    <lastmod>2024-02-21T15:03:58.193Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/vac/tke/g/nomos/economic-analysis</loc>
-    <lastmod>2024-02-12T18:36:02.962Z</lastmod>
+    <lastmod>2024-02-21T15:03:58.193Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/tke/g/nomos/enshrined-delegation</loc>
+    <lastmod>2024-02-21T15:03:58.197Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/tke/g/nomos/mixnet-incentives</loc>
+    <lastmod>2024-02-21T15:03:58.197Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/tke/g/nomos/non-private-L2-consensus</loc>
+    <lastmod>2024-02-21T15:03:58.197Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/tke/g/nomos/penalizable-actions</loc>
+    <lastmod>2024-02-21T15:03:58.197Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/tke/g/nomos/rewarded-actions</loc>
+    <lastmod>2024-02-21T15:03:58.197Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/tke/g/nomos/shared-liquidity</loc>
+    <lastmod>2024-02-21T15:03:58.197Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/tke/g/nomos/supply-policy</loc>
+    <lastmod>2024-02-21T15:03:58.197Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/tke/g/nomos/tdc-objectives</loc>
+    <lastmod>2024-02-21T15:03:58.197Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/tke/g/nomos/transaction-fee</loc>
+    <lastmod>2024-02-21T15:03:58.197Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/tke/g/nomos/validator-rewards</loc>
+    <lastmod>2024-02-21T15:03:58.197Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/tke/g/nomos/whitepaper</loc>
+    <lastmod>2024-02-21T15:03:58.197Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/tke/g/status/L2-deployment</loc>
+    <lastmod>2024-02-21T15:03:58.197Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/tke/g/status/incentivized-communitities</loc>
+    <lastmod>2024-02-21T15:03:58.197Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/vac/tke/g/status/snt-governance-proposal</loc>
-    <lastmod>2024-02-12T18:36:02.962Z</lastmod>
+    <lastmod>2024-02-21T15:03:58.197Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/vac/tke/g/status/snt-litepaper</loc>
-    <lastmod>2024-02-12T18:36:02.962Z</lastmod>
+    <lastmod>2024-02-21T15:03:58.197Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/vac/tke/g/status/snt-staking</loc>
-    <lastmod>2024-02-12T18:36:02.962Z</lastmod>
+    <lastmod>2024-02-21T15:03:58.197Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/tke/g/status/waku-sharding</loc>
+    <lastmod>2024-02-21T15:03:58.197Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/vac/tke/g/waku/economic-analysis</loc>
-    <lastmod>2024-02-12T18:36:02.962Z</lastmod>
+    <lastmod>2024-02-21T15:03:58.197Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/tke/g/waku/general-incentives</loc>
+    <lastmod>2024-02-21T15:03:58.197Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/tke/g/waku/rln-membership</loc>
+    <lastmod>2024-02-21T15:03:58.197Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/tke/g/waku/rln-risks-L2</loc>
+    <lastmod>2024-02-21T15:03:58.197Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/tke/g/waku/rln-risks-attacks-vectors</loc>
+    <lastmod>2024-02-21T15:03:58.197Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/tke/g/waku/store-incentives</loc>
+    <lastmod>2024-02-21T15:03:58.197Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/vac/tke/</loc>
-    <lastmod>2023-09-09T00:00:00.000Z</lastmod>
+    <lastmod>2024-02-16T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/vac/updates/2023-07-10</loc>
     <lastmod>2023-07-16T00:00:00.000Z</lastmod>
@@ -666,7 +774,7 @@
     <lastmod>2024-02-12T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/vac/updates/2024-02-19</loc>
-    <lastmod>2024-02-20T16:58:51.572Z</lastmod>
+    <lastmod>2024-02-21T15:04:03.355Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/</loc>
     <lastmod>2023-09-19T00:00:00.000Z</lastmod>
