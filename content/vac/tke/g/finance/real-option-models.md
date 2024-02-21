@@ -1,7 +1,7 @@
 ---
-title: "Nomos Economic Analysis"
+title: "Finance Real Option Models"
 ---
-## `vac:tke::nomos:economic-analysis`
+### `vac:tke::finance:real-option-models`
 ---
 
 ```mermaid
@@ -19,17 +19,16 @@ title: "Nomos Economic Analysis"
   } 
 }%%
 gantt
-	dateFormat YYYY-MM-DD 
-	section Nomos
-		Economic Analysis :, 2023-05-01, 2024-02-04
+	dateFormat YYYY-MM-DD
+	section Finance
+		Real Option Models :, 2024-02-05, 2024-07-31
 ```
-- status: 100%
+
+- status: 20%
 - CC: Frederico
 
 ### Description
-
-Nomos economic analysis, Nomos token utility, requirements and constraints
+Development of pricing models based real option analysis.
 
 ### Justification
 
-Required for ensuring economic security and censorship resistance of Nomos chain

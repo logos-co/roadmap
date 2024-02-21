@@ -1,7 +1,7 @@
 ---
-title: "SNT Staking"
+title: "Nomos Whitepaper"
 ---
-## `vac:tke::status:SNT-staking`
+## `vac:tke::nomos:whitepaper`
 ---
 
 ```mermaid
@@ -20,18 +20,14 @@ title: "SNT Staking"
 }%%
 gantt
 	dateFormat YYYY-MM-DD 
-	section Status
-		SNT Staking :, 2023-01-20, 2024-03-30
+	section Nomos
+		Nomos Whitepaper :, 2024-02-05, 2024-02-29
 ```
+- status: 50%
+- CC: Frederico
 
-- status: 90%
-- CC: Frederico (Python), Martin
-- collab: [[vac/sc/index|smart contracts team]]
+### Description
 
-### Description:
+Provide feedback.
 
-
-### Risks
-
-* implementation of the smart contract is being handed off to smart contract team
-
+### Justification

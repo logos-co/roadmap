@@ -1,7 +1,7 @@
 ---
-title: "Nomos Economic Analysis"
+title: "Cryptarchia Wealth Concentration Known Stake"
 ---
-## `vac:tke::nomos:economic-analysis`
+## `vac:tke::nomos:cryptarchia-wealth-concentration-known-stake`
 ---
 
 ```mermaid
@@ -21,15 +21,15 @@ title: "Nomos Economic Analysis"
 gantt
 	dateFormat YYYY-MM-DD 
 	section Nomos
-		Economic Analysis :, 2023-05-01, 2024-02-04
+		Economic Analysis :, 2024-02-05, 2024-02-14
 ```
 - status: 100%
 - CC: Frederico
 
 ### Description
 
-Nomos economic analysis, Nomos token utility, requirements and constraints
+Understand whether wealth concentration happens or not in traditional PoS. If so, under which conditions.
 
 ### Justification
 
-Required for ensuring economic security and censorship resistance of Nomos chain
+Nomos introduces a PoS system.

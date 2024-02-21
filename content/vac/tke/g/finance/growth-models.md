@@ -1,7 +1,7 @@
 ---
-title: "Codex Economic Analysis"
+title: "Financial Growth Models"
 ---
-### `vac:tke::codex:economic-analysis`
+### `vac:tke::finance:growth-models`
 ---
 
 ```mermaid
@@ -20,16 +20,15 @@ title: "Codex Economic Analysis"
 }%%
 gantt
 	dateFormat YYYY-MM-DD
-	section Codex
-		Economic Analysis :, 2023-01-20, 2024-02-04
+	section Finance
+		Growth Models :, 2024-02-05, 2024-07-31
 ```
 
-- status: 100%
-- CC: Matty, Frederico, Martin
+- status: 80%
+- CC: Martin
 
 ### Description
-Codex economic analysis, Codex token utility, Codex collateral management
+Ad hoc assistance and consulting the use and further expansion of the growth model.
 
 ### Justification
-Per Dimitry and Jesse, required by Codex team for completing implementation of system and planning launch
 

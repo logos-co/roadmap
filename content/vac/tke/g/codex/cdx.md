@@ -1,7 +1,7 @@
 ---
-title: "Nomos Economic Analysis"
+title: "Analysis of the Codex Token"
 ---
-## `vac:tke::nomos:economic-analysis`
+### `vac:tke::codex:cdx`
 ---
 
 ```mermaid
@@ -19,17 +19,17 @@ title: "Nomos Economic Analysis"
   } 
 }%%
 gantt
-	dateFormat YYYY-MM-DD 
-	section Nomos
-		Economic Analysis :, 2023-05-01, 2024-02-04
+	dateFormat YYYY-MM-DD
+	section Codex
+		Economic Analysis :, 2024-02-01, 2024-03-01
 ```
-- status: 100%
+
+- status: 50%
 - CC: Frederico
 
 ### Description
-
-Nomos economic analysis, Nomos token utility, requirements and constraints
+Codex token as utility token for all participants (collateral and payment), impact on system security.
 
 ### Justification
+Token to coordinate the market place.
 
-Required for ensuring economic security and censorship resistance of Nomos chain

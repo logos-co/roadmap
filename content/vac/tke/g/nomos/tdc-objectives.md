@@ -1,7 +1,7 @@
 ---
-title: "SNT Staking"
+title: "Nomos TDC Objectives"
 ---
-## `vac:tke::status:SNT-staking`
+## `vac:tke::nomos:tdc-objectives`
 ---
 
 ```mermaid
@@ -20,18 +20,14 @@ title: "SNT Staking"
 }%%
 gantt
 	dateFormat YYYY-MM-DD 
-	section Status
-		SNT Staking :, 2023-01-20, 2024-03-30
+	section Nomos
+		TDC Objectives :, 2024-02-05, 2024-02-29
 ```
+- status: 20%
+- CC: Frederico
 
-- status: 90%
-- CC: Frederico (Python), Martin
-- collab: [[vac/sc/index|smart contracts team]]
+### Description
 
-### Description:
+Write the Objectives & Requirements section of the Token Design Canvas.
 
-
-### Risks
-
-* implementation of the smart contract is being handed off to smart contract team
-
+### Justification

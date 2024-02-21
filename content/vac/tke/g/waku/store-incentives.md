@@ -1,7 +1,7 @@
 ---
-title: "SNT Staking"
+title: "Waku Store Incentives"
 ---
-## `vac:tke::status:SNT-staking`
+## `vac:tke::waku:store-incentives`
 ---
 
 ```mermaid
@@ -20,18 +20,12 @@ title: "SNT Staking"
 }%%
 gantt
 	dateFormat YYYY-MM-DD 
-	section Status
-		SNT Staking :, 2023-01-20, 2024-03-30
+	section Waku
+		Economic Analysis :, 2024-02-05, 2024-03-30
 ```
+- status: 20%
+- CC: Martin
 
-- status: 90%
-- CC: Frederico (Python), Martin
-- collab: [[vac/sc/index|smart contracts team]]
+#### Description
 
-### Description:
-
-
-### Risks
-
-* implementation of the smart contract is being handed off to smart contract team
-
+Give feedback and assist Waku's team in drafting store incentivization MVP.
