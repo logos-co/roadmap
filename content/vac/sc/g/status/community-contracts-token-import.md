@@ -26,7 +26,7 @@ gantt
     Production Readiness:
 ```
 
-- status: 0%
+- status: 57%
 - CC: Andrea
 
 **This milestone is updated on weekly basis. For a more up-to-date status head over to the [milestone on GitHub](https://github.com/status-im/communities-contracts/milestone/1).

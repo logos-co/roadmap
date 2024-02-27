@@ -25,8 +25,10 @@ gantt
     Community Contracts CollectibleV1 Batch transaction Extension: 2024-02-19, 2024-03-21
 ```
 
-- status: 0%
+- status: 100%
 - CC: r4bbit
+
+**This milestone is updated on weekly basis. For a more up-to-date status head over to the [milestone on GitHub](https://github.com/status-im/communities-contracts/milestone/4).
 
 ### Description
 
