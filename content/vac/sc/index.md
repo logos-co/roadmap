@@ -18,7 +18,7 @@ lastmod: 2023-09-21
 * [[ vac/sc/g/status/community-contracts-maintenance | community-contracts-maintenance ]]
 * [x] [[ vac/sc/g/status/community-contracts-curation-dapp-contracts | community-contracts-curation-dapp-contracts ]]
 * [[ vac/sc/g/status/community-contracts-vault-token-airdrop | community-contracts-vault-token-airdrop ]]
-* [[ vac/sc/g/status/community-contracts-batch-tx-ext | community-contracts-batch-tx-ext ]]
+* [x] [[ vac/sc/g/status/community-contracts-batch-tx-ext | community-contracts-batch-tx-ext ]]
 * [x] [[ vac/sc/g/status/snt-optimism-bridge | SNT-optimism-bridge ]]
 * [x] [[ vac/sc/g/status/minime-token-enhancement | minime-token-enhancement ]]
 * [[ vac/sc/g/status/minime-token-maintenance | minime-token-maintenance ]]
