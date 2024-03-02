@@ -8,3 +8,4 @@ private/
 .replit
 replit.nix
 node_modules
+.ipynb_checkpoints/
