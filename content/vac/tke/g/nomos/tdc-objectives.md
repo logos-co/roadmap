@@ -21,9 +21,9 @@ title: "Nomos TDC Objectives"
 gantt
 	dateFormat YYYY-MM-DD 
 	section Nomos
-		TDC Objectives :, 2024-02-05, 2024-02-29
+		TDC Objectives :, 2024-02-05, 2024-03-13
 ```
-- status: 20%
+- status: 70%
 - CC: Frederico
 
 ### Description
