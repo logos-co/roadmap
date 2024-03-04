@@ -26,7 +26,7 @@ gantt
    State Separation: 2023-09-20, 2023-10-31
 ```
 
-- status: 50%
+- status: 100%
 - CC: Moudy
 
 ### Description
