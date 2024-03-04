@@ -40,6 +40,8 @@ lastmod: 2024-02-16
 * [[vac/tke/g/nomos/cryptarchia-wealth-concentration-estimated-stake|cryptarchia-wealth-concentration-estimated-stake]]
 * [[vac/tke/g/nomos/whitepaper|whitepaper]]
 * [[vac/tke/g/nomos/tdc-objectives|tdc-objectives]]
+* [[vac/tke/g/nomos/mixnet-incentives|mixnet-incentives]]
+* [[vac/tke/g/nomos/selfish-behavior|selfish-behavior]]
 * [[vac/tke/g/nomos/rewarded-actions|rewarded-actions]]
 * [[vac/tke/g/nomos/penalizable-actions|penalizable-actions]]
 * [[vac/tke/g/nomos/validator-rewards|validator-rewards]]
