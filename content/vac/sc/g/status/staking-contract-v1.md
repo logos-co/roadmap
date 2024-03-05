@@ -4,7 +4,7 @@ title: "Status Staking Contract V1"
 ## `vac:sc::status:staking-contract-v1`
 
 
-- status: 8%
+- status: 52%
 - CC: Ricardo
 
 ### Description
