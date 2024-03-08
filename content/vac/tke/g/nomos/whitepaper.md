@@ -23,7 +23,7 @@ gantt
 	section Nomos
 		Nomos Whitepaper :, 2024-02-05, 2024-02-29
 ```
-- status: 50%
+- status: 100%
 - CC: Frederico
 
 ### Description
