@@ -1,5 +1,5 @@
 ---
-title: 2023 Milestones Overview
+title: 2023 Milestones
 date: 2023-08-07
 lastmod: 2024-03-07
 draft: false
