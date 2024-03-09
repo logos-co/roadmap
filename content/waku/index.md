@@ -8,11 +8,10 @@ lastmod: 2023-09-19
 ---
 
 ## Roadmap Overview
-Waku is a family of robust, censorship-resistant communication protocols designed to enable privacy-focused messaging for Web3 apps. 
-
-To learn more please visit the [website](https://waku.org) and [docs](https://docs.waku.org).
+To learn more about Waku please visit the [website](https://waku.org), [github](https://github.com/waku-rg), and [docs](https://docs.waku.org).
 
 - [[waku/monthly-reports/2023-sept|2023 September Report]]
-- [Milestones](waku/2023-milestones-overview.md)
+- [2023 Milestones](waku/2023-milestones.md)
+- [2024 Milestones](waku/2024-milestones.md)
 - [Weekly updates](tags/waku-updates)
 - [Reports](waku/reports.md)
