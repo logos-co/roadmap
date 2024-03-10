@@ -1,10 +1,11 @@
 ---
 title: Waku Roadmap
 tags:
-- "Waku Roadmap"
-- "overview"
+  - Waku
+  - Roadmap
+  - overview
 date: 2023-08-22
-lastmod: 2023-09-19
+lastmod: 2024-03-09
 ---
 ## Roadmap Overview
 To learn more about Waku please visit the [website](https://waku.org), [github](https://github.com/waku-rg), and [docs](https://docs.waku.org).
