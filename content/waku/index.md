@@ -9,6 +9,7 @@ lastmod: 2024-03-09
 ---
 ## Roadmap Overview
 To learn more about Waku please visit the [website](https://waku.org), [github](https://github.com/waku-rg), and [docs](https://docs.waku.org).
+- [Process](waku/process.md)
 - [Weekly updates](tags/waku-updates)
 - [Reports](waku/reports.md)
 - [2024 Milestones](waku/2024-milestones.md)
