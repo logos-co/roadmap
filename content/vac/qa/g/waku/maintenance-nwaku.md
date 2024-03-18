@@ -30,7 +30,7 @@ gantt
 
 ### Description
 
-This milestone serves as a placeholder for various tasks essential to maintaining and enhancing our project's operational efficiency. 
+This milestone comprises various (ad-hoc) tasks essential to maintaining and enhancing our project's operational efficiency. 
 
 It is specifically designated for updates and fixes to tests that were introduced in previously closed milestones, ensuring that all our testing frameworks remain robust and up-to-date. 
 
