@@ -464,6 +464,15 @@
     <loc>https://roadmap.logos.co/vac/qa/g/waku/interop-testing</loc>
     <lastmod>2024-02-12T18:36:02.962Z</lastmod>
   </url><url>
+    <loc>https://roadmap.logos.co/vac/qa/g/waku/maintenance-go-waku</loc>
+    <lastmod>2024-03-18T16:11:04.778Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/qa/g/waku/maintenance-js-waku</loc>
+    <lastmod>2024-03-18T16:11:04.778Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/qa/g/waku/maintenance-nwaku</loc>
+    <lastmod>2024-03-18T16:11:04.778Z</lastmod>
+  </url><url>
     <loc>https://roadmap.logos.co/vac/qa/g/waku/test-automation-go-waku</loc>
     <lastmod>2024-02-12T18:36:02.962Z</lastmod>
   </url><url>
@@ -488,8 +497,11 @@
     <loc>https://roadmap.logos.co/vac/qa/g/waku/test-plans</loc>
     <lastmod>2024-02-12T18:36:02.962Z</lastmod>
   </url><url>
+    <loc>https://roadmap.logos.co/vac/qa/g/waku/ws-stress-testing</loc>
+    <lastmod>2024-03-18T16:11:04.778Z</lastmod>
+  </url><url>
     <loc>https://roadmap.logos.co/vac/qa/</loc>
-    <lastmod>2024-02-27T00:00:00.000Z</lastmod>
+    <lastmod>2024-03-18T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/vac/rfc/</loc>
     <lastmod>2023-09-06T00:00:00.000Z</lastmod>
