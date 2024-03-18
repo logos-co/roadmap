@@ -20,3 +20,6 @@ lastmod: 2024-02-27
 * [[vac/qa/g/waku/test-automation-sharding|test-automation-sharding ]]
 * [[vac/qa/g/waku/test-automation-go-waku|test-automation-go-waku ]]
 * [[vac/qa/g/waku/interop-testing|interop-testing ]]
+* [[vac/qa/g/waku/maintenance-js-waku|maintenance-js-waku ]]
+* [[vac/qa/g/waku/maintenance-nwaku|maintenance-nwaku ]]
+* [[vac/qa/g/waku/maintenance-go-waku|maintenance-go-nwaku ]]
