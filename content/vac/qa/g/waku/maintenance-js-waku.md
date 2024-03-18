@@ -22,7 +22,7 @@ gantt
   tickInterval 1month
   dateFormat YYYY-MM-DD 
   section Status
-    Test Automation js-waku:  2024-03-18, 2024-12-31
+    Maintenance js-waku:  2024-03-18, 2024-12-31
 ```
 
 - status: 0%
