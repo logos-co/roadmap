@@ -22,7 +22,7 @@ gantt
   tickInterval 1month
   dateFormat YYYY-MM-DD 
   section Status
-    Test Automation nim-libp2p:  2024-04-01, 2024-12-31
+    Test Automation nim-libp2p:  2024-01-01, 2024-12-31
 ```
 
 - status: 0%
