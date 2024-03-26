@@ -1,7 +1,7 @@
 ---
-title: "Test Automation Sharding"
+title: "Test Automation nim-libp2p"
 ---
-## `vac:qa::waku:test-automation-sharding`
+## `vac:qa::vac:test-automation-nim-libp2p`
 ---
 
 ```mermaid
@@ -22,19 +22,15 @@ gantt
   tickInterval 1month
   dateFormat YYYY-MM-DD 
   section Status
-    Test Automation Sharding:  2024-01-01, 2024-04-30
+    Test Automation nim-libp2p:  2024-01-01, 2024-12-31
 ```
 
-- status: 50%
-- CC: Roman, Florin, Alex
+- status: 0%
+- CC: Alex, Roman, Florin
 
 ### Description
 
-* nwaku unit tests
-* gowaku unit tests
-* js-waku unit tests
-* interop sharding tests
-
+Add tests and increase coverage for all the [modules](https://github.com/vacp2p/nim-libp2p?tab=readme-ov-file#modules) implemented in nim libp2p
 
 ### Justification
 

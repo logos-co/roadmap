@@ -22,7 +22,7 @@ gantt
   tickInterval 1month
   dateFormat YYYY-MM-DD 
   section Status
-    Test Automation RLN:  2024-01-01, 2024-03-31
+    Test Automation RLN:  2024-01-01, 2024-05-31
 ```
 
 - status: 40%
