@@ -22,10 +22,10 @@ gantt
   tickInterval 1month
   dateFormat YYYY-MM-DD 
   section Status
-    Test Automation Sharding:  2024-01-01, 2024-04-30
+    Test Automation Sharding:  2024-01-01, 2024-03-31
 ```
 
-- status: 50%
+- status: 30%
 - CC: Roman, Florin, Alex
 
 ### Description
