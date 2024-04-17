@@ -44,24 +44,15 @@ Privacy Concerns:
 
 - Building our case for privacy our protection and viability of the project. We need to define the terms of privacy and create that shield. Privacy is necessary for personal items to be possible, health, business, institutions. 
 
-Network States:
-
-- Long term play. When network states become a thing we need to be positioned. Excitement right now in crypto is harder to get, but we need to be prepared.
-
 Technical Narratives:
 
-- Litenodes. Rules without ruler (Celestia). Our blockchain is a cockroach (meme)
-- Data Availability Sampling (warrants a paper)
-- Restaking (now that is a thing, we were early to it)
+- Litenodes. Rules without a ruler
+- Data Availability Sampling 
+- Restaking
 
 Decentralisation 
 
 - We can be more decentralised than any other blockchain ever. 
-
-Competitor Research
-
-- Celestia - Celestia is not built for an end of the world situation.
-- Anoma
 
 ##### `Technical Milestones
 
@@ -74,30 +65,18 @@ Product Development
 
 Target Audience: 
 
-- Degens Refine for those who care and believers.
-- Institutions: Long term. Governments. Best way of protection. Africa?
+- Degens: Refine for those who care and believers.
+- Institutions: Long term
 - Developers/Contributors
 - Node Operators: Long term.
 
 Movement Building (Community) - Educational Initiatives: 
 
-- Look into monad
 - Roles for incentivising culture, memes.
 - Ambassador program
-- Developer Outreach: Filip is preparing Lore, comprehensive documentation, FAQ, tool kits, content etc.
+- Developer Outreach
 
 Incentive Programs 
 
 - Logos NFTs
 - When we have zones we can get them to deploy during hackathons?
-
-Partnerships / Collaborations:
-
-- Web3 Privacy Now Partnership.
-
-##### `Target audience:
-
-- We need real believers. Those who understand it need to preach it. Zealots. Most people won’t understand it. 
-- Futuristic network state narrative and roles within it. 
-- A zone can be in e-Estonia. If we are building neutral tech then why not Dubai e-zone?
-- Concern: Tornado Cash resolution. If we want to protect ourselves then we need to get a country using us. Dubai for example.
