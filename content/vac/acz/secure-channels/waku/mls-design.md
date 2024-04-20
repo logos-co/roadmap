@@ -1,7 +1,7 @@
 ---
-title: "Ethereum Chat"
+title: "Secure Channels - MLS design"
 ---
-## `vac:acz:secure-channels:waku:ethereum-chat`
+## `vac:acz:secure-channels:waku:mls-design`
 ---
 
 ```mermaid
@@ -22,10 +22,10 @@ gantt
   tickInterval 1month
   dateFormat YYYY-MM-DD 
   section Status
-    Ethereum Chat: 2023-09-12, 2023-11-30
+    Ethereum Chat: 2023-09-12, 2024-05-31
 ```
 
-- status: 0%
+- status: 70%
 - CC: Ramses
 
 ### Description
@@ -44,7 +44,6 @@ The goal of this milestone is having
 
 * a follow up milestone will cover running Ethereum chat on top of Waku
 * follow up goal: develop this into an EIP
-
 
 
 ### Justification

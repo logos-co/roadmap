@@ -25,7 +25,7 @@ gantt
     Multi epoch constraints:  2023-09-15, 2023-11-15
 ```
 
-- status: 0%
+- status: 100%
 - CC: Ramses
 
 ### Description
@@ -41,5 +41,6 @@ For example: 24 msg / day && 1 msg/10 seconds.
 
 ### Deliverables
 
+* todo: add doc
 
 

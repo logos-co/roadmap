@@ -1,8 +1,7 @@
 ---
-title: Waku RLN-RELAY Enhancements 02
+title: "Secure Channels - PoC of fully decentralized protocol"
 ---
-
-## `vac:acz:rlnp2p::waku:rln-relay-enhancements`
+## `vac:acz:secure-channels:waku:fd-poc`
 ---
 
 ```mermaid
@@ -20,23 +19,21 @@ title: Waku RLN-RELAY Enhancements 02
   } 
 }%%
 gantt
-	dateFormat YYYY-MM-DD 
-	section rlnp2p-waku
-		RLN-RELAY enhancements :, 2023-09-01, 2023-11-31
+  tickInterval 1month
+  dateFormat YYYY-MM-DD 
+  section Status
+    FD PoC: 2024-12-01, 2025-06-30
 ```
 
-- status: 100%
-- CC: Aaryamann
+- status: 0%
+- CC:
 
 ### Description
 
-* continuation of [[rln-relay-enhancements|rln-relay-enhancements]]
-* comprises further enhancements of RLN relay, requested by the Waku team
+* PoC implementation of [[vac/acz/secure-channels/waku/fd-design|fd-design]]
 
 ### Justification
 
-### Risks
 
 ### Deliverables
-
 

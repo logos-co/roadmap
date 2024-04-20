@@ -1,8 +1,7 @@
 ---
-title: Waku RLN-RELAY Enhancements 02
+title: "Secure Channels - MLS PoC"
 ---
-
-## `vac:acz:rlnp2p::waku:rln-relay-enhancements`
+## `vac:acz:secure-channels:waku:mls-poc`
 ---
 
 ```mermaid
@@ -20,23 +19,25 @@ title: Waku RLN-RELAY Enhancements 02
   } 
 }%%
 gantt
-	dateFormat YYYY-MM-DD 
-	section rlnp2p-waku
-		RLN-RELAY enhancements :, 2023-09-01, 2023-11-31
+  tickInterval 1month
+  dateFormat YYYY-MM-DD 
+  section Status
+    MLS PoC: 2024-04-29, 2024-07-15
 ```
 
-- status: 100%
-- CC: Aaryamann
+- status: 0%
+- CC:
 
 ### Description
 
-* continuation of [[rln-relay-enhancements|rln-relay-enhancements]]
-* comprises further enhancements of RLN relay, requested by the Waku team
+* proof of concept implementation of [[vac/acz/secure-channels/waku/mls-design|mls-design]]
+* todo: link repo
 
 ### Justification
 
-### Risks
 
 ### Deliverables
+
+* specification (RFC) of a secure Ethereum-based chat protocol
 
 

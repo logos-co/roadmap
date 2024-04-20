@@ -22,10 +22,10 @@ gantt
   tickInterval 1month
   dateFormat YYYY-MM-DD 
   section Status
-    RLN doc and outreach: done, 2023-01-20, 2023-07-31
+    RLN doc and outreach: done, 2023-08-01, 2024-12-31
 ```
 
-- status: 0%
+- status: 100%
 - CC: Aaryamann
 
 ### Description
@@ -42,5 +42,6 @@ gantt
 
 ### Deliverables
 
+* todo: list
 
 
