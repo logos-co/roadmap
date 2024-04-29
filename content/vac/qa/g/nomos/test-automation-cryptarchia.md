@@ -22,7 +22,7 @@ gantt
   tickInterval 1month
   dateFormat YYYY-MM-DD 
   section Status
-    Test Automation cryptarchia:  2024-01-01, 2024-08-31
+    Test Automation cryptarchia:  2024-05-01, 2024-08-31
 ```
 
 - status: 0%
