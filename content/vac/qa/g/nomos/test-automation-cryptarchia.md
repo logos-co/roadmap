@@ -1,7 +1,7 @@
 ---
 title: "Test Automation cryptarchia"
 ---
-## `vac:qa::vac:test-automation-cryptarchia`
+## `vac:qa::nomos:test-automation-cryptarchia`
 ---
 
 ```mermaid
