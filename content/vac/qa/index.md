@@ -24,4 +24,9 @@ lastmod: 2024-03-26
 * [[vac/qa/g/waku/maintenance-nwaku|maintenance-nwaku ]]
 * [[vac/qa/g/waku/maintenance-go-waku|maintenance-go-nwaku ]]
 * [[vac/qa/g/waku/ws-stress-testing|ws-stress-testing ]]
+
+### `vac:`
 * [[vac/qa/g/vac/test-automation-nim-libp2p|test-automation-nim-libp2p ]]
+
+### `nomos:`
+* [[vac/qa/g/nomos/test-automation-cryptarchia|test-automation-cryptarchia ]]
