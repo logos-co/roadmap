@@ -25,8 +25,10 @@ gantt
     Multi epoch constraints:  2023-09-15, 2023-11-15
 ```
 
-- status: 100%
-- CC: Ramses
+- status: 90%
+- CC: 
+	- Ramses
+	- Aaryamann
 
 ### Description
 
@@ -38,9 +40,11 @@ For example: 24 msg / day && 1 msg/10 seconds.
 
 ### Justification
 
-
+rln-v3 should allow dynamic epoch sizes for users who may need smaller messaging needs, to optimize for stake used.
 ### Deliverables
 
-* todo: add doc
+* [x] design document: https://www.notion.so/rln-v3-PoC-b05af585f52f4b15a249184d4a627096
+* [x] PoC: https://github.com/vacp2p/gnark-rln/blob/9b05eddc89901a06d8f41b093ce8ce12fd0bb4e0/rln/rln.go
+* [ ] blog post/ethresearch crosspost
 
 

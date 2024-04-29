@@ -2,7 +2,7 @@
 title: Waku RLN-RELAY Enhancements 02
 ---
 
-## `vac:acz:rlnp2p::waku:rln-relay-enhancements`
+## `vac:acz:rlnp2p::waku:rln-relay-enhancements_02`
 ---
 
 ```mermaid
@@ -21,8 +21,9 @@ title: Waku RLN-RELAY Enhancements 02
 }%%
 gantt
 	dateFormat YYYY-MM-DD 
-	section rlnp2p-waku
-		RLN-RELAY enhancements :, 2023-09-01, 2023-11-31
+	section Status
+		RLN-RELAY enhancements 02:done, 2023-09-01, 2023-11-30
+		
 ```
 
 - status: 100%

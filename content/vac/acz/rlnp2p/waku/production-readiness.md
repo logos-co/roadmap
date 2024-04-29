@@ -20,7 +20,7 @@ title: "RLNP2P Waku Pruduction Readiness Details"
 }%%
 gantt
 	dateFormat YYYY-MM-DD 
-	section rlnp2p-waku
+	section Status
 		Production Readiness :done, 2023-01-20, 2023-07-31
 ```
 - due: 2023/07/31

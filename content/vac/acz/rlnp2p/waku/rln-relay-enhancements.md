@@ -21,8 +21,8 @@ title: Waku RLN-RELAY Enhancements Details
 }%%
 gantt
 	dateFormat YYYY-MM-DD 
-	section rlnp2p-waku
-		RLN-RELAY enhancements :, 2023-06-01, 2023-09-30
+	section Status
+		RLN-RELAY enhancements :done, 2023-06-01, 2023-09-30
 ```
 - due: 2023/09/30
 - status: 100%
