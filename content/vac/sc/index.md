@@ -26,6 +26,7 @@ lastmod: 2023-09-21
 * [x] [[ vac/sc/g/status/staking-contract-mvp | staking-contract-mvp ]]
 * [[ vac/sc/g/status/staking-contract-v1 | staking-contract-v1 ]]
 * [[ vac/sc/g/status/staking-contract-maintenance | staking-contract-maintenance ]]
+* [[ vac/sc/g/status/swap-aggregator | swap-aggregator ]]
 
 ### `codex:`
 * [x] [[ vac/sc/g/codex/review-codex-contracts | review-codex-contracts ]]
