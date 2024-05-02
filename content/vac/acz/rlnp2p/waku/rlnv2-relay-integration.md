@@ -23,10 +23,10 @@ gantt
   tickInterval 1month
   dateFormat YYYY-MM-DD 
   section Status
-    RLN v2 relay integration:  2023-11-01, 2024-02-29
+    RLN v2 relay integration:done, 2023-11-01, 2024-02-29
 ```
 
-- status: 0%
+- status: 100%
 - CC: Aaryamann
 
 ### Description
@@ -38,8 +38,10 @@ gantt
 
 ### Justification
 
+rln-v2 brings multi message per epoch signaling which is favourable for all users of rln instead of abiding by one global rate limit. 
 
 ### Deliverables
 
+- [x] https://github.com/waku-org/nwaku/issues/2345
 
 

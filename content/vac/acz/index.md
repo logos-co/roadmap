@@ -16,7 +16,7 @@ lastmod: 2024-04-20
 * [x] [[vac/acz/rlnp2p/waku/rln-relay-enhancements|rln-relay-enhancements]]
 * [x] [[vac/acz/rlnp2p/waku/rln-relay-enhancements_02|rln-relay-enhancements_02]]
 * [[vac/acz/rlnp2p/waku/rln-relay-erc20|rln-relay-erc20]]
-* [[vac/acz/rlnp2p/waku/rlnv2-relay-integration|rlnv2-relay-integration]]
+- [x] [[vac/acz/rlnp2p/waku/rlnv2-relay-integration|rlnv2-relay-integration]]
 * [x] [[vac/acz/rlnp2p/waku/rln-multi-epoch-constraints|rln-multi-epoch-constraints]]
 
 ### `rlnp2p:vac:`
