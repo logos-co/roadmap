@@ -26,7 +26,7 @@ gantt
     Open Problems Review: 2023-09-20, 2023-11-30
 ```
 
-- status: 0%
+- status: 100%
 - CC: Marvin
 
 ### Description
@@ -38,6 +38,8 @@ gantt
 
 
 ### Deliverables
+
+* [x] sanity checks of existing documents
 
 
 

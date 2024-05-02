@@ -40,7 +40,7 @@ lastmod: 2023-09-06
 
 ## `vac:dr:zk:codex:`
 
-* [[ vac/dr/zk/codex/storage-proofs-open-problems-review | storage-proofs-open-problems-review ]]
+* [x] [[ vac/dr/zk/codex/storage-proofs-open-problems-review | storage-proofs-open-problems-review ]]
 * [[ vac/dr/zk/codex/zk-consulting | zk-consulting ]]
 
 ## `vac:dr::nomos:`
