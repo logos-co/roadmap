@@ -22,7 +22,7 @@ gantt
   tickInterval 1month
   dateFormat YYYY-MM-DD 
   section Status
-    Deployer Tool: 2024-05-01, 2024-11-01
+    Visualiser Tool: 2024-05-01, 2024-11-01
 ```
 
 - status: 10%
