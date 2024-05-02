@@ -40,7 +40,8 @@ For example: 24 msg / day && 1 msg/10 seconds.
 
 ### Justification
 
-rln-v3 should allow dynamic epoch sizes for users who may need smaller messaging needs, to optimize for stake used.
+Dynamic epoch sizes are required  for users who have smaller messaging needs, to optimize for stake used.
+rln-v3 will allow that.
 ### Deliverables
 
 * [x] design document: https://www.notion.so/rln-v3-PoC-b05af585f52f4b15a249184d4a627096
