@@ -19,10 +19,10 @@ lastmod: 2024-05-03
 
 * [x] [[vac/rfc/rfc/nomos/carnot-specification|carnot-specification]]
 * [x] [[vac/rfc/rfc/nomos/carnot-vote-2-3rds-vote-aggregation-specification|carnot-vote-2-3rds-vote-aggregation-specification ]]
-* [[vac/rfc/rfc/nomos/nomos-specs-init|nomos-specs-init]]
+* [[vac/rfc/rfc/nomos/specs-init|specs-init]]
 
 ### `rfc:codex:`
-* [[vac/rfc/rfc/nomos/codex-specs-init|codex-specs-init]]
+* [[vac/rfc/rfc/nomos/specs-init|specs-init]]
 
 ### `rfc:waku:`
 
