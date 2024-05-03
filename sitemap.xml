@@ -552,7 +552,10 @@
     <lastmod>2024-04-29T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/vac/rfc/</loc>
-    <lastmod>2023-09-06T00:00:00.000Z</lastmod>
+    <lastmod>2024-05-03T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/rfc/rfc/codex/codex-specs-init</loc>
+    <lastmod>2024-05-03T14:08:24.015Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/vac/rfc/rfc/nomos/carnot-specification</loc>
     <lastmod>2024-04-03T11:12:51.407Z</lastmod>
@@ -569,8 +572,20 @@
     <loc>https://roadmap.logos.co/vac/rfc/rfc/nomos/multi-leader-and-multi-overlay-carnot-specification</loc>
     <lastmod>2024-04-03T11:12:51.407Z</lastmod>
   </url><url>
+    <loc>https://roadmap.logos.co/vac/rfc/rfc/nomos/nomos-specs-init</loc>
+    <lastmod>2024-05-03T14:08:24.015Z</lastmod>
+  </url><url>
     <loc>https://roadmap.logos.co/vac/rfc/rfc/status/port-status-specs</loc>
     <lastmod>2024-04-03T11:12:51.407Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/rfc/rfc/vac/rfc-index</loc>
+    <lastmod>2024-05-03T14:08:24.015Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/rfc/rfc/vac/rfc-process-update</loc>
+    <lastmod>2024-05-03T14:08:24.015Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/rfc/rfc/waku/core-rfc-update</loc>
+    <lastmod>2024-05-03T14:08:24.015Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/vac/rfc/rfc/waku/waku-keystore</loc>
     <lastmod>2024-04-03T11:12:51.407Z</lastmod>
