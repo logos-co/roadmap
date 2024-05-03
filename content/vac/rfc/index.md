@@ -19,10 +19,10 @@ lastmod: 2024-05-03
 
 * [x] [[vac/rfc/rfc/nomos/carnot-specification|carnot-specification]]
 * [x] [[vac/rfc/rfc/nomos/carnot-vote-2-3rds-vote-aggregation-specification|carnot-vote-2-3rds-vote-aggregation-specification ]]
-* [[vac/rfc/rfc/nomos/nomos-specs-start|nomos-specs-init]]
+* [[vac/rfc/rfc/nomos/nomos-specs-init|nomos-specs-init]]
 
 ### `rfc:codex:`
-* [[vac/rfc/rfc/nomos/codex-specs-start|codex-specs-init]]
+* [[vac/rfc/rfc/nomos/codex-specs-init|codex-specs-init]]
 
 ### `rfc:waku:`
 
@@ -31,7 +31,7 @@ lastmod: 2024-05-03
 
 ### `rfc:vac:`
 
-* [x] [[vac/rfc/rfc/vac/rfx-process-update|rfc-process-update]]
+* [x] [[vac/rfc/rfc/vac/rfc-process-update|rfc-process-update]]
 * [[vac/rfc/rfc/vac/rfx-index|rfc-index]]
 
 ### icebox
