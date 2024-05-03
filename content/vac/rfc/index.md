@@ -32,7 +32,7 @@ lastmod: 2024-05-03
 ### `rfc:vac:`
 
 * [x] [[vac/rfc/rfc/vac/rfc-process-update|rfc-process-update]]
-* [[vac/rfc/rfc/vac/rfx-index|rfc-index]]
+* [[vac/rfc/rfc/vac/rfc-index|rfc-index]]
 
 ### icebox
 
