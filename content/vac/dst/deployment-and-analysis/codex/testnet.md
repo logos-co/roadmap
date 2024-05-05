@@ -22,7 +22,7 @@ gantt
   tickInterval 1month
   dateFormat YYYY-MM-DD 
   section Status
-    Testnet: 2024-05-01, 2024-11-01
+    Testnet: 2024-05-01, 2024-12-31
 ```
 
 - status: 15%
