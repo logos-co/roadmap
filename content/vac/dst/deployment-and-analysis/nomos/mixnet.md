@@ -22,20 +22,22 @@ gantt
   tickInterval 1month
   dateFormat YYYY-MM-DD 
   section Status
-    Mixnet: 2024-05-01, 2025-02-01
+    Mixnet: 2024-05-01, 2024-12-31
 ```
 
-- status: 15%
+- status: 10%
 - CC: Wings
 
 ### Description
 
-Assist the Nomos team with deploying and running a mixnet.
+Assist the Nomos team with deploying and running a mixnet at scale within VacLab.
 
-- Provide visualisation tools and work with the Nomos team to implement privacy preserving metrics and measurements in Nomos to help understand the mixnet's performance.
+- Provide analysis of the VacLab mixnet
+- Through [Visualiser](../../tooling/vac/visualiser-tool.md), provide visualisation tools and work with the Nomos team to implement privacy preserving metrics and measurements in Nomos to help understand the mixnet's performance.
+- Work with the Nomos team to deploy the visualisation tools for their own purposes.
 
 ### Justification
 
 ### Deliverables
-- Mixnet fully operational and rolled out
+- Lab version of mixnet fully operational and rolled out
 - Working metrics via Visualiser Tool

@@ -44,3 +44,4 @@ Run deployments of between 1000 and 5000 Waku nodes actively passing messages in
 ### Justification
 
 ### Deliverables
+Similar deliverables to 10k sim, but with focuses on smaller scale and more frequent deployments.

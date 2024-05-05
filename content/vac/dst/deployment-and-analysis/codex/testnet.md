@@ -32,11 +32,11 @@ gantt
 
 Assist the Codex team with deploying and running a testnet for the Codex network.
 
-- Provide a 1PiB Storage Provider deployment
+- Provide a 256TB Storage Provider deployment, which should later build towards 1PiB
 - Provide various support and analysis for how the testnet operates and help improve Codex
 
 ### Justification
 
 ### Deliverables
-- Testnet fully operational and rolled out
+- Materially assist Codex with rolling out testnet
 - Working SP storing real data
