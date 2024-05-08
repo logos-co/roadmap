@@ -69,15 +69,14 @@ gantt
         (telemetry) Measure Bandwidth: telem-bandwidth, after telem-d-msg-rel, 8w
     section test eng 1
         %% TBC estimate
-        %% This is Store Service Upgrade - item (1) in DST simulation - start with small scale to get faster results 
-        (simulation) Stress test store v3: sim-storev3, 2024-05-13, 4w
+        Peer and connection management tests: sim-conn-mgmt, 2024-05-13, 4w
+        %% TBC estimate
+        (simulation) Functionality and stress test store v3: sim-storev3, after sim-conn-mgmt, 4w
         %% TBC estimate
         %% This is Store Service Upgrade - item (2) in DST simulation - start with small scale to get faster results
         (simulation) Compare store topologies: sim-store-cmp, after sim-storev3, 6w
-        %% TBC estimate/priority
-        (simulation) req-res protocol performance: sim-req-res, after sim-store-cmp, 6w
         %% TBC estimate
-        (simulation) relay reliability performance impact: sim-relay-rel, after sim-req-res rel-relay-g rel-relay-n, 4w
+        (simulation) relay reliability performance impact: sim-relay-rel, after sim-store-cmp sim-req-res rel-relay-g rel-relay-n, 4w
         %% TBC estimate
         (simulation) req-res reliability performance impact: sim-reqres-rel, after sim-relay-rel rel-reqres-g, 6w
     section nim eng 1
