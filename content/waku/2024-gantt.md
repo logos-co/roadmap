@@ -74,8 +74,7 @@ gantt
     section nim eng 1
         %% TBC estimation done?
         Store v3-beta (msg hash): crit, storev3-br, 2024-01-01, 12w
-        %% TBC estimation
-        Store v3 (sync): crit, storev3-r, after storev3-br, 20w
+        Store v3 (sync) research + RFC: crit, storev3-r, after storev3-br, 14w
     section nim eng 2
         PostgreSQL Maintenance: crit, pgsql, 2024-01-01, 2024-05-24
         Reliability Protocol for Relay (nwaku): crit, rel-relay-n, 2024-05-01, 12w
