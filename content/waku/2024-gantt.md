@@ -40,9 +40,9 @@ gantt
 
 %% Tasks
     section golang eng 1
-        %% Estimation TBC
+        %% Estimation TBC - Prem says fine, waiting on 2nd opinion
         Review connection management: crit, review-conn-mgmt-1, 2024-05-13, 8w
-        %% Estimate TBC
+        %% Estimation TBC - Prem says fine, waiting on 2nd opinion
         Review MVDS usage and fail path: crit, mvds, after review-conn-mgmt-1, 6w
         %% Estimate/start TBC
         (testing) direct messages: test-direct-msg, after mvds, 4w
@@ -54,16 +54,14 @@ gantt
         Store v3 (go-waku client only): crit, storev3-g, 2024-02-26, 2024-05-24
         %% Estimate TBC - assuming parallel work possible
         Review connection management: crit, review-conn-mgmt-2, after storev3-g, 8w
-        %% TBC Estimate
         Sharding peer mgmt and discovery hardening (go-waku): crit, sh-peer-mgmt-g, after review-conn-mgmt-2, 8w
     section golang eng 4
         %% Review if actually needed
         Store v3 (sync): crit, 2024-02-08, 2024-04-26
-        %% Estimate TBC assuming no RFC here
         Reliability Protocol for Resource-Restricted Clients (status-go): crit, rel-reqres-g, 2024-05-13, 10w
         (metric) Count store messages: count-store-msg, after rel-reqres-g, 2w
     section golang eng 5
-        %% Estimate TBD
+        %% Estimate TBD - Prem says fine, waiting on 2nd opinion
         DoS protection for req-res protocols (go-waku client only): crit, dosreqresg, 2024-05-20, 4w
         %% TBC estimate and start
         (telemetry) direct message reliability: telem-d-msg-rel, 2024-06-17, 6w
@@ -79,8 +77,7 @@ gantt
         PostgreSQL Maintenance: crit, pgsql, 2024-01-01, 2024-05-24
         Reliability Protocol for Relay (nwaku): crit, rel-relay-n, 2024-05-01, 12w
     section nim eng 3
-        %% TBC estimate/end
-        DoS Protection for Req-Res Protocols: crit, dosreqresn, 2024-01-01, 90d
+        DoS Protection for Req-Res Protocols: crit, dosreqresn, 2024-02-01, 18w 
         %% TBC estimate, this is assuming PoC is done, ie,  how much hardening would be needed?
         Store v3-beta + v3 (nwaku hardening): crit, storev3-n, after storev3-br storev3-r dosreqresn, 3w
         %% TBC estimate/end/start
