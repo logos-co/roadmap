@@ -37,7 +37,8 @@ gantt
         (telemetry) Measure Bandwidth: milestone, after telem-bandwidth, 0
         Sharding peer mgmt and discovery hardening: crit, milestone, after sh-peer-mgmt-j sh-peer-mgmt-n sh-peer-mgmt-g, 0
         (testing) Custom shard impl of Communities: milestone, after test-custom-shard, 0
-    
+
+%% Tasks
     section golang eng 1
         %% Estimation TBC
         Review connection management: crit, review-conn-mgmt-1, 2024-05-13, 8w
@@ -48,8 +49,7 @@ gantt
         %% Estimate TBC
         (testing) Custom shard impl of Communities: test-custom-shard, after test-direct-msg, 4w 
     section golang eng 2
-        %% Estimation TBC
-        Reliability Protocol for Relay (status-go): crit, rel-relay-g, 2024-05-13, 20w
+        Reliability Protocol for Relay (status-go): crit, rel-relay-g, 2024-05-13, 12w
     section golang eng 3
         Store v3 (go-waku client only): crit, storev3-g, 2024-02-26, 2024-05-24
         %% Estimate TBC - assuming parallel work possible
@@ -78,8 +78,7 @@ gantt
         Store v3 (sync): crit, storev3-r, after storev3-br, 20w
     section nim eng 2
         PostgreSQL Maintenance: crit, pgsql, 2024-01-01, 2024-05-24
-        %% TBC estimate
-        Reliability Protocol for Relay (nwaku): crit, rel-relay-n, 2024-05-01, 40w
+        Reliability Protocol for Relay (nwaku): crit, rel-relay-n, 2024-05-01, 12w
     section nim eng 3
         %% TBC estimate/end
         DoS Protection for Req-Res Protocols: crit, dosreqresn, 2024-01-01, 90d
