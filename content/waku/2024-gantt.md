@@ -68,7 +68,18 @@ gantt
         %% TBC estimate and start
         (telemetry) Measure Bandwidth: telem-bandwidth, after telem-d-msg-rel, 8w
     section test eng 1
-        %% TODO: start small scale simulations of DST such store perf    
+        %% TBC estimate
+        %% This is Store Service Upgrade - item (1) in DST simulation - start with small scale to get faster results 
+        (simulation) Stress test store v3: sim-storev3, 2024-05-13, 4w
+        %% TBC estimate
+        %% This is Store Service Upgrade - item (2) in DST simulation - start with small scale to get faster results
+        (simulation) Compare store topologies: sim-store-cmp, after sim-storev3, 6w
+        %% TBC estimate/priority
+        (simulation) req-res protocol performance: sim-req-res, after sim-store-cmp, 6w
+        %% TBC estimate
+        (simulation) relay reliability performance impact: sim-relay-rel, after sim-req-res rel-relay-g rel-relay-n, 4w
+        %% TBC estimate
+        (simulation) req-res reliability performance impact: sim-reqres-rel, after sim-relay-rel rel-reqres-g, 6w
     section nim eng 1
         %% TBC estimation done?
         Store v3-beta (msg hash): crit, storev3-br, 2024-01-01, 12w
@@ -77,9 +88,9 @@ gantt
         PostgreSQL Maintenance: crit, pgsql, 2024-01-01, 2024-05-24
         Reliability Protocol for Relay (nwaku): crit, rel-relay-n, 2024-05-01, 12w
     section nim eng 3
-        DoS Protection for Req-Res Protocols: crit, dosreqresn, 2024-02-01, 18w 
-        %% TBC estimate, this is assuming PoC is done, ie,  how much hardening would be needed?
-        Store v3-beta + v3 (nwaku hardening): crit, storev3-n, after storev3-br storev3-r dosreqresn, 3w
+        DoS Protection for Req-Res Protocols: crit, dosreqresn, 2024-02-01, 18w
+        Store v3-beta + v3 (dogfooding placeholder):  storev3-df, after storev3-br storev3-r, 4w
+        Store v3-beta + v3 (nwaku hardening): crit, storev3-n, after storev3-df dosreqresn, 3w
         %% TBC estimate/end/start
         (telemetry) Fleet logging: telem-fleet-logging, after storev3-n, 4w
     section nim eng 4
