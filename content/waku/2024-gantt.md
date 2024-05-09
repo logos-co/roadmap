@@ -57,7 +57,7 @@ gantt
         (testing) direct messages: test-direct-msg, after rel-relay-g, 4w
         TBC (testing) Custom shard impl of Communities: test-custom-shard, after test-direct-msg, 4w
         %% TBC estimate
-        TBC E2e reliability protocol Status integration: crit, e2e-rel-g, after e2e-rel-r, 10w
+        TBC E2e reliability protocol Status integration: crit, e2e-rel-g, after e2e-rel-r, 6w
     section golang eng 3
         Store v3 (go-waku client only): crit, storev3-g, 2024-02-26, 2024-05-24
         %% Estimate TBC - assuming parallel work possible
