@@ -52,7 +52,7 @@ gantt
         (testing) direct messages: test-direct-msg, after mvds, 4w
         TBC (testing) Custom shard impl of Communities: test-custom-shard, after test-direct-msg, 4w 
     section golang eng 2
-        Reliability Protocol for Relay (status-go): crit, rel-relay-g, 2024-05-13, 12w
+        Reliability Protocol for Relay (go): crit, rel-relay-g, 2024-05-13, 12w
         %% TBC estimate
         TBC E2e reliability protocol Status integration: crit, e2e-rel-g, after e2e-rel-r, 10w
         Investigation and fixing of bugs discovered during dogfooding/usage/simulations: go-bugs-1, after rel-relay-g, 8w
@@ -63,7 +63,7 @@ gantt
         Sharding peer mgmt and discovery hardening (go-waku): crit, sh-peer-mgmt-g, after review-conn-mgmt-2, 8w
     section golang eng 4
         Store v3 (sync): crit, 2024-02-08, 2024-04-26
-        Reliability Protocol for Resource-Restricted Clients (status-go): crit, rel-reqres-g, 2024-05-13, 10w
+        Reliability Protocol for Resource-Restricted Clients (go): crit, rel-reqres-g, 2024-05-13, 10w
         (metric) Count store messages: count-store-msg, after rel-reqres-g, 2w
         Investigation and fixing of bugs discovered during dogfooding/usage/simulations: go-bugs-2, after count-store-msg, 8w
     section golang eng 5
@@ -85,26 +85,25 @@ gantt
         (simulation) req-res reliability performance impact: sim-reqres-rel, after sim-relay-rel rel-reqres-g, 6w
     section research eng 1
         %% TBC estimate
-        TBC End-to-end reliability protocol - PoC: e2e-rel-r, 2024-05-23, 20w
+        TBC End-to-end reliability protocol - PoC: crit, e2e-rel-r, 2024-05-23, 20w
     section research eng 2
         %% Only dogfooding remaining
         Store v3-beta (msg hash): crit, storev3-br, 2024-01-01, 2024-05-23
         Store v3 (sync) research + RFC: crit, storev3-r, 2024-03-25, 14w
-        Investigation and fixing of bugs discovered during dogfooding/usage/simulations: after storev3-r, 8w
     section nim eng 2
         PostgreSQL Maintenance: crit, pgsql, 2024-01-01, 2024-05-24
-        Reliability Protocol for Relay (nwaku): crit, rel-relay-n, 2024-05-13, 12w
+        Reliability Protocol for Relay (nwaku + RFC): crit, rel-relay-n, 2024-05-13, 12w
     section nim eng 3
         DoS Protection for Req-Res Protocols: crit, dosreqresn, 2024-02-01, 18w
         Store v3-beta + v3 (dogfooding placeholder):  storev3-df, after storev3-br storev3-r, 4w
         Store v3-beta + v3 (nwaku hardening): crit, storev3-n, after storev3-df dosreqresn, 3w
-        (telemetry) Fleet logging: telem-fleet-logging, after storev3-n, 4w
+        (telemetry) Fleet logging: telem-fleet-logging, after dosreqresn, 4w
     section nim eng 4
         %% TBC estimate/end
-        TBC Sharded peer mgmt and discovery hardening (nwaku): crit, sh-peer-mgmt-n, 2024-05-13, 12w
+        TBC Sharding peer mgmt and discovery hardening (nwaku): crit, sh-peer-mgmt-n, 2024-05-13, 12w
     section js eng 1
-        Reliability for Req-Res Protocols (light client): crit, rel-reqres-j, 2024-05-01, 12w
+        Reliability for Req-Res Protocols (light client + RFC): crit, rel-reqres-j, 2024-05-01, 12w
     section js eng 2
         %% TBC scope
-        TBC Sharded peer mgmt and discovery hardening (light client): crit, sh-peer-mgmt-j, 2024-06-01, 4w
+        TBC Sharding peer mgmt and discovery hardening (light client + RFC): crit, sh-peer-mgmt-j, 2024-06-01, 4w
 ```
