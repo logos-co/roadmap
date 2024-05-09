@@ -101,6 +101,5 @@ gantt
     section js eng 1
         Reliability for Req-Res Protocols (light client + RFC): crit, rel-reqres-j, 2024-05-01, 12w
     section js eng 2
-        %% TBC scope
-        TBC Sharding peer mgmt and discovery hardening (light client + RFC): crit, sh-peer-mgmt-j, 2024-06-01, 12w
+        Sharding peer mgmt and discovery hardening (light client + RFC): crit, sh-peer-mgmt-j, 2024-06-01, 12w
 ```
