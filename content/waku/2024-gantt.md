@@ -19,6 +19,7 @@ Anything prefixed `TBC` is pending confirmation of estimate with the team.
 gantt
     dateFormat YYYY-MM-DD
     axisFormat %d-%b
+    tickInterval 1week
     weekday monday
     
 %% Milestones overview with deliverables
@@ -96,8 +97,7 @@ gantt
         Store v3-beta + v3 (nwaku hardening): crit, storev3-n, after storev3-df dosreqresn, 3w
         (telemetry) Fleet logging: telem-fleet-logging, after dosreqresn, 4w
     section nim eng 3
-        %% TBC estimate/end
-        TBC Sharding peer mgmt and discovery hardening (nwaku): crit, sh-peer-mgmt-n, 2024-05-13, 6w
+        Sharding peer mgmt and discovery hardening (nwaku): crit, sh-peer-mgmt-n, 2024-05-13, 12w
     section js eng 1
         Reliability for Req-Res Protocols (light client + RFC): crit, rel-reqres-j, 2024-05-01, 12w
     section js eng 2
