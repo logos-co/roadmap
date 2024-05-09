@@ -39,6 +39,10 @@ gantt
         (telemetry) Measure Bandwidth: milestone, after telem-bandwidth, 0
         Sharding peer mgmt and discovery hardening: crit, milestone, after sh-peer-mgmt-j sh-peer-mgmt-n sh-peer-mgmt-g, 0
         (testing) Custom shard impl of Communities: milestone, after test-custom-shard, 0
+    section E2e reliability protocol
+        (telemetry) Multicast message reliability: milestone, after telem-m-msg-rel, 0
+        E2e reliability protocol PoC: milestone, crit, after e2e-rel-r, 0
+        E2e reliability protocol Status integration: milestone, crit, after e2e-rel-g, 0
 
 %% Tasks
     section golang eng 1
@@ -49,6 +53,8 @@ gantt
         TBC (testing) Custom shard impl of Communities: test-custom-shard, after test-direct-msg, 4w 
     section golang eng 2
         Reliability Protocol for Relay (status-go): crit, rel-relay-g, 2024-05-13, 12w
+        %% TBC estimate
+        E2e reliability protocol Status integration: crit, e2e-rel-g, after e2e-rel-r, 10w
         Investigation and fixing of bugs discovered during dogfooding/usage/simulations: go-bugs-1, after rel-relay-g, 8w
     section golang eng 3
         Store v3 (go-waku client only): crit, storev3-g, 2024-02-26, 2024-05-24
@@ -63,7 +69,8 @@ gantt
     section golang eng 5
         DoS protection for req-res protocols (go-waku client only): crit, dosreqresg, 2024-05-20, 4w
         (telemetry) direct message reliability: telem-d-msg-rel, 2024-06-17, 6w
-        (telemetry) Measure Bandwidth: telem-bandwidth, after telem-d-msg-rel, 8w
+        (telemetry) Multicast message reliability: telem-m-msg-rel, after telem-d-msg-rel, 4w
+        (telemetry) Measure Bandwidth: telem-bandwidth, after telem-m-msg-rel, 8w
     section test eng 1 (TBC)
         %% TBC estimate
         Peer and connection management tests: sim-conn-mgmt, 2024-05-13, 4w
@@ -76,7 +83,10 @@ gantt
         (simulation) relay reliability performance impact: sim-relay-rel, after sim-store-cmp sim-req-res rel-relay-g rel-relay-n, 4w
         %% TBC estimate
         (simulation) req-res reliability performance impact: sim-reqres-rel, after sim-relay-rel rel-reqres-g, 6w
-    section nim eng 1
+    section research eng 1
+        %% TBC estimate
+        End-to-end reliability protocol - PoC: e2e-rel-r, 2024-05-23, 20w
+    section research eng 2
         %% Only dogfooding remaining
         Store v3-beta (msg hash): crit, storev3-br, 2024-01-01, 2024-05-23
         Store v3 (sync) research + RFC: crit, storev3-r, 2024-03-25, 14w
