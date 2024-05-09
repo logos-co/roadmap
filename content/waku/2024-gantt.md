@@ -44,11 +44,8 @@ gantt
     section golang eng 1
         %% Estimation TBC - Prem says fine, waiting on 2nd opinion
         TBC Review connection management: crit, review-conn-mgmt-1, 2024-05-13, 8w
-        %% Estimation TBC - Prem says fine, waiting on 2nd opinion
-        TBC Review MVDS usage and fail path: crit, mvds, after review-conn-mgmt-1, 6w
-        %% Estimate/start TBC
-        TBC (testing) direct messages: test-direct-msg, after mvds, 4w
-        %% Estimate TBC
+        Review MVDS usage and fail path: crit, mvds, after review-conn-mgmt-1, 6w
+        (testing) direct messages: test-direct-msg, after mvds, 4w
         TBC (testing) Custom shard impl of Communities: test-custom-shard, after test-direct-msg, 4w 
     section golang eng 2
         Reliability Protocol for Relay (status-go): crit, rel-relay-g, 2024-05-13, 12w
@@ -58,13 +55,11 @@ gantt
         TBC Review connection management: crit, review-conn-mgmt-2, after storev3-g, 8w
         Sharding peer mgmt and discovery hardening (go-waku): crit, sh-peer-mgmt-g, after review-conn-mgmt-2, 8w
     section golang eng 4
-        %% Review if actually needed
-        TBC Store v3 (sync): crit, 2024-02-08, 2024-04-26
+        Store v3 (sync): crit, 2024-02-08, 2024-04-26
         Reliability Protocol for Resource-Restricted Clients (status-go): crit, rel-reqres-g, 2024-05-13, 10w
         (metric) Count store messages: count-store-msg, after rel-reqres-g, 2w
     section golang eng 5
-        %% Estimate TBD - Prem says fine, waiting on 2nd opinion
-        TBC DoS protection for req-res protocols (go-waku client only): crit, dosreqresg, 2024-05-20, 4w
+        DoS protection for req-res protocols (go-waku client only): crit, dosreqresg, 2024-05-20, 4w
         (telemetry) direct message reliability: telem-d-msg-rel, 2024-06-17, 6w
         (telemetry) Measure Bandwidth: telem-bandwidth, after telem-d-msg-rel, 8w
     section test eng 1 (TBC)
