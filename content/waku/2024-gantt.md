@@ -95,10 +95,10 @@ gantt
         (telemetry) Fleet logging: telem-fleet-logging, after dosreqresn, 4w
     section nim eng 3
         %% TBC estimate/end
-        TBC Sharding peer mgmt and discovery hardening (nwaku): crit, sh-peer-mgmt-n, 2024-05-13, 12w
+        TBC Sharding peer mgmt and discovery hardening (nwaku): crit, sh-peer-mgmt-n, 2024-05-13, 6w
     section js eng 1
         Reliability for Req-Res Protocols (light client + RFC): crit, rel-reqres-j, 2024-05-01, 12w
     section js eng 2
         %% TBC scope
-        TBC Sharding peer mgmt and discovery hardening (light client + RFC): crit, sh-peer-mgmt-j, 2024-06-01, 4w
+        TBC Sharding peer mgmt and discovery hardening (light client + RFC): crit, sh-peer-mgmt-j, 2024-06-01, 12w
 ```
