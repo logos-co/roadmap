@@ -49,6 +49,7 @@ gantt
         TBC (testing) Custom shard impl of Communities: test-custom-shard, after test-direct-msg, 4w 
     section golang eng 2
         Reliability Protocol for Relay (status-go): crit, rel-relay-g, 2024-05-13, 12w
+        Investigation and fixing of bugs discovered during dogfooding/usage/simulations: go-bugs-1, after rel-relay-g, 8w
     section golang eng 3
         Store v3 (go-waku client only): crit, storev3-g, 2024-02-26, 2024-05-24
         %% Estimate TBC - assuming parallel work possible
@@ -58,6 +59,7 @@ gantt
         Store v3 (sync): crit, 2024-02-08, 2024-04-26
         Reliability Protocol for Resource-Restricted Clients (status-go): crit, rel-reqres-g, 2024-05-13, 10w
         (metric) Count store messages: count-store-msg, after rel-reqres-g, 2w
+        Investigation and fixing of bugs discovered during dogfooding/usage/simulations: go-bugs-2, after count-store-msg, 8w
     section golang eng 5
         DoS protection for req-res protocols (go-waku client only): crit, dosreqresg, 2024-05-20, 4w
         (telemetry) direct message reliability: telem-d-msg-rel, 2024-06-17, 6w
@@ -78,7 +80,7 @@ gantt
         %% Only dogfooding remaining
         Store v3-beta (msg hash): crit, storev3-br, 2024-01-01, 2024-05-23
         Store v3 (sync) research + RFC: crit, storev3-r, 2024-03-25, 14w
-        Investigation/bug fixing of DST results: crit, 2024-07-01, 4w
+        Investigation and fixing of bugs discovered during dogfooding/usage/simulations: after storev3-r, 8w
     section nim eng 2
         PostgreSQL Maintenance: crit, pgsql, 2024-01-01, 2024-05-24
         Reliability Protocol for Relay (nwaku): crit, rel-relay-n, 2024-05-13, 12w
