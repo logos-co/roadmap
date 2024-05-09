@@ -78,12 +78,13 @@ gantt
         %% TBC estimate
         (simulation) req-res reliability performance impact: sim-reqres-rel, after sim-relay-rel rel-reqres-g, 6w
     section nim eng 1
-        %% TBC estimation done?
-        Store v3-beta (msg hash): crit, storev3-br, 2024-01-01, 12w
-        Store v3 (sync) research + RFC: crit, storev3-r, after storev3-br, 14w
+        %% Only dogfooding remaining
+        Store v3-beta (msg hash): crit, storev3-br, 2024-01-01, 2024-05-23
+        Store v3 (sync) research + RFC: crit, storev3-r, 2024-03-25, 14w
+        Investigation/bug fixing of DST results: crit, 2024-07-01, 4w
     section nim eng 2
         PostgreSQL Maintenance: crit, pgsql, 2024-01-01, 2024-05-24
-        Reliability Protocol for Relay (nwaku): crit, rel-relay-n, 2024-05-01, 12w
+        Reliability Protocol for Relay (nwaku): crit, rel-relay-n, 2024-05-13, 12w
     section nim eng 3
         DoS Protection for Req-Res Protocols: crit, dosreqresn, 2024-02-01, 18w
         Store v3-beta + v3 (dogfooding placeholder):  storev3-df, after storev3-br storev3-r, 4w
@@ -93,8 +94,8 @@ gantt
         %% TBC estimate/end
         Sharding peer mgmt and discovery hardening (nwaku): crit, sh-peer-mgmt-n, 2024-05-13, 12w
     section js eng 1
-        Reliability for Req-Res Protocols: crit, rel-reqres-j, 2024-05-01, 12w
+        Reliability for Req-Res Protocols (light client): crit, rel-reqres-j, 2024-05-01, 12w
     section js eng 2
         %% TBC scope
-        Sharding peer mgmt and discovery hardening: crit, sh-peer-mgmt-j, 2024-06-01, 4w
+        Sharding peer mgmt and discovery hardening (light client): crit, sh-peer-mgmt-j, 2024-06-01, 4w
 ```
