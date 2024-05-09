@@ -19,6 +19,8 @@ Anything prefixed `TBC` is pending confirmation of estimate with the team.
 gantt
     dateFormat YYYY-MM-DD
     axisFormat %d-%b
+    tickInterval 1week
+    weekday monday
     
 %% Milestones overview with deliverables
     section Store Service Upgrade
@@ -49,13 +51,13 @@ gantt
         %% Estimation TBC - Prem says fine, waiting on 2nd opinion
         TBC Review connection management: crit, review-conn-mgmt-1, 2024-05-13, 8w
         Review MVDS usage and fail path: crit, mvds, after review-conn-mgmt-1, 6w
-        (testing) direct messages: test-direct-msg, after mvds, 4w
-        TBC (testing) Custom shard impl of Communities: test-custom-shard, after test-direct-msg, 4w 
+        Investigation and fixing of bugs discovered during dogfooding/usage/simulations: go-bugs-1, after mvds, 8w
     section golang eng 2
         Reliability Protocol for Relay (go): crit, rel-relay-g, 2024-05-13, 12w
+        (testing) direct messages: test-direct-msg, after rel-relay-g, 4w
+        TBC (testing) Custom shard impl of Communities: test-custom-shard, after test-direct-msg, 4w
         %% TBC estimate
         TBC E2e reliability protocol Status integration: crit, e2e-rel-g, after e2e-rel-r, 10w
-        Investigation and fixing of bugs discovered during dogfooding/usage/simulations: go-bugs-1, after rel-relay-g, 8w
     section golang eng 3
         Store v3 (go-waku client only): crit, storev3-g, 2024-02-26, 2024-05-24
         %% Estimate TBC - assuming parallel work possible
@@ -79,8 +81,7 @@ gantt
         (simulation) relay reliability performance impact: sim-relay-rel, after sim-store-cmp sim-req-res rel-relay-g rel-relay-n, 4w
         (simulation) req-res reliability performance impact: sim-reqres-rel, after sim-relay-rel rel-reqres-g, 6w
     section research eng 1
-        %% TBC estimate
-        TBC End-to-end reliability protocol - PoC: crit, e2e-rel-r, 2024-05-23, 20w
+        End-to-end reliability protocol - PoC: crit, e2e-rel-r, 2024-05-23, 20w
     section research eng 2
         %% Only dogfooding remaining
         Store v3-beta (msg hash): crit, storev3-br, 2024-01-01, 2024-05-23
