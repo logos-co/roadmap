@@ -13,7 +13,7 @@ Colour legend:
 golang engineers: working on status-go/go-waku
 nim engineers: working on nwaku, may be a CC from research team too.
 
-Anything prefixed `TBC` is pending confirmation of estimate with engineers.
+Anything prefixed `TBC` is pending confirmation of estimate with the team.
 
 ```mermaid
 gantt
