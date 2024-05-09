@@ -1,5 +1,6 @@
 ---
 title: "Testnet"
+description: "Help Codex deploy and run a testnet. Provide support and advice."
 ---
 ## `vac:dst:deployment-and-analysis:codex:testnet`
 ---

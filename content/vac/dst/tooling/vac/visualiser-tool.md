@@ -1,5 +1,6 @@
 ---
 title: "Visualiser Tool"
+description: "Build a web app that displays a map of a project's network, showing the flow of messages between nodes."
 ---
 ## `vac:dst:tooling:vac:visualiser-tool`
 ---

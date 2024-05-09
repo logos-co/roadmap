@@ -1,5 +1,6 @@
 ---
 title: "Mixnet"
+description: "Help the Nomos team deploy and run a mixnet."
 ---
 ## `vac:dst:deployment-and-analysis:nomos:mixnet`
 ---

@@ -1,5 +1,6 @@
 ---
 title: "Midscale"
+description: "Run smaller 1K-5K node Waku deployments, with a pipeline for analysis and measurements."
 ---
 ## `vac:dst:deployment-and-analysis:waku:midscale`
 ---

@@ -1,5 +1,6 @@
 ---
 title: "QoS"
+description: "Add QoS parameter support to the 10k tool."
 ---
 ## `vac:dst:eng-10ktool:vac:qos`
 ---

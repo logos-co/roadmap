@@ -1,5 +1,6 @@
 ---
 title: "Deployer Tool"
+description: "Build a tool that makes it easy to deploy large numbers of nodes in a controlled network."
 ---
 ## `vac:dst:tooling:vac:deployer-tool`
 ---
