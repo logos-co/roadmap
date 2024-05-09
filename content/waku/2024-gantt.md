@@ -63,9 +63,7 @@ gantt
     section golang eng 5
         %% Estimate TBD - Prem says fine, waiting on 2nd opinion
         DoS protection for req-res protocols (go-waku client only): crit, dosreqresg, 2024-05-20, 4w
-        %% TBC estimate and start
         (telemetry) direct message reliability: telem-d-msg-rel, 2024-06-17, 6w
-        %% TBC estimate and start
         (telemetry) Measure Bandwidth: telem-bandwidth, after telem-d-msg-rel, 8w
     section test eng 1
         %% TBC estimate
@@ -90,7 +88,6 @@ gantt
         DoS Protection for Req-Res Protocols: crit, dosreqresn, 2024-02-01, 18w
         Store v3-beta + v3 (dogfooding placeholder):  storev3-df, after storev3-br storev3-r, 4w
         Store v3-beta + v3 (nwaku hardening): crit, storev3-n, after storev3-df dosreqresn, 3w
-        %% TBC estimate/end/start
         (telemetry) Fleet logging: telem-fleet-logging, after storev3-n, 4w
     section nim eng 4
         %% TBC estimate/end
