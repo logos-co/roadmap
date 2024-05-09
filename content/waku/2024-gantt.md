@@ -19,7 +19,6 @@ Anything prefixed `TBC` is pending confirmation of estimate with the team.
 gantt
     dateFormat YYYY-MM-DD
     axisFormat %d-%b
-    tickInterval 1week
     weekday monday
     
 %% Milestones overview with deliverables
@@ -86,6 +85,8 @@ gantt
         %% Only dogfooding remaining
         Store v3-beta (msg hash): crit, storev3-br, 2024-01-01, 2024-05-23
         Store v3 (sync) research + RFC: crit, storev3-r, 2024-03-25, 14w
+        Store v3 - follow-up: after storev3-r, 8w
+        Peer mgmt - follow-up: after storev3-r, 8w
     section nim eng 1
         PostgreSQL Maintenance: crit, pgsql, 2024-01-01, 2024-05-24
         Reliability Protocol for Relay (nwaku + RFC): crit, rel-relay-n, 2024-05-13, 12w
