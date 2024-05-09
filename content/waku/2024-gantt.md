@@ -54,7 +54,7 @@ gantt
     section golang eng 2
         Reliability Protocol for Relay (status-go): crit, rel-relay-g, 2024-05-13, 12w
         %% TBC estimate
-        E2e reliability protocol Status integration: crit, e2e-rel-g, after e2e-rel-r, 10w
+        TBC E2e reliability protocol Status integration: crit, e2e-rel-g, after e2e-rel-r, 10w
         Investigation and fixing of bugs discovered during dogfooding/usage/simulations: go-bugs-1, after rel-relay-g, 8w
     section golang eng 3
         Store v3 (go-waku client only): crit, storev3-g, 2024-02-26, 2024-05-24
@@ -85,7 +85,7 @@ gantt
         (simulation) req-res reliability performance impact: sim-reqres-rel, after sim-relay-rel rel-reqres-g, 6w
     section research eng 1
         %% TBC estimate
-        End-to-end reliability protocol - PoC: e2e-rel-r, 2024-05-23, 20w
+        TBC End-to-end reliability protocol - PoC: e2e-rel-r, 2024-05-23, 20w
     section research eng 2
         %% Only dogfooding remaining
         Store v3-beta (msg hash): crit, storev3-br, 2024-01-01, 2024-05-23
