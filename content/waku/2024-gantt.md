@@ -71,17 +71,12 @@ gantt
         (telemetry) direct message reliability: telem-d-msg-rel, 2024-06-17, 6w
         (telemetry) Multicast message reliability: telem-m-msg-rel, after telem-d-msg-rel, 4w
         (telemetry) Measure Bandwidth: telem-bandwidth, after telem-m-msg-rel, 8w
-    section test eng 1 (TBC)
-        %% TBC estimate
+    section test eng 1
         Peer and connection management tests: sim-conn-mgmt, 2024-05-13, 4w
-        %% TBC estimate
         (simulation) Functionality and stress test store v3: sim-storev3, after sim-conn-mgmt, 4w
-        %% TBC estimate
         %% This is Store Service Upgrade - item (2) in DST simulation - start with small scale to get faster results
         (simulation) Compare store topologies: sim-store-cmp, after sim-storev3, 6w
-        %% TBC estimate
         (simulation) relay reliability performance impact: sim-relay-rel, after sim-store-cmp sim-req-res rel-relay-g rel-relay-n, 4w
-        %% TBC estimate
         (simulation) req-res reliability performance impact: sim-reqres-rel, after sim-relay-rel rel-reqres-g, 6w
     section research eng 1
         %% TBC estimate
@@ -90,15 +85,15 @@ gantt
         %% Only dogfooding remaining
         Store v3-beta (msg hash): crit, storev3-br, 2024-01-01, 2024-05-23
         Store v3 (sync) research + RFC: crit, storev3-r, 2024-03-25, 14w
-    section nim eng 2
+    section nim eng 1
         PostgreSQL Maintenance: crit, pgsql, 2024-01-01, 2024-05-24
         Reliability Protocol for Relay (nwaku + RFC): crit, rel-relay-n, 2024-05-13, 12w
-    section nim eng 3
+    section nim eng 2
         DoS Protection for Req-Res Protocols: crit, dosreqresn, 2024-02-01, 18w
         Store v3-beta + v3 (dogfooding placeholder):  storev3-df, after storev3-br storev3-r, 4w
         Store v3-beta + v3 (nwaku hardening): crit, storev3-n, after storev3-df dosreqresn, 3w
         (telemetry) Fleet logging: telem-fleet-logging, after dosreqresn, 4w
-    section nim eng 4
+    section nim eng 3
         %% TBC estimate/end
         TBC Sharding peer mgmt and discovery hardening (nwaku): crit, sh-peer-mgmt-n, 2024-05-13, 12w
     section js eng 1
