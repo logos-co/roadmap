@@ -37,14 +37,14 @@ gantt
         Reliability Protocol for Relay: crit, milestone, after rel-relay-g rel-relay-n, 0
         Reliability Protocol for Resource-Restricted Clients: crit, milestone, after rel-reqres-g rel-reqres-j, 0
         Review MVDS usage and fail path: crit, milestone, after mvds, 0
-    section Static Sharding - dedicated shards
-        (telemetry) Measure Bandwidth: milestone, after telem-bandwidth, 0
-        Sharding peer mgmt and discovery hardening: crit, milestone, after sh-peer-mgmt-j sh-peer-mgmt-n sh-peer-mgmt-g, 0
-        (testing) Custom shard impl of Communities: milestone, after test-custom-shard, 0
     section E2e reliability protocol
         (telemetry) Multicast message reliability: milestone, after telem-m-msg-rel, 0
         E2e reliability protocol PoC: milestone, crit, after e2e-rel-r, 0
         E2e reliability protocol Status integration: milestone, crit, after e2e-rel-g, 0
+    section Static Sharding - dedicated shards
+        (telemetry) Measure Bandwidth: milestone, after telem-bandwidth, 0
+        Sharding peer mgmt and discovery hardening: crit, milestone, after sh-peer-mgmt-j sh-peer-mgmt-n sh-peer-mgmt-g, 0
+        (testing) Custom shard impl of Communities: milestone, after test-custom-shard, 0
 
 %% Tasks
     section golang eng 1
