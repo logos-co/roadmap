@@ -1,5 +1,6 @@
 ---
 title: "Bandwidth Test"
+description: "Measure bandwidth usage for individual nodes in large Waku clusters."
 ---
 ## `vac:dst:eng-10ktool:vac:bandwidth`
 ---

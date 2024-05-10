@@ -1,5 +1,6 @@
 ---
 title: "Waku Protocols"
+description: "Measure and test additional Waku protocol features."
 ---
 ## `vac:dst:eng-10ktool:waku:waku-protocols`
 ---
