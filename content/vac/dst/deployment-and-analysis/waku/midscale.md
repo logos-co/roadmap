@@ -33,14 +33,18 @@ gantt
 
 Run deployments of between 1000 and 5000 Waku nodes actively passing messages in one network.
 
-- Measure relay bandwidth
-- Measure reliability of Waku message relaying
-- Measure usage of the DiscV5 protocol
-- Test Store protocol at scale
-- Test Waku relay+store reliability with nodes going offline/online
-    - If nodes go online/offline, we should be able to retrieve missing messages from the store. This will also test Waku message relaying in a different way.
-- Filter and lightpush tests
-- Test heterogenous clusters involving different node implementations such as nwaku and go-waku.
+Testing is to be done in this order of priority:
+1. Measure relay bandwidth
+2. Measure reliability of Waku message relaying
+3. Measure usage of the DiscV5 protocol in the same scenario as (1).
+4. Test Store protocol at scale
+5. Test Waku relay+store reliability with nodes going offline/online
+  - If nodes go online/offline, we should be able to retrieve missing messages from the store. This will also test Waku message relaying in a different way.
+6. Filter and lightpush tests
+7. Measure (1) and (3) in heterogenous clusters involving different node implementations such as nwaku and go-waku
+8. Measure (3) with Waku peer exchange protocol used for discovery by a subset of nodes.
+9. Measure (1) with a mix of nodes using Resource-restricted device reliability protocol and peer exchange, meaning a small number of nwaku nodes serve store, light push and filter protocols and a high number of clients consume them. For example, 6-10 service nodes, 200 relay nodes and 1000 light nodes.
+This should include connection and node churn impact on reliability for both relay and light clients.
 
 ### Justification
 
