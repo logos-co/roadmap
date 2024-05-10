@@ -10,15 +10,16 @@ lastmod: 2023-09-08
 ## `vac:dst:`
 ---
 
-### `tooling:vac`
+### `tooling`
 * [[vac/dst/tooling/vac/deployer-tool|deployer-tool ]]
 * [[vac/dst/tooling/vac/visualiser-tool|visualiser-tool ]]
 
-## `deployment-and-analysis:waku`
+## `deployment-and-analysis`
 * [[vac/dst/deployment-and-analysis/waku/10k|10k ]]
 * [[vac/dst/deployment-and-analysis/waku/midscale|midscale ]]
 * [[vac/dst/deployment-and-analysis/nomos/mixnet|mixnet ]]
 * [[vac/dst/deployment-and-analyis/codex/testnet|testnet ]]
+* [[vac:dst:deployment-and-analysis/vac/libp2p-version-testing|libp2p-version-testing ]]
 
 ### `wakurtosis:waku:`
 
