@@ -19,6 +19,7 @@ lastmod: 2023-09-08
 * [[vac/dst/deployment-and-analysis/waku/midscale|midscale ]]
 * [[vac/dst/deployment-and-analysis/nomos/mixnet|mixnet ]]
 * [[vac/dst/deployment-and-analyis/codex/testnet|testnet ]]
+* [[vac:dst:deployment-and-analysis/vac/libp2p-version-testing|libp2p-version-testing ]]
 
 ### `wakurtosis:waku:`
 
