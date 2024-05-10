@@ -10,11 +10,11 @@ lastmod: 2023-09-08
 ## `vac:dst:`
 ---
 
-### `tooling`
+### `tooling:vac`
 * [[vac/dst/tooling/vac/deployer-tool|deployer-tool ]]
 * [[vac/dst/tooling/vac/visualiser-tool|visualiser-tool ]]
 
-## `deployment-and-analysis`
+## `deployment-and-analysis:waku`
 * [[vac/dst/deployment-and-analysis/waku/10k|10k ]]
 * [[vac/dst/deployment-and-analysis/waku/midscale|midscale ]]
 * [[vac/dst/deployment-and-analysis/nomos/mixnet|mixnet ]]
