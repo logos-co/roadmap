@@ -21,11 +21,11 @@ lastmod: 2024-05-13
 
 ### `rlnp2p:vac:`
 * [x] [[vac/acz/rlnp2p/vac/rln-doc-and-outreach|rln-doc-and-outreach]]
-* [x] [[content/vac/acz/rlnp2p/vac/light-rln-verifiers|light-rln-verifiers]]
-* [x] [[content/vac/acz/rlnp2p/vac/rln-light-clients|rln-light-clients]]
+* [x] [[vac/acz/rlnp2p/vac/light-rln-verifiers|light-rln-verifiers]]
+* [x] [[vac/acz/rlnp2p/vac/rln-light-clients|rln-light-clients]]
 
 ### `rlnp2p:status:`
-* [ ] [[content/vac/acz/rlnp2p/status/rln-usage|rln-usage]]
+* [ ] [[vac/acz/rlnp2p/status/rln-usage|rln-usage]]
 
 ### `zerokit:vac:`
 * [x] [[vac/acz/zerokit/vac/zerokit-v0-4|zerokit-v0.4]]
@@ -39,17 +39,17 @@ lastmod: 2024-05-13
 * [ ] [[vac/acz/secure-channels/waku/fd-poc|fd-poc]]
 
 ### `consulting:codex:`
-* [[content/vac/acz/consulting/codex/init|init]]
+* [[vac/acz/consulting/codex/init|init]]
 
 ### `consulting:nomos:`
-* [[content/vac/acz/consulting/nomos/init|init]]
+* [[vac/acz/consulting/nomos/init|init]]
 
 ### `consulting:nes:`
-* [ ] [[content/vac/acz/consulting/nescience/zk-consulting|zk-consulting]]
+* [ ] [[vac/acz/consulting/nescience/zk-consulting|zk-consulting]]
 
 ### `stealth-address-kit:`
-* [ ] [[content/vac/acz/stealth-address-kit/maintenance|maintenance]]
-* [ ] [[content/vac/acz/stealth-address-kit/research|research]]
+* [ ] [[vac/acz/stealth-address-kit/maintenance|maintenance]]
+* [ ] [[vac/acz/stealth-address-kit/research|research]]
 
 ### `validator-privacy:nimbus:`
-- [ ] [[content/vac/acz/validator-privacy/nimbus/productionize-tor-push|productionize-tor-push]] 
+- [ ] [[vac/acz/validator-privacy/nimbus/productionize-tor-push|productionize-tor-push]] 
