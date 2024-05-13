@@ -44,7 +44,7 @@ lastmod: 2024-05-13
 ### `consulting:nomos:`
 * [[content/vac/acz/consulting/nomos/init|init]]
 
-### `consulting:nes:
+### `consulting:nes:`
 * [ ] [[content/vac/acz/consulting/nescience/zk-consulting|zk-consulting]]
 
 ### `stealth-address-kit:`

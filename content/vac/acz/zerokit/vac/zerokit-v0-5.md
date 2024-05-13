@@ -23,7 +23,7 @@ gantt
 	section Status
 		v0.5 Release: 2023-10-01, 2024-06-01
 ```
-- status: 30%
+- status: 70%
 - CCs: 
 	- Ekaterina
 	- Aaryamann
