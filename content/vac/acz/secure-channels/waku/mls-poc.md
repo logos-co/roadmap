@@ -31,13 +31,17 @@ gantt
 ### Description
 
 * proof of concept implementation of [[vac/acz/secure-channels/waku/mls-design|mls-design]]
-* todo: link repo
+* repo: https://github.com/vacp2p/de-mls
+* issues: 
+	* https://github.com/vacp2p/de-mls/issues/1
+	* https://github.com/vacp2p/de-mls/issues/2
+	* https://github.com/vacp2p/de-mls/issues/3
 
 ### Justification
 
 
 ### Deliverables
 
-* specification (RFC) of a secure Ethereum-based chat protocol
+* Engineers implementing the researchers advice on how to proceed with the PoC
 
 
