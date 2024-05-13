@@ -25,7 +25,7 @@ gantt
     Test Automation Sharding:  2024-01-01, 2024-04-30
 ```
 
-- status: 50%
+- status: 100%
 - CC: Roman, Florin, Alex
 
 ### Description
