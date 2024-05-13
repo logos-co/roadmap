@@ -22,7 +22,6 @@ gantt
   tickInterval 1month
   dateFormat YYYY-MM-DD 
   section Status
-    Status-go CLI Testing:  TBD, TBD
 ```
 
 - status: 0%
