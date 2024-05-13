@@ -21,11 +21,11 @@ lastmod: 2024-05-13
 
 ### `rlnp2p:vac:`
 * [x] [[vac/acz/rlnp2p/vac/rln-doc-and-outreach|rln-doc-and-outreach]]
-* [x] [[light-rln-verifiers]]
-* [x] [[rln-light-clients]]
+* [x] [[content/vac/acz/rlnp2p/vac/light-rln-verifiers|light-rln-verifiers]]
+* [x] [[content/vac/acz/rlnp2p/vac/rln-light-clients|rln-light-clients]]
 
 ### `rlnp2p:status:`
-* [ ] [[rln-usage]]
+* [ ] [[content/vac/acz/rlnp2p/status/rln-usage|rln-usage]]
 
 ### `zerokit:vac:`
 * [x] [[vac/acz/zerokit/vac/zerokit-v0-4|zerokit-v0.4]]
@@ -38,7 +38,7 @@ lastmod: 2024-05-13
 * [ ] [[vac/acz/secure-channels/waku/fd-design|fd-design]]
 * [ ] [[vac/acz/secure-channels/waku/fd-poc|fd-poc]]
 
-### `consulting:codex`:
+### `consulting:codex:`
 * [[content/vac/acz/consulting/codex/init|init]]
 
 ### `consulting:nomos:`
@@ -49,7 +49,7 @@ lastmod: 2024-05-13
 
 ### `stealth-address-kit:`
 * [ ] [[content/vac/acz/stealth-address-kit/maintenance|maintenance]]
-* [ ] [[research]]
+* [ ] [[content/vac/acz/stealth-address-kit/research|research]]
 
 ### `validator-privacy:nimbus:`
-- [ ] [[productionize-tor-push]] 
+- [ ] [[content/vac/acz/validator-privacy/nimbus/productionize-tor-push|productionize-tor-push]] 
