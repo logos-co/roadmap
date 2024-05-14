@@ -362,31 +362,46 @@
     <loc>https://roadmap.logos.co/vac/acz/zerokit/vac/zerokit-v0-5</loc>
     <lastmod>2024-04-03T11:12:51.407Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/vac/dr/consensus/nomos/blockchain-security-in-crypto-economic-models</loc>
-    <lastmod>2024-04-03T11:12:51.407Z</lastmod>
+    <loc>https://roadmap.logos.co/vac/dr-ice/consensus/nomos/blockchain-security-in-crypto-economic-models</loc>
+    <lastmod>2024-05-14T09:43:54.016Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/vac/dr/consensus/nomos/carnot-2-3rds-vote-aggregation</loc>
-    <lastmod>2024-04-03T11:12:51.407Z</lastmod>
+    <loc>https://roadmap.logos.co/vac/dr-ice/consensus/nomos/carnot-2-3rds-vote-aggregation</loc>
+    <lastmod>2024-05-14T09:43:54.016Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/vac/dr/consensus/nomos/carnot-bribary-article</loc>
-    <lastmod>2024-04-03T11:12:51.407Z</lastmod>
+    <loc>https://roadmap.logos.co/vac/dr-ice/consensus/nomos/carnot-bribary-article</loc>
+    <lastmod>2024-05-14T09:43:54.016Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/dr-ice/consensus/nomos/carnot-paper_02</loc>
+    <lastmod>2024-05-14T09:43:54.016Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/dr-ice/consensus/nomos/detecting-reporting-attacks-carnot</loc>
+    <lastmod>2024-05-14T09:43:54.016Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/dr-ice/consensus/nomos/inter-chain-protocol</loc>
+    <lastmod>2024-05-14T09:43:54.016Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/dr-ice/consensus/nomos/multi-leader-and-multi-overlay-carnot</loc>
+    <lastmod>2024-05-14T09:43:54.016Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/dr-ice/consensus/nomos/stake-privacy-timing-attacks</loc>
+    <lastmod>2024-05-14T09:43:54.016Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/dr-ice/</loc>
+    <lastmod>2024-05-14T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/dr-ice/valpriv/nomos/validator-privacy</loc>
+    <lastmod>2024-05-14T09:43:54.016Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/dr-ice/valpriv/vac/mix-net-solution</loc>
+    <lastmod>2024-05-14T09:43:54.016Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/dr-ice/valpriv/vac/priv-validator-network</loc>
+    <lastmod>2024-05-14T09:43:54.016Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/dr-ice/valpriv/vac/tor-push-rln</loc>
+    <lastmod>2024-05-14T09:43:54.016Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/vac/dr/consensus/nomos/carnot-paper</loc>
-    <lastmod>2024-04-03T11:12:51.407Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/vac/dr/consensus/nomos/carnot-paper_02</loc>
-    <lastmod>2024-04-03T11:12:51.407Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/vac/dr/consensus/nomos/detecting-reporting-attacks-carnot</loc>
-    <lastmod>2024-04-03T11:12:51.407Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/vac/dr/consensus/nomos/inter-chain-protocol</loc>
-    <lastmod>2024-04-03T11:12:51.407Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/vac/dr/consensus/nomos/multi-leader-and-multi-overlay-carnot</loc>
-    <lastmod>2024-04-03T11:12:51.407Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/vac/dr/consensus/nomos/stake-privacy-timing-attacks</loc>
     <lastmod>2024-04-03T11:12:51.407Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/vac/dr/g/nomos/reviews</loc>
@@ -402,16 +417,7 @@
     <lastmod>2024-04-03T11:12:51.407Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/vac/dr/</loc>
-    <lastmod>2023-09-06T00:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/vac/dr/valpriv/nomos/validator-privacy</loc>
-    <lastmod>2024-04-03T11:12:51.407Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/vac/dr/valpriv/vac/mix-net-solution</loc>
-    <lastmod>2024-04-03T11:12:51.407Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/vac/dr/valpriv/vac/priv-validator-network</loc>
-    <lastmod>2024-04-03T11:12:51.407Z</lastmod>
+    <lastmod>2024-05-14T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/vac/dr/valpriv/vac/tor-push-paper</loc>
     <lastmod>2024-04-03T11:12:51.407Z</lastmod>
@@ -420,9 +426,6 @@
     <lastmod>2024-04-03T11:12:51.407Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/vac/dr/valpriv/vac/tor-push-rel-work</loc>
-    <lastmod>2024-04-03T11:12:51.407Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/vac/dr/valpriv/vac/tor-push-rln</loc>
     <lastmod>2024-04-03T11:12:51.407Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/vac/dr/zk/codex/storage-proofs-open-problems-review</loc>
