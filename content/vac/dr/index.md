@@ -29,4 +29,8 @@ lastmod: 2024-05-14
 * [[ vac/dr/zk/codex/zk-consulting | zk-consulting ]]
 
 ## `vac:dr::nomos:`
-* [[ vac/dr/g/nomos/reviews.md | reviews ]]
+* [[ vac/dr/g/nomos/reviews | reviews ]]
+
+## `vac:dr:anon:vac:`
+* [[ vac/dr/anon/vac/gossipsub-anonymization | gossipsub-anonymization ]]
+
