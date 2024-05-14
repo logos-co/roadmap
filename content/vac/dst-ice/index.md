@@ -19,6 +19,9 @@ lastmod: 2024-05-14
 ### `wakurtosis:vac:`
 * [[vac/dst/wakurtosis/vac/rlog|rlog]]
 
+### `analysis:nomos`
+* [x] [[vac/dst/analysis/nomos/nomos-simulation-analysis|simulation-analysis ]]
+
 ### `analysis-gsub-model:vac`
 * [[vac/dst/analysis-gsub-model/vac/refactoring|refactoring ]]
 
@@ -34,3 +37,4 @@ lastmod: 2024-05-14
 
 ### `dr-support:`
 * [[roadmap/vac/dst/dr-support/vac/carnot-2-3rds-executable-spec|carnot-2-3rds-executable-spec ]]
+

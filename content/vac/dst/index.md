@@ -34,5 +34,3 @@ lastmod: 2024-05-14
 * [[vac/dst/wakurtosis/vac/retrospective-rlog|retrospective-rlog ]]
 * [x] [[vac/dst/wakurtosis/vac/maintenance|maintenance ]]
 
-### `analysis:nomos`
-* [x] [[vac/dst/analysis/nomos/nomos-simulation-analysis|simulation-analysis ]]
