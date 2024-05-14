@@ -1,8 +1,7 @@
 ---
-title: "Waku Protocols"
-description: "Measure and test additional Waku protocol features."
+title: "Simulation Analysis"
 ---
-## `vac:dst:eng-10ktool:waku:waku-protocols`
+## `vac:dst:analysis:nomos:simulation-analysis`
 ---
 
 ```mermaid
@@ -23,25 +22,25 @@ gantt
   tickInterval 1month
   dateFormat YYYY-MM-DD 
   section Status
-    Waku Protocols:  2023-11-01, 2023-12-31
+    Simulation Analysis:  2023-08-01, 2023-09-15
 ```
 
-- status: 0%
-- CC: Alberto
+- status: 100%
+- CC: Ganesh
 
 ### Description
-
-So far, we tested gossip / relay, as well as discv5.
-
-This milestone comprises running further Waku protocols, namely:
-* filter
-* lightpush
-* store
-* peer exchange
 
 
 ### Justification
 
+### Info
+
+Extended:
+* include signature aggregation into analysis
+* write analysis section in Carnot paper
+
+* [nomos node](https://github.com/logos-co/nomos-node)
+* [nomos simulations](https://github.com/logos-co/nomos-simulations)
 
 ### Deliverables
 
