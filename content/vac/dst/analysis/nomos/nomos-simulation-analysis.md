@@ -25,7 +25,7 @@ gantt
     Simulation Analysis:  2023-08-01, 2023-09-15
 ```
 
-- status: 70%
+- status: 100%
 - CC: Ganesh
 
 ### Description
