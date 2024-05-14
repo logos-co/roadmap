@@ -32,5 +32,5 @@ lastmod: 2024-05-14
 * [[ vac/dr/g/nomos/reviews | reviews ]]
 
 ## `vac:dr:anon:vac:`
-* [[ vac/dr/anon/vac/gossipsub-anonymization | gossipsub-anonymization ]]
+* [[ vac/dr/anon/vac/gossipsub-anonymity | gossipsub-anonymity ]]
 
