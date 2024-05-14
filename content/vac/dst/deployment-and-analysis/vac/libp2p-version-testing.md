@@ -32,10 +32,18 @@ gantt
 ### Description
 
 The Vac P2P team is transitioning nim-libp2p to a monthly release cycle.
-Our approach involves selecting a commit hash to designate as the monthly version a week prior to release. 
-DST will conduct stability tests on this version (with additional testing in Nomos and Waku test fleets outside of the DST scope). 
-Our aim is to increasingly automate this process. 
-The next round of testing is scheduled for the end of May, targeting the beginning of June.
+This process involves selecting a commit hash to designate as the monthly version a week prior to release. 
+
+DST will conduct stability tests on this version.
+This also comprises analysing results as well as identifying and pinpointing bugs if any arise.
+Specific issues might require several test runs and thorough analysis.
+
+Our aim is to increasingly automate this process.
+
+Additional testing outside the scope of DST and this milestone comprises:
+
+* testing on a Nimbus test fleet
+* testing on a Waku test fleet
 
 ### Justification
 
