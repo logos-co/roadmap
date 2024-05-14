@@ -18,7 +18,6 @@ lastmod: 2024-05-14
 
 ### `wakurtosis:vac:`
 * [[vac/dst/wakurtosis/vac/rlog|rlog]]
-* [[vac/dst/wakurtosis/vac/retrospective-rlog|retrospective-rlog ]]
 
 ### `analysis-gsub-model:vac`
 * [[vac/dst/analysis-gsub-model/vac/refactoring|refactoring ]]
