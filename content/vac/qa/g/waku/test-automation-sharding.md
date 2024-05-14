@@ -25,7 +25,7 @@ gantt
     Test Automation Sharding:  2024-01-01, 2024-04-30
 ```
 
-- status: 50%
+- status: 100%
 - CC: Roman, Florin, Alex
 
 ### Description
@@ -40,3 +40,15 @@ gantt
 
 
 ### Deliverables
+- gowaku:
+  - https://github.com/waku-org/go-waku/commit/a453c027b71cbf8d1b01d009e769d1b7d0faa8b5
+
+- interop:
+  - https://github.com/waku-org/waku-interop-tests/tree/master/tests/sharding
+
+- js-waku:
+  - https://github.com/waku-org/js-waku/tree/master/packages/tests/tests/sharding
+  - https://github.com/waku-org/js-waku/blob/master/packages/utils/src/common/sharding.spec.ts
+
+- nwaku:
+  - https://github.com/waku-org/nwaku/pull/2603
