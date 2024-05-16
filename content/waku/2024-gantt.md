@@ -70,9 +70,10 @@ gantt
         Investigation and fixing of bugs discovered during dogfooding/usage/simulations: go-bugs-2, after count-store-msg, 8w
     section golang eng 5
         DoS protection for req-res protocols (go-waku client only): crit, dosreqresg, 2024-05-20, 4w
-        (telemetry) direct message reliability: telem-d-msg-rel, 2024-06-17, 6w
-        (telemetry) Multicast message reliability: telem-m-msg-rel, after telem-d-msg-rel, 4w
-        (telemetry) Measure Bandwidth: telem-bandwidth, after telem-m-msg-rel, 8w
+        (telemetry) Multicast message reliability: telem-m-msg-rel, after dosreqresg, 4w
+    section golang eng 6
+        (telemetry) direct message reliability: telem-d-msg-rel, 2024-05-13, 6w
+        (telemetry) Measure Bandwidth: telem-bandwidth, after telem-d-msg-rel, 8w
     section test eng 1
         Peer and connection management tests: sim-conn-mgmt, 2024-05-13, 4w
         (simulation) Functionality and stress test store v3: sim-storev3, after sim-conn-mgmt, 4w
@@ -94,12 +95,18 @@ gantt
     section nim eng 2
         DoS Protection for Req-Res Protocols: crit, dosreqresn, 2024-02-01, 18w
         Store v3-beta + v3 (dogfooding placeholder):  storev3-df, after storev3-br storev3-r, 4w
-        Store v3-beta + v3 (nwaku hardening): crit, storev3-n, after storev3-df dosreqresn, 3w
+        %% More hardening expected to deprecate or separate store v2 from v3 driver
+        TBC Store v3-beta + v3 (nwaku hardening): crit, storev3-n, after storev3-df dosreqresn, 3w
         (telemetry) Fleet logging: telem-fleet-logging, after dosreqresn, 4w
     section nim eng 3
         Sharding peer mgmt and discovery hardening (nwaku): crit, sh-peer-mgmt-n, 2024-05-13, 12w
     section js eng 1
         Reliability for Req-Res Protocols (light client + RFC): crit, rel-reqres-j, 2024-05-01, 12w
     section js eng 2
+        %% Buidling idle apps and integrating in telemetry service to learn
+        Reliability for Req-Res Protocols (light client + RFC): crit, rel-reqres-j, 2024-05-01, 12w
         Sharding peer mgmt and discovery hardening (light client + RFC): crit, sh-peer-mgmt-j, 2024-06-01, 12w
+    section js eng 3 (dev rel)
+        %% TBC timing and estimate
+        TBC User apps for large scale dogfooding - GUI and Gamification: user-app-gui, 2024-06-01, 4w
 ```
