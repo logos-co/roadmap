@@ -19,7 +19,6 @@ Anything prefixed `TBC` is pending confirmation of estimate with the team.
 gantt
     dateFormat YYYY-MM-DD
     axisFormat %d-%b
-    tickInterval 1week
     weekday monday
     
 %% Milestones overview with deliverables
