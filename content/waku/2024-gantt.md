@@ -10,10 +10,9 @@ Colour legend:
 - **Red**: engineering work to deliver the feature.
 - Other: test and telemetry work to ensure quality
 
-golang engineers: working on status-go/go-waku
-nim engineers: working on nwaku, may be a CC from research team too.
-
 Anything prefixed `TBC` is pending confirmation of estimate with the team.
+
+Completion dates are delivery of the code + **dogfooding**.
 
 ```mermaid
 gantt
