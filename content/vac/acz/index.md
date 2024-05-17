@@ -18,6 +18,7 @@ lastmod: 2024-05-13
 * [[vac/acz/rlnp2p/waku/rln-relay-erc20|rln-relay-erc20]]
 - [x] [[vac/acz/rlnp2p/waku/rlnv2-relay-integration|rlnv2-relay-integration]]
 * [x] [[vac/acz/rlnp2p/waku/rln-multi-epoch-constraints|rln-multi-epoch-constraints]]
+* [ ] [[vac/acz/rlnp2p/waku/rlnv2-e2e|rlnv2-e2e]]
 
 ### `rlnp2p:vac:`
 * [x] [[vac/acz/rlnp2p/vac/rln-doc-and-outreach|rln-doc-and-outreach]]
