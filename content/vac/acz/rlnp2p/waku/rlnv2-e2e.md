@@ -2,7 +2,7 @@
 title: RLN v2 E2E integration
 ---
 
-## `vac:acz:rlnp2p::waku:rlnv2-e2e`
+## `vac:acz:rlnp2p:waku:rlnv2-e2e`
 ---
 
 ```mermaid

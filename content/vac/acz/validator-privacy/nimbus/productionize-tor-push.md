@@ -1,7 +1,7 @@
 ---
 title: Productionize Tor Push in Nimbus
 ---
-## `vac:acz:validator-privacy:acz:productionize-tor-push`
+## `vac:acz:validator-privacy:nimbus:productionize-tor-push`
 ---
 
 ```mermaid

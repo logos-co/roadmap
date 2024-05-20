@@ -48,7 +48,7 @@ lastmod: 2024-05-13
 ### `consulting:nes:`
 * [ ] [[vac/acz/consulting/nescience/zk-consulting|zk-consulting]]
 
-### `stealth-address-kit:`
+### `stealth-address-kit:vac:` 
 * [ ] [[vac/acz/stealth-address-kit/maintenance|maintenance]]
 * [ ] [[vac/acz/stealth-address-kit/research|research]]
 
