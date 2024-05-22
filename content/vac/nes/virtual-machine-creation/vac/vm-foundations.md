@@ -25,7 +25,7 @@ gantt
     VM Foundations: 2024-03-01, 2024-12-31
 ```
 
-- status: 70%
+- status: 20%
 - CC: team
 
 ### Description
