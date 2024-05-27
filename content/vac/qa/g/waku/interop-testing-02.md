@@ -1,7 +1,7 @@
 ---
 title: "Interop Testing Part 2"
 ---
-## `vac:qa::waku:interop-testing-p2`
+## `vac:qa::waku:interop-testing-02`
 ---
 
 ```mermaid
@@ -22,7 +22,7 @@ gantt
   tickInterval 1month
   dateFormat YYYY-MM-DD 
   section Status
-    Interop Testing P2:  2024-07-01, 2024-12-31
+    Interop Testing Part 2:  2024-07-01, 2024-12-31
 ```
 
 - status: 0%
