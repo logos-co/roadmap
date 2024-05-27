@@ -4,7 +4,7 @@ tags:
 - dst
 - vac
 date: 2024-02-06
-lastmod: 2024-05-13
+lastmod: 2024-05-27
 ---
 
 ## `vac:qa::`
@@ -19,7 +19,8 @@ lastmod: 2024-05-13
 * [[vac/qa/g/waku/test-automation-rln|test-automation-rln ]]
 * [x] [[vac/qa/g/waku/test-automation-sharding|test-automation-sharding ]]
 * [x] [[vac/qa/g/waku/test-automation-go-waku|test-automation-go-waku ]]
-* [[vac/qa/g/waku/interop-testing|interop-testing ]]
+* [x] [[vac/qa/g/waku/interop-testing|interop-testing P1 ]]
+* [[vac/qa/g/waku/interop-testing|interop-testing-P2 ]]
 * [[vac/qa/g/waku/maintenance-js-waku|maintenance-js-waku ]]
 * [[vac/qa/g/waku/maintenance-nwaku|maintenance-nwaku ]]
 * [[vac/qa/g/waku/maintenance-go-waku|maintenance-go-nwaku ]]
