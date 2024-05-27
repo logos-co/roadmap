@@ -40,7 +40,7 @@ lastmod: 2024-05-13
 * [ ] [[vac/acz/secure-channels/waku/fd-poc|fd-poc]]
 
 ### `consulting:codex:`
-* [[vac/acz/consulting/codex/init|init]]
+* [[proxy-re-encryption|proxy-re-encryption]]
 
 ### `consulting:nomos:`
 * [[vac/acz/consulting/nomos/init|init]]
