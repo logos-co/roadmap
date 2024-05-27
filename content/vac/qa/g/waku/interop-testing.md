@@ -34,7 +34,7 @@ Create an interop testing framework that can run Waku nodes and cover it's
 
 * filter
 * lightpush
-* store
+* store (incl. store v3)
 * relay
 * nwaku <> go-waku interop
 * ci integrations
