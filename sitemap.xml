@@ -599,8 +599,11 @@
     <loc>https://roadmap.logos.co/vac/qa/g/vac/test-automation-nim-libp2p</loc>
     <lastmod>2024-04-03T11:12:51.407Z</lastmod>
   </url><url>
+    <loc>https://roadmap.logos.co/vac/qa/g/waku/interop-testing-02</loc>
+    <lastmod>2024-05-27T13:33:37.630Z</lastmod>
+  </url><url>
     <loc>https://roadmap.logos.co/vac/qa/g/waku/interop-testing</loc>
-    <lastmod>2024-04-03T11:12:51.407Z</lastmod>
+    <lastmod>2024-05-27T13:33:37.630Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/vac/qa/g/waku/maintenance-go-waku</loc>
     <lastmod>2024-04-03T11:12:51.407Z</lastmod>
@@ -642,7 +645,7 @@
     <lastmod>2024-04-03T11:12:51.407Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/vac/qa/</loc>
-    <lastmod>2024-05-13T00:00:00.000Z</lastmod>
+    <lastmod>2024-05-27T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/vac/rfc/</loc>
     <lastmod>2024-05-03T00:00:00.000Z</lastmod>
