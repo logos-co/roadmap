@@ -1,5 +1,5 @@
 ---
-title: "Interop Testing Part 1"
+title: "Interop Testing"
 ---
 ## `vac:qa::waku:interop-testing`
 ---
@@ -22,7 +22,7 @@ gantt
   tickInterval 1month
   dateFormat YYYY-MM-DD 
   section Status
-    Interop Testing Part 1:  2023-09-01, 2024-04-30
+    Interop Testing:  2023-09-01, 2024-04-30
 ```
 
 - status: 100%
