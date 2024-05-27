@@ -20,22 +20,21 @@ title: Zerokit v0.5 Release
 gantt
   tickInterval 1month
 	dateFormat YYYY-MM-DD
-	section zerokit
-		v0.5 Release: 2023-10-01, 2024-02-29
+	section Status
+		v0.5 Release: 2023-10-01, 2024-06-01
 ```
-- status: 5%
-- CC: Aaryamann
-
+- status: 70%
+- CCs: 
+	- Ekaterina
+	- Aaryamann
 ### Description
 
-* Release Planning issue:
-
-* main focus: RLN performance improvements
-  - explore using kzg proofs
+* Release Planning issue: https://github.com/vacp2p/zerokit/issues/237
 
 ### Deliverables
 
-
-### Info
-
-* We have a benchmarking suite done
+- [x] https://github.com/vacp2p/zerokit/pull/239
+- [x] https://github.com/vacp2p/zerokit/pull/242
+- [x] https://github.com/vacp2p/zerokit/pull/243
+- [x] https://github.com/vacp2p/zerokit/pull/245
+- [x] https://github.com/vacp2p/zerokit/pull/246
