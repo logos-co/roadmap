@@ -22,7 +22,7 @@ gantt
   tickInterval 1month
   dateFormat YYYY-MM-DD 
   section Status
-    Interop Testing:  2023-09-01, 2024-04-30
+    Interop Testing P1:  2023-09-01, 2024-04-30
 ```
 
 - status: 100%
