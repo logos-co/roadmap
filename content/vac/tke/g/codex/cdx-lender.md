@@ -1,7 +1,7 @@
 ---
-title: "Analysis of the Codex Token"
+title: "Codex Lender Analysis"
 ---
-### `vac:tke::codex:cdx`
+### `vac:tke::codex:cdx-insurance`
 ---
 
 ```mermaid
@@ -21,17 +21,17 @@ title: "Analysis of the Codex Token"
 gantt
 	dateFormat YYYY-MM-DD
 	section Codex
-		CDX :, 2024-02-01, 2024-07-01
+		Lender :, 2024-05-01, 2024-07-01
 ```
 
 - status: 90%
-- CC: Frederico
+- CC: Juan
 
 ### Description
-Codex token as utility token for all participants (collateral and payment), impact on system security.
+Design and modeling of the lender role
 
 ### Justification
-Development of Codex own utility token. As part of the Codex Technical Milestone #5 ("Tokenomics").
+Understand the roles that impact the performance and security of the protocol. As part of the Codex Technical Milestone #5 ("Tokenomics").
 
 ### Resources Required
 1 CC working at 50% rate; no external service or special infrastructure required.
@@ -44,8 +44,9 @@ Development of Codex own utility token. As part of the Codex Technical Milestone
 Completion of the respective sections in the Codex Litepaper and Whitepaper.
 
 ### Work breakdown
-- Definition and analysis of Codex economy
-- CDX as utility token for all participants (collateral and payment).
+- Definition of insurance role.
+- Analysis of CDX impact on system security.
+- Comparison against protocols which don’t have any embeeded stabilization mechanism.
 
 ### Perceived Risks
 Technical and legal constraints.
