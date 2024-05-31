@@ -1,7 +1,7 @@
 ---
-title: "Codex Proof Aggregators"
+title: "Codex Tax System"
 ---
-### `vac:tke::codex:proof-aggregators`
+### `vac:tke::codex:tax-system`
 ---
 
 ```mermaid
@@ -21,14 +21,14 @@ title: "Codex Proof Aggregators"
 gantt
 	dateFormat YYYY-MM-DD
 	section Codex
-		Proof Aggregators :, 2024-07-01, 2024-10-01
+		Tax System :, 2024-07-01, 2024-10-01
 ```
 
 - status: 10%
 - CC: Frederico
 
 ### Description
-Economics of the proof aggregator (incentives, costs, pricing).
+
 
 ### Justification
 As part of Codex Technical Milestones #1 ("Proof Aggregation") and #2 ("Aggregator Network").
@@ -47,10 +47,9 @@ As part of Codex Technical Milestones #1 ("Proof Aggregation") and #2 ("Aggregat
 - Agreement with Codex team and stakeholders
 
 ### Work breakdown
-- Definition of the Proof Aggregator role
-- Analysis of PA costs and pricing
-- Definition of the Proof Aggregation economy
-- Analysis of the interactions between PAs
+- Definition of a tax system
+- Analysis of the application of taxes
+- Analysis of CDX price stability
 
 ### Perceived Risks
 Technical and legal constraints.
