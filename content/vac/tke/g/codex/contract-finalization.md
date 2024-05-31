@@ -21,7 +21,7 @@ title: "Codex Contract Finalization"
 gantt
 	dateFormat YYYY-MM-DD
 	section Codex
-		Tax System :, 2024-10-01, 2025-01-01
+		Contract Finalization :, 2024-10-01, 2025-01-01
 ```
 
 - status: 0%
