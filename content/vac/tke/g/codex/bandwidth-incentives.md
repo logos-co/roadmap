@@ -4,6 +4,26 @@ title: "Codex Bandwidth Incentives"
 ### `vac:tke::codex:bandwidth-incentives`
 ---
 
+```mermaid
+%%{ 
+  init: { 
+    'theme': 'base', 
+    'themeVariables': { 
+      'primaryColor': '#BB2528', 
+      'primaryTextColor': '#fff', 
+      'primaryBorderColor': '#7C0000', 
+      'lineColor': '#F8B229', 
+      'secondaryColor': '#006100', 
+      'tertiaryColor': '#fff' 
+    } 
+  } 
+}%%
+gantt
+	dateFormat YYYY-MM-DD
+	section Codex
+		Bandwidth Incentives :, 2025-01-01, 2025-07-01
+```
+
 - status: 0%
 - CC: Frederico
 
@@ -11,5 +31,25 @@ title: "Codex Bandwidth Incentives"
 TBD
 
 ### Justification
-TBD
+As part of Codex Technical Milestones #4 ("Bandwidth Incentives").
 
+### Resources Required
+- 1 CC working at 50% rate
+- no external service required
+- no special infrastructure required
+
+### Deliverables
+- Modeling and Simulations
+- Report 
+
+### Tracking Metrics
+- Timely delivery of the report
+- Agreement with Codex team and stakeholders
+
+### Work breakdown
+- Review of Bandwidth Provider role
+- Analysis of Bandwidth Provider costs, pricing, behavior and expectations
+- Economics and game theoretical analyses of the Bandwidth Providers
+
+### Perceived Risks
+Technical and legal constraints.
