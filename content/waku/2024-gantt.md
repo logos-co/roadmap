@@ -32,6 +32,7 @@ gantt
     section Direct Message Reliability
         (testing) direct messages: milestone, after test-direct-msg, 0
         Review connection management: crit, milestone, after review-conn-mgmt-1 review-conn-mgmt-2, 0
+        (tooling) filter and light push protocols: milestone, after lite-proto-tester, 0
         (telemetry) Fleet logging: milestone, after telem-fleet-logging, 0
         (telemetry) direct message reliability: milestone, after telem-d-msg-rel, 0
         Reliability Protocol for Relay: crit, milestone, after rel-relay-g rel-relay-n, 0
@@ -95,6 +96,7 @@ gantt
         Reliability Protocol for Relay (nwaku + RFC): crit, rel-relay-n, 2024-05-13, 12w
     section nim eng 2
         DoS Protection for Req-Res Protocols: crit, dosreqresn, 2024-02-01, 18w
+        (tooling) filter and light push protocols: lite-proto-tester, 2024-05-13, 2024-07-03
         Store v3-beta + v3 (dogfooding placeholder):  storev3-df, after storev3-br storev3-r, 4w
         %% More hardening expected to deprecate or separate store v2 from v3 driver
         TBC Store v3-beta + v3 (nwaku hardening): crit, storev3-n, after storev3-df dosreqresn, 3w
