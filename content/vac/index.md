@@ -23,11 +23,12 @@ title: Vac Roadmap
 - `qa:` [[vac/qa/index|Quality Assurance]]
 - `acz:` [[vac/acz/index| Applied Cryptography and Zero-knowledge]]
 - `sc:` [[vac/sc/index| Smart Contracts]]
+- `nim:` [[vac/nim/index|Nim]]
+- `rfc:` [[vac/rfc/index|RFC (Specifications)]] 
 
-#### Vac Core
+#### Deep Research
 
 - `dr:` [[vac/dr/index|Deep Research]]
-- `rfc:` [[vac/rfc/index|RFC Process and Maintenance]] 
 
 #### Incubator Projects
 
