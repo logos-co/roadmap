@@ -93,7 +93,7 @@ gantt
         Peer mgmt - follow-up: after storev3-r, 8w
     section nim eng 1
         PostgreSQL Maintenance: crit, pgsql, 2024-01-01, 2024-07-31
-        Reliability Protocol for Relay (nwaku + RFC): crit, rel-relay-n, 2024-05-13, 12w
+        Reliability Protocol for Relay (nwaku + RFC): crit, rel-relay-n, 2024-06-19, 12w
     section nim eng 2
         DoS Protection for Req-Res Protocols: crit, dosreqresn, 2024-02-01, 18w
         (tooling) filter and light push protocols: lite-proto-tester, 2024-05-13, 2024-07-03
