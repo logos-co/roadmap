@@ -33,9 +33,6 @@ Codex token as utility token for all participants (collateral and payment), impa
 ### Justification
 Development of Codex own utility token. As part of the Codex Technical Milestone #5 ("Tokenomics").
 
-### Resources Required
-1 CC working at 50% rate; no external service or special infrastructure required.
-
 ### Deliverables
 - Three chapters of the Codex Litepaper (Use Cases, Contract Lifecycle, and CDX Tokenomics)
 - One section of the Codex Whitepaper (CDX Tokenomics)

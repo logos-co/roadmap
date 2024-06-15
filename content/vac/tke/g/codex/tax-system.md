@@ -33,11 +33,6 @@ gantt
 ### Justification
 As part of Codex Technical Milestones #1 ("Proof Aggregation") and #2 ("Aggregator Network").
 
-### Resources Required
-- 1 CC working at 50% rate
-- no external service required
-- no special infrastructure required
-
 ### Deliverables
 - Modeling and Simulations
 - Report 

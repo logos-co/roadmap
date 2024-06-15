@@ -33,9 +33,6 @@ Design and modeling of the lender role
 ### Justification
 Understand the roles that impact the performance and security of the protocol. As part of the Codex Technical Milestone #5 ("Tokenomics").
 
-### Resources Required
-1 CC working at 50% rate; no external service or special infrastructure required.
-
 ### Deliverables
 - Three chapters of the Codex Litepaper (Use Cases, Contract Lifecycle, and CDX Tokenomics)
 - One section of the Codex Whitepaper (CDX Tokenomics)

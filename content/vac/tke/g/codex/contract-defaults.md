@@ -33,11 +33,6 @@ Design of the systemic slashing mechanism.
 ### Justification
 As part of Codex Technical Milestones #3 ("Marketplace Interactions").
 
-### Resources Required
-- 1 CC working at 50% rate
-- no external service required
-- no special infrastructure required
-
 ### Deliverables
 - Modeling and Simulations
 - Report 

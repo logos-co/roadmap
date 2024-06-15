@@ -33,9 +33,6 @@ Design incentives for testnet.
 ### Justification
 As part of Codex Production Milestone #4 (Codex v1 Mainnet Launch)
 
-### Resources Required
-1 CC working at 50% rate; no external service or special infrastructure required.
-
 ### Deliverables
 Report with analyses of incentives and expected consequences
 
