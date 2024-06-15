@@ -21,7 +21,7 @@ title: "Codex Recovery Auction"
 gantt
 	dateFormat YYYY-MM-DD
 	section Codex
-		Recovery Auction :, 2024-10-01, 2025-01-01
+		Recovery Auction :, 2024-10-01, 2024-12-31
 ```
 
 - status: 0%
