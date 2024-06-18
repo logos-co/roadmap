@@ -24,17 +24,17 @@ gantt
 		Incentivized Tesnet :, 2024-06-01, 2024-07-01
 ```
 
-- status: 0%
+- status: 40%
 - CC: Frederico, Martin, Juan
 
 ### Description
 Design incentives for testnet.
 
 ### Justification
-As part of Codex Production Milestone #4 (Codex v1 Mainnet Launch)
+As part of Codex Production Milestone #4 (Codex v1 Mainnet Launch).
 
 ### Deliverables
-Report with analyses of incentives and expected consequences
+Report with analyses of incentives and expected consequences.
 
 ### Tracking Metrics
 Delivery of the report, and agreement with team and stakeholders.

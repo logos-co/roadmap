@@ -34,8 +34,8 @@ SPs & Users obligations, data retrieval incentives, collateral retrieval, contra
 As part of the contract finalization process. As part of Codex Technical Milestones #3 ("Marketplace Interactions").
 
 ### Deliverables
-- Modeling and Simulations
-- Report 
+- Modeling and Simulations of the data retrieval process
+- One section of the Codex Litepaper "Modeling" chapter (the milestones [contract-initiation](contract-initiation.md), [contract-matching](contract-matching.md), [contract-defaults](contract-defaults.md), [proof-aggregators](proof-aggregators.md), [recovery-auction](recovery-auction.md), [slot-repair](slot-repair.md), and [tax-system](tax-system.md) cover the remaining parts of this chapter).
 
 ### Tracking Metrics
 - Timely delivery of the report

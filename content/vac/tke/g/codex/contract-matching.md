@@ -34,8 +34,8 @@ Define how slots are reserved and filled.
 As part of the slot reservation mechanism. As part of Codex Technical Milestones #3 ("Marketplace Interactions").
 
 ### Deliverables
-- Modeling and Simulations
-- Report 
+- Modeling and Simulations of the slot reservation mechanism
+- One section of the Codex Litepaper "Modeling" chapter (the milestones [contract-initiation](contract-initiation.md), [contract-defaults](contract-defaults.md), [contract-finalization](contract-finalization.md), [proof-aggregators](proof-aggregators.md), [recovery-auction](recovery-auction.md), [slot-repair](slot-repair.md), and [tax-system](tax-system.md) cover the remaining parts of this chapter).
 
 ### Tracking Metrics
 - Timely delivery of the report

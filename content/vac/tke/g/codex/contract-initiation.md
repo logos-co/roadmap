@@ -34,8 +34,8 @@ Mechanics of Codex contract initiation.
 As part of Codex Technical Milestones #3 ("Marketplace Interactions").
 
 ### Deliverables
-- Modeling and Simulations
-- Report 
+- Modeling and Simulations of the Client behavior
+- One section of the Codex Litepaper "Modeling" chapter (the milestones [contract-matching](contract-matching.md), [contract-defaults](contract-defaults.md), [contract-finalization](contract-finalization.md), [proof-aggregators](proof-aggregators.md), [recovery-auction](recovery-auction.md), [slot-repair](slot-repair.md), and [tax-system](tax-system.md) cover the remaining parts of this chapter).
 
 ### Tracking Metrics
 - Timely delivery of the report

@@ -35,7 +35,7 @@ As part of Codex Technical Milestones #4 ("Bandwidth Incentives").
 
 ### Deliverables
 - Modeling and Simulations
-- Report 
+- Report
 
 ### Tracking Metrics
 - Timely delivery of the report
