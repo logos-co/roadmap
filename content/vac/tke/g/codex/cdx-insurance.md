@@ -24,7 +24,7 @@ gantt
 		Insurance Mechanism :, 2024-02-01, 2024-07-01
 ```
 
-- status: 40%
+- status: 95%
 - CC: Frederico, Juan
 
 ### Description
@@ -34,7 +34,7 @@ Mechanisms to make the system more stable
 Understand the roles that impact the performance and security of the protocol. As part of the Codex Technical Milestone #5 ("Tokenomics").
 
 ### Deliverables
-- Three chapters of the Codex Litepaper (Use Cases, Contract Lifecycle, and CDX Tokenomics)
+- Specific parts of three chapters of the Codex Litepaper (Use Cases, Contract Lifecycle, and CDX Tokenomics) (the milestones [cdx](cdx.md), [cdx-fees](cdx-fees.md), and [cdx-lender](cdx-lender.md) cover the remaining parts of these chapters).
 - One section of the Codex Whitepaper (CDX Tokenomics)
 
 ### Tracking Metrics

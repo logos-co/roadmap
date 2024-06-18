@@ -24,7 +24,7 @@ gantt
 		Fees :, 2024-02-01, 2024-07-01
 ```
 
-- status: 90%
+- status: 95%
 - CC: Frederico
 
 ### Description
@@ -34,7 +34,7 @@ Understand the mechanisms to implement protocol fees, e.g. burn-and-mint equilib
 Understand the security of the system. As part of the Codex Technical Milestone #5 ("Tokenomics").
 
 ### Deliverables
-- Three chapters of the Codex Litepaper (Use Cases, Contract Lifecycle, and CDX Tokenomics)
+- Specific parts of three chapters of the Codex Litepaper (Use Cases, Contract Lifecycle, and CDX Tokenomics) (the milestones [cdx](cdx.md), [cdx-insurance](cdx-insurance.md), and [cdx-lender](cdx-lender.md) cover the remaining parts of these chapters).
 - One section of the Codex Whitepaper (CDX Tokenomics)
 
 ### Tracking Metrics
