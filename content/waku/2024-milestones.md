@@ -4,19 +4,21 @@ date: 2024-06-04
 ---
 ## Gantt Chart
 
-[[content/waku/2024-gantt]]
+[[waku/2024-gantt]]
 
 ## Milestones and Deliverables
 
 ### Store Service Upgrade
 
 https://github.com/waku-org/pm/milestone/27
+
 Due Date: 2024-09-20
 
 With this milestone, the store protocol becomes more easily usable for reliability purposes.
 Moreover, nwaku PostgreSQL implementation will enable better disk space management and enable operators to hard cap the used disk space.
 
 ### Direct Message Reliability
+
 Due Date: 2024-09-02
 
 https://github.com/waku-org/pm/milestone/28
@@ -29,6 +31,7 @@ Review of MVDS usage for all direct messages is done to ensure that critical mes
 ### End-to-end reliability protocol
 
 https://github.com/waku-org/pm/milestone/29
+
 Due Date: 2024-09-02
 
 To solve reliability is to solve two problems:
@@ -46,6 +49,7 @@ This protocol will be specified and implemented in the Status app for Status Com
 ### Static Sharding - dedicated shards
 
 https://github.com/waku-org/pm/milestone/30
+
 Due Date: 2024-09-30
 
 Creating a new community on its dedicated shard would be tested and working, including assigning a pre-shared key for opt-in message signing (weak DoS protection).
@@ -59,6 +63,7 @@ Finally, telemetry service will be updated to include bandwidth usage statistics
 ### Bandwidth optimization and protocol review
 
 https://github.com/waku-org/pm/milestone/31
+
 Due Date: TBD
 
 Bandwidth measurement from the previous milestone may lead to improvement that should be tackled with this milestone. This should be done in tandem with tackling low-hanging/high value items of the [Status Community protocols potential scaling problems](https://github.com/vacp2p/research/issues/177).
@@ -68,6 +73,7 @@ Finally, usage of content topics should be reviewed to align with Waku’s recom
 ### Scale up number of Communities
 
 https://github.com/waku-org/pm/milestone/32
+
 Due Date: TBD
 
 Proceed with next steps to scale up the number of communities with a focus on testing and configure rendezvous which would enable a large number of communities on their own shard, with the caveat of a more federated global topology.
@@ -78,6 +84,7 @@ Also proceed with enhancing of the current decentralised discovery protocol to p
 ### Nwaku in Status Desktop (Relay, *nix)
 
 https://github.com/waku-org/pm/milestone/33
+
 Due Date: TBD
 
 With this milestone, Status Desktop builds on Linux and Mac can use nwaku instead of go-waku.
@@ -86,6 +93,7 @@ Go-waku will still be used for Windows (Desktop) and Status Mobile.
 ### Scale 1:1 chat messages PoC
 
 https://github.com/waku-org/pm/milestone/34
+
 Due Date: 2024-11-30
 
 Improved flexibility of the rate limit (from 1 msg/epoch to N msg/epoch), providing better dimensioning for bandwidth capping.
