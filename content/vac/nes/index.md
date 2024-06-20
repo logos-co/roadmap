@@ -22,6 +22,7 @@ lastmod: 2024-06-20
 
 ### `vac:nes:zkvm`
 * [[vac/nes/zkvm/vac/vm-foundations|vm-foundations ]]
+* [[vac/nes/zkvm/vac/vm-ecosystem|vm-ecosystem ]]
 
 
 

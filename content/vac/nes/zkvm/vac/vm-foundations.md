@@ -1,7 +1,7 @@
 ---
 title: "VM Foundations"
 ---
-## `vac:nes:virtual-machine-creation:vac:vm-foundations`
+## `vac:nes:zkvm:vac:vm-foundations`
 ---
 
 ```mermaid
@@ -58,14 +58,14 @@ The focus of this milestone is on the significant adaptation of a Zero-Knowledge
   * Detailed documentation on performance metrics and comparative analysis with existing systems.
 
 
-* Sub Milestone 4: Deployment and Real-World Application Testing
+* Sub Milestone 4 (2025): Deployment and Real-World Application Testing
 
   **Work Breakdown:** Deploy the privacy-centric zkVM in a controlled environment and test its real-world applicability and performance, focusing on privacy-preserving computations.
   
   **Deliverables:** An outline for deploying the zkVM in a test env, including infrastructure and security considerations, along with results of testings focusing on ptivacy preservation.
   
 
-* Sub Milestone 5: Community Engagement and Open-Source Contributions
+* Sub Milestone 5 (2025): Community Engagement and Open-Source Contributions
 
   **Work Breakdown:** Engage with the cryptographic and privacy communities and teams within the organization to gather feedback, share insights, and contribute to the open-source ecosystem, fostering wider adoption and collaboration.
   
