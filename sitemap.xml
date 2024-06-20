@@ -584,20 +584,8 @@
     <loc>https://roadmap.logos.co/vac/nes/virtual-machine-creation/vac/vm-foundations</loc>
     <lastmod>2024-05-22T14:51:15.593Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/vac/nim/core-libs/compiler</loc>
-    <lastmod>2024-06-18T15:55:31.250Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/vac/nim/core-libs/editor</loc>
-    <lastmod>2024-06-18T15:55:31.250Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/vac/nim/core-libs/lsp</loc>
-    <lastmod>2024-06-18T15:55:31.250Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/vac/nim/core-libs/nim-suggest</loc>
-    <lastmod>2024-06-18T15:55:31.250Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/vac/nim/core-libs/nimble</loc>
-    <lastmod>2024-06-18T15:55:31.250Z</lastmod>
+    <loc>https://roadmap.logos.co/vac/nim/core-libs/vac/chronos-maintainance</loc>
+    <lastmod>2024-06-20T15:57:59.165Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/vac/nim/</loc>
     <lastmod>2024-06-18T00:00:00.000Z</lastmod>
@@ -607,6 +595,9 @@
   </url><url>
     <loc>https://roadmap.logos.co/vac/nim/tooling/vac/editor</loc>
     <lastmod>2024-06-18T15:55:31.250Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/nim/tooling/vac/lsp</loc>
+    <lastmod>2024-06-20T15:57:59.165Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/vac/nim/tooling/vac/nim-suggest</loc>
     <lastmod>2024-06-18T15:55:31.250Z</lastmod>
