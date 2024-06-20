@@ -120,15 +120,11 @@ focusing on privacy enhancement, we can break down the milestone into distinct s
 
   **Deliverables:** A prototype showcasing the implementation of decoy inputs, accompanied by evaluation results highlighting their impact on privacy enhancement.
   
-* Sub Milestone 4 (Q4 2024): TDAG & PDAG Integration for Privacy Enhancement 
+* Sub Milestone 4 (Q4 2024): Nescience devnet deployment
 
-  **Work Breakdown:** Use Transaction Directed Acyclic Graphs (TDAGS) and Private Directed Acyclic Graphs (PDAGs) for a comparative analysis of the Nescience architecture's privacy features. The main idea is to implement PDAGs to improve unlinkability and untraceability within the project, enhancing privacy features. This can be done by developing and integrating PDAG structure, oncluding data structures, algorithms and the integration mechanism with the existing system; by conducting thorough testing of the PDAG implementation to identify issues or areas of improvements; and by monitoring its performance and impact on privacy enhancement.
-
-  **Deliverables:**
-    * Report on PDAG reearch and analysis.
-    * PDAG integration technical specifications and design documents.
-    * A functioning PDAG implementation with testing reports.
-    * Documentation on PDAG privacy improvements and security analysis.
+  **Work Breakdown:** Add (simplified) missing components to the zkVM and state separation components to get a working Nescience devnet.
+                      These components comprise p2p communication.
+  **Deliverables:** A Nescience devnet showcasing Nescience node interaction.
 
 ### Risks
 

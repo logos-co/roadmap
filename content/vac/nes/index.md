@@ -1,11 +1,11 @@
 ---
 title: Nescience Incubation Project
-description: Zero-knowledge Virtual Machine
+description: Nescience Zero-knowledge Virtual Machine Environment
 tags:
 - zkvm
 - vac
 date: 2023-08-25
-lastmod: 2024-05-22
+lastmod: 2024-06-20
 ---
 
 ### `vac:nes:state-separation`
@@ -20,8 +20,8 @@ lastmod: 2024-05-22
 * [[vac/nes/proofsystems/vac/research-existing-proofsystems|research-existing-proofsystems ]]
 * [[vac/nes/proofsystems/vac/benchmarks|benchmarks]]
 
-### `vac:nes:virtual-machine-creation`
-* [[vac/nes/virtual-machine-creation/vac/vm-foundations|vm-foundations ]]
+### `vac:nes:zkvm`
+* [[vac/nes/zkvm/vac/vm-foundations|vm-foundations ]]
 
 
 
