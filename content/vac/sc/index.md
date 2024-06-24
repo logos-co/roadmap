@@ -27,11 +27,15 @@ lastmod: 2023-09-21
 * [[ vac/sc/g/status/staking-contract-v1 | staking-contract-v1 ]]
 * [[ vac/sc/g/status/staking-contract-maintenance | staking-contract-maintenance ]]
 * [[ vac/sc/g/status/swap-aggregator | swap-aggregator ]]
+* [[ vac/sc/g/status/ens-usernames-maintenance | ens-usernames-maintenance ]]
 
 ### `codex:`
 * [x] [[ vac/sc/g/codex/review-codex-contracts | review-codex-contracts ]]
+* [[ vac/sc/g/codex/contracts-formal-verification | contracts-formal-verification ]]
 
 ### `vac:`
 * [x] [[ vac/sc/g/vac/secureum-upskilling | secureum-upskilling ]]
 * [[ vac/sc/g/vac/rln-contract-support | rln-contract-support ]]
 
+### `finance:`
+* [[ vac/sc/g/finance/access-control-safe-support | access-control-safe-support ]]
