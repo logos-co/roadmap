@@ -725,8 +725,14 @@
     <loc>https://roadmap.logos.co/vac/rfc/rfc/waku/waku-keystore</loc>
     <lastmod>2024-04-03T11:12:51.407Z</lastmod>
   </url><url>
+    <loc>https://roadmap.logos.co/vac/sc/g/codex/contracts-formal-verification</loc>
+    <lastmod>2024-06-24T14:20:14.594Z</lastmod>
+  </url><url>
     <loc>https://roadmap.logos.co/vac/sc/g/codex/review-codex-contracts</loc>
     <lastmod>2024-04-03T11:12:51.407Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/sc/g/finance/access-control-safe-support</loc>
+    <lastmod>2024-06-24T14:20:14.594Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/vac/sc/g/status/community-contracts-ERC20</loc>
     <lastmod>2024-04-03T11:12:51.407Z</lastmod>
@@ -751,6 +757,9 @@
   </url><url>
     <loc>https://roadmap.logos.co/vac/sc/g/status/community-contracts-vault-token-airdrop</loc>
     <lastmod>2024-04-03T11:12:51.407Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/vac/sc/g/status/ens-usernames-maintenance</loc>
+    <lastmod>2024-06-24T14:20:14.594Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/vac/sc/g/status/governance-contract-mvp</loc>
     <lastmod>2024-04-03T11:12:51.407Z</lastmod>
