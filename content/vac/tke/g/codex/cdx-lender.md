@@ -1,5 +1,5 @@
 ---
-title: "Codex Insurance Mechanism Analysis"
+title: "Codex Lender Analysis"
 ---
 ### `vac:tke::codex:cdx-insurance`
 ---
@@ -21,20 +21,20 @@ title: "Codex Insurance Mechanism Analysis"
 gantt
 	dateFormat YYYY-MM-DD
 	section Codex
-		Insurance Mechanism :, 2024-02-01, 2024-07-01
+		Lender :, 2024-05-01, 2024-07-01
 ```
 
 - status: 95%
-- CC: Frederico, Juan
+- CC: Juan
 
 ### Description
-Mechanisms to make the system more stable
+Design and modeling of the lender role
 
 ### Justification
 Understand the roles that impact the performance and security of the protocol. As part of the Codex Technical Milestone #5 ("Tokenomics").
 
 ### Deliverables
-- Specific parts of three chapters of the Codex Litepaper (Use Cases, Contract Lifecycle, and CDX Tokenomics) (the milestones [cdx](cdx.md), [cdx-fees](cdx-fees.md), and [cdx-lender](cdx-lender.md) cover the remaining parts of these chapters).
+- Specific parts of three chapters of the Codex Litepaper (Use Cases, Contract Lifecycle, and CDX Tokenomics) (the milestones [cdx](cdx.md), [cdx-fees](cdx-fees.md), and [cdx-insurance](cdx-insurance.md) cover the remaining parts of these chapters).
 - One section of the Codex Whitepaper (CDX Tokenomics)
 
 ### Tracking Metrics
@@ -42,7 +42,7 @@ Completion of the respective sections in the Codex Litepaper and Whitepaper.
 
 ### Work breakdown
 - Definition of insurance role.
-- Analysis of CDX impact on system security. 
+- Analysis of CDX impact on system security.
 - Comparison against protocols which don’t have any embeeded stabilization mechanism.
 
 ### Perceived Risks
