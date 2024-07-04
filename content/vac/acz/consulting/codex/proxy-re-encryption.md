@@ -22,7 +22,7 @@ gantt
     Proxy Re-Encryption: , 2024-05-27, 2024-09-30
 ```
 
-- status: 0%
+- status: 50%
 - CC: Ramses + 1
 
 ### Description
@@ -34,4 +34,5 @@ Proxy re-encryption is necessary to provide plausible deniability to storage pro
 
 ### Deliverables
 
-TBD
+- [x] A Document describing possible solutions: https://www.notion.so/Approaches-to-plausible-deniability-87c6fef92df946fcbc1327d51d936ce1?pvs=4
+- [ ] Agreement and hardening of specification for the Codex team

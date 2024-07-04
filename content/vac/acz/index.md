@@ -4,7 +4,7 @@ tags:
   - acz
   - vac
 date: 2023-09-12
-lastmod: 2024-05-13
+lastmod: 2024-07-04
 ---
 
 ## `vac:acz:`
@@ -30,17 +30,17 @@ lastmod: 2024-05-13
 
 ### `zerokit:vac:`
 * [x] [[vac/acz/zerokit/vac/zerokit-v0-4|zerokit-v0.4]]
-* [ ] [[vac/acz/zerokit/vac/zerokit-v0-5|zerokit-v0.5]]
+* [x] [[vac/acz/zerokit/vac/zerokit-v0-5|zerokit-v0.5]]
 * [[vac/acz/zerokit/vac/maintenance|maintenance]]
 
 ### `secure-channels:waku:`
-* [ ] [[vac/acz/secure-channels/waku/mls-design|mls-design]]
-* [ ] [[vac/acz/secure-channels/waku/mls-poc|mls-poc]]
+* [x] [[vac/acz/secure-channels/waku/mls-design|mls-design]]
+* [x] [[vac/acz/secure-channels/waku/mls-poc|mls-poc]]
 * [ ] [[vac/acz/secure-channels/waku/fd-design|fd-design]]
 * [ ] [[vac/acz/secure-channels/waku/fd-poc|fd-poc]]
 
 ### `consulting:codex:`
-* [[proxy-re-encryption|proxy-re-encryption]]
+* [ ] [[proxy-re-encryption|proxy-re-encryption]]
 
 ### `consulting:nomos:`
 * [[vac/acz/consulting/nomos/init|init]]
