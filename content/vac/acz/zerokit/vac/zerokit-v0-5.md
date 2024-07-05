@@ -21,9 +21,9 @@ gantt
   tickInterval 1month
 	dateFormat YYYY-MM-DD
 	section Status
-		v0.5 Release: 2023-10-01, 2024-06-01
+		v0.5 Release: done, 2023-10-01, 2024-06-01
 ```
-- status: 70%
+- status: 100%
 - CCs: 
 	- Ekaterina
 	- Aaryamann

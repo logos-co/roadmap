@@ -25,7 +25,7 @@ gantt
     Stealth Address Kit Maintenance: , 2024-02-01, 2024-12-31
 ```
 
-- status: 50%
+- status: 80%
 - CC: Aaryamann
 
 ### Description
@@ -37,5 +37,9 @@ This will be a viable privacy solution for status (private transfers) and waku (
 
 ### Deliverables
 
-- [ ] rename erc-5564-rs to `stealth-address-kit`
+- [x] rename erc-5564-rs to `stealth-address-kit`
+- The following releases have been made -
+	- [x] https://github.com/vacp2p/stealth-address-kit/releases/tag/v0.3.1
+	- [x] https://github.com/vacp2p/stealth-address-kit/releases/tag/v0.2.0
+	- [x] https://github.com/vacp2p/stealth-address-kit/releases/tag/v0.1.0
 

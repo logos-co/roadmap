@@ -25,18 +25,20 @@ gantt
 		RLN v2 e2e Integration : , 2024-05-20, 2024-06-20
 ```
 - due: 2024-06-20
-- status: 0%
+- status: 90%
 
 ### Description
-- [ ] Come up with final gas estimation after the optimizations (RLN v2 + RLN in resource-restricted)
-- [ ] Deliver end-to-end PoC working in The Waku Network showcasing the new features.
-- [ ] Bug fixes found along testing
-- [ ] New smart contract with both RLNv2 and RLN in resource-restricted clients changes.
-- [ ] Deploy and consider using a L2 testnet.
+- [x] Come up with final gas estimation after the optimizations (RLN v2 + RLN in resource-restricted)
+- [x] Deliver end-to-end PoC working in The Waku Network showcasing the new features.
+- [x] Bug fixes found along testing
+- [x] New smart contract with both RLNv2 and RLN in resource-restricted clients changes.
+- [x] Deploy and consider using a L2 testnet.
+- [ ] Deprecate tree sync in nwaku
 
 #### Goal
 Run RLN relay v2 on TWN.
 
 ### Deliverables
 
-- [ ] https://github.com/waku-org/pm/issues/168
+- [x] https://github.com/waku-org/pm/issues/168
+- [x] https://github.com/waku-org/nwaku/issues/2758

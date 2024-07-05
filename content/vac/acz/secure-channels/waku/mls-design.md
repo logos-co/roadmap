@@ -22,10 +22,10 @@ gantt
   tickInterval 1month
   dateFormat YYYY-MM-DD 
   section Status
-    Ethereum Chat: 2023-09-12, 2024-05-31
+    Ethereum Chat: done, 2023-09-12, 2024-05-31
 ```
 
-- status: 70%
+- status: 100%
 - CC: Ramses
 
 ### Description
@@ -51,6 +51,6 @@ The goal of this milestone is having
 
 ### Deliverables
 
-* specification (RFC) of a secure Ethereum-based chat protocol
+* [x] https://github.com/vacp2p/rfc-index/blob/main/vac/raw/eth-secpm.md (specification)
 
 

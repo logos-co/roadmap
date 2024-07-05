@@ -22,11 +22,13 @@ gantt
   tickInterval 1month
   dateFormat YYYY-MM-DD 
   section Status
-    MLS PoC: 2024-04-29, 2024-07-15
+    MLS PoC: done, 2024-04-29, 2024-07-15
 ```
 
-- status: 0%
+- status: 100%
 - CC:
+	- Ekaterina
+	- Aaryamann
 
 ### Description
 
@@ -43,5 +45,11 @@ gantt
 ### Deliverables
 
 * Engineers implementing the researchers advice on how to proceed with the PoC
+	- [x] https://github.com/vacp2p/de-mls/issues/1
+	- [x] https://github.com/vacp2p/de-mls/issues/2
+	- [x] https://github.com/vacp2p/de-mls/issues/3
+	- [x] https://github.com/vacp2p/de-mls/issues/4
+	- [x] https://github.com/vacp2p/de-mls/issues/5
+	- [x] https://github.com/vacp2p/de-mls/issues/6
 
 
