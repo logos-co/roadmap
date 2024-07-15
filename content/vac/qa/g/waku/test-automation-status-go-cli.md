@@ -25,7 +25,7 @@ gantt
   Status-go CLI Testing: 2024-06-01, 2024-09-02
 ```
 
-- status: 0%
+- status: 100%
 - CC: Florin
 
 ### Description
@@ -38,3 +38,19 @@ gantt
 
 
 ### Deliverables
+
+- Created [new framework](https://github.com/status-im/status-cli-tests) that:
+  - builds and runs nodes using status cli tool
+  - provides API to interact with different features
+  - runs tests for all requested features:
+    - contact_request
+    - create_private_groups
+    - fetch_community
+    - join_community
+    - leave_community
+    - one_to_one_messages
+    - private_group_messages
+  - reuses communities to now clout the staging env
+  - runs each night on status master branch
+  - generates test report with history: https://status-im.github.io/status-cli-tests/122/
+  - found multiple issues that are under investgation by Pablo
