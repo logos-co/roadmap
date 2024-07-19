@@ -1,6 +1,10 @@
 ---
 title: Guidelines for Collaboration
+tags:
+    - Waku
+    - collaboration
 date: 2024-07-18
+lastmod: 2024-07-18
 ---
 
 # Guidelines for Collaboration
