@@ -53,6 +53,7 @@ Follow the same steps as with the other Status Desktop instance, only changing t
 
 With the previous step completed, enter the `Node Management` section and check that both instances are connected to peers
 
+
 ![](images/test-nwaku-status/3)
 
 In one of the accounts, copy the link to its profile
