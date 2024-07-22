@@ -4,11 +4,11 @@
 <p>Once we are able to run status-desktop locally, run</p>
 <div data-rehype-pretty-code-fragment><pre style="background-color:var(--shiki-color-background);" tabindex="0" data-language="bash" data-theme="default"><code data-language="bash" data-theme="default"><span data-line><span style="color:var(--shiki-token-function);">make</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">run</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">ARGS=</span><span style="color:var(--shiki-token-string-expression);">&quot;--enable-fleet-selection --datadir=./datadir1&quot;</span></span></code></pre></div>
 <p>This will open Status Desktop. Create a new account, and once logged in go to <code>Settings->Advanced->Fleet</code> and select <code>shards.staging</code></p>
-<p><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/1518abd9-c08f-4989-93c1-96525e62bce5/cc4efd5e-047f-4d44-b8bd-051fc61840ce/Untitled.png" alt="Untitled"/></p>
+<p><img src="../../images/test-nwaku-status/1" alt/></p>
 <p>After selecting the fleet, Status Desktop will close and you will need to run again</p>
 <div data-rehype-pretty-code-fragment><pre style="background-color:var(--shiki-color-background);" tabindex="0" data-language="bash" data-theme="default"><code data-language="bash" data-theme="default"><span data-line><span style="color:var(--shiki-token-function);">make</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">run</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">ARGS=</span><span style="color:var(--shiki-token-string-expression);">&quot;--enable-fleet-selection --datadir=./datadir1&quot;</span></span></code></pre></div>
 <p>Log in with the password you set previously, and check that<code>shards.staging</code> is configured</p>
-<p><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/1518abd9-c08f-4989-93c1-96525e62bce5/30552c55-a80d-4d9a-ae56-ecd26a4d4bbf/Untitled.png" alt="Untitled"/></p>
+<p><img src="../../images/test-nwaku-status/2" alt/></p>
 <p>In the Advanced section again, please enable the following options:</p>
 <ul>
 <li>Full developer mode</li>
@@ -22,15 +22,15 @@
 <div data-rehype-pretty-code-fragment><pre style="background-color:var(--shiki-color-background);" tabindex="0" data-language="bash" data-theme="default"><code data-language="bash" data-theme="default"><span data-line><span style="color:var(--shiki-token-function);">make</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">run</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">ARGS=</span><span style="color:var(--shiki-token-string-expression);">&quot;--enable-fleet-selection --datadir=./datadir2&quot;</span></span></code></pre></div>
 <p>Follow the same steps as with the other Status Desktop instance, only changing the <code>datadir</code> flag</p>
 <p>With the previous step completed, enter the <code>Node Management</code> section and check that both instances are connected to peers</p>
-<p><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/1518abd9-c08f-4989-93c1-96525e62bce5/388402f1-f5a0-415f-a415-2b7542df7a20/Untitled.png" alt="Untitled"/></p>
+<p><img src="../../images/test-nwaku-status/3" alt/></p>
 <p>In one of the accounts, copy the link to its profile</p>
-<p><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/1518abd9-c08f-4989-93c1-96525e62bce5/3dee43db-4cdf-45aa-8284-302d1444d450/Untitled.png" alt="Untitled"/></p>
+<p><img src="../../images/test-nwaku-status/4" alt/></p>
 <p>And then, in the other account, send it a contact request</p>
-<p><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/1518abd9-c08f-4989-93c1-96525e62bce5/8d28f26a-92bf-494b-9cc5-9eafe5c18ecc/Untitled.png" alt="Untitled"/></p>
+<p><img src="../../images/test-nwaku-status/5" alt/></p>
 <p>Make sure you get a notification for it in your other window and accept the contact request</p>
-<p><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/1518abd9-c08f-4989-93c1-96525e62bce5/b74a3339-6a01-4f73-ad47-ea45d78dec94/Untitled.png" alt="Untitled"/></p>
+<p><img src="../../images/test-nwaku-status/6" alt/></p>
 <p>Chat between both accounts and check that messages get delivered properly</p>
-<p><img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/1518abd9-c08f-4989-93c1-96525e62bce5/c73cc45c-fffb-41ca-ae91-2460523e588e/Untitled.png" alt="Untitled"/></p>
+<p><img src="../../images/test-nwaku-status/7" alt/></p>
 <p>Finally, test that the Store nodes work properly.</p>
 <p>For it, close one of the windows and from the open window send messages to it.</p>
 <p>Re-run the Status Desktop instance you just closed and check that you receive the messages sent to you when you were offline.</p>
