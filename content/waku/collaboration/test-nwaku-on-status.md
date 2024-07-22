@@ -21,7 +21,7 @@ make run ARGS="--enable-fleet-selection --datadir=./datadir1"
 
 This will open Status Desktop. Create a new account, and once logged in go to `Settings->Advanced->Fleet` and select `shards.staging`
 
-![](images/test-nwaku-status/1)
+![](images/test-nwaku-status/1.png)
 
 After selecting the fleet, Status Desktop will close and you will need to run again
 
@@ -31,7 +31,7 @@ make run ARGS="--enable-fleet-selection --datadir=./datadir1"
 
 Log in with the password you set previously, and check that`shards.staging` is configured
 
-![](images/test-nwaku-status/2)
+![](images/test-nwaku-status/2.png)
 
 In the Advanced section again, please enable the following options:
 
@@ -54,23 +54,23 @@ Follow the same steps as with the other Status Desktop instance, only changing t
 With the previous step completed, enter the `Node Management` section and check that both instances are connected to peers
 
 
-![](images/test-nwaku-status/3)
+![](images/test-nwaku-status/3.png)
 
 In one of the accounts, copy the link to its profile
 
-![](images/test-nwaku-status/4)
+![](images/test-nwaku-status/4.png)
 
 And then, in the other account, send it a contact request
 
-![](images/test-nwaku-status/5)
+![](images/test-nwaku-status/5.png)
 
 Make sure you get a notification for it in your other window and accept the contact request
 
-![](images/test-nwaku-status/6)
+![](images/test-nwaku-status/6.png)
 
 Chat between both accounts and check that messages get delivered properly
 
-![](images/test-nwaku-status/7)
+![](images/test-nwaku-status/7.png)
 
 Finally, test that the Store nodes work properly.
 
