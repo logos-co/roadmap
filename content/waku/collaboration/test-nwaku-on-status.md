@@ -21,7 +21,7 @@ make run ARGS="--enable-fleet-selection --datadir=./datadir1"
 
 This will open Status Desktop. Create a new account, and once logged in go to `Settings->Advanced->Fleet` and select `shards.staging`
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/1518abd9-c08f-4989-93c1-96525e62bce5/cc4efd5e-047f-4d44-b8bd-051fc61840ce/Untitled.png)
+![](images/test-nwaku-status/1)
 
 After selecting the fleet, Status Desktop will close and you will need to run again
 
@@ -31,7 +31,7 @@ make run ARGS="--enable-fleet-selection --datadir=./datadir1"
 
 Log in with the password you set previously, and check that`shards.staging` is configured
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/1518abd9-c08f-4989-93c1-96525e62bce5/30552c55-a80d-4d9a-ae56-ecd26a4d4bbf/Untitled.png)
+![](images/test-nwaku-status/2)
 
 In the Advanced section again, please enable the following options:
 
@@ -53,23 +53,24 @@ Follow the same steps as with the other Status Desktop instance, only changing t
 
 With the previous step completed, enter the `Node Management` section and check that both instances are connected to peers
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/1518abd9-c08f-4989-93c1-96525e62bce5/388402f1-f5a0-415f-a415-2b7542df7a20/Untitled.png)
+
+![](images/test-nwaku-status/3)
 
 In one of the accounts, copy the link to its profile
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/1518abd9-c08f-4989-93c1-96525e62bce5/3dee43db-4cdf-45aa-8284-302d1444d450/Untitled.png)
+![](images/test-nwaku-status/4)
 
 And then, in the other account, send it a contact request
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/1518abd9-c08f-4989-93c1-96525e62bce5/8d28f26a-92bf-494b-9cc5-9eafe5c18ecc/Untitled.png)
+![](images/test-nwaku-status/5)
 
 Make sure you get a notification for it in your other window and accept the contact request
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/1518abd9-c08f-4989-93c1-96525e62bce5/b74a3339-6a01-4f73-ad47-ea45d78dec94/Untitled.png)
+![](images/test-nwaku-status/6)
 
 Chat between both accounts and check that messages get delivered properly
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/1518abd9-c08f-4989-93c1-96525e62bce5/c73cc45c-fffb-41ca-ae91-2460523e588e/Untitled.png)
+![](images/test-nwaku-status/7)
 
 Finally, test that the Store nodes work properly.
 
