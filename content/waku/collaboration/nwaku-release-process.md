@@ -18,4 +18,4 @@ During that week, the release owner needs to check the *Kibana* logs from the pr
 
 - `(fleet: "waku.test" OR fleet: "waku.sandbox") AND message: "SIGSEGV"`
 
-Make sure that Status client works properly when connected to a fleet running on the release candidate version. For it, please follow its corresponding [guide](https://www.notion.so/How-to-test-Nwaku-on-Status-12c6e4b9bf06420ca868bd199129b425?pvs=21).
+Make sure that Status client works properly when connected to a fleet running on the release candidate version. For it, please follow its corresponding [guide](content/waku/collaboration/test-nwaku-on-status.md).
