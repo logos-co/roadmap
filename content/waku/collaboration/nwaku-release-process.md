@@ -1,5 +1,5 @@
 ---
-title: nwaku release process
+title: nwaku Release Process
 tags:
     - Waku
     - collaboration
