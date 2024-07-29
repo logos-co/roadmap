@@ -4,7 +4,7 @@ tags:
 - dst
 - vac
 date: 2024-02-06
-lastmod: 2024-07-15
+lastmod: 2024-07-29
 ---
 
 ## `vac:qa::`
@@ -29,7 +29,8 @@ lastmod: 2024-07-15
 
 ### `vac:`
 * [[vac/qa/g/vac/test-automation-nim-libp2p|test-automation-nim-libp2p ]]
-* [[vac/qa/g/vac/test-automation-nim-libp2p|test-automation-nim-tooling ]]
+* [[vac/qa/g/vac/test-automation-nim-tooling|test-automation-nim-tooling ]]
 
 ### `nomos:`
 * [[vac/qa/g/nomos/test-automation-cryptarchia|test-automation-cryptarchia ]]
+* [[vac/qa/g/nomos/test-automation-data-availability|test-automation-data-availability ]]
