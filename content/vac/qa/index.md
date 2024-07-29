@@ -26,6 +26,7 @@ lastmod: 2024-07-29
 * [[vac/qa/g/waku/maintenance-go-waku|maintenance-go-nwaku ]]
 * [[vac/qa/g/waku/ws-stress-testing|ws-stress-testing ]]
 * [x] [[vac/qa/g/waku/test-automation-status-go-cli|test-automation-status-go-cli ]]
+* [[vac/qa/g/waku/test-automation-status-go-cli-2|test-automation-status-go-cli-2 ]]
 
 ### `vac:`
 * [[vac/qa/g/vac/test-automation-nim-libp2p|test-automation-nim-libp2p ]]
