@@ -65,3 +65,6 @@ lastmod: 2024-05-31
 ### `finance:`
 * [[vac/tke/g/finance/growth-models|growth-models]]
 * [[vac/tke/g/finance/real-option-models|real-option-models]]
+
+### `404:`
+* [[vac/tke/g/404/cats-fishing-mvp|cats-fishing-mvp]]
