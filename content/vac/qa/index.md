@@ -16,7 +16,7 @@ lastmod: 2024-07-29
 * [x] [[vac/qa/g/waku/test-plan-sharding|test-plan-sharding ]]
 * [x] [[vac/qa/g/waku/test-automation-js-waku|test-automation-js-waku ]]
 * [x] [[vac/qa/g/waku/test-automation-nwaku|test-automation-nwaku ]]
-* [[vac/qa/g/waku/test-automation-rln|test-automation-rln ]]
+* [x] [[vac/qa/g/waku/test-automation-rln|test-automation-rln ]]
 * [x] [[vac/qa/g/waku/test-automation-sharding|test-automation-sharding ]]
 * [x] [[vac/qa/g/waku/test-automation-go-waku|test-automation-go-waku ]]
 * [x] [[vac/qa/g/waku/interop-testing|interop-testing ]]
