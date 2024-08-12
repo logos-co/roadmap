@@ -18,7 +18,7 @@ lastmod: 2024-07-04
 * [[vac/acz/rlnp2p/waku/rln-relay-erc20|rln-relay-erc20]]
 - [x] [[vac/acz/rlnp2p/waku/rlnv2-relay-integration|rlnv2-relay-integration]]
 * [x] [[vac/acz/rlnp2p/waku/rln-multi-epoch-constraints|rln-multi-epoch-constraints]]
-* [ ] [[vac/acz/rlnp2p/waku/rlnv2-e2e|rlnv2-e2e]]
+* [x] [[vac/acz/rlnp2p/waku/rlnv2-e2e|rlnv2-e2e]]
 
 ### `rlnp2p:vac:`
 * [x] [[vac/acz/rlnp2p/vac/rln-doc-and-outreach|rln-doc-and-outreach]]
@@ -31,6 +31,7 @@ lastmod: 2024-07-04
 ### `zerokit:vac:`
 * [x] [[vac/acz/zerokit/vac/zerokit-v0-4|zerokit-v0.4]]
 * [x] [[vac/acz/zerokit/vac/zerokit-v0-5|zerokit-v0.5]]
+* [ ] [[vac/acz/zerokit/vac/zerokit-v0-6|zerokit-v0.6]]
 * [[vac/acz/zerokit/vac/maintenance|maintenance]]
 
 ### `secure-channels:waku:`
