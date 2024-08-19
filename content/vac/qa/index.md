@@ -4,7 +4,7 @@ tags:
 - dst
 - vac
 date: 2024-02-06
-lastmod: 2024-07-29
+lastmod: 2024-08-19
 ---
 
 ## `vac:qa::`
@@ -35,3 +35,6 @@ lastmod: 2024-07-29
 ### `nomos:`
 * [[vac/qa/g/nomos/test-automation-cryptarchia|test-automation-cryptarchia ]]
 * [[vac/qa/g/nomos/test-automation-data-availability|test-automation-data-availability ]]
+
+### `codex:`
+* [[vac/qa/g/codex/test-automation-codex-discovery|test-automation-codex-discovery ]]
