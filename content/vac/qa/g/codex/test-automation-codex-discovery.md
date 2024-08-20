@@ -22,7 +22,7 @@ gantt
   tickInterval 1month
   dateFormat YYYY-MM-DD 
   section Status
-    Test Automation Codex Discovery:  2024-09-01, 2024-09-31
+    Test Automation Codex Discovery:  2024-09-01, 2024-10-30
 ```
 
 - status: 0%
