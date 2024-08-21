@@ -22,10 +22,10 @@ title: RLN v2 E2E integration
 gantt
 	dateFormat YYYY-MM-DD 
 	section Status
-		RLN v2 e2e Integration : , 2024-05-20, 2024-06-20
+		RLN v2 e2e Integration : done, 2024-05-20, 2024-06-20
 ```
 - due: 2024-06-20
-- status: 90%
+- status: 100%
 
 ### Description
 - [x] Come up with final gas estimation after the optimizations (RLN v2 + RLN in resource-restricted)
@@ -33,7 +33,7 @@ gantt
 - [x] Bug fixes found along testing
 - [x] New smart contract with both RLNv2 and RLN in resource-restricted clients changes.
 - [x] Deploy and consider using a L2 testnet.
-- [ ] Deprecate tree sync in nwaku
+- [ ] ~Deprecate tree sync in nwaku~ (deferred because blocked)
 
 #### Goal
 Run RLN relay v2 on TWN.

@@ -1,10 +1,8 @@
 ---
-title: "RLN relay ERC20"
-description: "ERC20 token support for RLN relay."
+title: Zerokit v0.6 Release
 ---
-## `vac:acz:rlnp2p:waku:rln-relay-erc20`
+## `vac:acz:zerokit::vac:zerokit-v0.6`
 ---
-
 ```mermaid
 %%{ 
   init: { 
@@ -21,21 +19,20 @@ description: "ERC20 token support for RLN relay."
 }%%
 gantt
   tickInterval 1month
-  dateFormat YYYY-MM-DD 
+	dateFormat YYYY-MM-DD
+	section Status
+		v0.6 Release: , 2024-08-12, 2024-10-12
 ```
-
 - status: 0%
-- CC: Aaryamann
+- CCs: 
+	- Ekaterina
 
 ### Description
 
-* future work
+* Release Planning issue: https://github.com/vacp2p/zerokit/issues/263
 
-
-### Justification
-
+This release's major feature is stateless RLN.
 
 ### Deliverables
-
 
 
