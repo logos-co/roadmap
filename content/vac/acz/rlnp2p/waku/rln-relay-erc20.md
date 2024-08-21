@@ -22,8 +22,6 @@ description: "ERC20 token support for RLN relay."
 gantt
   tickInterval 1month
   dateFormat YYYY-MM-DD 
-  section Status
-    Production Readiness: , ,
 ```
 
 - status: 0%
