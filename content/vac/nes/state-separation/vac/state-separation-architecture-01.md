@@ -117,7 +117,7 @@ focusing on privacy enhancement, we can break down the milestone into distinct s
 
    * * [x] **Deliverables:** A document providing a comprehensive guide on the implementation and integration of nullifiers and accumulators within the state separation model, detailing their specific roles and functions within the overall architecture -> [Nullification Strategy Document](https://notes.status.im/s/iN82QzydC).
   
-* * [ ] Sub Milestone 3 (Q3 2024): State Separation Document
+* * [x] Sub Milestone 3 (Q3 2024): State Separation Document
 
   **Intro:** In this milestone, the first part (https://vac.dev/rlog/Nescience-A-zkVM-leveraging-hiding-properties) focuses on conducting detailed exploration of the multifaceted challenges,
 potential solutions, and alternatives that lay ahead building Nescience, a privacy-first blockchain project aiming to enable private transactions and provide a general-purpose execution environment 
@@ -126,7 +126,7 @@ the decisions made to enhance privacy, and the expected outcomes.
 
   **Work Breakdown:** Document all the research findings, the development steps and the methodologies, explaining the utility and adoption process of each solution to reinforce privacy within the project and the shift in focus towards detailing the chosen paths for the project development, including the rationale behind these decisions and their alignment with privacy enhancements. Finally, Review future directions, potential areas of research, and ongoing development efforts to continue advancing privacy within the Nescience project
 
-  **Deliverables:**  Blog posts and/or scientific papers. 
+  ** [x] Deliverables:**  Blog posts and/or scientific papers -> [Nescience: A User-Centric State-Separation Architecture](https://vac.dev/rlog/Nescience-state-separation-architecture)
 
   **Impact:** By clearly articulating the exploration from identifying challenges to implementing solutions,
 Part Two of the State Separation Document aims to serve as a comprehensive guide and reference for enhancing privacy in blockchain technologies,
