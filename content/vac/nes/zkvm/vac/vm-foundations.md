@@ -43,6 +43,7 @@ The focus of this milestone is on the significant adaptation of a Zero-Knowledge
   **Deliverables:**
     * * [x] A comprehensive review of current cryptographic techniques that enhance privacy, including signature schemes and MPC schemes, focusing on those with potential for zkVM integration -> [1. List of zkVMs](https://notes.status.im/s/_4MmpSCc9) and [2. In-depth Review](https://github.com/vacp2p/zk-explorations/issues/40).
     * * [x] Analysis of selected cryptographic primitives for implementation in Rust, considering their compatibility with the zkVM environment, specifically within frameworks like Nexus VM -> [List of Primitives and Privacy Requirements](https://notes.status.im/s/AFBtW3Prj).
+    * * [x] A blogpost reflecting the research that have been conducted. -> [Exploring zkVMs: Which Projects Truly Qualify as Zero-Knowledge Virtual Machines?](https://vac.dev/rlog/zkVM-explorations)
 
 * * [ ] Sub Milestone 2: Cryptographic Implementation and Testing (Related to Sub Milestone 1)
 
