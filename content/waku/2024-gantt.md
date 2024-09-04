@@ -24,74 +24,125 @@ gantt
     
 %% Milestones overview with deliverables
     section Store Service Upgrade
-        Store v3 (sync): crit, milestone, after storev3-r storev3-g storev3-n, 0
-        DoS protection for req-res protocols: crit, milestone, after dosreqresn dosreqresj dosreqresg, 0
-        PostgreSQL maintenance: crit, milestone, after pgsql, 0
+        Store v3 (sync): crit, milestone, after storev3sync-r storev3sync-n, 0
+        DoS protection for req-res protocols: crit, milestone, after dosreqres-n dosreqres-g, 0
+        PostgreSQL maintenance: crit, milestone, after pgsql-m, 0
     section Direct Message Reliability
-        (telemetry) direct message reliability: milestone, after telem-d-msg-rel, 0
-        Reliability Protocol for Resource-Restricted Clients: crit, milestone, after rel-reqres-g rel-reqres-j, 0
+        (telemetry) direct message reliability: milestone, after telem-d-msg-rel-1 telem-d-msg-rel-2, 0
+        Reliability Protocol for Resource-Restricted Clients: crit, milestone, after rel-reqres-j-1 rel-reqres-j-2, 0
         Review MVDS usage and fail path: crit, milestone, after mvds, 0
+        PostgreSQL optimisation - phase 1: milestone, after pgsql-opt-1, 0
     section E2e reliability protocol
         (telemetry) Multicast message reliability: milestone, after telem-m-msg-rel, 0
         E2e reliability protocol PoC: milestone, crit, after e2e-rel-r, 0
         E2e reliability protocol Status integration: milestone, crit, after e2e-rel-g, 0
     section Static Sharding - dedicated shards
         (telemetry) Measure Bandwidth: milestone, after telem-bandwidth, 0
-        Sharding peer mgmt and discovery hardening: crit, milestone, after sh-peer-mgmt-j sh-peer-mgmt-n sh-peer-mgmt-g, 0
+        Sharding peer mgmt and discovery hardening: crit, milestone, after sh-peer-mgmt-n sh-peer-mgmt-g, 0
         (testing) Custom shard impl of Communities: milestone, after test-custom-shard, 0
+        PostgreSQL optimisation - phase 2: milestone, after pgsql-opt-2, 0
+    section Bandwidth optimisation and protocol review
+        %% TODO: deliverables are being re-worked
+        Specify de-MLS over Waku: milestone, after demls-spec, 0
+        Review usage of content topics in Status Chat and Communities protocol: milestone, after cont-topic-r, 0
+        Minimal Community Specification and Implementation: milestone, after min-com-spec, 0
+        %% TODO: schedule
+        Telemetry review: milestone, after telem-review, 0
+        Minimal solution for greedy messages: milestone, after min-sol-com, 0
+        Define long-term solution: milestone, after define-com-sol, 0
+    section Nwaku in Status Desktop (Relay mode)
+        %% TODO: need to do a pass on deliverables
+        Nwaku on Windows: milestone, after nwaku-windows-n, 0
+        Nwaku in Status Desktop: milestone, after nwaku-status-desktop, 0
+    section Scale 1-1 chat messages PoC
+        %% Asking for a dashboard
+        Provision RLN for light push clients PoC: milestone, after provision-rln, 0
+        Pay for RLN provision first PoC: milestone, after rlnaas-r, 0
+        Implement RLN smart contract for paid, multilevel memberships: milestone, after rln-sc-r rln-sc-d, 0
+        Public dogfooding web app: milestone, after pub-dogfood-web-app-1 pub-dogfood-web-app-2, 0
+    section Demonstrate product market-fit
+        Define cost (self-host): milestone, after define-cost, 0
+        Define potential USPs: milestone, after define-usps, 0
+        Define target customers: milestone, after define-custs, 0
+        Customer interviews: milestone, after cust-int, 0
+        Co-design sessions: milestone, after codesign-bd codesign-se, 0
+        Review Waku MVP: milestone, 2025-01-15, 0
 
 %% Tasks
-    section golang eng 1
-        %% Estimation TBC - Prem says fine, waiting on 2nd opinion
-        Review MVDS usage and fail path: crit, mvds, 2024-07-20, 6w
-        Investigation and fixing of bugs discovered during dogfooding/usage/simulations: go-bugs-1, after mvds, 8w
-    section golang eng 2
-        (testing) Custom shard impl of Communities: test-custom-shard, 2024-08-26, 4w
-        %% TBC estimate
-        TBC E2e reliability protocol Status integration: crit, e2e-rel-g, after e2e-rel-r, 6w
-    section golang eng 3
-        Store v3 (go-waku client only): crit, storev3-g, 2024-02-26, 2024-05-24
-        %% Estimate TBC - assuming parallel work possible
-        Sharding peer mgmt and discovery hardening (go-waku): crit, sh-peer-mgmt-g, 2024-08-26, 8w
-    section golang eng 4
-        Store v3 (sync): crit, 2024-02-08, 2024-04-26
-        Reliability Protocol for Resource-Restricted Clients (go): crit, rel-reqres-g, 2024-05-13, 10w
-        (metric) Count store messages: count-store-msg, after rel-reqres-g, 2w
-        Investigation and fixing of bugs discovered during dogfooding/usage/simulations: go-bugs-2, after count-store-msg, 8w
-    section golang eng 5
-        DoS protection for req-res protocols (go-waku client only): crit, dosreqresg, 2024-05-20, 4w
-        (telemetry) Multicast message reliability: telem-m-msg-rel, after dosreqresg, 4w
-    section golang eng 6
-        (telemetry) direct message reliability: telem-d-msg-rel, 2024-05-13, 6w
-        (telemetry) Measure Bandwidth: telem-bandwidth, after telem-d-msg-rel, 8w
-    section test eng 1
-        Peer and connection management tests: sim-conn-mgmt, 2024-05-13, 4w
-        (simulation) Functionality and stress test store v3: sim-storev3, after sim-conn-mgmt, 4w
-        %% This is Store Service Upgrade - item (2) in DST simulation - start with small scale to get faster results
-        (simulation) Compare store topologies: sim-store-cmp, after sim-storev3, 6w
+    section Chat.plopezlpz
+        (testing) Custom shard impl of Communities: test-custom-shard, 2024-08-26, 2024-09-30
+    section Chat.kaichaosun
+        Review MVDS usage and fail path: crit, mvds, 2024-08-01, 2024-09-30
+        %% TODO estimate
+        Minimal Community Specification and Implementation: min-com-spec, after mvds, 12w
+    section Go.richard-ramos
+        Implement RLN smart contract for paid, multilevel memberships: rln-sc-d, 2024-09-01, 6w
+        %% TODO: Estimate
+        Nwaku in Status Desktop: nwaku-status-desktop, after rln-sc-d, 12w
+    section Go.chaitanyaprem
+        DoS Protection for Req-Res Protocols: crit, dosreqres-g, 2024-08-01, 2024-09-15
+        Sharding peer mgmt and discovery hardening: crit, sh-peer-mgmt-g, 2024-08-26, 2024-09-12
+        %% TODO review estimate
+        Review usage of content topics in Status Chat and Communities protocol: cont-topic-r, after sh-peer-mgmt-g, 12w
+    section EcoDev.vpavlin
+        (telemetry) direct message reliability: telem-d-msg-rel-1, 2024-08-26, 2024-09-25
+        %% TODO: do bandwidth telemetry?
+        E2e reliability protocol Status integration: crit, e2e-rel-g, after e2e-rel-r, 6w
+        %% TODO: fit that properly
+        Specify de-MLS over Waku: demls-spec, 2024-10-01, 4w
+        Co-design sessions: codesign-bd, after cust-int, 2024-11-15
+    section Go.adklempner
+        (telemetry) direct message reliability: telem-d-msg-rel-2, 2024-08-01, 2024-09-25
+        %% TODO: this deliverable needs to be reviewed, bw should be prioritized
+        (telemetry) Multicast message reliability: telem-m-msg-rel, after telem-d-msg-rel-2, 4w
+        (telemetry) Measure Bandwidth: telem-bandwidth, after telem-m-msg-rel, 8w
+    section Test.stubbsta
+        %% TODO Review estimate
+        (simulation) Functionality and stress test store v3: sim-storev3, 2024-08-01, 8w
         (simulation) relay reliability performance impact: sim-relay-rel, after sim-store-cmp sim-req-res, 4w
-        (simulation) req-res reliability performance impact: sim-reqres-rel, after sim-relay-rel rel-reqres-g, 6w
-    section research eng 1
-        End-to-end reliability protocol - PoC: crit, e2e-rel-r, 2024-05-23, 20w
-    section research eng 2
+        (simulation) req-res reliability performance impact: sim-reqres-rel, after sim-relay-rel, 6w
+    section Res.shash256
+        E2e reliability protocol - PoC: crit, e2e-rel-r, 2024-08-01, 2024-10-10
+    section Res.sionois
         %% Only dogfooding remaining
-        Store v3 (sync) research + RFC: crit, storev3-r, 2024-03-25, 14w
+        Store v3 (sync): crit, storev3sync-r, 2024-08-01, 2024-09-20
         Store v3 - follow-up: after storev3-r, 8w
         Peer mgmt - follow-up: after storev3-r, 8w
-    section nim eng 1
-        PostgreSQL Maintenance: crit, pgsql, 2024-01-01, 2024-07-31
-    section nim eng 2
-        DoS Protection for Req-Res Protocols: crit, dosreqresn, 2024-02-01, 18w
-        Store v3-beta + v3 (dogfooding placeholder):  storev3-df, after storev3-br storev3-r, 4w
-        %% More hardening expected to deprecate or separate store v2 from v3 driver
+    section Res.alrevuelta
+    section Res.s-tikhomirov
+        Implement RLN smart contract for paid, multilevel memberships: rln-sc-d, 2024-09-01, 6w
+        %% TODO Estimate
+        Pay for RLN provision first PoC: rlnaas-r, 2024-09-01, 8w
+    section Nim.Ivansete
+        Store v3 (sync): crit, storev3sync-n, 2024-08-15, 2024-09-20
+        PostgreSQL Maintenance: crit, pgsql-m, 2024-08-01, 2024-09-18
+        %% TODO review date/estimate
+        PostgreSQL Optimisation - phase 1: pgsql-opt-1, after pgsql-m, 8w
+        PostgreSQL Optimisation - phase 2: pgsql-opt-2, after pgsql-opt-1, 8w
+        %% TODO: Estimate
+        Nwaku in Status Desktop: nwaku-status-desktop-2, after pgsql-opt-1, 6w
+    section Nim.NagyZoltanPeter
+        DoS Protection for Req-Res Protocols: crit, dosreqres-n, 2024-08-01, 2024-09-15
+        %% TODO review
         TBC Store v3-beta + v3 (nwaku hardening): crit, storev3-n, after storev3-df dosreqresn, 3w
-    section nim eng 3
-        Sharding peer mgmt and discovery hardening (nwaku): crit, sh-peer-mgmt-n, 2024-05-13, 12w
-    section js eng 1
-        Reliability for Req-Res Protocols (light client + RFC): crit, rel-reqres-j, 2024-05-01, 12w
-    section js eng 2
-        %% Buidling idle apps and integrating in telemetry service to learn
-        Reliability for Req-Res Protocols (light client + RFC): crit, rel-reqres-j, 2024-05-01, 12w
-        Sharding peer mgmt and discovery hardening (light client + RFC): crit, sh-peer-mgmt-j, 2024-06-01, 12w
-    section js eng 3 (dev rel)
+        %% TODO: schedule more work. nwaku desktop and pgsql are candidates
+    section Nim.gabrielmer
+        Sharding peer mgmt and discovery hardening: crit, sh-peer-mgmt-n, 2024-08-01, 2024-09-12
+    section Nim.darshankabariya
+        %% TODO: review estimate
+        Nwaku on Windows: nwaku-windows-n, 2024-08-15, 6w
+    section Js.weboko
+        Reliability Protocol for Resource-Restricted Clients: crit, rel-reqres-j-1, 2024-08-01, 2024-09-13
+        %% TODO estimate
+        Public dogfooding web app: pub-dogfood-web-app-1, after rel-reqres-j-1, 8w
+    section Js.danisharora099
+        Reliability Protocol for Resource-Restricted Clients: crit, rel-reqres-j-2, 2024-08-01, 2024-09-13
+        %% TODO estimate
+        Public dogfooding web app: pub-dogfood-web-app-2, after rel-reqres-j-2, 8w
+    section BD.pedro
+        Define cost (self-host): define-cost, 2024-08-01, 2024-11-30
+        Define potential USPs: define-usps, 2024-09-01, 2024-11-30
+        Define target customers: define-custs, 2024-09-01, 2024-09-30
+        Customer interviews: cust-int, after define-custs, 2024-10-31
+        Co-design sessions: codesign-bd, after cust-int, 2024-11-15
 ```
