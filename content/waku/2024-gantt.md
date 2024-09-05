@@ -35,7 +35,7 @@ gantt
     section E2e reliability protocol
         (telemetry) Multicast message reliability: milestone, after telem-m-msg-rel, 0
         E2e reliability protocol PoC: milestone, crit, after e2e-rel-r, 0
-        E2e reliability protocol Status integration: milestone, crit, after e2e-rel-g, 0
+        E2e reliability protocol Status integration: milestone, crit, after e2e-rel-status-r e2e-rel-status-g, 0
     section Static Sharding - dedicated shards
         (telemetry) Measure Bandwidth: milestone, after telem-bandwidth, 0
         Sharding peer mgmt and discovery hardening: crit, milestone, after sh-peer-mgmt-n sh-peer-mgmt-g, 0
@@ -51,7 +51,6 @@ gantt
         Minimal solution for greedy messages: milestone, after min-sol-com, 0
         Define long-term solution: milestone, after define-com-sol, 0
     section Nwaku in Status Desktop (Relay mode)
-        %% TODO: need to do a pass on deliverables
         Nwaku on Windows: milestone, after nwaku-windows-n, 0
         Nwaku in Status Desktop: milestone, after nwaku-status-desktop, 0
     section Scale 1-1 chat messages PoC
@@ -60,6 +59,8 @@ gantt
         Pay for RLN provision first PoC: milestone, after rlnaas-r, 0
         Implement RLN smart contract for paid, multilevel memberships: milestone, after rln-sc-r rln-sc-d, 0
         Public dogfooding web app: milestone, after pub-dogfood-web-app-1 pub-dogfood-web-app-2, 0
+    section Scale up number of Communities
+        Usage of rendezvous: milestone, after rendezvous-r, 0
     section Demonstrate product market-fit
         Define cost (self-host): milestone, after define-cost, 0
         Define potential USPs: milestone, after define-usps, 0
@@ -78,7 +79,7 @@ gantt
     section Go.richard-ramos
         Implement RLN smart contract for paid, multilevel memberships: rln-sc-d, 2024-09-01, 6w
         %% TODO: Estimate
-        Nwaku in Status Desktop: nwaku-status-desktop, after rln-sc-d, 12w
+        Nwaku in Status Desktop: nwaku-status-desktop-g, after rln-sc-d, 12w
     section Go.chaitanyaprem
         DoS Protection for Req-Res Protocols: crit, dosreqres-g, 2024-08-01, 2024-09-15
         Sharding peer mgmt and discovery hardening: crit, sh-peer-mgmt-g, 2024-08-26, 2024-09-12
@@ -87,7 +88,7 @@ gantt
     section EcoDev.vpavlin
         (telemetry) direct message reliability: telem-d-msg-rel-1, 2024-08-26, 2024-09-25
         %% TODO: do bandwidth telemetry?
-        E2e reliability protocol Status integration: crit, e2e-rel-g, after e2e-rel-r, 6w
+        E2e reliability protocol Status integration: crit, e2e-rel-status-g, after e2e-rel-r, 6w
         %% TODO: fit that properly
         Specify de-MLS over Waku: demls-spec, 2024-10-01, 4w
         Co-design sessions: codesign-bd, after cust-int, 2024-11-15
@@ -102,12 +103,14 @@ gantt
         (simulation) relay reliability performance impact: sim-relay-rel, after sim-store-cmp sim-req-res, 4w
         (simulation) req-res reliability performance impact: sim-reqres-rel, after sim-relay-rel, 6w
     section Res.shash256
-        E2e reliability protocol - PoC: crit, e2e-rel-r, 2024-08-01, 2024-10-10
+        E2e reliability protocol - PoC: crit, e2e-rel-r, 2024-08-01, 2024-09-06
+        E2e reliability protocol Status integration: e2e-rel-status-r, after e2e-rel-r, 10w 
     section Res.sionois
         %% Only dogfooding remaining
         Store v3 (sync): crit, storev3sync-r, 2024-08-01, 2024-09-20
         Store v3 - follow-up: after storev3-r, 8w
         Peer mgmt - follow-up: after storev3-r, 8w
+        Usage of rendezvous: rendezvous-r, after storev3sync-r, 8w
     section Res.alrevuelta
     section Res.s-tikhomirov
         Implement RLN smart contract for paid, multilevel memberships: rln-sc-d, 2024-09-01, 6w
@@ -125,7 +128,7 @@ gantt
         DoS Protection for Req-Res Protocols: crit, dosreqres-n, 2024-08-01, 2024-09-15
         %% TODO review
         TBC Store v3-beta + v3 (nwaku hardening): crit, storev3-n, after storev3-df dosreqresn, 3w
-        %% TODO: schedule more work. nwaku desktop and pgsql are candidates
+        Nwaku in Status Desktop: nwaku-status-desktop-n, after storev3-n, 12w
     section Nim.gabrielmer
         Sharding peer mgmt and discovery hardening: crit, sh-peer-mgmt-n, 2024-08-01, 2024-09-12
     section Nim.darshankabariya
