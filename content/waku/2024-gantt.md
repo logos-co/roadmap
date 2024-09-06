@@ -41,6 +41,7 @@ gantt
         Sharding peer mgmt and discovery hardening: crit, milestone, after sh-peer-mgmt-n sh-peer-mgmt-g, 0
         (testing) Custom shard impl of Communities: milestone, after test-custom-shard, 0
         PostgreSQL optimisation - phase 2: milestone, after pgsql-opt-2, 0
+        Setup Waku Community on dedicated shard with pre-shared key dos protection: milestone, after waku-com, 0
     section Bandwidth optimisation and protocol review
         Minimal Community Specification and Implementation: milestone, after min-com-spec, 0
         %% TODO: schedule
@@ -69,6 +70,7 @@ gantt
 %% Tasks
     section Chat.plopezlpz
         (testing) Custom shard impl of Communities: test-custom-shard, 2024-08-26, 2024-09-30
+        Setup Waku Community on dedicated shard with pre-shared key dos protection: waku-com, after test-custom-shard, 2w
     section Chat.kaichaosun
         Review MVDS usage and fail path: crit, mvds, 2024-08-01, 2024-09-30
         Minimal Community Specification and Implementation: min-com-spec, after mvds, 12w
@@ -76,7 +78,6 @@ gantt
         Implement RLN smart contract for paid, multilevel memberships: rln-sc, 2024-09-01, 6w
         %% TODO: Estimate
         Nwaku in Status Desktop: nwaku-status-desktop-g, after rln-sc-d, 12w
-        %% TODO
         Status Support: status-support-rr, 2024-09-01, 2024-12-31
     section Go.chaitanyaprem
         DoS Protection for Req-Res Protocols: crit, dosreqres-g, 2024-08-01, 2024-09-15
@@ -84,6 +85,7 @@ gantt
         Review usage of content topics in Status Chat and Communities protocol: cont-topic-r, after sh-peer-mgmt-g, 10w
     section EcoDev.vpavlin
         (telemetry) direct message reliability: telem-d-msg-rel-1, 2024-08-26, 2024-09-25
+        (telemetry) Measure Bandwidth: telem-bandwidth, after telem-d-msg-rel-1, 8w
         %% TODO: do bandwidth telemetry?
         E2e reliability protocol Status integration: crit, e2e-rel-status-g, after e2e-rel-r, 6w
         %% TODO: fit that properly
@@ -91,9 +93,7 @@ gantt
         Co-design sessions: codesign-bd, after cust-int, 2024-11-15
     section Go.adklempner
         (telemetry) direct message reliability: telem-d-msg-rel-2, 2024-08-01, 2024-09-25
-        %% TODO: this deliverable needs to be reviewed, bw should be prioritized
         (telemetry) Multicast message reliability: telem-m-msg-rel, after telem-d-msg-rel-2, 4w
-        (telemetry) Measure Bandwidth: telem-bandwidth, after telem-m-msg-rel, 8w
     section Test.stubbsta
         %% TODO Review estimate
         (simulation) Functionality and stress test store v3: sim-storev3, 2024-08-01, 8w
