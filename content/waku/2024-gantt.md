@@ -81,8 +81,7 @@ gantt
     section Go.chaitanyaprem
         DoS Protection for Req-Res Protocols: crit, dosreqres-g, 2024-08-01, 2024-09-15
         Sharding peer mgmt and discovery hardening: crit, sh-peer-mgmt-g, 2024-08-26, 2024-09-12
-        %% TODO review estimate
-        Review usage of content topics in Status Chat and Communities protocol: cont-topic-r, after sh-peer-mgmt-g, 12w
+        Review usage of content topics in Status Chat and Communities protocol: cont-topic-r, after sh-peer-mgmt-g, 10w
     section EcoDev.vpavlin
         (telemetry) direct message reliability: telem-d-msg-rel-1, 2024-08-26, 2024-09-25
         %% TODO: do bandwidth telemetry?
