@@ -42,22 +42,19 @@ gantt
         (testing) Custom shard impl of Communities: milestone, after test-custom-shard, 0
         PostgreSQL optimisation - phase 2: milestone, after pgsql-opt-2, 0
     section Bandwidth optimisation and protocol review
-        %% TODO: deliverables are being re-worked
-        Specify de-MLS over Waku: milestone, after demls-spec, 0
-        Review usage of content topics in Status Chat and Communities protocol: milestone, after cont-topic-r, 0
         Minimal Community Specification and Implementation: milestone, after min-com-spec, 0
         %% TODO: schedule
         Telemetry review: milestone, after telem-review, 0
         Minimal solution for greedy messages: milestone, after min-sol-com, 0
         Define long-term solution: milestone, after define-com-sol, 0
+        Review usage of content topics in Status Chat and Communities protocol: milestone, after cont-topic-r, 0
+        Specify de-MLS over Waku: milestone, after demls-spec, 0
     section Nwaku in Status Desktop (Relay mode)
         Nwaku on Windows: milestone, after nwaku-windows-n, 0
         Nwaku in Status Desktop: milestone, after nwaku-status-desktop, 0
     section Scale 1-1 chat messages PoC
-        %% Asking for a dashboard
-        Provision RLN for light push clients PoC: milestone, after provision-rln, 0
         Pay for RLN provision first PoC: milestone, after rlnaas-r, 0
-        Implement RLN smart contract for paid, multilevel memberships: milestone, after rln-sc-r rln-sc-d, 0
+        Implement RLN smart contract for paid, multilevel memberships: milestone, after rln-sc-r rln-sc rln-sc-j, 0
         Public dogfooding web app: milestone, after pub-dogfood-web-app-1 pub-dogfood-web-app-2, 0
     section Scale up number of Communities
         Usage of rendezvous: milestone, after rendezvous-r, 0
@@ -74,12 +71,13 @@ gantt
         (testing) Custom shard impl of Communities: test-custom-shard, 2024-08-26, 2024-09-30
     section Chat.kaichaosun
         Review MVDS usage and fail path: crit, mvds, 2024-08-01, 2024-09-30
-        %% TODO estimate
         Minimal Community Specification and Implementation: min-com-spec, after mvds, 12w
     section Go.richard-ramos
-        Implement RLN smart contract for paid, multilevel memberships: rln-sc-d, 2024-09-01, 6w
+        Implement RLN smart contract for paid, multilevel memberships: rln-sc, 2024-09-01, 6w
         %% TODO: Estimate
         Nwaku in Status Desktop: nwaku-status-desktop-g, after rln-sc-d, 12w
+        %% TODO
+        Status Support: status-support-rr, 2024-09-01, 2024-12-31
     section Go.chaitanyaprem
         DoS Protection for Req-Res Protocols: crit, dosreqres-g, 2024-08-01, 2024-09-15
         Sharding peer mgmt and discovery hardening: crit, sh-peer-mgmt-g, 2024-08-26, 2024-09-12
@@ -120,7 +118,7 @@ gantt
         Store v3 (sync): crit, storev3sync-n, 2024-08-15, 2024-09-20
         PostgreSQL Maintenance: crit, pgsql-m, 2024-08-01, 2024-09-18
         %% TODO review date/estimate
-        PostgreSQL Optimisation - phase 1: pgsql-opt-1, after pgsql-m, 8w
+        PostgreSQL Optimisation - phase 1: pgsql-opt-1, after pgsql-m, 6w
         PostgreSQL Optimisation - phase 2: pgsql-opt-2, after pgsql-opt-1, 8w
         %% TODO: Estimate
         Nwaku in Status Desktop: nwaku-status-desktop-2, after pgsql-opt-1, 6w
@@ -138,6 +136,7 @@ gantt
         Reliability Protocol for Resource-Restricted Clients: crit, rel-reqres-j-1, 2024-08-01, 2024-09-13
         %% TODO estimate
         Public dogfooding web app: pub-dogfood-web-app-1, after rel-reqres-j-1, 8w
+        Implement RLN smart contract (js-waku): rln-sc-j, after pub-dogfood-web-app-1, 8w
     section Js.danisharora099
         Reliability Protocol for Resource-Restricted Clients: crit, rel-reqres-j-2, 2024-08-01, 2024-09-13
         %% TODO estimate
