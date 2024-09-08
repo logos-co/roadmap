@@ -1182,7 +1182,7 @@
     <lastmod>2024-08-09T17:35:13.058Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/2024-milestones</loc>
-    <lastmod>2024-08-09T17:35:13.058Z</lastmod>
+    <lastmod>2024-09-08T00:29:48.510Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/collaboration/guidelines-for-collaboration</loc>
     <lastmod>2024-07-18T00:00:00.000Z</lastmod>
@@ -1198,6 +1198,30 @@
   </url><url>
     <loc>https://roadmap.logos.co/waku/</loc>
     <lastmod>2024-07-18T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/waku/milestones/2024-bandwidth-optimization-and-protocol-review</loc>
+    <lastmod>2024-09-08T00:29:48.510Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/waku/milestones/2024-direct-msg-reliability</loc>
+    <lastmod>2024-09-08T00:29:48.510Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/waku/milestones/2024-e2e-reliability-protocol</loc>
+    <lastmod>2024-09-08T00:29:48.510Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/waku/milestones/2024-nwaku-in-status-desktop</loc>
+    <lastmod>2024-09-08T00:29:48.510Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/waku/milestones/2024-scale-number-of-communities</loc>
+    <lastmod>2024-09-08T00:29:48.510Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/waku/milestones/2024-scale-one-to-one-chat-poc</loc>
+    <lastmod>2024-09-08T00:29:48.510Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/waku/milestones/2024-static-sharding-dedicated-shards</loc>
+    <lastmod>2024-09-08T00:29:48.510Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/waku/milestones/2024-store-service-upgrade</loc>
+    <lastmod>2024-09-08T00:29:48.510Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/monthly-reports/2023-sept</loc>
     <lastmod>2023-10-05T00:00:00.000Z</lastmod>
