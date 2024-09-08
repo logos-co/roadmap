@@ -1,9 +1,10 @@
 ---
-title: Store Service Upgrade"
+title: Store Service Upgrade
 tags:
     - waku-milestone
 date: 2024-09-07
 ---
+[Milestone Store Service Upgrade](https://github.com/waku-org/pm/milestone/27)
 
 Due Date: 2024-09-20
 
