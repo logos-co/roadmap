@@ -33,22 +33,22 @@ gantt
         Review MVDS usage and fail path: crit, milestone, after mvds, 0
         PostgreSQL optimisation - phase 1: milestone, after pgsql-opt-1, 0
     section E2e reliability protocol
-        (telemetry) Multicast message reliability: milestone, after telem-m-msg-rel, 0
         E2e reliability protocol PoC: milestone, crit, after e2e-rel-r, 0
         E2e reliability protocol Status integration: milestone, crit, after e2e-rel-status-r e2e-rel-status-g, 0
     section Static Sharding - dedicated shards
         (telemetry) Measure Bandwidth: milestone, after telem-bandwidth, 0
+        (telemetry) Sharding: milestone, after telem-shard, 0
         Sharding peer mgmt and discovery hardening: crit, milestone, after sh-peer-mgmt-n sh-peer-mgmt-g, 0
         (testing) Custom shard impl of Communities: milestone, after test-custom-shard, 0
         PostgreSQL optimisation - phase 2: milestone, after pgsql-opt-2, 0
         Setup Waku Community on dedicated shard with pre-shared key dos protection: milestone, after waku-com, 0
-    section Bandwidth optimisation and protocol review
+    section Bandwidth optimisation and Communities protocol review
         Minimal Community Specification and Implementation: milestone, after min-com-spec, 0
         %% TODO: schedule
         Telemetry review: milestone, after telem-review, 0
         Minimal solution for greedy messages: milestone, after min-sol-com, 0
         Define long-term solution: milestone, after define-com-sol, 0
-        Review usage of content topics in Status Chat and Communities protocol: milestone, after cont-topic-r, 0
+        Review usage of content topics in Status Communities protocol: milestone, after cont-topic-r, 0
         Specify de-MLS over Waku: milestone, after demls-spec, 0
     section Nwaku in Status Desktop (Relay mode)
         Nwaku on Windows: milestone, after nwaku-windows-n, 0
@@ -82,7 +82,7 @@ gantt
     section Go.chaitanyaprem
         DoS Protection for Req-Res Protocols: crit, dosreqres-g, 2024-08-01, 2024-09-15
         Sharding peer mgmt and discovery hardening: crit, sh-peer-mgmt-g, 2024-08-26, 2024-09-12
-        Review usage of content topics in Status Chat and Communities protocol: cont-topic-r, after sh-peer-mgmt-g, 10w
+        Review usage of content topics in Status Communities protocol: cont-topic-r, after sh-peer-mgmt-g, 10w
     section EcoDev.vpavlin
         (telemetry) direct message reliability: telem-d-msg-rel-1, 2024-08-26, 2024-09-25
         (telemetry) Measure Bandwidth: telem-bandwidth, after telem-d-msg-rel-1, 8w
@@ -93,7 +93,7 @@ gantt
         Co-design sessions: codesign-bd, after cust-int, 2024-11-15
     section Go.adklempner
         (telemetry) direct message reliability: telem-d-msg-rel-2, 2024-08-01, 2024-09-25
-        (telemetry) Multicast message reliability: telem-m-msg-rel, after telem-d-msg-rel-2, 4w
+        (telemetry) sharding: telem-shard, after telem-d-msg-rel-2, 4w
     section Test.stubbsta
         %% TODO Review estimate
         (simulation) Functionality and stress test store v3: sim-storev3, 2024-08-01, 8w
