@@ -56,12 +56,12 @@ gantt
     section Bandwidth optimisation and Communities protocol review
         %% For now same person scheduled to do both research and implementation
         Minimal Community Specification and Implementation: milestone, after r-min-com-spec c-min-com-spec, 0
+        Review usage of content topics in Status Communities protocol: milestone, after r-cont-topic, 0
+        Specify de-MLS over Waku: milestone, after r-demls-spec, 0
         %% TODO: schedule
         Telemetry review: milestone, after r-telem-review, 0
         Minimal solution for greedy messages: milestone, after r-min-sol-com, 0
         Define long-term solution: milestone, after r-define-com-sol, 0
-        Review usage of content topics in Status Communities protocol: milestone, after r-cont-topic, 0
-        Specify de-MLS over Waku: milestone, after r-demls-spec, 0
     section Nwaku in Status Desktop (Relay mode)
         Nwaku on Windows: milestone, after n-nwaku-windows, 0
         Nwaku in Status Desktop: milestone, after n-nwaku-status-desktop, 0
@@ -85,32 +85,31 @@ gantt
         Setup Waku Community on dedicated shard with pre-shared key dos protection: waku-com, after c-test-custom-shard, 2w
     section Chat.kaichaosun
         Review MVDS usage and fail path: crit, c-mvds, 2024-08-01, 2024-09-30
-        Minimal Community Specification and Implementation: r-min-com-spec, after c-mvds, 12w
+        Minimal Community Specification and Implementation: c-min-com-spec, after c-mvds, 12w
     section Go.richard-ramos
         Implement RLN smart contract for paid, multilevel memberships: r-rln-sc, 2024-09-01, 6w
         %% TODO: Estimate
-        Nwaku in Status Desktop: n-nwaku-status-desktop, after n-rln-sc, 12w
+        Nwaku in Status Desktop: n-nwaku-status-desktop, after n-rln-sc, 2025-01-31
         Status Support: status-support-rr, 2024-09-01, 2024-12-31
     section Go.chaitanyaprem
         DoS Protection for Req-Res Protocols: crit, g-dosreqres, 2024-08-01, 2024-09-15
         Sharding peer mgmt and discovery hardening: crit, g-shard-peer-mgmt, 2024-08-26, 2024-09-12
-        Review usage of content topics in Status Communities protocol: cont-topic-r, after g-shard-peer-mgmt, 10w
+        Review usage of content topics in Status Communities protocol: r-cont-topic, after g-shard-peer-mgmt, 10w
     section EcoDev.vpavlin
         (telemetry) direct message reliability: t-d-msg-rel-1, 2024-08-26, 2024-09-25
         (telemetry) Measure Bandwidth: t-bandwidth, after t-d-msg-rel-1, 8w
         %% TODO: do bandwidth telemetry?
         E2e reliability protocol Status integration: crit, c-e2e-rel-status, after r-e2e-rel, 6w
         %% TODO: fit that properly
-        Specify de-MLS over Waku: demls-spec, 2024-10-01, 4w
+        Specify de-MLS over Waku: r-demls-spec, 2024-10-01, 4w
         Co-design sessions: bd-codesign, after cust-int, 2024-11-15
     section Go.adklempner
         (telemetry) direct message reliability: t-d-msg-rel-2, 2024-08-01, 2024-09-25
         (telemetry) sharding: t-sharding, after t-d-msg-rel-2, 4w
     section Test.stubbsta
-        %% TODO Review estimate
-        (simulation) Functionality and stress test store v3: sim-storev3, 2024-08-01, 8w
-        (simulation) relay reliability performance impact: sim-relay-rel, after sim-store-cmp sim-req-res, 4w
-        (simulation) req-res reliability performance impact: sim-reqres-rel, after sim-relay-rel, 6w
+        (simulation) Functionality and stress test store v3: sim-storev3, 2024-07-08, 8w
+        (simulation) Functionality and stress test store v3 sync: sim-storesync, 2024-09-01, 10w
+        (simulation) Reliability performance impact: sim-rel, after sim-storesync, 10w
     section Res.shash256
         E2e reliability protocol - PoC: crit, r-e2e-rel, 2024-08-01, 2024-09-06
         E2e reliability protocol Status integration: r-e2e-rel-status, after r-e2e-rel, 10w 
