@@ -66,11 +66,13 @@ gantt
         Nwaku on Windows: milestone, after n-nwaku-windows, 0
         Nwaku in Status Desktop: milestone, after n-nwaku-status-desktop, 0
     section Scale 1-1 chat messages PoC
-        Pay for RLN provision first PoC: milestone, after r-rlnaas, 0
         Implement RLN smart contract for paid, multilevel memberships: milestone, after r-rln-sc n-rln-sc j-rln-sc, 0
         Public dogfooding web app: milestone, after j-pub-dogfood-web-app-1 j-pub-dogfood-web-app-2, 0
     section Scale up number of Communities
         Usage of rendezvous: milestone, after r-rendezvous, 0
+    section Incentivise running a Waku infrastructure node
+        RLN Relay Incentivisation: milestone, after r-rln-relay-incent, 0
+        Service Incentivisation: milestone, after r-svc-incent, 0
     section Demonstrate product market-fit
         Define cost (self-host): milestone, after bd-define-cost, 0
         Define potential USPs: milestone, after bd-define-usps, 0
@@ -120,10 +122,10 @@ gantt
         Peer mgmt - follow-up: after storev3-r, 8w
         Usage of rendezvous: r-rendezvous, after r-storev3sync, 8w
     section Res.alrevuelta
+        RLN Relay Incentivisation: r-rln-relay-incent, 2024-09-01, 2024-12-31
     section Res.s-tikhomirov
         Implement RLN smart contract for paid, multilevel memberships: rln-sc-d, 2024-09-01, 6w
-        %% TODO Estimate
-        Pay for RLN provision first PoC: r-rlnaas, 2024-09-01, 8w
+        Service Incentivisation: r-svc-incent, 2024-09-01, 2024-12-31
     section Nim.Ivansete
         Store v3 (sync): crit, n-storev3sync, 2024-08-15, 2024-09-20
         PostgreSQL Maintenance: crit, n-pgsql-m, 2024-08-01, 2024-09-18
