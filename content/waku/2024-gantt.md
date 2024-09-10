@@ -146,12 +146,10 @@ gantt
         Nwaku on Windows: n-nwaku-windows, 2024-08-15, 6w
     section Js.weboko
         Reliability Protocol for Resource-Restricted Clients: crit, j-rel-reqres-1, 2024-08-01, 2024-09-13
-        %% TODO estimate
         Public dogfooding web app: j-pub-dogfood-web-app-1, after j-rel-reqres-1, 8w
-        Implement RLN smart contract (js-waku): j-rln-sc, after j-pub-dogfood-web-app-1, 8w
+        Implement RLN smart contract (js-waku): j-rln-sc, after j-pub-dogfood-web-app-1, 10w
     section Js.danisharora099
         Reliability Protocol for Resource-Restricted Clients: crit, j-rel-reqres-2, 2024-08-01, 2024-09-13
-        %% TODO estimate
         Public dogfooding web app: j-pub-dogfood-web-app-2, after j-rel-reqres-2, 8w
     section BD.pedro
         Define cost (self-host): bd-define-cost, 2024-08-01, 2024-11-30
