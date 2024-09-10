@@ -10,7 +10,8 @@ Colour legend:
 - **Red**: engineering work to deliver the feature.
 - Other: test and telemetry work to ensure quality
 
-Anything prefixed `TBC` is pending confirmation of estimate with the team.
+Prefix legend:
+- `TBC`: Yet to be scheduled or estimation needs to be locked in.
 
 Completion dates are delivery of the code + **dogfooding**.
 
@@ -59,9 +60,9 @@ gantt
         Review usage of content topics in Status Communities protocol: milestone, after r-cont-topic, 0
         Specify de-MLS over Waku: milestone, after r-demls-spec, 0
         %% TODO: schedule
-        Telemetry review: milestone, after r-telem-review, 0
-        Minimal solution for greedy messages: milestone, after r-min-sol-com, 0
-        Define long-term solution: milestone, after r-define-com-sol, 0
+        TBC Telemetry review: milestone, after r-telem-review, 0
+        TBC Minimal solution for greedy messages: milestone, after r-min-sol-com, 0
+        TBC Define long-term solution: milestone, after r-define-com-sol, 0
     section Nwaku in Status Desktop (Relay mode)
         Nwaku on Windows: milestone, after n-nwaku-windows, 0
         Nwaku in Status Desktop: milestone, after n-nwaku-status-desktop, 0
