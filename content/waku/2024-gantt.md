@@ -65,9 +65,9 @@ gantt
     section Nwaku in Status Desktop (Relay mode)
         Nwaku on Windows: milestone, after n-nwaku-windows, 0
         Nwaku in Status Desktop: milestone, after n-nwaku-status-desktop, 0
-    section Scale 1-1 chat messages PoC
+    section RLN Mainnet
         Implement RLN smart contract for paid, multilevel memberships: milestone, after r-rln-sc n-rln-sc j-rln-sc, 0
-        Public dogfooding web app: milestone, after j-pub-dogfood-web-app-1 j-pub-dogfood-web-app-2, 0
+        Public dogfooding RLNaaS web app: milestone, after j-pub-dogfood-web-app-1 j-pub-dogfood-web-app-2, 0
     section Scale up number of Communities
         Usage of rendezvous: milestone, after r-rendezvous, 0
     section Incentivise running a Waku infrastructure node
@@ -146,11 +146,11 @@ gantt
         Nwaku on Windows: n-nwaku-windows, 2024-08-15, 6w
     section Js.weboko
         Reliability Protocol for Resource-Restricted Clients: crit, j-rel-reqres-1, 2024-08-01, 2024-09-13
-        Public dogfooding web app: j-pub-dogfood-web-app-1, after j-rel-reqres-1, 8w
+        Public dogfooding RLNaaS web app: j-pub-dogfood-web-app-1, after j-rel-reqres-1, 8w
         Implement RLN smart contract (js-waku): j-rln-sc, after j-pub-dogfood-web-app-1, 10w
     section Js.danisharora099
         Reliability Protocol for Resource-Restricted Clients: crit, j-rel-reqres-2, 2024-08-01, 2024-09-13
-        Public dogfooding web app: j-pub-dogfood-web-app-2, after j-rel-reqres-2, 8w
+        Public dogfooding RLNaaS web app: j-pub-dogfood-web-app-2, after j-rel-reqres-2, 8w
     section BD.pedro
         Define cost (self-host): bd-define-cost, 2024-08-01, 2024-11-30
         Define potential USPs: bd-define-usps, 2024-09-01, 2024-11-30
