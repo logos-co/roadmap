@@ -14,7 +14,7 @@ Anything prefixed `TBC` is pending confirmation of estimate with the team.
 
 Completion dates are delivery of the code + **dogfooding**.
 
-If too hard to read, try to see this fine in [GitHub](https://github.com/logos-co/roadmap/blob/v4/content/waku/2024-gantt.md).
+If too hard to read, try to see this file in [GitHub](https://github.com/logos-co/roadmap/blob/v4/content/waku/2024-gantt.md).
 
 ```mermaid
 gantt
