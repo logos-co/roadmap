@@ -91,7 +91,6 @@ gantt
         Minimal Community Specification and Implementation: c-min-com-spec, after c-mvds, 12w
     section Go.richard-ramos
         Implement RLN smart contract for paid, multilevel memberships: r-rln-sc, 2024-09-01, 6w
-        %% TODO: Estimate
         Nwaku in Status Desktop: n-nwaku-status-desktop, after n-rln-sc, 2025-01-31
         Status Support: status-support-rr, 2024-09-01, 2024-12-31
     section Go.chaitanyaprem
@@ -133,7 +132,6 @@ gantt
         %% TODO review date/estimate
         PostgreSQL Optimisation - phase 1: n-pgsql-opt-1, after n-pgsql-m, 6w
         PostgreSQL Optimisation - phase 2: n-pgsql-opt-2, after n-pgsql-opt-1, 8w
-        %% TODO: Estimate
         Nwaku in Status Desktop: n-nwaku-status-desktop-2, after n-pgsql-opt-1, 6w
     section Nim.NagyZoltanPeter
         DoS Protection for Req-Res Protocols: crit, n-dosreqres, 2024-08-01, 2024-09-15
