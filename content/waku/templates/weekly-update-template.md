@@ -142,17 +142,67 @@ tags:
 
 - [Usage of Rendezvous](https://github.com/waku-org/pm/issues/199)
   - achieved:
-    - next:
-    - blockers:
+  - next:
+  - blockers:
 
 - [DoS protection for req-res protocols and metrics (go-waku as service node)](https://github.com/waku-org/pm/issues/200)
   - achieved:
+  - next:
+  - blockers:
+
+## [Milestone: Nwaku in Status Desktop](https://github.com/waku-org/pm/milestone/33)
+
+- [Nwaku in Golang: Desktop](https://github.com/waku-org/pm/issues/201)
+    - achieved:
     - next:
     - blockers:
+
+- [Nwaku in Golang: Relay](https://github.com/waku-org/pm/issues/202)
+  - achieved:
+  - next:
+  - blockers:
+
+- [Nwaku in Status Desktop](https://github.com/waku-org/pm/issues/203)
+  - achieved:
+  - next:
+  - blockers:
+
+- [Nwaku on Windows](https://github.com/waku-org/pm/issues/239)
+  - achieved:
+  - next:
+  - blockers:
+
+## Milestone:Incentivise running a Waku infrastructure node
+
+- [RLN Relay Incentivisation - Distribute RLN fees PoC]()
+  - achieved:
+  - next:
+  - blockers:
+
+- [RLN Relay Incentivisation - RLN fee sharing roadmap & spec]()
+  - achieved:
+  - next: 
+  - blockers:
+
+- [Service Incentivisation - Pay for RLN provision PoC]()
+  - achieved:
+  - next:
+  - blockers:
+
+- [Service Incentivisation - Service incentivisation roadmap & spec]()
+  - achieved:
+  - next:
+  - blockers:
 
 ## Other Work
 
 ### Enhancements
+
+- achieved:
+- next:
+- blockers:
+
+### Maintenance
 
 - achieved:
 - next:
