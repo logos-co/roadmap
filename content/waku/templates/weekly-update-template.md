@@ -178,14 +178,17 @@ tags:
   - achieved:
   - next:
   - blockers:
+
 - [RLN Relay Incentivisation - RLN fee sharing roadmap & spec]()
   - achieved:
   - next: 
   - blockers:
+
 - [Service Incentivisation - Pay for RLN provision PoC]()
   - achieved:
   - next:
   - blockers:
+
 - [Service Incentivisation - Service incentivisation roadmap & spec]()
   - achieved:
   - next:
