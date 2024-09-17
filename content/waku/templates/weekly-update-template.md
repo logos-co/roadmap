@@ -172,7 +172,7 @@ tags:
   - next:
   - blockers:
 
-## Milestone:Incentivise running a Waku infrastructure node
+## Milestone: Incentivise running a Waku infrastructure node
 
 - [RLN Relay Incentivisation - Distribute RLN fees PoC]()
   - achieved:
