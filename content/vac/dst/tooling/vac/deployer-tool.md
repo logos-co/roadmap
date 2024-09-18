@@ -26,16 +26,18 @@ gantt
     Deployer Tool: 2024-05-01, 2024-11-01
 ```
 
-- status: 80%
-- CC: Alberto
+- status: 90%
+- CC: Alberto, Wings
 
 ### Description
 
 A first version of tool that allows deploying >10k gossipsub / waku relay nodes.
 
-The tool should measure bandwidth usage per node and bundle the measurement data for analaysis.
+The tool should measure bandwidth usage per node and bundle the measurement data for analysis.
 
 The tool should be built in such a way that it can be used for other deployments as well.
+
+It should allow automated, repeatable and accountable deployments.
 
 ### Justification
 
@@ -43,3 +45,4 @@ The tool should be built in such a way that it can be used for other deployments
 ### Deliverables
 
 * https://github.com/vacp2p/10ksim
+* https://github.com/vacp2p/vaclab/argocd
