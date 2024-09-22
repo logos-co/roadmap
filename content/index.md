@@ -18,6 +18,3 @@ Every year (starting this year), each project defines its plans in a number a mi
 - [Vac](vac/index.md)
 - [Comms (Acid Info)](acid/index.md)
 - [[insight/index|Insight]]
-
-### Skunk works
-- [Innovation Lab](innovation_lab/index.md)
