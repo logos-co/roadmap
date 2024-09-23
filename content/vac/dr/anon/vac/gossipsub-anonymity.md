@@ -25,7 +25,7 @@ gantt
     Gossipsub Anonymity Layer:  2024-04-15, 2024-12-15
 ```
 
-- status: 5%
+- status: 50%
 - CC: Akshaya
 
 ### Description
@@ -70,4 +70,4 @@ Privacy protection, which entails anonymity, is part of the [logos manifesto](ht
 * draft specification of the base functionality (a usable subset of the functionality)
 * PoC implementation of the base functionality
 
-
+- [x] https://github.com/vacp2p/rfc-index/pull/97/
