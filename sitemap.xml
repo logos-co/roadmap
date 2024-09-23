@@ -29,8 +29,8 @@
     <loc>https://roadmap.logos.co/acid/updates/2023-10-24</loc>
     <lastmod>2023-10-25T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/codex/milestones-overview</loc>
-    <lastmod>2023-08-07T00:00:00.000Z</lastmod>
+    <loc>https://roadmap.logos.co/codex/milestones/</loc>
+    <lastmod>2024-09-23T21:19:21.884Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/codex/monthly-reports/2023-aug</loc>
     <lastmod>2024-09-09T19:41:51.005Z</lastmod>
@@ -42,7 +42,7 @@
     <lastmod>2023-09-18T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/codex/overview</loc>
-    <lastmod>2024-08-09T17:35:13.038Z</lastmod>
+    <lastmod>2024-09-23T21:19:21.884Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/codex/updates/2023-07-21</loc>
     <lastmod>2023-08-03T00:00:00.000Z</lastmod>
@@ -147,7 +147,7 @@
     <lastmod>2024-07-09T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/</loc>
-    <lastmod>2024-09-22T20:43:34.567Z</lastmod>
+    <lastmod>2024-09-23T21:19:21.884Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/innovation_lab/</loc>
     <lastmod>2024-08-09T17:35:13.046Z</lastmod>
@@ -208,6 +208,27 @@
   </url><url>
     <loc>https://roadmap.logos.co/nomos/</loc>
     <lastmod>2023-10-12T00:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/nomos/milestones/coordination-layer</loc>
+    <lastmod>2024-09-23T21:19:21.884Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/nomos/milestones/data-availability</loc>
+    <lastmod>2024-09-23T21:19:21.884Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/nomos/milestones/</loc>
+    <lastmod>2024-09-23T21:19:21.884Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/nomos/milestones/p2p-privacy</loc>
+    <lastmod>2024-09-23T21:19:21.884Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/nomos/milestones/ppos-consensus</loc>
+    <lastmod>2024-09-23T21:19:21.884Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/nomos/milestones/testnet-insights</loc>
+    <lastmod>2024-09-23T21:19:21.884Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/nomos/milestones/user-tools</loc>
+    <lastmod>2024-09-23T21:19:21.884Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/nomos/monthly-reports/2023-aug</loc>
     <lastmod>2024-09-09T19:41:51.005Z</lastmod>
@@ -1215,7 +1236,7 @@
     <lastmod>2024-08-09T17:35:13.058Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/2024-milestones</loc>
-    <lastmod>2024-09-09T03:27:08.476Z</lastmod>
+    <lastmod>2024-09-23T21:19:21.884Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/collaboration/guidelines-for-collaboration</loc>
     <lastmod>2024-07-18T00:00:00.000Z</lastmod>
