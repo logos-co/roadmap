@@ -23,7 +23,7 @@ gantt
 	section Status
 		v0.6 Release: , 2024-08-12, 2024-10-12
 ```
-- status: 0%
+- status: 40%
 - CCs: 
 	- Ekaterina
 
@@ -35,4 +35,9 @@ This release's major feature is stateless RLN.
 
 ### Deliverables
 
+- [x] https://github.com/vacp2p/zerokit/pull/265
+- [x] https://github.com/vacp2p/zerokit/pull/266
+- [x] https://github.com/vacp2p/zerokit/pull/267
+- [ ] https://github.com/vacp2p/zerokit/pull/270
+- [ ] https://github.com/vacp2p/zerokit/pull/269
 
