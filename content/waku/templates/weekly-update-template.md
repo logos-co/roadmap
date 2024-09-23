@@ -194,6 +194,18 @@ tags:
   - next:
   - blockers:
 
+## [Milestone: Bandwidth optimization and protocol review](https://github.com/waku-org/pm/milestone/31)
+
+- [Status usage of Waku scaling and bandwidth optimization recommendation](https://github.com/waku-org/pm/issues/197)
+  - achieved:
+  - next:
+  - blockers:
+
+- [Review usage of content topics in Status Chat and Communities protocol](https://github.com/waku-org/pm/issues/198)
+  - achieved:
+  - next:
+  - blockers:
+
 ## Other Work
 
 ### Enhancements
