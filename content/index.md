@@ -16,5 +16,3 @@ Every year (starting this year), each project defines its plans in a number a mi
 
 ### Services
 - [Vac](vac/index.md)
-- [Comms (Acid Info)](acid/index.md)
-- [[insight/index|Insight]]

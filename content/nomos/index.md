@@ -11,3 +11,4 @@ description: The Nomos project is an attempt to make a scalable, modular, and pr
 The Nomos project building a blockchain for Network States. To learn more about the project, please visit [the website](https://nomos.tech)
 
 Nomos is currently in its research phase, and actively building a Testnet. 
+
