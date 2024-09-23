@@ -172,24 +172,36 @@ tags:
   - next:
   - blockers:
 
-## Milestone: Incentivise running a Waku infrastructure node
+## [Milestone: Incentivise running a Waku infrastructure node](https://github.com/waku-org/pm/milestone/35)
 
-- [RLN Relay Incentivisation - Distribute RLN fees PoC]()
+- [RLN Relay Incentivisation - Distribute RLN fees PoC](https://github.com/waku-org/pm/issues/243)
   - achieved:
   - next:
   - blockers:
 
-- [RLN Relay Incentivisation - RLN fee sharing roadmap & spec]()
+- [RLN Relay Incentivisation - RLN fee sharing roadmap & spec](https://github.com/waku-org/pm/issues/244)
   - achieved:
   - next: 
   - blockers:
 
-- [Service Incentivisation - Pay for RLN provision PoC]()
+- [Service Incentivisation - Pay for RLN provision PoC](https://github.com/waku-org/pm/issues/245)
   - achieved:
   - next:
   - blockers:
 
-- [Service Incentivisation - Service incentivisation roadmap & spec]()
+- [Service Incentivisation - Service incentivisation roadmap & spec](https://github.com/waku-org/pm/issues/246)
+  - achieved:
+  - next:
+  - blockers:
+
+## [Milestone: Bandwidth optimization and protocol review](https://github.com/waku-org/pm/milestone/31)
+
+- [Status usage of Waku scaling and bandwidth optimization recommendation](https://github.com/waku-org/pm/issues/197)
+  - achieved:
+  - next:
+  - blockers:
+
+- [Review usage of content topics in Status Chat and Communities protocol](https://github.com/waku-org/pm/issues/198)
   - achieved:
   - next:
   - blockers:
