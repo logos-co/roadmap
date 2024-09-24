@@ -1,5 +1,5 @@
 ---
-title: End-to-end reliability protocol
+title: Bandwidth optimization and protocol review
 tags:
     - waku-milestone
 date: 2024-09-07
