@@ -3,14 +3,14 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Logos Collective Project Roadmaps",
+    pageTitle: "Vac R&D Roadmaps and Reports",
     enableSPA: true,
     enablePopovers: true,
     defaultDateType: "modified",
     analytics: {
       provider: "plausible",
     },
-    baseUrl: "roadmap.logos.co",
+    baseUrl: "roadmap.vac.dev",
     ignorePatterns: ["private", "templates"],
     theme: {
       typography: {

@@ -1,4 +1,4 @@
-name: Logos Collective
+name: Vac
 enableToc: true
 openToc: false
 enableLinkPreview: true
@@ -11,15 +11,15 @@ enableFooter: true
 enableContextualBacklinks: true
 enableRecentNotes: false
 enableGitHubEdit: true
-GitHubLink: https://github.com/logos-co/roadmap/tree/hugo/content
+GitHubLink: https://github.com/vacp2p/roadmap/tree/master/content
 enableSemanticSearch: true
 operandApiKey: "e1ec9cdc-56d2-420e-a5bd-c6019af4be58"
 description:
-  Information on how the Logos Collective plans to build its products, what it has done so far, and how you can get involved.
+  Vac R&D Roadmap and Reports
 page_title:
   "Logos Collective Technical Roadmap and Activity"
 links:
   # - link_name: Twitter
   #   link: https://twitter.com/_jzhao
   - link_name: Github
-    link: https://github.com/logos-co/roadmap
+    link: https://github.com/vacp2p/roadmap/tree/master/content
