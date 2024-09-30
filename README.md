@@ -12,6 +12,14 @@ This repository is built and served to https://roadmap.vac.co
 If you see a type or broken link, PRs are always welcome :)
 If there is information you'd like to see included that isn't here, create and issue :)
 
+## CI/CD
+
+[CI builds](https://ci.infra.status.im/job/website/job/roadmap.vac.dev/) `master` and pushes to `gh-pages` branch, which is hosted at <https://roadmap.vac.dev/>.
+
+The hosting is done using [Caddy server with Git plugin for handling GitHub webhooks](https://github.com/status-im/infra-misc/blob/master/ansible/roles/caddy-git).
+
+Information about deployed build can be also found in `/build.json` available on the website.
+
 ### Using Obsidian
 Quartz is created to serve a static site off of an [Obsidian](https://obsidian.md) vault, and thus is the preferred way to manage content locally. In order for all it to function properly, a few things need to be done properly.
 
@@ -34,3 +42,4 @@ In order to use the templates in the `Templates` folder for auto populating comm
   - assign whichever templates you want to be triggered when a new file is created in a given folder. 
 
 Refer the [Templater documentation](https://silentvoid13.github.io/Templater/) for how to create your own templates.
+
