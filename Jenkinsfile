@@ -1,3 +1,6 @@
+#!/usr/bin/env groovy
+library 'status-jenkins-lib@v1.9.10'
+
 pipeline {
   agent {
     label 'linux'
@@ -22,23 +25,24 @@ pipeline {
 
   stages {
     stage('Deps') {
-      steps {
-        sh 'npm install'
-      }
+      steps { script {
+        nix.develop('npm install')
+      } }
     }
 
     stage('Build') {
-      steps {
-        sh 'npx quartz build'
-      }
+      steps { script {
+        nix.develop('npx quartz build')
+        jenkins.genBuildMetaJSON('public/build.json')
+      } }
     }
 
     stage('Publish Prod') {
-      steps {
+      steps { script {
         sshagent(credentials: ['status-im-auto-ssh']) {
-          sh 'ghp-import -p public'
+          nix.develop('ghp-import -c roadmap.logos.co -p public', pure: false)
         }
-      }
+      } }
     }
   }
 }
