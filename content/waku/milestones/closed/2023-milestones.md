@@ -112,6 +112,7 @@ Epic: RLN validation in production
 
 Epic: Autosharding - dogfooding
 - Link: https://github.com/waku-org/pm/issues/58
+
 ### Milestone: Quality Assurance processes are in place
 -Link: https://github.com/waku-org/pm/milestone/3
 Due by: 2024-03-31
@@ -138,6 +139,7 @@ Epic: End-to-end testing
 - Issues in Epic:
 	- https://notes.status.im/s/iylE6wdli#
 	- https://github.com/waku-org/go-waku/issues/608
+
 ### Milestone: Support Many Platforms
 Link: https://github.com/waku-org/pm/milestone/2
 Due by: 2024-04-30
