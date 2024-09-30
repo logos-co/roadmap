@@ -11,7 +11,7 @@ tags:
 ### `ift:`
 
 ### `waku:`
-* [[qa/waku/interop-testing-2024q4|interop-testing-2024q4 ]]
+* [[qa/waku/extend-interop-testing-2024q4|extend-interop-testing-2024q4 ]]
 
 
 ### `nomos:`
