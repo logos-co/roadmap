@@ -9,12 +9,20 @@ tags:
 ---
 
 ### `ift`
-* [[dst/ift/deployer-tool|deployer-tool]]
+* [ ] [[dst/ift/deployer-tool|deployer-tool]]
+* [ ] [[dst/ift/visualiser-tool|visualiser-tool]]
+* [ ] [[dst/ift/vaclab|vaclab]]
 
 ### `waku`
+* [ ] [[dst/waku/waku-scaling|waku-scaling]]
 
 ### `codex`
+* [ ] [[dst/codex/codex-scaling|codex-scaling]]
 
 ### `nomos`
+* [ ] [[dst/nomos/nomos-scaling|nomos-scaling]]
+
+### `vac`
+* [ ] [[dst/vac/libp2p-evaluation|libp2p-evaluation]]
 
 
