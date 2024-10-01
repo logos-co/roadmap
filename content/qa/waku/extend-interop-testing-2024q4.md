@@ -1,5 +1,5 @@
 ---
-title: Extend Waku Interop Testing 
+title: Waku Interop Testing (extended)
 tags:
   - "2024q4"
   - "qa"
@@ -9,7 +9,7 @@ description: Extend Waku interop tests with focus on more advanced scenarios
 
 ---
 
-`vac:qa:waku:extend-interop-testing-2024q4`
+`vac:qa:waku:interop-testing-2024q4`
 
 ## Description
 
