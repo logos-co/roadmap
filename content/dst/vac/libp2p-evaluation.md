@@ -25,34 +25,27 @@ These efforts will contribute in these ways to the Conduit of Expertise narrativ
 * Reduce the risk of a libp2p regression making it into a new release of our product
 
 Additionally, these efforts will contribute to the Premier Research destination narrative by:
-* Improving and strengthening our relationship with the libp2p team and thus increasing the reach and influence of the IFT, and improving the chances that we become a full blown 
+* Improving and strengthening our relationship with the libp2p team and thus increasing the reach and influence of the IFT, and improving the chances that we successfully grow our ecosystem's products and collaborations and especially those we want to work with externally.
 
+<!--
 ## Task List
 
-### High Scalability Waku Demonstration
+### <task 1>
 
-* fully qualified name: `vac:dst:waku:waku-scaling`
-* owner: Wings
-* status: 95%
-* start-date: 2024/03/01
-* end-date: 2024/11/01
+* fully qualified name: <>
+* owner: 
+* status: <not started or in progress (0%-99%) or done>
+* start-date: <yyyy/mm/dd>
+* end-date: <yyyy/mm/dd>
 
 #### Description
-Demonstrate a working, real world, large scale Waku network.
 
-Measure its performance and attempt to support the assertion that Waku is a scalable solution that can work in networks at sizes that push the limits of what the theoretical work we did predicted is possible.
-
-Specifically, we want to deploy a 10,000 node Waku network and measure its performance in terms of message delivery, bandwidth usage, and other metrics. We want to deliver a report on what we learned, what we tested and what we found.
-
-The report should include analysis of the performance of Waku at extreme scale, providing insights that allow people to see significant supporting evidence that Waku can in fact scale to these sizes and perform reliably.
+Either an expressive description or a link to a github issue with an expressive description.
 
 #### Deliverables
 
-- [x] https://github.com/vacp2p/10ksim - A working set of bundled and compatible Kubernetes manifests that allow for up to a 10,000 node Waku network to be reliably created and measured. The manifests should be compatible with [[vac|dst|deployer-tool|deployer-tool]] and flexible.
-
-- [ ] A useful set of measurements taken with the 
 List (can consist of a single Deliverable) of planned Deliverables and links to completed Deliverables.
-<!-- Most recently blocked by metrics scaling issues, nearly through them -->
+-->
 
 
-<!-- Many more tasks to come based on milestone's previous plans.>
+
