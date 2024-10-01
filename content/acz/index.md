@@ -20,6 +20,7 @@ tags:
 ### `codex:`
 
 ### `nomos:`
+* [ ] [[acz/nomos/consulting|consulting]]
 
 ### `nes`
 

@@ -1,11 +1,11 @@
 ---
 title: LibP2P mix protocol
 tags:
-  - "2024Q4"
+  - "2024q4"
   - "acz"
   - "ift"
 draft: false
-description:
+description: "Creating an RFC then implementing a poc of custom mixnet protocol within the libp2p framework designed to enable anonymous communication in p2p networks"
 ---
 
 `vac:acz:ift:libp2p-mix-poc`
