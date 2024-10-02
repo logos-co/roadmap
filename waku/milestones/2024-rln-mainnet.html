@@ -19,7 +19,7 @@ Analyse RLN deployment in the Waku proto-network and evaluate its DoS protection
 <li>What token should be used?</li>
 <li>Do we need a combination of msg/sec and msg allocation/day rate limiting?</li>
 </ul>
-<h2 id="deliverable-implement-rln-smart-contract-for-paid-multilevel-memberships">Deliverable: Implement RLN smart contract for paid, multilevel memberships<a aria-hidden="true" tabindex="-1" href="#deliverable-implement-rln-smart-contract-for-paid-multilevel-memberships" class="internal"> §</a></h2>
+<h2 id="deliverable-implement-rln-smart-contract-for-paid-multilevel-memberships">Deliverable: <a href="https://github.com/waku-org/pm/issues/256" class="external">Implement RLN smart contract for paid, multilevel memberships</a><a aria-hidden="true" tabindex="-1" href="#deliverable-implement-rln-smart-contract-for-paid-multilevel-memberships" class="internal"> §</a></h2>
 <p>This deliverable is an output of Maturing RLN variables/parameters revision (staking, contract/chain, token) - roadmap.</p>
 <p>Once we have matured the RLN parameters and specified a minimal set of (smart contract) features for a production-ready membership mechanism, the proposed smart contract changes must be implemented. This also implies implementing each feature in the different Waku clients as needed.
 Initial discussion indicates that our minimal feature set include:
@@ -28,14 +28,14 @@ RLN memberships at different rate-limit tiers
 Expiry of memberships to prevent hogging
 Support for RLN in resource-restricted clients, i.e. lightweight proof generation and validation
 The exact set of features is to be defined in a RFC, as output of Maturing RLN variables/parameters revision (staking, contract/chain, token) - roadmap.</p>
-<h2 id="deliverable-rln-contract-revision-and-audit">Deliverable: RLN contract revision and audit<a aria-hidden="true" tabindex="-1" href="#deliverable-rln-contract-revision-and-audit" class="internal"> §</a></h2>
+<h2 id="deliverable-rln-contract-revision-and-audit">Deliverable: <a href="https://github.com/waku-org/pm/issues/257" class="external">RLN contract revision and audit</a><a aria-hidden="true" tabindex="-1" href="#deliverable-rln-contract-revision-and-audit" class="internal"> §</a></h2>
 <p>Once a minimal set of smart contract features for RLN has been implemented, the contract needs to be thoroughly revised (and possibly audited) by a group of experts before it can be used in production.
 The Waku team will rely on Vac/SC to proceed/organise the smart contract review and audit</p>
-<h2 id="deliverable-deploy-rln-smart-contract-to-a-l2-mainnet">Deliverable: Deploy RLN smart contract to a L2 mainnet<a aria-hidden="true" tabindex="-1" href="#deliverable-deploy-rln-smart-contract-to-a-l2-mainnet" class="internal"> §</a></h2>
+<h2 id="deliverable-deploy-rln-smart-contract-to-a-l2-mainnet">Deliverable: <a href="https://github.com/waku-org/pm/issues/258" class="external">Deploy RLN smart contract to a L2 mainnet</a><a aria-hidden="true" tabindex="-1" href="#deliverable-deploy-rln-smart-contract-to-a-l2-mainnet" class="internal"> §</a></h2>
 <p>The RLN smart contract should be deployed to a Layer 2 mainnet.</p>
 <p>A first step here may be to deploy to a Layer 2 testnet first. However, we could deploy a test contract to a Layer 2 mainnet directly if it’s easier. (A contract used for testing does not have to be productionised/audited before deployment to mainnet.)</p>
 <p>This deliverable tracks all steps to deployment of a production version of the contract to a L2.</p>
-<h2 id="deliverable-public-dogfooding-rlnaas-web-app">Deliverable: Public dogfooding RLNaaS web app<a aria-hidden="true" tabindex="-1" href="#deliverable-public-dogfooding-rlnaas-web-app" class="internal"> §</a></h2>
+<h2 id="deliverable-public-dogfooding-rlnaas-web-app">Deliverable: <a href="https://github.com/waku-org/pm/issues/259" class="external">Public dogfooding RLNaaS web app</a><a aria-hidden="true" tabindex="-1" href="#deliverable-public-dogfooding-rlnaas-web-app" class="internal"> §</a></h2>
 <p>Second part of original scope of dogfooding web app.</p>
 <p>One of the proposed strategies to roll out RLN for Status 1:1 chats is to use RLNaaS where a service node attaches RLN proof for light clients. This would enable a roll out of RLN without impacting UX or UI.</p>
 <p>However, this would decrease the security that RLN brings, so we need to further test this topology to better under risks and mitigate them, or drop this approach.</p>
