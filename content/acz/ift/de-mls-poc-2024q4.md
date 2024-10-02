@@ -8,7 +8,7 @@ draft: false
 description: "Implementing testnet of the-mls by extending the previous poc and developing corresponding RFC"
 ---
 
-`vac:acz:ift:de-mls-poc`
+`vac:acz:ift:de-mls-poc-2024q4`
 
 ## Description
 

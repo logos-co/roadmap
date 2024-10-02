@@ -8,7 +8,7 @@ draft: false
 description: "Creating an RFC then implementing a poc of custom mixnet protocol within the libp2p framework designed to enable anonymous communication in p2p networks"
 ---
 
-`vac:acz:ift:libp2p-mix-poc`
+`vac:acz:ift:libp2p-mix-poc-2024q4`
 
 ## Description
 
