@@ -13,10 +13,6 @@ description: "Use real world testing, theoretical analysis and simulation to det
 ## Description
 Use real world testing, theoretical analysis and simulation to determine and improve Waku's scaling properties. Find the limits of Waku's capabilities and measure them in different scenarios.
 
-We want to learn as much as we can about Waku's behaviour and how that maps to our theory work. We want to learn what new theory work we can do from what we learn in the process.
-
-We will use a combination of real world testing, theoretical analysis and simulation to determine and improve Waku's scaling properties.
-
 Through this we will among other things research and find the limits of Waku's capabilities and measure them in different scenarios. We will work with the Waku team to improve and measure Waku and allow for deep examination of a wide range of networks from sizes anywhere from small (< 500 nodes) to midscale (500-5000 nodes) to large (10,000+ nodes).
 
 We will in some ways provide a parallel to the Vac QA team's efforts - while their focus is on individual low level or individual parts of Waku and other software within the IFT ecosystem, ours will be on the real world behaviour of Waku as a whole system - at different scales and with different configurations, mesh structure and shape - and how that maps to our theoretical work. At the same time, we will use the results of testing Waku at various scales to build further theoretical work to test and improve in a harmonious loop.
