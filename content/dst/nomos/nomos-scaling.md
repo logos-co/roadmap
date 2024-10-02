@@ -13,10 +13,6 @@ description: "Help Nomos understand and improve the properties of Nomos. Improve
 ## Description
 Use real world testing, theoretical analysis and simulation to determine and improve Nomos's scaling properties. Find the limits of Nomos's capabilities and measure them in different scenarios.
 
-We want to learn as much as we can about Nomos's behaviour and how that maps to our theory work. We want to learn what new theory work we can do from what we learn in the process.
-
-We will use a combination of real world testing, theoretical analysis and simulation to determine and improve Nomos's scaling properties.
-
 We will measure the real world speeds and latency of Nomos' mixnet, and what use cases it is therefore able to support.
 
 We will support the Conduit of Expertise narrative directly by providing valuable insights to Nomos and the ability to theorise, reason about, test, measure and improve the performance, stability and scalability of Nomos.
