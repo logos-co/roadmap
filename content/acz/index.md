@@ -9,9 +9,9 @@ tags:
 ---
 
 ### `ift:`
-* [ ] [[acz/ift/zerokit-v0-6|zerokit-v0.6]]
-* [ ] [[acz/ift/de-mls-poc|de-mls-poc]]
-* [ ] [[acz/ift/libp2p-mix-poc|libp2p-mix-poc]]
+* [ ] [[acz/ift/zerokit-v0-6-2024q4|zerokit-v0.6-2024q4]]
+* [ ] [[acz/ift/de-mls-poc-2024q4|de-mls-poc-2024q4]]
+* [ ] [[acz/ift/libp2p-mix-poc-2024q4|libp2p-mix-poc-2024q4]]
 
 ### `waku:`
 
@@ -20,7 +20,7 @@ tags:
 ### `codex:`
 
 ### `nomos:`
-* [ ] [[acz/nomos/consulting|consulting]]
+* [ ] [[acz/nomos/consulting-2024q4|consulting-2024q4]]
 
 ### `nes`
 
