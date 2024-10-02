@@ -41,7 +41,7 @@
 <li>[nwaku] <a href="https://github.com/waku-org/nwaku/pull/3035" class="external">chore: rate limit peer exchange protocol, enhanced response status in RPC</a></li>
 <li>[nwaku] <a href="https://github.com/waku-org/docs.waku.org/pull/216" class="external">chore: DOS protection of non-relay req/resp protocols new cli argument description</a></li>
 <li>[nwaku] <a href="https://github.com/waku-org/specs/pull/39" class="external">chore: Adjusted peer-exchange to the latest changes made due to rate limit DOS protection</a></li>
-<li>[nwaku] nim-waku is feature ready of <code>DOS protection for req-res protocols and metrics</code></li>
+<li>[nwaku] nwaku is feature ready for <code>DOS protection for req-res protocols and metrics</code></li>
 </ul>
 </li>
 </ul>
@@ -57,6 +57,7 @@
 </li>
 <li>next:
 <ul>
+<li>[nwaku] <a href="https://github.com/waku-org/nwaku/issues/2963" class="external">chore: store queries for content topics take longer with cursor</a></li>
 <li>[research] Write a quick reference summary of test findings</li>
 <li>[nwaku] <a href="https://github.com/waku-org/nwaku/issues/2963" class="external">chore: store queries for content topics take longer with cursor</a></li>
 </ul>
@@ -81,7 +82,7 @@
 </ul>
 </li>
 </ul>
-<h2 id="milestone---scale-11-chat-messages-poc"><a href="https://github.com/waku-org/pm/milestone/34" class="external">Milestone - Scale 1:1 chat messages PoC</a><a aria-hidden="true" tabindex="-1" href="#milestone---scale-11-chat-messages-poc" class="internal"> §</a></h2>
+<h2 id="milestone---rln-mainnet"><a href="https://github.com/waku-org/pm/milestone/34" class="external">Milestone - RLN Mainnet</a><a aria-hidden="true" tabindex="-1" href="#milestone---rln-mainnet" class="internal"> §</a></h2>
 <ul>
 <li>
 <p><a href="https://github.com/waku-org/pm/issues/204" class="external">RLNv2 in nwaku</a></p>
@@ -94,7 +95,7 @@
 </ul>
 </li>
 <li>
-<p><a href="https://github.com/waku-org/pm/issues/205" class="external">Maturing RLN variables/parameters revision</a></p>
+<p><a href="https://github.com/waku-org/pm/issues/228" class="external">Implement RLN smart contract for paid, multilevel memberships</a></p>
 <ul>
 <li>achieved:
 <ul>
@@ -108,6 +109,16 @@
 </li>
 </ul>
 </li>
+<li>
+<p>Public dogfooding RLNaaS web app</p>
+<ul>
+<li>achieved:
+<ul>
+<li>[nwaku] <a href="https://github.com/waku-org/nwaku/pull/3057" class="external">chore: append current version in agentString which is used by the identify protocol</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 <h2 id="milestone---scale-up-number-of-communities"><a href="https://github.com/waku-org/pm/milestone/32" class="external">Milestone - Scale up number of Communities</a><a aria-hidden="true" tabindex="-1" href="#milestone---scale-up-number-of-communities" class="internal"> §</a></h2>
 <ul>
@@ -115,7 +126,7 @@
 <ul>
 <li>achieved:
 <ul>
-<li>[research] nim libp2p PR update from feedback</li>
+<li>[research] nim-libp2p PR update from feedback</li>
 </ul>
 </li>
 <li>next:
@@ -194,24 +205,15 @@
 </ul>
 </li>
 </ul>
-<h2 id="other-work">Other Work<a aria-hidden="true" tabindex="-1" href="#other-work" class="internal"> §</a></h2>
-<h3 id="enhancements">Enhancements<a aria-hidden="true" tabindex="-1" href="#enhancements" class="internal"> §</a></h3>
+<h2 id="bugs-and-maintenance">Bugs and Maintenance<a aria-hidden="true" tabindex="-1" href="#bugs-and-maintenance" class="internal"> §</a></h2>
 <ul>
 <li>achieved:
 <ul>
-<li>[nwaku] <a href="https://github.com/waku-org/nwaku/pull/3059" class="external">fix: PeerExchange rpc decode in order not to take response’s status_code mandatory - for support old protocol implementation</a></li>
-<li>[nwaku] <a href="https://github.com/waku-org/nwaku/pull/3057" class="external">chore: append current version in agentString which is used by the identify protocol</a></li>
-<li>[nwaku] <a href="https://github.com/waku-org/nwaku/pull/3055" class="external">fix: px protocol decode - do not treat missing response field as error</a></li>
-<li>[nwaku] <a href="https://github.com/waku-org/nwaku/pull/3047" class="external">chore: updating upload and download artifact actions to v4</a></li>
 <li>[nwaku] <a href="https://github.com/waku-org/nwaku/pull/3045" class="external">chore: sharding - reduce log level for a too spammy message</a></li>
 <li>[nwaku] Release v0.33 preparation and validation</li>
-</ul>
-</li>
-</ul>
-<h3 id="bugs">Bugs<a aria-hidden="true" tabindex="-1" href="#bugs" class="internal"> §</a></h3>
-<ul>
-<li>achieved:
-<ul>
+<li>[nwaku] <a href="https://github.com/waku-org/nwaku/pull/3047" class="external">chore: updating upload and download artifact actions to v4</a></li>
+<li>[nwaku] <a href="https://github.com/waku-org/nwaku/pull/3055" class="external">fix: px protocol decode - do not treat missing response field as error</a></li>
+<li>[nwaku] <a href="https://github.com/waku-org/nwaku/pull/3059" class="external">fix: PeerExchange rpc decode in order not to take response’s status_code mandatory - for support old protocol implementation</a></li>
 <li>[chat] status-go <a href="https://github.com/status-im/status-go/pull/5845" class="external">fix_: remove unreachable code error message</a></li>
 <li>[chat] go-waku, fix push notifications not working in mobile in develop branch <a href="https://github.com/waku-org/go-waku/pull/1224" class="external">fix: filter batch duration opt was not propagated correctly</a></li>
 </ul>
@@ -337,7 +339,7 @@
 	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
 	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
 	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
-	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[]}"></div></div></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#milestone---store-service-upgrade" data-for="milestone---store-service-upgrade">Milestone - Store Service Upgrade</a></li><li class="depth-0"><a href="#milestone---static-sharding---dedicated-shards" data-for="milestone---static-sharding---dedicated-shards">Milestone - Static Sharding - dedicated shards</a></li><li class="depth-0"><a href="#milestone---scale-11-chat-messages-poc" data-for="milestone---scale-11-chat-messages-poc">Milestone - Scale 1:1 chat messages PoC</a></li><li class="depth-0"><a href="#milestone---scale-up-number-of-communities" data-for="milestone---scale-up-number-of-communities">Milestone - Scale up number of Communities</a></li><li class="depth-0"><a href="#milestone-nwaku-in-status-desktop" data-for="milestone-nwaku-in-status-desktop">Milestone: Nwaku in Status Desktop</a></li><li class="depth-0"><a href="#milestone-incentivise-running-a-waku-infrastructure-node" data-for="milestone-incentivise-running-a-waku-infrastructure-node">Milestone: Incentivise running a Waku infrastructure node</a></li><li class="depth-0"><a href="#milestone-bandwidth-optimization-and-protocol-review" data-for="milestone-bandwidth-optimization-and-protocol-review">Milestone: Bandwidth optimization and protocol review</a></li><li class="depth-0"><a href="#other-work" data-for="other-work">Other Work</a></li><li class="depth-1"><a href="#enhancements" data-for="enhancements">Enhancements</a></li><li class="depth-1"><a href="#bugs" data-for="bugs">Bugs</a></li><li class="depth-1"><a href="#milestone-demonstrate-product-market-fit" data-for="milestone-demonstrate-product-market-fit">Milestone: Demonstrate product-market fit</a></li><li class="depth-1"><a href="#milestone-acquire-first-10-customers" data-for="milestone-acquire-first-10-customers">Milestone: Acquire first 10 customers</a></li></ul></div></div><div class="backlinks "><h3>Backlinks</h3><ul class="overflow"><li>No backlinks found</li></ul></div></div></div><footer class><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.1.0</a>, © 2024</p><ul><li><a href="https://github.com/logos-co/roadmap">GitHub</a></li><li><a href="https://discord.com/invite/logos-state">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[]}"></div></div></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#milestone---store-service-upgrade" data-for="milestone---store-service-upgrade">Milestone - Store Service Upgrade</a></li><li class="depth-0"><a href="#milestone---static-sharding---dedicated-shards" data-for="milestone---static-sharding---dedicated-shards">Milestone - Static Sharding - dedicated shards</a></li><li class="depth-0"><a href="#milestone---rln-mainnet" data-for="milestone---rln-mainnet">Milestone - RLN Mainnet</a></li><li class="depth-0"><a href="#milestone---scale-up-number-of-communities" data-for="milestone---scale-up-number-of-communities">Milestone - Scale up number of Communities</a></li><li class="depth-0"><a href="#milestone-nwaku-in-status-desktop" data-for="milestone-nwaku-in-status-desktop">Milestone: Nwaku in Status Desktop</a></li><li class="depth-0"><a href="#milestone-incentivise-running-a-waku-infrastructure-node" data-for="milestone-incentivise-running-a-waku-infrastructure-node">Milestone: Incentivise running a Waku infrastructure node</a></li><li class="depth-0"><a href="#milestone-bandwidth-optimization-and-protocol-review" data-for="milestone-bandwidth-optimization-and-protocol-review">Milestone: Bandwidth optimization and protocol review</a></li><li class="depth-0"><a href="#bugs-and-maintenance" data-for="bugs-and-maintenance">Bugs and Maintenance</a></li><li class="depth-1"><a href="#milestone-demonstrate-product-market-fit" data-for="milestone-demonstrate-product-market-fit">Milestone: Demonstrate product-market fit</a></li><li class="depth-1"><a href="#milestone-acquire-first-10-customers" data-for="milestone-acquire-first-10-customers">Milestone: Acquire first 10 customers</a></li></ul></div></div><div class="backlinks "><h3>Backlinks</h3><ul class="overflow"><li>No backlinks found</li></ul></div></div></div><footer class><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.1.0</a>, © 2024</p><ul><li><a href="https://github.com/logos-co/roadmap">GitHub</a></li><li><a href="https://discord.com/invite/logos-state">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
 function toggleCallout() {
   const outerBlock = this.parentElement;
   outerBlock.classList.toggle(`is-collapsed`);
