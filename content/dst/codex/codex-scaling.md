@@ -13,8 +13,6 @@ description: "Use real world testing, theoretical analysis and simulation to det
 ## Description
 Use real world testing, theoretical analysis and simulation to determine and improve Codex's scaling properties. Find the limits of Codex's capabilities and measure them in different scenarios.
 
-We will use a combination of real world testing, theoretical analysis and simulation to determine and improve Codex's scaling properties.
-
 We will allow Codex to scale to support large scale use cases, test how it behaves in large 100TB+ testnet deployments and in various deployment setups, and we will help make Codex more scalable in the first place.
 
 We will support the Conduit of Expertise narrative directly by providing valuable insights to Codex and the ability to theorise, reason about, test, measure and improve the performance, stability and scalability of Codex.
