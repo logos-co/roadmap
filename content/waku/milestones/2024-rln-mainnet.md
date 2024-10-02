@@ -32,7 +32,7 @@ Analyse RLN deployment in the Waku proto-network and evaluate its DoS protection
 - Do we need a combination of msg/sec and msg allocation/day rate limiting?
 
 
-## Deliverable: Implement RLN smart contract for paid, multilevel memberships
+## Deliverable: [Implement RLN smart contract for paid, multilevel memberships](https://github.com/waku-org/pm/issues/256)
 
 This deliverable is an output of Maturing RLN variables/parameters revision (staking, contract/chain, token) - roadmap.
 
@@ -44,12 +44,12 @@ Expiry of memberships to prevent hogging
 Support for RLN in resource-restricted clients, i.e. lightweight proof generation and validation
 The exact set of features is to be defined in a RFC, as output of Maturing RLN variables/parameters revision (staking, contract/chain, token) - roadmap.
 
-## Deliverable: RLN contract revision and audit
+## Deliverable: [RLN contract revision and audit](https://github.com/waku-org/pm/issues/257)
 
 Once a minimal set of smart contract features for RLN has been implemented, the contract needs to be thoroughly revised (and possibly audited) by a group of experts before it can be used in production.
 The Waku team will rely on Vac/SC to proceed/organise the smart contract review and audit
 
-## Deliverable: Deploy RLN smart contract to a L2 mainnet
+## Deliverable: [Deploy RLN smart contract to a L2 mainnet](https://github.com/waku-org/pm/issues/258)
 
 The RLN smart contract should be deployed to a Layer 2 mainnet.
 
@@ -57,7 +57,7 @@ A first step here may be to deploy to a Layer 2 testnet first. However, we could
 
 This deliverable tracks all steps to deployment of a production version of the contract to a L2.
 
-## Deliverable: Public dogfooding RLNaaS web app
+## Deliverable: [Public dogfooding RLNaaS web app](https://github.com/waku-org/pm/issues/259)
 Second part of original scope of dogfooding web app.
 
 One of the proposed strategies to roll out RLN for Status 1:1 chats is to use RLNaaS where a service node attaches RLN proof for light clients. This would enable a roll out of RLN without impacting UX or UI.
