@@ -11,21 +11,35 @@ description: "Measure Codex against systems like IPFS, BitTorrent etc and see ho
 `vac:dst:codex:codex-comparison`
 
 ## Description
-We will compare Codex to other systems like IPFS and BitTorrent to see how it performs. We will compare on things such as:
+We will compare Codex to other systems like IPFS and BitTorrent 
+to see how it performs.
+
+We will compare on things such as:
 * Time to first byte
 * Bandwidth usage
 * Stability
 * Reliability
 
-Most importantly we will do a head to head speed test comparing download speeds of Codex against other systems. This will allow us to understand where Codex needs improvement and where it stands.
+Most importantly we will do a head to head speed test
+comparing download speeds of Codex against other systems.
+This will allow us to understand where Codex needs improvement
+and where it stands right now in terms of suitability for different use cases.
 
-We will support the Conduit of Expertise narrative directly by providing valuable insights to Codex that allow them to understand how Codex performs in comparison to common and popular systems in the "altruistic" space.
+We will support the Conduit of Expertise narrative directly
+by providing valuable insights to Codex
+that allow them to understand how Codex performs
+in comparison to common and popular systems in the "altruistic" space.
 
-These efforts will contribute in these ways to the Conduit of Expertise narrative:
+Specifically, we will:
 
 * Accelerate Codex reaching competitiveness with BitTorrent or find out what is and isn't possible to do.
-* Test the reliability of Codex in automated and highly stressful benchmarks that push its limits and reveal them in the process.
-* Improve the RFC culture by allowing us to reuse the work we do here to build future scenarios that can test complicated situations and requirements in a repeatable way.
+* Answer the simple question: "Is Codex faster than BitTorrent?"
+  and in doing so, allow that to be a yes one day 😀
+* Test the reliability of Codex in automated and highly stressful benchmarks
+  that push its limits and reveal its shortcomings.
+* Improve the RFC culture by allowing us to reuse the work we do here
+  to build future scenarios that can test complicated situations
+  and requirements in a repeatable way.
 
 ## Task List
 
@@ -39,13 +53,20 @@ These efforts will contribute in these ways to the Conduit of Expertise narrativ
 
 #### Description
 
-Expand upon the current deployment work that uses Kubernetes manifests to deploy and measure complex simulations
-by implementing a combination of ArgoCD or some similar deployment tool and standardised Helm, Kustomize
-or plain manifests, and devise a way to both script and control simulations in a repeatable, easy way.
+Expand upon the current deployment work
+that uses Kubernetes manifests
+to deploy and measure complex simulations
+by implementing a combination of ArgoCD or some similar deployment tool,
+and standardised Helm, Kustomize or plain manifests,
+and devise a way to both script and control simulations
+in a repeatable, easy way.
 
-Build a system that can deploy and measure a matrix of different scenarios and configurations.
+Build a system that can deploy and measure
+a matrix of different scenarios and configurations.
 
-It must support multiple unrelated deployments, such as nwaku and gowaku to exist and interact in the course of a single test.
+It must allow multiple unrelated deployments,
+such as nwaku and gowaku, to exist and interact
+in the course of a single test.
 
 #### Deliverables
 * Example Helm charts or Kustomize for deploying Codex.
@@ -54,7 +75,7 @@ It must support multiple unrelated deployments, such as nwaku and gowaku to exis
 
 This will build on prior work by DST that benefits from this work as well (ArgoCD work).
 
-### > Control BitTorrent
+### Control BitTorrent
 
 * fully qualified name: <vac:dst:codex:codex-comparison:control-bittorrent>
 * owner: Wings
@@ -78,7 +99,7 @@ Implement those controls and start using them to build towards the wider Commitm
 * Implemented this into a test scenario of some kind and proven that we can script a scenario.
 * A report on what we learned from the process.
 
-### > k8sified Tracker
+### k8sified Tracker
 
 * fully qualified name: <vac:dst:codex:codex-comparison:k8sified-tracker>
 * owner: Wings
@@ -97,7 +118,7 @@ Most likely it will simply involve adding auth to an existing Deluge or similar 
 * Chosen tracker is scriptable.
 * Finished script and docker container can realistically be used in a test scenario.
 
-### > Build/Test Scenarios
+### Build/Test Scenarios
 
 * fully qualified name: <vac:dst:codex:codex-comparison:build-test-scenarios>
 * owner: Wings
