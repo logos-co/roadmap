@@ -5,7 +5,14 @@ tags:
   - "dst"
   - "codex"
 draft: false
-description: "Support improving Codex's scaling abilities and our understanding of these, using scientific testing and experiments. Compare to other systems. Support the testnet efforts. Measure speed, latency, other metrics."
+description: "Improve Codex's scaling abilities
+and our understanding of these,
+using scientific testing and experiments,
+leading to better scaling.
+Compare to other systems.
+Support the testnet efforts by providing base capacity.
+Measure speed, latency, other metrics.
+Give hard numbers on Codex vs BitTorrent."
 ---
 
 `vac:dst:codex:codex-scaling`
