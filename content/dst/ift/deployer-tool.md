@@ -20,24 +20,42 @@ It should support arbitrary Helm and Kustomize charts, allowing us to use well d
 
 This will allow us to do all of our other work more easily, allowing us to focus on providing value to the IFT ecosystem. Through this, both the narratives of the Conduit of Expertise is supported - through increasing our efficiency, capabilities and the reliability of repeating our experiments and research, allowing us to provide better insights and data to the teams we work with to allow them to make better decisions.
 
-<!-- 
 ## Task List
 
-### <task 1>
+### ArgoCD Or Similar
 
-* fully qualified name: <>
-* owner: 
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* fully qualified name: <vac:dst:ift:argocd-or-similar>
+* owner: Wings
+* status: 80%
+* start-date: <2024/06/01>
+* end-date: <2024/12/31>
 
 #### Description
 
-Either an expressive description or a link to a github issue with an expressive description.
+Get ArgoCD or a similar tool up and running.
+
+Use it to demonstrate deploying an nwaku simulation from a Git repo
+with a Helm chart or plain manifests in it.
 
 #### Deliverables
 
-List (can consist of a single Deliverable) of planned Deliverables and links to completed Deliverables.
--->
+* The demonstrated ability to run an nwaku simulation.
 
 
+### Working Matrices
+
+* fully qualified name: <vac:dst:ift:working-matrices>
+* owner: Wings
+* status: 0%
+* start-date: <2024/06/01>
+* end-date: <2024/12/31>
+
+Ensure that deployment matrices work once `ArgoCD Or Similar` is completed.
+
+Test some basic deployments and record findings.
+
+#### Deliverables
+
+* A report on the findings of the tests and the current state of the deployment matrices.
+* A deployment matrix tool or set of instructions/documentation.
+* Deployments tested and working with a 3x3 matrix of different configurations.
