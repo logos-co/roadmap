@@ -43,7 +43,7 @@ Specifically, we will:
 
 ## Task List
 
-### > Matrices Deployments
+### Matrices Deployments
 
 * fully qualified name: <vac:dst:codex:codex-comparison:matrices-deployments>
 * owner: Wings
