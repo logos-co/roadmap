@@ -5,7 +5,7 @@ tags:
   - "dst"
   - "codex"
 draft: false
-description: "Use real world testing, theoretical analysis and simulation to determine and improve Codex's scaling properties. Find the limits of Codex's capabilities and measure them in different scenarios."
+description: "Use real world testing, reasoning and theory to determine and improve Codex's scaling properties. Compare to other systems. Support the testnet efforts."
 ---
 
 `vac:dst:codex:codex-scaling`
