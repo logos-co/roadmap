@@ -31,8 +31,8 @@ Further, we will contribute both directly and indirectly to the Premier Research
 ### <task 1>
 
 * fully qualified name: <>
-* owner: 
-* status: <not started or in progress (0%-99%) or done>
+* owner: Wings
+* status: 90%
 * start-date: <yyyy/mm/dd>
 * end-date: <yyyy/mm/dd>
 
