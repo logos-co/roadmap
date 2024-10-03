@@ -87,3 +87,8 @@ We would also like to collect all data from the items in this matrix:
      GB, 
       5
      GB
+
+#### Deliverables
+
+- [ ] Reports from how each item in the matrix performed.
+- [ ] A general writeup
