@@ -9,7 +9,7 @@ description: "Measure Codex against systems like IPFS, BitTorrent etc and see ho
 ---
 
 `vac:dst:codex:codex-comparison`
-
+Measure Codex against systems like IPFS, BitTorrent etc and see how it compares. Primarily BitTorrent.
 ## Description
 We will compare Codex to other systems like IPFS and BitTorrent 
 to see how it performs.
