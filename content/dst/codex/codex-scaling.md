@@ -5,7 +5,7 @@ tags:
   - "dst"
   - "codex"
 draft: false
-description: "Use real world testing, reasoning and theory to determine and improve Codex's scaling properties. Compare to other systems. Support the testnet efforts."
+description: "Support improving Codex's scaling abilities and our understanding of these, using scientific testing and experiments. Compare to other systems. Support the testnet efforts. Measure speed, latency, other metrics."
 ---
 
 `vac:dst:codex:codex-scaling`
@@ -28,21 +28,62 @@ Further, we will contribute both directly and indirectly to the Premier Research
 
 ## Task List
 
-### <task 1>
+### > Deploy Base Capacity
 
-* fully qualified name: <>
+* fully qualified name: <vac:dst:codex:codex-scaling:deploy-base-capacity>
 * owner: Wings
-* status: 90%
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* status: 99%
+* start-date: <2024/06/01>
+* end-date: <2024/12/31>
 
 #### Description
 
-Either an expressive description or a link to a github issue with an expressive description.
+Deploy a large set of base capacity to the Codex testnet and keep it online, stable and prevented from losing data where possible.
+
+It will consist of 50x nodes with 10xTB of data each.
 
 #### Deliverables
 
-List (can consist of a single Deliverable) of planned Deliverables and links to completed Deliverables.
+* Helm chart adapted to Vaclab and used to deploy the nodes.
+* 50x nodes running and adopted into the testnet.
+* Downloads/uploads tested and working for at least 3 selected nodes.
+* Ongoing monitoring (not a one time thing)
+* 500TB of overall capacity provided to the network
 
+### > How Fast Is Codex?
 
+* fully qualified name: <vac:dst:codex:codex-scaling:how-fast-is-codex>
+* owner: Wings
+* status: 0%
+* start-date: <2024/06/01>
+* end-date: <2024/12/31>
 
+#### Description
+
+Related to Codex Comparison, 
+we simply want to find out fast Codex is, at various things 
+under different kinds of stress and load.
+
+We will use the Base Capacity.
+
+We will test and compare the following:
+
+* Upload speed (1 client)
+* Download speed
+* Time to first byte
+* Time to 50%
+* Time to 90%
+* Time to 100
+
+We would also like to collect all data from the items in this matrix:
+
+**Benchmark conditions**:
+  * total size: 2, 8, 16, 32
+  * seeders: 1, 2, 4, 8, 16
+  * file size: 
+      100
+     MB, 
+      1
+     GB, 
+      5
+     GB
