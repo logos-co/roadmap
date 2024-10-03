@@ -23,24 +23,36 @@ These efforts will contribute in these ways to the Conduit of Expertise narrativ
 * Improve the RFC culture by allowing for faster and easier development of RFCs with the aid of rapidly accelerated insights into how an RFC in development will perform as it's being expanded and going through the draft process.
 * Allow easier post-mortem analysis of the success or relative performance of a given RFC - does this change use more or less bandwidth? Did it improve things? Seeing the effects of changes at scale allows for a greater ability to usefully wrap up work on and conclude an RFC process and document and absorb what we learned in the process into further improvements.
 
-<!--
 ## Task List
 
-### <task 1>
+### Mixnet benchmarking
 
-* fully qualified name: <>
-* owner: 
-* status: <not started or in progress (0%-99%) or done>
+* fully qualified name: <vac:dst:nomos:nomos-benchmarking>
+* owner: Alberto
+* status: 0%
 * start-date: <yyyy/mm/dd>
 * end-date: <yyyy/mm/dd>
 
 #### Description
 
-Either an expressive description or a link to a github issue with an expressive description.
+Measure the speed and reliability of Nomos's mixnet, benchmarking it against other mixnets and a selection of real world use cases.
 
 #### Deliverables
+* Benchmarks done
+* Report published with all relevant details
 
-List (can consist of a single Deliverable) of planned Deliverables and links to completed Deliverables.
+### RFC analysis (recurring)
 
+* fully qualified name: <vac:dst:nomos:rfc-analysis>
+* owner: Alberto
+* status: 0%
+* start-date: <yyyy/mm/dd>
+* end-date: <yyyy/mm/dd>
 
+#### Description
+Analyse the performance of RFCs that have an expected effect on the network's performance and scaling properties, using the benchmarking tools and real world measurements.
 
+#### Deliverables
+* Analysis done
+* Report published with all relevant details
+* RFC's GitHub issue updated with links to the analysis and results

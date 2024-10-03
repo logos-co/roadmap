@@ -48,8 +48,115 @@ The report should include analysis of the performance of Waku at extreme scale, 
 
 - [x] https://github.com/vacp2p/10ksim - A working set of bundled and compatible Kubernetes manifests that allow for up to a 10,000 node Waku network to be reliably created and measured. The manifests should be compatible with [[vac|dst|deployer-tool|deployer-tool]] and flexible.
 
-- [ ] A useful set of measurements taken with the 
-List (can consist of a single Deliverable) of planned Deliverables and links to completed Deliverables.
+- [ ] A useful set of measurements taken with the monitoring system and tooling we have available.
+
+- [ ] The monitoring system stays stable the entire time, providing useful information and metrics.
+
+### Test Store Protocol At Scale
+
+* fully qualified name: `vac:dst:waku:waku-scaling:test-store-protocol-at-scale`
+* owner: Alberto
+* status: 0%
+* start-date: 2024/09/02
+* end-date: 2024/12/31
+
+#### Description
+Test the Store protocol at scale.
+
+#### Deliverables
+- [ ] A report on the results of the test, including analysis, data and metrics.
+- [ ] A list of any issues encountered.
+- [ ] Hard data and metrics from the simulation.
+
+### High Churn Relay+Store Reliability
+
+* fully qualified name: `vac:dst:waku:waku-scaling:high-churn-relay-store-reliability`
+* owner: Alberto
+* status: 0%
+* start-date: 2024/09/01
+* end-date: 2024/12/31
+
+#### Description
+If nodes go online/offline, we should be able to retrieve missing messages from the store.
+
+#### Deliverables
+- [ ] A report on the results of the test, including analysis, data and metrics.
+- [ ] A list of any issues encountered.
+- [ ] Hard data and metrics from the simulation.
+
+### Relay/DiscV5 Resources in Heterogenous Clusters
+Measure Relay bandwidth usage and DiscV5 bandwidth usage in heterogenous clusters involving different node implementations such as nwaku and go-waku
+
+### Deliverables
+- [ ] A report on the results of each test, including analysis, data and metrics.
+- [ ] A list of any issues encountered.
+- [ ] Hard data and metrics from the simulation.
+
+### Waku Shard Reliability vs Scale
+Test waku shard behaviour and stability with various of numbers of shards.
+
+Choose a matrix to test for and then test for it.
+
+### Deliverables
+- [ ] Matrix/exact deployment script defined
+- [ ] A report on the results of each test, including analysis, data and metrics.
+- [ ] A list of any issues encountered.
+- [ ] Hard data and metrics from the simulation.
+
+### Filter and lightpush tests
+<TODO>
+
+* fully qualified name: `vac:dst:waku:waku-scaling:filter-lightpush-tests`
+* owner: Alberto
+* status: 0%
+* start-date: 2024/09/01
+* end-date: 2024/12/31
+
+#### Description
+Test the Filter and lightpush protocols at scale.
+
+### Deliverables
+- [ ] A report on the current reliability and performance of the protocols at scale.
+- [ ] Filed any issues encountered.
+- [ ] Hard data and metrics from the simulation.
+
+### Measure DiscV5 bandwidth with Waku discovery
+
+* fully qualified name: `vac:dst:waku:waku-scaling:measure-discv5-bandwidth-with-waku-discovery`
+* owner: Alberto
+* status: 0%
+* start-date: 2024/09/01
+* end-date: 2024/12/31
+
+#### Description
+Measure the bandwidth usage of the Waku discovery protocol using the DiscV5 protocol.
+
+### Deliverables
+- [ ] A report on what you've learnt
+- [ ] Hard data and metrics from the simulation.
+- [ ] A documentation page with analysis and results and notes.
+
+### Mixed Media Analysis
+
+* fully qualified name: `vac:dst:waku:waku-scaling:mixed-media-analysis`
+* owner: Alberto
+* status: 0%
+* start-date: 2024/09/01
+* end-date: 2024/12/31
+
+#### Description
+
+Measure relay resource with a mix of nodes
+using Resource-restricted device reliability protocol and peer exchange,
+meaning a small number of nwaku nodes serve store, light push and filter protocols
+and a high number of clients consume them. 
+For example, 6-10 service nodes, 200 relay nodes and 1000 light nodes. 
+This should include connection and node churn impact on reliability for both relay and light clients
+
+#### Deliverables
+
+- [ ] Backing by a populatist contract of any kind.
+
 <!-- Most recently blocked by metrics scaling issues, nearly through them -->
 
 

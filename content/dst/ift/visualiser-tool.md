@@ -27,8 +27,8 @@ It will also provide a way to test RFCs that affect aspects of Waku that are vis
 * fully qualified name: `vac:dst:ift:visualiser-tool:debug-visualiser`
 * owner: Alberto
 * status: 60%
-* start-date: 2024/xx/xx
-* end-date: 2024/xx/xx
+* start-date: 2024/06/01
+* end-date: 2024/12/31
 
 #### Description
 
@@ -43,8 +43,8 @@ It is intended to be "interesting and deep, not pretty or wide"
 * fully qualified name: `vac:dst:ift:visualiser-tool:live-visualiser`
 * owner: Wings
 * status: 99%
-* start-date: 2024/xx/xx
-* end-date: 2024/xx/xx
+* start-date: 2024/06/01
+* end-date: 2024/12/31
 
 #### Description
 

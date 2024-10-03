@@ -18,6 +18,7 @@ tags:
 
 ### `codex`
 * [ ] [[dst/codex/codex-scaling|codex-scaling]]
+* [ ] [[dst/codex/codex-evaluation|codex-evaluation]]
 
 ### `nomos`
 * [ ] [[dst/nomos/nomos-scaling|nomos-scaling]]

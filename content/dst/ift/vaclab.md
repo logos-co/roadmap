@@ -32,19 +32,35 @@ We will also provide support for the Premier Research destination narrative by:
 ### Status Page Known
 
 * fully qualified name: <vac:dst:ift:vaclab:status-page-known>
-* owner: 
-* status: <not started or in progress (0%-99%) or done>
-* start-date: <yyyy/mm/dd>
-* end-date: <yyyy/mm/dd>
+* owner: Wings
+* status: 80%
+* start-date: <2024/06/01>
+* end-date: <2024/12/31>
 
 #### Description
 
-Either an expressive description or a link to a github issue with an expressive description.
+A status page for the VacLab that has wide acceptance and use by anyone who wants to know the current status of the VacLab and its availability.
 
 #### Deliverables
+* Build the status page and host it on the lab.
+* Status page is created and hosted on the lab and made available to users.
+* Status page reflects reality and is accepted by the users as being a good fit for their needs.
+* Status page sees widespread use among its users.
+* Build an external probe and a fallback status page
+  that can be used in case everything
 
-List (can consist of a single Deliverable) of planned Deliverables and links to completed Deliverables.
--->
+### Better Lab Scheduling
 
+* fully qualified name: <vac:dst:ift:vaclab:better-time-slicing>
+* owner: Wings
+* status: 0%
+* start-date: <2024/06/01>
+* end-date: <2024/12/31>
 
+#### Description
+Do a better job of time slicing the lab.
 
+#### Deliverables
+* A report on the current state of time slicing in the lab.
+* A plan for how to improve time slicing in the lab.
+* A timeline for implementing the plan.
