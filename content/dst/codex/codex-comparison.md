@@ -105,7 +105,7 @@ Most likely it will simply involve adding auth to an existing Deluge or similar 
 * start-date: <2024/10/15>
 * end-date: <2024/12/31>
 
-Use the work done in Matrices Deployments and Control BitTorrent to build a set of scenarios that can be used to test Codex.
+Use the work done in Matrices Deployments and Control BitTorrent to build and test a set of scenarios that can be used to test Codex.
 
 We will target these things to compare:
 

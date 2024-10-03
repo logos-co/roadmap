@@ -27,12 +27,11 @@ Through the use of the VacLab we will support the Conduit of Expertise narrative
 We will also provide support for the Premier Research destination narrative by:
 * Allowing public access to non-sensitive telemetry and metrics from non-sensitive systems such as Codex storage nodes, and potentially even probes that measure the state of networks such as The Waku Network and Status.
 
-<!--
 ## Task List
 
-### <task 1>
+### Status Page Known
 
-* fully qualified name: <>
+* fully qualified name: <vac:dst:ift:vaclab:status-page-known>
 * owner: 
 * status: <not started or in progress (0%-99%) or done>
 * start-date: <yyyy/mm/dd>
