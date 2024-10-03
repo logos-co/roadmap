@@ -20,8 +20,10 @@ tags:
 * [ ] [[dst/codex/codex-scaling|codex-scaling]]
 * [ ] [[dst/codex/codex-comparison|codex-comparison]]
 
+<!--
 ### `nomos`
 * [ ] [[dst/nomos/nomos-scaling|nomos-scaling]]
+-->
 
 ### `vac`
 * [ ] [[dst/vac/libp2p-evaluation|libp2p-evaluation]]
