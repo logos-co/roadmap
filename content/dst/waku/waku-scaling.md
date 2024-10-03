@@ -226,6 +226,8 @@ This should include connection and node churn impact on reliability for both rel
 
 #### Deliverables
 
-- [ ] Backing by a populatist contract of any kind.
+- [ ] A report on the findings and measurements and results.
+- [ ] A list of any issues encountered.
+- [ ] Analysis and actionable insights or conclusions.
 
 <!-- Most recently blocked by metrics scaling issues, nearly through them -->
