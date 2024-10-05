@@ -66,7 +66,7 @@ on which other research and interesting use cases can be built.
 
 ## Task List
 
-### > Deploy Base Capacity
+### Deploy Base Capacity
 
 * fully qualified name: <vac:dst:codex:codex-scaling:deploy-base-capacity>
 * owner: Wings
