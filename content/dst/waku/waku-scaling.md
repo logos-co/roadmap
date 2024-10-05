@@ -78,7 +78,7 @@ These efforts will contribute in these ways to the Conduit of Expertise narrativ
 
 ### High Scalability Waku Demonstration
 
-* fully qualified name: `vac:dst:waku:waku-scaling`
+* fully qualified name: `vac:dst:waku:waku-scaling:high-scalability-waku-demonstration`
 * owner: Wings
 * status: 95%
 * start-date: 2024/03/01
