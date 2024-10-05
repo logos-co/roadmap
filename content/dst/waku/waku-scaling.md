@@ -110,7 +110,7 @@ that Waku can in fact scale to these sizes and perform reliably.
 - [x] https://github.com/vacp2p/10ksim - A working set of bundled and compatible Kubernetes manifests
   that allow for up to a 10,000 node Waku network
   to be reliably created and measured.
-  The manifests should be compatible with [vac|dst|deployer-tool|deployer-tool]]
+  The manifests should be compatible with [vac|dst|deployer-tool|deployer-tool]
   and flexible.
 
 - [ ] A useful set of measurements taken with the monitoring system and tooling we have available.
