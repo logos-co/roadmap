@@ -204,8 +204,8 @@ and the discoveries we make during the course of this work.
 * fully qualified name: `vac:dst:waku:waku-scaling:filter-lightpush-tests`
 * owner: Alberto
 * status: 0%
-* start-date: 2024/09/01
-* end-date: 2024/12/31
+* start-date: 2024/10/18
+* end-date: 2024/10/25
 
 #### Description
 Test the Filter and lightpush protocols at scale.
