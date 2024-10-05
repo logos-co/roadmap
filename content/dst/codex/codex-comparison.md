@@ -48,8 +48,8 @@ Specifically, we will:
 * fully qualified name: <vac:dst:codex:codex-comparison:matrices-deployments>
 * owner: Wings
 * status: 50%
-* start-date: <2024/06/01>
-* end-date: <2024/12/31>
+* start-date: 2024/10/01
+* end-date: 2024/10/11
 
 #### Description
 
@@ -80,8 +80,8 @@ This will build on prior work by DST that benefits from this work as well (ArgoC
 * fully qualified name: <vac:dst:codex:codex-comparison:control-bittorrent>
 * owner: Wings
 * status: 0%
-* start-date: <2024/10/01>
-* end-date: <2024/12/31>
+* start-date: 2024/10/10
+* end-date: 2024/10/14
 
 Pick a BitTorrent client that is Dockerizable and scriptable. Current main candidate is Deluge, maybe qBittorrent.
 
@@ -104,8 +104,8 @@ Implement those controls and start using them to build towards the wider Commitm
 * fully qualified name: <vac:dst:codex:codex-comparison:k8sified-tracker>
 * owner: Wings
 * status: 0%
-* start-date: <2024/10/01>
-* end-date: <2024/12/31>
+* start-date: 2024/10/15
+* end-date: 2024/10/17
 
 Make a BitTorrent tracker work within Kubernetes and able to be controlled by API calls.
 

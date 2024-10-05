@@ -71,8 +71,8 @@ on which other research and interesting use cases can be built.
 * fully qualified name: <vac:dst:codex:codex-scaling:deploy-base-capacity>
 * owner: Wings
 * status: 99%
-* start-date: <2024/06/01>
-* end-date: <2024/12/31>
+* start-date: 2024/10/05
+* end-date: 2024/10/31
 
 #### Description
 
@@ -93,8 +93,8 @@ It will consist of 50x nodes with 10xTB of data each.
 * fully qualified name: <vac:dst:codex:codex-scaling:how-fast-is-codex>
 * owner: Wings
 * status: 0%
-* start-date: <2024/06/01>
-* end-date: <2024/12/31>
+* start-date: 2024/10/18
+* end-date: 2024/10/21
 
 #### Description
 
