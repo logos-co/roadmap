@@ -88,7 +88,7 @@ It will consist of 50x nodes with 10xTB of data each.
 * Ongoing monitoring (not a one time thing)
 * 500TB of overall capacity provided to the network
 
-### > How Fast Is Codex?
+### How Fast Is Codex?
 
 * fully qualified name: <vac:dst:codex:codex-scaling:how-fast-is-codex>
 * owner: Wings
