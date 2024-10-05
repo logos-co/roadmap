@@ -152,6 +152,14 @@ If nodes go online/offline, we should be able to retrieve missing messages from 
 - [ ] Hard data and metrics from the simulation.
 
 ### Relay/DiscV5 Resources in Heterogenous Clusters
+
+* fully qualified name: `vac:dst:waku:waku-scaling:relay-discv5-resources-in-heterogenous-clusters`
+* owner: Wings
+* status: 0%
+* start-date: 2024/09/01
+* end-date: 2024/12/31
+
+#### Description
 Measure Relay bandwidth usage
 and DiscV5 bandwidth usage
 in heterogenous clusters
@@ -164,6 +172,14 @@ such as nwaku and go-waku.
 - [ ] Hard data and metrics from the simulation.
 
 ### Waku Shard Reliability vs Scale
+
+* fully qualified name: `vac:dst:waku:waku-scaling:waku-shard-reliability-vs-scale`
+* owner: Alberto
+* status: 0%
+* start-date: 2024/09/01
+* end-date: 2024/12/31
+
+#### Description
 Test waku shard behaviour and stability with various of numbers of shards.
 
 Choose a matrix to test for and then test for it.
@@ -175,7 +191,15 @@ Choose a matrix to test for and then test for it.
 - [ ] Hard data and metrics from the simulation.
 
 ### Filter and lightpush tests
-<TODO>
+
+Test the performance and reliability and behaviour
+of the Filter and lightpush protocols at scale.
+
+Confirm their stability and reliability at various scales.
+
+Adjust the specific tests involved
+in response to collaboration with the Waku team's directions
+and the discoveries we make during the course of this work.
 
 * fully qualified name: `vac:dst:waku:waku-scaling:filter-lightpush-tests`
 * owner: Alberto
@@ -207,6 +231,30 @@ Measure the bandwidth usage of the Waku discovery protocol using the DiscV5 prot
 - [ ] Hard data and metrics from the simulation.
 - [ ] A documentation page with analysis and results and notes.
 
+### Partial PeX Experimental Analysis
+
+* fully qualified name: `vac:dst:waku:waku-scaling:partial-pex-experimental-analysis`
+* owner: Alberto
+* status: 0%
+* start-date: 2024/09/01
+* end-date: 2024/12/31
+
+#### Description
+Produce and run an experimental test environment
+where a partial subset of the nodes
+use Waku's Peer Exchange protocol
+to share information about other nodes in the network.
+
+Measure the bandwidth usage of DiscV5 on those nodes that use PeX
+and compare it to the DiscV5 bandwidth usage of nodes that do not.
+
+Measure overall bandwidth usage and record conclusions as to the impact of PeX.
+
+#### Deliverables
+- [ ] DiscV5 bandwidth comparison document/report - PeX vs no-PeX
+- [ ] Overall bandwidth usage comparison document/report
+- [ ] Record conclusions as to the impact of PeX.
+
 ### Mixed Environment Analysis
 
 * fully qualified name: `vac:dst:waku:waku-scaling:mixed-environment-analysis`
@@ -222,7 +270,7 @@ using Resource-restricted device reliability protocol and peer exchange,
 meaning a small number of nwaku nodes serve store, light push and filter protocols
 and a high number of clients consume them. 
 For example, 6-10 service nodes, 200 relay nodes and 1000 light nodes. 
-This should include connection and node churn impact on reliability for both relay and light clients
+This should include connection and node churn impact on reliability for both relay and light clients.
 
 #### Deliverables
 
