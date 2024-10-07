@@ -14,7 +14,7 @@ date: 2024-06-04
 
 ## Started in H1 2024
 
-- [Store Service Upgrade](waku/milestones/open/2024-bandwidth-optimization-and-protocol-review.md)
+- [Store Service Upgrade](waku/milestones/open/2024-store-service-upgrade.md)
 - [Direct Message Reliability](waku/milestones/open/2024-direct-msg-reliability.md)
 - [End-to-end reliability protocol](waku/milestones/open/2024-e2e-reliability-protocol.md)
 - [Acquire first 10 Customers](waku/milestones/open/2024-acquire-first-10-customers.md)
