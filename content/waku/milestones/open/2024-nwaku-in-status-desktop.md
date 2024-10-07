@@ -1,5 +1,5 @@
 ---
-title: Milestone Nwaku in Status Desktop
+title: Nwaku in Status Desktop
 tags:
     - waku-milestone
 date: 2024-09-07
