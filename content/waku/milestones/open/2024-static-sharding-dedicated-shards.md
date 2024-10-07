@@ -7,7 +7,7 @@ date: 2024-09-07
 
 [Milestone Static Sharding - dedicated shards](https://github.com/waku-org/pm/milestone/30)
 
-Estimated Due Date: 2024-12-31
+Estimated Date of Completion: 2024-12-31
 
 Creating a new community on its dedicated shard would be tested and working, including assigning a pre-shared key for opt-in message signing (weak DoS protection).
 

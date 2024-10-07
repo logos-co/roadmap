@@ -7,7 +7,7 @@ date: 2024-09-07
 
 ## [RLN Mainnet](https://github.com/waku-org/pm/milestone/34)
 
-Due Date: 2024-12-31
+Estimated date of Completion: 2024-12-31
 
 Once complemented, the economical behaviour of RLN will have been specified, implemented and discussed with the Status team.
 An implementation of RLN for light clients will also be done, to demonstrate RLN’s UX with onchain Merkle tree.
