@@ -6,7 +6,7 @@ date: 2024-09-07
 ---
 [Milestone Direct Message Reliability](https://github.com/waku-org/pm/milestone/28)
 
-Due Date: 2024-09-02
+Estimated Date of Completion: 2024-10-30
 
 With this milestone, connectivity issues in Status Mobile and Desktop are solved and tested.
 Usage of store v3-beta casts a wide net on potential message loss, at the cost of bandwidth overhead (but still lower than current usage of storev2).
@@ -68,7 +68,22 @@ In this particular instance, **js-waku will be the reference implementation** of
 This deliverable includes the implementation of this protocol in go-waku (nwaku excluded). Work should be done in parallel and feed from each other.
 The intent is to compose light push, filter and store v3-beta in combination.
 
-### Deliverable: [User apps for large scale dogfooding](https://github.com/waku-org/pm/issues/188)
+### Deliverable: [PostgreSQL Optimisation phase 1](https://github.com/waku-org/pm/issues/260)
+
+Continue work to improve PostgreSQL query performance. Focus on queries with direct impact on UX. E.g. hash query to get store message confirmation.
+
+Stress-testing of store queries by the Waku testing engineer has started and can be used as a baseline. Also, a dashboard will be built to better track store performance over time.
+
+Following activities will be performed:
+- Review of store stressing test results and tackle inconsistency and poor performance
+- Review with PostgreSQL expert (IFT CC) potential improvements and implement them
+
+Stress testing of Waku Store can be used as a base to measure the gains from the optimization. Two phases are expected:
+- Preliminary work with IFT CC to cover basis and prepare for consultation (phase 1)
+- Consultation with an external agency for fine tuning. (phase 2, separate deliverable and milestone)
+
+
+### Deliverable: [Dogfooding app PoC](https://github.com/waku-org/pm/issues/188)
 
 Note: new deliverable, stemmed from discussion with js-waku team who have been working on resource-restricted reliability since earlier this year. Yet to be estimated and planned.
 

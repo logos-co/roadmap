@@ -6,7 +6,7 @@ date: 2024-09-07
 ---
 [Milestone Store Service Upgrade](https://github.com/waku-org/pm/milestone/27)
 
-Due Date: 2024-09-20
+Estimated date of completion: 2024-09-20
 
 With this milestone, the store protocol becomes more easily usable for reliability purposes.
 Moreover, nwaku PostgreSQL implementation will enable better disk space management and enable operators to hard cap the used disk space.
