@@ -1238,9 +1238,6 @@
     <loc>https://roadmap.logos.co/vac/updates/2024-09-23</loc>
     <lastmod>2024-09-23T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/waku/2023-milestones</loc>
-    <lastmod>2024-03-07T00:00:00.000Z</lastmod>
-  </url><url>
     <loc>https://roadmap.logos.co/waku/2024-gantt</loc>
     <lastmod>2024-09-25T04:16:41.017Z</lastmod>
   </url><url>
@@ -1262,32 +1259,53 @@
     <loc>https://roadmap.logos.co/waku/</loc>
     <lastmod>2024-07-18T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/waku/milestones/2024-bandwidth-optimization-and-protocol-review</loc>
-    <lastmod>2024-09-24T05:42:57.235Z</lastmod>
+    <loc>https://roadmap.logos.co/waku/milestones/closed/2023-milestones</loc>
+    <lastmod>2024-03-07T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/waku/milestones/2024-direct-msg-reliability</loc>
-    <lastmod>2024-09-08T00:29:48.510Z</lastmod>
+    <loc>https://roadmap.logos.co/waku/milestones/closed/2023-quality-assurance-processes</loc>
+    <lastmod>2024-09-29T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/waku/milestones/2024-e2e-reliability-protocol</loc>
-    <lastmod>2024-09-08T00:29:48.510Z</lastmod>
+    <loc>https://roadmap.logos.co/waku/milestones/closed/2023-support-1-million-users</loc>
+    <lastmod>2024-09-29T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/waku/milestones/2024-nwaku-in-status-desktop</loc>
-    <lastmod>2024-09-30T04:13:19.154Z</lastmod>
+    <loc>https://roadmap.logos.co/waku/milestones/closed/2023-support-many-platforms</loc>
+    <lastmod>2024-09-29T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/waku/milestones/2024-rln-mainnet</loc>
-    <lastmod>2024-10-02T08:00:36.076Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/waku/milestones/2024-scale-number-of-communities</loc>
-    <lastmod>2024-09-08T00:29:48.510Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/waku/milestones/2024-static-sharding-dedicated-shards</loc>
-    <lastmod>2024-09-08T00:29:48.510Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/waku/milestones/2024-store-service-upgrade</loc>
-    <lastmod>2024-09-08T00:29:48.510Z</lastmod>
+    <loc>https://roadmap.logos.co/waku/milestones/closed/2023-waku-network-gen-0</loc>
+    <lastmod>2024-09-29T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/milestones/</loc>
     <lastmod>2024-10-02T06:21:47.004Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/waku/milestones/open/2024-bandwidth-optimization-and-protocol-review</loc>
+    <lastmod>2024-10-07T03:47:19.358Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/waku/milestones/open/2024-demonstrate-product-market-fit</loc>
+    <lastmod>2024-10-07T03:47:19.358Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/waku/milestones/open/2024-direct-msg-reliability</loc>
+    <lastmod>2024-10-07T03:47:19.358Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/waku/milestones/open/2024-e2e-reliability-protocol</loc>
+    <lastmod>2024-10-07T03:47:19.358Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/waku/milestones/open/2024-nwaku-in-status-desktop</loc>
+    <lastmod>2024-10-07T03:47:19.358Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/waku/milestones/open/2024-rln-mainnet</loc>
+    <lastmod>2024-10-07T03:47:19.358Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/waku/milestones/open/2024-scale-number-of-communities</loc>
+    <lastmod>2024-10-07T03:47:19.358Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/waku/milestones/open/2024-static-sharding-dedicated-shards</loc>
+    <lastmod>2024-10-07T03:47:19.358Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/waku/milestones/open/2024-store-service-upgrade</loc>
+    <lastmod>2024-10-07T03:47:19.358Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/waku/milestones/open/acquire-first-10-customers</loc>
+    <lastmod>2024-10-07T03:47:19.358Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/monthly-reports/2023-aug</loc>
     <lastmod>2024-09-09T19:41:51.005Z</lastmod>
