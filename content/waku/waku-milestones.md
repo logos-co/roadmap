@@ -18,6 +18,7 @@ date: 2024-06-04
 - [End-to-end reliability protocol](waku/milestones/open/2024-e2e-reliability-protocol.md)
 - [Acquire first 10 Customers](waku/milestones/open/2024-acquire-first-10-customers.md)
 - [Desmonstrate Product Market-Fit](waku/milestones/open/2024-demonstrate-product-market-fit.md)
+- [Incentivise running a Waku infrastructure node](waku/milestones/open/2024-incentivise-running-infra-node.md)
 
 ## Closed
 
