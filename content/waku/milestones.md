@@ -1,5 +1,5 @@
 ---
-title: 2024 Milestones
+title: Milestones
 date: 2024-06-04
 ---
 
