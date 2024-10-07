@@ -5,7 +5,7 @@ tags:
 date: 2024-09-07
 ---
 
-[Milestone Static Sharding - dedicated shards](https://github.com/waku-org/pm/milestone/30)
+## [Milestone Static Sharding - dedicated shards](https://github.com/waku-org/pm/milestone/30)
 
 Estimated Date of Completion: 2024-12-31
 
