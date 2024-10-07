@@ -8,7 +8,7 @@ date: 2024-06-04
 - [Static Sharding - dedicated shards](waku/milestones/open/2024-static-sharding-dedicated-shards.md)
 - [Bandwidth optimization and protocol review](waku/milestones/open/2024-bandwidth-optimization-and-protocol-review.md)
 - [Scale up number of Communities](waku/milestones/open/2024-scale-number-of-communities.md)
-- [Nwaku in Status Desktop (Relay, *nix)](waku/milestones/open/2024-nwaku-in-status-desktop.md)
+- [Nwaku in Status Desktop (Relay mode)](waku/milestones/open/2024-nwaku-in-status-desktop.md)
 - [RLN Mainnet](waku/milestones/open/2024-rln-mainnet.md)
 
 ## Started in H1 2024
