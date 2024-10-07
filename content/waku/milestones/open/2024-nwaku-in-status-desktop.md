@@ -5,26 +5,26 @@ tags:
 date: 2024-09-07
 ---
 
-[Milestone Nwaku in Status Desktop (Relay, *nix)](https://github.com/waku-org/pm/milestone/33)
+[Milestone Nwaku in Status Desktop (Relay mode)](https://github.com/waku-org/pm/milestone/33)
 
-Due Date: TBD
+Estimated date of delivery: 2025-01-31
 
-With this milestone, Status Desktop builds on Linux and Mac can use nwaku instead of go-waku.
-Go-waku will still be used for Windows (Desktop) and Status Mobile.
+There is work duplication in go-waku and nwaku due to the common area of concern: relay usage and native library.
 
-### Deliverable: [Nwaku in Golang desktop](https://github.com/waku-org/pm/issues/201)
+With this milestone, Status Desktop builds can use nwaku instead of go-waku. However, it should be seen as a MVP as further hardening and implementation of light client mode will be missing.
+Go-waku will still be used for Status Mobile.
 
-Provide a Golang library that uses the nwaku bindings (relay+store API) in a desktop environment. The bindings must be usable without RLN for the context of Status Desktop application.
+This strategy enables concrete steps toward sunsetting go-waku in a short period of time, avoiding a perpetual prototyping phase where many high risk problems (e.g. mobile bundle size, etc) have to be solved before the switch can be made.
 
-### Deliverable: [Nwaku in Golang: Relay](https://github.com/waku-org/pm/issues/202)
+The next milestone will then focus on hardening the nwaku Desktop build and implement missing features such as [Reliability Protocol for resource-restricted](). Once done, it will reduce the scope of go-waku maintenance to light clients only and drastically reduce the duplicate work done between nwaku and go-waku.
 
-Expose and demonstrate the usage of relay protocols/API usef on go-waku by status-go in the Golang nwaku bindings.
-Build on the previous by adding the APIs used by status-go in relay mode. Proceed with dogfooding of said APIs in PoC app to confirm their behaviour in Golang Desktop environment.
-This includes work to ensure that the relay reliability protocol implemented in nwaku is used and other libp2p protocols such as autonat, circuit-relay client and hole-punching.
+Note that we want to draw the line to RLN in terms of go-waku maintenance, meaning that if Status were to use RLN (see [Scale 1:1 chat messages PoC]()), then it should happen with nwaku.
 
-Light client protocols are out of scope.
+### Deliverable: [Nwaku on Windows](https://github.com/waku-org/pm/issues/239)
 
-### Deliverable: [Nwaku in Status Desktop (Relay, *nix)](https://github.com/waku-org/pm/issues/203)
+Ensure that nwaku can build and run on Windows. This includes regular PR CI and test run done on Windows environments.
+
+### Deliverable: [Nwaku in Status Desktop (Relay)](https://github.com/waku-org/pm/issues/203)
 
 Use nwaku instead of go-waku in Status Desktop and produce a working and distributable special (no light client) build for Linux and Mac OS environments.
 “Light client” mode should be disabled for this build as only relay protocols are implemented.

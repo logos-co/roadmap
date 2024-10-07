@@ -7,7 +7,7 @@ date: 2024-09-07
 
 [Milestone Scale up number of Communities](https://github.com/waku-org/pm/milestone/32)
 
-Due Date: TBD
+Estimated Date of Completion: 2024-11-30
 
 Proceed with next steps to scale up the number of communities with a focus on testing and configure rendezvous which would enable a large number of communities on their own shard, with the caveat of a more federated global topology.
 The rendezvous nodes of a community would be a centralised infra to a community.

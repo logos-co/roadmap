@@ -7,7 +7,7 @@ date: 2024-09-07
 
 [Milestone End-to-end reliability protocol](https://github.com/waku-org/pm/milestone/29)
 
-Due Date: 2024-09-02
+Estimated Date of Completion: 2024-11-25
 
 To solve reliability is to solve two problems:
 
@@ -20,14 +20,6 @@ To solve (2), is to create an end-to-end protocol, sender to recipient, that ena
 
 With this milestone, we design and deliver a first PoC for an end-to-end reliability protocol.
 This protocol will be specified and implemented in the Status app for Status Communities chat rooms.
-
-### Deliverable: [Telemetry: multicast message reliability](https://github.com/waku-org/pm/issues/192)
-
-Review and ensure the telemetry service can provide accurate statistics on message reliability with a mix of online presence report, message sending and receiving.
-The measurement should be specific to multicast messages to ensure that deliverables above do improve reliability in real usage.
-This should include content topic data, to be used for later optimization.
-For both Desktop and Mobile.
-Note that from Status’ team experience, the telemetry statistics have usually been more optimistic than reality, especially when there is a full network drop (ie, no messages going out).
 
 ### Deliverable: [End-to-end reliability protocol - PoC](https://github.com/waku-org/pm/issues/193)
 
