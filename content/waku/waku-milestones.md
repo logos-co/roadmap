@@ -1,5 +1,5 @@
 ---
-title: Milestones
+title: Waku Milestones
 date: 2024-06-04
 ---
 
