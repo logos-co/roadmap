@@ -45,8 +45,8 @@ to the teams we work with to allow them to make better decisions.
 * fully qualified name: `vac:dst:ift:argocd-or-similar`
 * owner: Wings
 * status: 80%
-* start-date: <2024/06/01>
-* end-date: <2024/12/31>
+* start-date: 2024/10/04
+* end-date: 2024/12/31
 
 #### Description
 
@@ -65,8 +65,10 @@ with a Helm chart or plain manifests in it.
 * fully qualified name: <vac:dst:ift:working-matrices>
 * owner: Wings
 * status: 0%
-* start-date: 2024/06/01
+* start-date: 2024/10/04
 * end-date: 2024/12/31
+
+#### Description
 
 Ensure that deployment matrices work once `ArgoCD Or Similar` is completed.
 
