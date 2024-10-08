@@ -54,4 +54,3 @@ In order to use the templates in the `Templates` folder for auto populating comm
   - assign whichever templates you want to be triggered when a new file is created in a given folder.
 
 Refer the [Templater documentation](https://silentvoid13.github.io/Templater/) for how to create your own templates.
-
