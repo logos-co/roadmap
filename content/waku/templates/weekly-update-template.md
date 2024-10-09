@@ -116,7 +116,7 @@ tags:
   - next:
   - blockers:
 
-## [Milestone - Scale 1:1 chat messages PoC](https://github.com/waku-org/pm/milestone/34)
+## [Milestone - RLN Mainnet](https://github.com/waku-org/pm/milestone/34)
 
 - [RLNv2 in nwaku](https://github.com/waku-org/pm/issues/204)
   - achieved:
@@ -134,6 +134,11 @@ tags:
   - blockers:
 
 - [Pay for RLN provision first PoC](https://github.com/waku-org/pm/issues/207)
+  - achieved:
+  - next:
+  - blockers:
+
+- [Public dogfooding RLNaaS web app](https://github.com/waku-org/pm/issues/259)
   - achieved:
   - next:
   - blockers:
