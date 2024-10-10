@@ -2,7 +2,7 @@
 
 ## Overview
 This repository contains the aggregated technical roadmaps of Vac R&D Service Units.
-It is an attempt to provide easy access to what we're all actively working on, and how it's going. 
+It is an attempt to provide easy access to what we're all actively working on, and how it's going.
 
 In its current form, it is an implementation of a [Quartz]() "mind-garden".
 This repository is built and served to https://roadmap.vac.co
@@ -16,14 +16,14 @@ If there is information you'd like to see included that isn't here, create and i
 
 [CI builds](https://ci.infra.status.im/job/website/job/roadmap.vac.dev/) `master` and pushes to `gh-pages` branch, which is hosted at <https://roadmap.vac.dev/>.
 
-The hosting is done using [Caddy server with Git plugin for handling GitHub webhooks](https://github.com/status-im/infra-misc/blob/master/ansible/roles/caddy-git).
+The hosting is done using [Caddy server with Git plugin for handling GitHub webhooks](https://github.com/status-im/infra-sites/blob/master/ansible/roles/caddy-git).
 
 Information about deployed build can be also found in `/build.json` available on the website.
 
 ### Using Obsidian
 Quartz is created to serve a static site off of an [Obsidian](https://obsidian.md) vault, and thus is the preferred way to manage content locally. In order for all it to function properly, a few things need to be done properly.
 
-First and foremost, Quartz uses links references with `content` as the root directory, so when opening in Obsidian, open the `content` folder, and _not_ the repo directory. 
+First and foremost, Quartz uses links references with `content` as the root directory, so when opening in Obsidian, open the `content` folder, and _not_ the repo directory.
 
 Then the following vault settings need to be configured
 
@@ -39,7 +39,7 @@ In order to use the templates in the `Templates` folder for auto populating comm
   - enable `automatic jump to cursor`
   - enable `Trigger Templater on new file creation`
   - enable `Folder templates`
-  - assign whichever templates you want to be triggered when a new file is created in a given folder. 
+  - assign whichever templates you want to be triggered when a new file is created in a given folder.
 
 Refer the [Templater documentation](https://silentvoid13.github.io/Templater/) for how to create your own templates.
 
