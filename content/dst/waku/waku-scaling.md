@@ -5,7 +5,7 @@ tags:
   - "dst"
   - "waku"
 draft: false
-description: "Use real world testing,
+description: "Use testing,
 theoretical analysis and simulation
 to determine and improve Waku's scaling properties.
 Find the limits of Waku's capabilities
@@ -17,7 +17,7 @@ Confirm or reject our ideas."
 `vac:dst:waku:waku-scaling`
 
 ## Description
-Use real world testing,
+Use realistic testing,
 theoretical analysis and simulation
 to determine and improve Waku's scaling properties.
 Find the limits of Waku's capabilities
@@ -39,7 +39,7 @@ provide a parallel to the Vac QA team's efforts -
 while their focus is on individual low level
 or individual parts of Waku
 and other software within the IFT ecosystem,
-ours will be on the real world behaviour of Waku as a whole system -
+ours will be on the realistic behaviour of Waku as a whole system -
 at different scales and with different configurations,
 mesh structure and shape -
 and how that maps to our theoretical work.
@@ -54,7 +54,7 @@ These efforts will contribute in these ways to the Conduit of Expertise narrativ
 * Accelerate improvements to Waku,
   improving the developer community's experience and satisfaction
   both inside and outside of IFT's ecosystem,
-  through allowing repeatable, measureable and real world insights into Waku,
+  through allowing repeatable, measureable and insights into Waku,
   all the way from theory to practice and back.
 
 * Improve the RFC culture by allowing for faster and easier development of RFCs
@@ -87,7 +87,7 @@ This will occur 2025Q1, this is kept for latert
 * end-date: TBD
 
 #### Description
-Demonstrate a working, real world, large scale Waku network.
+Demonstrate a working, realistic, large scale Waku network.
 
 Measure its performance
 and attempt to support the assertion
