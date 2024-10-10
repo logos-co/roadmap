@@ -66,27 +66,29 @@ on which other research and interesting use cases can be built.
 
 ## Task List
 
-### Deploy Base Capacity
+### Production Quality Base Capacity
 
 * fully qualified name: <vac:dst:codex:codex-scaling:deploy-base-capacity>
 * owner: Wings
-* status: 99%
+* status: 0%
 * start-date: 2024/10/05
 * end-date: 2024/10/31
 
 #### Description
 
-Deploy a large set of base capacity to the Codex testnet and keep it online, stable and prevented from losing data where possible.
+We have deployed a large set of base capacity to the Codex testnet. Now we need to keep it online, stable and prevented from losing data where possible.
 
-It will consist of 50x nodes with 10xTB of data each.
+It consists of 50x nodes with 10xTB of data each for now.
 
 #### Deliverables
 
+<!--
 * Helm chart adapted to Vaclab and used to deploy the nodes.
 * 50x nodes running and adopted into the testnet.
+-->
 * Downloads/uploads tested and working for at least 3 selected nodes.
-* Ongoing monitoring (not a one time thing)
-* 500TB of overall capacity provided to the network
+* 🚧 Ongoing monitoring (not a one time thing)
+* ✅ 500TB of overall capacity provided to the network
 
 ### How Fast Is Codex?
 
