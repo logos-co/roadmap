@@ -75,10 +75,14 @@ in the course of a single test.
 
 This will build on prior work by DST that benefits from this work as well (ArgoCD work).
 
+<!--
+This task is under Codex, not DST
+We will help them with it.
+
 ### Control BitTorrent
 
 * fully qualified name: <vac:dst:codex:codex-comparison:control-bittorrent>
-* owner: Wings
+* owner: Codex
 * status: 0%
 * start-date: 2024/10/10
 * end-date: 2024/10/14
@@ -98,11 +102,16 @@ Implement those controls and start using them to build towards the wider Commitm
 * Built a Dockerised image if there isn't one already.
 * Implemented this into a test scenario of some kind and proven that we can script a scenario.
 * A report on what we learned from the process.
+-->
+
+<!--
+This task is under Codex, not DST
+We will help them with it.
 
 ### k8sified Tracker
 
 * fully qualified name: <vac:dst:codex:codex-comparison:k8sified-tracker>
-* owner: Wings
+* owner: Codex
 * status: 0%
 * start-date: 2024/10/15
 * end-date: 2024/10/17
@@ -117,11 +126,16 @@ Most likely it will simply involve adding auth to an existing Deluge or similar 
 * Chosen tracker is dockerized.
 * Chosen tracker is scriptable.
 * Finished script and docker container can realistically be used in a test scenario.
+-->
+
+<!--
+This task is under Codex, not DST
+We will help them with it.
 
 ### Build/Test Scenarios
 
 * fully qualified name: <vac:dst:codex:codex-comparison:build-test-scenarios>
-* owner: Wings
+* owner: Codex
 * status: 0%
 * start-date: <2024/10/15>
 * end-date: <2024/12/31>
@@ -150,3 +164,4 @@ We will compare a matrix of file sizes, seeders, total size, and build a flexibl
 * A completely automated end to end test scenario that can be used to test Codex against BitTorrent.
 * A report on the results of the tests and the conclusions we can draw from them.
 * Hard numbers on what Codex is capable of and how these swarm sizes and other parameters affect performance, latency and other metrics.
+-->
