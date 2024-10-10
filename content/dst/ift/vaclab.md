@@ -82,7 +82,7 @@ We will also provide support for the Premier Research destination narrative by:
 
 * fully qualified name: `vac:dst:ift:vaclab:status-page-known`
 * owner: Wings
-* status: 80%
+* status: 0%
 * start-date: 2024/12/01
 * end-date: 2024/12/07
 
@@ -94,13 +94,16 @@ by anyone who wants to know the current status
 of the VacLab and its availability.
 
 #### Deliverables
-* Status page is created and hosted on the lab
+<!--
+Already done:
+* ✅ Status page is created and hosted on the lab
   and made available to users.
+-->
 * Status page reflects reality and is accepted by the users
   as being a good fit for their needs.
 * Status page sees widespread use among its users.
 * Build an external probe and a fallback status page
-  that can be used in case everything
+  that can be used in case everything else is down.
 
 ### Better Time Slicing
 
@@ -150,7 +153,7 @@ Will - must, for practical reasons - be done in person in Perth.
 Will also be used to improve the reliability and capabilities
 of the VacLab as a platform for IFT's research and development needs.
 
-Must not impact other works outside of this task.
+**Must not impact other works outside of this task.**
 
 #### Deliverables
 - [ ] Full automation for anything we know needs doing regularly
