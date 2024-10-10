@@ -76,13 +76,15 @@ These efforts will contribute in these ways to the Conduit of Expertise narrativ
 
 ## Task List
 
+<!--
+This will occur 2025Q1, this is kept for latert
 ### High Scalability Waku Demonstration
 
 * fully qualified name: `vac:dst:waku:waku-scaling:high-scalability-waku-demonstration`
 * owner: Wings
 * status: 95%
-* start-date: 2024/03/01
-* end-date: 2024/11/01
+* start-date: TBD
+* end-date: TBD
 
 #### Description
 Demonstrate a working, real world, large scale Waku network.
@@ -116,6 +118,8 @@ that Waku can in fact scale to these sizes and perform reliably.
 - [ ] A useful set of measurements taken with the monitoring system and tooling we have available.
 
 - [ ] The monitoring system stays stable the entire time, providing useful information and metrics.
+
+-->
 
 ### Test Store Protocol At Scale
 
