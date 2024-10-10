@@ -4,14 +4,20 @@ tags:
     - waku-milestone
 date: 2024-09-07
 ---
-[Milestone Store Service Upgrade](https://github.com/waku-org/pm/milestone/27)
+## [Milestone Store Service Upgrade](https://github.com/waku-org/pm/milestone/27)
 
 Estimated date of completion: 2024-09-20
 
 With this milestone, the store protocol becomes more easily usable for reliability purposes.
 Moreover, nwaku PostgreSQL implementation will enable better disk space management and enable operators to hard cap the used disk space.
 
-### Deliverable: [Store v3-beta - Message Hashes](https://github.com/waku-org/pm/issues/131)
+### Tracking Metrics
+
+- Reduced discrepancy of number of messages between nodes of the shard.test Status fleet: [Message still missing row to trend to 0.](https://grafana.infra.status.im/d/hmX6pJ_Iz/storenode-message-counter?orgId=1)
+- Reduced number of alerts on nwaku fleets due to lack of disk space. For example, to see the free disk space in store-01.do-ams3.status.prod, visit [here](https://grafana.infra.status.im/d/QCTZ8-Vmk/single-host-dashboard?orgId=1&refresh=1m&var-host=store-01.do-ams3.status.prod&from=now-12h&to=now).
+
+
+### [Completed] Deliverable: [Store v3-beta - Message Hashes](https://github.com/waku-org/pm/issues/131)
 
 Enable the Waku Network to provide distributed and synchronised store services.
 An improved version of the Store protocol, marking a crucial increment towards a synchronisation protocol:
@@ -40,7 +46,7 @@ Add local DoS protection service nodes by applying request rate limitation on no
 
 Provide a solution on how to best handle PostgreSQL database growth and pruning, so that node operators can predict database size and avoid disruptions due to full disk space.
 
-### Deliverable: [Metric: Count store messages](https://github.com/waku-org/pm/issues/167)
+### [Completed] Deliverable: [Metric: Count store messages](https://github.com/waku-org/pm/issues/167)
 
 [Message-finder](https://github.com/waku-org/message-finder) is used to compare the number of Status messages across Status nodes to understand the potential discrepancies and odd behaviour of messages being inserted in the past in a given channel.
 
