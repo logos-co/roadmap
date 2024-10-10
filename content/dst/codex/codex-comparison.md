@@ -5,14 +5,14 @@ tags:
   - "dst"
   - "codex"
 draft: false
-description: "Measure Codex against systems like IPFS, BitTorrent etc and see how it compares. Primarily BitTorrent."
+description: "Measure Codex against BitTorrent and see how it compares."
 ---
 
 `vac:dst:codex:codex-comparison`
-Measure Codex against systems like IPFS, BitTorrent etc and see how it compares. Primarily BitTorrent.
+Measure Codex against BitTorrent.
 ## Description
-We will compare Codex to other systems like IPFS and BitTorrent 
-to see how it performs.
+We will compare Codex to other systems - for this initial phase, BitTorrent -
+to see how it performs in comparison.
 
 We will compare on things such as:
 * Time to first byte
