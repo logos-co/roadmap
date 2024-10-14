@@ -62,4 +62,3 @@ Run locally with live refresh:
 ```bash
 npx quartz build --serve
 ```
-
