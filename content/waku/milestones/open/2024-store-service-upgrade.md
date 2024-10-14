@@ -16,7 +16,6 @@ Moreover, nwaku PostgreSQL implementation will enable better disk space manageme
 - Reduced discrepancy of number of messages between nodes of the shard.test Status fleet: [Message still missing row to trend to 0.](https://grafana.infra.status.im/d/hmX6pJ_Iz/storenode-message-counter?orgId=1)
 - Reduced number of alerts on nwaku fleets due to lack of disk space. For example, to see the free disk space in store-01.do-ams3.status.prod, visit [here](https://grafana.infra.status.im/d/QCTZ8-Vmk/single-host-dashboard?orgId=1&refresh=1m&var-host=store-01.do-ams3.status.prod&from=now-12h&to=now).
 
-
 ### [Completed] Deliverable: [Store v3-beta - Message Hashes](https://github.com/waku-org/pm/issues/131)
 
 Enable the Waku Network to provide distributed and synchronised store services.
