@@ -143,6 +143,11 @@ tags:
   - next:
   - blockers:
 
+- [Implement RLN smart contract for paid, multilevel memberships](https://github.com/waku-org/pm/issues/256)
+  - achieved:
+  - next:
+  - blockers:
+
 ## [Milestone - Scale up number of Communities](https://github.com/waku-org/pm/milestone/32)
 
 - [Usage of Rendezvous](https://github.com/waku-org/pm/issues/199)
