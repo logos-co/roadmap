@@ -14,5 +14,3 @@ Every year (starting this year), each project defines its plans in a number a mi
 - [Codex](codex/overview.md)
 - [[nomos/index|Nomos]]
 
-### Services
-- [Vac](vac/index.md)
