@@ -1,9 +1,21 @@
 ---
-title: TEMPLATE 2024-MM-DD Waku Weekly
+title: 2025-MM-DD Waku Weekly
 tags:
-#   - waku-updates
-# date: 2024-MM-DD
+  - waku-updates
+date: 2025-MM-DD
 ---
+
+## [Milestone - Debugging Tools](waku/milestones/open/2025-debugging-tools.md)
+
+- [Status Local Metrics](https://github.com/waku-org/pm/issues/273)
+  - achieved:
+  - next:
+  - blockers
+
+- [Local Metrics Dashboard](https://github.com/waku-org/pm/issues/274)
+  - achieved:
+  - next:
+  - blockers
 
 ## [Milestone - Store Service Upgrade](https://github.com/waku-org/pm/milestone/28)
 
@@ -218,12 +230,6 @@ tags:
 
 ## Other Work
 
-### Enhancements
-
-- achieved:
-- next:
-- blockers:
-
 ### Maintenance
 
 - achieved:
@@ -235,52 +241,3 @@ tags:
 - achieved:
 - next:
 - blockers:
-
-### [Milestone: Demonstrate product-market fit](https://github.com/waku-org/pm/milestone/36)
-
-- [Define cost (self-host)](https://github.com/waku-org/pm/issues/247)
-  - achieved:
-  - next:
-  - blockers:
-
-- [The Waku Whitepaper](https://github.com/waku-org/pm/issues/248)
-  - achieved:
-  - next:
-  - blockers:
-
-- [Define potential USPs](https://github.com/waku-org/pm/issues/249)
-  - achieved:
-  - next:
-  - blockers:
-
-- [Define target customers](https://github.com/waku-org/pm/issues/250)
-  - achieved:
-  - next:
-  - blockers:
-
-- [Customer Interviews](https://github.com/waku-org/pm/issues/251)
-  - achieved:
-  - next:
-  - blockers:
-
-- [Co-design sessions](https://github.com/waku-org/pm/issues/252)
-  - achieved:
-  - next:
-  - blockers:
-
-- [Review Waku MVP](https://github.com/waku-org/pm/issues/253)
-  - achieved:
-  - next:
-  - blockers:
-
-### [Milestone: Acquire first 10 customers](https://github.com/waku-org/pm/milestone/37)
-
-- [5-10 Highly qualified leads](https://github.com/waku-org/pm/issues/254)
-  - achieved:
-  - next:
-  - blockers:
-
-- [Review current integrations](https://github.com/waku-org/pm/issues/255)
-  - achieved:
-  - next:
-  - blockers:
