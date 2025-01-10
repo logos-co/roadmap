@@ -6,6 +6,8 @@ date: 2025-01-09
 ## Started in H1 2025
 
 - [Debugging Tools](waku/milestones/open/2025-debugging-tools.md)
+- [Nwaku in Status Mobile MVP](waku/milestones/open/2025-nwaku-in-status-mobile
+- .md)
 
 ## Started in H2 2024
 
