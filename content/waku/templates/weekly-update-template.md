@@ -5,6 +5,17 @@ tags:
 date: 2025-MM-DD
 ---
 
+<!-- Please Add the team weekly highlights here, they should remain COMMENTED -->
+
+<!-- 
+
+- research:
+- nwaku:
+- js-waku:
+- chat: 
+
+-->
+
 ## [Milestone - Debugging Tools](waku/milestones/open/2025-debugging-tools.md)
 
 - [Status Local Metrics](https://github.com/waku-org/pm/issues/273)
