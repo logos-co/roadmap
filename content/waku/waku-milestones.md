@@ -1,7 +1,11 @@
 ---
 title: Waku Milestones
-date: 2024-06-04
+date: 2025-01-09
 ---
+
+## Started in H1 2025
+
+- [Debugging Tools](waku/milestones/open/2025-debugging-tools.md)
 
 ## Started in H2 2024
 
