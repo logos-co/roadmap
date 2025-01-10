@@ -8,10 +8,10 @@ Improve tooling to facilitate debugging and issues, by providing a tool to help 
 
 ## Deliverables
 
-### [Log parser]() [not started]
+### Log parser [not started]
 A log parser that can consume various logs (Status application, nwaku fleet) to retrieve specific information of a message, such as origin, Waku msg id to Status envelope id, etc.
 
-### [Waku Local Metrics]() [not started]
+### Waku Local Metrics [not started]
 Enable nwaku Prometheus when embedded in Status Desktop and Mobile applications.
 
 ### [Status Local Metrics](https://github.com/waku-org/pm/issues/273)
