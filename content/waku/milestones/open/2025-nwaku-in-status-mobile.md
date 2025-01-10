@@ -14,7 +14,7 @@ Proceed with integration of nwaku in Status application on all platforms; includ
 
 Implement missing functions on nwaku FFI API to enable Status Mobile and Desktop apps to run in light mode.
 
-### Status mobile build with nwaku MVP/private dogfood
+### [Status mobile build with nwaku MVP/private dogfood](https://github.com/waku-org/pm/issues/276)
 
 Status mobile on iOS and Android can be built with nwaku; CI is set up to demonstrate and provide builds alongside current go-waku based builds.
 
