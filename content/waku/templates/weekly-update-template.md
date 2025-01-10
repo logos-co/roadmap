@@ -10,12 +10,12 @@ date: 2025-MM-DD
 - [Status Local Metrics](https://github.com/waku-org/pm/issues/273)
   - achieved:
   - next:
-  - blockers
+  - blockers:
 
 - [Local Metrics Dashboard](https://github.com/waku-org/pm/issues/274)
   - achieved:
   - next:
-  - blockers
+  - blockers:
 
 ## [Milestone - Store Service Upgrade](https://github.com/waku-org/pm/milestone/28)
 
