@@ -23,6 +23,8 @@ An improved version of the Store protocol, marking a crucial increment towards a
 
 ### Deliverable: [Store v3 - store synchronisation](https://github.com/waku-org/pm/issues/132)
 
+<!-- Moved to decentralized store milestone https://docs.google.com/document/d/1L8HvXtAYk-JqQL6w3RgCskXwegcTa0J5nyH9YL4LrQE/edit?disco=AAABZGqoBO4 -->
+
 Upgrade the Store service capability in the network from a collection of local, unsynchronised,
 semi-centralised (trusted) service nodes to a decentralised service capability in the network with inter-node synchronisation.
 Building on Store v3-beta, this version of Store includes basic synchronisation between nodes. This will probably include:
