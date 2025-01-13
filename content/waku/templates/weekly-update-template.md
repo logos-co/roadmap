@@ -1,8 +1,8 @@
 ---
 title: 2025-MM-DD Waku Weekly
 tags:
-  - waku-updates
-date: 2025-MM-DD
+##  - waku-updates
+## date: 2025-MM-DD
 ---
 
 <!-- Please Add the team weekly highlights here, they should remain COMMENTED -->
