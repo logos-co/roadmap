@@ -9,14 +9,14 @@ Proceed with further Golang code decommission from the Waku stack by defining a 
 
 ## Deliverables
 
-### Define Messaging API (Not Startd)
+### Define Messaging API (Not Started)
 
-### Messaging API: nwaku (Not Startd)
+### Messaging API: nwaku (Not Started)
 
-### Messaging API: js-waku (Not Startd)
+### Messaging API: js-waku (Not Started)
 
-### Messaging API: REST (Not Startd)
+### Messaging API: REST (Not Started)
 
-### Messaging API: status-go integration (Not Startd)
+### Messaging API: status-go integration (Not Started)
 
-### Messaging API: Rust SDK (Not Startd)
+### Messaging API: Rust SDK (Not Started)
