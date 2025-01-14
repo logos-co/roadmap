@@ -251,16 +251,7 @@ tags:
   - next:
   - blockers:
 
-## Other Work
-
-### Maintenance
-
-- achieved:
-- next:
-- blockers:
-
-### Bugs
-
-- achieved:
-- next:
-- blockers:
+## [Maintenance H1 2025](https://github.com/waku-org/pm/issues/275)
+  - achieved:
+  - next:
+  - blockers:
