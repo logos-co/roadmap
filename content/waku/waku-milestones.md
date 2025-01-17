@@ -28,7 +28,7 @@ date: 2025-01-09
 
 ## Closed
 
-- [Scale up number of Communities](waku/milestones/open/2024-scale-number-of-communities.md)
+- [Scale up number of Communities](waku/milestones/closed/2024-scale-number-of-communities.md)
 - [Quality Assurance processes are in place](waku/milestones/closed/2023-quality-assurance-processes.md)
 - [Support 1 Million Users](waku/milestones/closed/2023-support-1-million-users.md)
 - [Support Many Platforms](waku/milestones/closed/2023-support-many-platforms.md)
