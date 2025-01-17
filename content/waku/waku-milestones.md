@@ -14,7 +14,6 @@ date: 2025-01-09
 
 - [Static Sharding - dedicated shards](waku/milestones/open/2024-static-sharding-dedicated-shards.md)
 - [Bandwidth optimization and protocol review](waku/milestones/open/2024-bandwidth-optimization-and-protocol-review.md)
-- [Scale up number of Communities](waku/milestones/open/2024-scale-number-of-communities.md)
 - [Nwaku in Status Desktop (Relay mode)](waku/milestones/open/2024-nwaku-in-status-desktop.md)
 - [RLN Mainnet](waku/milestones/open/2024-rln-mainnet.md)
 - [Incentivise running a Waku infrastructure node](waku/milestones/open/2024-incentivise-running-infra-node.md)
@@ -29,6 +28,7 @@ date: 2025-01-09
 
 ## Closed
 
+- [Scale up number of Communities](waku/milestones/closed/2024-scale-number-of-communities.md)
 - [Quality Assurance processes are in place](waku/milestones/closed/2023-quality-assurance-processes.md)
 - [Support 1 Million Users](waku/milestones/closed/2023-support-1-million-users.md)
 - [Support Many Platforms](waku/milestones/closed/2023-support-many-platforms.md)
