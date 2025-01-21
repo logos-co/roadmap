@@ -16,6 +16,18 @@ tags:
 
 -->
 
+## [Milestone - Scale one-to-one chats and app protocols](https://github.com/waku-org/pm/milestone/40)
+
+- [Survey impact of message rate and size limit](https://github.com/waku-org/pm/issues/277)
+  - achieved:
+  - next:
+  - blockers:
+
+- [Test device pairing and syncing](https://github.com/waku-org/pm/issues/278)
+  - achieved:
+  - next:
+  - blockers:
+
 ## [Milestone - Debugging Tools](waku/milestones/open/2025-debugging-tools.md)
 
 - [Status Local Metrics](https://github.com/waku-org/pm/issues/273)
@@ -239,16 +251,7 @@ tags:
   - next:
   - blockers:
 
-## Other Work
-
-### Maintenance
-
-- achieved:
-- next:
-- blockers:
-
-### Bugs
-
-- achieved:
-- next:
-- blockers:
+## [Maintenance H1 2025](https://github.com/waku-org/pm/issues/275)
+  - achieved:
+  - next:
+  - blockers:
