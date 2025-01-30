@@ -16,6 +16,18 @@ tags:
 
 -->
 
+## [Milestone - Messaging API](https://github.com/waku-org/pm/milestone/41)
+
+- [Define Messaging API](https://github.com/waku-org/pm/issues/282)
+  - achieved:
+  - next:
+  - blockers:
+
+- [Messaging API: js-waku](https://github.com/waku-org/pm/issues/283)
+  - achieved:
+  - next:
+  - blockers:
+
 ## [Milestone - Scale one-to-one chats and app protocols](https://github.com/waku-org/pm/milestone/40)
 
 - [Survey impact of message rate and size limit](https://github.com/waku-org/pm/issues/277)
