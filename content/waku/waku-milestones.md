@@ -3,7 +3,7 @@ title: Waku Milestones
 date: 2025-01-09
 ---
 
-## Started in H1 2025
+## H1 2025
 
 [Debugging Tools](waku/milestones/open/2025-debugging-tools.md)
 
@@ -13,7 +13,7 @@ date: 2025-01-09
 
 [Messaging API](waku/milestones/open/2025-messaging-api.md)
 
-## Started in H2 2024
+## H2 2024
 
 [Static Sharding - dedicated shards](waku/milestones/open/2024-static-sharding-dedicated-shards.md)
 
@@ -25,7 +25,7 @@ date: 2025-01-09
 
 [Incentivise running a Waku infrastructure node](waku/milestones/open/2024-incentivise-running-infra-node.md)
 
-## Started in H1 2024
+## H1 2024
 
 [Store Service Upgrade](waku/milestones/open/2024-store-service-upgrade.md)
 
