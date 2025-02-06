@@ -16,6 +16,9 @@ tags:
 
 -->
 
+## [Milestone - Explore Peer Discovery Gap](https://github.com/waku-org/pm/milestone/44)
+
+
 ## [Milestone - Messaging API](https://github.com/waku-org/pm/milestone/41)
 
 - [Define Messaging API](https://github.com/waku-org/pm/issues/282)
