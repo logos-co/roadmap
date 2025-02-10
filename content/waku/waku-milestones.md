@@ -27,11 +27,7 @@ date: 2025-01-09
 
 [Static Sharding - dedicated shards](waku/milestones/open/2024-static-sharding-dedicated-shards.md)
 
-
-
 [Nwaku in Status Desktop (Relay mode)](waku/milestones/open/2024-nwaku-in-status-desktop.md)
-
-
 
 [Incentivise running a Waku infrastructure node](waku/milestones/open/2024-incentivise-running-infra-node.md)
 
