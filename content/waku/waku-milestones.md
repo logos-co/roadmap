@@ -15,14 +15,11 @@ date: 2025-01-09
 
 [Logos Web apps](waku/milestones/open/2025-logos-web-apps.md)
 
-
-
-
-
-[Debugging Tools](waku/milestones/open/2025-debugging-tools.md)
+[Explore Peer Discovery Gap](waku/milestones/open/2025-explore-peer-discovery-gap.md)
 
 [Nwaku in Status Mobile MVP](waku/milestones/open/2025-nwaku-in-status-mobile.md)
 
+[Debugging Tools](waku/milestones/open/2025-debugging-tools.md)
 
 [Messaging API](waku/milestones/open/2025-messaging-api.md)
 
