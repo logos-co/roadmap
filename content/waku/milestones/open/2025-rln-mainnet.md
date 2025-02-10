@@ -7,21 +7,19 @@ date: 2024-09-07
 
 ## [RLN Mainnet](https://github.com/waku-org/pm/milestone/34)
 
-Estimated date of Completion: 2024-12-31
+Estimated date of Completion: 2025-06-30
 
-Once complemented, the economical behaviour of RLN will have been specified, implemented and discussed with the Status team.
-An implementation of RLN for light clients will also be done, to demonstrate RLN’s UX with onchain Merkle tree.
-Finally, the smart contract will be deployed on mainnet.
+Once complemented, the economical behaviour of RLN will have been specified, implemented and discussed with the Status team. An implementation of RLN for light clients will also be done, to demonstrate RLN’s UX with onchain Merkle tree. Finally, the smart contract will be deployed on mainnet.
 
-It will be then possible to design the usage of RLN in Status 1:1 chats.
+It will be then possible to design the usage of RLN in Status.
 
-### Deliverable: [RLNv2 in nwaku](https://github.com/waku-org/pm/issues/204)
+### Deliverable: [RLNv2 in nwaku](https://github.com/waku-org/pm/issues/204) -- Completed
 
 Improved flexibility of the rate limit (from 1 msg/epoch to N msg/epoch), providing better dimensioning for bandwidth capping.
 Moving from RLNv1 to RLNv2 to allow better bandwidth dimensioning in the network. This will allow a message allocation per hour or day per registered publisher, providing better statistical guarantees for network bandwidth usage.
 Note this only concerns native libraries using nwaku.
 
-### Deliverable: [Maturing RLN variables/parameters revision (staking, contract/chain, token) - roadmap](https://github.com/waku-org/pm/issues/205)
+### Deliverable: [Maturing RLN variables/parameters revision (staking, contract/chain, token) - roadmap](https://github.com/waku-org/pm/issues/205) -- Completed
 
 *A review of RLN security parameters and functionality in preparation for mainnet deployment.*
 Analyse RLN deployment in the Waku proto-network and evaluate its DoS protection performance as well as review with the Status app team the potential cost mode of RLN:
@@ -31,7 +29,7 @@ Analyse RLN deployment in the Waku proto-network and evaluate its DoS protection
 - What token should be used?
 - Do we need a combination of msg/sec and msg allocation/day rate limiting?
 
-### Deliverable: [Provision RLN for light push clients POC](https://github.com/waku-org/pm/issues/206)
+### Deliverable: [Provision RLN for light push clients POC](https://github.com/waku-org/pm/issues/206) -- Completed
 
 Design and implement a protocol that attaches RLN proof for messages received by light push services, enabling light clients to use the network without RLN.
 

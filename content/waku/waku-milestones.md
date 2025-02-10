@@ -5,7 +5,9 @@ date: 2025-01-09
 
 ## H1 2025
 
-[Foundation for Communities Optimization](waku/milestones/open/2024-bandwidth-optimization-and-protocol-review.md)
+[Foundation for Communities Optimization](waku/milestones/open/2025-foundation-for-communities-optimization.md)
+
+[RLN Mainnet](waku/milestones/open/2025-rln-mainnet.md)
 
 [Debugging Tools](waku/milestones/open/2025-debugging-tools.md)
 
@@ -23,7 +25,7 @@ date: 2025-01-09
 
 [Nwaku in Status Desktop (Relay mode)](waku/milestones/open/2024-nwaku-in-status-desktop.md)
 
-[RLN Mainnet](waku/milestones/open/2024-rln-mainnet.md)
+
 
 [Incentivise running a Waku infrastructure node](waku/milestones/open/2024-incentivise-running-infra-node.md)
 
