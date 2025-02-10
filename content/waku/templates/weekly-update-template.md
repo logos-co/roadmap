@@ -214,21 +214,6 @@ tags:
     - next:
     - blockers:
 
-- [Nwaku in Golang: Relay](https://github.com/waku-org/pm/issues/202)
-  - achieved:
-  - next:
-  - blockers:
-
-- [Nwaku in Status Desktop](https://github.com/waku-org/pm/issues/203)
-  - achieved:
-  - next:
-  - blockers:
-
-- [Nwaku on Windows](https://github.com/waku-org/pm/issues/239)
-  - achieved:
-  - next:
-  - blockers:
-
 ## [Milestone: Incentivise running a Waku infrastructure node](https://github.com/waku-org/pm/milestone/35)
 
 - [RLN Relay Incentivisation - Distribute RLN fees PoC](https://github.com/waku-org/pm/issues/243)
