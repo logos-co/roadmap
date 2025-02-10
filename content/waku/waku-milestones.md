@@ -5,6 +5,8 @@ date: 2025-01-09
 
 ## H1 2025
 
+[Foundation for Communities Optimization](waku/milestones/open/2024-bandwidth-optimization-and-protocol-review.md)
+
 [Debugging Tools](waku/milestones/open/2025-debugging-tools.md)
 
 [Nwaku in Status Mobile MVP](waku/milestones/open/2025-nwaku-in-status-mobile.md)
@@ -17,7 +19,7 @@ date: 2025-01-09
 
 [Static Sharding - dedicated shards](waku/milestones/open/2024-static-sharding-dedicated-shards.md)
 
-[Bandwidth optimization and protocol review](waku/milestones/open/2024-bandwidth-optimization-and-protocol-review.md)
+
 
 [Nwaku in Status Desktop (Relay mode)](waku/milestones/open/2024-nwaku-in-status-desktop.md)
 

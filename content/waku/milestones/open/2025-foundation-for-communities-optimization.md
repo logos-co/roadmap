@@ -1,17 +1,18 @@
 ---
-title: Bandwidth optimization and protocol review
+title: Foundation for Communities Optimization
 tags:
     - waku-milestone
 date: 2024-09-07
 ---
 
-[Milestone Bandwidth optimization and Communities protocol review](https://github.com/waku-org/pm/milestone/31)
+[Foundation for Communities Optimization](https://github.com/waku-org/pm/milestone/31)
 
-Estimated Date of Completion: Q2 2025, Precise date to be provided as part of 2024 H1 planning.
+Once completed, the usage of content topics by Communities will be simplified, enabling both improvements in terms of store queries and light mode message receival, but also enabling future optimization and improvements at a lower cost.
 
-Once completed, further specification and analysis of Status Communities and some chat protocols will be available; as well as a recommendation on how Status Communities protocol should use Waku in a scalable and bandwidth efficient manner.
+Moreover, Communities traffic will be separated from other functionalities. This enables easy bandwidth and performance improvements (remove usage of relay for large messages, reduce message retention and hence DB size for control messages), as well as protecting users that do not use communities from Communities traffic.
 
-Moreover, low hanging-fruits and temporary solutions to improve bandwidth consumption would have been implemented.
+Finally, Communities traffic will be segregated in a few shards, per message types. Enabling future bandwidth or performance optimization such as setting up different DB per message type, reducing retention time for control messages, or disabling the usage of relay for large messages.
+
 
 ### Deliverable: [Minimal Community Specification and Implementation]()
 
