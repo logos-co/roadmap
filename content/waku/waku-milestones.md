@@ -9,7 +9,12 @@ date: 2025-01-09
 
 [RLN Mainnet](waku/milestones/open/2025-rln-mainnet.md)
 
-[Hardening and scaling foundations for private chats](content/waku/milestones/open/2025-hardening-and-scaling-foundations-for-private-chats.md)
+[Hardening and scaling foundations for private chats](waku/milestones/open/2025-hardening-and-scaling-foundations-for-private-chats.md)
+
+[Upgrade Waku for the Web](waku/milestones/open/2025-upgrade-waku-for-the-web.md)
+
+[Logos Web apps](waku/milestones/open/2025-logos-web-apps.md)
+
 
 
 
