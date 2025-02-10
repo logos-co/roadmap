@@ -9,11 +9,15 @@ date: 2025-01-09
 
 [RLN Mainnet](waku/milestones/open/2025-rln-mainnet.md)
 
+[Hardening and scaling foundations for private chats](content/waku/milestones/open/2025-hardening-and-scaling-foundations-for-private-chats.md)
+
+
+
+
 [Debugging Tools](waku/milestones/open/2025-debugging-tools.md)
 
 [Nwaku in Status Mobile MVP](waku/milestones/open/2025-nwaku-in-status-mobile.md)
 
-[Scale one-to-one chats and app protocols](waku/milestones/open/2025-scale-one-to-one-chats.md)
 
 [Messaging API](waku/milestones/open/2025-messaging-api.md)
 
