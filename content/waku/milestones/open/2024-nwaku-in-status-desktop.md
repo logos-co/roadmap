@@ -1,5 +1,5 @@
 ---
-title: Nwaku in Status Desktop
+title: Nwaku in Status Desktop (Relay mode)
 tags:
     - waku-milestone
 date: 2024-09-07
