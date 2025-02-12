@@ -190,7 +190,7 @@ tags:
   - next:
   - blockers:
 
-- [Implement RLN smart contract for paid, multilevel memberships](https://github.com/waku-org/pm/issues/256)
+- [Implement RLN smart contract for paid, multilevel memberships](https://github.com/waku-org/pm/issues/228)
   - achieved:
   - next:
   - blockers:
