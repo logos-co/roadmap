@@ -14,39 +14,11 @@ Moreover, Communities traffic will be separated from other functionalities. This
 Finally, Communities traffic will be segregated in a few shards, per message types. Enabling future bandwidth or performance optimization such as setting up different DB per message type, reducing retention time for control messages, or disabling the usage of relay for large messages.
 
 
-### Deliverable: [Minimal Community Specification and Implementation]()
+### Deliverable: [Define and implement sharding for Communities messages](https://github.com/waku-org/pm/issues/266)
 
-1. Specify community procedures, including the encryption, reliability and functional scope of each. [This forum post](https://forum.vac.dev/t/chat-protocol-work-for-2025-codex-integration-organisation-proposal/311) serves as a starting point.
-2. Using spec from (1) as a basis, define message flows to be moved to separate shards (e.g. community control + content messages). Extracting community messages off the common open shard (also used by 1:1 chats) should be considered.
-
-As well as other low-hanging fruit improvements previously identified.
+Define message flows to be moved to separate shards (e.g. community control + content messages). Extracting community messages off the common open shard (also used by private chats) should be considered.
 
 Breaking changes and migration plans, if necessary, should be specified as part of this output.
-
-Finally, proceed with the implementation of (2).
-
-### Deliverable: [Telemetry review](https://github.com/waku-org/pm/issues/264)
-
-Using the output of [Telemetry: Measure Bandwidth]() and [Minimal Community Specification and Implementation]() (traffic separated by shards), analyse the distribution of traffic on relay, and data in store. Providing a report in terms of Status Chat functionality.
-
-### Deliverable: [Minimal solution for greedy messages](https://github.com/waku-org/pm/issues/265)
-
-Based on [telemetry review](), specify and implement a workaround solution (light push + store) that removes most data greedy functionality from the relay network.
-
-At the time of writing, we assume that self-addressed messages (backup/sync) and community description messages would be affected by this change.
-
-### Deliverable: [Define long-term solution](https://github.com/waku-org/pm/issues/267)
-
-The output of this deliverable is to compile a list of recommendations, for Waku, Status Communities and chat protocols. This should include potential benefits of changes and enable scheduling the work between Status and Waku teams.
-Decision on the work to be done and planning it should be part of the output of this deliverable.
-
-The recommendation should be grounded in the output of the previous deliverables of this milestone.
-
-The recommendation is unlikely to encompass the entire chat protocol, and all status message types due to the amount of work it would entailed. Instead, an empirical approach should be taken where changes are prioritised based on the user impact, known limitations and functionalities (e.g. profile backup and device pairing usage of Waku), and telemetry metrics.
-
-This would impact any current usage of Waku by the Status app. Which does include communities, 1:1 chat but profile back and device pairing.
-
-This could include review of discv5 implementation in go-waku and nwaku if bandwidth usage is excessive.
 
 ### Deliverable: [Review usage of content topics in Status Communities protocol](https://github.com/waku-org/pm/issues/268)
 
