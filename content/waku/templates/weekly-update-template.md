@@ -16,189 +16,33 @@ tags:
 
 -->
 
-## [Milestone - Explore Peer Discovery Gap](https://github.com/waku-org/pm/milestone/44)
-
-
-## [Milestone - Messaging API](https://github.com/waku-org/pm/milestone/41)
-
-- [Define Messaging API](https://github.com/waku-org/pm/issues/282)
-  - achieved:
-  - next:
-  - blockers:
-
-- [Messaging API: js-waku](https://github.com/waku-org/pm/issues/283)
-  - achieved:
-  - next:
-  - blockers:
-
-## [Milestone - Scale one-to-one chats and app protocols](https://github.com/waku-org/pm/milestone/40)
-
-- [Survey impact of message rate and size limit](https://github.com/waku-org/pm/issues/277)
-  - achieved:
-  - next:
-  - blockers:
-
-- [Test device pairing and syncing](https://github.com/waku-org/pm/issues/278)
-  - achieved:
-  - next:
-  - blockers:
-
-## [Milestone - Debugging Tools](waku/milestones/open/2025-debugging-tools.md)
-
-- [Status Local Metrics](https://github.com/waku-org/pm/issues/273)
-  - achieved:
-  - next:
-  - blockers:
-
-- [Local Metrics Dashboard](https://github.com/waku-org/pm/issues/274)
-  - achieved:
-  - next:
-  - blockers:
-
-## [Milestone - Store Service Upgrade](https://github.com/waku-org/pm/milestone/28)
-
-- [Store v3-beta - Message Hashes](https://github.com/waku-org/pm/issues/131)
-  - achieved:       
-  - next:
-  - blockers:
-
-- [Store v3 - store synchronisation](https://github.com/waku-org/pm/issues/132)
-  - achieved:
-  - next:
-  - blockers:
+## [Store Service Upgrade](https://github.com/waku-org/pm/milestone/27)
 
 - [DOS protection for req-res protocols and metrics](https://github.com/waku-org/pm/issues/66)
   - achieved:
   - next:
   - blockers:
 
-- [PostgreSQL Maintenance](https://github.com/waku-org/pm/issues/119)
-  - achieved:
-  - next:
-  - blockers:
-
-- [Metric: Count store messages](https://github.com/waku-org/pm/issues/167)
-  - achieved:
-  - next:
-  - blockers:
-
-
-## [Milestone - Direct Message Reliability](https://github.com/waku-org/pm/milestone/29)
-
-- [Enable testing of direct messages](https://github.com/waku-org/pm/issues/176)
-  - achieved:
-  - next:
-  - blockers:
-
-- [Review connection management strategy and back-off and fix long disconnection issues](https://github.com/waku-org/pm/issues/177)
-  - achieved:
-  - next:
-  - blockers:
-
-- [Tooling: filter and light push protocols](https://github.com/waku-org/pm/issues/178)
-  - achieved:
-  - next:
-  - blockers:
-
-- [Telemetry: fleet logging](https://github.com/waku-org/pm/issues/180)
-  - achieved:
-  - next:
-  - blockers:
-
-- [Telemetry: direct message reliability](https://github.com/waku-org/pm/issues/182)
-  - achieved:
-  - next:
-  - blockers:
-
-- [Reliability Protocol for Relay](https://github.com/waku-org/pm/issues/184)
-  - achieved:
-  - next:
-  - blockers:
+## [Direct Message Reliability](https://github.com/waku-org/pm/milestone/28)
 
 - [Reliability Protocol for Resource-Restricted Clients](https://github.com/waku-org/pm/issues/186)
   - achieved:
   - next:
   - blockers:
 
-- [User apps for large scale dogfooding](https://github.com/waku-org/pm/issues/188)
-  - achieved:   
-  - next:
-  - blockers:
-
-- [Review MVDS usage and fail path](https://github.com/waku-org/pm/issues/189)
+- [PostgreSQL Optimisation phase 1](https://github.com/waku-org/pm/issues/260)
   - achieved:
   - next:
   - blockers:
 
-
-
-## [Milestone - End-to-end reliability protocol](https://github.com/waku-org/pm/milestone/30)
-
-- [Telemetry: multicast message reliability](https://github.com/waku-org/pm/issues/192)
-  - achieved:
-  - next:
-  - blockers:
-
-- [End-to-end reliability protocol - PoC](https://github.com/waku-org/pm/issues/193)
-  - achieved:
-  - next:
-  - blockers:
+## [End-to-end reliability protocol](https://github.com/waku-org/pm/milestone/29)
 
 - [End-to-end reliability protocol - Status integration](https://github.com/waku-org/pm/issues/194)
   - achieved:
   - next:
   - blockers:
 
-## [Milestone - Static Sharding - dedicated shards](https://github.com/waku-org/pm/milestone/31)
-
-- [Telemetry: Measure Bandwidth](https://github.com/waku-org/pm/issues/195)
-  - achieved:
-  - next:
-  - blockers:
-
-- [Sharding peer management and discovery hardening](https://github.com/waku-org/pm/issues/172)
-  - achieved:
-  - next:
-  - blockers:
-
-- [Enable testing of custom shard implementation for Communities](https://github.com/waku-org/pm/issues/196)
-  - achieved:
-  - next:
-  - blockers:
-
-## [Milestone - RLN Mainnet](https://github.com/waku-org/pm/milestone/34)
-
-- [RLNv2 in nwaku](https://github.com/waku-org/pm/issues/204)
-  - achieved:
-  - next:
-  - blockers:
-
-- [Maturing RLN variables/parameters revision](https://github.com/waku-org/pm/issues/205)
-  - achieved:
-  - next:
-  - blockers:
-
-- [Provision RLN for light push clients PoC](https://github.com/waku-org/pm/issues/206)
-  - achieved:
-  - next:
-  - blockers:
-
-- [Pay for RLN provision first PoC](https://github.com/waku-org/pm/issues/207)
-  - achieved:
-  - next:
-  - blockers:
-
-- [Public dogfooding RLNaaS web app](https://github.com/waku-org/pm/issues/259)
-  - achieved:
-  - next:
-  - blockers:
-
-- [Implement RLN smart contract for paid, multilevel memberships](https://github.com/waku-org/pm/issues/256)
-  - achieved:
-  - next:
-  - blockers:
-
-## [Milestone - Scale up number of Communities](https://github.com/waku-org/pm/milestone/32)
+## [Scale up number of Communities](https://github.com/waku-org/pm/milestone/32)
 
 - [Usage of Rendezvous](https://github.com/waku-org/pm/issues/199)
   - achieved:
@@ -210,24 +54,51 @@ tags:
   - next:
   - blockers:
 
-## [Milestone: Nwaku in Status Desktop](https://github.com/waku-org/pm/milestone/33)
+## [RLN Mainnet](https://github.com/waku-org/pm/milestone/34)
 
-- [Nwaku in Golang: Desktop](https://github.com/waku-org/pm/issues/201)
-    - achieved:
-    - next:
-    - blockers:
-
-## [Milestone: Incentivise running a Waku infrastructure node](https://github.com/waku-org/pm/milestone/35)
-
-- [RLN Relay Incentivisation - Distribute RLN fees PoC](https://github.com/waku-org/pm/issues/243)
+- [Implement RLN smart contract for paid, multilevel memberships](https://github.com/waku-org/pm/issues/228)
   - achieved:
   - next:
   - blockers:
 
-- [RLN Relay Incentivisation - RLN fee sharing roadmap & spec](https://github.com/waku-org/pm/issues/244)
+- [RLN contract revision and audit](https://github.com/waku-org/pm/issues/257)
   - achieved:
-  - next: 
+  - next:
   - blockers:
+
+- [Testnet L2 with on-chain tree](https://github.com/waku-org/pm/issues/286)
+  - achieved:
+  - next:
+  - blockers:
+
+- [RLNv2 Web management interface](https://github.com/waku-org/pm/issues/281)
+  - achieved:
+  - next:
+  - blockers:
+
+- [Deploy RLN smart contract to a L2 mainnet](https://github.com/waku-org/pm/issues/258)
+  - achieved:
+  - next:
+  - blockers:
+
+## [Nwaku in Status Desktop (relay mode)](https://github.com/waku-org/pm/milestone/33)
+
+- [Nwaku on Windows](https://github.com/waku-org/pm/issues/239)
+  - achieved:
+  - next:
+  - blockers:
+
+- [Nwaku in Status Desktop](https://github.com/waku-org/pm/issues/203)
+  - achieved:
+  - next:
+  - blockers:
+
+- [MessagingAPI: Rust SDK](https://github.com/waku-org/pm/issues/289)
+  - achieved:
+  - next:
+  - blockers:
+
+## [Incentivise running a Waku infrastructure node](https://github.com/waku-org/pm/milestone/35)
 
 - [Service Incentivisation - Pay for RLN provision PoC](https://github.com/waku-org/pm/issues/245)
   - achieved:
@@ -239,14 +110,93 @@ tags:
   - next:
   - blockers:
 
-## [Milestone: Bandwidth optimization and protocol review](https://github.com/waku-org/pm/milestone/31)
+## [Foundation for Communities Optimization](https://github.com/waku-org/pm/milestone/31)
 
-- [Status usage of Waku scaling and bandwidth optimization recommendation](https://github.com/waku-org/pm/issues/197)
+- [Define and implement sharding for Communities messages](https://github.com/waku-org/pm/issues/266)
   - achieved:
   - next:
   - blockers:
 
-- [Review usage of content topics in Status Chat and Communities protocol](https://github.com/waku-org/pm/issues/198)
+- [Review usage of content topics in Status Communities protocol](https://github.com/waku-org/pm/issues/268)
+  - achieved:
+  - next:
+  - blockers:
+
+## [Hardening and scaling foundations for private chats](https://github.com/waku-org/pm/milestone/40)
+
+- [Isolate private chat traffic](https://github.com/waku-org/pm/issues/278)
+  - achieved:
+  - next:
+  - blockers:
+
+- [Specify private chat protocol](https://github.com/waku-org/pm/issues/285)
+  - achieved:
+  - next:
+  - blockers:
+
+- [Private chat rate limit PoC](https://github.com/waku-org/pm/issues/277)
+  - achieved:
+  - next:
+  - blockers:
+
+## [Upgrade Waku for the Web](https://github.com/waku-org/pm/milestone/43)
+
+- [Scalable Data Sync in browser](https://github.com/waku-org/pm/issues/280)
+  - achieved:
+  - next:
+  - blockers:
+
+- [Improved browser bootstrap](https://github.com/waku-org/pm/issues/290)
+  - achieved:
+  - next:
+  - blockers:
+
+- [Browser simulations](https://github.com/waku-org/pm/issues/279)
+  - achieved:
+  - next:
+  - blockers:
+
+## [Logos Web apps](https://github.com/waku-org/pm/milestone/42)
+
+- [Reliable Qaku & library](https://github.com/waku-org/pm/issues/287)
+  - achieved:
+  - next:
+  - blockers:
+
+## [Explore Peer Discovery Gap](https://github.com/waku-org/pm/milestone/44)
+
+- [Mixnet PoC](https://github.com/waku-org/pm/issues/291)
+  - achieved:
+  - next:
+  - blockers
+
+## [Nwaku in Status Mobile MVP](https://github.com/waku-org/pm/milestone/39)
+
+- [Status mobile build with nwaku MVP](https://github.com/waku-org/pm/issues/276)
+  - achieved:
+  - next:
+  - blockers
+
+## [Debugging Tools](https://github.com/waku-org/pm/milestone/38)
+
+- [Status Local Metrics](https://github.com/waku-org/pm/issues/273)
+  - achieved:
+  - next:
+  - blockers:
+
+- [Local Metrics Dashboard](https://github.com/waku-org/pm/issues/274)
+  - achieved:
+  - next:
+  - blockers:
+
+## [Messaging API](https://github.com/waku-org/pm/milestone/41)
+
+- [Define Messaging API](https://github.com/waku-org/pm/issues/282)
+  - achieved:
+  - next:
+  - blockers:
+
+- [Messaging API: js-waku](https://github.com/waku-org/pm/issues/283)
   - achieved:
   - next:
   - blockers:
