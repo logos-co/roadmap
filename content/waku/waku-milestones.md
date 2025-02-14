@@ -28,13 +28,8 @@ date: 2025-02-13
 ## Closed
 
 - [Demonstrate Product Market-Fit](waku/milestones/closed/2024-demonstrate-product-market-fit.md)
-
 - [Scale up number of Communities](waku/milestones/closed/2024-scale-number-of-communities.md)
-
 - [Quality Assurance processes are in place](waku/milestones/closed/2023-quality-assurance-processes.md)
-
 - [Support 1 Million Users](waku/milestones/closed/2023-support-1-million-users.md)
-
 - [Support Many Platforms](waku/milestones/closed/2023-support-many-platforms.md)
-
 - [Waku Network Gen 0](content/waku/milestones/closed/2023-waku-network-gen-0.md)
