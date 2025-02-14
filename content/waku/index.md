@@ -11,5 +11,5 @@ lastmod: 2024-07-18
 To learn more about Waku please visit the [website](https://waku.org), [github](https://github.com/waku-org), and [docs](https://docs.waku.org).
 
 - [Milestones](waku/waku-milestones.md)
-- [Weekly updates](tags/waku-updates)
+- [Weekly updates](waku/updates/)
 - [Collaboration](waku/collaboration)
