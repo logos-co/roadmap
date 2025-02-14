@@ -31,6 +31,6 @@ Implement the messaging API on the REST API of nwaku.
 
 Exclusively use the Messaging API in status-go; do not use core.
 
-### Messaging API: Rust SDK
+### [Messaging API: Rust SDK](https://github.com/waku-org/pm/issues/289)
 
 Implement the message API in Rust bindings over nwaku.
