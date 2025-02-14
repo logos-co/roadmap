@@ -13,7 +13,7 @@ Proceed with further Golang code decommission from the Waku stack by defining a 
 
 ### [Define Messaging API](https://github.com/waku-org/pm/issues/282)
 
-Define the [messaging API](https://blog.waku.org/content/images/2024/07/waku-stack-overview-bbe542ade7dadda4b6852b1bd5f1ca66.jpg), a deliberate API to start and configure a Waku node, send and receive messages using the tunable peer-to-peer reliability protocols (store confirmation, service node redundancy, multiple peer discovery); The API must abstract Waku protocols and only expose high level information to the consumer (edge vs relay mode, send message, receive message). The definition should inform terminology and function signature in all languages, including REST.
+Define the [messaging API](https://blog.waku.org/content/images/2024/07/waku-stack-overview-bbe542ade7dadda4b6852b1bd5f1ca66.jpg), a deliberate API to start and configure a Waku node, send and receive messages using the [tunable peer-to-peer reliability protocols](https://github.com/waku-org/specs/pull/52) (store confirmation, service node redundancy, multiple peer discovery); The API must abstract Waku protocols and only expose high level information to the consumer (edge vs relay mode, send message, receive message). The definition should inform terminology and function signature in all languages, including REST.
 
 ### Messaging API: nwaku
 
