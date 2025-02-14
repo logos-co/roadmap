@@ -15,7 +15,7 @@ Proceed with further Golang code decommission from the Waku stack by defining a 
 
 Define the [messaging API](https://blog.waku.org/content/images/2024/07/waku-stack-overview-bbe542ade7dadda4b6852b1bd5f1ca66.jpg), a deliberate API to start and configure a Waku node, send and receive messages using the tunable peer-to-peer reliability protocols (store confirmation, service node redundancy, multiple peer discovery); The API must abstract Waku protocols and only expose high level information to the consumer (edge vs relay mode, send message, receive message). The definition should inform terminology and function signature in all languages, including REST.
 
-### [Messaging API: nwaku]()
+### Messaging API: nwaku
 
 Implement the message API in nwaku; expose it in C Bindings; implement Golang wrapper. The result should be a full decommission of the go-waku repository.
 
@@ -23,14 +23,14 @@ Implement the message API in nwaku; expose it in C Bindings; implement Golang wr
 
 Implement the messaging API in js-waku; using in the Logos forum PoC and Qaku.
 
-### [Messaging API: REST]()
+### Messaging API: REST
 
 Implement the messaging API on the REST API of nwaku.
 
-### [Messaging API: status-go integration]()
+### Messaging API: status-go integration
 
 Exclusively use the Messaging API in status-go; do not use core.
 
-### [Messaging API: Rust SDK]()
+### Messaging API: Rust SDK
 
 Implement the message API in Rust bindings over nwaku.

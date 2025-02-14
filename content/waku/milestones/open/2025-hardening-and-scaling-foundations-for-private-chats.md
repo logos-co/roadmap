@@ -37,15 +37,15 @@ This proof of concept helps understand what would be an acceptable rate, and wha
 This deliverable includes discussions with the Status team to design a UI to inform the user, and enable extending the message rate.
 As per all PoC, specifications are expected.
 
-### [Baseline Benchmarks]()
+### Baseline Benchmarks
 
 Work with the Vac-DST team to set up baseline benchmarks for chat protocols and ensure status-backend can be used for those benchmarks.
 Then, coordinate with the Status and Vac-DST team to run those benchmarks as non-regression performance testing prior to major Status app releases.
 
-### [Status-cli-tests to simulate Mobile environment]()
+### Status-cli-tests to simulate Mobile environment
 
 Work with the Vac-QA team and Status Core Mobile team to improve the variety of environments status-cli-tests are run through, and simulate what can happen to an application running on iOS and Android, such as network loss, ipv6, network switch, app in background, app killed due to battery saving, etc.
 
-### [Global network metrics]()
+### Global network metrics
 
 Provide network metrics to assist measuring Status product metrics such as traffic, number of nodes (edge and relay), version, etc. Deploy the same software on other known network fleets to have a global view of Waku usage (RAILGUN, TheGraph).

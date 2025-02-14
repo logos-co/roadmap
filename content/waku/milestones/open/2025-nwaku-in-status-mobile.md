@@ -11,7 +11,7 @@ Proceed with integration of nwaku in Status application on all platforms; includ
 
 ## Deliverables
 
-### [Light mode in Status app MVP]()
+### Light mode in Status app MVP
 
 Implement missing functions on nwaku FFI API to enable Status Mobile and Desktop apps to run in light mode with Waku core protocols provided by nwaku. Full replacement of go-waku (go-waku API logic such as periodic store queries and store confirmations) is **not** in scope.
 

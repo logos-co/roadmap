@@ -19,7 +19,7 @@ In this milestone, we will implement PoCs for those two features, to highlight t
 
 Design and implement a protocol that enables message set discrepancy identification and resolution; to enable synchronisation of latest messages in store nodes in a decentralized manner. This is a re-attempt of store v3 - synchronisation 2024H2 deliverable, using learnings from the first attempt.
 
-### [Experiment with decetralized store and SDS]()
+### Experiment with decetralized store and SDS
 
 Use Waku with decentralized store nodes (currently fleet store nodes are hardcoded), in combination with SDS and Waku Sync to assess behaviour and caveats.
 
@@ -29,6 +29,6 @@ Proceed with local and extended simulations, as well as use this behaviour in we
 
 Write  a short specification describing Waku integration of libp2p mix protocol, including details on interfacing with Waku Discovery methods, spam-protection (RLN), and other Waku-related concerns. This must be followed by a PoC implementation mixing Waku Lightpush and Store requests and responses. It will be necessary to collaborate with the Vac p2p subteam to interpret and mature the libp2p spec and implementation simultaneously.
 
-### [Mixnet MVP roadmap]()
+### Mixnet MVP roadmap
 
 Write a post of the next step to get libp2p-mixnet in Waku to MVP stage. This may include specific requirements for libp2p-mixnet or other protocols (e.g. peer capability discovery).
