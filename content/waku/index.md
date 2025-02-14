@@ -12,6 +12,4 @@ To learn more about Waku please visit the [website](https://waku.org), [github](
 
 - [Milestones](waku/waku-milestones.md)
 - [Weekly updates](tags/waku-updates)
-- [Process](waku/process.md)
-- [Reports](waku/reports.md)
 - [Collaboration](waku/collaboration)
