@@ -15,7 +15,7 @@ Furthermore, the enhanced specifications will enable the Vac-QA team to expand t
 
 To achieve this milestone successfully, it is essential that one-to-one chats are isolated from other features using Waku, such as Communities, user settings backup, and device pairing/synchronization. Ideally, these features should be either removed or disabled by default to ensure accurate testing and evaluation.
 
-Private chats refers to both one-to-one and private group chats.
+*Private chats* refers to both one-to-one and private group chats.
 
 ## Deliverables
 

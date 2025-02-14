@@ -28,7 +28,6 @@ Specs are expected to describe the usage of Waku and move towards a secure and s
 
 Enable fallback strategies for nwaku services nodes to access Web3 RPC APIs, to ensure that service nodes remain online and able to run RLN Relay and RLNaaS despite ETH RPC provider outage.
 
-
 ### [Codex for message archival PoC]()
 
 Review the Codex integration in Qaku; for long term storage of messages; with retrieval context from SDS. Document it in the context of browser and native apps, Status’ own BitTorrent archival system and SDS, including potential to define a generalized bundling and archival framework. 

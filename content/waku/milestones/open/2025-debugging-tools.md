@@ -4,7 +4,8 @@ tags:
     - waku-milestone
 date: 2025-01-09
 ---
-https://github.com/waku-org/pm/milestone/38
+
+Github Milestone: https://github.com/waku-org/pm/milestone/38
 
 Improve tooling to facilitate debugging and issues, by providing a tool to help with message tracing in logs (Status app, fleet), and enable Prometheus in Status app to get more detailed connectivity states and other metrics on local instances.
 
@@ -20,7 +21,7 @@ Enable nwaku Prometheus when embedded in Status Desktop and Mobile applications.
 
 ### [Status Local Metrics](https://github.com/waku-org/pm/issues/273)
 
-Migrate useful telemetry metrics to Prometheus in status-go; such as store confirmation success/failure, MVDS ack/no-ack. For Status Desktop.
+Migrate *useful* telemetry metrics to Prometheus in status-go; such as store confirmation success/failure, MVDS ack/no-ack. For Status Desktop.
 
 ### [Local Metric Dashboard](https://github.com/waku-org/pm/issues/274)
 

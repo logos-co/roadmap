@@ -4,7 +4,8 @@ tags:
     - waku-milestone
 date: 2025-01-10
 ---
-https://github.com/waku-org/pm/milestone/39
+
+Github Milestone: https://github.com/waku-org/pm/milestone/39
 
 Proceed with integration of nwaku in Status application on all platforms; including extending scope to light mode and mobile. Use resulting nwaku-based Status apps for dogfooding and documenting last steps to make nwaku default Waku client in Status apps.
 

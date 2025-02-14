@@ -5,7 +5,7 @@ tags:
 date: 2024-09-07
 ---
 
-## [Foundation for Communities Optimization](https://github.com/waku-org/pm/milestone/31)
+Github Milestone: https://github.com/waku-org/pm/milestone/31
 
 Once completed, the usage of content topics by Communities will be simplified, enabling both improvements in terms of store queries and light mode message receival, but also enabling future optimization and improvements at a lower cost.
 
