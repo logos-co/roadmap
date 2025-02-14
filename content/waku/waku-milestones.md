@@ -19,10 +19,9 @@ date: 2025-02-13
 
 - [Store Service Upgrade](waku/milestones/open/2024-store-service-upgrade.md)
 - [Direct Message Reliability](waku/milestones/open/2024-direct-msg-reliability.md)
-- [Static Sharding - dedicated shards](waku/milestones/open/2024-static-sharding-dedicated-shards.md)
+- [End-to-end reliability protocol](waku/milestones/open/2024-e2e-reliability-protocol.md)
 - [Nwaku in Status Desktop (Relay mode)](waku/milestones/open/2024-nwaku-in-status-desktop.md)
 - [Incentivise running a Waku infrastructure node](waku/milestones/open/2024-incentivise-running-infra-node.md)
-- [End-to-end reliability protocol](waku/milestones/open/2024-e2e-reliability-protocol.md)
 - [Acquire first 10 Customers](waku/milestones/open/2024-acquire-first-10-customers.md)
 
 ## Closed
