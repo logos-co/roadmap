@@ -19,7 +19,7 @@ In this milestone, we will implement PoCs for those two features, to highlight t
 
 Design and implement a protocol that enables message set discrepancy identification and resolution; to enable synchronisation of latest messages in store nodes in a decentralized manner. This is a re-attempt of store v3 - synchronisation 2024H2 deliverable, using learnings from the first attempt.
 
-### Experiment with decetralized store and SDS
+### Experiment with decentralized store and SDS
 
 Use Waku with decentralized store nodes (currently fleet store nodes are hardcoded), in combination with SDS and Waku Sync to assess behaviour and caveats.
 
