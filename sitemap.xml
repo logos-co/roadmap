@@ -518,6 +518,9 @@
     <loc>https://roadmap.logos.co/waku/milestones/closed/2024-scale-number-of-communities</loc>
     <lastmod>2025-01-17T21:59:33.110Z</lastmod>
   </url><url>
+    <loc>https://roadmap.logos.co/waku/milestones/closed/2024-static-sharding-dedicated-shards</loc>
+    <lastmod>2025-02-16T23:10:26.041Z</lastmod>
+  </url><url>
     <loc>https://roadmap.logos.co/waku/milestones/open/2024-acquire-first-10-customers</loc>
     <lastmod>2024-10-07T03:50:07.628Z</lastmod>
   </url><url>
@@ -532,9 +535,6 @@
   </url><url>
     <loc>https://roadmap.logos.co/waku/milestones/open/2024-nwaku-in-status-desktop</loc>
     <lastmod>2025-02-14T01:24:24.194Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/waku/milestones/open/2024-static-sharding-dedicated-shards</loc>
-    <lastmod>2024-10-07T04:12:09.481Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/milestones/open/2024-store-service-upgrade</loc>
     <lastmod>2025-02-14T01:24:24.194Z</lastmod>
@@ -750,7 +750,7 @@
     <lastmod>2025-02-13T00:14:27.930Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/waku-milestones</loc>
-    <lastmod>2025-02-14T01:24:24.194Z</lastmod>
+    <lastmod>2025-02-16T23:10:26.041Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/what-is-a-milestone</loc>
     <lastmod>2024-08-09T17:35:13.062Z</lastmod>
