@@ -519,7 +519,7 @@
     <lastmod>2025-01-17T21:59:33.110Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/milestones/closed/2024-static-sharding-dedicated-shards</loc>
-    <lastmod>2025-02-16T23:10:26.041Z</lastmod>
+    <lastmod>2025-02-17T22:35:13.055Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/milestones/open/2024-acquire-first-10-customers</loc>
     <lastmod>2024-10-07T03:50:07.628Z</lastmod>
@@ -529,6 +529,9 @@
   </url><url>
     <loc>https://roadmap.logos.co/waku/milestones/open/2024-e2e-reliability-protocol</loc>
     <lastmod>2025-02-14T01:24:24.194Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/waku/milestones/open/2024-foundation-for-communities-optimization</loc>
+    <lastmod>2025-02-17T22:35:13.055Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/milestones/open/2024-incentivise-running-infra-node</loc>
     <lastmod>2025-02-14T01:24:24.194Z</lastmod>
@@ -573,7 +576,7 @@
     <lastmod>2023-10-05T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/templates/weekly-update-template</loc>
-    <lastmod>2025-02-13T21:09:34.131Z</lastmod>
+    <lastmod>2025-02-17T22:35:13.055Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2023-07-24</loc>
     <lastmod>2023-08-04T00:00:00.000Z</lastmod>
@@ -749,8 +752,11 @@
     <loc>https://roadmap.logos.co/waku/updates/2025-02-10</loc>
     <lastmod>2025-02-13T00:14:27.930Z</lastmod>
   </url><url>
+    <loc>https://roadmap.logos.co/waku/updates/2025-02-17</loc>
+    <lastmod>2025-02-17T22:35:13.055Z</lastmod>
+  </url><url>
     <loc>https://roadmap.logos.co/waku/waku-milestones</loc>
-    <lastmod>2025-02-16T23:10:26.041Z</lastmod>
+    <lastmod>2025-02-17T22:35:13.055Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/what-is-a-milestone</loc>
     <lastmod>2024-08-09T17:35:13.062Z</lastmod>
