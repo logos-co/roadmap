@@ -24,7 +24,6 @@ date: 2025-02-13
 - [Acquire first 10 Customers](waku/milestones/open/2024-acquire-first-10-customers.md)
 - [Incentivise running a Waku infrastructure node](waku/milestones/open/2024-incentivise-running-infra-node.md)
 
-
 ## Closed
 
 - [Static Sharding - dedicated shards](waku/milestones/closed/2024-static-sharding-dedicated-shards.md)

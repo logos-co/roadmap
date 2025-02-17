@@ -110,7 +110,7 @@ tags:
   - next:
   - blockers:
 
-## [Foundation for Communities Optimization](https://github.com/waku-org/pm/milestone/31)
+## [Foundation for Communities Optimization](waku/milestones/open/2024-foundation-for-communities-optimization.md)
 
 - [Define and implement sharding for Communities messages](https://github.com/waku-org/pm/issues/266)
   - achieved:
