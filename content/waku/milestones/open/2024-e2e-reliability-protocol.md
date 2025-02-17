@@ -5,9 +5,7 @@ tags:
 date: 2024-09-07
 ---
 
-## [Milestone End-to-end reliability protocol](https://github.com/waku-org/pm/milestone/29)
-
-Estimated Date of Completion: 2024-11-25
+Github Milestone: https://github.com/waku-org/pm/milestone/29
 
 To solve reliability is to solve two problems:
 

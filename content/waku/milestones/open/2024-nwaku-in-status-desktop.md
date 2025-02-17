@@ -1,13 +1,11 @@
 ---
-title: Nwaku in Status Desktop
+title: Nwaku in Status Desktop (Relay mode)
 tags:
     - waku-milestone
 date: 2024-09-07
 ---
 
-[Milestone Nwaku in Status Desktop (Relay mode)](https://github.com/waku-org/pm/milestone/33)
-
-Estimated date of delivery: 2025-01-31
+Github Milestone: https://github.com/waku-org/pm/milestone/33
 
 There is work duplication in go-waku and nwaku due to the common area of concern: relay usage and native library.
 
@@ -20,11 +18,13 @@ The next milestone will then focus on hardening the nwaku Desktop build and impl
 
 Note that we want to draw the line to RLN in terms of go-waku maintenance, meaning that if Status were to use RLN (see [Scale 1:1 chat messages PoC]()), then it should happen with nwaku.
 
-### Deliverable: [Nwaku on Windows](https://github.com/waku-org/pm/issues/239)
+## Deliverables
+
+### [Nwaku on Windows](https://github.com/waku-org/pm/issues/239)
 
 Ensure that nwaku can build and run on Windows. This includes regular PR CI and test run done on Windows environments.
 
-### Deliverable: [Nwaku in Status Desktop (Relay)](https://github.com/waku-org/pm/issues/203)
+### [Nwaku in Status Desktop (Relay)](https://github.com/waku-org/pm/issues/203)
 
 Use nwaku instead of go-waku in Status Desktop and produce a working and distributable special (no light client) build for Linux and Mac OS environments.
 “Light client” mode should be disabled for this build as only relay protocols are implemented.
