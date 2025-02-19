@@ -37,7 +37,7 @@ This proof of concept helps understand what would be an acceptable rate, and wha
 This deliverable includes discussions with the Status team to design a UI to inform the user, and enable extending the message rate.
 As per all PoC, specifications are expected.
 
-### Baseline benchmarks
+### [Baseline benchmarks](https://github.com/waku-org/pm/issues/296)
 
 Work with the Vac-DST team to set up baseline benchmarks for chat protocols and ensure status-backend can be used for those benchmarks.
 Then, coordinate with the Status and Vac-DST team to run those benchmarks as non-regression performance testing prior to major Status app releases.
