@@ -170,7 +170,7 @@ tags:
   - next:
   - blockers
 
-## [Nwaku in Status Mobile MVP](waku/milestones/open/2025-nwaku-in-status-mobile.md)
+## [Nwaku in Status Mobile and Light Mode MVP](waku/milestones/open/2025-nwaku-in-status-mobile.md)
 
 - [Status mobile build with nwaku MVP](https://github.com/waku-org/pm/issues/276)
   - achieved:

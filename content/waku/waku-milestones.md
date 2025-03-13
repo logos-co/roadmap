@@ -11,7 +11,7 @@ date: 2025-02-13
 - [Upgrade Waku for the Web](waku/milestones/open/2025-upgrade-waku-for-the-web.md)
 - [Logos Web apps](waku/milestones/open/2025-logos-web-apps.md)
 - [Explore Peer Discovery Gap](waku/milestones/open/2025-explore-peer-discovery-gap.md)
-- [Nwaku in Status Mobile MVP](waku/milestones/open/2025-nwaku-in-status-mobile.md)
+- [Nwaku in Status Mobile and Light Mode MVP](waku/milestones/open/2025-nwaku-in-status-mobile.md)
 - [Debugging Tools](waku/milestones/open/2025-debugging-tools.md)
 - [Messaging API](waku/milestones/open/2025-messaging-api.md)
 
