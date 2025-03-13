@@ -1,5 +1,5 @@
 ---
-title: Nwaku in Status Mobile
+title: Nwaku in Status Mobile and Light Mode MVP
 tags:
     - waku-milestone
 date: 2025-01-10
