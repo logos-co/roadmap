@@ -4,6 +4,7 @@ tags:
     - waku-milestone
 date: 2025-02-10
 ---
+EDC: 2025-04-18
 
 Github Milestone: https://github.com/waku-org/pm/milestone/43
 

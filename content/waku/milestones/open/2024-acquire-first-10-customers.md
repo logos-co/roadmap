@@ -4,6 +4,7 @@ tags:
     - waku-milestone
 date: 2024-09-07
 ---
+EDC: 2025-12-19
 
 ## Milestone: [Acquire first 10 Customers](https://github.com/waku-org/pm/milestone/37)
 

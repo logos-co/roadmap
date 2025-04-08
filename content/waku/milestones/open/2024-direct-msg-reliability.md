@@ -4,9 +4,9 @@ tags:
     - waku-milestone
 date: 2024-09-07
 ---
+EDC: 2025-03-30
 
 Github Milestone: https://github.com/waku-org/pm/milestone/28
-
 
 With this milestone, connectivity issues in Status Mobile and Desktop are solved and tested.
 Usage of store v3-beta casts a wide net on potential message loss, at the cost of bandwidth overhead (but still lower than current usage of storev2).
