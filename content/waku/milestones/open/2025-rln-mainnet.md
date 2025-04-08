@@ -4,6 +4,7 @@ tags:
     - waku-milestone
 date: 2024-09-07
 ---
+EDC: 2025-06-30
 
 Github Milestone: https://github.com/waku-org/pm/milestone/34
 

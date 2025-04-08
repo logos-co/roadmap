@@ -20,6 +20,7 @@ date: 2025-02-13
 - [Store Service Upgrade](waku/milestones/open/2024-store-service-upgrade.md)
 - [Direct Message Reliability](waku/milestones/open/2024-direct-msg-reliability.md)
 - [End-to-end reliability protocol](waku/milestones/open/2024-e2e-reliability-protocol.md)
+- [Scale up number of Communities](waku/milestones/open/2024-scale-number-of-communities.md)
 - [Nwaku in Status Desktop (Relay mode)](waku/milestones/open/2024-nwaku-in-status-desktop.md)
 - [Acquire first 10 Customers](waku/milestones/open/2024-acquire-first-10-customers.md)
 - [Incentivise running a Waku infrastructure node](waku/milestones/open/2024-incentivise-running-infra-node.md)
@@ -28,7 +29,6 @@ date: 2025-02-13
 
 - [Static Sharding - dedicated shards](waku/milestones/closed/2024-static-sharding-dedicated-shards.md)
 - [Demonstrate Product Market-Fit](waku/milestones/closed/2024-demonstrate-product-market-fit.md)
-- [Scale up number of Communities](waku/milestones/closed/2024-scale-number-of-communities.md)
 - [Quality Assurance processes are in place](waku/milestones/closed/2023-quality-assurance-processes.md)
 - [Support 1 Million Users](waku/milestones/closed/2023-support-1-million-users.md)
 - [Support Many Platforms](waku/milestones/closed/2023-support-many-platforms.md)
