@@ -16,14 +16,14 @@ tags:
 
 -->
 
-## [Store Service Upgrade](waku/milestones/open/2024-store-service-upgrade.md)
+<!-- ## [Store Service Upgrade](waku/milestones/open/2024-store-service-upgrade.md) -->
 
 - [DOS protection for req-res protocols and metrics](https://github.com/waku-org/pm/issues/66)
   - achieved:
   - next:
   - blockers:
 
-## [Direct Message Reliability](waku/milestones/open/2024-direct-msg-reliability.md)
+<!-- ## [Direct Message Reliability](waku/milestones/open/2024-direct-msg-reliability.md) -->
 
 - [Reliability Protocol for Resource-Restricted Clients](https://github.com/waku-org/pm/issues/186)
   - achieved:
@@ -35,14 +35,14 @@ tags:
   - next:
   - blockers:
 
-## [End-to-end reliability protocol](waku/milestones/open/2024-e2e-reliability-protocol.md)
+<!-- ## [End-to-end reliability protocol](waku/milestones/open/2024-e2e-reliability-protocol.md) -->
 
 - [End-to-end reliability protocol - Status integration](https://github.com/waku-org/pm/issues/194)
   - achieved:
   - next:
   - blockers:
 
-## [Scale up number of Communities](waku/milestones/closed/2024-scale-number-of-communities.md)
+<!-- ## [Scale up number of Communities](waku/milestones/closed/2024-scale-number-of-communities.md) -->
 
 - [Usage of Rendezvous](https://github.com/waku-org/pm/issues/199)
   - achieved:
@@ -54,7 +54,7 @@ tags:
   - next:
   - blockers:
 
-## [RLN Mainnet](waku/milestones/open/2025-rln-mainnet.md)
+<!-- ## [RLN Mainnet](waku/milestones/open/2025-rln-mainnet.md) -->
 
 - [Implement RLN smart contract for paid, multilevel memberships](https://github.com/waku-org/pm/issues/228)
   - achieved:
@@ -81,7 +81,7 @@ tags:
   - next:
   - blockers:
 
-## [Nwaku in Status Desktop (relay mode)](waku/milestones/open/2024-nwaku-in-status-desktop.md)
+<!-- ## [Nwaku in Status Desktop (relay mode)](waku/milestones/open/2024-nwaku-in-status-desktop.md) -->
 
 - [Nwaku on Windows](https://github.com/waku-org/pm/issues/239)
   - achieved:
@@ -98,7 +98,7 @@ tags:
   - next:
   - blockers:
 
-## [Incentivise running a Waku infrastructure node](waku/milestones/open/2024-incentivise-running-infra-node.md)
+<!-- ## [Incentivise running a Waku infrastructure node](waku/milestones/open/2024-incentivise-running-infra-node.md) -->
 
 - [Service Incentivisation - Pay for RLN provision PoC](https://github.com/waku-org/pm/issues/245)
   - achieved:
@@ -110,7 +110,7 @@ tags:
   - next:
   - blockers:
 
-## [Foundation for Communities Optimization](waku/milestones/open/2024-foundation-for-communities-optimization.md)
+<!-- ## [Foundation for Communities Optimization](waku/milestones/open/2024-foundation-for-communities-optimization.md) -->
 
 - [Define and implement sharding for Communities messages](https://github.com/waku-org/pm/issues/266)
   - achieved:
@@ -122,7 +122,7 @@ tags:
   - next:
   - blockers:
 
-## [Hardening and scaling foundations for private chats](waku/milestones/open/2025-hardening-and-scaling-foundations-for-private-chats.md)
+<!-- ## [Hardening and scaling foundations for private chats](waku/milestones/open/2025-hardening-and-scaling-foundations-for-private-chats.md) -->
 
 - [Isolate private chat traffic](https://github.com/waku-org/pm/issues/278)
   - achieved:
@@ -139,7 +139,7 @@ tags:
   - next:
   - blockers:
 
-## [Upgrade Waku for the Web](waku/milestones/open/2025-upgrade-waku-for-the-web.md)
+<!-- ## [Upgrade Waku for the Web](waku/milestones/open/2025-upgrade-waku-for-the-web.md) -->
 
 - [Scalable Data Sync in browser](https://github.com/waku-org/pm/issues/280)
   - achieved:
@@ -156,28 +156,28 @@ tags:
   - next:
   - blockers:
 
-## [Logos Web apps](waku/milestones/open/2025-logos-web-apps.md)
+<!-- ## [Logos Web apps](waku/milestones/open/2025-logos-web-apps.md) -->
 
 - [Reliable Qaku & library](https://github.com/waku-org/pm/issues/287)
   - achieved:
   - next:
   - blockers:
 
-## [Explore Peer Discovery Gap](waku/milestones/open/2025-explore-peer-discovery-gap.md)
+<!-- ## [Explore Peer Discovery Gap](waku/milestones/open/2025-explore-peer-discovery-gap.md) -->
 
 - [Mixnet PoC](https://github.com/waku-org/pm/issues/291)
   - achieved:
   - next:
   - blockers
 
-## [Nwaku in Status Mobile and Light Mode MVP](waku/milestones/open/2025-nwaku-in-status-mobile.md)
+<!-- ## [Nwaku in Status Mobile and Light Mode MVP](waku/milestones/open/2025-nwaku-in-status-mobile.md) -->
 
 - [Status mobile build with nwaku MVP](https://github.com/waku-org/pm/issues/276)
   - achieved:
   - next:
   - blockers
 
-## [Debugging Tools](waku/milestones/open/2025-debugging-tools.md)
+<!-- ## [Debugging Tools](waku/milestones/open/2025-debugging-tools.md) -->
 
 - [Status Local Metrics](https://github.com/waku-org/pm/issues/273)
   - achieved:
@@ -189,7 +189,7 @@ tags:
   - next:
   - blockers:
 
-## [Messaging API](waku/milestones/open/2025-messaging-api.md)
+<!-- ## [Messaging API](waku/milestones/open/2025-messaging-api.md) -->
 
 - [Define Messaging API](https://github.com/waku-org/pm/issues/282)
   - achieved:
@@ -201,7 +201,7 @@ tags:
   - next:
   - blockers:
 
-## [Maintenance H1 2025](https://github.com/waku-org/pm/issues/275)
+<!-- ## [Maintenance H1 2025](https://github.com/waku-org/pm/issues/275) -->
   - achieved:
   - next:
   - blockers:
