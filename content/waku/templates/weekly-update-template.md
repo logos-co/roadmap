@@ -16,12 +16,6 @@ tags:
 
 -->
 
-<!-- ## [Store Service Upgrade](waku/milestones/open/2024-store-service-upgrade.md) -->
-
-- [DOS protection for req-res protocols and metrics](https://github.com/waku-org/pm/issues/66)
-  - achieved:
-  - next:
-  - blockers:
 
 <!-- ## [Direct Message Reliability](waku/milestones/open/2024-direct-msg-reliability.md) -->
 
