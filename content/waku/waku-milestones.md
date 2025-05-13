@@ -17,7 +17,7 @@ date: 2025-02-13
 
 ## 2024
 
-- [Store Service Upgrade](waku/milestones/open/2024-store-service-upgrade.md)
+
 - [Direct Message Reliability](waku/milestones/open/2024-direct-msg-reliability.md)
 - [End-to-end reliability protocol](waku/milestones/open/2024-e2e-reliability-protocol.md)
 - [Scale up number of Communities](waku/milestones/open/2024-scale-number-of-communities.md)
@@ -27,6 +27,7 @@ date: 2025-02-13
 
 ## Closed
 
+- [Store Service Upgrade](waku/milestones/closed/2024-store-service-upgrade.md)
 - [Static Sharding - dedicated shards](waku/milestones/closed/2024-static-sharding-dedicated-shards.md)
 - [Demonstrate Product Market-Fit](waku/milestones/closed/2024-demonstrate-product-market-fit.md)
 - [Quality Assurance processes are in place](waku/milestones/closed/2023-quality-assurance-processes.md)
