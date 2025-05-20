@@ -195,6 +195,13 @@ tags:
   - next:
   - blockers:
 
+## Orphan Deliverables
+
+- [Nim C library guide](https://github.com/waku-org/pm/issues/300)
+  - achieved:
+  - next:
+  - blockers:
+
 <!-- ## [Maintenance H1 2025](https://github.com/waku-org/pm/issues/275) -->
   - achieved:
   - next:
