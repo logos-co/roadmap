@@ -25,7 +25,7 @@ Improve Qaku reliability by integrating SDS and recent feedback from Comms Hubs.
 A web forum that uses Waku for posts and comments, including a simple UI for demonstration purposes. A clear API needs to be specified and developed to enable frontend developers to replace the PoC frontend with their own.
 Specs are expected to describe the usage of Waku and move towards a secure and scalable app protocol.
 
-### Web3 RPC fallback for service nodes
+### [Web3 RPC fallback for service nodes](https://github.com/waku-org/pm/issues/294)
 
 Enable fallback strategies for nwaku services nodes to access Web3 RPC APIs, to ensure that service nodes remain online and able to run RLN Relay and RLNaaS despite ETH RPC provider outage.
 
