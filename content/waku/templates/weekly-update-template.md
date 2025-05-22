@@ -157,6 +157,11 @@ tags:
   - next:
   - blockers:
 
+- [Web3 RPC fallback for service nodes](https://github.com/waku-org/pm/issues/294)
+  - achieved:
+  - next:
+  - blockers:
+
 <!-- ## [Explore Peer Discovery Gap](waku/milestones/open/2025-explore-peer-discovery-gap.md) -->
 
 - [Mixnet PoC](https://github.com/waku-org/pm/issues/291)
