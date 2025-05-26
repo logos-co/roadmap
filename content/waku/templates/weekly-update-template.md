@@ -116,6 +116,13 @@ tags:
   - next:
   - blockers:
 
+## [Acquire first 10 Customers](waku/milestones/open/2025-foundation-for-communities-optimization.md)
+
+- [5-10 Highly qualified leads](https://github.com/waku-org/pm/issues/254)]
+  - achieved:
+  - next:
+  - blockers:
+
 <!-- ## [Hardening and scaling foundations for private chats](waku/milestones/open/2025-hardening-and-scaling-foundations-for-private-chats.md) -->
 
 - [Isolate private chat traffic](https://github.com/waku-org/pm/issues/278)
