@@ -5,17 +5,13 @@ tags:
 ## date: 2025-MM-DD
 ---
 
-<!-- Please Add the team weekly highlights here, they should remain COMMENTED -->
-
-<!-- 
+## Highlights
+<!-- Please Add the team weekly highlights here -->
 
 - research:
 - nwaku:
 - js-waku:
 - chat: 
-
--->
-
 
 <!-- ## [Direct Message Reliability](waku/milestones/open/2024-direct-msg-reliability.md) -->
 
@@ -32,18 +28,6 @@ tags:
 <!-- ## [End-to-end reliability protocol](waku/milestones/open/2024-e2e-reliability-protocol.md) -->
 
 - [End-to-end reliability protocol - Status integration](https://github.com/waku-org/pm/issues/194)
-  - achieved:
-  - next:
-  - blockers:
-
-<!-- ## [Scale up number of Communities](waku/milestones/closed/2024-scale-number-of-communities.md) -->
-
-- [Usage of Rendezvous](https://github.com/waku-org/pm/issues/199)
-  - achieved:
-  - next:
-  - blockers:
-
-- [DoS protection for req-res protocols and metrics (go-waku as service node)](https://github.com/waku-org/pm/issues/200)
   - achieved:
   - next:
   - blockers:
