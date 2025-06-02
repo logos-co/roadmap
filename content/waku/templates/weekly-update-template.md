@@ -100,7 +100,7 @@ tags:
   - next:
   - blockers:
 
-## [Acquire first 10 Customers](waku/milestones/open/2025-foundation-for-communities-optimization.md)
+<!-- ## [Acquire first 10 Customers](waku/milestones/open/2025-foundation-for-communities-optimization.md) -->
 
 - [5-10 Highly qualified leads](https://github.com/waku-org/pm/issues/254)
   - achieved:
