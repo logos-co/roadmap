@@ -102,7 +102,7 @@ tags:
 
 ## [Acquire first 10 Customers](waku/milestones/open/2025-foundation-for-communities-optimization.md)
 
-- [5-10 Highly qualified leads](https://github.com/waku-org/pm/issues/254)]
+- [5-10 Highly qualified leads](https://github.com/waku-org/pm/issues/254)
   - achieved:
   - next:
   - blockers:
@@ -120,6 +120,11 @@ tags:
   - blockers:
 
 - [Private chat rate limit PoC](https://github.com/waku-org/pm/issues/277)
+  - achieved:
+  - next:
+  - blockers:
+
+- [Global Network Metrics](https://github.com/waku-org/pm/issues/295)
   - achieved:
   - next:
   - blockers:
