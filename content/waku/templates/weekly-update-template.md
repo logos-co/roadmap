@@ -140,6 +140,11 @@ tags:
   - next:
   - blockers:
 
+- [Global Network Metrics](https://github.com/waku-org/pm/issues/295)
+  - achieved:
+  - next:
+  - blockers:
+
 <!-- ## [Upgrade Waku for the Web](waku/milestones/open/2025-upgrade-waku-for-the-web.md) -->
 
 - [Scalable Data Sync in browser](https://github.com/waku-org/pm/issues/280)
