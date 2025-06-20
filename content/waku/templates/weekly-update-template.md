@@ -196,6 +196,28 @@ tags:
   - next:
   - blockers:
 
+<!-- ## [Create Chat SDK MVP](https://github.com/waku-org/pm/milestone/45) -->
+
+- [Chat SDK Developer Preview](https://github.com/waku-org/pm/issues/316)
+  - achieved:
+  - next:
+  - blockers:
+
+- [Chat SDK Bindings](https://github.com/waku-org/pm/issues/317)
+  - achieved:
+  - next:
+  - blockers:
+
+- [Create Segmentation Library](https://github.com/waku-org/pm/issues/318)
+  - achieved:
+  - next:
+  - blockers:
+
+- [Create Rate Limit Manager](https://github.com/waku-org/pm/issues/319)
+  - achieved:
+  - next:
+  - blockers:
+
 ## Orphan Deliverables
 
 - [Nim C library guide](https://github.com/waku-org/pm/issues/300)
