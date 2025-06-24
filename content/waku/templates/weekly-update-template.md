@@ -196,7 +196,7 @@ tags:
   - next:
   - blockers:
 
-<!-- ## [Create Chat SDK MVP](https://github.com/waku-org/pm/milestone/45) -->
+<!-- ## [Create Chat SDK MVP](waku/milestones/open/2025-create-chat-sdk-mvp.md) -->
 
 - [Chat SDK Developer Preview](https://github.com/waku-org/pm/issues/316)
   - achieved:

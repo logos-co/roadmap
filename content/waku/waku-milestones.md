@@ -3,6 +3,10 @@ title: Waku Milestones
 date: 2025-02-13
 ---
 
+## H2 2025
+
+- [Create Chat SDK MVP](waku/milestones/open/2025-create-chat-sdk-mvp.md)
+
 ## H1 2025
 
 - [Foundation for Communities Optimization](waku/milestones/open/2025-foundation-for-communities-optimization.md)
