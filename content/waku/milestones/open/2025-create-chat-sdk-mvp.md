@@ -5,6 +5,8 @@ tags:
 date: 2025-06-24
 ---
 
+[Github Milestone](https://github.com/waku-org/pm/milestone/45)
+
 Estimated date of completeion: 2025-09-30
 
 The SDK is intentionally minimal—focused solely on proving the usability of the core approach. It supports 1:1 chat with
