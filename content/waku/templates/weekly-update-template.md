@@ -216,7 +216,6 @@ tags:
   - next:
   - blockers
 
-
 <!-- ## [Streamline DevEx: Mobile, Rust and Web dev](waku/milestones/open/2025-streamline-devex.md) -->
 
 - [Waku Rust SDK](https://github.com/waku-org/pm/issues/289)

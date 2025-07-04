@@ -1,6 +1,6 @@
 ---
 title: Waku Milestones
-date: 2025-02-13
+date: 2025-07-03
 ---
 
 ## H2 2025
