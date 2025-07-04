@@ -184,14 +184,41 @@ tags:
   - next:
   - blockers:
 
-<!-- ## [Messaging API](waku/milestones/open/2025-messaging-api.md) -->
+<!-- ## [Improve DevEx: API, TWN, Metrics, Docs](waku/milestones/open/2025-improve-devex.md) -->
 
-- [Define Messaging API](https://github.com/waku-org/pm/issues/282)
+- [Global Network Metrics](https://github.com/waku-org/pm/issues/295)
   - achieved:
   - next:
-  - blockers:
+  - blockers
 
-- [Messaging API: js-waku](https://github.com/waku-org/pm/issues/283)
+- [Introduce Waku API in the Browser](https://github.com/waku-org/pm/issues/283)
+  - achieved:
+  - next:
+  - blockers
+
+- [Review Documentation and Define Guidelines](https://github.com/waku-org/pm/issues/323)
+  - achieved:
+  - next:
+  - blockers
+
+- [Trial QUIC](https://github.com/waku-org/pm/issues/324)
+  - achieved:
+  - next:
+  - blockers
+
+- [Optimise Browser Bootstrapping](https://github.com/waku-org/pm/issues/290)
+  - achieved:
+  - next:
+  - blockers
+
+- [Introduce Waku API in nwaku](https://github.com/waku-org/pm/issues/305)
+  - achieved:
+  - next:
+  - blockers
+
+<!-- ## [Streamline DevEx: Mobile, Rust and Web dev](waku/milestones/open/2025-streamline-devex.md) -->
+
+- [Waku Rust SDK](https://github.com/waku-org/pm/issues/289)
   - achieved:
   - next:
   - blockers:
