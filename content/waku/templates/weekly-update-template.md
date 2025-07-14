@@ -119,11 +119,6 @@ tags:
   - next:
   - blockers:
 
-- [Private chat rate limit PoC](https://github.com/waku-org/pm/issues/277)
-  - achieved:
-  - next:
-  - blockers:
-
 - [Global Network Metrics](https://github.com/waku-org/pm/issues/295)
   - achieved:
   - next:
@@ -252,7 +247,7 @@ tags:
   - next:
   - blockers:
 
-<!-- ## [Maintenance H1 2025](https://github.com/waku-org/pm/issues/275) -->
+## Maintenance
   - achieved:
   - next:
   - blockers:
