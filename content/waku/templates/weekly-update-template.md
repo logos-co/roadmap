@@ -30,8 +30,8 @@ tags:
 ## [Deploy RLN onchain tree on L2 Testnet](https://github.com/waku-org/pm/milestone/34)
 
 - [[Deliverable] Implement RLN smart contract for paid, multilevel memberships](https://github.com/waku-org/pm/issues/228)
-  - achieved: [research] verified keystore credentials from rln.waku.org works with nwaku, verified some of the new bigendian zerokit functions, updates to waku-simulator
-  - next: [research] verify the rest of the zerokit BE functions, verify nwaku v0.36.0 RLN implementation
+  - achieved:
+  - next:
   - blockers:
 
 - [[Deliverable] Testnet L2 with on-chain tree](https://github.com/waku-org/pm/issues/286)
@@ -50,11 +50,7 @@ tags:
 
 - [[Deliverable] Service Incentivisation - Pay for RLN provision PoC](https://github.com/waku-org/pm/issues/245)
   - achieved:
-    - [research] first dogfoodable version of service incentivization PoC achieved
-    - [research] research on probabilistic encryption, economic benefit of double spend in micropayment scheme
   - next:
-    - [research] improvements based on feedback and more dogfooding for the PoC
-    - [research] refine understanding on probabilistic payments
   - blockers:
 
 - [[Deliverable] Service Incentivisation - Service incentivisation roadmap & spec](https://github.com/waku-org/pm/issues/246)
@@ -72,8 +68,8 @@ tags:
 ## [Introduce E2E Reliability in Status Communities](https://github.com/waku-org/pm/milestone/29)
 
 - [[Deliverable] SDS protocol in Status - basic integration](https://github.com/waku-org/pm/issues/194)
-  - achieved: [research] finished improvements in nim-sds library to simplify threading requirements for integrators
-  - next: [research] help with integration into status-go and start adding features for recovery
+  - achieved:
+  - next:
   - blockers:
 
 - [[Deliverable] SDS protocol in Status - basic recovery](https://github.com/waku-org/pm/issues/304)
@@ -117,7 +113,7 @@ tags:
 
 - [[Deliverable] Integrate libp2p mix into lightpush](https://github.com/waku-org/pm/issues/291)
   - achieved: 
-  - next: [research] continue updating chat2 app to be able to publish with mix in order to dogfood mix
+  - next:
   - blockers:
 
 ## [Streamline DevEx: Mobile, Rust and Web dev](https://github.com/waku-org/pm/milestone/47)
