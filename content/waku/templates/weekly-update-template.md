@@ -228,6 +228,13 @@ tags:
   - next:
   - blockers:
 
+## [Harden RLN Testnet Deployment](https://github.com/waku-org/pm/milestone/55)
+
+- [Minting of (Sepolia) ERC-20 Tokens for RLN Deposits is permissioned](https://github.com/waku-org/pm/issues/334)
+  - achieved:
+  - next:
+  - blockers:
+
 ## Orphan Deliverables
 
 - [Nim C library guide](https://github.com/waku-org/pm/issues/300)
