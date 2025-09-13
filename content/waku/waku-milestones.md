@@ -10,6 +10,7 @@ date: 2025-07-03
 - [Streamline DevEx: Mobile, Rust and Web dev](waku/milestones/open/2025-streamline-devex.md)
 - [Define Incentivisation for RLNaaS](waku/milestones/open/2025-define-incentivisation-for-rlnaas.md)
 - [Deploy RLN onchain tree on L2 Testnet](waku/milestones/open/2025-deploy-rln-onchain-tree-on-l2-testnet.md.md)
+- [Extend Chat SDK with Group Conversations](waku/milestones/open/2025-extend-chat-sdk-with-group-conversations.md)
 
 ## H1 2025
 
