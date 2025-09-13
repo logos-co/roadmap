@@ -8,11 +8,12 @@ date: 2025-07-03
 - [Create Chat SDK MVP](waku/milestones/open/2025-create-chat-sdk-mvp.md)
 - [Improve DevEx: API, TWN, Metrics, Docs](waku/milestones/open/2025-improve-devex.md)
 - [Streamline DevEx: Mobile, Rust and Web dev](waku/milestones/open/2025-streamline-devex.md)
+- [Define Incentivisation for RLNaaS](waku/milestones/open/2025-define-incentivisation-for-rlnaas.md)
+- [Deploy RLN onchain tree on L2 Testnet](waku/milestones/open/2025-deploy-rln-onchain-tree-on-l2-testnet.md.md)
 
 ## H1 2025
 
 - [Foundation for Communities Optimization](waku/milestones/open/2025-foundation-for-communities-optimization.md)
-- [RLN Mainnet](waku/milestones/open/2025-rln-mainnet.md)
 - [Hardening and scaling foundations for private chats](waku/milestones/open/2025-hardening-and-scaling-foundations-for-private-chats.md)
 - [Upgrade Waku for the Web](waku/milestones/open/2025-upgrade-waku-for-the-web.md)
 - [Logos Web apps](waku/milestones/open/2025-logos-web-apps.md)
