@@ -145,7 +145,7 @@ tags:
   - next:
   - blockers:
 
-## [Formalize and Expand Waku Web Apps](https://github.com/waku-org/pm/milestone/42)
+## [Formalize and Expand Waku Web Apps](waku/milestones/open/2025-formalize-and-expand-waku-web-apps.md)
 
 - [[Deliverable] Forum PoC](https://github.com/waku-org/pm/issues/292)
   - achieved:

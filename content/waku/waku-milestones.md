@@ -12,7 +12,7 @@ date: 2025-07-03
 - [Deploy RLN onchain tree on L2 Testnet](waku/milestones/open/2025-deploy-rln-onchain-tree-on-l2-testnet.md.md)
 - [Extend Chat SDK with Group Conversations](waku/milestones/open/2025-extend-chat-sdk-with-group-conversations.md)
 - [Formalize and Expand Waku Web Apps](waku/milestones/open/2025-formalize-and-expand-waku-web-apps.md)
-
+- []
 
 ## H1 2025
 
