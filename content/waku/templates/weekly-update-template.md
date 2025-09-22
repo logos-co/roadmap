@@ -46,7 +46,7 @@ tags:
   - next:
   - blockers:
 
-## [Incentivise running a Waku infrastructure node](https://github.com/waku-org/pm/milestone/35)
+## [Incentivise running a Waku infrastructure node](waku/milestones/open/2024-incentivise-running-infra-node.md)
 
 - [[Deliverable] Service Incentivisation - Pay for RLN provision PoC](https://github.com/waku-org/pm/issues/245)
   - achieved:
@@ -207,7 +207,7 @@ tags:
   - next:
   - blockers:
 
-## [Incentivisation and Marketplace Follow-Up Outline](content/waku/milestones/open/2025-incentivisation-and-marketplace-follow-up-outline.md)
+## [Incentivisation and Marketplace Follow-Up Outline](waku/milestones/open/2025-incentivisation-and-marketplace-follow-up-outline.md)
 
 - []()
   - achieved:
