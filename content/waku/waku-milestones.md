@@ -13,6 +13,7 @@ date: 2025-07-03
 - [Improve DevEx: API, TWN, Metrics, Docs](waku/milestones/open/2025-improve-devex.md)
 - [Streamline DevEx: Mobile, Rust and Web dev](waku/milestones/open/2025-streamline-devex.md)
 - [Harden RLN Testnet Deployment](waku/milestones/open/2025-harden-rln-testnet-deployment.md)
+- [Incentivisation and Marketplace Follow-Up Outline](https://github.com/waku-org/pm/milestone/51)
 
 ## H1 2025
 

@@ -207,7 +207,7 @@ tags:
   - next:
   - blockers:
 
-## [Incentivisation and Marketplace Follow-Up Outline](https://github.com/waku-org/pm/milestone/51)
+## [Incentivisation and Marketplace Follow-Up Outline](content/waku/milestones/open/2025-incentivisation-and-marketplace-follow-up-outline.md)
 
 - []()
   - achieved:
