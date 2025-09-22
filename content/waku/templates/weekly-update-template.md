@@ -200,7 +200,7 @@ tags:
   - next:
   - blockers:
 
-## [Integrate RLN With the Waku API](https://github.com/waku-org/pm/milestone/52)
+## [Integrate RLN With the Waku API](waku/milestones/open/2025-integrate-rln-with-the-waku-api.md)
 
 - []()
   - achieved:
