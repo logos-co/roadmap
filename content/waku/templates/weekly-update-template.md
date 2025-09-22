@@ -228,7 +228,7 @@ tags:
   - next:
   - blockers:
 
-## [Harden RLN Testnet Deployment](https://github.com/waku-org/pm/milestone/55)
+## [Harden RLN Testnet Deployment](waku/milestones/open/2025-harden-rln-testnet-deployment.md)
 
 - [Minting of (Sepolia) ERC-20 Tokens for RLN Deposits is permissioned](https://github.com/waku-org/pm/issues/334)
   - achieved:
