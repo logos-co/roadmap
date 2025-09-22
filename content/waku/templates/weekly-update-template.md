@@ -58,7 +58,7 @@ tags:
   - next:
   - blockers:
 
-## [Integrate nwaku in status desktop relay mode only](https://github.com/waku-org/pm/milestone/33)
+## [Integrate nwaku in status desktop relay mode only](waku/milestones/open/2024-nwaku-in-status-desktop.md)
 
 - [[Deliverable] Nwaku in Status Desktop](https://github.com/waku-org/pm/issues/203)
   - achieved:

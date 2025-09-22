@@ -15,6 +15,7 @@ date: 2025-07-03
 - [Harden RLN Testnet Deployment](waku/milestones/open/2025-harden-rln-testnet-deployment.md)
 - [Incentivisation and Marketplace Follow-Up Outline](https://github.com/waku-org/pm/milestone/51)
 - [Integrate RLN With the Waku API](https://github.com/waku-org/pm/milestone/52)
+- 
 
 ## H1 2025
 
@@ -32,7 +33,7 @@ date: 2025-07-03
 - [Direct Message Reliability](waku/milestones/open/2024-direct-msg-reliability.md)
 - [End-to-end reliability protocol](waku/milestones/open/2024-e2e-reliability-protocol.md)
 - [Incentivise running a Waku infrastructure node](waku/milestones/open/2024-incentivise-running-infra-node.md)
-- [Nwaku in Status Desktop (Relay mode)](waku/milestones/open/2024-nwaku-in-status-desktop.md)
+- [Integrate nwaku in status desktop relay mode only](waku/milestones/open/2024-nwaku-in-status-desktop.md)
 
 ## Closed
 
