@@ -193,7 +193,7 @@ tags:
   - next:
   - blockers:
 
-## [Upgrade Nim Usage](https://github.com/waku-org/pm/milestone/53)
+## [Upgrade Nim Usage](waku/milestones/open/2025-upgrade-nim-usage.md)
 
 - []()
   - achieved:

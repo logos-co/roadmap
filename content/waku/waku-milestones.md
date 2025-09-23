@@ -16,6 +16,7 @@ date: 2025-07-03
 - [Incentivisation and Marketplace Follow-Up Outline](https://github.com/waku-org/pm/milestone/51)
 - [Integrate RLN With the Waku API](https://github.com/waku-org/pm/milestone/52)
 - [Introduce Mixnet For Message Sending](https://github.com/waku-org/pm/milestone/48)
+- [Upgrade Nim Usage](https://github.com/waku-org/pm/milestone/53)
 
 ## H1 2025
 
