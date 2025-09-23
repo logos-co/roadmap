@@ -19,4 +19,6 @@ Finalize the integration of nwaku in Status application by setting up nwaku-base
 
 ## Deliverables
 
-### [[Deliverable] Waku Rust SDK](https://github.com/waku-org/pm/issues/289)
+### [Waku Rust SDK](https://github.com/waku-org/pm/issues/289)
+
+### [Waku RTC library](https://github.com/waku-org/pm/issues/298)
