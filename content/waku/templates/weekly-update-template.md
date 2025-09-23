@@ -109,7 +109,7 @@ tags:
   - next:
   - blockers:
 
-## [Introduce Mixnet For Message Sending](https://github.com/waku-org/pm/milestone/48)
+## [Introduce Mixnet For Message Sending](content/waku/milestones/open/2025-introduce-mixnet-for-message-sending.md)
 
 - [[Deliverable] Integrate libp2p mix into lightpush](https://github.com/waku-org/pm/issues/291)
   - achieved: 
