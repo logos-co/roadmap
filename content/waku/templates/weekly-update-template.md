@@ -65,7 +65,7 @@ tags:
   - next:
   - blockers:
 
-## [Introduce E2E Reliability in Status Communities](https://github.com/waku-org/pm/milestone/29)
+## [Introduce E2E Reliability in Status Communities](content/waku/milestones/open/2024-e2e-reliability-protocol.md)
 
 - [[Deliverable] SDS protocol in Status - basic integration](https://github.com/waku-org/pm/issues/194)
   - achieved:

@@ -31,7 +31,7 @@ date: 2025-07-03
 
 - [Acquire first 10 Customers](waku/milestones/open/2024-acquire-first-10-customers.md)
 - [Direct Message Reliability](waku/milestones/open/2024-direct-msg-reliability.md)
-- [End-to-end reliability protocol](waku/milestones/open/2024-e2e-reliability-protocol.md)
+- [Introduce E2E Reliability in Status Communities](waku/milestones/open/2024-e2e-reliability-protocol.md)
 - [Incentivise running a Waku infrastructure node](waku/milestones/open/2024-incentivise-running-infra-node.md)
 - [Integrate nwaku in status desktop relay mode only](waku/milestones/open/2024-nwaku-in-status-desktop.md)
 
