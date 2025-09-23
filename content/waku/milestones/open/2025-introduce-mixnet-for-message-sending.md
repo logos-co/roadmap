@@ -1,6 +1,6 @@
 ---
 title: Introduce Mixnet For Message Sending
-tage:
+tags:
     - waku-milestone
 date: 2025-09-30
 ---
