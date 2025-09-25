@@ -186,16 +186,9 @@ tags:
   - next:
   - blockers:
 
-## [RLN Mainnet](https://github.com/waku-org/pm/milestone/54)
-
-- [[Deliverable] Create nim-ffi](https://github.com/waku-org/pm/issues/332)
-  - achieved:
-  - next:
-  - blockers:
-
 ## [Upgrade Nim Usage](waku/milestones/open/2025-upgrade-nim-usage.md)
 
-- []()
+- [Create nim-ffi](https://github.com/waku-org/pm/issues/332)
   - achieved:
   - next:
   - blockers:

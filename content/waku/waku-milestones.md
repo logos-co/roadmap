@@ -7,7 +7,7 @@ date: 2025-07-03
 
 - [Create Chat SDK MVP](waku/milestones/open/2025-create-chat-sdk-mvp.md)
 - [Define Incentivisation for RLNaaS](waku/milestones/open/2025-define-incentivisation-for-rlnaas.md)
-- [Deploy RLN onchain tree on L2 Testnet](waku/milestones/open/2025-deploy-rln-onchain-tree-on-l2-testnet.md.md)
+
 - [Extend Chat SDK with Group Conversations](waku/milestones/open/2025-extend-chat-sdk-with-group-conversations.md)
 - [Formalize and Expand Waku Web Apps](waku/milestones/open/2025-formalize-and-expand-waku-web-apps.md)
 - [Improve DevEx: API, TWN, Metrics, Docs](waku/milestones/open/2025-improve-devex.md)
@@ -38,6 +38,7 @@ date: 2025-07-03
 
 ## Closed
 
+- [Deploy RLN onchain tree on L2 Testnet](waku/milestones/closed/2025-deploy-rln-onchain-tree-on-l2-testnet.md)
 - [Demonstrate Product Market-Fit](waku/milestones/closed/2024-demonstrate-product-market-fit.md)
 - [Messaging API](waku/milestones/closed/2025-messaging-api.md)
 - [Quality Assurance processes are in place](waku/milestones/closed/2023-quality-assurance-processes.md)
