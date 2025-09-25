@@ -1,21 +1,20 @@
 ---
 title: Waku Milestones
-date: 2025-07-03
+date: 2025-09-25
 ---
 
 ## H2 2025
 
 - [Create Chat SDK MVP](waku/milestones/open/2025-create-chat-sdk-mvp.md)
 - [Define Incentivisation for RLNaaS](waku/milestones/open/2025-define-incentivisation-for-rlnaas.md)
-
 - [Extend Chat SDK with Group Conversations](waku/milestones/open/2025-extend-chat-sdk-with-group-conversations.md)
 - [Formalize and Expand Waku Web Apps](waku/milestones/open/2025-formalize-and-expand-waku-web-apps.md)
-- [Improve DevEx: API, TWN, Metrics, Docs](waku/milestones/open/2025-improve-devex.md)
-- [Streamline DevEx: Mobile, Rust and Web dev](waku/milestones/open/2025-streamline-devex.md)
 - [Harden RLN Testnet Deployment](waku/milestones/open/2025-harden-rln-testnet-deployment.md)
+- [Improve DevEx: API, TWN, Metrics, Docs](waku/milestones/open/2025-improve-devex.md)
 - [Incentivisation and Marketplace Follow-Up Outline](https://github.com/waku-org/pm/milestone/51)
 - [Integrate RLN With the Waku API](https://github.com/waku-org/pm/milestone/52)
 - [Introduce Mixnet For Message Sending](https://github.com/waku-org/pm/milestone/48)
+- [Streamline DevEx: Mobile, Rust and Web dev](waku/milestones/open/2025-streamline-devex-mobile-rust-and-web-dev.md)
 - [Upgrade Nim Usage](https://github.com/waku-org/pm/milestone/53)
 
 ## H1 2025
