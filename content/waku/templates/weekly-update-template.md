@@ -13,40 +13,28 @@ tags:
 - js-waku:
 - chat: 
 
-## [Direct Message Reliability](https://github.com/waku-org/pm/milestone/28)
+## [Direct Message Reliability](waku/milestones/open/2024-direct-msg-reliability.md)
 
 - [[Deliverable] PostgreSQL Optimisation phase 1](https://github.com/waku-org/pm/issues/260)
   - achieved:
   - next:
   - blockers:
 
-## [Foundation for Communities Optimization](https://github.com/waku-org/pm/milestone/31)
+## [Foundation for Communities Optimization](waku/milestones/open/2025-foundation-for-communities-optimization.md)
 
 - [[Deliverable] Define and implement sharding for Communities messages](https://github.com/waku-org/pm/issues/266)
   - achieved:
   - next:
   - blockers:
 
-## [Deploy RLN onchain tree on L2 Testnet](https://github.com/waku-org/pm/milestone/34)
-
-- [[Deliverable] Implement RLN smart contract for paid, multilevel memberships](https://github.com/waku-org/pm/issues/228)
-  - achieved:
-  - next:
-  - blockers:
-
-- [[Deliverable] Testnet L2 with on-chain tree](https://github.com/waku-org/pm/issues/286)
-  - achieved:
-  - next:
-  - blockers:
-
-## [Hardening and scaling foundations for private chats](https://github.com/waku-org/pm/milestone/40)
+## [Hardening and scaling foundations for private chats](waku/milestones/open/2025-hardening-and-scaling-foundations-for-private-chats.md)
 
 - [[Deliverable] Baseline benchmarks](https://github.com/waku-org/pm/issues/296)
   - achieved:
   - next:
   - blockers:
 
-## [Incentivise running a Waku infrastructure node](https://github.com/waku-org/pm/milestone/35)
+## [Incentivise running a Waku infrastructure node](waku/milestones/open/2024-incentivise-running-infra-node.md)
 
 - [[Deliverable] Service Incentivisation - Pay for RLN provision PoC](https://github.com/waku-org/pm/issues/245)
   - achieved:
@@ -58,14 +46,14 @@ tags:
   - next:
   - blockers:
 
-## [Integrate nwaku in status desktop relay mode only](https://github.com/waku-org/pm/milestone/33)
+## [Integrate nwaku in status desktop relay mode only](waku/milestones/open/2024-nwaku-in-status-desktop.md)
 
 - [[Deliverable] Nwaku in Status Desktop](https://github.com/waku-org/pm/issues/203)
   - achieved:
   - next:
   - blockers:
 
-## [Introduce E2E Reliability in Status Communities](https://github.com/waku-org/pm/milestone/29)
+## [Introduce E2E Reliability in Status Communities](waku/milestones/open/2024-e2e-reliability-protocol.md)
 
 - [[Deliverable] SDS protocol in Status - basic integration](https://github.com/waku-org/pm/issues/194)
   - achieved:
@@ -77,7 +65,7 @@ tags:
   - next:
   - blockers:
 
-## [Improve DevEx: API, TWN, Metrics, Docs](https://github.com/waku-org/pm/milestone/46)
+## [Improve DevEx: API, TWN, Metrics, Docs](waku/milestones/open/2025-improve-devex.md)
 
 - [[Deliverable] Global Network Metrics](https://github.com/waku-org/pm/issues/295)
   - achieved:
@@ -109,21 +97,21 @@ tags:
   - next:
   - blockers:
 
-## [Introduce Mixnet For Message Sending](https://github.com/waku-org/pm/milestone/48)
+## [Introduce Mixnet For Message Sending](waku/milestones/open/2025-introduce-mixnet-for-message-sending.md)
 
 - [[Deliverable] Integrate libp2p mix into lightpush](https://github.com/waku-org/pm/issues/291)
   - achieved: 
   - next:
   - blockers:
 
-## [Streamline DevEx: Mobile, Rust and Web dev](https://github.com/waku-org/pm/milestone/47)
+## [Streamline DevEx: Mobile, Rust and Web dev](waku/milestones/open/2025-streamline-devex-mobile-rust-and-web-dev.md)
 
 - [[Deliverable] Waku Rust SDK](https://github.com/waku-org/pm/issues/289)
   - achieved:
   - next:
   - blockers:
 
-## [Create Chat SDK MVP](https://github.com/waku-org/pm/milestone/45)
+## [Create Chat SDK MVP](waku/milestones/open/2025-create-chat-sdk-mvp.md)
 
 - [[Deliverable] Chat SDK Developer Preview](https://github.com/waku-org/pm/issues/316)
   - achieved:
@@ -145,7 +133,7 @@ tags:
   - next:
   - blockers:
 
-## [Formalize and Expand Waku Web Apps](https://github.com/waku-org/pm/milestone/42)
+## [Formalize and Expand Waku Web Apps](waku/milestones/open/2025-formalize-and-expand-waku-web-apps.md)
 
 - [[Deliverable] Forum PoC](https://github.com/waku-org/pm/issues/292)
   - achieved:
@@ -167,14 +155,14 @@ tags:
   - next:
   - blockers:
 
-## [Nwaku in Status Mobile and Light Mode MVP](https://github.com/waku-org/pm/milestone/39)
+## [Nwaku in Status Mobile and Light Mode MVP](waku/milestones/open/2025-nwaku-in-status-mobile.md)
 
 - [[Deliverable] Status mobile build with nwaku MVP](https://github.com/waku-org/pm/issues/276)
   - achieved:
   - next:
   - blockers:
 
-## [Acquire first 10 Customers](https://github.com/waku-org/pm/milestone/37)
+## [Acquire first 10 Customers](waku/milestones/open/2024-acquire-first-10-customers.md)
 
 - [[Deliverable] 5-10 Highly qualified leads](https://github.com/waku-org/pm/issues/254)
   - achieved:
@@ -186,49 +174,42 @@ tags:
   - next:
   - blockers:
 
-## [RLN Mainnet](https://github.com/waku-org/pm/milestone/54)
+## [Upgrade Nim Usage](waku/milestones/open/2025-upgrade-nim-usage.md)
 
-- [[Deliverable] Create nim-ffi](https://github.com/waku-org/pm/issues/332)
+- [Create nim-ffi](https://github.com/waku-org/pm/issues/332)
   - achieved:
   - next:
   - blockers:
 
-## [Upgrade Nim Usage](https://github.com/waku-org/pm/milestone/53)
+## [Integrate RLN With the Waku API](waku/milestones/open/2025-integrate-rln-with-the-waku-api.md)
 
 - []()
   - achieved:
   - next:
   - blockers:
 
-## [Integrate RLN With the Waku API](https://github.com/waku-org/pm/milestone/52)
+## [Incentivisation and Marketplace Follow-Up Outline](waku/milestones/open/2025-incentivisation-and-marketplace-follow-up-outline.md)
 
 - []()
   - achieved:
   - next:
   - blockers:
 
-## [Incentivisation and Marketplace Follow-Up Outline](https://github.com/waku-org/pm/milestone/51)
+## [Extend Chat SDK with Group Conversations](waku/milestones/open/2025-extend-chat-sdk-with-group-conversations.md)
 
 - []()
   - achieved:
   - next:
   - blockers:
 
-## [Extend Chat SDK with Group Conversations](https://github.com/waku-org/pm/milestone/50)
+## [Define Incentivisation for RLNaaS](waku/milestones/open/2025-define-incentivisation-for-rlnaas.md)
 
 - []()
   - achieved:
   - next:
   - blockers:
 
-## [Define Incentivisation for RLNaaS](https://github.com/waku-org/pm/milestone/49)
-
-- []()
-  - achieved:
-  - next:
-  - blockers:
-
-## [Harden RLN Testnet Deployment](https://github.com/waku-org/pm/milestone/55)
+## [Harden RLN Testnet Deployment](waku/milestones/open/2025-harden-rln-testnet-deployment.md)
 
 - [Minting of (Sepolia) ERC-20 Tokens for RLN Deposits is permissioned](https://github.com/waku-org/pm/issues/334)
   - achieved:

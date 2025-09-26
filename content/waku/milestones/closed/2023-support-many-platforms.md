@@ -6,7 +6,7 @@ date: 2024-09-07
 lastmod: 2024-09-29
 ---
 
-Link: https://github.com/waku-org/pm/milestone/2
+Github Milestone: https://github.com/waku-org/pm/milestone/2
 Due by: 2024-04-30
 
 ## Epic: Ship RLN as part of non-native SDKs

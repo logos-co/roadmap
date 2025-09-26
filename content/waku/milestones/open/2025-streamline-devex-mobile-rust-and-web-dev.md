@@ -2,12 +2,9 @@
 title: Streamline DevEx - Mobile, Rust and Web dev
 tags:
     - waku-milestone
-date: 2025-07-03
+date: 2025-11-30
 ---
-
-Estimated date of completion: 2025-11-30
-
-Github milestone: https://github.com/waku-org/pm/milestone/47
+Github Milestone: https://github.com/waku-org/pm/milestone/47
 
 Complete the Waku API implementation in nwaku by implementing edge node mode (Status' Light Mode).
 
@@ -17,8 +14,5 @@ relying on external connectivity. Provide a similar harness to deploy a local RL
 
 Finalize the integration of nwaku in Status application by setting up nwaku-based build for Mobile platforms.
 
-## Deliverables
-
-### [Waku Rust SDK](https://github.com/waku-org/pm/issues/289)
-
-### [Waku RTC library](https://github.com/waku-org/pm/issues/298)
+Lastly, develop a PoC protocol to demonstrate the usage of Waku as a Signal network, using WebRTC as example.
+This was identified as a demanded demonstration of Waku's capabilities as part of the [Waku MVP analysis](https://www.notion.so/Waku-MVP-1838f96fb65c8039acabf8a6a1e689e7).
