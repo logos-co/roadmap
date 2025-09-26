@@ -5,7 +5,7 @@ lastmod: 2024-03-07
 draft: false
 ---
 ### Milestone: Waku Network can Support 1 Million Users
-Link: https://github.com/waku-org/pm/milestone/4
+Github Milestone: https://github.com/waku-org/pm/milestone/4
 Due by: 2023-11-30
 
 Epic: Cater for professional operators (Status Communities)
@@ -32,7 +32,7 @@ Epic: PostgreSQL in service node: Further optimisations
 - https://github.com/waku-org/nwaku/issues/1604
 
 ### Milestone: Waku Network Gen 0
-Link: https://github.com/waku-org/pm/milestone/1
+Github Milestone: https://github.com/waku-org/pm/milestone/1
 Due by: 2023-12-01
 
 Epic: 3.4: Production and memberships on mainnet
@@ -141,7 +141,7 @@ Epic: End-to-end testing
 	- https://github.com/waku-org/go-waku/issues/608
 
 ### Milestone: Support Many Platforms
-Link: https://github.com/waku-org/pm/milestone/2
+Github Milestone: https://github.com/waku-org/pm/milestone/2
 Due by: 2024-04-30
 
 Epic: Ship RLN as part of non-native SDKs

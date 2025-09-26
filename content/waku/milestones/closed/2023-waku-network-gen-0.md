@@ -6,7 +6,7 @@ date: 2024-09-07
 lastmod: 2024-09-29
 ---
 
-Link: https://github.com/waku-org/pm/milestone/1
+Github Milestone: https://github.com/waku-org/pm/milestone/1
 Due by: 2023-12-01
 
 ## Epic: 3.4: Production and memberships on mainnet

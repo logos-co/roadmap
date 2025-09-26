@@ -5,7 +5,7 @@ tags:
 date: 2025-12-18
 ---
 
-Github Mielstone: https://github.com/waku-org/pm/milestone/50
+Github Milestone: https://github.com/waku-org/pm/milestone/50
 
 Once done, apps like Status can build a chat experience which includes support for multiple device, and multiple participants in a given group chat.
 

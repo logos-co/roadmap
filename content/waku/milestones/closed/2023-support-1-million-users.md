@@ -6,7 +6,7 @@ date: 2024-09-07
 lastmod: 2024-09-29
 ---
 
-Link: https://github.com/waku-org/pm/milestone/4
+Github Milestone: https://github.com/waku-org/pm/milestone/4
 Due by: 2023-11-30
 
 ## Epic: Cater for professional operators (Status Communities)
