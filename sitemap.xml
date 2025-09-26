@@ -648,10 +648,10 @@
     <lastmod>2024-09-29T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/milestones/closed/2024-demonstrate-product-market-fit</loc>
-    <lastmod>2025-08-01T15:24:41.840Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.052Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/milestones/closed/2024-scale-number-of-communities</loc>
-    <lastmod>2025-08-01T15:24:41.840Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.052Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/milestones/closed/2024-static-sharding-dedicated-shards</loc>
     <lastmod>2025-08-01T15:24:41.840Z</lastmod>
@@ -659,23 +659,26 @@
     <loc>https://roadmap.logos.co/waku/milestones/closed/2024-store-service-upgrade</loc>
     <lastmod>2025-08-01T15:24:41.840Z</lastmod>
   </url><url>
+    <loc>https://roadmap.logos.co/waku/milestones/closed/2025-deploy-rln-onchain-tree-on-l2-testnet</loc>
+    <lastmod>2025-09-26T06:44:37.052Z</lastmod>
+  </url><url>
     <loc>https://roadmap.logos.co/waku/milestones/closed/2025-messaging-api</loc>
     <lastmod>2025-08-01T15:24:41.840Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/milestones/open/2024-acquire-first-10-customers</loc>
-    <lastmod>2025-08-01T15:24:41.840Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.052Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/milestones/open/2024-direct-msg-reliability</loc>
     <lastmod>2025-08-01T15:24:41.840Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/milestones/open/2024-e2e-reliability-protocol</loc>
-    <lastmod>2025-08-01T15:24:41.840Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.052Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/milestones/open/2024-incentivise-running-infra-node</loc>
     <lastmod>2025-08-01T15:24:41.840Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/milestones/open/2024-nwaku-in-status-desktop</loc>
-    <lastmod>2025-08-01T15:24:41.840Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.052Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/milestones/open/2025-create-chat-sdk-mvp</loc>
     <lastmod>2025-08-01T15:24:41.840Z</lastmod>
@@ -683,11 +686,23 @@
     <loc>https://roadmap.logos.co/waku/milestones/open/2025-debugging-tools</loc>
     <lastmod>2025-08-01T15:24:41.840Z</lastmod>
   </url><url>
+    <loc>https://roadmap.logos.co/waku/milestones/open/2025-define-incentivisation-for-rlnaas</loc>
+    <lastmod>2025-09-26T06:44:37.052Z</lastmod>
+  </url><url>
     <loc>https://roadmap.logos.co/waku/milestones/open/2025-explore-peer-discovery-gap</loc>
     <lastmod>2025-08-01T15:24:41.840Z</lastmod>
   </url><url>
+    <loc>https://roadmap.logos.co/waku/milestones/open/2025-extend-chat-sdk-with-group-conversations</loc>
+    <lastmod>2025-09-26T06:44:37.052Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/waku/milestones/open/2025-formalize-and-expand-waku-web-apps</loc>
+    <lastmod>2025-09-26T06:44:37.052Z</lastmod>
+  </url><url>
     <loc>https://roadmap.logos.co/waku/milestones/open/2025-foundation-for-communities-optimization</loc>
     <lastmod>2025-08-01T15:24:41.840Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/waku/milestones/open/2025-harden-rln-testnet-deployment</loc>
+    <lastmod>2025-09-26T06:44:37.052Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/milestones/open/2025-hardening-and-scaling-foundations-for-private-chats</loc>
     <lastmod>2025-08-01T15:24:41.840Z</lastmod>
@@ -695,17 +710,29 @@
     <loc>https://roadmap.logos.co/waku/milestones/open/2025-improve-devex</loc>
     <lastmod>2025-08-01T15:24:41.840Z</lastmod>
   </url><url>
+    <loc>https://roadmap.logos.co/waku/milestones/open/2025-incentivisation-and-marketplace-follow-up-outline</loc>
+    <lastmod>2025-09-26T06:44:37.052Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/waku/milestones/open/2025-integrate-rln-with-the-waku-api</loc>
+    <lastmod>2025-09-26T06:44:37.052Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/waku/milestones/open/2025-introduce-mixnet-for-message-sending</loc>
+    <lastmod>2025-09-26T06:44:37.052Z</lastmod>
+  </url><url>
     <loc>https://roadmap.logos.co/waku/milestones/open/2025-logos-web-apps</loc>
     <lastmod>2025-08-01T15:24:41.840Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/milestones/open/2025-nwaku-in-status-mobile</loc>
     <lastmod>2025-08-01T15:24:41.840Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/waku/milestones/open/2025-rln-mainnet</loc>
-    <lastmod>2025-08-01T15:24:41.840Z</lastmod>
+    <loc>https://roadmap.logos.co/waku/milestones/open/2025-streamline-devex-mobile-rust-and-web-dev</loc>
+    <lastmod>2025-09-26T06:44:37.052Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/milestones/open/2025-streamline-devex</loc>
-    <lastmod>2025-08-01T15:24:41.840Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.052Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/waku/milestones/open/2025-upgrade-nim-usage</loc>
+    <lastmod>2025-09-26T06:44:37.052Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/milestones/open/2025-upgrade-waku-for-the-web</loc>
     <lastmod>2025-08-01T15:24:41.840Z</lastmod>
@@ -717,7 +744,7 @@
     <lastmod>2023-10-05T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/templates/weekly-update-template</loc>
-    <lastmod>2025-08-11T22:38:01.116Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.052Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2023-07-24</loc>
     <lastmod>2023-08-04T00:00:00.000Z</lastmod>
@@ -759,43 +786,43 @@
     <lastmod>2023-10-16T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2023-10-23</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.052Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2023-10-30</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.052Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2023-11-06</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.052Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2023-11-13</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.052Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2023-11-20</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.052Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2023-11-27</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.052Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2023-12-04</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.052Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2023-12-11</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.052Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2023-12-18</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.052Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2023-12-25</loc>
     <lastmod>2025-08-01T15:24:41.844Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2024-01-08</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.052Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2024-01-22</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.052Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2024-01-29</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.052Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2024-02-05</loc>
     <lastmod>2025-08-01T15:24:41.844Z</lastmod>
@@ -810,184 +837,184 @@
     <lastmod>2025-08-01T15:24:41.844Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2024-06-24</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.052Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2024-07-01</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.052Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2024-07-08</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.052Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2024-07-15</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.052Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2024-07-22</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.052Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2024-07-29</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.052Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2024-08-05</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.052Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2024-08-12</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.056Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2024-08-19</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.056Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2024-08-26</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.056Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2024-09-02</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.056Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2024-09-09</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.056Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2024-09-16</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.056Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2024-09-23</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.056Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2024-09-30</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.056Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2024-10-07</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.056Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2024-10-14</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.056Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2024-10-21</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.056Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2024-10-28</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.056Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2024-11-04</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.056Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2024-12-02</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.056Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2024-12-09</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.056Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2024-12-16</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.056Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2025-01-13</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.056Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2025-01-20</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.056Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2025-01-27</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.056Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2025-02-03</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.056Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2025-02-10</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.056Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2025-02-17</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.056Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2025-02-24</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.056Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2025-03-03</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.056Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2025-03-10</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.056Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2025-03-17</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.056Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2025-03-24</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.056Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2025-03-31</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.056Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2025-04-07</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.056Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2025-04-14</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.056Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2025-04-21</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.056Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2025-04-28</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.056Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2025-05-12</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.056Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2025-05-19</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.056Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2025-05-26</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.056Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2025-06-02</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.056Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2025-06-09</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.056Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2025-06-16</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.060Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2025-06-23</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.060Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2025-06-30</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.060Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2025-07-07</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.060Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2025-07-14</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.060Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2025-07-21</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.060Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2025-07-28</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.060Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2025-08-04</loc>
-    <lastmod>2025-08-04T23:33:29.023Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.060Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2025-08-11</loc>
-    <lastmod>2025-08-11T23:35:46.710Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.060Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2025-08-18</loc>
-    <lastmod>2025-08-19T06:16:35.064Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.060Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2025-08-25</loc>
-    <lastmod>2025-08-27T15:08:56.609Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.060Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2025-09-01</loc>
-    <lastmod>2025-09-03T17:52:49.449Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.060Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2025-09-08</loc>
-    <lastmod>2025-09-08T22:18:47.379Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.060Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2025-09-15</loc>
-    <lastmod>2025-09-16T22:42:20.405Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.060Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/updates/2025-09-22</loc>
-    <lastmod>2025-09-23T20:39:31.185Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.060Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/waku/waku-milestones</loc>
-    <lastmod>2025-08-01T15:24:41.844Z</lastmod>
+    <lastmod>2025-09-26T06:44:37.060Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/what-is-a-milestone</loc>
     <lastmod>2025-08-01T15:24:41.844Z</lastmod>
