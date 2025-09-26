@@ -13,7 +13,7 @@ date: 2025-09-25
 - [Improve DevEx: API, TWN, Metrics, Docs](waku/milestones/open/2025-improve-devex.md)
 - [Incentivisation and Marketplace Follow-Up Outline](waku/milestones/open/2025-incentivisation-and-marketplace-follow-up-outline.md)
 - [Integrate RLN With the Waku API](waku/milestones/open/2025-integrate-rln-with-the-waku-api.md)
-- [Introduce Mixnet For Message Sending](content/waku/milestones/open/2025-introduce-mixnet-for-message-sending.md)
+- [Introduce Mixnet For Message Sending](waku/milestones/open/2025-introduce-mixnet-for-message-sending.md)
 - [Streamline DevEx: Mobile, Rust and Web dev](waku/milestones/open/2025-streamline-devex-mobile-rust-and-web-dev.md)
 - [Upgrade Nim Usage](waku/milestones/open/2025-upgrade-nim-usage.md)
 

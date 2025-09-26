@@ -13,33 +13,21 @@ tags:
 - js-waku:
 - chat: 
 
-## [Direct Message Reliability](https://github.com/waku-org/pm/milestone/28)
+## [Direct Message Reliability](waku/milestones/open/2024-direct-msg-reliability.md)
 
 - [[Deliverable] PostgreSQL Optimisation phase 1](https://github.com/waku-org/pm/issues/260)
   - achieved:
   - next:
   - blockers:
 
-## [Foundation for Communities Optimization](https://github.com/waku-org/pm/milestone/31)
+## [Foundation for Communities Optimization](waku/milestones/open/2025-foundation-for-communities-optimization.md)
 
 - [[Deliverable] Define and implement sharding for Communities messages](https://github.com/waku-org/pm/issues/266)
   - achieved:
   - next:
   - blockers:
 
-## [Deploy RLN onchain tree on L2 Testnet](https://github.com/waku-org/pm/milestone/34)
-
-- [[Deliverable] Implement RLN smart contract for paid, multilevel memberships](https://github.com/waku-org/pm/issues/228)
-  - achieved:
-  - next:
-  - blockers:
-
-- [[Deliverable] Testnet L2 with on-chain tree](https://github.com/waku-org/pm/issues/286)
-  - achieved:
-  - next:
-  - blockers:
-
-## [Hardening and scaling foundations for private chats](https://github.com/waku-org/pm/milestone/40)
+## [Hardening and scaling foundations for private chats](waku/milestones/open/2025-hardening-and-scaling-foundations-for-private-chats.md)
 
 - [[Deliverable] Baseline benchmarks](https://github.com/waku-org/pm/issues/296)
   - achieved:
@@ -65,7 +53,7 @@ tags:
   - next:
   - blockers:
 
-## [Introduce E2E Reliability in Status Communities](content/waku/milestones/open/2024-e2e-reliability-protocol.md)
+## [Introduce E2E Reliability in Status Communities](waku/milestones/open/2024-e2e-reliability-protocol.md)
 
 - [[Deliverable] SDS protocol in Status - basic integration](https://github.com/waku-org/pm/issues/194)
   - achieved:
@@ -77,7 +65,7 @@ tags:
   - next:
   - blockers:
 
-## [Improve DevEx: API, TWN, Metrics, Docs](https://github.com/waku-org/pm/milestone/46)
+## [Improve DevEx: API, TWN, Metrics, Docs](waku/milestones/open/2025-improve-devex.md)
 
 - [[Deliverable] Global Network Metrics](https://github.com/waku-org/pm/issues/295)
   - achieved:
@@ -109,7 +97,7 @@ tags:
   - next:
   - blockers:
 
-## [Introduce Mixnet For Message Sending](content/waku/milestones/open/2025-introduce-mixnet-for-message-sending.md)
+## [Introduce Mixnet For Message Sending](waku/milestones/open/2025-introduce-mixnet-for-message-sending.md)
 
 - [[Deliverable] Integrate libp2p mix into lightpush](https://github.com/waku-org/pm/issues/291)
   - achieved: 
@@ -167,14 +155,14 @@ tags:
   - next:
   - blockers:
 
-## [Nwaku in Status Mobile and Light Mode MVP](https://github.com/waku-org/pm/milestone/39)
+## [Nwaku in Status Mobile and Light Mode MVP](waku/milestones/open/2025-nwaku-in-status-mobile.md)
 
 - [[Deliverable] Status mobile build with nwaku MVP](https://github.com/waku-org/pm/issues/276)
   - achieved:
   - next:
   - blockers:
 
-## [Acquire first 10 Customers](https://github.com/waku-org/pm/milestone/37)
+## [Acquire first 10 Customers](waku/milestones/open/2024-acquire-first-10-customers.md)
 
 - [[Deliverable] 5-10 Highly qualified leads](https://github.com/waku-org/pm/issues/254)
   - achieved:
@@ -207,14 +195,14 @@ tags:
   - next:
   - blockers:
 
-## [Extend Chat SDK with Group Conversations](https://github.com/waku-org/pm/milestone/50)
+## [Extend Chat SDK with Group Conversations](waku/milestones/open/2025-extend-chat-sdk-with-group-conversations.md)
 
 - []()
   - achieved:
   - next:
   - blockers:
 
-## [Define Incentivisation for RLNaaS](https://github.com/waku-org/pm/milestone/49)
+## [Define Incentivisation for RLNaaS](waku/milestones/open/2025-define-incentivisation-for-rlnaas.md)
 
 - []()
   - achieved:

@@ -6,7 +6,7 @@ date: 2024-09-07
 ---
 EDC: 2025-12-19
 
-## Milestone: [Acquire first 10 Customers](https://github.com/waku-org/pm/milestone/37)
+## Milestone: [Acquire first 10 Customers](waku/milestones/open/2024-acquire-first-10-customers.md)
 
 Onboard Waku first 10 customers. Customers are projects using Waku for their peer-to-peer communication stack.
 First 10 customers assume involvement from the engineering team to get things right and help co-design.
