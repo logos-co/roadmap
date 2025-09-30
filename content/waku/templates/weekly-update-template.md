@@ -216,6 +216,11 @@ tags:
   - next:
   - blockers:
 
+- [Zerokit is used in the Browser for Credentials Management](https://github.com/waku-org/pm/issues/341)
+  - achieved:
+  - next:
+  - blockers:
+
 ## Orphan Deliverables
 
 - [Nim C library guide](https://github.com/waku-org/pm/issues/300)
