@@ -1,10 +1,11 @@
 ---
 title: Waku Milestones
-date: 2025-09-25
+date: 2025-10-21
 ---
 
 ## H2 2025
 
+- [Add peer discovery to mixnet and support browser](waku/milestones/open/2025-add-peer-discovery-to-mixnet-and-support-browser.md)
 - [Create Chat SDK MVP](waku/milestones/open/2025-create-chat-sdk-mvp.md)
 - [Define Incentivisation for RLNaaS](waku/milestones/open/2025-define-incentivisation-for-rlnaas.md)
 - [Extend Chat SDK with Group Conversations](waku/milestones/open/2025-extend-chat-sdk-with-group-conversations.md)
