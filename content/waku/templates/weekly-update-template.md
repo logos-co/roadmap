@@ -221,6 +221,18 @@ tags:
   - next:
   - blockers:
 
+## [Add peer discovery to mixnet and support browser]()
+
+- [Implement and integrate libp2p mix in js-waku for light push](https://github.com/waku-org/pm/issues/365)
+  - achieved:
+  - next:
+  - blockers:
+
+- [Implement basic discovery for mix](https://github.com/waku-org/pm/issues/366)
+  - achieved:
+  - next:
+  - blockers:
+
 ## Orphan Deliverables
 
 - [Nim C library guide](https://github.com/waku-org/pm/issues/300)
