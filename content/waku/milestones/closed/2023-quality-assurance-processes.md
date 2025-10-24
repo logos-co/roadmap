@@ -6,7 +6,7 @@ date: 2024-09-07
 lastmod: 2024-09-29
 ---
 
-Link: https://github.com/waku-org/pm/milestone/3
+Github Milestone: https://github.com/waku-org/pm/milestone/3
 Due by: 2024-03-31
 
 ##  Epic: Comprehensive Dev Testing

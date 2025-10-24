@@ -1,5 +1,5 @@
 ---
-title: End-to-end reliability protocol
+title: Introduce E2E Reliability in Status Communities
 tags:
     - waku-milestone
 date: 2024-09-07
