@@ -4,12 +4,7 @@ import { Date as DateComponent, getDate } from "./Date"
 import { QuartzComponentProps } from "./types"
 import { GlobalConfiguration } from "../cfg"
 
-// Normalize slug to avoid leading slash differences
-function normalizeSlug(slug?: string): string {
-  return (slug ?? "").replace(/^\/+/, "")
-}
-
-function extractDateFromWakuTitle(title: string): Date | null {
+function extractDateFromTitle(title: string): Date | null {
   // Extract an ISO date anywhere in the title, e.g., "2025-07-28 Waku Weekly"
   const match = title.match(/(\d{4}-\d{2}-\d{2})/)
   if (match && match[1]) {
@@ -27,58 +22,33 @@ function extractDateFromSlug(slug?: string): Date | null {
   return isNaN(d.getTime()) ? null : d
 }
 
-function isWakuUpdatesContent(slug: string): boolean {
-  return normalizeSlug(slug).startsWith("waku/updates/")
-}
-
 export function byDateAndAlphabetical(
   cfg: GlobalConfiguration,
-  preferWakuFirst = false,
 ): (f1: QuartzPluginData, f2: QuartzPluginData) => number {
   const getComparableDate = (file: QuartzPluginData): Date | null => {
     return (
-      getDate(cfg, file) ??
-      extractDateFromWakuTitle(file.frontmatter?.title ?? "") ??
-      extractDateFromSlug(file.slug)
+      file.dates?.published ??
+      extractDateFromTitle(file.frontmatter?.title ?? "") ??
+      extractDateFromSlug(file.slug) ??
+      getDate(cfg, file)
     )
   }
 
   return (f1, f2) => {
-    const f1IsWaku = isWakuUpdatesContent(f1.slug ?? "")
-    const f2IsWaku = isWakuUpdatesContent(f2.slug ?? "")
+    const f1Date = getComparableDate(f1)
+    const f2Date = getComparableDate(f2)
 
-    // Optionally prioritize Waku updates when comparing mixed content
-    if (preferWakuFirst && f1IsWaku !== f2IsWaku) {
-      return f1IsWaku ? -1 : 1
-    }
-
-    // Special handling for waku updates content
-    if (f1IsWaku && f2IsWaku) {
-      const f1Date = getComparableDate(f1)
-      const f2Date = getComparableDate(f2)
-      
-      if (f1Date && f2Date) {
-        // Sort waku updates by date in title, descending (newest first)
-        return f2Date.getTime() - f1Date.getTime()
-      }
-      // Fallback to alphabetical if date extraction fails
-      const f1Title = f1.frontmatter?.title ?? ""
-      const f2Title = f2.frontmatter?.title ?? ""
-      return f1Title.localeCompare(f2Title, undefined, { numeric: true, sensitivity: "base" })
-    }
-
-    // Original logic for non-waku content
-    if (f1.dates && f2.dates) {
-      // sort descending
-      return getDate(cfg, f2)!.getTime() - getDate(cfg, f1)!.getTime()
-    } else if (f1.dates && !f2.dates) {
-      // prioritize files with dates
+    // If both have dates, sort by date descending (newest first)
+    if (f1Date && f2Date) {
+      return f2Date.getTime() - f1Date.getTime()
+    } else if (f1Date && !f2Date) {
+      // Prioritize files with dates
       return -1
-    } else if (!f1.dates && f2.dates) {
+    } else if (!f1Date && f2Date) {
       return 1
     }
 
-    // otherwise, sort lexicographically by title
+    // Otherwise, sort lexicographically by title
     const f1Title = f1.frontmatter?.title ?? ""
     const f2Title = f2.frontmatter?.title ?? ""
     return f1Title.localeCompare(f2Title, undefined, { numeric: true, sensitivity: "base" })
@@ -90,8 +60,7 @@ type Props = {
 } & QuartzComponentProps
 
 export function PageList({ cfg, fileData, allFiles, limit }: Props) {
-  const preferWakuFirst = normalizeSlug(fileData.slug).startsWith("waku/")
-  let list = [...allFiles].sort(byDateAndAlphabetical(cfg, preferWakuFirst))
+  let list = [...allFiles].sort(byDateAndAlphabetical(cfg))
   if (limit) {
     list = list.slice(0, limit)
   }
