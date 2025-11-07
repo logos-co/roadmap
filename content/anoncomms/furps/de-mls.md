@@ -11,7 +11,7 @@
 1. An API is implemented in Rust and C
 1. Hashgraph-like consensus is separated out into its own library
 1. Benchmark scalability of consensus mechanism
-1. Becnhmark scalability of integrated de-mls mechanism
+1. Becnhmark scalability of integrated de-mls protocol
 
 ## Usability
 
@@ -28,3 +28,9 @@
 ## Supportability
 
 1. 
+
+## Miscellaneous dependencies:
+
+1. Dependency on DST for benchmarking of consensus mechanism
+1. Dependency on DST for benchmarking of de-MLS integrated protocol
+1. Dependency on ChatSDK to clarify requirements for API

@@ -30,4 +30,4 @@
 ## Miscellaneous dependencies:
 
 1. Dependency on nim-libp2p implementation of Kad-DHT
-1. 
+1. Dependency on DST for benchmarking and iterative improvement
