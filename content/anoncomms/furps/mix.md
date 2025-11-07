@@ -1,16 +1,16 @@
-# xxx FURPS
+# Mix FURPS
 
 ## Functionality
 
 1. Investigate DoS protection options
-Publish DoS protection design spec
-Implement POC DoS protection
-Publish Logos-wide Mix roadmap, incl. Codex use case
+1. Design and publish DoS protection specification
+1. Implement PoC DoS protection
+1. Publish Logos-wide Mix roadmap, incl. use case(s) for Logos Storage
 
-...
-Library for integration into Codex
-Spec + Implement RDV points
-Spec + Implement long-lived circuits (Filter, Codex)
+> *Possible Future Items*
+> 1. Mix library for integration into Logos Core
+> 1. Specify and implement rendezvous points for service anonymity
+> 1. Specify and implement long-lived mixed circuits
 
 ## Usability
 
