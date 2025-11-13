@@ -10,7 +10,8 @@ Every year (starting this year), each project defines its plans in a number a mi
 - [Monthly Project Reports](tags/monthly-report)
 
 ### Projects
-- [Waku](waku/index.md)
+
+- [[messaging/index|Messaging]]
 - [Codex](codex/overview.md)
 - [[nomos/index|Nomos]]
 
