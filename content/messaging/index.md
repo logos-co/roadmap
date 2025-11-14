@@ -13,5 +13,6 @@ To learn more about Waku please visit the [website](https://waku.org), [github](
 - [Milestones](messaging/waku-milestones.md)
 - [Weekly updates](messaging/updates/)
 - [FURPS - Core](messaging/furps/core)
-- [FURPS - Application](messaging/furps/application)
+- [[messaging/furps/application|FURPS - Application]]
 - [Collaboration](messaging/collaboration)
+

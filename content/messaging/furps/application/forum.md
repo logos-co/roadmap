@@ -1,5 +1,5 @@
 ---
-title: Waku Forum FURPS
+title: Forum
 tags:
     - messaging-furps
 date: 2025-11-13
