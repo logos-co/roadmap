@@ -2,18 +2,23 @@
 
 ## Functionality
 
-1. Publish specification adapting DISC-NG for KadDHT
-1. Implement PoC implementation (go)
-1. Publish specification for general capability discovery API
-1. Adapt nim-libp2p KadDHT implementation to specified API
-1. Expose C API for Logos Integration
-1. Implement capability discovery on nim-libp2p KadDHT
-1. Integrate capability discovery into C API for Logos Integration
-1. Integrate capability discovery over KadDHT within nwaku
+1. Libp2p Kad-DHT nodes can advertise their own address against one or more capabilities
+2. Libp2p Kad-DHT nodes can discover addresses of peers with specific capabilities
+3. Libp2p nodes can use a general capability discovery API to discover peers with specific capabilities
+4. The capability discovery protocol adapts DISC-NG for Kad-DHT to ensure efficient capability discovery
+5. Client nodes can discover addresses of peers with specific capabilities without participating in the Kad-DHT
 
 ## Usability
 
-1. 
+1. The capability discovery protocol is published in a specification
+2. A PoC implementation accompanies the published protocol
+3. The PoC implementation contains instructions to allow open dogfooding
+4. A forum post introduces the new protocol with its spec and PoC implementation
+5. A general capability discovery API is published in a specification
+6. The general capability discovery API is available in Nim and C
+7. The reference implementation is completed in Nim over the nim-libp2p Kad-DHT implementation
+8. The reference implementation is integrated in nwaku to replace discv5 discovery
+9. The reference discovery module is integrated into Logos Core
 
 ## Reliability
 
