@@ -13,7 +13,7 @@
 1. The capability discovery protocol is published in a specification
 2. A PoC implementation accompanies the published protocol
 3. The PoC implementation contains instructions to allow open dogfooding
-4. A forum post introduces the new protocol with its spec and PoC implementation
+4. A forum post introduces the new protocol, explains privacy tradeoffs, and links to spec and PoC implementation
 5. A general capability discovery API is published in a specification
 6. The general capability discovery API is available in Nim and C
 7. The reference implementation is completed in Nim over the nim-libp2p Kad-DHT implementation
