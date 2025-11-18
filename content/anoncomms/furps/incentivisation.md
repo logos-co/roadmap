@@ -2,13 +2,13 @@
 
 ## Functionality
 
-1. Publish MVP roadmap and task breakdown for decentralised payment protocol
-1. Publish specification for payment protocol
-1. Implement MVP payment protocol
+1. Client nodes can pay service nodes for decentralised services
+2. The payment protocol is mostly off-chain (no on-chain transaction necessary per service request)
+3. The payment protocol protects the privacy of the client by unlinking the payment from the service provision
 
 ## Usability
 
-1. 
+1. The payment protocol is published in a specification
 
 ## Reliability
 
