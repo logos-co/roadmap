@@ -31,7 +31,7 @@ Next steps not yet included in this milestone, include:
 
 **Owner**: AnonComms de-MLS
 
-**Feature**: [Capability Discovery](../furps/de-mls.md)
+**Feature**: [de-MLS FURPS](../furps/de-mls.md)
 
 **FURPS**:
 
@@ -48,7 +48,7 @@ Next steps not yet included in this milestone, include:
 
 **Owner**: AnonComms de-MLS
 
-**Feature**: [Capability Discovery](../furps/de-mls.md)
+**Feature**: [de-MLS FURPS](../furps/de-mls.md)
 
 **FURPS**:
 
@@ -62,7 +62,7 @@ Next steps not yet included in this milestone, include:
 
 **Owner**: AnonComms de-MLS
 
-**Feature**: [Capability Discovery](../furps/de-mls.md)
+**Feature**: [de-MLS FURPS](../furps/de-mls.md)
 
 **FURPS**:
 
@@ -80,7 +80,7 @@ Next steps not yet included in this milestone, include:
 
 **Owner**: AnonComms de-MLS
 
-**Feature**: [Capability Discovery](../furps/de-mls.md)
+**Feature**: [de-MLS FURPS](../furps/de-mls.md)
 
 **FURPS**:
 
@@ -98,7 +98,7 @@ Next steps not yet included in this milestone, include:
 
 **Owner**: AnonComms de-MLS
 
-**Feature**: [Capability Discovery](../furps/de-mls.md)
+**Feature**: [de-MLS FURPS](../furps/de-mls.md)
 
 **FURPS**:
 
