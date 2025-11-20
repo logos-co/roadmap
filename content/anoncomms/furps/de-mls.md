@@ -3,31 +3,27 @@
 ## Functionality
 
 1. A group can have multiple stewards (spec + impl)
-1. A participant can leave a group (spec + impl)
-1. Groups can be merged to recover after state partition (spec + impl)
-1. Group state can be updated within reasonable amount of time
-1. Specification contains implementation suggestions
-1. An API spec is published that exposes de-MLS functionality (also abstracting consensus)
-1. An API is implemented in Rust and C
-1. Hashgraph-like consensus is separated out into its own library
-1. Benchmark scalability of consensus mechanism
-1. Becnhmark scalability of integrated de-mls protocol
+2. A member can leave a group. (spec + impl)
+3. Group state can be updated within a reasonable amount of time
+4. An API spec is published that exposes de-MLS functionality and abstracts consensus
+5. An API is implemented in Rust and C
 
 ## Usability
 
-1. 
+1. The specification contains implementation suggestions to guide developers
 
 ## Reliability
 
-1. 
+1. Groups can be re-synched after state partition. (spec + impl)
 
 ## Performance
 
-1. 
+1. Benchmark scalability of the consensus mechanism
+2. Benchmark scalability of the integrated de-MLS protocol
 
 ## Supportability
 
-1. 
+1. Hashgraph-like consensus is separated out into its own library for modularity
 
 ## Miscellaneous dependencies:
 
