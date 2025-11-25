@@ -61,7 +61,6 @@ Next steps not yet included in this milestone (see [Roadmap deliverable](#publis
 - U3. The libp2p mix protocol with DoS and Sybil protection is integrated into Waku Lightpush protocol as reference integration
 
 **Checklist**:
-- [ ] Specs: link to specs and/or API definition
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
