@@ -10,8 +10,11 @@ The first step is to provide sender anonymity via a [libp2p mix protocol](https:
 However, this protocol lacks a mechanism to protect the mix network from DoS attacks.
 It's also not been generalised to more Logos use cases outside of its [integration for Waku Lightpush](https://github.com/waku-org/specs/blob/master/standards/core/mix.md).
 
-By the end of this milestone, we'll have a basic libp2p mix module available in Logos Core that includes basic DoS protection.
-The DoS protection mechanism will be published as an extension to the existing libp2p mix specification.
+By the end of this milestone, we'll have basic mix capability available in nim-libp2p
+for use by Logos Core services.
+This includes basic protection against DoS and 50% + 1 Sybil attacks.
+The DoS and Sybil protection mechanism(s) will be published separately
+as pluggable extensions to the libp2p mix specification.
 This will allow us to roughly prioritise features that will be useful for other Logos use cases,
 which will be published in a roadmap.
 
@@ -19,19 +22,18 @@ Next steps not yet included in this milestone (see [Roadmap deliverable](#publis
 1. Introducing longer-lived mix circuits
 2. Introducing multiple mix layers for multiple packet sizes
 3. Generating cover traffic
-4. Creating "rendezvous" points for service/receiver anonymity
+4. Achieving service provider/receiver anonymity
 5. Incentivising mix participation
 
 ## Risks
 
 | Risk                   | (Accept, Own, Mitigation)                                                                                        |
 |------------------------|------------------------------------------------------------------------------------------------------------------|
-| Dependency or risk 1 | Strategy to mitigate or avoid risk 1 |
-| Dependency or risk 2 | Strategy to mitigate or avoid risk 2 |
+|  |  |
 
 ## Deliverables 
 
-### Specify DoS protection protocol for libp2p mix
+### Specify DoS and Sybil protection protocol for libp2p mix
 
 **Owner**: AnonComms Mix
 
@@ -39,13 +41,13 @@ Next steps not yet included in this milestone (see [Roadmap deliverable](#publis
 
 **FURPS**:
 
-- U1. The libp2p mix protocol with DoS protection is published in a specification
+- U1. The libp2p mix protocol and pluggable DoS and Sybil protection is published in specifications
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
 
 
-### Implement and integrate DoS protection protocol for libp2p mix
+### Implement DoS and Sybil protection protocol for libp2p mix
 
 **Owner**: AnonComms Mix
 
@@ -54,7 +56,9 @@ Next steps not yet included in this milestone (see [Roadmap deliverable](#publis
 **FURPS**:
 
 - F3. The libp2p mixnet is protected against trivial DoS attacks
-- U4. Libp2p mix is integrated into Waku Lightpush protocol as reference integration
+- F4. The libp2p mixnet is protected against a 50% + 1 Sybil attack
+- U2. The libp2p mix protocol with DoS and Sybil protection is integrated in nim-libp2p
+- U3. The libp2p mix protocol with DoS and Sybil protection is integrated into Waku Lightpush protocol as reference integration
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
@@ -62,7 +66,7 @@ Next steps not yet included in this milestone (see [Roadmap deliverable](#publis
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### Create simple mix module for Logos Core
+### Integrate mix with Sybil and DoS protection into libp2p module
 
 **Owner**: AnonComms Mix
 
@@ -71,11 +75,9 @@ Next steps not yet included in this milestone (see [Roadmap deliverable](#publis
 **FURPS**:
 
 - F1. Nodes can mixify individual libp2p protocol messages for anonymous routing over a libp2p mixnet
-- F2. Nodex can mixify libp2p request-response interactions for anonymous routing over a libp2p mixnet
-- F4. Nodes can discover other nodes that support mix using available peer discovery mechanisms
-- U2. A generalised mix API is published in a specification
-- U3. The general mix API is available in Nim and C
-- U5. A mix API module is integrated into Logos Core
+- F2. Nodes can mixify libp2p request-response interactions for anonymous routing over a libp2p mixnet
+- F5. Nodes can discover other nodes that support mix using available peer discovery mechanisms
+- U4. A libp2p module with mix capability is integrated into Logos Core
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
@@ -93,12 +95,9 @@ This should consider e.g. Logos Storage, Blend, and other use cases to establish
 1. Introducing circuits for higher throughput, interactive protocols
 2. Introducing multiple mix layers for multiple packet sizes
 3. Generating cover traffic
-4. Creating "rendezvous" points for service/receiver anonymity
+4. Achieving service/receiver anonymity, e.g. via Tor-like "rendezvous" points
 5. Incentivised mix participation
 etc.
 
 **Checklist**:
-- [ ] Specs: link to specs and/or API definition
-- [ ] Code: link to GitHub issues/PRs/Epic
-- [ ] Dogfood: link to dogfooding session/artefact
-- [ ] Docs: links to README.md or other docs
+- [ ] Docs: Forum Post or Github issue
