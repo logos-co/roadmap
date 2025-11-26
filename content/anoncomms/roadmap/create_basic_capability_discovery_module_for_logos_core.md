@@ -42,9 +42,6 @@ Next steps not yet included in this milestone, include:
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
-- [ ] Code: link to GitHub issues/PRs/Epic
-- [ ] Dogfood: link to dogfooding session/artefact
-- [ ] Docs: links to README.md or other docs
 
 ### Build PoC implementation of capability discovery protocol
 
@@ -58,12 +55,11 @@ U2. A PoC implementation accompanies the published protocol
 U3. The PoC implementation contains instructions to allow open dogfooding
 
 **Checklist**:
-- [ ] Specs: link to specs and/or API definition
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### Specify Logos Discovery module API
+### Specify and implement Kad-DHT discovery protocol and API
 
 **Owner**: AnonComms Discovery
 
@@ -71,24 +67,13 @@ U3. The PoC implementation contains instructions to allow open dogfooding
 
 **FURPS**:
 
-- U5. A general capability discovery API is published in a specification
-
-**Checklist**:
-- [ ] Specs: link to specs and/or API definition
-- [ ] Code: link to GitHub issues/PRs/Epic
-- [ ] Dogfood: link to dogfooding session/artefact
-- [ ] Docs: links to README.md or other docs
-
-### Create Logos Discovery module as wrapper for Kademlia DHT
-
-**Owner**: AnonComms Discovery
-
-**Feature**: [Capability Discovery](../furps/discovery.md)
-
-**FURPS**:
-
-- F3. Libp2p nodes can use a general capability discovery API to discover peers with specific capabilities
+- F1. Libp2p Kad-DHT nodes can advertise their own addresses and capabilities in a signed record
+- F2. Libp2p Kad-DHT nodes can discover and validate the signed records of random, advertised peers
+- F3. Libp2p Kad-DHT nodes can filter discovered records for specific capabilities
+- F4. Libp2p nodes can use a general capability discovery API to discover peers with specific capabilities
+- U5. A Kad-DHT discovery protocol and API is published in a specification
 - U6. The general capability discovery API is available in Nim and C
+- U7. The reference Kad-DHT discovery implementation is completed in Nim over the nim-libp2p Kad-DHT implementation
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
@@ -104,10 +89,9 @@ U3. The PoC implementation contains instructions to allow open dogfooding
 
 **FURPS**:
 
-- U9. The reference discovery module is integrated into Logos Core
+- U10. The reference discovery module is integrated into Logos Core
 
 **Checklist**:
-- [ ] Specs: link to specs and/or API definition
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
@@ -120,14 +104,11 @@ U3. The PoC implementation contains instructions to allow open dogfooding
 
 **FURPS**:
 
-- F1. Libp2p Kad-DHT nodes can advertise their own address against one or more capabilities
-- F2. Libp2p Kad-DHT nodes can discover addresses of peers with specific capabilities
-- F4. The capability discovery protocol adapts DISC-NG for Kad-DHT to ensure efficient capability discovery 
-- F5. Client nodes can discover addresses of peers with specific capabilities without participating in the Kad-DHT
-- U7. The reference implementation is completed in Nim over the nim-libp2p Kad-DHT implementation
+- F5. The capability discovery protocol adapts DISC-NG for Kad-DHT to ensure efficient capability discovery 
+- F6. Client nodes can discover addresses of peers with specific capabilities without participating in the Kad-DHT
+- U8. The reference capability discovery implementation is completed in Nim over the nim-libp2p Kad-DHT implementation
 
 **Checklist**:
-- [ ] Specs: link to specs and/or API definition
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
@@ -140,16 +121,10 @@ U3. The PoC implementation contains instructions to allow open dogfooding
 
 **FURPS**:
 
-- U8. The reference implementation is integrated in nwaku to replace discv5 discovery
+- U9. The reference implementation is integrated in nwaku to replace discv5 discovery
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
-
-Unroadmapped:
-
-1. Anonymisation
-2. Integrating into other Logos modules
-3. Benchmarking, testing
