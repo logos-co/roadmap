@@ -89,7 +89,7 @@ along with its specification and whitepaper.
 
 **FURPS**:
 
-- F4. A RLN prover can burn multiple message-ids in a single proof
+- F4. An RLN prover can burn multiple message-ids in a single proof
 
 **Checklist**:
 - [ ] Code: link to GitHub issues/PRs/Epic

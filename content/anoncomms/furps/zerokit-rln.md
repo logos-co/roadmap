@@ -5,7 +5,7 @@
 1. The public API is defined in a specification
 2. The RLN prover module specification describes gasless L2 operation
 3. The specification describes how multiple RLN prover instances can operate on a shared database
-4. A RLN prover can burn multiple message-ids in a single proof
+4. An RLN prover can burn multiple message-ids in a single proof
 5. Multiple RLN prover instances can operate on a shared database
 6. A public API implementation is available
 
