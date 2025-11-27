@@ -2,22 +2,21 @@
 
 ## Functionality
 
-1. The public API is defined in a specification
-2. The RLN prover module specification describes gasless L2 operation
-3. The specification describes how multiple RLN prover instances can operate on a shared database
-4. An RLN prover can burn multiple message-ids in a single proof
-5. Multiple RLN prover instances can operate on a shared database
-6. A public API implementation is available
+1. The RLN prover module supports gasless L2 operations
+2. Multiple RLN prover instances can operate on a shared database
+3. An RLN prover can burn multiple message-ids in a single proof
+4. The Zerokit module supports big-endian operations
 
 ## Usability
 
-1. The public API specification provides an easy-to-use interface for developers
-2. A developer can use BE for FFI, including WASM targets
+1. The Zerokit public API is defined in a specification
+2. The Zerokit public API provides an easy-to-use interface for developers in Rust and C
+3. The Zerokit FFI, including WASM targets, supports big-endian arguments
+4. The RLN prover module has an associated specification
 
 ## Reliability
 
-1. The specification describes consistency requirements for shared-database operation
-2. Multiple RLN prover instances operate consistently without database conflicts
+1. Multiple RLN prover instances operate consistently without database conflicts
 
 ## Performance
 

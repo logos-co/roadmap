@@ -2,24 +2,29 @@
 
 ## Functionality
 
-1. A group can have multiple stewards (spec + impl)
-2. A member can leave a group. (spec + impl)
-3. Group state can be updated within a reasonable amount of time
-4. An API spec is published that exposes de-MLS functionality and abstracts consensus
-5. An API is implemented in Rust and C
+1. A messaging group can have multiple stewards
+2. A member can leave a messaging group
+3. Groups can resync after state partition
 
 ## Usability
 
-1. The specification contains implementation suggestions to guide developers
+1. De-MLS protocol with multi-steward support is published in a specification
+2. The specification describes how members can leave the group
+3. The specification describes how groups can resync after a state partition
+4. The specification contains implementation suggestions to guide developers
+5. An API spec is published that exposes de-MLS functionality and abstracts consensus
+6. De-MLS is implemented in Rust
+7. The De-MLS API is available in Rust and C
 
 ## Reliability
 
-1. Groups can be re-synched after state partition. (spec + impl)
+1.
 
 ## Performance
 
-1. Benchmark scalability of the consensus mechanism
-2. Benchmark scalability of the integrated de-MLS protocol
+1. The consensus mechanism is scalable to groups of 10000 members
+2. The integrated de-MLS protocol is scalable to groups of 10000 members
+3. Group state can be updated within a reasonable amount of time
 
 ## Supportability
 

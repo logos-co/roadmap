@@ -45,7 +45,7 @@ Next steps not yet included in this milestone, include:
 
 ### Build PoC implementation of capability discovery protocol
 
-**Owner**: <single owner>
+**Owner**: AnonComms Discovery
 
 **Feature**: [Link to FURPS](/FURPS/link/to/furps.md)
 

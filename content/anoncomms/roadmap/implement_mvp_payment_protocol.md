@@ -32,9 +32,6 @@ By the end of this milestone, we will have specified and implemented a privacy-p
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
-- [ ] Code: link to GitHub issues/PRs/Epic
-- [ ] Dogfood: link to dogfooding session/artefact
-- [ ] Docs: links to README.md or other docs
 
 ### Implement MVP payment protocol
 
@@ -49,7 +46,6 @@ By the end of this milestone, we will have specified and implemented a privacy-p
 - F3. The payment protocol protects the privacy of the client by unlinking the payment from the service provision
 
 **Checklist**:
-- [ ] Specs: link to specs and/or API definition
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
