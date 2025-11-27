@@ -1,9 +1,9 @@
 # Releasing_zerokit-v1-and-rln-prover
 
-**Estimated date of completion**: 31 March 2026
+**Estimated date of completion**: 31 January 2026
 
 **Resources Required**:
-- 3 developers for 16 weeks
+- 3 developers for 10 weeks
 
 [Zerokit](https://github.com/vacp2p/zerokit) is a collection of Zero Knowledge modules
 that focus on RLN, developed in Rust, is intended for integration with various system programming environments.
@@ -61,7 +61,7 @@ along with its specification and whitepaper.
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### Shared db for multi-prover
+### Shared database for multi-prover
 
 **Owner**: AnonComms Zerokit-RLN
 
@@ -79,4 +79,33 @@ along with its specification and whitepaper.
 - [ ] Specs: link to specs and/or API definition
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Dogfood: link to dogfooding session/artefact
+- [ ] Docs: links to README.md or other docs
+
+### Releasing multi-id burnt feature
+
+**Owner**: AnonComms Zerokit-RLN
+
+**Feature**: [Zerokit-RLN FURPS](../furps/zerokit-rln.md)
+
+**FURPS**:
+
+- F4. A RLN prover can burn multiple message-ids in a single proof
+
+**Checklist**:
+- [ ] Code: link to GitHub issues/PRs/Epic
+- [ ] Dogfood: link to dogfooding session/artefact
+- [ ] Docs: links to README.md or other docs
+
+### Delivering gasless L2 Whitepaper
+
+**Owner**: AnonComms Zerokit-RLN
+
+**Feature**: [Zerokit-RLN FURPS](../furps/zerokit-rln.md)
+
+**FURPS**:
+
+- S1. A gasless L2 whitepaper is written to document the design and trade-offs 
+
+**Checklist**:
+- [ ] Specs: link to specs and/or API definition
 - [ ] Docs: links to README.md or other docs
