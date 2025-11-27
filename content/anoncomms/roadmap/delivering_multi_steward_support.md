@@ -3,7 +3,7 @@
 **Estimated date of completion**: 31 January 2026
 
 **Resources Required**:
-- 2 developers for 9 weeks
+- 2 developers for 10 weeks
 
 de-MLS is a decentralized, scalable, end-to-end encrypted (E2EE) group messaging application.
 The goal of the project is to specify and implement the RFC that outlines
