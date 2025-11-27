@@ -1,6 +1,6 @@
 # Delivering_multi_steward_support
 
-**Estimated date of completion**: 31 March 2026
+**Estimated date of completion**: 31 January 2026
 
 **Resources Required**:
 - 2 developers for 9 weeks
