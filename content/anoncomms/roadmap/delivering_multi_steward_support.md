@@ -16,7 +16,7 @@ The implementation plan is to release multi-steward with a single consensus vers
 By the end of this milestone, we'll have core de-MLS and API with multi-steward support RFC and implementation for decentralized group messaging.
 
 Next steps not yet included in this milestone, include:
-1. Longer term benchmarking and testing to improve the efficiency and scalability of the consensus and messagaging protocol.
+1. Longer term benchmarking and testing to improve the efficiency and scalability of the consensus and messaging protocol.
 
 ## Risks
 
