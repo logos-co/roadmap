@@ -3,10 +3,10 @@
 **Estimated date of completion**: 31 March 2026
 
 **Resources Required**:
-- 2 developers for 16 weeks
+- 2 developers for 9 weeks
 
 de-MLS is a decentralized, scalable, end-to-end encrypted (E2EE) group messaging application.
-The primary goal of this project is to develop a comprehensive and a mature RFC that outlines
+The goal of the project is to specify and implement the RFC that outlines
 decentralized, secure, and scalable group key generation,
 designed to accommodate large numbers of users within a single group.
 
@@ -44,7 +44,7 @@ Next steps not yet included in this milestone, include:
 - [ ] Specs: link to specs and/or API definition
 - [ ] Docs: links to README.md or other docs
 
-### Specify de-MLS API
+### Specify and Implement de-MLS API
 
 **Owner**: AnonComms de-MLS
 
@@ -53,22 +53,7 @@ Next steps not yet included in this milestone, include:
 **FURPS**:
 
 - F4. An API spec is published that exposes de-MLS functionality and abstracts consensus 
-
-**Checklist**:
-- [ ] Specs: link to specs and/or API definition
-- [ ] Docs: links to README.md or other docs
-
-### Implement de-MLS API
-
-**Owner**: AnonComms de-MLS
-
-**Feature**: [de-MLS FURPS](../furps/de-mls.md)
-
-**FURPS**:
-
-- F4. An API spec is published that exposes de-MLS functionality and abstracts consensus
 - F5. An API is implemented in Rust and C
-
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
