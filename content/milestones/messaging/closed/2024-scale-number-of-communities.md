@@ -6,7 +6,7 @@ date: 2024-09-07
 ---
 EDC: 2025-09-25
 
-[Milestone Scale up number of Communities](waku/milestones/closed/2024-scale-number-of-communities.md)
+[Milestone Scale up number of Communities](milestones/messaging/closed/2024-scale-number-of-communities.md)
 
 Estimated Date of Completion: 2024-11-30
 
