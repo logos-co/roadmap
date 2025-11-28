@@ -11,7 +11,7 @@ that focus on RLN, developed in Rust, is intended for integration with various s
 Previously, we released Zerokit v0.9.0, which supports improved CI, optimized,
 partially BE support and research on FFI improvements.
 By the end of this milestone, we will deliver Zerokit v1 and begin advancing the next version.
-This includes big-endian support and an improved FFI interface.
+This includes big-endian support, an improved FFI interface and multi-id burnt support.
 
 ## Risks
 
