@@ -11,7 +11,7 @@ lastmod: 2025-11-18
 To learn more about Waku please visit the [website](https://waku.org), [github](https://github.com/waku-org), and [docs](https://docs.waku.org).
 
 - [[milestones/messaging|Milestones]]
-- [[messaging/furps|FURPS]]
+- [[furps/messaging|FURPS]]
 - [[messaging/updates|Weekly Updates]]
 - [[messaging/collaboration|Collaboration]]
 
