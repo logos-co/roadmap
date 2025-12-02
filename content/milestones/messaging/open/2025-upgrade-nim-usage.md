@@ -4,9 +4,8 @@ tags:
     - waku-milestone
 date: 2025-12-19
 ---
-Github Milestone: https://github.com/waku-org/pm/milestone/53
 
-# Upgrade Nim Usage
+# [Upgrade Nim Usage](https://github.com/waku-org/pm/milestone/53)
 
 **Estimated date of completion**: 19 Dec
 
@@ -16,10 +15,6 @@ Github Milestone: https://github.com/waku-org/pm/milestone/53
 
 Improve usage of Nim related tooling and design patterns by proceedings with PoCs to discover potential gains and caveats.
 This includes adoption of Nimble, dogfooding VSCode plugin and iteration on C-Binding methodology.
-
-## Strategic Objective
-
-Logos Movement Community Enabling: Dev Journey
 
 ## FURPS
 

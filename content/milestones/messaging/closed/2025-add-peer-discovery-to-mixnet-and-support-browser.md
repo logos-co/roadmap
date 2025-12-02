@@ -5,7 +5,9 @@ tags:
 date: 2025-10-21
 ---
 
-# Add peer discovery to mixnet and support browser
+# ~~Add peer discovery to mixnet and support browser~~
+
+**Moved to Anon Comms team**
 
 **Estimated date of completion**: 31 March 2026
 

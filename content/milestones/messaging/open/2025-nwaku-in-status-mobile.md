@@ -4,9 +4,10 @@ tags:
     - waku-milestone
 date: 2025-01-10
 ---
-EDC: 2025-06-30
 
-Github Milestone: https://github.com/waku-org/pm/milestone/39
+# [Nwaku in Status Mobile and Light Mode MVP](https://github.com/waku-org/pm/milestone/39)
+
+**Estimated date of completion**: TBC
 
 Proceed with integration of nwaku in Status application on all platforms; including extending scope to light mode and mobile. Use resulting nwaku-based Status apps for dogfooding and documenting last steps to make nwaku default Waku client in Status apps.
 

@@ -4,7 +4,8 @@ tags:
     - waku-milestone
 date: 2025-12-18
 ---
-# Extend Chat SDK with Group Conversations
+
+# [Extend Chat SDK with Group Conversations](https://github.com/logos-messaging/pm/milestone/50)
 
 **Estimated date of completion**: 19 Dec 2025
 
@@ -18,11 +19,7 @@ participants in a given group chat.
 The features to said group chat will be limited, and extended with further milestones.
 
 Support to plug Status Communities on top of this SDK is **not** expected.
-Further group size scaling and extension of membership management API would be needed. 
-
-## Strategic Objective
-
-Logos Movement Module Build Out
+Further group size scaling and extension of membership management API would be needed.
 
 ## FURPS
 
@@ -60,13 +57,6 @@ Logos Movement Module Build Out
 - +PRIV1. Non-participants cannot correlate a group conversation to any of its participants.
 - +PRIV2. No identifying information is visible when registering an installation.
 
-**Checklist**:
-
-- [ ] Specs: link to specs and/or API definition
-- [ ] Code: link to GitHub issues/PRs/Epic
-- [ ] Dogfood: link to dogfooding session/artefact
-- [ ] Docs: links to README.md or docs.waku.org (TBD)
-
 ### [Group Chat Bindings](https://github.com/waku-org/pm/issues/348)
 
 **Owner**: App/Chat Dev
@@ -97,9 +87,3 @@ Logos Movement Module Build Out
 
 **FURPS**:
 - S3. SDK can be instantiated with a RLN-enabled Waku node.
-
-**Checklist**:
-- [ ] Specs: link to specs and/or API definition
-- [ ] Code: link to GitHub issues/PRs/Epic
-- [ ] Dogfood: link to dogfooding session/artefact
-- [ ] Docs: links to README.md or docs.waku.org (TBD)

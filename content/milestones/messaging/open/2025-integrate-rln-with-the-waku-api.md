@@ -4,11 +4,10 @@ tags:
     - waku-milestone
 date: 2025-09-30
 ---
-Github Milestone: https://github.com/waku-org/pm/milestone/52
 
-# Integrate RLN With the Waku API
+# [Integrate RLN With the Waku API](https://github.com/waku-org/pm/milestone/52)
 
-**Estimated date of completion**: 30 Sep
+**Estimated date of completion**: 30 Sep 2025
 
 **Resources Required for 2025H2**:
 - 2 nwaku engineer for 2 months 
@@ -26,10 +25,6 @@ as API to manage RLN membership.
 Introduce RLN proof generation and validation in the Browser. RLN API should be similar across all implementations.
 
 Finally, migrate to Status network L2 testnet and improve UX issues discovered via dogfooding such as rate of RPC Calls.
-
-## Strategic Objective
-
-Logos Movement Module Build Out
 
 ## FURPS
 
@@ -50,7 +45,7 @@ See deliverables.
 
 ### [Implement RLN membership management in nwaku library](https://github.com/waku-org/pm/issues/353)
 
-**Owner**: nwaku
+**Owner**: nim
 
 **Feature**: [RLN Membership Management](/FURPS/application/rln_membership_management.md)
 
@@ -79,7 +74,7 @@ See deliverables.
 
 ### [Implement RLN Onchain Tree Proof generation and verification in the Browser](https://github.com/waku-org/pm/issues/354) 
 
-**Owner**: js-waku
+**Owner**: web
 
 **Feature**: [RLN Relay](/FURPS/core/rln_relay.md)
 
@@ -95,38 +90,9 @@ See deliverables.
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-### [Extract RLN as a plug-in library from nwaku](https://github.com/waku-org/pm/issues/355) 
-
-**Owner**: nwaku
-
-**Feature**: [Waku RLN API](/FURPS/core/rln_sdk.md)
-
-**FURPS**:
-- F1. Accepts RLN network configuration at initialization.
-- F2. API to pass messages for proof validation.
-- F3. API to import RLN credentials, compatible with RLN Membership management.
-- F4. API to accept Waku Message and generate proof.
-- F5. API to inform on configured rate limit parameters and remaining quota.
-
-- U1. TWN RLN configuration is applied by default.
-- U2. No boilerplate code beyond initialization is necessary to pass RLN instance in a Waku API implementation.
-- U3. Rate usage is persisted across restarts.
-
-- S1. library can be used in Go applications; available on pkg.go.dev.
-- S2. library can be used in Rust applications; import via git path.
-- S3. library can be used in Nim applications; import via git path.
-
-- +1. Only one set of credentials can be used at a given t
-
-**Checklist**:
-- [ ] Specs: link to specs and/or API definition
-- [ ] Code: link to GitHub issues/PRs/Epic
-- [ ] Dogfood: link to dogfooding session/artefact
-- [ ] Docs: links to README.md or docs.waku.org (TBD)
-
 ### [Deploy RLN Contracts to Status L2 testnet](https://github.com/waku-org/pm/issues/356)
 
-**Owner**: nwaku
+**Owner**: nim
 
 **Feature**: [RLN Smart Contract](/FURPS/core/rln_smart_contract.md)
 
@@ -142,7 +108,7 @@ See deliverables.
 
 ### [Improve RLN UX by reducing contract interactions](https://github.com/waku-org/pm/issues/344)
 
-**Owner**: core research
+**Owner**: nim
 
 **Feature**: [RLN Smart Contract](/FURPS/core/rln_smart_contract.md)
 

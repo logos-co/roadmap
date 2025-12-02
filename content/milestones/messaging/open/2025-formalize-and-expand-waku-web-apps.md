@@ -26,12 +26,6 @@ Explore Codex x Waku integration, in Qaku and one other application.
 Develop 10 Waku Web Apps PoC, and push them to the community to "teach them how to hunt" as well as inspire developers
 to build over Waku.
 
-## Strategic Objective
-
-Logos Movement Community Enabling
-
-## FURPS
-
 ## Risks
 
 | Risk                                               | (Accept, Own, Mitigation)                                      |

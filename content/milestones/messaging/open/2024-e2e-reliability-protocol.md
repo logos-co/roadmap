@@ -4,13 +4,10 @@ tags:
     - waku-milestone
 date: 2024-09-07
 ---
-EDC: 2025-06-30
 
-Github Milestone: https://github.com/waku-org/pm/milestone/29
+# [Introduce E2E Reliability in Status Communities](https://github.com/waku-org/pm/milestone/29)
 
-# Introduce E2E Reliability in Status Communities
-
-**Estimated date of completion**: 31 Aug 2025
+**Estimated date of completion**: 31 Dec 2025
 
 **Resources Required for 2025H2**:
 - 1 app chat engineer for 2 months
@@ -54,12 +51,6 @@ as well as in the browser for PoC Web Apps such as Qaku and Logos Forum.
 
 For S1. Applied to Communities channels on Status Desktop
 
-**Checklist**:
-- [ ] Specs: link to specs and/or API definition
-- [ ] Code: link to GitHub issues/PRs/Epic
-- [ ] Dogfood: link to dogfooding session/artefact
-- [ ] Docs: links to README.md or docs.waku.org (TBD)
-
 ## [SDS protocol in Status - basic recovery](https://github.com/waku-org/pm/issues/304)
 
 **Owner**: chat app dev
@@ -73,9 +64,3 @@ For S1. Applied to Communities channels on Status Desktop
 - P3. When receiving messages in group, the receiver can reach eventual consistency within `6*S` seconds **(Vac-DST)**
 
 For S1. Applied to Communities channels on Status Desktop
-
-**Checklist**:
-- [ ] Specs: link to specs and/or API definition
-- [ ] Code: link to GitHub issues/PRs/Epic
-- [ ] Dogfood: link to dogfooding session/artefact
-- [ ] Docs: links to README.md or docs.waku.org (TBD)

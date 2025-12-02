@@ -6,7 +6,9 @@ date: 2025-09-30
 ---
 Github Milestone: https://github.com/waku-org/pm/milestone/48
 
-# Introduce Mixnet For Message Sending
+# ~~Introduce Mixnet For Message Sending~~
+
+**Ownership moved to Anon Comms Team**
 
 **Estimated date of completion**: 10 Oct 2025
 

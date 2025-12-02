@@ -6,7 +6,9 @@ date: 2025-12-18
 ---
 Github Milestone: https://github.com/waku-org/pm/milestone/51
 
-# Incentivisation and Marketplace Follow-Up Outline
+# ~~Incentivisation and Marketplace Follow-Up Outline~~
+
+**Ownership moved to Anon Comms**
 
 **Estimated date of completion**: TBD
 

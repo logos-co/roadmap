@@ -4,7 +4,9 @@ tags:
     - waku-milestone
 date: 2024-09-07
 ---
-# Business Dev - Acquire First 10 Customers
+# ~~Business Dev - Acquire First 10 Customers~~
+
+**Descoped: Eco dev activities were moved out of the Waku/Messaging team's ownership.
 
 **Estimated date of completion**: 2025H2 Period
 

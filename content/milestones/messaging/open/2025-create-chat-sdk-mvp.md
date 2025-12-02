@@ -4,13 +4,14 @@ tags:
     - waku-milestone
 date: 2025-06-24
 ---
-# Create Chat SDK MVP
+
+# [Create Chat SDK MVP](https://github.com/logos-messaging/pm/milestone/45)
 
 **Estimated date of completion**: 30 Sep 2025
 
 **Resources Required for 2025H2**:
 - 1 App/Chat Researcher 
-- 2 App/Chat Engineers
+- 1 App/Chat Engineers
 
 The SDK is intentionally minimal—focused solely on proving the usability of the core approach. It supports 1:1 chat with
 out-of-band contact discovery and includes supporting implementations to help developers get up and running quickly.
@@ -22,10 +23,6 @@ interaction speed.
 Motivations for development of a new chat protocol are described [here](https://forum.vac.dev/t/chatsdk-motivations/501).
 
 This milestone is complete when a development preview of the Chat SDK is published and made available to the community.
-
-## Strategic Objective
-
-Logos Movement Module Build Out
 
 ## Risks
 
@@ -50,7 +47,7 @@ Logos Movement Module Build Out
 
 ### [ChatSDK Developer Preview](https://github.com/waku-org/pm/issues/316)
 
-**Owner**: App/Chat Research
+**Owner**: Chat
 
 **Feature**: [Chat SDK](/FURPS/application/chat_sdk.md)
 
@@ -76,15 +73,9 @@ Logos Movement Module Build Out
 
 - +4. Nimble package manager is used to build.
 
-**Checklist**:
-- [ ] Specs: link to specs and/or API definition
-- [ ] Code: link to GitHub issues/PRs/Epic
-- [ ] Dogfood: link to dogfooding session/artefact
-- [ ] Docs: links to README.md or docs.waku.org (TBD)
-
 ### [ChatSDK Bindings](https://github.com/waku-org/pm/issues/317)
 
-**Owner**: App/Chat Dev
+**Owner**: Chat
 
 **Feature**: [Chat SDK](/FURPS/application/chat_sdk.md)
 
@@ -98,15 +89,9 @@ For library ChatSDK:
 - S3. library can be used in Go applications; available on pkg.go.dev.
 - S4. library can be used in Rust applications; import via git path.
 
-**Checklist**:
-- [ ] Specs: API definition
-- [ ] Code: link to GitHub issues/PRs/Epic
-- [ ] Dogfood: link to dogfooding session/artefact
-- [ ] Docs: links to README.md or docs.waku.orgAPI definition? (TBD)
-
 ### [Create Segmentation Library](https://github.com/waku-org/pm/issues/318)
 
-**Owner**: App/Chat Dev
+**Owner**: Chat
 
 **Feature**: [Segmentation](/FURPS/application/segmentation.md)
 
@@ -130,15 +115,9 @@ For library ChatSDK:
 - +2. Relevant for all Waku nodes
 - +3. Nimble package manager is used to build.
 
-**Checklist**:
-- [ ] Specs: link to specs
-- [ ] Code: link to GitHub issues/PRs/Epic
-- [ ] Dogfood: link to dogfooding session/artefact
-- [ ] Docs: links to README.md or docs.waku.org (TBD)
-
 ### [Create Rate Limit Manager](https://github.com/waku-org/pm/issues/319)
 
-**Owner**: App/Chat Dev
+**Owner**: Chat
 
 **Feature**: [Rate Limit Manager](/FURPS/application/rate_limit_manager.md)
 
@@ -161,9 +140,3 @@ For library ChatSDK:
 
 - S1. Nim library.
 - +1. Nimble package manager is used to build.
-
-**Checklist**:
-- [ ] Specs: link to specs
-- [ ] Code: link to GitHub issues/PRs/Epic
-- [ ] Dogfood: link to dogfooding session/artefact
-- [ ] Docs: links to README.md or docs.waku.org (TBD)

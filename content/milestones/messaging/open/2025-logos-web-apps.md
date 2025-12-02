@@ -4,9 +4,10 @@ tags:
     - waku-milestone
 date: 2025-02-10
 ---
-EDC: 2025-12-19
 
-Github Milestone: https://github.com/waku-org/pm/milestone/42
+# [Logos Web apps](https://github.com/waku-org/pm/milestone/42)
+
+**Estimated date of completion**: 29 Dec 2025
 
 Develop Web applications for Logos, using the Logos technology stack:
 - Qaku (Q&A over Waku): harden Waku to MVP level, so it can be used for IFT Town Halls, and Logos physical events

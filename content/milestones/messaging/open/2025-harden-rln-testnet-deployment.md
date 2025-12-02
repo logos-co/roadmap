@@ -5,7 +5,7 @@ tags:
 date: 2024-09-30
 ---
 
-# Harden RLN Testnet Deployment
+# [Harden RLN Testnet Deployment](https://github.com/logos-messaging/pm/milestone/55)
 
 **Estimated date of completion**: 30 Sep 2025
 
@@ -23,10 +23,6 @@ With this milestone, we tackle the lesson learned from dogfooding by:
 
 - Using zerokit in the browser, and working with Vac-ACZ team to reach adequate UX
 - Apply restrictions on testnet contract to allow dogfooding, without exhausting the rate limit due to the fact that testnet is free (as in cheap).
-
-## Strategic Objective
-
-Logos Vision: Core Values Alignment
 
 ## FURPS
 
@@ -50,12 +46,6 @@ Logos Vision: Core Values Alignment
 **FURPS**:
 - R1. Import and exports are interoperable across all implementations.
 
-**Checklist**:
-- [ ] Specs: link to specs and/or API definition
-- [ ] Code: link to GitHub issues/PRs/Epic
-- [ ] Dogfood: link to dogfooding session/artefact
-- [ ] Docs: links to README.md or docs.waku.org (TBD)
-
 ### [Minting of (Sepolia) ERC-20 Tokens for RLN Deposits is permissioned](https://github.com/waku-org/pm/issues/334)
 
 **Owner**: core research
@@ -76,12 +66,6 @@ Logos Vision: Core Values Alignment
 
 - P2. Rate limit variables, in combination with good defaults on software side, enable around 5,000 registrations.
 
-**Checklist**:
-- [ ] Specs: link to specs and/or API definition
-- [ ] Code: link to GitHub issues/PRs/Epic
-- [ ] Dogfood: link to dogfooding session/artefact
-- [ ] Docs: links to README.md or docs.waku.org (TBD)
-- 
 ### [Minting of (Sepolia) ERC-20 Tokens for RLN Deposits Burns Sepolia Eth](https://github.com/waku-org/pm/issues/335)
 
 **Owner**: core research
@@ -95,10 +79,4 @@ Logos Vision: Core Values Alignment
 
 - +1. Deployed on Linea Sepolia.
 - +2. Used as ERC-20 deposit token for Linea Sepolia RLN smart contract deployment.
-
-**Checklist**:
-- [ ] Specs: link to specs and/or API definition
-- [ ] Code: link to GitHub issues/PRs/Epic
-- [ ] Dogfood: link to dogfooding session/artefact
-- [ ] Docs: links to README.md or docs.waku.org (TBD)
 

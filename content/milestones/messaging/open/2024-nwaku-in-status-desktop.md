@@ -4,9 +4,10 @@ tags:
     - waku-milestone
 date: 2025-10-17
 ---
+
 # [Integrate nwaku in Status Desktop, relay mode only](https://github.com/waku-org/pm/milestone/33)
 
-**Estimated date of completion**: 30 June
+**Estimated date of completion**: 31 Dec 2025
 
 **Resources Required for 2025H2**:
 - 1 nwaku engineer for maintenance and support
@@ -35,22 +36,3 @@ meaning that if Status were to use RLN (see Scale 1:1 chat messages PoC), then i
 - [status-go](/FURPS/application/status_go.md): F1, U1, R1, P1, S1-2, +1
 
 **GitHub Milestone and deliverables**: https://github.com/waku-org/pm/milestone/33
-
-## Enable Waku Metrics in libwaku 
-
-**Owner**: nwaku
-
-**Feature**: [nwaku](/FURPS/application/nwaku.md)
-
-**FURPS**:
-- F3. Metrics can be enabled in libwaku.
-
-https://github.com/waku-org/nwaku/issues/3202
-
-**Checklist**:
-- [ ] Specs: link to specs and/or API definition
-- [ ] Code: link to GitHub issues/PRs/Epic
-- [ ] Dogfood: link to dogfooding session/artefact
-- [ ] Docs: links to README.md or docs.waku.org (TBD)
-
-https://github.com/waku-org/nwaku/issues/3202

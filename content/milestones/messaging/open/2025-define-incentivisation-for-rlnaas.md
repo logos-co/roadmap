@@ -4,7 +4,10 @@ tags:
     - waku-milestone
 date: 2025-07-31
 ---
+
 # [Define Incentivisation for RLNaaS](https://github.com/waku-org/pm/milestone/35)
+
+**Incentivization is now owned by Anon Comms team**
 
 **Estimated date of completion**: 31 July 2025
 
@@ -20,10 +23,6 @@ and require a set of decentralised services for Status Mobile and resource-restr
 including RLN proofs as a service, Store, Filter and Lightpush.
 This milestone encapsulates the efforts to distribute rewards for running RLN Relay nodes and getting paid for providing Waku services.
 This is the first step to providing a sustainable way to scale the Status application.
-
-## Strategic Objective
-
-Logos Vision: Core Values Alignment
 
 ## FURPS
 - [Incentivisation](/FURPS/core/incentivisation.md): F1-3, U1-2, R1-3, P1, for S1

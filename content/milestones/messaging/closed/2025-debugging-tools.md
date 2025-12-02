@@ -6,7 +6,7 @@ date: 2025-01-09
 ---
 EDC: 2025-06-30
 
-Github Milestone: https://github.com/waku-org/pm/milestone/38
+# [Debugging Tools](https://github.com/waku-org/pm/milestone/38)
 
 Improve tooling to facilitate debugging and issues, by providing a tool to help with message tracing in logs (Status app, fleet), and enable Prometheus in Status app to get more detailed connectivity states and other metrics on local instances.
 

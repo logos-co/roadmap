@@ -4,7 +4,7 @@ tags:
     - waku-milestone
 date: 2025-07-03
 ---
-# Improve DevEx: API, TWN, Metrics, Docs
+# [Improve DevEx: API, TWN, Metrics, Docs](https://github.com/logos-messaging/pm/milestone/46)
 
 **Estimated date of completion**: 31 Aug
 
@@ -24,10 +24,6 @@ This includes:
 - Review and setting strategy for Waku documentation
 - Testing quic as new transport
 
-## Strategic Objective
-
-Logos Movement Community Enabling via Dev-X + Telemetry
-
 ## FURPS
 
 See deliverables.
@@ -43,22 +39,16 @@ See deliverables.
 
 ## Deliverables
 
-### [Global Network Metrics](https://github.com/waku-org/pm/issues/295)
+### ~~[Global Network Metrics](https://github.com/waku-org/pm/issues/295)~~
 
-**Owner**: App/Chat Dev
+**Owner**: ~~App/Chat Dev~~ BI
 
 **Feature**: [Network Metrics Tracker](/FURPS/application/network_metrics_tracker.md)
 
 **FURPS**:
 - all
 
-**Checklist**:
-- [ ] Specs: link to specs and/or API definition
-- [ ] Code: link to GitHub issues/PRs/Epic
-- [ ] Dogfood: link to dogfooding session/artefact
-- [ ] Docs: links to README.md or docs.waku.org (TBD)
-
-### [Scalable Data Sync in Browser](https://github.com/waku-org/pm/issues/280)
+### [Scalable Data Sync in Browser](https://github.com/logos-messaging/pm/issues/280)
 
 **Owner**: js-waku
 
@@ -75,7 +65,7 @@ For S2. For Web apps as a developer library.
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-### Implement Light Push Error codes in The Browser
+### [Implement Light Push Error codes in The Browser](https://github.com/logos-messaging/pm/issues/339)
 
 **Owner**: js-waku
 
@@ -89,13 +79,7 @@ For S2. For Web apps as a developer library.
 For S2. Browser as client
 Spec delivery not included.
 
-**Checklist**:
-- [ ] Specs: link to specs and/or API definition
-- [ ] Code: link to GitHub issues/PRs/Epic
-- [ ] Dogfood: link to dogfooding session/artefact
-- [ ] Docs: links to README.md or docs.waku.org (TBD)
-
-### [Introduce Waku API in the Browser](https://github.com/waku-org/pm/issues/283)
+### [Introduce Waku API in the Browser](https://github.com/logos-messaging/pm/issues/283)
 
 **Owner**: js-waku
 
@@ -124,7 +108,7 @@ For S3. Browser; distribution via npmjs.com.
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-### [Introduce Waku API in nwaku](https://github.com/waku-org/pm/issues/305)
+### [Introduce Waku API in nwaku](https://github.com/logos-messaging/pm/issues/305)
 
 **Owner**: nwaku
 
@@ -155,9 +139,9 @@ For:
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-### [Review Documentation and Define Guidelines](https://github.com/waku-org/pm/issues/323)
+### ~~[Review Documentation and Define Guidelines](https://github.com/logos-messaging/pm/issues/323)~~
 
-**Owner**: core research
+**Owner**: ~~core research~~ EcoDev-Docs
 
 (No FURPS)
 
@@ -183,7 +167,7 @@ For:
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-### [Optimise Browser Bootstrapping](https://github.com/waku-org/pm/issues/290)
+### [Optimise Browser Bootstrapping](https://github.com/logos-messaging/pm/issues/290)
 
 **Owner**: js-waku
 

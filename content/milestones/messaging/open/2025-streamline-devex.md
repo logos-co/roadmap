@@ -5,11 +5,9 @@ tags:
 date: 2025-07-03
 ---
 
-Github milestone: https://github.com/waku-org/pm/milestone/47
+# [Streamline DevEx: Mobile, Rust and Web dev](https://github.com/waku-org/pm/milestone/47)
 
-# Streamline DevEx: Mobile, Rust and Web dev
-
-**Estimated date of completion**: 30 Nov
+**Estimated date of completion**: 30 Nov 2025
 
 **Resources Required for 2025H2**:
 - nwaku 3 eng during 6 weeks
@@ -25,10 +23,6 @@ Finalize the integration of nwaku in Status application by setting up nwaku-base
 
 Lastly, develop a PoC protocol to demonstrate the usage of Waku as a Signal network, using WebRTC as example.
 This was identified as a demanded demonstration of Waku's capabilities as part of the [Waku MVP analysis](https://www.notion.so/Waku-MVP-1838f96fb65c8039acabf8a6a1e689e7).
-
-## Strategic Objective
-
-Logos Movement Community Enabling via Dev-X
 
 ## FURPS
 
@@ -46,7 +40,7 @@ See deliverables.
 
 ### [Edge Mode in Nwaku](https://github.com/waku-org/pm/issues/357)
 
-**Owner**: nwaku
+**Owner**: nim
 
 #### **Feature**: [status-go](/FURPS/application/status_go.md)
 
@@ -67,7 +61,7 @@ See deliverables.
 
 ### [Nwaku in Status Mobile](https://github.com/waku-org/pm/issues/358)
 
-**Owner**: nwaku
+**Owner**: nim
 
 **Feature**: [status-go](/FURPS/application/status_go.md)
 
@@ -87,7 +81,7 @@ See deliverables.
 
 **Owner**: nwaku
 
-**Feature**: [Waku SDK(/FURPS/core/waku_sdk.md)
+**Feature**: [Waku SDK](/FURPS/core/waku_sdk.md)
 
 **FURPS**:
 - S4. Rust; available on crates.io.
