@@ -18,4 +18,8 @@ The AnonComms team is currently working on the following milestones:
 5. [Rework and deliver a public Zerokit 1.0 API](./deliver_public_zerokit_1.0_api.md) that improves usability and add big-endian support.
 6. [Release an RLN Prover to support gasless L2 transactions](./release-rln-prover_for_gasless_l2.md) on Status Network, including publishing a whitepaper.
 
+Of these, (1) and (2) are the team's current top priorities,
+as both capability discovery and mixifying libp2p protocols
+are critical for the launch of Logos.
+
 Visit each milestone for a detailed breakdown in separate deliverables.

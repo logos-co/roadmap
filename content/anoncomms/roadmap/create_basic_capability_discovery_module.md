@@ -5,7 +5,7 @@
 **Resources Required**:
 - 3 developers for 16 weeks
 
-A major cornerstone of the [Logos Launch Strategy](https://www.notion.so/Logos-Launch-Strategy-29d8f96fb65c81f4bbc9ffa45c6facc7#29d8f96fb65c81c2ac73c93b5cc2b476)
+A major cornerstone of the Logos Launch Strategy
 is the efficient discovery of core services in a fully decentralised manner.
 The current approach to decentralised discovery, random walks over libp2p's Kad-DHT
 is not scalable and efficient enough for a diverse ecosystem consisting of multiple services,

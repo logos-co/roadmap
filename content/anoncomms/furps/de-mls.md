@@ -15,6 +15,8 @@
 5. An API spec is published that exposes de-MLS functionality and abstracts consensus
 6. De-MLS is implemented in Rust
 7. The De-MLS API is available in Rust and C
+8. De-MLS is included in the Chat SDK protocol stack specification
+9. De-MLS is integrated into a working ChatSDK module deployed to Logos Core
 
 ## Reliability
 

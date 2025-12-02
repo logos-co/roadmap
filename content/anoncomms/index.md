@@ -14,6 +14,6 @@ lastmod: 2025-11-27
 
 The AnonComms team focus on the research and development of protocols related to anonymous communication in a decentralised setting.
 
-- [FURPS](./furps/)
-- [Roadmap](./roadmap/)
-- [Weekly Updates](./updates)
+- [[anoncomms/furps/index|FURPS]]
+- [[anoncomms/roadmap/index|Roadmap]]
+- [[anoncomms/updates/index|Weekly Updates]]

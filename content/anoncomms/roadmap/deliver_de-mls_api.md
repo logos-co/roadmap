@@ -84,6 +84,23 @@ Next steps not yet included in this milestone, include:
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
+### Specify and integrate de-MLS into ChatSDK
+
+**Owner**: AnonComms de-MLS
+
+**Feature**: [de-MLS FURPS](../furps/de-mls.md)
+
+**FURPS**:
+
+- U8. De-MLS is included in the Chat SDK protocol stack specification
+- U9. De-MLS is integrated into a working ChatSDK module deployed to Logos Core
+
+**Checklist**:
+- [ ] Specs: link to specs and/or API definition
+- [ ] Code: link to GitHub issues/PRs/Epic
+- [ ] Dogfood: link to dogfooding session/artefact
+- [ ] Docs: links to README.md or other docs
+
 ### Separate Hashgraph-like consensus crate
 
 **Owner**: AnonComms de-MLS

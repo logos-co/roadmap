@@ -14,4 +14,4 @@ Every year (starting this year), each project defines its plans in a number a mi
 - [[messaging/index|Messaging]]
 - [Codex](codex/overview.md)
 - [[nomos/index|Nomos]]
-
+- [[anoncomms/index|AnonComms]]
