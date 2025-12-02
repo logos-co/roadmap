@@ -32,7 +32,7 @@ meaning that if Status were to use RLN (see Scale 1:1 chat messages PoC), then i
 
 **FURPS**:
 
-- [nwaku](/FURPS/application/nwaku.md): F1-3, S1-2, +1
-- [status-go](/FURPS/application/status_go.md): F1, U1, R1, P1, S1-2, +1
+- [nwaku](/furps/messaging/application/nwaku.md): F1-3, S1-2, +1
+- [status-go](/furps/messaging/application/status_go.md): F1, U1, R1, P1, S1-2, +1
 
 **GitHub Milestone and deliverables**: https://github.com/waku-org/pm/milestone/33

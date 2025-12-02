@@ -41,7 +41,7 @@ See deliverables.
 
 **Owner**: Core Research
 
-**Feature**: [Mix](/FURPS/core/mix.md)
+**Feature**: [Mix](/furps/messaging/core/mix.md)
 
 **FURPS**:
 
@@ -60,7 +60,7 @@ See deliverables.
 
 **Owner**: Core Research
 
-**Feature**: [Mix](/FURPS/core/mix.md)
+**Feature**: [Mix](/furps/messaging/core/mix.md)
 
 **FURPS**:
 

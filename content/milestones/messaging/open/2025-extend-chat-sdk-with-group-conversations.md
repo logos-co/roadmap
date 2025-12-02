@@ -23,7 +23,7 @@ Further group size scaling and extension of membership management API would be n
 
 ## FURPS
 
-[Group Chat](/FURPS/application/group_chat.md)
+[Group Chat](/furps/messaging/application/group_chat.md)
 
 ## Risks
 
@@ -39,7 +39,7 @@ Further group size scaling and extension of membership management API would be n
 
 **Owner**: App/Chat Research
 
-**Feature**: [Group Chat](/FURPS/application/group_chat.md)
+**Feature**: [Group Chat](/furps/messaging/application/group_chat.md)
 
 **FURPS**:
 
@@ -61,7 +61,7 @@ Further group size scaling and extension of membership management API would be n
 
 **Owner**: App/Chat Dev
 
-**Feature**: [Bindings](/FURPS/application/group_chat.md)
+**Feature**: [Bindings](/furps/messaging/application/group_chat.md)
 
 **FURPS**:
 
@@ -78,12 +78,12 @@ Further group size scaling and extension of membership management API would be n
 
 **Owner**: App/Chat Dev
 
-#### **Feature**: [Rate Limit Manager](/FURPS/application/rate_limit_manager.md)
+#### **Feature**: [Rate Limit Manager](/furps/messaging/application/rate_limit_manager.md)
 
 **FURPS**:
 - F7. Can consume RLN API to access rate limit and current quota.
 
-#### **Feature**: [Group Chat](/FURPS/application/group_chat.md)
+#### **Feature**: [Group Chat](/furps/messaging/application/group_chat.md)
 
 **FURPS**:
 - S3. SDK can be instantiated with a RLN-enabled Waku node.

@@ -37,7 +37,7 @@ as well as in the browser for PoC Web Apps such as Qaku and Logos Forum.
 
 **Owner**: core research
 
-**Feature**: [SDS](/FURPS/application/sds.md)
+**Feature**: [SDS](/furps/messaging/application/sds.md)
 
 **FURPS**:
 - F1. Ability to know that a published message has been received by at least one member of the group (and could therefore eventually be retrieved by other members).
@@ -55,7 +55,7 @@ For S1. Applied to Communities channels on Status Desktop
 
 **Owner**: chat app dev
 
-**Feature**: [SDS](/FURPS/application/sds.md)
+**Feature**: [SDS](/furps/messaging/application/sds.md)
 
 **FURPS**:
 - F3. Ability to resend unacknowledged messages

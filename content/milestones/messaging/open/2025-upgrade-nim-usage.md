@@ -35,7 +35,7 @@ Note: maybe taken over by Vac-Nim
 
 **Owner**: nwaku
 
-**Feature**: [nwaku](/FURPS/application/nwaku.md)
+**Feature**: [nwaku](/furps/messaging/application/nwaku.md)
 
 **FURPS**:
 - U1. Uses nimble for package management and build.
@@ -65,7 +65,7 @@ Note: maybe taken over by Vac-Nim
 
 **Owner**: nwaku
 
-**Feature**: [Waku SDK](/FURPS/core/waku_sdk.md)
+**Feature**: [Waku SDK](/furps/messaging/core/waku_sdk.md)
 
 **FURPS**:
 - F8. When wrapping the C API, conversion from native types to Protobuf is needed by the wrapper (PoC).
@@ -83,7 +83,7 @@ Note: maybe taken over by Vac-Nim
 
 **Owner**: nwaku
 
-**Feature**: [Nim FFI](/FURPS/application/nim_ffi.md)
+**Feature**: [Nim FFI](/furps/messaging/application/nim_ffi.md)
 
 **FURPS**:
 

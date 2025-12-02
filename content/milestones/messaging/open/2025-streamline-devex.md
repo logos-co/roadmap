@@ -42,13 +42,13 @@ See deliverables.
 
 **Owner**: nim
 
-#### **Feature**: [status-go](/FURPS/application/status_go.md)
+#### **Feature**: [status-go](/furps/messaging/application/status_go.md)
 
 **FURPS**:
 - F2. Nwaku is the used Waku implementation for light mode.
 - S3. Light mode is supported. 
 
-#### **Feature**: [nwaku](/FURPS/application/nwaku.md)
+#### **Feature**: [nwaku](/furps/messaging/application/nwaku.md)
 
 **FURPS**:
 - S6. libwaku support edge node functionalities. 
@@ -63,7 +63,7 @@ See deliverables.
 
 **Owner**: nim
 
-**Feature**: [status-go](/FURPS/application/status_go.md)
+**Feature**: [status-go](/furps/messaging/application/status_go.md)
 
 **FURPS**:
 - S4. Status Mobile binary for Android and iOS.
@@ -81,7 +81,7 @@ See deliverables.
 
 **Owner**: nwaku
 
-**Feature**: [Waku SDK](/FURPS/core/waku_sdk.md)
+**Feature**: [Waku SDK](/furps/messaging/core/waku_sdk.md)
 
 **FURPS**:
 - S4. Rust; available on crates.io.
@@ -96,7 +96,7 @@ See deliverables.
 
 **Owner**: js-waku
 
-**Feature**: [Local Web Dev Harness](/FURPS/application/local_web_dev_harness.md)
+**Feature**: [Local Web Dev Harness](/furps/messaging/application/local_web_dev_harness.md)
 
 **FURPS**:
 
@@ -121,7 +121,7 @@ See deliverables.
 
 **Owner**: nwaku
 
-**Feature**: [Local Dev RLN Harness](/FURPS/application/local_dev_rln_harness.md)
+**Feature**: [Local Dev RLN Harness](/furps/messaging/application/local_dev_rln_harness.md)
 
 **FURPS**:
 - F1. Runs local Ethereum environment.
@@ -142,7 +142,7 @@ See deliverables.
 
 **Owner**: js-waku
 
-**Feature**: [Waku as a Signal Network](/FURPS/application/signal_network.md)
+**Feature**: [Waku as a Signal Network](/furps/messaging/application/signal_network.md)
 
 **FURPS**:
 

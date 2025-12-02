@@ -43,7 +43,7 @@ See deliverables.
 
 **Owner**: ~~App/Chat Dev~~ BI
 
-**Feature**: [Network Metrics Tracker](/FURPS/application/network_metrics_tracker.md)
+**Feature**: [Network Metrics Tracker](/furps/messaging/application/network_metrics_tracker.md)
 
 **FURPS**:
 - all
@@ -52,7 +52,7 @@ See deliverables.
 
 **Owner**: js-waku
 
-**Feature**: [SDS](/FURPS/application/sds.md)
+**Feature**: [SDS](/furps/messaging/application/sds.md)
 
 **FURPS**:
 - all
@@ -69,7 +69,7 @@ For S2. For Web apps as a developer library.
 
 **Owner**: js-waku
 
-**Feature**: [Light Push](/FURPS/core/light_push.md)
+**Feature**: [Light Push](/furps/messaging/core/light_push.md)
 
 **FURPS**:
 - F4. Supports comprehensive error codes for various failure scenarios.
@@ -83,7 +83,7 @@ Spec delivery not included.
 
 **Owner**: js-waku
 
-**Feature**: [Waku SDK](/FURPS/core/waku_sdk.md)
+**Feature**: [Waku SDK](/furps/messaging/core/waku_sdk.md)
 
 **FURPS**: 
 - F1. Setup, start and stop a Waku node.
@@ -112,7 +112,7 @@ For S3. Browser; distribution via npmjs.com.
 
 **Owner**: nwaku
 
-**Feature**: [Waku SDK](/FURPS/core/waku_sdk.md)
+**Feature**: [Waku SDK](/furps/messaging/core/waku_sdk.md)
 
 **FURPS**:
 - F1. Setup, start and stop a Waku node.
@@ -156,7 +156,7 @@ For:
 
 **Owner**: nwaku
 
-**Feature**: [nwaku](/FURPS/application/nwaku.md)
+**Feature**: [nwaku](/furps/messaging/application/nwaku.md)
 
 **FURPS**:
 - S4. QUIC transport is supported for peer-to-peer message routing connections.
@@ -171,7 +171,7 @@ For:
 
 **Owner**: js-waku
 
-**Feature**: [js-waku](/FURPS/application/js-waku.md)
+**Feature**: [js-waku](/furps/messaging/application/js-waku.md)
 
 **FURPS**:
 

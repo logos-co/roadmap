@@ -47,7 +47,7 @@ See deliverables.
 
 **Owner**: nim
 
-**Feature**: [RLN Membership Management](/FURPS/application/rln_membership_management.md)
+**Feature**: [RLN Membership Management](/furps/messaging/application/rln_membership_management.md)
 
 **FURPS**:
 - F1. Can generate RLN credentials.
@@ -76,7 +76,7 @@ See deliverables.
 
 **Owner**: web
 
-**Feature**: [RLN Relay](/FURPS/core/rln_relay.md)
+**Feature**: [RLN Relay](/furps/messaging/core/rln_relay.md)
 
 **FURPS**:
 - F4. Light push client can be configured to generate proof for outbound messages.
@@ -94,7 +94,7 @@ See deliverables.
 
 **Owner**: nim
 
-**Feature**: [RLN Smart Contract](/FURPS/core/rln_smart_contract.md)
+**Feature**: [RLN Smart Contract](/furps/messaging/core/rln_smart_contract.md)
 
 **FURPS**:
 - +1. Smart Contracts are deployed on Status L2 Sepolia.
@@ -110,7 +110,7 @@ See deliverables.
 
 **Owner**: nim
 
-**Feature**: [RLN Smart Contract](/FURPS/core/rln_smart_contract.md)
+**Feature**: [RLN Smart Contract](/furps/messaging/core/rln_smart_contract.md)
 
 **FURPS**:
 - U3. Application does not need to do a Web3 RPC call for every tree change to generate or validate messages.

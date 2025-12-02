@@ -26,7 +26,7 @@ With this milestone, we tackle the lesson learned from dogfooding by:
 
 ## FURPS
 
--  [RLN Membership Management](/FURPS/application/rln_membership_management.md): R1
+-  [RLN Membership Management](/furps/messaging/application/rln_membership_management.md): R1
 
 ## Risks
 
@@ -41,7 +41,7 @@ With this milestone, we tackle the lesson learned from dogfooding by:
 
 **Owner**: js-waku
 
-**Feature**: [RLN Membership Management](/FURPS/application/rln_membership_management.md)
+**Feature**: [RLN Membership Management](/furps/messaging/application/rln_membership_management.md)
 
 **FURPS**:
 - R1. Import and exports are interoperable across all implementations.
@@ -50,7 +50,7 @@ With this milestone, we tackle the lesson learned from dogfooding by:
 
 **Owner**: core research
 
-**Feature**: [ERC-20 Testnet Token for RLN Deposit](/FURPS/application/erc-20_testnet_token_for_rln_deposit.md)
+**Feature**: [ERC-20 Testnet Token for RLN Deposit](/furps/messaging/application/erc-20_testnet_token_for_rln_deposit.md)
 
 **FURPS**:
 - F1. Contract owner can mint tokens to any address for free.
@@ -62,7 +62,7 @@ With this milestone, we tackle the lesson learned from dogfooding by:
 - +1. Deployed on Linea Sepolia.
 - +2. Used as ERC-20 deposit token for Linea Sepolia RLN smart contract deployment.
 
-**Feature**: [RLN Smart Contract](/FURPS/core/rln_smart_contract.md)
+**Feature**: [RLN Smart Contract](/furps/messaging/core/rln_smart_contract.md)
 
 - P2. Rate limit variables, in combination with good defaults on software side, enable around 5,000 registrations.
 
@@ -70,7 +70,7 @@ With this milestone, we tackle the lesson learned from dogfooding by:
 
 **Owner**: core research
 
-**Feature**: [ERC-20 Testnet Token for RLN Deposit](/FURPS/application/erc-20_testnet_token_for_rln_deposit.md)
+**Feature**: [ERC-20 Testnet Token for RLN Deposit](/furps/messaging/application/erc-20_testnet_token_for_rln_deposit.md)
 
 **FURPS**:
 - F4. Eth (Sepolia) is burnt to mint tokens to any address.
