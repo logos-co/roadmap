@@ -12,8 +12,9 @@ based on Karma balance.
 Within this milestone,
 the AnonComms team defined work as a service unit in aid of Status Network's requirements.
 However, the work here will have wider value for the Logos ecosystem,
-not least making RLN more flexible to allow burning multiple message IDs in a single proof,
-and a proven application of RLN for fair-use gasless transactions.
+not least in making RLN more flexible to allow burning multiple message IDs in a single proof,
+deploying a separate RLN prover module,
+and proving the application of RLN for fair-use gasless transactions.
 
 By the end of this milestone,
 we will have extended the RLN proving stack to support the burning of multiple message IDs in a single proof.
