@@ -1,11 +1,11 @@
 ---
 title: Integrate RLN With the Waku API
 tags:
-    - waku-milestone
+    - messaging-milestone
 date: 2025-09-30
 ---
 
-# [Integrate RLN With the Waku API](https://github.com/waku-org/pm/milestone/52)
+# [Implement RLN Membership Management](https://github.com/waku-org/pm/milestone/52)
 
 **Estimated date of completion**: 30 Sep 2025
 
@@ -61,28 +61,9 @@ See deliverables.
 
 - R1. Import and exports are interoperable across all implementations.
 
-- S2. library can be used in Go applications; available on pkg.go.dev.
-- S3. library can be used in Rust applications; import via git path.
+- S2. library available via C-Bindings.
 
 - +2. Available for Linea Sepolia Testnet contracts.
-
-**Checklist**:
-- [ ] Specs: link to specs and/or API definition
-- [ ] Code: link to GitHub issues/PRs/Epic
-- [ ] Dogfood: link to dogfooding session/artefact
-- [ ] Docs: links to README.md or docs.waku.org (TBD)
-
-### [Implement RLN Onchain Tree Proof generation and verification in the Browser](https://github.com/waku-org/pm/issues/354) 
-
-**Owner**: web
-
-**Feature**: [RLN Relay](/furps/messaging/core/rln_relay.md)
-
-**FURPS**:
-- F4. Light push client can be configured to generate proof for outbound messages.
-- F5. Filter client can be configured to verify proof for inbound messages.
-
-- S2. Browser edge nodes can be configured to verify and generate proofs.
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition

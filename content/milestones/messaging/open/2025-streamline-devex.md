@@ -1,7 +1,7 @@
 ---
 title: Streamline DevEx - Mobile, Rust and Web dev
 tags:
-    - waku-milestone
+    - messaging-milestone
 date: 2025-07-03
 ---
 
@@ -81,7 +81,7 @@ See deliverables.
 
 **Owner**: nwaku
 
-**Feature**: [Waku SDK](/furps/messaging/core/waku_sdk.md)
+**Feature**: [Messaging SDK](/furps/messaging/core/messaging_sdk.md)
 
 **FURPS**:
 - S4. Rust; available on crates.io.

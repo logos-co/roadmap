@@ -1,17 +1,17 @@
 ---
 title: Create Chat SDK MVP
 tags:
-    - waku-milestone
+    - messaging-milestone
 date: 2025-06-24
 ---
 
 # [Create Chat SDK MVP](https://github.com/logos-messaging/pm/milestone/45)
 
-**Estimated date of completion**: 30 Sep 2025
+**Estimated date of completion**: 31 Dec 2025
 
 **Resources Required for 2025H2**:
-- 1 App/Chat Researcher 
-- 1 App/Chat Engineers
+- 2 Chat Researcher 
+- 1 Messaging Logos Core Dev for 1 month (c bindings)
 
 The SDK is intentionally minimal—focused solely on proving the usability of the core approach. It supports 1:1 chat with
 out-of-band contact discovery and includes supporting implementations to help developers get up and running quickly.
@@ -23,6 +23,8 @@ interaction speed.
 Motivations for development of a new chat protocol are described [here](https://forum.vac.dev/t/chatsdk-motivations/501).
 
 This milestone is complete when a development preview of the Chat SDK is published and made available to the community.
+
+**A custom Logos messaging network (one node on cluster 42) is spined up for the preview only - no RLN support**. 
 
 ## Risks
 
@@ -86,8 +88,7 @@ This milestone is complete when a development preview of the Chat SDK is publish
 For library ChatSDK:
 - U3. Minimal example of the ChatSDK is no more than 25 lines of code.
 
-- S3. library can be used in Go applications; available on pkg.go.dev.
-- S4. library can be used in Rust applications; import via git path.
+- S3. library can be used via C-Bindings.
 
 ### [Create Segmentation Library](https://github.com/waku-org/pm/issues/318)
 

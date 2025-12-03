@@ -1,7 +1,7 @@
 ---
 title: Introduce E2E Reliability in Status Communities
 tags:
-    - waku-milestone
+    - messaging-milestone
 date: 2024-09-07
 ---
 

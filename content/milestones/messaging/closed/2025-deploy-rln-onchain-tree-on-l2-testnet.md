@@ -1,7 +1,7 @@
 ---
 title: Deploy RLN onchain tree on L2 Testnet
 tags:
-    - waku-milestone
+    - messaging-milestone
 date: 2024-09-07
 ---
 

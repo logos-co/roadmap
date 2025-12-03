@@ -1,7 +1,7 @@
 ---
 title: Scale up number of Communities
 tags:
-    - waku-milestone
+    - messaging-milestone
 date: 2024-09-07
 ---
 EDC: 2025-09-25

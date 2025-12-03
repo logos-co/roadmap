@@ -1,7 +1,7 @@
 ---
 title: Incentivise running a Waku infrastructure node
 tags:
-    - waku-milestone
+    - messaging-milestone
 date: 2024-09-07
 ---
 EDC: 2025-04-30

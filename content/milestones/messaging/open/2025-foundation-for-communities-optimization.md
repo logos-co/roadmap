@@ -1,7 +1,7 @@
 ---
 title: Foundation for Communities Optimization
 tags:
-    - waku-milestone
+    - messaging-milestone
 date: 2024-09-07
 ---
 # [Foundation for Communities Optimisation](https://github.com/waku-org/pm/milestone/31)

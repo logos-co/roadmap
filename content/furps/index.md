@@ -22,7 +22,7 @@ All Waku core FURPS are assumed to be deployed and enabled on The Waku Network.
 - [RLN Smart Contract](messaging/furps/core/rln_smart_contract.md)
 - [Store](messaging/furps/core/store.md)
 - [Store Sync](messaging/furps/core/store_sync.md)
-- [Waku SDK](messaging/furps/core/waku_sdk.md)
+- [Messaging SDK](messaging/furps/core/messaging_sdk.md)
 
 ## Application Protocols
 

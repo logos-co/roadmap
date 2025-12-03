@@ -1,7 +1,7 @@
 ---
 title: Integrate nwaku in status desktop relay mode only
 tags:
-    - waku-milestone
+    - messaging-milestone
 date: 2025-10-17
 ---
 

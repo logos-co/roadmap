@@ -1,7 +1,7 @@
 ---
 title: Introduce Mixnet For Message Sending
 tags:
-    - waku-milestone
+    - messaging-milestone
 date: 2025-09-30
 ---
 Github Milestone: https://github.com/waku-org/pm/milestone/48

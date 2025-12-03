@@ -1,7 +1,7 @@
 ---
 title: Upgrade Waku for the Web
 tags:
-    - waku-milestone
+    - messaging-milestone
 date: 2025-02-10
 ---
 EDC: 2025-04-18

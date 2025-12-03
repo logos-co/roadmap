@@ -1,7 +1,7 @@
 ---
 title: Support Many Platforms
 tags:
-    - waku-milestone
+    - messaging-milestone
 date: 2024-09-07
 lastmod: 2024-09-29
 ---

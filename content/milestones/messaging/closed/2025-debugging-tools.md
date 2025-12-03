@@ -1,7 +1,7 @@
 ---
 title: Debugging Tools
 tags:
-    - waku-milestone
+    - messaging-milestone
 date: 2025-01-09
 ---
 EDC: 2025-06-30

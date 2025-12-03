@@ -1,7 +1,7 @@
 ---
 title: Acquire first 10 customers
 tags:
-    - waku-milestone
+    - messaging-milestone
 date: 2024-09-07
 ---
 # ~~Business Dev - Acquire First 10 Customers~~

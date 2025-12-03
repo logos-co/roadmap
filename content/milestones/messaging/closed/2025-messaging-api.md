@@ -1,7 +1,7 @@
 ---
 title: Messaging API
 tags:
-    - waku-milestone
+    - messaging-milestone
 date: 2025-01-14
 ---
 EDC: 2025-12-19

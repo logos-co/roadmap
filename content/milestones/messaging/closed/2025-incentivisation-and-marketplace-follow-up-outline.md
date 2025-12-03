@@ -1,7 +1,7 @@
 ---
 title: Incentivisation and Marketplace Follow-Up Outline
 tags:
-    - waku-milestone
+    - messaging-milestone
 date: 2025-12-18
 ---
 Github Milestone: https://github.com/waku-org/pm/milestone/51

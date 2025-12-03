@@ -1,7 +1,7 @@
 ---
 title: Add peer discovery to mixnet and support browser
 tags:
-    - waku-milestone
+    - messaging-milestone
 date: 2025-10-21
 ---
 

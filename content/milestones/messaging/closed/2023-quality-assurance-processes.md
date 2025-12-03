@@ -1,7 +1,7 @@
 ---
 title: Quality Assurance processes are in place
 tags:
-    - waku-milestone
+    - messaging-milestone
 date: 2024-09-07
 lastmod: 2024-09-29
 ---

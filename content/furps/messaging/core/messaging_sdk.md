@@ -1,12 +1,12 @@
 ---
-title: Logos-messaging SDK
+title: Messaging SDK
 date: 2025-11-13
 tags:
     - messaging-furps
 ---
 ## Functionality
 
-1. Setup, start and stop a Waku node.
+1. Setup, start and stop a messaging node.
 2. Support edge node operation mode.
 3. Support relay node operation mode.
 4. Does automatic peer discovery based on the node platform and operation mode.

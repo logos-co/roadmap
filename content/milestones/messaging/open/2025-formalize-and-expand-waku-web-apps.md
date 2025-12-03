@@ -1,7 +1,7 @@
 ---
 title: Formalize and Expand Waku Web Apps
 tags:
-    - waku-milestone
+    - messaging-milestone
 date: 2025-12-19
 ---
 

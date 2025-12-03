@@ -1,7 +1,7 @@
 ---
 title: Hardening and scaling foundations for private chats
 tags:
-    - waku-milestone
+    - messaging-milestone
 date: 2025-01-13
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Waku Network Gen 0
 tags:
-    - waku-milestone
+    - messaging-milestone
 date: 2024-09-07
 lastmod: 2024-09-29
 ---

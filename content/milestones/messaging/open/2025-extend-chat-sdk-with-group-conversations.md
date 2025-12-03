@@ -1,17 +1,17 @@
 ---
 title: Extend Chat SDK with Group Conversations
 tags:
-    - waku-milestone
+    - messaging-milestone
 date: 2025-12-18
 ---
 
 # [Extend Chat SDK with Group Conversations](https://github.com/logos-messaging/pm/milestone/50)
 
-**Estimated date of completion**: 19 Dec 2025
+**Estimated date of completion**: TODO
 
-**Resources Required for 2025H2**:
-- 1 App/Chat Research 
-- 1 App/Chat Engineer
+**Resources Required for 2026H1**:
+- 2 Chat Engineers
+- 1 Messaging Logos Core engineer for 1 month (C-Bindings) 
 
 Once done, apps like Status can build a chat experience which includes support for multiple device, and multiple
 participants in a given group chat.
@@ -32,12 +32,13 @@ Further group size scaling and extension of membership management API would be n
 | Schedule/Medium  | Milestone Dependency                                                                                                                                                                               | This milestone is dependent on [ChatSDK - Developer Preview](create_chat_sdk_mvp.md).   Delays there will translate into delays to this milestone.                                                                                                                                                                                                  |
 | Technical/Medium | Lack of NimLibraries                                                                                                                                                                               | There currently does not exist the required libraries in Nim to build group chat. This will involve evaluating the potential of calling an existing library via FFI or implementing it from scratch. This can be mitigated by vetting existing library potential should occur early or finding security reviewers for nim implemented cryptography. |
 | Technical/Low    | Group chat is prone to bugs, even when using existing encryption protocols. Extra time has been allocated to testing and debugging in an effort to mitigate this, however it still remains a risk. | 
+| Technical/High   | SDS and de-MLS/Sender key integration need to be well thoughts due to conflicting message ordering (forward to construct keys, backward to recover messages with SDS)                              | Specific deliverable schedule to design and define integration                                                                                                                                                                                                                                                                                      |                                      
 
 ## Deliverables
 
 ### [Add Group Chat](https://github.com/waku-org/pm/issues/346)
 
-**Owner**: App/Chat Research
+**Owner**: Chat
 
 **Feature**: [Group Chat](/furps/messaging/application/group_chat.md)
 
@@ -59,24 +60,17 @@ Further group size scaling and extension of membership management API would be n
 
 ### [Group Chat Bindings](https://github.com/waku-org/pm/issues/348)
 
-**Owner**: App/Chat Dev
+**Owner**: Chat
 
 **Feature**: [Bindings](/furps/messaging/application/group_chat.md)
 
 **FURPS**:
 
-- S1. Developers can create group conversations from Go Applications; available on pkg.go.dev.
-- S2. Developers can create group conversations from Rust Applications; available on crates.io.
-
-**Checklist**:
-- [ ] Specs: link to specs and/or API definition
-- [ ] Code: link to GitHub issues/PRs/Epic
-- [ ] Dogfood: link to dogfooding session/artefact
-- [ ] Docs: links to README.md or docs.waku.org (TBD)
+- S1. Developers can create group conversations from C-bindings.
 
 ### [Enable usage with RLN SDK](https://github.com/waku-org/pm/issues/347)
 
-**Owner**: App/Chat Dev
+**Owner**: Chat
 
 #### **Feature**: [Rate Limit Manager](/furps/messaging/application/rate_limit_manager.md)
 

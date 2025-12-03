@@ -1,7 +1,7 @@
 ---
 title: Static Sharding - dedicated shards
 tags:
-    - waku-milestone
+    - messaging-milestone
 date: 2024-09-07
 ---
 

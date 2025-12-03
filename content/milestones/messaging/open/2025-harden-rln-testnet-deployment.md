@@ -1,7 +1,7 @@
 ---
 title: Harden RLN Testnet Deployment
 tags:
-    - waku-milestone
+    - messaging-milestone
 date: 2024-09-30
 ---
 
@@ -45,38 +45,3 @@ With this milestone, we tackle the lesson learned from dogfooding by:
 
 **FURPS**:
 - R1. Import and exports are interoperable across all implementations.
-
-### [Minting of (Sepolia) ERC-20 Tokens for RLN Deposits is permissioned](https://github.com/waku-org/pm/issues/334)
-
-**Owner**: core research
-
-**Feature**: [ERC-20 Testnet Token for RLN Deposit](/furps/messaging/application/erc-20_testnet_token_for_rln_deposit.md)
-
-**FURPS**:
-- F1. Contract owner can mint tokens to any address for free.
-- F2. White-listed wallet addresses can mint tokens to any address for free.
-- F3. Contract owner can add or remove wallet addresses to the white-list.
-
-- U1. Token name is `TST`.
-
-- +1. Deployed on Linea Sepolia.
-- +2. Used as ERC-20 deposit token for Linea Sepolia RLN smart contract deployment.
-
-**Feature**: [RLN Smart Contract](/furps/messaging/core/rln_smart_contract.md)
-
-- P2. Rate limit variables, in combination with good defaults on software side, enable around 5,000 registrations.
-
-### [Minting of (Sepolia) ERC-20 Tokens for RLN Deposits Burns Sepolia Eth](https://github.com/waku-org/pm/issues/335)
-
-**Owner**: core research
-
-**Feature**: [ERC-20 Testnet Token for RLN Deposit](/furps/messaging/application/erc-20_testnet_token_for_rln_deposit.md)
-
-**FURPS**:
-- F4. Eth (Sepolia) is burnt to mint tokens to any address.
-
-- U2. Usage of Metamask Faucet (usually 0.1 Linea Sepolia Eth) should enable enough `TST` token minting to acquire 2-3 RLN memberships.
-
-- +1. Deployed on Linea Sepolia.
-- +2. Used as ERC-20 deposit token for Linea Sepolia RLN smart contract deployment.
-

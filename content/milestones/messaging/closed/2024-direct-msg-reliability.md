@@ -1,7 +1,7 @@
 ---
 title: Direct Message Reliability
 tags:
-    - waku-milestone
+    - messaging-milestone
 date: 2024-09-07
 ---
 EDC: 2025-03-30

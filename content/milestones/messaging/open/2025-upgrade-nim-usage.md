@@ -1,7 +1,7 @@
 ---
 title: Upgrade Nim Usage
 tags:
-    - waku-milestone
+    - messaging-milestone
 date: 2025-12-19
 ---
 
@@ -65,7 +65,7 @@ Note: maybe taken over by Vac-Nim
 
 **Owner**: nwaku
 
-**Feature**: [Waku SDK](/furps/messaging/core/waku_sdk.md)
+**Feature**: [Messaging SDK](/furps/messaging/core/messaging_sdk.md)
 
 **FURPS**:
 - F8. When wrapping the C API, conversion from native types to Protobuf is needed by the wrapper (PoC).

@@ -1,7 +1,7 @@
 ---
 title: Logos Web apps
 tags:
-    - waku-milestone
+    - messaging-milestone
 date: 2025-02-10
 ---
 

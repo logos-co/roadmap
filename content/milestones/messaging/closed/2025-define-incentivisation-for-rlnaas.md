@@ -1,11 +1,11 @@
 ---
 title: Define Incentivisation for RLNaaS
 tags:
-    - waku-milestone
+    - messaging-milestone
 date: 2025-07-31
 ---
 
-# [Define Incentivisation for RLNaaS](https://github.com/waku-org/pm/milestone/35)
+# ~~[Define Incentivisation for RLNaaS](https://github.com/waku-org/pm/milestone/35)~~
 
 **Incentivization is now owned by Anon Comms team**
 
