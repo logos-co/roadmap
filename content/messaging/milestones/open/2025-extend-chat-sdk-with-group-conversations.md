@@ -23,13 +23,13 @@ Further group size scaling and extension of membership management API would be n
 
 ## FURPS
 
-[Group Chat](/furps/messaging/application/group_chat.md)
+[Group Chat](/messaging/furps/application/group_chat.md)
 
 ## Risks
 
 | Type/Level       | Risk                                                                                                                                                                                               | (Accept, Own, Mitigation)                                                                                                                                                                                                                                                                                                                           |
 |------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Schedule/Medium  | Milestone Dependency                                                                                                                                                                               | This milestone is dependent on [ChatSDK - Developer Preview](create_chat_sdk_mvp.md).   Delays there will translate into delays to this milestone.                                                                                                                                                                                                  |
+| Schedule/Medium  | Milestone Dependency                                                                                                                                                                               | This milestone is dependent on [ChatSDK - Developer Preview](/messaging/milestones/open/2025-create-chat-sdk-mvp.md).   Delays there will translate into delays to this milestone.                                                                                                                                                                                                  |
 | Technical/Medium | Lack of NimLibraries                                                                                                                                                                               | There currently does not exist the required libraries in Nim to build group chat. This will involve evaluating the potential of calling an existing library via FFI or implementing it from scratch. This can be mitigated by vetting existing library potential should occur early or finding security reviewers for nim implemented cryptography. |
 | Technical/Low    | Group chat is prone to bugs, even when using existing encryption protocols. Extra time has been allocated to testing and debugging in an effort to mitigate this, however it still remains a risk. | 
 | Technical/High   | SDS and de-MLS/Sender key integration need to be well thoughts due to conflicting message ordering (forward to construct keys, backward to recover messages with SDS)                              | Specific deliverable schedule to design and define integration                                                                                                                                                                                                                                                                                      |                                      
@@ -40,7 +40,7 @@ Further group size scaling and extension of membership management API would be n
 
 **Owner**: Chat
 
-**Feature**: [Group Chat](/furps/messaging/application/group_chat.md)
+**Feature**: [Group Chat](/messaging/furps/application/group_chat.md)
 
 **FURPS**:
 
@@ -62,7 +62,7 @@ Further group size scaling and extension of membership management API would be n
 
 **Owner**: Chat
 
-**Feature**: [Bindings](/furps/messaging/application/group_chat.md)
+**Feature**: [Bindings](/messaging/furps/application/group_chat.md)
 
 **FURPS**:
 
@@ -72,12 +72,12 @@ Further group size scaling and extension of membership management API would be n
 
 **Owner**: Chat
 
-#### **Feature**: [Rate Limit Manager](/furps/messaging/application/rate_limit_manager.md)
+#### **Feature**: [Rate Limit Manager](/messaging/furps/application/rate_limit_manager.md)
 
 **FURPS**:
 - F7. Can consume RLN API to access rate limit and current quota.
 
-#### **Feature**: [Group Chat](/furps/messaging/application/group_chat.md)
+#### **Feature**: [Group Chat](/messaging/furps/application/group_chat.md)
 
 **FURPS**:
 - S3. SDK can be instantiated with a RLN-enabled Waku node.

@@ -26,7 +26,7 @@ With this milestone, we tackle the lesson learned from dogfooding by:
 
 ## FURPS
 
--  [RLN Membership Management](/furps/messaging/application/rln_membership_management.md): R1
+-  [RLN Membership Management](/messaging/furps/application/rln_membership_management.md): R1
 
 ## Risks
 
@@ -41,7 +41,7 @@ With this milestone, we tackle the lesson learned from dogfooding by:
 
 **Owner**: js-waku
 
-**Feature**: [RLN Membership Management](/furps/messaging/application/rln_membership_management.md)
+**Feature**: [RLN Membership Management](/messaging/furps/application/rln_membership_management.md)
 
 **FURPS**:
 - R1. Import and exports are interoperable across all implementations.

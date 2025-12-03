@@ -5,7 +5,7 @@ tags:
 date: 2024-09-07
 ---
 
-## Milestone: [Demonstrate product market-fit](milestones/messaging/closed/2024-demonstrate-product-market-fit.md)
+## Milestone: Demonstrate product market-fit
 
 To demonstrate the viability of Waku as a self-sustainable independent project, user traction and market fitness must be proven. Validation against the market of Waku’s technology and potential USP is needed.
 

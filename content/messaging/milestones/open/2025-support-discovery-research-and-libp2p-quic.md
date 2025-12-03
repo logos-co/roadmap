@@ -29,7 +29,7 @@ Proceed with several items to support internal teams.
 
 **Owner**: nim
 
-**Feature**: [nwaku](/furps/messaging/application/nwaku.md)
+**Feature**: [nwaku](/messaging/furps/application/nwaku.md)
 
 **FURPS**:
 - S4. QUIC transport is supported for peer-to-peer message routing connections.
@@ -38,7 +38,7 @@ Proceed with several items to support internal teams.
 
 **Owner**: nim
 
-**Feature**: [nwaku](/furps/messaging/application/nwaku.md)
+**Feature**: [nwaku](/messaging/furps/application/nwaku.md)
 
 **FURPS**:
 

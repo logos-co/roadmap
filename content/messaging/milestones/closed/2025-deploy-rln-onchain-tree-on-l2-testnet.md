@@ -27,7 +27,7 @@ This is the first step to providing a sustainable way to scale the Status applic
 Logos Vision: Core Values Alignment
 
 ## FURPS
-- [Incentivisation](/furps/messaging/core/incentivisation.md): F1-3, U1-2, R1-3, P1, for S1
+- [Incentivisation](/messaging/furps/core/incentivisation.md): F1-3, U1-2, R1-3, P1, for S1
 
 ## Risks
 

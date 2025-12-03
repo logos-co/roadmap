@@ -40,7 +40,7 @@ to build over Waku.
 
 **Owner**: App/Chat Dev
 
-**Feature**: [Waku Forum](/furps/messaging/application/forum.md)
+**Feature**: [Waku Forum](/messaging/furps/application/forum.md)
 
 **FURPS**:
 - F1-11
@@ -57,7 +57,7 @@ to build over Waku.
 
 **Owner**: App/Chat Dev
 
-**Feature**: [Codex Archiving PoC](/furps/messaging/application/codex_archiving.md)
+**Feature**: [Codex Archiving PoC](/messaging/furps/application/codex_archiving.md)
 
 **FURPS**:
 
@@ -82,7 +82,7 @@ to build over Waku.
 
 **Owner**: App/Chat Dev 
 
-**Feature**: [Qaku](/furps/messaging/application/qaku.md)
+**Feature**: [Qaku](/messaging/furps/application/qaku.md)
 
 **FURPS**: (see GitHub [issue](https://github.com/waku-org/pm/issues/292))
 - F1-21
@@ -143,7 +143,7 @@ to build over Waku.
 
 **Owner**: App/Chat Dev
 
-**Feature**: [Waku Forum](/furps/messaging/application/forum.md)
+**Feature**: [Waku Forum](/messaging/furps/application/forum.md)
 
 **FURPS**:
 - F2. Only users owning Logos ordinal or an ENS can create a cell.

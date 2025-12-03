@@ -1,21 +1,48 @@
 ---
-title: ""
+title: README
+date: 2025-11-13
 ---
-This site attempts to inform the previous, current, and future work required to fulfill the requirements of Logos components.
-To learn more about the motivation, please visit the [Logos Site](https://logos.co).
+# Waku FURPS
 
-This site is an ongoing work in progress. The links within are an attempt to capture a lot of moving targets.
-This means that the information here may or may not be the bleeding edge of what is true with respect to the development within the Logos components.
-Your use of this Website is subject to the following [[terms-of-use|terms of use]] which we ask you to read carefully prior to your use of the Website.
+Some FURPS statement may contain the following postfixes:
 
-You an read more about the contents of a given milestone and the various justifications for that content in [[what-is-a-milestone|What is a Milestone]]. 
+- (**Vac-DST**): Simulations to attest of this statement.
+- (**Vac-QA**): Additional test coverage by Vac-QA to verify this statement.
 
-## Navigation
+All Waku core FURPS are assumed to be deployed and enabled on The Waku Network.
 
-### Logos components
+## Core Protocols
 
-- [[logoscore/index|Logos Core]]
-- [[anoncomms/index|AnonComms]]
-- [[blockchain/index|Blockchain]]
-- [[messaging/index|Messaging]]
-- [[storage/index|Storage]]
+- [Incentivisation](/messaging/furps/core/incentivisation.md)
+- [Light Push](/messaging/furps/core/light_push.md)
+- [Mix](/messaging/furps/core/mix.md)
+- [Rendezvous](/messaging/furps/core/rendezvous.md)
+- [RLN Relay](/messaging/furps/core/rln_relay.md)
+- [RLN Smart Contract](/messaging/furps/core/rln_smart_contract.md)
+- [Store](/messaging/furps/core/store.md)
+- [Store Sync](/messaging/furps/core/store_sync.md)
+- [Messaging SDK](/messaging/furps/core/messaging_sdk.md)
+
+## Application Protocols
+
+- [Chat SDK](/messaging/furps/application/chat_sdk.md)
+- [Codex Archiving](/messaging/furps/application/codex_archiving.md)
+- [Forum](/messaging/furps/application/forum.md)
+- [Group Chat](/messaging/furps/application/group_chat.md)
+- [js-waku](/messaging/furps/application/js-waku.md)
+- [Local Dev RLN Harness](/messaging/furps/application/local_dev_rln_harness.md)
+- [Local Web Dev Harness](/messaging/furps/application/local_web_dev_harness.md)
+- [Network Metrics Tracker](/messaging/furps/application/network_metrics_tracker.md)
+- [Nim FFI](/messaging/furps/application/nim_ffi.md)
+- [nwaku](/messaging/furps/application/nwaku.md)
+- [P2P Reliability](/messaging/furps/application/p2p_reliability.md)
+- [Qaku](/messaging/furps/application/qaku.md)
+- [Rate Limit Manager](/messaging/furps/application/rate_limit_manager.md)
+- [RLN Membership Management](/messaging/furps/application/rln_membership_management.md)
+- [Scalable Data Sync](/messaging/furps/application/sds.md)
+- [Segmentation](/messaging/furps/application/segmentation.md)
+- [Signal Network](/messaging/furps/application/signal_network.md)
+- [Status Communities](/messaging/furps/application/status_communities.md)
+- [status-go](/messaging/furps/application/status_go.md)
+- [Status Private Chats](/messaging/furps/application/status_private_chats.md)
+- [ERC-20 Testnet Token for RLN Deposit](/messaging/furps/application/erc-20_testnet_token_for_rln_deposit.md)

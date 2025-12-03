@@ -37,7 +37,7 @@ This milestone is complete when a development preview of the Chat SDK is publish
 
 ## FURPS
 
-[ChatSDK](/furps/messaging/application/chat_sdk.md)
+[ChatSDK](/messaging/furps/application/chat_sdk.md)
 
 ## Risks
 
@@ -51,7 +51,7 @@ This milestone is complete when a development preview of the Chat SDK is publish
 
 **Owner**: Chat
 
-**Feature**: [Chat SDK](/furps/messaging/application/chat_sdk.md)
+**Feature**: [Chat SDK](/messaging/furps/application/chat_sdk.md)
 
 **FURPS**:
 - F1. Accounts can be created in a permission-less way, to communicate on the network.
@@ -79,7 +79,7 @@ This milestone is complete when a development preview of the Chat SDK is publish
 
 **Owner**: Chat
 
-**Feature**: [Chat SDK](/furps/messaging/application/chat_sdk.md)
+**Feature**: [Chat SDK](/messaging/furps/application/chat_sdk.md)
 
 **Dependencies**: [ChatSDK - Developer Preview ]
 
@@ -94,7 +94,7 @@ For library ChatSDK:
 
 **Owner**: Chat
 
-**Feature**: [Segmentation](/furps/messaging/application/segmentation.md)
+**Feature**: [Segmentation](/messaging/furps/application/segmentation.md)
 
 **FURPS**:
 - F1. Outbound messages larger than the maximum Waku message size are partitioned in several messages to fit in Waku messages.
@@ -120,7 +120,7 @@ For library ChatSDK:
 
 **Owner**: Chat
 
-**Feature**: [Rate Limit Manager](/furps/messaging/application/rate_limit_manager.md)
+**Feature**: [Rate Limit Manager](/messaging/furps/application/rate_limit_manager.md)
 
 **FURPS**:
 - F1. Rate limit the number of messages passed to the delivery service.

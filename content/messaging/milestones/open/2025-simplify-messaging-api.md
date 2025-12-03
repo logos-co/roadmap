@@ -33,7 +33,7 @@ Finally, RLNaaS is introduced in nim-messaging, to enable Chat dogfooding on TWN
 
 **Owner**: nim
 
-**Feature**: [Messaging SDK](/furps/messaging/core/messaging_sdk.md)
+**Feature**: [Messaging SDK](/messaging/furps/core/messaging_sdk.md)
 
 **FURPS**:
 - F1. Setup, start and stop a Messaging node.
