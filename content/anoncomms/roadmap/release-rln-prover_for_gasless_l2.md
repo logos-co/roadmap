@@ -1,4 +1,4 @@
-# Release RLN Prover for gasless L2 transactions
+# [Release RLN Prover for gasless L2 transactions](https://github.com/logos-co/anoncomms-pm/milestone/4)
 
 **Estimated date of completion**: 31 January 2026
 
@@ -30,7 +30,7 @@ culminating in a whitepaper describing the RLN prover approach to gasless L2 tra
 
 ## Deliverables
 
-### Allow multiple RLN provers to share a database
+### [Allow multiple RLN provers to share a database](https://github.com/logos-co/anoncomms-pm/issues/11)
 
 **Owner**: AnonComms Zerokit-RLN
 
@@ -65,7 +65,7 @@ culminating in a whitepaper describing the RLN prover approach to gasless L2 tra
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### Write whitepaper on gasless L2 transactions
+### [Write whitepaper on gasless L2 transactions](https://github.com/logos-co/anoncomms-pm/issues/12)
 
 **Owner**: AnonComms Zerokit-RLN
 

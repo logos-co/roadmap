@@ -1,4 +1,4 @@
-# Deliver public Zerokit 1.0 API with big-endian support
+# [Deliver public Zerokit 1.0 API with big-endian support](https://github.com/logos-co/anoncomms-pm/milestone/6)
 
 **Estimated date of completion**: 31 January 2026
 
@@ -11,7 +11,7 @@ that focus on RLN, developed in Rust, is intended for integration with various s
 Previously, we released Zerokit v0.9.0, which supports improved CI, optimized,
 partially BE support and research on FFI improvements.
 By the end of this milestone, we will deliver Zerokit v1 and begin advancing the next version.
-This includes big-endian support, an improved FFI interface and multi-id burnt support.
+This includes big-endian support and an improved FFI interface.
 
 ## Risks
 
@@ -21,7 +21,7 @@ This includes big-endian support, an improved FFI interface and multi-id burnt s
 
 ## Deliverables
 
-### Rework Zerokit WASM FFI
+### [Rework Zerokit WASM FFI](https://github.com/logos-co/anoncomms-pm/issues/7)
 
 **Owner**: AnonComms Zerokit-RLN
 
@@ -38,7 +38,7 @@ This includes big-endian support, an improved FFI interface and multi-id burnt s
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### Rework Zerokit Public API
+### [Rework Zerokit Public API](https://github.com/logos-co/anoncomms-pm/issues/8)
 
 **Owner**: AnonComms Zerokit-RLN
 
