@@ -1,4 +1,4 @@
-# Establish libp2p mixnet for Logos Core
+# [Establish libp2p mixnet for Logos Core](https://github.com/logos-co/anoncomms-pm/milestone/2)
 
 **Estimated date of completion**: 31 Mar 2026
 
@@ -33,7 +33,7 @@ Next steps not yet included in this milestone (see [Roadmap deliverable](#publis
 
 ## Deliverables 
 
-### Specify DoS and Sybil protection protocol for libp2p mix
+### [Specify DoS and Sybil protection protocol for libp2p mix](https://github.com/logos-co/anoncomms-pm/issues/9)
 
 **Owner**: AnonComms Mix
 

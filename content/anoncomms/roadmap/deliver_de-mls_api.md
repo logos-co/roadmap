@@ -1,4 +1,4 @@
-# Deliver de-MLS API supporting multi-stewards and advanced group management
+# [Deliver de-MLS API supporting multi-stewards and advanced group management](https://github.com/logos-co/anoncomms-pm/milestone/3)
 
 **Estimated date of completion**: 31 January 2026
 
@@ -30,7 +30,7 @@ Next steps not yet included in this milestone, include:
 
 ## Deliverables
 
-### Specify multi-steward and advanced group management protocol
+### [Specify multi-steward and advanced group management protocol](https://github.com/logos-co/anoncomms-pm/issues/6)
 
 **Owner**: AnonComms de-MLS
 
@@ -67,7 +67,7 @@ Next steps not yet included in this milestone, include:
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### Specify and implement de-MLS API
+### [Specify and implement de-MLS API](https://github.com/logos-co/anoncomms-pm/issues/5)
 
 **Owner**: AnonComms de-MLS
 
@@ -101,7 +101,7 @@ Next steps not yet included in this milestone, include:
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### Separate Hashgraph-like consensus crate
+### [Separate Hashgraph-like consensus crate](https://github.com/logos-co/anoncomms-pm/issues/4)
 
 **Owner**: AnonComms de-MLS
 

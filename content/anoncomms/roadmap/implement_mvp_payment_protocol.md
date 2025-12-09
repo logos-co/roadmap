@@ -1,4 +1,4 @@
-# Implement MVP payment protocol
+# [Implement MVP payment protocol](https://github.com/logos-co/anoncomms-pm/milestone/5)
 
 **Estimated date of completion**: 31 Mar 2026
 
@@ -20,7 +20,7 @@ By the end of this milestone, we will have specified and implemented a privacy-p
 
 ## Deliverables
 
-### Specify MVP payment protocol
+### [Specify MVP payment protocol](https://github.com/logos-co/anoncomms-pm/issues/10)
 
 **Owner**: AnonComms Incentivisation
 
