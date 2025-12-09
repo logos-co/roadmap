@@ -1,7 +1,7 @@
 ---
-title: Nomos Roadmap Overview
+title: Blockchain Roadmap Overview
 tags:
-  - nomos
+  - Blockchain
   - Roadmap
   - overview
 lastmod: 2023-10-12
