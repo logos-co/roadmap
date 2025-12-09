@@ -15,7 +15,7 @@ You an read more about the contents of a given milestone and the various justifi
 ### Logos components
 
 - [[logoscore/index|Logos Core]]
+- [[anoncomms/index|AnonComms]]
 - [[blockchain/index|Blockchain]]
 - [[messaging/index|Messaging]]
 - [[storage/index|Storage]]
-- [[anoncomms/index|AnonComms]]
