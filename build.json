@@ -1,15 +1,15 @@
 {
-    "timestamp": "2025-12-10T00:19:50Z",
+    "timestamp": "2025-12-10T05:16:12Z",
     "git": {
-        "commit": "490f3dae9a4caeebb277c8b27f4742e5d30e949a",
+        "commit": "42630f1704c5536a54c631e0fe80cdf28a0a9492",
         "branch": "origin/v4",
         "url": "git@github.com:logos-co/roadmap.git"
     },
     "build": {
-        "id": "830",
-        "number": "830",
+        "id": "831",
+        "number": "831",
         "name": "website/roadmap.logos.co",
         "slave": "linux-01",
-        "url": "https://ci.infra.status.im/job/website/job/roadmap.logos.co/830/"
+        "url": "https://ci.infra.status.im/job/website/job/roadmap.logos.co/831/"
     }
 }
