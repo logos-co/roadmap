@@ -1,11 +1,11 @@
 ---
-title: API access to P2P Reliability
+title: API access to P2P Reliability for Desktop
 tags:
     - messaging-milestone
 date: 2025-07-03
 ---
 
-# [API access to P2P Reliability](https://github.com/logos-messaging/pm/milestone/46)
+# [API access to P2P Reliability for Desktop](https://github.com/logos-messaging/pm/milestone/46)
 
 (prev. *Simplify Messaging API*)
 

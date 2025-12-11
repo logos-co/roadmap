@@ -11,7 +11,7 @@ In order of priority **and** execution.
 
 - [Create Chat SDK MVP](/messaging/milestones/open/2025-create-chat-sdk-mvp.md)
 - [Extend Chat SDK with Group Conversations](/messaging/milestones/open/2025-extend-chat-sdk-with-group-conversations.md)
-- [API access to P2P Reliability](/messaging/milestones/open/2025-api-access-to-p2p-reliability.md)
+- [API access to P2P Reliability for Desktop](/messaging/milestones/open/2025-api-access-to-p2p-reliability-for-desktop.md)
 - [Package SDS in Reliable Channel API](/messaging/milestones/open/2025-package-sds-in-reliable-channel-api.md)
 - [Enable easy C-Bindings for Desktop](/messaging/milestones/open/2025-enable-easy-c-bindings-for-desktop.md)
 
