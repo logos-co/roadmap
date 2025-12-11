@@ -27,7 +27,7 @@ Proceed with several items to support internal teams.
 
 ### [Trial QUIC](https://github.com/waku-org/pm/issues/324)
 
-**Owner**: nim
+**Owner**: Nim Messaging Team
 
 **Feature**: [nwaku](/messaging/furps/application/nwaku.md)
 
@@ -36,7 +36,7 @@ Proceed with several items to support internal teams.
 
 ### Make Discovery Pluggable
 
-**Owner**: nim
+**Owner**: Nim Messaging Team
 
 **Feature**: [nwaku](/messaging/furps/application/nwaku.md)
 

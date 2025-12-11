@@ -49,7 +49,7 @@ This milestone is complete when a development preview of the Chat SDK is publish
 
 ### [ChatSDK Developer Preview](https://github.com/waku-org/pm/issues/316)
 
-**Owner**: Chat
+**Owner**: Chat Team
 
 **Feature**: [Chat SDK](/messaging/furps/application/chat_sdk.md)
 
@@ -77,7 +77,7 @@ This milestone is complete when a development preview of the Chat SDK is publish
 
 ### [ChatSDK Bindings](https://github.com/waku-org/pm/issues/317)
 
-**Owner**: Chat
+**Owner**: Chat Team
 
 **Feature**: [Chat SDK](/messaging/furps/application/chat_sdk.md)
 
@@ -92,7 +92,7 @@ For library ChatSDK:
 
 ### [Create Segmentation Library](https://github.com/waku-org/pm/issues/318)
 
-**Owner**: Chat
+**Owner**: Chat Team
 
 **Feature**: [Segmentation](/messaging/furps/application/segmentation.md)
 
@@ -118,7 +118,7 @@ For library ChatSDK:
 
 ### [Create Rate Limit Manager](https://github.com/waku-org/pm/issues/319)
 
-**Owner**: Chat
+**Owner**: Chat Team
 
 **Feature**: [Rate Limit Manager](/messaging/furps/application/rate_limit_manager.md)
 

@@ -45,7 +45,7 @@ See deliverables.
 
 ### [Implement RLN membership management in nwaku library](https://github.com/waku-org/pm/issues/353)
 
-**Owner**: nim
+**Owner**: Nim Messaging Team
 
 **Feature**: [RLN Membership Management](/messaging/furps/application/rln_membership_management.md)
 
@@ -73,7 +73,7 @@ See deliverables.
 
 ### [Deploy RLN Contracts to Status L2 testnet](https://github.com/waku-org/pm/issues/356)
 
-**Owner**: nim
+**Owner**: Nim Messaging Team
 
 **Feature**: [RLN Smart Contract](/messaging/furps/core/rln_smart_contract.md)
 
@@ -89,7 +89,7 @@ See deliverables.
 
 ### [Improve RLN UX by reducing contract interactions](https://github.com/waku-org/pm/issues/344)
 
-**Owner**: nim
+**Owner**: Nim Messaging Team
 
 **Feature**: [RLN Smart Contract](/messaging/furps/core/rln_smart_contract.md)
 

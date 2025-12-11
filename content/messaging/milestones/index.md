@@ -1,56 +1,47 @@
 ---
-title: Waku Milestones
-date: 2025-10-21
-lastmod: 2025-11-28
+title: Messaging Roadmap Overview
+date: 2025-12-10
 ---
-
 
 # Messaging Roadmap Overview
 
-## Primary Goal: Chat SDK
+In order of priority **and** execution.
+
+## 1. Logos Launch Critical
 
 - [Create Chat SDK MVP](/messaging/milestones/open/2025-create-chat-sdk-mvp.md)
 - [Extend Chat SDK with Group Conversations](/messaging/milestones/open/2025-extend-chat-sdk-with-group-conversations.md)
-- [Simplify Messaging API](/messaging/milestones/open/2025-simplify-messaging-api.md)
-- De-Risk RLN UX - Unclear how - best if can use wallet in Logos Core
-- [Implement RLN membership management](/messaging/milestones/open/2025-integrate-rln-with-the-waku-api.md)
-- Add Message Recovery to Chat SDK (via Reliable Channel API)
+- [API access to P2P Reliability](/messaging/milestones/open/2025-api-access-to-p2p-reliability.md)
+- [Package SDS in Reliable Channel API](/messaging/milestones/open/2025-pacakge-sds-in-reliable-channel-api.md)
+- [Enable easy C-Bindings for Desktop](/messaging/milestones/open/2025-enable-easy-c-bindings-for-desktop.md)
 
-## For Status
-
-- [Foundation for Communities Optimization](/messaging/milestones/open/2025-foundation-for-communities-optimization.md)
-  Code down, coordinating PR merge for smooth migration
-- [Introduce E2E Reliability in Status Communities](/messaging/milestones/open/2024-e2e-reliability-protocol.md)
-  Close to completion
-- [Integrate nwaku in status desktop relay mode only](/messaging/milestones/open/2024-nwaku-in-status-desktop.md)
-  Work continues
-- [Nwaku in Status Mobile and Light Mode MVP](/messaging/milestones/open/2025-nwaku-in-status-mobile.md)
-  Work continues, some of it covered with Messaging API Work
- 
-## For Anon Comms / Libp2p
+## 2. Logos Post-Launch Priority
 
 - [Support Discovery Research and Libp2p QUIC](/messaging/milestones/open/2025-support-discovery-research-and-libp2p-quic.md)
+- [Add Edge Mode to Messaging API](/messaging/milestones/open/2025-add-edge-mode-to-messaging-api.md)
+- [Enable easy C-Bindings for Mobile](/messaging/milestones/open/2025-enable-easy-c-bindings-for-mobile.md)
+- [Messaging and Chat on Mobile](/messaging/milestones/open/2025-messaging-chat-on-mobile.md)
 
-## Web Work Proposal: Activity Hub Stream
+## 3. Ecosystem and Security
 
-Assuming all within Logos Core context (QtWebView/QtWebEngine) - no browser support
+### RLN
 
-- Migrate Logos Forum lib to use logos-lib-js (Opchan UI as PoC)
-- Add storage support to Logos Forum lib (if storage module ready)
-- Identify specific Dev Journey items for which forum lib is a good solution (eg idea.logos.co)
-- Provide solution for Logos Circles CMS (e.g. push reports, message board)
+- [Implement RLN membership management](/messaging/milestones/open/2025-integrate-rln-with-the-waku-api.md)
+- Port RLN to Logos Blockchain
 
-## To tidy up
+### Status
 
-- [Formalize and Expand Waku Web Apps](/messaging/milestones/open/2025-formalize-and-expand-waku-web-apps.md)
-- [Streamline DevEx: Mobile, Rust and Web dev](/messaging/milestones/open/2025-streamline-devex.md)
-- [Upgrade Nim Usage](/messaging/milestones/open/2025-upgrade-nim-usage.md)
-- [Logos Web apps](/messaging/milestones/open/2025-logos-web-apps.md)
+- [Foundation for Communities Optimization](/messaging/milestones/open/2025-foundation-for-communities-optimization.md)
+- [Integrate nwaku in status desktop relay mode only](/messaging/milestones/open/2024-nwaku-in-status-desktop.md)
+- [Introduce E2E Reliability in Status Communities](/messaging/milestones/open/2024-e2e-reliability-protocol.md)
+- [Nwaku in Status Mobile and Light Mode MVP](/messaging/milestones/open/2025-nwaku-in-status-mobile.md)
 
 # Chronological
 
 ## H2 2025
 
+- [Streamline DevEx: Mobile, Rust and Web dev](/messaging/milestones/closed/2025-streamline-devex.md)
+- [Formalize and Expand Waku Web Apps](/messaging/milestones/closed/2025-formalize-and-expand-waku-web-apps.md)
 - [Create Chat SDK MVP](/messaging/milestones/open/2025-create-chat-sdk-mvp.md)
 - [Extend Chat SDK with Group Conversations](/messaging/milestones/open/2025-extend-chat-sdk-with-group-conversations.md)
 - [Formalize and Expand Waku Web Apps](/messaging/milestones/open/2025-formalize-and-expand-waku-web-apps.md)
@@ -58,7 +49,7 @@ Assuming all within Logos Core context (QtWebView/QtWebEngine) - no browser supp
 - [Improve DevEx: API, TWN, Metrics, Docs](/messaging/milestones/open/2025-improve-devex.md)
 - [Integrate RLN With the Waku API](/messaging/milestones/open/2025-integrate-rln-with-the-waku-api.md)
 - [Streamline DevEx: Mobile, Rust and Web dev](/messaging/milestones/open/2025-streamline-devex.md)
-- [Upgrade Nim Usage](/messaging/milestones/open/2025-upgrade-nim-usage.md)
+- [Enable easy C-Bindings for Desktop](/messaging/milestones/open/2025-enable-easy-c-bindings-for-desktop.md)
 
 ## H1 2025
 

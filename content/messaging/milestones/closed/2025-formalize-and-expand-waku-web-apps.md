@@ -7,6 +7,8 @@ date: 2025-12-19
 
 Github Milestone: https://github.com/waku-org/pm/milestone/42
 
+**Dropped - all browser technologies are shelved - Logos Core mini app creation out of this scope for messaging**
+
 # Logos Web Apps
 
 **Estimated date of completion**: 19 Dec 2025

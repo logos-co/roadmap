@@ -35,8 +35,9 @@ tags:
 ## Supportability
 
 1. Developers can use the SDK in nim software, importing it via git path.
-2. Developers can use the SDK via C API
+2. Developers can use the SDK via C API.
 3. Developers can use the SDK in Browser software, importing it from npmjs.com.
+4. Developers can use the SDK in Rust applications, available on crates.io.
 
 ## + (Privacy, Anonymity, Deployments)
 

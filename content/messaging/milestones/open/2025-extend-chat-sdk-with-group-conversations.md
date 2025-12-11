@@ -38,7 +38,7 @@ Further group size scaling and extension of membership management API would be n
 
 ### [Add Group Chat](https://github.com/waku-org/pm/issues/346)
 
-**Owner**: Chat
+**Owner**: Chat Team
 
 **Feature**: [Group Chat](/messaging/furps/application/group_chat.md)
 
@@ -60,7 +60,7 @@ Further group size scaling and extension of membership management API would be n
 
 ### [Group Chat Bindings](https://github.com/waku-org/pm/issues/348)
 
-**Owner**: Chat
+**Owner**: Chat Team
 
 **Feature**: [Bindings](/messaging/furps/application/group_chat.md)
 
@@ -70,7 +70,7 @@ Further group size scaling and extension of membership management API would be n
 
 ### [Enable usage with RLN SDK](https://github.com/waku-org/pm/issues/347)
 
-**Owner**: Chat
+**Owner**: Chat Team
 
 #### **Feature**: [Rate Limit Manager](/messaging/furps/application/rate_limit_manager.md)
 

@@ -5,6 +5,8 @@ tags:
 date: 2025-07-03
 ---
 
+**Dropped with new focus on Logos Launch**
+
 # [Streamline DevEx: Mobile, Rust and Web dev](https://github.com/waku-org/pm/milestone/47)
 
 **Estimated date of completion**: 30 Nov 2025
@@ -38,48 +40,9 @@ See deliverables.
 
 ## Deliverables
 
-### [Edge Mode in Nwaku](https://github.com/waku-org/pm/issues/357)
-
-**Owner**: nim
-
-#### **Feature**: [status-go](/messaging/furps/application/status_go.md)
-
-**FURPS**:
-- F2. Nwaku is the used Waku implementation for light mode.
-- S3. Light mode is supported. 
-
-#### **Feature**: [nwaku](/messaging/furps/application/nwaku.md)
-
-**FURPS**:
-- S6. libwaku support edge node functionalities. 
-
-**Checklist**:
-- [ ] Specs: link to specs and/or API definition
-- [ ] Code: link to GitHub issues/PRs/Epic
-- [ ] Dogfood: link to dogfooding session/artefact
-- [ ] Docs: links to README.md or docs.waku.org (TBD)
-
-### [Nwaku in Status Mobile](https://github.com/waku-org/pm/issues/358)
-
-**Owner**: nim
-
-**Feature**: [status-go](/messaging/furps/application/status_go.md)
-
-**FURPS**:
-- S4. Status Mobile binary for Android and iOS.
-- S5. Status Tablet binary for Android and iOS. 
-
-- +2. Status Mobile and Tablet CI builds binaries with nwaku, alongside go-waku-based binaries.
-
-**Checklist**:
-- [ ] Specs: link to specs and/or API definition
-- [ ] Code: link to GitHub issues/PRs/Epic
-- [ ] Dogfood: link to dogfooding session/artefact
-- [ ] Docs: links to README.md or docs.waku.org (TBD)
-
 ### [Waku Rust SDK](https://github.com/waku-org/pm/issues/289)
 
-**Owner**: nwaku
+**Owner**: Nim Messaging Team
 
 **Feature**: [Messaging SDK](/messaging/furps/core/messaging_sdk.md)
 
@@ -119,7 +82,7 @@ See deliverables.
 
 ### [Local Dev RLN Harness](https://github.com/waku-org/pm/issues/360)
 
-**Owner**: nwaku
+**Owner**: Nim Messaging Team
 
 **Feature**: [Local Dev RLN Harness](/messaging/furps/application/local_dev_rln_harness.md)
 
