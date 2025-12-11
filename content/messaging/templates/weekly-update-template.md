@@ -65,7 +65,7 @@ tags:
   - next:
   - blockers:
 
-## [Improve DevEx: API, TWN, Metrics, Docs](/messaging/milestones/open/2025-improve-devex.md)
+## [Improve DevEx: API, TWN, Metrics, Docs](/messaging/milestones/closed/2025-improve-devex.md)
 
 - [[Deliverable] Global Network Metrics](https://github.com/waku-org/pm/issues/295)
   - achieved:
@@ -104,7 +104,7 @@ tags:
   - next:
   - blockers:
 
-## [Streamline DevEx: Mobile, Rust and Web dev](/messaging/milestones/open/2025-streamline-devex-mobile-rust-and-web-dev.md)
+## [Streamline DevEx: Mobile, Rust and Web dev](/messaging/milestones/closed/2025-streamline-devex.md)
 
 - [[Deliverable] Waku Rust SDK](https://github.com/waku-org/pm/issues/289)
   - achieved:
@@ -133,7 +133,7 @@ tags:
   - next:
   - blockers:
 
-## [Formalize and Expand Waku Web Apps](/messaging/milestones/open/2025-formalize-and-expand-waku-web-apps.md)
+## [Formalize and Expand Waku Web Apps](/messaging/milestones/closed/2025-formalize-and-expand-waku-web-apps.md)
 
 - [[Deliverable] Forum PoC](https://github.com/waku-org/pm/issues/292)
   - achieved:

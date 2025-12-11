@@ -43,6 +43,6 @@ either removed or disabled by default to ensure accurate testing and evaluation.
 1. **Specify Private Chat Protocol**: We stop the exercise here, meaning that we don't formally update/add to Status specs/RFC.
    A justification to write a new protocol stack has been [published](https://forum.vac.dev/t/chatsdk-motivations/501). 
 2. **Private chat rate limit PoC**: Dropped due to higher effort and lower value than anticipated, due to the move towards a new chat protocol. 
-3. **Global Network Metrics**: Moved to a new milestone - [Improve DevEx: API, TWN, Metrics, Docs](/messaging/milestones/open/2025-improve-devex.md). 
+3. **Global Network Metrics**: Moved to a new milestone - [Improve DevEx: API, TWN, Metrics, Docs](/messaging/milestones/closed/2025-improve-devex.md). 
 4. **Baseline benchmarks**: Handing over to Vac/DST
 5. **status-cli**: Handing over to Vac/QA

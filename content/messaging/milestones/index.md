@@ -54,7 +54,7 @@ In order of priority **and** execution.
 ## H1 2025
 
 - [Foundation for Communities Optimization](/messaging/milestones/open/2025-foundation-for-communities-optimization.md)
-- [Logos Web apps](/messaging/milestones/open/2025-logos-web-apps.md)
+- [Formalize and Expand Waku Web Apps](/messaging/milestones/closed/2025-formalize-and-expand-waku-web-apps.md)
 - [Nwaku in Status Mobile and Light Mode MVP](/messaging/milestones/open/2025-nwaku-in-status-mobile.md)
 
 ## 2024
