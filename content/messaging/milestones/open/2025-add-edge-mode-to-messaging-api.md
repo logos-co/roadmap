@@ -14,7 +14,7 @@ date: 2025-12-10
 - {external services consumed (Vac/IFT)}
 - {infrastructure}
 
-Extend the [Messaging API](/messaging/milestones/open/2025-nwaku-in-status-mobile.md) to support edge mode.
+Extend the [Messaging API](/messaging/milestones/open/2025-lmn-in-status-mobile.md) to support edge mode.
 This means supporting the usage of light push for message sending, filter for message reception, and peer exchange (only)
 for peer discovery.
 This includes the support of p2p reliability protocol in edge mode.
