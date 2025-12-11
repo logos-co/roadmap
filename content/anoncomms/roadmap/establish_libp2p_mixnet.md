@@ -33,6 +33,29 @@ Next steps not yet included in this milestone (see [Roadmap deliverable](#publis
 
 ## Deliverables 
 
+### Create demo chat app in Logos Core for messaging over libp2p mix
+
+**Owner**: AnonComms Mix
+
+**Feature**: [Mix](../furps/mix.md)
+
+**FURPS**:
+
+- U5. A Logos Core demo chat app showcases message publishing over libp2p mix
+- U6. The Logos Core demo chat app discovers mix nodes using libp2p kad-dht discovery with filtering
+
+**Notes**:
+
+This deliverable is aimed for inclusion in the Logos testnet in Feb 2026.
+It showcases basic publishing over mix for Logos Core,
+and building mix paths using libp2p kad-dht as underlying discovery mechanism.
+Sybil and DoS protection is out of scope for this deployment.
+
+**Checklist**:
+- [ ] Code: link to GitHub issues/PRs/Epic
+- [ ] Dogfood: link to dogfooding session/artefact
+- [ ] Docs: links to README.md or other docs
+
 ### [Specify DoS and Sybil protection protocol for libp2p mix](https://github.com/logos-co/anoncomms-pm/issues/9)
 
 **Owner**: AnonComms Mix
@@ -45,7 +68,6 @@ Next steps not yet included in this milestone (see [Roadmap deliverable](#publis
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
-
 
 ### Implement DoS and Sybil protection protocol for libp2p mix
 
