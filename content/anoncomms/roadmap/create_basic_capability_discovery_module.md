@@ -1,4 +1,4 @@
-# Create basic capability discovery module for Logos Core
+# [Create basic capability discovery module for Logos Core](https://github.com/logos-co/anoncomms-pm/milestone/1)
 
 **Estimated date of completion**: 31 Mar 2026
 
@@ -29,7 +29,7 @@ Next steps not yet included in this milestone, include:
 
 ## Deliverables
 
-### Specify basic capability discovery protocol
+### [Specify basic capability discovery protocol](https://github.com/logos-co/anoncomms-pm/issues/1)
 
 **Owner**: AnonComms Discovery
 
@@ -43,7 +43,7 @@ Next steps not yet included in this milestone, include:
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
 
-### Build PoC implementation of capability discovery protocol
+### [Build PoC implementation of capability discovery protocol](https://github.com/logos-co/anoncomms-pm/issues/2)
 
 **Owner**: AnonComms Discovery
 
@@ -59,7 +59,7 @@ U3. The PoC implementation contains instructions to allow open dogfooding
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### Specify and implement Kad-DHT discovery protocol and API
+### [Specify and implement Kad-DHT discovery protocol and API](https://github.com/logos-co/anoncomms-pm/issues/3)
 
 **Owner**: AnonComms Discovery
 

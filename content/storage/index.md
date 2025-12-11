@@ -1,4 +1,5 @@
 ---
+title: Logos Storage
 tags:
   - storage
   - furps
