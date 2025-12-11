@@ -22,4 +22,5 @@ Same as in [[frontends-filesharing]].
 
 ## Security
 
-1. Neither the identity of publishers nor that of downloaders should be revealed to other participants; i.e., we want full publisher and downloader unlinkability.
+1. Neither the identity of publishers nor that of downloaders should be revealed to other participants; i.e., we want full publisher and downloader unlinkability. This includes queries.
+1. Cache nodes should be able to plausibly deny knowledge of the contents they are caching.
