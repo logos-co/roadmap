@@ -25,9 +25,7 @@ tags:
 
 ## Supportability
 
-1. The exposed C library can be used in Golang.
-2. The exposed C library can be used in Rust.
-3. The exposed C library can be used in Python.
+1. The exposed C library can be used in Logos Core; on Linux, Mac and Windows.
 
 ## + (Privacy, Anonymity, Deployments)
 

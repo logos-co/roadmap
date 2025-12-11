@@ -45,7 +45,6 @@ See deliverables.
 - U2. Any Nim project can use it and can be installed using Nimble,
   similarly to how nim-chronos is imported.
 - U3. The interaction with the exposed C library can be done using JSON.
-- U4. The interaction with the exposed C library can be do- S1. The expose C library can be used to build ne using protobuf.
 
 - R1. Nim-FFI does not leak memory.
 - R2. The exposed C library never hangs when working asynchronously.

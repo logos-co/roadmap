@@ -80,4 +80,4 @@ Further group size scaling and extension of membership management API would be n
 #### **Feature**: [Group Chat](/messaging/furps/application/group_chat.md)
 
 **FURPS**:
-- S3. SDK can be instantiated with a RLN-enabled Waku node.
+- S2. SDK can be instantiated with a RLN-enabled Waku node.

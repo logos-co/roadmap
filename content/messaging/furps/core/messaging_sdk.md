@@ -27,8 +27,8 @@ tags:
 
 ## Reliability
 
-1. Sends a message using peer-to-peer reliability (service node redundancy for edge, optional store confirmation)
-2. Receives messages using peer-to-peer reliability (service node redundancy for edge, periodic store query, periodic filter ping)
+1. Sends a message using peer-to-peer reliability (service node redundancy, optional store confirmation)
+2. Receives messages using peer-to-peer reliability (service node redundancy, periodic store query, periodic filter ping)
 
 ## Performance
 
