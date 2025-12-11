@@ -1,5 +1,5 @@
 ---
-title: Nwaku in Status Mobile and Light Mode MVP
+title: Logos-messaging-nim in Status Mobile and Light Mode MVP
 tags:
     - messaging-milestone
 date: 2025-01-10
