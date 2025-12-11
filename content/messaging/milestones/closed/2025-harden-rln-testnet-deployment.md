@@ -5,6 +5,8 @@ tags:
 date: 2024-09-30
 ---
 
+**Browser platform is descoped**
+
 # [Harden RLN Testnet Deployment](https://github.com/logos-messaging/pm/milestone/55)
 
 **Estimated date of completion**: 30 Sep 2025
