@@ -13,7 +13,7 @@ tags:
 - js-waku:
 - chat: 
 
-## [Direct Message Reliability](/messaging/milestones/open/2024-direct-msg-reliability.md)
+## [Direct Message Reliability](/messaging/milestones/closed/2024-direct-msg-reliability.md)
 
 - [[Deliverable] PostgreSQL Optimisation phase 1](https://github.com/waku-org/pm/issues/260)
   - achieved:
@@ -27,14 +27,14 @@ tags:
   - next:
   - blockers:
 
-## [Hardening and scaling foundations for private chats](/messaging/milestones/open/2025-hardening-and-scaling-foundations-for-private-chats.md)
+## [Hardening and scaling foundations for private chats](/messaging/milestones/closed/2025-hardening-and-scaling-foundations-for-private-chats.md)
 
 - [[Deliverable] Baseline benchmarks](https://github.com/waku-org/pm/issues/296)
   - achieved:
   - next:
   - blockers:
 
-## [Incentivise running a Waku infrastructure node](/messaging/milestones/open/2024-incentivise-running-infra-node.md)
+## [Incentivise running a Waku infrastructure node](/messaging/milestones/closed/2024-incentivise-running-infra-node.md)
 
 - [[Deliverable] Service Incentivisation - Pay for RLN provision PoC](https://github.com/waku-org/pm/issues/245)
   - achieved:
@@ -97,7 +97,7 @@ tags:
   - next:
   - blockers:
 
-## [Introduce Mixnet For Message Sending](/messaging/milestones/open/2025-introduce-mixnet-for-message-sending.md)
+## [Introduce Mixnet For Message Sending](/messaging/milestones/closed/2025-introduce-mixnet-for-message-sending.md)
 
 - [[Deliverable] Integrate libp2p mix into lightpush](https://github.com/waku-org/pm/issues/291)
   - achieved: 
@@ -162,7 +162,7 @@ tags:
   - next:
   - blockers:
 
-## [Acquire first 10 Customers](/messaging/milestones/open/2024-acquire-first-10-customers.md)
+## [Acquire first 10 Customers](/messaging/milestones/closed/2024-acquire-first-10-customers.md)
 
 - [[Deliverable] 5-10 Highly qualified leads](https://github.com/waku-org/pm/issues/254)
   - achieved:
@@ -174,7 +174,7 @@ tags:
   - next:
   - blockers:
 
-## [Upgrade Nim Usage](/messaging/milestones/open/2025-upgrade-nim-usage.md)
+## [Upgrade Nim Usage](/messaging/milestones/open/2025-enable-easy-c-bindings-for-desktop.md)
 
 - [Create nim-ffi](https://github.com/waku-org/pm/issues/332)
   - achieved:
@@ -188,7 +188,7 @@ tags:
   - next:
   - blockers:
 
-## [Incentivisation and Marketplace Follow-Up Outline](/messaging/milestones/open/2025-incentivisation-and-marketplace-follow-up-outline.md)
+## [Incentivisation and Marketplace Follow-Up Outline](/messaging/milestones/closed/2025-incentivisation-and-marketplace-follow-up-outline.md)
 
 - []()
   - achieved:
@@ -202,7 +202,7 @@ tags:
   - next:
   - blockers:
 
-## [Define Incentivisation for RLNaaS](/messaging/milestones/open/2025-define-incentivisation-for-rlnaas.md)
+## [Define Incentivisation for RLNaaS](/messaging/milestones/closed/2025-define-incentivisation-for-rlnaas.md)
 
 - []()
   - achieved:

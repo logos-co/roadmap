@@ -12,7 +12,7 @@ In order of priority **and** execution.
 - [Create Chat SDK MVP](/messaging/milestones/open/2025-create-chat-sdk-mvp.md)
 - [Extend Chat SDK with Group Conversations](/messaging/milestones/open/2025-extend-chat-sdk-with-group-conversations.md)
 - [API access to P2P Reliability](/messaging/milestones/open/2025-api-access-to-p2p-reliability.md)
-- [Package SDS in Reliable Channel API](/messaging/milestones/open/2025-pacakge-sds-in-reliable-channel-api.md)
+- [Package SDS in Reliable Channel API](/messaging/milestones/open/2025-package-sds-in-reliable-channel-api.md)
 - [Enable easy C-Bindings for Desktop](/messaging/milestones/open/2025-enable-easy-c-bindings-for-desktop.md)
 
 ## 2. Logos Post-Launch Priority
@@ -44,11 +44,11 @@ In order of priority **and** execution.
 - [Formalize and Expand Waku Web Apps](/messaging/milestones/closed/2025-formalize-and-expand-waku-web-apps.md)
 - [Create Chat SDK MVP](/messaging/milestones/open/2025-create-chat-sdk-mvp.md)
 - [Extend Chat SDK with Group Conversations](/messaging/milestones/open/2025-extend-chat-sdk-with-group-conversations.md)
-- [Formalize and Expand Waku Web Apps](/messaging/milestones/open/2025-formalize-and-expand-waku-web-apps.md)
+- [Formalize and Expand Waku Web Apps](/messaging/milestones/closed/2025-formalize-and-expand-waku-web-apps.md)
 - [Harden RLN Testnet Deployment](/messaging/milestones/open/2025-harden-rln-testnet-deployment.md)
 - [Improve DevEx: API, TWN, Metrics, Docs](/messaging/milestones/open/2025-improve-devex.md)
 - [Integrate RLN With the Waku API](/messaging/milestones/open/2025-integrate-rln-with-the-waku-api.md)
-- [Streamline DevEx: Mobile, Rust and Web dev](/messaging/milestones/open/2025-streamline-devex.md)
+- [Streamline DevEx: Mobile, Rust and Web dev](/messaging/milestones/closed/2025-streamline-devex.md)
 - [Enable easy C-Bindings for Desktop](/messaging/milestones/open/2025-enable-easy-c-bindings-for-desktop.md)
 
 ## H1 2025
