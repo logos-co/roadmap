@@ -4,6 +4,9 @@ tags:
     - waku-milestone
 date: 2025-07-03
 ---
+
+**Browser work descoped - other work moved to new milestones**
+
 # [Improve DevEx: API, TWN, Metrics, Docs](https://github.com/logos-messaging/pm/milestone/46)
 
 **Estimated date of completion**: 31 Aug

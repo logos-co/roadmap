@@ -46,7 +46,7 @@ In order of priority **and** execution.
 - [Extend Chat SDK with Group Conversations](/messaging/milestones/open/2025-extend-chat-sdk-with-group-conversations.md)
 - [Formalize and Expand Waku Web Apps](/messaging/milestones/closed/2025-formalize-and-expand-waku-web-apps.md)
 - [Harden RLN Testnet Deployment](/messaging/milestones/open/2025-harden-rln-testnet-deployment.md)
-- [Improve DevEx: API, TWN, Metrics, Docs](/messaging/milestones/open/2025-improve-devex.md)
+- [Improve DevEx: API, TWN, Metrics, Docs](/messaging/milestones/closed/2025-improve-devex.md)
 - [Integrate RLN With the Waku API](/messaging/milestones/open/2025-integrate-rln-with-the-waku-api.md)
 - [Streamline DevEx: Mobile, Rust and Web dev](/messaging/milestones/closed/2025-streamline-devex.md)
 - [Enable easy C-Bindings for Desktop](/messaging/milestones/open/2025-enable-easy-c-bindings-for-desktop.md)
