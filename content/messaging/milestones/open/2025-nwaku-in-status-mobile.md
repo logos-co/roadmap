@@ -5,7 +5,7 @@ tags:
 date: 2025-01-10
 ---
 
-# [Nwaku in Status Mobile and Light Mode MVP](https://github.com/waku-org/pm/milestone/39)
+# [Logos-messaging-nim in Status Mobile and Light Mode MVP](https://github.com/waku-org/pm/milestone/39)
 
 **Estimated date of completion**: TBC
 
