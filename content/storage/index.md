@@ -6,12 +6,14 @@ tags:
   - roadmap
   - overview
   - update
+date: 2025-12-09
+lastmod: 2025-12-09
 ---
 
 ## Logos Storage Overview
 
-Welcome to the Logos Storage Roadmap Overview
+The Logos Storage teams focuses on the research and development of privacy-preserving, censorship resistant decentralized storage.
 
-- [[codex/monthly-reports/2023-sept|2023 September Report]]
-- [[codex/milestones/index|2o24 Milestones]]
-- [weekly updates](tags/codex-updates)
+- [[storage/furps/index|FURPS]]
+- [[storage/roadmap/index|Roadmap]]
+- [[storage/updates/index|Weekly Updates]]
