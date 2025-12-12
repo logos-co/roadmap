@@ -1,10 +1,15 @@
 # Logos Blockchain Decentralized Sequencing
 
-**Estimated Delivery Date** Mar 27 2026
+**Estimated Delivery Date** May 29 2026
 
 ## Resources Required
+- bedrock:research: 2 CC's
+- bedrock:engineering: 2 CC's
+- zones: 2 CC's
 
 ## Risks
+
+- Decentralized Sequencing is an open research topic
 
 ## Deliverables
 
@@ -40,6 +45,7 @@ LSSA will be the first user of decentralized sequencing, it will need to underst
 **FURPS**:
 
 - R1. LSSA Sequencer supports decentralized sequencing through Blockchain enforced sequencer coordination, ensuring crash tolerance.
+- U4. Ability to run a sequencer throgh Logos Core.
 
 
 **Checklist**:
