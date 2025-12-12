@@ -12,6 +12,8 @@
 
 1. LSSA Programs are RISCV binaries, allowing developers to program in high level languages like Rust that compile down to RISCV.
 2. The same LSSA Programs can be used in both private and public execution contexts.
+3. Logos Core integration for LSSA Wallet
+4. Ability to run a sequencer throgh Logos Core
 
 ## Reliability
 
