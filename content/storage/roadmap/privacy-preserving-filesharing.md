@@ -3,8 +3,8 @@
 **Estimated date of completion.** Oct 2026
 
 Privacy-preserving file sharing means that:
-* neither publisher or downloader of a file can be identified as so by third parties when querying and/or retrieving data;
-* cache nodes cannot be held accountable for the content they cache (plausible deniability).
+* neither publisher or downloader of a file can be identified by third parties when querying and/or retrieving data;
+* cache nodes should be able to convincingly deny knowledge of or responsibility for content they cache (plausible deniability).
 
 This is key for Logos. Our starting point for this are:
 * Tor's[^tor_specs] specs for hidden services;
@@ -21,7 +21,7 @@ This understanding, together with what compromises we are (and are not) willing 
 | Risk                   | (Accept, Own, Mitigation)                                                                                        |
 |------------------------|------------------------------------------------------------------------------------------------------------------|
 | We take an approach of building filesharing first and then enhancing it with privacy, and figure out that we need an different protocol altogether. | Try to identify this as early as possible and fail fast. |
-| Anon coms team builds something that does not work for us. | Close collaboration with anon coms, with the embedding of a logos storage researcher within their effort. Employ strategic and small multidisciplinary team including both cryptography and networking researchers and engineers. |
+| Anon comms team builds something that does not work for us. | Close collaboration with anon comms, with the embedding of a logos storage researcher within their effort. Employ strategic and small multidisciplinary team including both cryptography and networking researchers and engineers. |
 | Dependency on DST team for benchmarking and iterative improvements | Develop test strategy/simulations from the outset in collaboration with DST team |
 
 ## Deliverables

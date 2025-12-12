@@ -5,14 +5,14 @@
 1. **File sharing.** Any user in the network should be able to share files (frontend bundles and modules) such that those can be downloaded by any other user in the network.
 1. **Content addressability.** Files should be addressable by a content identifier, such that users are sure that the content they download is the content they expect.
 1. **Organic replication.** Users that download a file should be able to provide it to other users in the network.
-1. **Caching and storing.** Nodes should allow files to be either _cached_ or _stored_. Caching is constrained by a quota, and any file placed onto a node node should be cached unless explicitly told otherwise. Cached files are _evicted_ once the node runs out of quota. Optionally, a file might be marked as _stored_, at which point it no longer occupies the caching quota, and is simply preserved on disk.
+1. **Caching and storing.** Nodes should allow files to be either _cached_ or _stored_. Caching is constrained by a quota, and any file placed onto a node should be cached unless explicitly told otherwise. Cached files are _evicted_ once the node runs out of quota. Optionally, a file might be marked as _stored_, at which point it no longer occupies the caching quota, and is simply preserved on disk.
 
 ## Usability
 
-1. **C API.** A C API with the proper primitives for publishing and downloading files by address and pinning is published.
+1. **C API.** A C API with primitives for publishing and downloading files by address is published.
 1. **Logos Core.** The filesharing client is published as a working Logos Core module.
 1. **Zero-config networking.** Within the possibilities of current technology, user should not have to take any extra steps; e.g. opening ports on a router, to get file sharing working.[^1]
-1. **File search.** Accessing a file requires knowledge of a file identifier; i.e., a Content ID (CID). We assume that the user will obtain these CIDs out-of-band, either directly from other users or through an external indexing/discovery service.
+1. **File search.** Accessing a file requires knowledge of a file identifier; i.e., a Content ID (CID). Users must obtain these CIDs out-of-band, either directly from other users or through an external indexing/discovery service.
 1. **Specs.** The set of services, protocols and primitives making up the filesharing client are published as specifications.
 
 ## Reliability
