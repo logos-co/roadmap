@@ -2,15 +2,15 @@
 
 ## Functionality
 
-Same as in [[frontends-filesharing]].
+Same as in [[frontends-filesharing | Serving Frontends, Modules, and Files]].
 
 ## Usability
 
-Same as in [[frontends-filesharing]].
+Same as in [[frontends-filesharing | Serving Frontends, Modules, and Files]].
 
 ## Reliability
 
-Same as in [[frontends-filesharing]].
+Same as in [[frontends-filesharing | Serving Frontends, Modules, and Files]].
 
 ## Performance
 
@@ -18,7 +18,7 @@ Same as in [[frontends-filesharing]].
 
 ## Supportability
 
-Same as in [[frontends-filesharing]].
+Same as in [[frontends-filesharing | Serving Frontends, Modules, and Files]].
 
 ## Security
 

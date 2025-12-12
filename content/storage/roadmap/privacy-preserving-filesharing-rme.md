@@ -30,3 +30,9 @@ This understanding, together with what compromises we are (and are not) willing 
 
 A list of detailed deliverables will be specified soon.
 
+[^tor_specs]: https://spec.torproject.org
+[^freenet_25]: https://freenet.org/resources/manual/architecture/irouting/
+[^sandberg_05]: Oskar Sandberg. Distributed routing in small-world networks. In _2006 proceedings of the workshop on algorithm engineering and experiments (ALENEX)_. https://doi.org/10.1137/1.9781611972863.14
+[^mani_25]: Mix Protocol. https://github.com/vacp2p/rfc-index/blob/main/vac/raw/mix.md
+[^stokkink_24]: https://github.com/Tribler/tribler/wiki/Anonymous-Downloading-and-Streaming-specifications
+[^bouman_21]: https://github.com/Tribler/tribler/wiki/Hidden-Services-Specifications-for-anonymous-seeding

@@ -19,6 +19,6 @@ The current Nim implementation of Storage already provides that to some extent, 
 
 ## Deliverables
 
-**Feature**: [Serving Frontends, Modules, and Files](../furps/frontends-filesharing.md)
+**Feature**: [[frontends-filesharing]]
 
 A list of detailed deliverables will be specified soon.
