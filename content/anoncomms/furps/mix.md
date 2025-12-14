@@ -14,6 +14,8 @@
 2. The libp2p mix protocol with DoS and Sybil protection is integrated in nim-libp2p
 3. The libp2p mix protocol with DoS and Sybil protection is integrated into Waku Lightpush protocol as reference integration
 4. A libp2p module with mix capability is integrated into Logos Core
+5. A Logos Core demo chat app showcases message publishing over libp2p mix
+6. The Logos Core demo chat app discovers mix nodes using libp2p kad-dht discovery with filtering
 
 ## Reliability
 
