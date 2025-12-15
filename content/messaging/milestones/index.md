@@ -9,13 +9,17 @@ In order of priority **and** execution.
 
 ## 1. Logos Launch Critical
 
+Must be delivered with mainnet.
+
 - [Create Chat SDK MVP](/messaging/milestones/open/2025-create-chat-sdk-mvp.md)
 - [Extend Chat SDK with Group Conversations](/messaging/milestones/open/2025-extend-chat-sdk-with-group-conversations.md)
 - [API access to P2P Reliability for Desktop](/messaging/milestones/open/2025-api-access-to-p2p-reliability-for-desktop.md)
 - [Package SDS in Reliable Channel API](/messaging/milestones/open/2025-package-sds-in-reliable-channel-api.md)
 - [Enable easy C-Bindings for Desktop](/messaging/milestones/open/2025-enable-easy-c-bindings-for-desktop.md)
 
-## 2. Logos Post-Launch Priority
+## 2. Logos Launch Important
+
+Ideally delivered with mainnet.
 
 - [Support Discovery Research and Libp2p QUIC](/messaging/milestones/open/2025-support-discovery-research-and-libp2p-quic.md)
 - [Add Edge Mode to Messaging API](/messaging/milestones/open/2025-add-edge-mode-to-messaging-api.md)
