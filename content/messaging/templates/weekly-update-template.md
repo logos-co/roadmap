@@ -181,7 +181,7 @@ tags:
   - next:
   - blockers:
 
-## [Integrate RLN With the Waku API](/messaging/milestones/open/2025-integrate-rln-with-the-waku-api.md)
+## [Implement RLN Membership Management](/messaging/milestones/open/2025-implement-rln-membership-management.md)
 
 - []()
   - achieved:
