@@ -49,7 +49,7 @@ Ideally delivered with mainnet.
 - [Create Chat SDK MVP](/messaging/milestones/open/2025-create-chat-sdk-mvp.md)
 - [Extend Chat SDK with Group Conversations](/messaging/milestones/open/2025-extend-chat-sdk-with-group-conversations.md)
 - [Formalize and Expand Waku Web Apps](/messaging/milestones/closed/2025-formalize-and-expand-waku-web-apps.md)
-- [Harden RLN Testnet Deployment](/messaging/milestones/open/2025-harden-rln-testnet-deployment.md)
+- [Harden RLN Testnet Deployment](/messaging/milestones/closed/2025-harden-rln-testnet-deployment.md)
 - [Improve DevEx: API, TWN, Metrics, Docs](/messaging/milestones/closed/2025-improve-devex.md)
 - [Implement RLN Membership Management](/messaging/milestones/open/2025-implement-rln-membership-management.md)
 - [Streamline DevEx: Mobile, Rust and Web dev](/messaging/milestones/closed/2025-streamline-devex.md)
