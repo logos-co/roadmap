@@ -26,6 +26,7 @@ tags:
 ## Supportability
 
 1. The exposed C library can be used in Logos Core; on Linux, Mac and Windows.
+2. The exposed C library can be used in Logos Core for mobile: iOS and Android.
 
 ## + (Privacy, Anonymity, Deployments)
 
