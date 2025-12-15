@@ -24,6 +24,10 @@ The Reliable Channel API delivers a simple API that enables those features, as w
 - Rate limit management (in preparation to future RLN integration).
 - SDS-Repair, an extension to SDS that reduce reliance on Store services, and improves received anonymity from original SDS protocol.
 
+Note: Dependency to nim-messaging is to be handled via Nimble, meaning the Chat Logos Module would have libp2p,
+messaging, etc embedded. It also means that there is no "reliable channel" Logos Core module as part of this milestone.
+Moving to an architecture where the Chat module uses the locally available messaging module, is not yet planned.
+
 ## FURPS
 
 - [{Feature Name}]({path/to/furps/file}): {list of furps: F1, etc}
