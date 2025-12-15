@@ -9,7 +9,7 @@ The Package Manager module handles downloading and managing software modules, au
 1. The system shall allow users to download software packages directly from peer nodes or fallback to alternative Providers when necessary.
 2. The system shall store cryptographic hashes for software packages and verify file integrity during and after download.
 3. The system shall support digital delegatable signing chains to ensure decentralised publisher/authorship integrity.
-4. The system shall distribute the software packages efficiently by using Codex or a Distributed Hash Table (DHT).
+4. The system shall distribute the software packages efficiently by using Logos Storage or a Distributed Hash Table (DHT).
 5. The system shall automatically contribute downloaded packages back to the peer-to-peer network to facilitate future downloads.
 6. The system shall handle software package updates efficiently by distributing only updated packages instead of entire archives.
 7. The system shall cache software packages on disk.
@@ -36,7 +36,7 @@ The Package Manager module handles downloading and managing software modules, au
 
 ### Performance
 
-These performance metrics are requirements for Codex / DHT.
+These performance metrics are requirements for Logos Storage / DHT.
 
 1. The system shall efficiently manage the distribution of software packages ranging from under 512 KB to hundreds of megabytes (according to apt-p2p paper on the diverse package sizes within Debian repositories).
 2. The system shall accommodate daily file churn (where approximately 1.5% of a 119,000 MB Debian archive is regularly updated), by efficiently managing package updates without excessive bandwidth usage.
