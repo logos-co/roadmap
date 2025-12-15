@@ -67,7 +67,7 @@ Moving to an architecture where the Chat module uses the locally available messa
 
 **Owner**: Chat Team
 
-**Feature**: [Bindings](/messaging/furps/application/group_chat.md)
+**Feature**: [Group Chat](/messaging/furps/application/group_chat.md)
 
 **FURPS**:
 
