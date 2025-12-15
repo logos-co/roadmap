@@ -1,5 +1,5 @@
 ---
-title: Integrate RLN With the Waku API
+title: Implement RLN Membership Management
 tags:
     - messaging-milestone
 date: 2025-09-30

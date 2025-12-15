@@ -21,6 +21,10 @@ The features to said group chat will be limited, and extended with further miles
 Support to plug Status Communities on top of this SDK is **not** expected.
 Further group size scaling and extension of membership management API would be needed.
 
+Note: Dependency to nim-messaging is to be handled via Nimble, meaning the Chat Logos Module would have libp2p,
+messaging, etc embedded.
+Moving to an architecture where the Chat module uses the locally available messaging module, is not yet planned.
+
 ## FURPS
 
 [Group Chat](/messaging/furps/application/group_chat.md)
@@ -67,21 +71,7 @@ Further group size scaling and extension of membership management API would be n
 
 **FURPS**:
 
-- S1. Developers can create group conversations from C-bindings.
-
-### DROPPED [Enable usage with RLN SDK](https://github.com/waku-org/pm/issues/347)
-
-**Owner**: Chat Team
-
-#### **Feature**: [Rate Limit Manager](/messaging/furps/application/rate_limit_manager.md)
-
-**FURPS**:
-- F7. Can consume RLN API to access rate limit and current quota.
-
-#### **Feature**: [Group Chat](/messaging/furps/application/group_chat.md)
-
-**FURPS**:
-- S2. SDK can be instantiated with a RLN-enabled Waku node.
+- S1. Developers can create group conversations from C-bindings, in Logos Core framework.
 
 ### Setup production fleet for Chat SDK
 

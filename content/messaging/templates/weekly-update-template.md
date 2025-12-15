@@ -181,7 +181,7 @@ tags:
   - next:
   - blockers:
 
-## [Integrate RLN With the Waku API](/messaging/milestones/open/2025-integrate-rln-with-the-waku-api.md)
+## [Implement RLN Membership Management](/messaging/milestones/open/2025-implement-rln-membership-management.md)
 
 - []()
   - achieved:
@@ -209,7 +209,7 @@ tags:
   - next:
   - blockers:
 
-## [Harden RLN Testnet Deployment](/messaging/milestones/open/2025-harden-rln-testnet-deployment.md)
+## [Harden RLN Testnet Deployment](/messaging/milestones/closed/2025-harden-rln-testnet-deployment.md)
 
 - [Minting of (Sepolia) ERC-20 Tokens for RLN Deposits is permissioned](https://github.com/waku-org/pm/issues/334)
   - achieved:

@@ -12,7 +12,6 @@ tags:
 4. Messages can be flagged with three priorities level: critical, normal, optional.
 5. When remaining message quota is low, critical messages are sent, normal messages are queued and optional messages are dropped.
 6. When message quote is exhausted, critical messages are queued on top, normal messages are queued, optional messages are dropped.
-7. Can consume RLN API to access rate limit and current quota. 
 
 ## Usability
 

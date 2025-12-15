@@ -26,6 +26,10 @@ This milestone is complete when a development preview of the Chat SDK is publish
 
 **A custom Logos messaging network (one node on cluster 42) is spined up for the preview only - no RLN support**. 
 
+Note: Dependency to nim-messaging is to be handled via Nimble, meaning the Chat Logos Module would have libp2p,
+messaging, etc embedded.
+Moving to an architecture where the Chat module uses the locally available messaging module, is not yet planned.
+
 ## Risks
 
 | Type/Level            | Risk                                   | (Accept, Own, Mitigation)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
