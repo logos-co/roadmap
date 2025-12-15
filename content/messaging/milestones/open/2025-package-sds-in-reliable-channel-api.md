@@ -19,7 +19,7 @@ fully leverage SDS to:
 - identify and retrieved missed messages
 - track acknowledge, and resend unacknowledged message
 
-The Reliable Channel API delivers a simple API that enables those features, as well as:
+The [Reliable Channel API](https://github.com/logos-messaging/specs/pull/89) delivers a simple API that enables those features, as well as:
 - message segmentation
 - Rate limit management (in preparation to future RLN integration).
 - SDS-Repair, an extension to SDS that reduce reliance on Store services, and improves received anonymity from original SDS protocol.
