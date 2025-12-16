@@ -28,8 +28,7 @@ tags:
 ## Supportability
 
 1. Browser application, using web3 wallet browser extensions.
-2. library can be used in Go applications; available on pkg.go.dev.
-3. library can be used in Rust applications; import via git path.
+2. library can be used via C-Bindings, for integration with Logos Core.
 
 ## + (Privacy, Anonymity, Deployments)
 

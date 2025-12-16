@@ -12,8 +12,8 @@ tags:
 4. Does automatic peer discovery based on the node platform and operation mode.
 5. Returns health and connectivity information using proven heuristics.
 6. Previously discovered peers are persisted across restarted, and potentially used for future connections.
-7. When wrapping the C API, conversion from native types to JSON is needed by the wrapper.
-8. When wrapping the C API, conversion from native types to Protobuf is needed by the wrapper (PoC).
+7. When using the C API, conversion from native types to JSON is needed by the caller.
+8. When using the C API, conversion from native types to Protobuf is needed by the caller (PoC).
 
 ## Usability
 
@@ -23,7 +23,7 @@ tags:
 4. Developers pass and receive data to the API in types native to the wrapping language.
 5. By default, auto-sharding is applied, meaning developers do not need to be concerned by sharding; pubsub topics are never exposed.
 6. Developers only need to handle errors in cases of irretrievable failure requiring end-user action. Internal errors are not bubbled up if they can be recovered internally.
-7. When wrapping the C API, a protobuf definition can be used to generate native types for the host language (PoC).
+7. When using the C API, a protobuf definition can be used to generate native types for the host language (PoC).
 
 ## Reliability
 
@@ -35,9 +35,8 @@ tags:
 ## Supportability
 
 1. Developers can use the SDK in nim software, importing it via git path.
-2. Developers can use the SDK via C API.
+2. Developers can use the SDK via C API, for integration with Logos Core.
 3. Developers can use the SDK in Browser software, importing it from npmjs.com.
-4. Developers can use the SDK in Rust applications, available on crates.io.
 
 ## + (Privacy, Anonymity, Deployments)
 

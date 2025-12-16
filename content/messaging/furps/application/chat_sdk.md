@@ -33,7 +33,7 @@ date: 2025-11-13
 
 1. Messaging integrates RLN-like rate limit, limiting outbound messages per epoch.
 2. Payload definitions are versioned to support future protocol updates.
-3. library can be used via C-Bindings.
+3. library can be used via C-Bindings, for integration with Logos Core.
 
 ## + (Privacy, Anonymity, Deployments)
 

@@ -25,7 +25,7 @@ date: 2025-11-13
 
 ## Supportability
 
-1. Developers can create group conversations from C-bindings.
+1. Developers can create group conversations from C-bindings, for integration with Logos Core.
 
 ## + (Privacy, Anonymity, Deployments)
 
