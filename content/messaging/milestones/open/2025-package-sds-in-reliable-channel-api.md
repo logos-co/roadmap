@@ -24,6 +24,8 @@ The [Reliable Channel API](https://github.com/logos-messaging/specs/pull/89) del
 - Rate limit management (in preparation to future RLN integration).
 - SDS-Repair, an extension to SDS that reduce reliance on Store services, and improves received anonymity from original SDS protocol.
 
+This milestone focuses on delivering a pre-configured SDS experience. Segmentation and rate limit manager will be delivered at a later stage.
+
 Note: Dependency to nim-messaging is to be handled via Nimble, meaning the Chat Logos Module would have libp2p,
 messaging, etc embedded. It also means that there is no "reliable channel" Logos Core module as part of this milestone.
 Moving to an architecture where the Chat module uses the locally available messaging module, is not yet planned.
@@ -48,6 +50,9 @@ Moving to an architecture where the Chat module uses the locally available messa
 
 **FURPS**:
 - {F1. copy-paste full furps statement}
+
+TODO: no bloom filter, segmentation or rate limit manager
+SDS messages cached locally.
 
 ### Implement SDS Repair
 
