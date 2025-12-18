@@ -26,13 +26,12 @@ The [Reliable Channel API](https://github.com/logos-messaging/specs/pull/89) del
 
 This milestone focuses on delivering a pre-configured SDS experience. Segmentation and rate limit manager will be delivered at a later stage.
 
-Note: Dependency to nim-messaging is to be handled via Nimble, meaning the Chat Logos Module would have libp2p,
-messaging, etc embedded. It also means that there is no "reliable channel" Logos Core module as part of this milestone.
+Note: Dependency to nim-messaging is to be handled via Nimble, meaning the Chat Logos Module would have libp2p, messaging, etc embedded. It also means that there is no "reliable channel" Logos Core module as part of this milestone.
 Moving to an architecture where the Chat module uses the locally available messaging module, is not yet planned.
 
 ## FURPS
 
-- [{Feature Name}]({path/to/furps/file}): {list of furps: F1, etc}
+- [Reliable Channel API](/messaging/furps/application/reliable_channel.md): F1, F2, F3, F4, F5, F6, F7, F8, F9, U1, U2, U3, U4, R1, R3
 
 ## Risks
 
@@ -46,28 +45,38 @@ Moving to an architecture where the Chat module uses the locally available messa
 
 **Owner**: Nim Messaging Team
 
-**Feature**: [{Feature Name (only 1)}]({path/to/furps/file})
+**Feature**: [Reliable Channel API](/messaging/furps/application/reliable_channel.md)
 
 **FURPS**:
-- {F1. copy-paste full furps statement}
+- F1. All messages sent in a channel are eventually received by all participants.
+- F2. Senders are notified when messages are acknowledged by other participants.
+- F3. Missing messages are automatically detected.
+- F4. Missing messages are automatically retrieved via store hash queries.
+- F5. Messages are causally ordered using Lamport timestamps.
+- F6. Outbound messages that are not acknowledged are automatically resent.
+- F7. API caters for encryption/decryption mechanism applied by consumer.
+- F8. When encryption is applied, the SDS envelope is encrypted.
+- U1. Sane defaults with pre-configured parameters for common scenarios.
+- U2. Single cohesive interface wrapping SDS and store queries for missing messages.
+- U3. Event-driven model exposing message lifecycle through intuitive events.
+- U4. The API is agnostic to the encryption mechanism used.
 
-TODO: no bloom filter, segmentation or rate limit manager
-SDS messages cached locally.
+Note: No segmentation or rate limit manager in this milestone. SDS messages cached locally.
 
 ### Implement SDS Repair
 
 **Owner**: Nim Messaging Team
 
-**Feature**: [{Feature Name (only 1)}]({path/to/furps/file})
+**Feature**: [Reliable Channel API](/messaging/furps/application/reliable_channel.md)
 
 **FURPS**:
-- {F1. copy-paste full furps statement}
+- F9. Missing messages re-emission is requested from other channel participants
 
 ### Use Reliable Channels in Chat SDK
 
 **Owner**: Chat Team
 
-**Feature**: [{Feature Name (only 1)}]({path/to/furps/file})
+**Feature**: [Reliable Channel API](/messaging/furps/application/reliable_channel.md)
 
 **FURPS**:
-- {F1. copy-paste full furps statement}
+- U2. Single cohesive interface wrapping SDS, store queries, segmentation, and rate limits.
