@@ -44,12 +44,10 @@ See deliverables.
 
 **Owner**: Nim Messaging Team
 
-**Feature**: [Messaging SDK](/messaging/furps/core/messaging_sdk.md)
+**Feature**: [Nim FFI](/messaging/furps/core/nim_ffi.md)
 
 **FURPS**:
-- F8. When wrapping the C API, conversion from native types to Protobuf is needed by the wrapper (PoC).
-
-- U7. When wrapping the C API, a protobuf definition can be used to generate native types for the host language (PoC).
+- F4. The interaction with the exposed C library can be done using protobuf.
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition

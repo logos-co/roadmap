@@ -46,17 +46,15 @@ This includes removing potential foot guns (store as CDN), and reducing learning
 
 **FURPS**:
 - F1. Setup, start and stop a Messaging node.
-- F3. Support relay node operation mode.
+- F3. Support core node operation mode.
 - F4. Does automatic peer discovery based on the node platform and operation mode.
 - F5. Returns health and connectivity information using proven heuristics.
 - F6. Previously discovered peers are persisted across restarted, and potentially used for future connections.
 - U1. When setting up a Messaging node, no need to specify what protocols to mount, only an operational mode (edge or relay).
 - U2. Disconnection detection and recovery, and other peer management matters are automatically handled.
 - U3. Developers do not need to specify the protocols used to send and receive messages; it is deduced from the mode of operation.
-- U4. Developers pass and receive data to the API in types native to the wrapping language.
-- U5. By default, auto-sharding is applied, meaning developers do not need to be concerned by sharding; pubsub topics are never exposed.
-- U6. Developers only need to handle errors in cases of irretrievable failure requiring end-user action. Internal errors are not bubbled up if they can be recovered internally.
-- U7. Message retrieval (store protocol) is done automatically via the `subscribe` verb; store protocol and other message retrieval operations are not exposed.
+- U4. By default, auto-sharding is applied, meaning developers do not need to be concerned by sharding; pubsub topics are never exposed.
+- U5. Developers only need to handle errors in cases of irretrievable failure requiring end-user action. Internal errors are not bubbled up if they can be recovered internally.
 - R1. Sends a message using peer-to-peer reliability (service node redundancy, optional store confirmation)
 - R2. Receives messages using peer-to-peer reliability (service node redundancy, periodic store query, periodic filter ping)
 

@@ -30,4 +30,4 @@ tags:
 
 ## + (Privacy, Anonymity, Deployments)
 
-1. `nwaku` repository uses `nim-ffi` to expose the existing `libwaku` functionality.
+1. `logos-messaging-nim` repository uses `nim-ffi`.
