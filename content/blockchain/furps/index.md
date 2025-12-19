@@ -1,5 +1,5 @@
 ---
-title: Blockchain FURPS
+title: FURPS
 tags:
   - blockchain
   - furps
