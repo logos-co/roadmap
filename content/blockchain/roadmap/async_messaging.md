@@ -1,32 +1,34 @@
-# Logos Blockchain Async Messaging
+# Logos Blockchain Cross-Sovereign Rollup Messaging
 
-**Estimated Delivery Date** April 30 2026
+**Estimated Delivery Date** EoY 2026
 
 ## Resources Required
 
+- 2 Researchers
+- 2 Engineers
+
 ## Risks
+
+- Cross-rollup messaging is complex
+- Must handle asynchronous communication reliably
 
 ## Deliverables
 
-### Bedrock
+### Cross-Sovereign Rollup Messaging
 
 **Owner**: David Rusu
 
-**Feature**: [Bedrock](/blockchain/furps/bedrock.md)
+**Feature**: [FURPS](/blockchain/furps/index.md)
+
+Enable messaging between Sovereign Rollups facilitated by Bedrock.
 
 **FURPS**:
 
-**Checklist**:
-- [ ] 
-
-### LSSA
-
-
-**Owner**: David Rusu
-
-**Feature**: [LSSA](/blockchain/furps/lssa.md)
-
-**FURPS**:
+- F15. Cross-Sovereign rollups messaging facilitated by Bedrock
 
 **Checklist**:
-- [ ] 
+- [ ] Async messaging spec
+- [ ] Sync messaging spec
+- [ ] Bedrock implementation updated to match spec
+- [ ] cross-LSSA messaging spec
+- [ ] cross-LSSA messaging implementation

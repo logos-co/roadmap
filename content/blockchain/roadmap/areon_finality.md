@@ -16,7 +16,7 @@
 
 **Owner**: David Rusu
 
-**Feature**: [Bedrock](/blockchain/furps/index.md)
+**Feature**: [FURPS](/blockchain/furps/index.md)
 
 Develop probabilistic model for finality in Areon. Areon is a testing ground for ideas to improve Cryptarchia including network latency tolerance, improved finality, and throughput.
 
