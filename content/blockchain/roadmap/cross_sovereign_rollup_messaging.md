@@ -9,8 +9,7 @@
 
 ## Risks
 
-- Cross-rollup messaging is complex
-- Must handle asynchronous communication reliably
+- Finalization delays in bedrock may prevent common use-cases
 
 ## Deliverables
 
