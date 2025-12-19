@@ -18,7 +18,7 @@
 
 **Owner**: David Rusu
 
-**Feature**: [LSSA](/blockchain/furps/index.md)
+**Feature**: [FURPS](/blockchain/furps/index.md)
 
 The LSSA Sequencer follows and publishes to Bedrock, managing the full lifecycle of sovereign rollup operations.
 
@@ -37,7 +37,7 @@ The LSSA Sequencer follows and publishes to Bedrock, managing the full lifecycle
 
 **Owner**: David Rusu
 
-**Feature**: [LSSA](/blockchain/furps/index.md)
+**Feature**: [FURPS](/blockchain/furps/index.md)
 
 The Indexer follows the LSSA channel in Bedrock and maintains local state.
 
@@ -59,7 +59,7 @@ The Indexer follows the LSSA channel in Bedrock and maintains local state.
 
 **Owner**: David Rusu
 
-**Feature**: [LSSA](/blockchain/furps/index.md)
+**Feature**: [FURPS](/blockchain/furps/index.md)
 
 Block Explorer connecting to Indexer for visibility into LSSA operations.
 

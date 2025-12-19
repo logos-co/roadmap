@@ -14,7 +14,7 @@
 
 **Owner**: David Rusu
 
-**Feature**: [LSSA](/blockchain/furps/index.md)
+**Feature**: [FURPS](/blockchain/furps/index.md)
 
 Ensure the LSSA sequencer can recover from crashes without data loss.
 
@@ -30,7 +30,7 @@ Ensure the LSSA sequencer can recover from crashes without data loss.
 
 **Owner**: David Rusu
 
-**Feature**: [LSSA](/blockchain/furps/index.md)
+**Feature**: [FURPS](/blockchain/furps/index.md)
 
 Validate sequencer performance under load.
 

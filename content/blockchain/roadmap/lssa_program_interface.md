@@ -5,6 +5,7 @@
 ## Resources Required
 
 - 1 Engineer
+- 1 Researcher
 
 ## Risks
 
@@ -16,7 +17,7 @@
 
 **Owner**: David Rusu
 
-**Feature**: [LSSA](/blockchain/furps/index.md)
+**Feature**: [FURPS](/blockchain/furps/index.md)
 
 Define a clear interface for LSSA programs to interact with the runtime.
 
