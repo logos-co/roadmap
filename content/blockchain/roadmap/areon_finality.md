@@ -26,7 +26,7 @@ Develop probabilistic model for finality in Areon. Areon is a testing ground for
 - F20. Network latency tolerance analyzed
 
 **Checklist**:
-- [ ] Probabilistic finality model specification
+- [ ] Probabilistic finality model
 - [ ] Model validation and testing
 - [ ] Latency tolerance measured
 - [ ] Finality improvements quantified

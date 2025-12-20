@@ -26,5 +26,6 @@ Enable programs to call other programs within LSSA.
 - F34. Programs can call other programs deployed on LSSA
 
 **Checklist**:
+- [ ] Cross-program call mechanism specification
 - [ ] Cross-program call mechanism implemented
 - [ ] Cross-program call documentation

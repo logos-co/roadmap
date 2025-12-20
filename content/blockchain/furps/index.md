@@ -86,7 +86,7 @@ FURPS are elsewhere divided into Milestones and Deliverables, to form a roadmap.
 2. Blockchain configuration will be done through Logos-Core
 3. Blockchain will finalize transactions within 18hrs
 4. Logos Core Blockchain Wallet integration
-5. Ability to select which bedrock services is configured in a bedrock node
+5. Ability to select which bedrock services are configured in a bedrock node
 
 ## `lssa`
 6. LSSA Programs are RISCV binaries, allowing developers to program in high level languages like Rust that compile down to RISCV

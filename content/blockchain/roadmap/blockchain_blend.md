@@ -8,7 +8,7 @@
 
 ## Risks
 
-- Blend is a complex privacy network
+- Blend is a complex network protocol
 - PoQ/PoL proof times may increase network delays
 
 ## Deliverables
@@ -19,18 +19,16 @@
 
 **Feature**: [FURPS](/blockchain/furps/index.md)
 
-Complete Blend privacy network implementation for private block proposals.
+Complete Blend network implementation supporting private block proposals.
 
 **FURPS**:
 
 - F4. Leaders can propose blocks privately
-- F5. Leaders can claim block rewards without revealing their block proposal
 - F6. Blend spam protection
 - F7. Block proposal redundancy
 - F8. Censorship resistance against malicious broadcasters
 
 **Checklist**:
 - [ ] Private block proposals
-- [ ] Anonymous block reward claims
 - [ ] Spam protection mechanism
-- [ ] Block proposal redundancy
+- [ ] Blend node rewarding mechanism

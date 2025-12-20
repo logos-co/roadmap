@@ -24,7 +24,7 @@ Implement the Service Declaration Protocol for membership and rewards in service
 
 - F10. SDP enables membership in service networks
 - F11. SDP enables rewarding of service participants
-- F12. SDP enables sybil resistance in service Network
+- F12. SDP enables sybil resistance in service networks
 
 **Checklist**:
 - [ ] SDP transaction type implemented

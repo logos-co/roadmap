@@ -19,7 +19,7 @@
 
 **Feature**: [FURPS](/blockchain/furps/index.md)
 
-Design the zones architecture for Logos Blockchain, enabling direct on-chain verification of L2's STF's and enabling atomic composition.
+Design the zones architecture for Logos Blockchain, enabling direct on-chain verification of L2's STF's and enabling atomic composition (PACTs).
 
 **Checklist**:
 - [ ] Zones Spec

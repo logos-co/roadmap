@@ -20,7 +20,7 @@
 
 **Feature**: [FURPS](/blockchain/furps/index.md)
 
-Use mix network to protect edge nodes interacting with Blend.
+Edge nodes only connect to Blend network nodes when they have block proposals, this means that any network observer can link the final block proposal with the edge node connecting to Blend Network. This can be resolved using a mix network to protect edge nodes when interacting with Blend.
 
 **FURPS**:
 

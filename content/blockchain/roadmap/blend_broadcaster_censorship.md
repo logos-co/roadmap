@@ -19,7 +19,9 @@
 
 **Feature**: [FURPS](/blockchain/furps/index.md)
 
-Increase message redundancy through sharding to resist broadcaster censorship.
+Currently, the broadcaster node in Blend could decide to drop the block proposal if he disagrees with the contents. To remove this point of failure, we can increase message redundancy through sharding the block proposal with an N of M reconstruction scheme. Doing this means that any one broadcaster node would not be able to see the complete block before broadcasting.
+
+This has the added benefit of increasing blend reliability through message redundancy through the M of N scheme.
 
 **FURPS**:
 

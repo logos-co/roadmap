@@ -52,6 +52,6 @@ LSSA will be the first user of decentralized sequencing, it will need to underst
 - [ ] Bedrock Specification updated with support for decentralized sequencing
 - [ ] Bedrock implementation updated to match spec.
 - [ ] LSSA integration with Bedrock Decentralized Sequencing model
-- [ ] Sequencers downloads channel messages from bedrock that were produced by fellow sequencers
+- [ ] Sequencers download channel messages from bedrock that were produced by fellow sequencers
 - [ ] Reject invalid blocks from fellow sequencers
 - [ ] Apply valid blocks from fellow sequencers

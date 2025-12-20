@@ -8,8 +8,8 @@
 
 ## Risks
 
-- State contention is a fundamental challenge in the utxo model
-- Solution must not sacrifice performance or may introduce centralized actors
+- State contention is a fundamental challenge in the private execution model
+- Solution may introduce centralized actors to sequence access to private state
 
 ## Deliverables
 
