@@ -5,7 +5,7 @@
 ## Resources Required
 
 - 2 Researchers
-- 2 Engineerings
+- 2 Engineers
 
 ## Risks
 

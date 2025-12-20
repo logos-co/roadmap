@@ -23,7 +23,7 @@ Enable messaging between Sovereign Rollups facilitated by Bedrock.
 
 **FURPS**:
 
-- F15. Cross-Sovereign rollups messaging facilitated by Bedrock
+- F15. Cross-Sovereign Rollups messaging facilitated by Bedrock
 
 **Checklist**:
 - [ ] Async messaging spec

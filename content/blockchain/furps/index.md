@@ -30,12 +30,12 @@ FURPS are elsewhere divided into Milestones and Deliverables, to form a roadmap.
 ### `bedrock:sdp` (Service Declaration Protocol)
 10. SDP enables membership in service networks
 11. SDP enables rewarding of service participants
-12. SDP enables sybil resistance in service Network
+12. SDP enables sybil resistance in service networks
 
 ### `bedrock:sovereign-rollups`
 13. Sovereign Rollups can post their data to Bedrock channels
 14. Decentralized sequencing for Sovereign Rollups through blockchain enforced sequencer coordination
-15. Cross-Sovereign rollups messaging facilitated by Bedrock
+15. Cross-Sovereign Rollups messaging facilitated by Bedrock
 
 ### `bedrock:wallet`
 16. Transfer operations

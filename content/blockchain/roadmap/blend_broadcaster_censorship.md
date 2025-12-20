@@ -4,7 +4,7 @@
 
 ## Resources Required
 
-- 3 Researcher
+- 3 Researchers
 
 ## Risks
 
