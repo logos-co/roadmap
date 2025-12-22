@@ -26,7 +26,7 @@ The [Reliable Channel API](https://github.com/logos-messaging/specs/pull/89) del
 
 This milestone focuses on delivering a pre-configured SDS experience. Segmentation and rate limit manager will be delivered at a later stage.
 
-Note: Dependency to nim-messaging is to be handled via Nimble, meaning the Chat Logos Module would have libp2p, messaging, etc embedded. It also means that there is no "reliable channel" Logos Core module as part of this milestone.
+Note: Dependency to logos-messaging-nim is to be handled via Nimble, meaning the Chat Logos Module would have libp2p, logos-messaging, etc embedded. It also means that there is no "reliable channel" Logos Core module as part of this milestone.
 Moving to an architecture where the Chat module uses the locally available messaging module, is not yet planned.
 
 ## FURPS
