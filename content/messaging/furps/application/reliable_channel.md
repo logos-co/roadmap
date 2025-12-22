@@ -17,7 +17,7 @@ tags:
 9. Missing messages re-emission is requested from other channel participants.
 10. Large messages are segmented to fit transport constraints.
 11. A different encryption mechanism can be applied for sync message (than the one for content messages).
-12. Outbound messages passed on the API are queued when the rate limit is exceeded.
+12. Outbound messages passed on the API are queued, and persisted locally, when the rate limit is exceeded.
 13. Ephemeral outbound messages passed on the API are dropped when the rate limit is approached or exceeded.
 14. Outbound messages retries are queued when the rate limit is approached or exceeded.
 
