@@ -15,7 +15,7 @@ tags:
 
 ## Usability
 
-1. When setting up a messaging node, no need to specify what protocols to mount, only an operational mode (edge or relay).
+1. When setting up a messaging node, no need to specify what protocols to mount, only an operational mode (edge or core).
 2. Disconnection detection and recovery, and other peer management matters are automatically handled.
 3. Developers do not need to specify the protocols used to send and receive messages; it is deduced from the mode of operation.
 4. By default, auto-sharding is applied, meaning developers do not need to be concerned by sharding; pubsub topics are never exposed.
