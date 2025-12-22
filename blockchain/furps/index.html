@@ -1,7 +1,137 @@
 <!DOCTYPE html>
-<html><head><title>Blockchain FURPS</title><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="Blockchain FURPS"/><meta property="og:description" content="These are the functional and non-functional requirements for roadmapped efforts, according to the FURPS model. FURPS are elsewhere divided into Milestones and Deliverables, to form a roadmap."/><meta property="og:image" content="https://roadmap.logos.co/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../../static/icon.png"/><meta name="description" content="These are the functional and non-functional requirements for roadmapped efforts, according to the FURPS model. FURPS are elsewhere divided into Milestones and Deliverables, to form a roadmap."/><meta name="generator" content="Quartz"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="../../index.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=sans-serif:wght@400;700&amp;family=sans-serif:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="../../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch(`../../static/contentIndex.json`).then(data => data.json())</script></head><body data-slug="blockchain/furps/index"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title "><a href="../..">Logos Collective Project Roadmaps</a></h1><div class="spacer mobile-only"></div><div class="search "><div id="search-icon"><p>Search</p><div></div><svg tabIndex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search</title><desc id="desc">Search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="results-container"></div></div></div></div><div class="darkmode "><input class="toggle" id="darkmode-toggle" type="checkbox" tabIndex="-1"/><label id="toggle-label-light" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xmlSpace="preserve"><title>Light mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg></label><label id="toggle-label-dark" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xmlSpace="preserve"><title>Dark mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></label></div></div><div class="center"><div class="page-header"><div class="popover-hint"><h1 class="article-title ">Blockchain FURPS</h1><nav class="breadcrumb-container " aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../..">Home</a><p> > </p></div><div class="breadcrumb-element"><a href="../../blockchain/">blockchain</a><p> > </p></div><div class="breadcrumb-element"><a href="../../blockchain/furps/">furps</a><p> > </p></div><div class="breadcrumb-element"><a href>Blockchain FURPS</a></div></nav></div></div><div class="popover-hint"><article><p><p>These are the functional and non-functional requirements for roadmapped efforts,
+<html><head><title>FURPS</title><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="FURPS"/><meta property="og:description" content="These are the functional and non-functional requirements for roadmapped efforts, according to the FURPS model. FURPS are elsewhere divided into Milestones and Deliverables, to form a roadmap."/><meta property="og:image" content="https://roadmap.logos.co/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../../static/icon.png"/><meta name="description" content="These are the functional and non-functional requirements for roadmapped efforts, according to the FURPS model. FURPS are elsewhere divided into Milestones and Deliverables, to form a roadmap."/><meta name="generator" content="Quartz"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="../../index.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=IBM Plex Mono&amp;family=sans-serif:wght@400;700&amp;family=sans-serif:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="../../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch(`../../static/contentIndex.json`).then(data => data.json())</script></head><body data-slug="blockchain/furps/index"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title "><a href="../..">Logos Collective Project Roadmaps</a></h1><div class="spacer mobile-only"></div><div class="search "><div id="search-icon"><p>Search</p><div></div><svg tabIndex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search</title><desc id="desc">Search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="results-container"></div></div></div></div><div class="darkmode "><input class="toggle" id="darkmode-toggle" type="checkbox" tabIndex="-1"/><label id="toggle-label-light" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xmlSpace="preserve"><title>Light mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg></label><label id="toggle-label-dark" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xmlSpace="preserve"><title>Dark mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></label></div></div><div class="center"><div class="page-header"><div class="popover-hint"><h1 class="article-title ">FURPS</h1><nav class="breadcrumb-container " aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../..">Home</a><p> > </p></div><div class="breadcrumb-element"><a href="../../blockchain/">blockchain</a><p> > </p></div><div class="breadcrumb-element"><a href="../../blockchain/furps/">furps</a><p> > </p></div><div class="breadcrumb-element"><a href>FURPS</a></div></nav></div></div><div class="popover-hint"><article><p><p>These are the functional and non-functional requirements for roadmapped efforts,
 according to the FURPS model.</p>
-<p>FURPS are elsewhere divided into Milestones and Deliverables, to form a roadmap.</p></p></article><p>2 items under this folder.</p><div><ul class="section-ul"><li class="section-li"><div class="section"><p class="meta">Dec 12, 2025</p><div class="desc"><h3><a href="../../blockchain/furps/lssa" class="internal">lssa</a></h3></div><ul class="tags"></ul></div></li><li class="section-li"><div class="section"><p class="meta">Dec 11, 2025</p><div class="desc"><h3><a href="../../blockchain/furps/bedrock" class="internal">bedrock</a></h3></div><ul class="tags"></ul></div></li></ul></div></div></div><div class="right sidebar"></div></div><footer class><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a>, © 2025</p><ul><li><a href="https://github.com/logos-co/roadmap">GitHub</a></li><li><a href="https://discord.com/invite/logosnetwork">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+<p>FURPS are elsewhere divided into Milestones and Deliverables, to form a roadmap.</p>
+<h1 id="functionality">Functionality<a aria-hidden="true" tabindex="-1" href="#functionality" class="internal"> §</a></h1>
+<h2 id="bedrock"><code>bedrock</code><a aria-hidden="true" tabindex="-1" href="#bedrock" class="internal"> §</a></h2>
+<h3 id="bedrockblockchain"><code>bedrock:blockchain</code><a aria-hidden="true" tabindex="-1" href="#bedrockblockchain" class="internal"> §</a></h3>
+<ol>
+<li>Nodes can permissionlessly participate in consensus</li>
+<li>Nodes can join bedrock services and earn rewards</li>
+<li>Users can transfer funds</li>
+</ol>
+<h3 id="bedrockppos-private-proof-of-stake"><code>bedrock:ppos</code> (Private Proof of Stake)<a aria-hidden="true" tabindex="-1" href="#bedrockppos-private-proof-of-stake" class="internal"> §</a></h3>
+<ol start="4">
+<li>Leaders can propose blocks privately</li>
+<li>Leaders can claim block rewards without revealing their block proposal</li>
+<li>Blend spam protection</li>
+<li>Block proposal redundancy</li>
+<li>Censorship resistance against malicious broadcasters</li>
+<li>Blend edge node privacy</li>
+</ol>
+<h3 id="bedrocksdp-service-declaration-protocol"><code>bedrock:sdp</code> (Service Declaration Protocol)<a aria-hidden="true" tabindex="-1" href="#bedrocksdp-service-declaration-protocol" class="internal"> §</a></h3>
+<ol start="10">
+<li>SDP enables membership in service networks</li>
+<li>SDP enables rewarding of service participants</li>
+<li>SDP enables sybil resistance in service networks</li>
+</ol>
+<h3 id="bedrocksovereign-rollups"><code>bedrock:sovereign-rollups</code><a aria-hidden="true" tabindex="-1" href="#bedrocksovereign-rollups" class="internal"> §</a></h3>
+<ol start="13">
+<li>Sovereign Rollups can post their data to Bedrock channels</li>
+<li>Decentralized sequencing for Sovereign Rollups through blockchain enforced sequencer coordination</li>
+<li>Cross-Sovereign Rollups messaging facilitated by Bedrock</li>
+</ol>
+<h3 id="bedrockwallet"><code>bedrock:wallet</code><a aria-hidden="true" tabindex="-1" href="#bedrockwallet" class="internal"> §</a></h3>
+<ol start="16">
+<li>Transfer operations</li>
+<li>Inscription operations</li>
+<li>SDP operations</li>
+</ol>
+<h3 id="bedrockareon"><code>bedrock:areon</code><a aria-hidden="true" tabindex="-1" href="#bedrockareon" class="internal"> §</a></h3>
+<ol start="19">
+<li>Probabilistic finality model analyzed</li>
+<li>Network latency tolerance analyzed</li>
+<li>Total stake inference on Areon model</li>
+<li>Areon with Private Proof of Stake (Cryptareon)</li>
+</ol>
+<h3 id="bedrockblock-building"><code>bedrock:block-building</code><a aria-hidden="true" tabindex="-1" href="#bedrockblock-building" class="internal"> §</a></h3>
+<ol start="23">
+<li><strong>Distributed block building</strong> Enabling tagging attack resistance and removing the leader as SPOF</li>
+</ol>
+<h2 id="lssa"><code>lssa</code><a aria-hidden="true" tabindex="-1" href="#lssa" class="internal"> §</a></h2>
+<h3 id="lssaprogrammable-privacy"><code>lssa:programmable-privacy</code><a aria-hidden="true" tabindex="-1" href="#lssaprogrammable-privacy" class="internal"> §</a></h3>
+<ol start="24">
+<li>LSSA supports Programmable Privacy by allowing LSSA Programs to be agnostic as to whether they are interacting with private or public accounts</li>
+</ol>
+<h3 id="lssasequencer"><code>lssa:sequencer</code><a aria-hidden="true" tabindex="-1" href="#lssasequencer" class="internal"> §</a></h3>
+<ol start="25">
+<li>LSSA Sequencer accepts transactions from users, orders them and posts them to Logos Blockchain</li>
+<li>Sequencer manages pending vs. safe vs. confirmed transactions</li>
+<li>Sequencer maintains funds to pay for bedrock transactions</li>
+</ol>
+<h3 id="lssaindexer"><code>lssa:indexer</code><a aria-hidden="true" tabindex="-1" href="#lssaindexer" class="internal"> §</a></h3>
+<ol start="28">
+<li>Indexer follows LSSA channel in bedrock</li>
+<li>Indexer validates messages in the channel, skips invalid messages</li>
+<li>Indexer parses messages as blocks and applies blocks to local state</li>
+<li>Indexer maintains state history</li>
+<li>Indexer provides RPC endpoints for querying LSSA state</li>
+</ol>
+<h3 id="lssaprogram-interface"><code>lssa:program-interface</code><a aria-hidden="true" tabindex="-1" href="#lssaprogram-interface" class="internal"> §</a></h3>
+<ol start="33">
+<li>Programs have defined interface exposing input/output accounts and contextual information (block number, random oracle, etc.)</li>
+</ol>
+<h3 id="lssacross-program-calls"><code>lssa:cross-program-calls</code><a aria-hidden="true" tabindex="-1" href="#lssacross-program-calls" class="internal"> §</a></h3>
+<ol start="34">
+<li>Programs can call other programs deployed on LSSA</li>
+</ol>
+<h3 id="lssabridging"><code>lssa:bridging</code><a aria-hidden="true" tabindex="-1" href="#lssabridging" class="internal"> §</a></h3>
+<ol start="35">
+<li>Channel Balance management</li>
+<li>Sequencer signing on withdrawal</li>
+<li>User deposits from L1 to LSSA</li>
+</ol>
+<h1 id="usability">Usability<a aria-hidden="true" tabindex="-1" href="#usability" class="internal"> §</a></h1>
+<h2 id="bedrock-1"><code>bedrock</code><a aria-hidden="true" tabindex="-1" href="#bedrock-1" class="internal"> §</a></h2>
+<ol>
+<li>Blockchain node will be accessible through Logos-Core</li>
+<li>Blockchain configuration will be done through Logos-Core</li>
+<li>Blockchain will finalize transactions within 18hrs</li>
+<li>Logos Core Blockchain Wallet integration</li>
+<li>Ability to select which bedrock services are configured in a bedrock node</li>
+</ol>
+<h2 id="lssa-1"><code>lssa</code><a aria-hidden="true" tabindex="-1" href="#lssa-1" class="internal"> §</a></h2>
+<ol start="6">
+<li>LSSA Programs are RISCV binaries, allowing developers to program in high level languages like Rust that compile down to RISCV</li>
+<li>The same LSSA Programs can be used in both private and public execution contexts</li>
+<li>Logos Core integration for LSSA Wallet</li>
+<li>Ability to run a sequencer through Logos Core</li>
+<li>Users can interact with LSSA through a wallet</li>
+<li>Block Explorer displays LSSA blocks and transactions</li>
+<li>Logos Core Module for LSSA operations</li>
+</ol>
+<h1 id="reliability">Reliability<a aria-hidden="true" tabindex="-1" href="#reliability" class="internal"> §</a></h1>
+<h2 id="bedrock-2"><code>bedrock</code><a aria-hidden="true" tabindex="-1" href="#bedrock-2" class="internal"> §</a></h2>
+<ol>
+<li>Blockchain prioritizes liveness over safety ensuring we are resilient to large network failures</li>
+<li>Blockchain provides 18hrs for failures to resolve before the chain may split requiring manual intervention</li>
+<li>Data posted to DA will be available for at least 2 sessions (session length to be determined)</li>
+</ol>
+<h2 id="lssa-2"><code>lssa</code><a aria-hidden="true" tabindex="-1" href="#lssa-2" class="internal"> §</a></h2>
+<ol start="4">
+<li>LSSA Sequencer supports decentralized sequencing through Blockchain enforced sequencer coordination, ensuring crash tolerance</li>
+<li>Crash tolerance through persisting state to disk</li>
+<li>Sequencer passes stress testing</li>
+</ol>
+<h1 id="performance">Performance<a aria-hidden="true" tabindex="-1" href="#performance" class="internal"> §</a></h1>
+<h2 id="bedrock-3"><code>bedrock</code><a aria-hidden="true" tabindex="-1" href="#bedrock-3" class="internal"> §</a></h2>
+<ol>
+<li>Blockchain finalizes transactions in 18hrs</li>
+<li>Practical finality can be achieved much sooner</li>
+<li>Blocks are produced on average every 30s</li>
+<li>Blend network manageable on low bandwidth network links</li>
+</ol>
+<h2 id="lssa-3"><code>lssa</code><a aria-hidden="true" tabindex="-1" href="#lssa-3" class="internal"> §</a></h2>
+<ol start="5">
+<li>Transaction throughput targets (TBD)</li>
+<li>Proof generation time targets (TBD)</li>
+</ol>
+<h1 id="supportability">Supportability<a aria-hidden="true" tabindex="-1" href="#supportability" class="internal"> §</a></h1>
+<h2 id="lssa-4"><code>lssa</code><a aria-hidden="true" tabindex="-1" href="#lssa-4" class="internal"> §</a></h2>
+<ol>
+<li>Developer tooling to support LSSA program development</li>
+<li>Documentation ready for external contributors</li>
+</ol></p></article><p>0 items under this folder.</p><div><ul class="section-ul"></ul></div></div></div><div class="right sidebar"></div></div><footer class><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a>, © 2025</p><ul><li><a href="https://github.com/logos-co/roadmap">GitHub</a></li><li><a href="https://discord.com/invite/logosnetwork">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
 function toggleCallout() {
   const outerBlock = this.parentElement;
   outerBlock.classList.toggle(`is-collapsed`);
