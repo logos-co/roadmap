@@ -14,7 +14,6 @@ tags:
 2. Any Nim project can use it and can be installed using Nimble,
    similarly to how nim-chronos is imported.
 3. The interaction with the exposed C library can be done using JSON.
-4. The interaction with the exposed C library can be done using protobuf.
 
 ## Reliability
 
