@@ -12,7 +12,7 @@ tags:
 4. Missing messages are automatically retrieved via store hash queries.
 5. Messages are causally ordered using Lamport timestamps.
 6. Outbound messages that are not acknowledged are automatically resent.
-7. API caters for encryption/decryption mechanism applied by consumer.
+7. API delegates message encryption and decryption to consumer-provided implementations.
 8. When encryption is applied, the SDS envelope is encrypted.
 9. Missing messages re-emission is requested from other channel participants.
 10. Large messages are segmented to fit transport constraints.

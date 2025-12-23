@@ -54,7 +54,7 @@ Moving to an architecture where the Chat module uses the locally available messa
 - F4. Missing messages are automatically retrieved via store hash queries.
 - F5. Messages are causally ordered using Lamport timestamps.
 - F6. Outbound messages that are not acknowledged are automatically resent.
-- F7. API caters for encryption/decryption mechanism applied by consumer.
+- F7. API delegates message encryption and decryption to consumer-provided implementations.
 - F8. When encryption is applied, the SDS envelope is encrypted.
 - U1. Sane defaults with pre-configured parameters for common scenarios.
 - U2. Single cohesive interface wrapping SDS and store queries for missing messages.
