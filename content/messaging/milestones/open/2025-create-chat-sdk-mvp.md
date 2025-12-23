@@ -13,6 +13,9 @@ date: 2025-06-24
 - 2 Chat Researcher 
 - 1 Messaging Logos Core Dev for 1 month (c bindings)
 
+**Resources Required for 2026H1**:
+- 3 dev for 2 months
+
 The SDK is intentionally minimal—focused solely on proving the usability of the core approach. It supports 1:1 chat with
 out-of-band contact discovery and includes supporting implementations to help developers get up and running quickly.
 

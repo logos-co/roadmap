@@ -38,21 +38,3 @@ See deliverables.
 **FURPS**:
 
 - S2. The exposed C library can be used in Logos Core for mobile: iOS and Android.
-
-
-### Streamline FFI API Creation by using Protobuf types instead of JSON PoC
-
-**Owner**: Nim Messaging Team
-
-**Feature**: [Messaging SDK](/messaging/furps/core/messaging_sdk.md)
-
-**FURPS**:
-- F8. When wrapping the C API, conversion from native types to Protobuf is needed by the wrapper (PoC).
-
-- U7. When wrapping the C API, a protobuf definition can be used to generate native types for the host language (PoC).
-
-**Checklist**:
-- [ ] Specs: link to specs and/or API definition
-- [ ] Code: link to GitHub issues/PRs/Epic
-- [ ] Dogfood: link to dogfooding session/artefact
-- [ ] Docs: links to README.md or docs.waku.org (TBD)

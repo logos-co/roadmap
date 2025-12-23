@@ -51,4 +51,4 @@ See deliverables.
 
 - S1. The exposed C library can be used in Logos Core; on Linux, Mac and Windows.
 
-- +1. `nwaku` repository uses `nim-ffi` to expose the existing `libwaku` functionality.
+- +1. `logos-messaging-nim` repository uses `nim-ffi`.
