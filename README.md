@@ -33,7 +33,7 @@ The hosting is done using [Caddy server with Git plugin for handling GitHub webh
 Information about deployed build can be also found in `/build.json` available on the website.
 
 ### Using Obsidian
-Quartz is created to serve a static site off of an [Obsidian](https://obsidian.md) vault, and thus is the preferred way to manage content locally. In order for all it to function properly, a few things need to be done properly.
+Quartz is created to serve a static site off of an [Obsidian](https://obsidian.md) vault, and thus is the preferred way to manage content locally. In order for all of it to function properly, a few things need to be done properly.
 
 First and foremost, Quartz uses links references with `content` as the root directory, so when opening in Obsidian, open the `content` folder, and _not_ the repo directory.
 
