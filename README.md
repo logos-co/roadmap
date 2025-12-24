@@ -22,7 +22,7 @@ For now, this process is quite manual, purposely. In order to solidify the forma
 
 If you see a type or broken link, PRs are always welcome :)
 
-If there is information you'd like to see included that isn't here, create and issue :)
+If there is information you'd like to see included that isn't here, create an issue :)
 
 ## CI/CD
 
