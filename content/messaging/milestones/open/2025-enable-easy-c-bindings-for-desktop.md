@@ -52,3 +52,15 @@ See deliverables.
 - S1. The exposed C library can be used in Logos Core; on Linux, Mac and Windows.
 
 - +1. `logos-messaging-nim` repository uses `nim-ffi`.
+
+### Allow graceful shutdown on nim-chronos
+
+**Owner**: Nim Messaging Team
+
+**FURPS**:
+
+- R1. nim-chronos does not leak any file descriptor or resource on thread shutdown while main process is alive.
+
+- S1. nim-chronos gracefully shuts down threads on Linux, Mac and Windows.
+- S2. [nim-sds](https://github.com/logos-messaging/nim-sds/) does not leak resources when reliability manager is destroyed in libsds.
+- S3. [logos-messaging-nim](https://github.com/logos-messaging/logos-messaging-nim) does not leak resources when lmn instance is destroyed.
