@@ -77,3 +77,19 @@ culminating in a whitepaper describing the RLN prover approach to gasless L2 tra
 
 **Checklist**:
 - [ ] Docs: link to whitepaper
+
+### Authenticated connections between prover and slashers
+
+**Owner**: AnonComms Zerokit-RLN
+
+**Feature**: [Zerokit-RLN FURPS](../furps/zerokit-rln.md)
+
+**FURPS**:
+
+- R2. Decentralized slashers establish authenticated connections to the RLN prover to observe proofs and detect spam
+
+**Checklist**:
+- [ ] Specs: link to specs and/or API definition
+- [ ] Code: link to GitHub issues/PRs/Epic
+- [ ] Dogfood: link to dogfooding session/artefact
+- [ ] Docs: links to README.md or other docs

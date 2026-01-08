@@ -17,6 +17,7 @@
 ## Reliability
 
 1. Multiple RLN prover instances operate consistently without database conflicts
+2. Decentralized slashers establish authenticated connections to the RLN prover to observe proofs and detect spam
 
 ## Performance
 
