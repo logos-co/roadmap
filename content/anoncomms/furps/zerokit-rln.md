@@ -6,6 +6,7 @@
 2. Multiple RLN prover instances can operate on a shared database
 3. An RLN prover can burn multiple message-ids in a single proof
 4. The Zerokit module supports big-endian operations
+5. The RLN prover module supports authenticated slasher connections using a statically configured authentication mechanism
 
 ## Usability
 
