@@ -33,7 +33,7 @@ Next steps not yet included in this milestone (see [Roadmap deliverable](#publis
 
 ## Deliverables 
 
-### Create demo chat app in Logos Core for messaging over libp2p mix
+### [Create demo chat app in Logos Core for messaging over libp2p mix](https://github.com/logos-co/anoncomms-pm/issues/14)
 
 **Owner**: AnonComms Mix
 

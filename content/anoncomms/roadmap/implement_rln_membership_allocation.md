@@ -1,4 +1,4 @@
-# [Implement RLN membership allocation service for Logos Core]()
+# [Implement RLN membership allocation service for Logos Core](https://github.com/logos-co/anoncomms-pm/milestone/7)
 
 **Estimated date of completion**: 31 May 2026
 
@@ -26,7 +26,7 @@ Furthermore, the existing RLN contract(s) will be ported to an LSSA-based execut
 
 ## Deliverables
 
-### [Specify and implement RLN membership allocation service]()
+### [Specify and implement RLN membership allocation service](https://github.com/logos-co/anoncomms-pm/issues/17)
 
 **Owner**: AnonComms Zerokit-RLN
 
@@ -47,7 +47,7 @@ Furthermore, the existing RLN contract(s) will be ported to an LSSA-based execut
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### [Implement RLN contract in LSSA]()
+### [Implement RLN contract in LSSA](https://github.com/logos-co/anoncomms-pm/issues/18)
 
 **Owner**: AnonComms Zerokit-RLN
 

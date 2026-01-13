@@ -49,7 +49,7 @@ culminating in a whitepaper describing the RLN prover approach to gasless L2 tra
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### Support burning multiple IDs in a single RLN proof
+### [Support burning multiple IDs in a single RLN proof](https://github.com/logos-co/anoncomms-pm/issues/15)
 
 **Owner**: AnonComms Zerokit-RLN
 
@@ -78,7 +78,7 @@ culminating in a whitepaper describing the RLN prover approach to gasless L2 tra
 **Checklist**:
 - [ ] Docs: link to whitepaper
 
-### Authenticated connections between prover and slashers
+### [Authenticated connections between prover and slashers](https://github.com/logos-co/anoncomms-pm/issues/16)
 
 **Owner**: AnonComms Zerokit-RLN
 
