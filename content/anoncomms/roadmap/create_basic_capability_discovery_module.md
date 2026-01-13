@@ -96,7 +96,7 @@ U3. The PoC implementation contains instructions to allow open dogfooding
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### Implement capability discovery protocol
+### [Implement capability discovery protocol](https://github.com/logos-co/anoncomms-pm/issues/13)
 
 **Owner**: AnonComms Discovery
 
