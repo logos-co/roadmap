@@ -17,6 +17,7 @@ The AnonComms team is currently working on the following milestones:
 4. [Implement an MVP payment protocol](./implement_mvp_payment_protocol.md) that exploits Logos Blockchain/Nescience to allow privacy-preserving, mostly off-chain payments to service providers.
 5. [Rework and deliver a public Zerokit 1.0 API](./deliver_public_zerokit_1.0_api.md) that improves usability and add big-endian support.
 6. [Release an RLN Prover to support gasless L2 transactions](./release-rln-prover_for_gasless_l2.md) on Status Network, including publishing a whitepaper.
+7. [Implement RLN membership allocation service for Logos Core](./implement_rln_membership_allocation.md), including translating RLN to the Logos Blockchain environment
 
 Of these, (1) and (2) are the team's current top priorities,
 as both capability discovery and mixifying libp2p protocols
