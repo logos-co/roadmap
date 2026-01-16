@@ -27,7 +27,7 @@ Ideally delivered with mainnet.
 - [Messaging and Chat on Mobile](/messaging/milestones/open/2025-messaging-chat-on-mobile.md)
 - [Complete Reliable Channel API](/messaging/milestones/open/2026-complete-reliable-channel-api.md)
 - [Implement RLN Membership Management](/messaging/milestones/open/2025-implement-rln-membership-management.md)
-- Port RLN to Logos Blockchain
+- Add Support of RLN LSSA
 
 ## 3. Status
 
