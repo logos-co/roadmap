@@ -12,10 +12,13 @@ You an read more about the contents of a given milestone and the various justifi
 
 ## Navigation
 
-### Logos components
+### Logos Components
 
 - [[anoncomms/index|AnonComms]]
 - [[blockchain/index|Blockchain]]
 - [[logoscore/index|Logos Core]]
 - [[messaging/index|Messaging]]
 - [[storage/index|Storage]]
+
+### Logos Testnets
+- [[testnets/v01|v0.1]]
