@@ -10,3 +10,5 @@ replit.nix
 node_modules
 .ipynb_checkpoints/
 .claude
+.grepai/
+CLAUDE.md
