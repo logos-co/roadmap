@@ -597,10 +597,10 @@
     <lastmod>2025-12-09T14:41:00.277Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/combined_roadmap</loc>
-    <lastmod>2026-01-16T18:38:49.578Z</lastmod>
+    <lastmod>2026-01-23T14:59:37.453Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/</loc>
-    <lastmod>2026-01-22T18:56:07.270Z</lastmod>
+    <lastmod>2026-01-23T14:59:37.453Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/innovation_lab/</loc>
     <lastmod>2025-08-01T15:24:41.836Z</lastmod>
@@ -1418,8 +1418,17 @@
     <loc>https://roadmap.logos.co/terms-of-use</loc>
     <lastmod>2025-08-01T15:24:41.840Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/testnets</loc>
-    <lastmod>2026-01-22T18:53:27.635Z</lastmod>
+    <loc>https://roadmap.logos.co/testnets/</loc>
+    <lastmod>2026-01-23T14:59:37.453Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/testnets/v01</loc>
+    <lastmod>2026-01-23T14:59:37.453Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/testnets/v01_dependencies</loc>
+    <lastmod>2026-01-23T14:59:37.453Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/testnets/v02</loc>
+    <lastmod>2026-01-23T14:59:37.453Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/what-is-a-milestone</loc>
     <lastmod>2025-08-01T15:24:41.844Z</lastmod>
