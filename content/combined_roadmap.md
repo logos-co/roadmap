@@ -4,7 +4,7 @@ tags:
   - roadmap
   - overview
 ---
-> [!NOTE] This is a generated chart from the content within this repository. Estimated dates may not be appropriately represented
+> [!NOTE] This chart is automatically generated from the content within this repository. All projected timelines and deliverables are provided for informational purposes only and are subject to change without notice.
 
 ```mermaid
 gantt

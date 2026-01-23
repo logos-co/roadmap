@@ -8,6 +8,8 @@ tags:
   - update
 date: 2025-12-12
 lastmod: 2025-12-12
+aliases:
+  - liblogos
 ---
 
 ## Logos Core Overview
