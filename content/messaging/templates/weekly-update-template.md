@@ -1,5 +1,5 @@
 ---
-title: 2026-MM-DD Waku Weekly
+title: 2026-MM-DD Messaging Weekly
 tags:
 ##  - messaging-updates
 ## date: 2026-MM-DD
