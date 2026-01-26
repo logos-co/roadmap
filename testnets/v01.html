@@ -7,7 +7,7 @@
                 </div>
 </blockquote>
 <h2 id="key-objectives">Key Objectives<a aria-hidden="true" tabindex="-1" href="#key-objectives" class="internal"> §</a></h2>
-<p>Version 0.1 of the Logos Testnet’s main goal is to test the backends (<a href="../blockchain/" class="internal" data-slug="blockchain/">Blockchain</a> including LEZ, <a href="../storage/" class="internal" data-slug="storage/">Storage</a>, and <a href="../messaging/furps/application/chat_sdk" class="internal" data-slug="messaging/furps/application/chat_sdk">ChatSDK</a>/<a href="../messaging/" class="internal" data-slug="messaging/">Messaging</a>). UX and DevEx are not the primary focus at this stage and will be improved towards testnet v0.2.</p>
+<p>Version 0.1 of the Logos Testnet’s main goal is to test the backends (<a href="../blockchain/" class="internal" data-slug="blockchain/">Blockchain</a> including LEZ, <a href="../storage/" class="internal" data-slug="storage/">Storage</a>, and <a href="../messaging/furps/application/chat_sdk" class="internal" data-slug="messaging/furps/application/chat_sdk">ChatSDK</a>/<a href="../roadmap/messaging/" class="internal" data-slug="roadmap/messaging/">Messaging</a>). UX and DevEx are not the primary focus at this stage and will be improved towards testnet v0.2.</p>
 <p>Developers will still be able to test applications on <a href="../logoscore/" class="internal" data-slug="logoscore/">Logos Core</a>, and the <a href="../logoscore/furps/logos-app" class="internal" data-slug="logoscore/furps/logos-app">Logos App</a> will provide interfaces that allow users to interact with the modules.</p>
 <p>Our goal is to expose as much functionality as possible through Logos Core, which requires a focus on module integration.</p>
 <h2 id="logos-core">Logos Core<a aria-hidden="true" tabindex="-1" href="#logos-core" class="internal"> §</a></h2>
@@ -105,8 +105,11 @@ The demo mix module will rely on a separate (experimental) network stack with co
 </ul>
 </li>
 </ul>
-<p>EcoDev/developers can test parts of the LMN module via its API.
-- some parts (respectiving (??) messages) might be exposed through the old API / mocked.</p>
+<p>EcoDev/developers can test parts of the LMN module via its API</p>
+<ul>
+<li>LMN module exposes the new APIs: Init, Send, Health</li>
+<li>Receiving messages (subscribing to content topics) might be exposed through the old API / mocked.</li>
+</ul>
 <h2 id="storage">Storage<a aria-hidden="true" tabindex="-1" href="#storage" class="internal"> §</a></h2>
 <ul>
 <li>Demo Filesharing App that demonstrates the Storage module
