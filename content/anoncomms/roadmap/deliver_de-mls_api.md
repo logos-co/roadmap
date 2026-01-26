@@ -1,6 +1,6 @@
 # [Deliver de-MLS API supporting multi-stewards and advanced group management](https://github.com/logos-co/anoncomms-pm/milestone/3)
 
-**Estimated date of completion**: 31 January 2026
+**Estimated date of completion**: 31 March 2026
 
 **Resources Required**:
 - 2 developers for 10 weeks
