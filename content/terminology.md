@@ -4,14 +4,14 @@ title: Planning Terminology Reference
 This document defines the terminology used for planning, tracking, and organizing work across IFT projects.
 
 ## TL;DR
-| Term            | What it is                                                               | Scope              |
-| --------------- | ------------------------------------------------------------------------ | ------------------ |
-| **Initiative**  | Top-level work container with outcomes, resources, and risks             | Weeks/months       |
-| **Release**     | Timeboxed bundle you ship for testing or external use                    | Single version     |
-| **Milestone**   | Zero-duration checkpoint inside a release (e.g., "RC freeze", "go-live") | Single date        |
-| **Deliverable** | Tangible outcome produced by an initiative                               | Part of initiative |
-| **Epic**        | Large body of work broken into multiple issues                           | Multiple weeks     |
-| **Issue**       | Single actionable unit of work                                           | Days to week       |
+| Term             | What it is                                                               | Scope              |
+| ---------------- | ------------------------------------------------------------------------ | ------------------ |
+| [[#Initiative]]  | Top-level work container with outcomes, resources, and risks             | Weeks/months       |
+| [[#Release]]     | Timeboxed bundle you ship for testing or external use                    | Single version     |
+| [[#Milestone]]   | Zero-duration checkpoint inside a release (e.g., "RC freeze", "go-live") | Single date        |
+| [[#Deliverable]] | Tangible outcome produced by an initiative                               | Part of initiative |
+| [[#Epic]]        | Large body of work broken into multiple issues                           | Multiple weeks     |
+| [[#Issue]]       | Single actionable unit of work                                           | Days to week       |
 
 ```mermaid
 graph LR
@@ -27,13 +27,6 @@ graph LR
     E -->|contains| Is
     I -->|included in| R
     R -->|split by| M
-    
-    style I fill:#ffffff,stroke:#000000
-    style R fill:#ffffff,stroke:#000000
-    style M fill:#ffffff,stroke:#000000
-    style D fill:#ffffff,stroke:#000000
-    style E fill:#ffffff,stroke:#000000
-    style Is fill:#ffffff,stroke:#000000
 ```
 
 ### *Initiative*
