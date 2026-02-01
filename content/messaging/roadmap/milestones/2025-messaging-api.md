@@ -1,10 +1,10 @@
 ---
 title: Messaging API
 tags:
-    - messaging-milestone
+  - messaging-milestone
 date: 2025-01-14
 ---
-EDC: 2025-12-19
+
 
 Github Milestone: https://github.com/waku-org/pm/milestone/41
 
@@ -20,18 +20,17 @@ Define the [messaging API](https://blog.waku.org/content/images/2024/07/waku-sta
 
 Implement the message API in nwaku; expose it in C Bindings; implement Golang wrapper. The result should be a full decommission of the go-waku repository.
 
-### [Messaging API: js-waku](https://github.com/waku-org/pm/issues/283)
+- Messaging API:
+	- Init API
+	- Send API
+	- Health API
+	- Subscribe API (ideally)
 
-Implement the messaging API in js-waku; using in the Logos forum PoC and Qaku.
+~~### [Messaging API: js-waku](https://github.com/waku-org/pm/issues/283)~~
 
-### Messaging API: REST
+~~### Messaging API: REST~~
 
-Implement the messaging API on the REST API of nwaku.
+~~### Messaging API: status-go integration~~
 
-### Messaging API: status-go integration
+~~### [Messaging API: Rust SDK](https://github.com/waku-org/pm/issues/289)~~
 
-Exclusively use the Messaging API in status-go; do not use core.
-
-### [Messaging API: Rust SDK](https://github.com/waku-org/pm/issues/289)
-
-Implement the message API in Rust bindings over nwaku.

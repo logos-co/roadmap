@@ -5,38 +5,47 @@ date: 2025-12-10
 
 # Messaging Roadmap Overview
 
-In order of priority **and** execution.
-
-## 1. Logos Launch Critical
-
-Must be delivered with mainnet.
+The Messaging team is currently working on the following milestones, grouped by releases in which they are to be delivered:
+## Logos [v0.1 (Testnet)](v01) milestones
 
 - [Create Chat SDK MVP](2025-create-chat-sdk-mvp.md)
+- [Enable easy C-Bindings for Desktop](2025-enable-easy-c-bindings-for-desktop.md)
+- [Messaging API](2025-messaging-api.md) 
+- [Implement LMN Logos Core module](2026-lmn-logos-core-module.md)
+## Status 2.38 milestones
+
+- [Introduce E2E Reliability in Status Communities](2024-e2e-reliability-protocol.md)
+## Logos [v0.2 (Testnet)](v02) milestones
+
 - [Extend Chat SDK with Group Conversations](2025-extend-chat-sdk-with-group-conversations.md)
 - [API access to P2P Reliability for Desktop](2025-api-access-to-p2p-reliability-for-desktop.md)
 - [Package SDS in Reliable Channel API](2025-package-sds-in-reliable-channel-api.md)
-- [Enable easy C-Bindings for Desktop](2025-enable-easy-c-bindings-for-desktop.md)
+- [Complete Reliable Channel API](2026-complete-reliable-channel-api.md)
+## Logos v0.3 (Testnet) milestones
 
-## 2. Logos Launch Important
-
-Ideally delivered with mainnet.
-
-- [Support Discovery Research and Libp2p QUIC](2025-support-discovery-research-and-libp2p-quic.md)
 - [Add Edge Mode to Messaging API](2025-add-edge-mode-to-messaging-api.md)
 - [Enable easy C-Bindings for Mobile](2025-enable-easy-c-bindings-for-mobile.md)
 - [Messaging and Chat on Mobile](2025-messaging-chat-on-mobile.md)
-- [Complete Reliable Channel API](2026-complete-reliable-channel-api.md)
+- [Nwaku in Status Mobile and Light Mode MVP](2025-nwaku-in-status-mobile.md)
+## Logosv 0.4 (Testnet) milestones
+
 - [Implement RLN Membership Management](2025-implement-rln-membership-management.md)
 - Add Support of RLN LSSA
+## Logos [[v1.0 (Mainnet)]] milestones
 
-## 3. Status
+-  [Support Discovery Research and Libp2p QUIC](2025-support-discovery-research-and-libp2p-quic.md)
+- Status consumes Logos Chat and LMN as a Logos Core modules
 
-- [Foundation for Communities Optimization](2025-foundation-for-communities-optimization.md)
+---
+## Completed Milestones
+
+- [Enable easy C-Bindings for Desktop](2025-enable-easy-c-bindings-for-desktop.md)
 - [Integrate nwaku in status desktop relay mode only](2024-nwaku-in-status-desktop.md)
-- [Introduce E2E Reliability in Status Communities](2024-e2e-reliability-protocol.md)
-- [Nwaku in Status Mobile and Light Mode MVP](2025-nwaku-in-status-mobile.md)
+- [Foundation for Communities Optimization](2025-foundation-for-communities-optimization.md)
 
-# Chronological
+---
+---
+# Chronological (archive)
 
 ## H2 2025
 
@@ -72,7 +81,6 @@ Ideally delivered with mainnet.
 - [Hardening and scaling foundations for private chats](2025-hardening-and-scaling-foundations-for-private-chats.md)
 - [Incentivisation and Marketplace Follow-Up Outline](2025-incentivisation-and-marketplace-follow-up-outline.md)
 - [Introduce Mixnet For Message Sending](2025-introduce-mixnet-for-message-sending.md)
-- [Messaging API](2025-messaging-api.md)
 - [Upgrade Waku for the Web](2025-upgrade-waku-for-the-web.md)
 - [Acquire first 10 Customers](2024-acquire-first-10-customers.md)
 - [Demonstrate Product Market-Fit](2024-demonstrate-product-market-fit.md)

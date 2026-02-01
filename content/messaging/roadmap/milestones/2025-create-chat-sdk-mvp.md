@@ -33,6 +33,10 @@ Note: Dependency to nim-messaging is to be handled via Nimble, meaning the Chat 
 messaging, etc embedded.
 Moving to an architecture where the Chat module uses the locally available messaging module, is not yet planned.
 
+## FURPS
+
+[ChatSDK](/messaging/furps/application/chat_sdk.md)
+
 ## Risks
 
 | Type/Level            | Risk                                   | (Accept, Own, Mitigation)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
@@ -42,16 +46,6 @@ Moving to an architecture where the Chat module uses the locally available messa
 | Schedule/Medium       | Cryptographic Primitives               | There is an assumption that the cryptographic libraries needed for the success of this project are available and in a usable state. To mitigate, early tasks will involve spikes to find appropriate libraries and de-risk their usage their state. Collaboration with ACZ Think Tank. Extra time spent preparing crypto libraries / porting will result in delays.                                                                                                                                                                                                              |
 | Technical/Low         | Uncertain Performance                  | Performance targets for bandwidth are hard to quantify at this stage. They are listed as `P1` in the FURPS. While these targets appear reasonable (125 bytes per second per user) that remains to be seen. This is hard to mitigate as the SDK cannot be profiled until late in the development cycle, making adjustments difficult.                                                                                                                                                                                                                                             |
 | Migration/High        | RLN-less fleet lead to breaking change | If the staging, and then prod fleets, for Chat SDK are setup without RLN, then breaking changes will be needed to migrate to an RLN-protected network.                                                                                                                                                                                                                                                                                                                                                                                                                           |
-
-## FURPS
-
-[ChatSDK](/messaging/furps/application/chat_sdk.md)
-
-## Risks
-
-| Risk   | (Accept, Own, Mitigation)     |
-|--------|-------------------------------|
-| [Risk] | [how to we address this risk] |
 
 ## Deliverables
 
@@ -155,3 +149,14 @@ For library ChatSDK:
 **Owner**: Nim Messaging Team
 
 Ensure a staging fleet is available and pre-configurable for the Chat SDK Developer preview.
+
+### Logos Core Chat Module MVP
+
+- Logos Core module should expose 1:1 chats API for other Logos Core nodes.
+- A simple chat app should be implemented for demonstration purposes.
+- LMN is embedded in the Chat and *NOT* used as a Logos Core module. 
+- RLN is ignored/disabled.
+
+### Documentation
+
+TBD - some docs describing how to use Chat module
