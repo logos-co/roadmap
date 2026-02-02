@@ -69,7 +69,7 @@ Sybil and DoS protection is out of scope for this deployment.
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
 
-### Implement DoS and Sybil protection protocol for libp2p mix
+### [Implement DoS and Sybil protection protocol for libp2p mix](https://github.com/logos-co/anoncomms-pm/issues/19)
 
 **Owner**: AnonComms Mix
 
