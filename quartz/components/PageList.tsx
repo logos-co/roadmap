@@ -26,7 +26,9 @@ export function byDateAndAlphabetical(
   cfg: GlobalConfiguration,
 ): (f1: QuartzPluginData, f2: QuartzPluginData) => number {
   const getComparableDate = (file: QuartzPluginData): Date | null => {
+    console.log("Getting comparable date for file:", file.frontmatter?.title, file.dates)
     return (
+      file.dates?.created ??
       file.dates?.published ??
       extractDateFromTitle(file.frontmatter?.title ?? "") ??
       extractDateFromSlug(file.slug) ??
