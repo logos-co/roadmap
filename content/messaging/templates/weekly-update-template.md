@@ -13,7 +13,7 @@ tags:
 - Logos Integrations:
 - Status:
 
-## [Create Chat SDK MVP](/messaging/milestones/open/2025-create-chat-sdk-mvp.md)
+## [Create Chat SDK MVP](2025-create-chat-sdk-mvp.md)
 
 - [[Deliverable] Chat SDK Developer Preview](https://github.com/waku-org/pm/issues/316)
   - achieved:
@@ -35,14 +35,14 @@ tags:
   - next:
   - blockers:
 
-## [Extend Chat SDK with Group Conversations](/messaging/milestones/open/2025-extend-chat-sdk-with-group-conversations.md)
+## [Extend Chat SDK with Group Conversations](2025-extend-chat-sdk-with-group-conversations.md)
 
 - []()
   - achieved:
   - next:
   - blockers:
 
-## [API access to P2P Reliability for Desktop](/messaging/milestones/closed/2025-improve-devex.md)
+## [API access to P2P Reliability for Desktop](2025-improve-devex.md)
 
 - [[Deliverable] Global Network Metrics](https://github.com/waku-org/pm/issues/295)
   - achieved:
@@ -142,14 +142,14 @@ tags:
   - next:
   - blockers:
 
-## [Foundation for Communities Optimization](/messaging/milestones/open/2025-foundation-for-communities-optimization.md)
+## [Foundation for Communities Optimization](2025-foundation-for-communities-optimization.md)
 
 - [[Deliverable] Define and implement sharding for Communities messages](https://github.com/waku-org/pm/issues/266)
   - achieved:
   - next:
   - blockers:
 
-## [Integrate nwaku in status desktop relay mode only](/messaging/milestones/open/2024-nwaku-in-status-desktop.md)
+## [Integrate nwaku in status desktop relay mode only](2024-nwaku-in-status-desktop.md)
 
 - [[Deliverable] Nwaku in Status Desktop](https://github.com/waku-org/pm/issues/203)
   - achieved:
@@ -163,7 +163,7 @@ tags:
   - next: 
   - blockers:
 
-## [Introduce E2E Reliability in Status Communities](/messaging/milestones/open/2024-e2e-reliability-protocol.md)
+## [Introduce E2E Reliability in Status Communities](2024-e2e-reliability-protocol.md)
 
 - [[Deliverable] SDS protocol in Status - basic integration](https://github.com/waku-org/pm/issues/194)
   - achieved:
@@ -175,7 +175,7 @@ tags:
   - next:
   - blockers:
 
-## [Nwaku in Status Mobile and Light Mode MVP](/messaging/milestones/open/2025-nwaku-in-status-mobile.md)
+## [Nwaku in Status Mobile and Light Mode MVP](2025-nwaku-in-status-mobile.md)
 
 - [[Deliverable] Status mobile build with nwaku MVP](https://github.com/waku-org/pm/issues/276)
   - achieved:
