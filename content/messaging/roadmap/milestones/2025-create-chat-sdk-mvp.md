@@ -77,21 +77,6 @@ Moving to an architecture where the Chat module uses the locally available messa
 
 - +4. Nimble package manager is used to build.
 
-### [ChatSDK Bindings](https://github.com/waku-org/pm/issues/317)
-
-**Owner**: Chat Team
-
-**Feature**: [Chat SDK](/messaging/furps/application/chat_sdk.md)
-
-**Dependencies**: [ChatSDK - Developer Preview ]
-
-**FURPS**:
-
-For library ChatSDK:
-- U3. Minimal example of the ChatSDK is no more than 25 lines of code.
-
-- S3. library can be used via C-Bindings.
-
 ### [Create Segmentation Library](https://github.com/waku-org/pm/issues/318)
 
 **Owner**: Chat Team
@@ -144,18 +129,13 @@ For library ChatSDK:
 - S1. Nim library.
 - +1. Nimble package manager is used to build.
 
-### Setup staging fleet for Chat SDK
-
-**Owner**: Nim Messaging Team
-
-Ensure a staging fleet is available and pre-configurable for the Chat SDK Developer preview.
-
-### Logos Core Chat Module MVP
+### [Implement Chat module for Logos Core ](https://github.com/logos-messaging/pm/issues/373)
 
 - Logos Core module should expose 1:1 chats API for other Logos Core nodes.
 - A simple chat app should be implemented for demonstration purposes.
 - LMN is embedded in the Chat and *NOT* used as a Logos Core module. 
 - RLN is ignored/disabled.
+- README describes the module API
 
 ### Documentation
 

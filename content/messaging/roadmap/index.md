@@ -10,14 +10,14 @@ The Messaging team is currently working on the following milestones, grouped by 
 **Target date:** 2026-03-01
 
 - [Create Chat SDK MVP](2025-create-chat-sdk-mvp.md)
-- [Enable easy C-Bindings for Desktop](2025-enable-easy-c-bindings-for-desktop.md)
+- [Messaging API](2025-messaging-api.md)
 
 ## Status [2.37](https://github.com/status-im/status-app/milestone/90) 
 
 **Target date**: 2026-02-11
 
-- [Introduce E2E Reliability in Status Communities](2024-e2e-reliability-protocol.md)
-## Logos [v0.2 (Testnet)](v02) milestones
+- [Introduce E2E Reliability in Status Communities](2024-e2e-reliability-protocol.md) (initial integration, requires 2 release cycles)
+
 ## Logos [v0.2 (Testnet)](v02)
 
 **Target date:** 2026-06-01
@@ -26,7 +26,12 @@ The Messaging team is currently working on the following milestones, grouped by 
 - [API access to P2P Reliability for Desktop](2025-api-access-to-p2p-reliability-for-desktop.md)
 - [Package SDS in Reliable Channel API](2025-package-sds-in-reliable-channel-api.md)
 - [Complete Reliable Channel API](2026-complete-reliable-channel-api.md)
-## Logos v0.3 (Testnet) milestones
+- Chat Identity
+- Logos Core integration (Chat module -> LMN module)
+
+## Status [2.39](https://github.com/status-im/status-app/milestone/93)
+
+- [Introduce E2E Reliability in Status Communities](2024-e2e-reliability-protocol.md) (complete integration after 2 release cycles)
 
 ## Logos v0.3 (Testnet)
 
@@ -38,12 +43,12 @@ The Messaging team is currently working on the following milestones, grouped by 
 ## Logos 0.4 (Testnet)
 
 - [Implement RLN Membership Management](2025-implement-rln-membership-management.md)
-- Add Support of RLN LSSA
+- [Add support for RLN on LEE](2026-add-support-for-rln-on-lee)
 
 ## Logos [[v1.0 (Mainnet)]] 
 
 -  [Support Discovery Research and Libp2p QUIC](2025-support-discovery-research-and-libp2p-quic.md)
-- Status consumes Logos Chat and LMN as a Logos Core modules
+-  Status consumes Logos Chat and LMN as a Logos Core modules
 
 ---
 ## Completed Milestones
