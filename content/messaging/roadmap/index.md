@@ -2,20 +2,25 @@
 title: Messaging Roadmap Overview
 date: 2025-12-10
 ---
-
 # Messaging Roadmap Overview
 
-The Messaging team is currently working on the following milestones, grouped by releases in which they are to be delivered:
-## Logos [v0.1 (Testnet)](v01) milestones
+The Messaging team is currently working on the following milestones, grouped by releases in which they are to be delivered.
+## Logos [v0.1 (Testnet)](v01)
+
+**Target date:** 2026-03-01
 
 - [Create Chat SDK MVP](2025-create-chat-sdk-mvp.md)
 - [Enable easy C-Bindings for Desktop](2025-enable-easy-c-bindings-for-desktop.md)
-- [Messaging API](2025-messaging-api.md) 
-- [Implement LMN Logos Core module](2026-lmn-logos-core-module.md)
-## Status 2.38 milestones
+
+## Status [2.37](https://github.com/status-im/status-app/milestone/90) 
+
+**Target date**: 2026-02-11
 
 - [Introduce E2E Reliability in Status Communities](2024-e2e-reliability-protocol.md)
 ## Logos [v0.2 (Testnet)](v02) milestones
+## Logos [v0.2 (Testnet)](v02)
+
+**Target date:** 2026-06-01
 
 - [Extend Chat SDK with Group Conversations](2025-extend-chat-sdk-with-group-conversations.md)
 - [API access to P2P Reliability for Desktop](2025-api-access-to-p2p-reliability-for-desktop.md)
@@ -23,15 +28,19 @@ The Messaging team is currently working on the following milestones, grouped by 
 - [Complete Reliable Channel API](2026-complete-reliable-channel-api.md)
 ## Logos v0.3 (Testnet) milestones
 
+## Logos v0.3 (Testnet)
+
 - [Add Edge Mode to Messaging API](2025-add-edge-mode-to-messaging-api.md)
 - [Enable easy C-Bindings for Mobile](2025-enable-easy-c-bindings-for-mobile.md)
 - [Messaging and Chat on Mobile](2025-messaging-chat-on-mobile.md)
 - [Nwaku in Status Mobile and Light Mode MVP](2025-nwaku-in-status-mobile.md)
-## Logosv 0.4 (Testnet) milestones
+
+## Logos 0.4 (Testnet)
 
 - [Implement RLN Membership Management](2025-implement-rln-membership-management.md)
 - Add Support of RLN LSSA
-## Logos [[v1.0 (Mainnet)]] milestones
+
+## Logos [[v1.0 (Mainnet)]] 
 
 -  [Support Discovery Research and Libp2p QUIC](2025-support-discovery-research-and-libp2p-quic.md)
 - Status consumes Logos Chat and LMN as a Logos Core modules
