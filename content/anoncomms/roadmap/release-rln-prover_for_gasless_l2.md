@@ -17,7 +17,6 @@ deploying a separate RLN prover module,
 and proving the application of RLN for fair-use gasless transactions.
 
 By the end of this milestone,
-we will have extended the RLN proving stack to support the burning of multiple message IDs in a single proof.
 We'll also enable multiple provers to operate on a shared database.
 All of this will be specified,
 culminating in a whitepaper describing the RLN prover approach to gasless L2 transactions.
@@ -49,22 +48,6 @@ culminating in a whitepaper describing the RLN prover approach to gasless L2 tra
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### [Support burning multiple IDs in a single RLN proof](https://github.com/logos-co/anoncomms-pm/issues/15)
-
-**Owner**: AnonComms Zerokit-RLN
-
-**Feature**: [Zerokit-RLN FURPS](../furps/zerokit-rln.md)
-
-**FURPS**:
-
-- F3. An RLN prover can burn multiple message-ids in a single proof
-
-**Checklist**:
-- [ ] Specs: link to specs and/or API definition
-- [ ] Code: link to GitHub issues/PRs/Epic
-- [ ] Dogfood: link to dogfooding session/artefact
-- [ ] Docs: links to README.md or other docs
-
 ### [Write whitepaper on gasless L2 transactions](https://github.com/logos-co/anoncomms-pm/issues/12)
 
 **Owner**: AnonComms Zerokit-RLN
@@ -77,19 +60,3 @@ culminating in a whitepaper describing the RLN prover approach to gasless L2 tra
 
 **Checklist**:
 - [ ] Docs: link to whitepaper
-
-### [Authenticated connections between prover and slashers](https://github.com/logos-co/anoncomms-pm/issues/16)
-
-**Owner**: AnonComms Zerokit-RLN
-
-**Feature**: [Zerokit-RLN FURPS](../furps/zerokit-rln.md)
-
-**FURPS**:
-
-- R2. Decentralized slashers establish authenticated connections to the RLN prover to observe proofs and detect spam
-
-**Checklist**:
-- [ ] Specs: link to specs and/or API definition
-- [ ] Code: link to GitHub issues/PRs/Epic
-- [ ] Dogfood: link to dogfooding session/artefact
-- [ ] Docs: links to README.md or other docs
