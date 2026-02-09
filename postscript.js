@@ -5956,3 +5956,89 @@ if (!customElements.get("route-announcer")) {
   );
 }
 })();
+(function () {// quartz/components/scripts/quartz/components/scripts/weeklyReport.inline.ts
+var isWeeklyReportInitialized = false;
+var weeklyReportKeydownHandler = null;
+function initializeWeeklySummary() {
+  const hasWeeklyReportContent = document.querySelector(".tab[data-team]") !== null;
+  if (!hasWeeklyReportContent) {
+    return;
+  }
+  if (isWeeklyReportInitialized) {
+    return;
+  }
+  document.querySelectorAll(".tab").forEach((tab) => {
+    tab.addEventListener("click", () => {
+      const team = tab.dataset.team;
+      if (!team) return;
+      document.querySelectorAll(".tab").forEach((t) => t.classList.remove("active"));
+      tab.classList.add("active");
+      document.querySelectorAll(".team-content").forEach((content) => {
+        content.classList.remove("active");
+      });
+      const teamContent = document.getElementById(team);
+      if (teamContent) {
+        teamContent.classList.add("active");
+      }
+    });
+  });
+  const searchInput = document.getElementById("search");
+  if (searchInput) {
+    searchInput.addEventListener("input", (e) => {
+      const query = e.target.value.toLowerCase();
+      document.querySelectorAll(".milestone, .repo-card").forEach((item) => {
+        const text = item.textContent?.toLowerCase() || "";
+        if (query === "" || text.includes(query)) {
+          item.classList.remove("hidden");
+          if (item.classList.contains("milestone") && query !== "") {
+            item.classList.add("expanded");
+          }
+        } else {
+          item.classList.add("hidden");
+        }
+      });
+      document.querySelectorAll(".highlight-card").forEach((card) => {
+        const text = card.textContent?.toLowerCase() || "";
+        if (query === "" || text.includes(query)) {
+          card.classList.remove("hidden");
+        } else {
+          card.classList.add("hidden");
+        }
+      });
+    });
+  }
+  if (weeklyReportKeydownHandler) {
+    document.removeEventListener("keydown", weeklyReportKeydownHandler);
+  }
+  weeklyReportKeydownHandler = (e) => {
+    if (e.key >= "1" && e.key <= "5") {
+      const tabs = document.querySelectorAll(".tab");
+      const index = parseInt(e.key) - 1;
+      if (tabs[index]) {
+        ;
+        tabs[index].click();
+      }
+    }
+  };
+  document.addEventListener("keydown", weeklyReportKeydownHandler);
+  isWeeklyReportInitialized = true;
+}
+window.toggleMilestone = function(header) {
+  const milestone = header.parentElement;
+  if (milestone) {
+    milestone.classList.toggle("expanded");
+  }
+};
+function resetWeeklyReportInitialization() {
+  isWeeklyReportInitialized = false;
+  if (weeklyReportKeydownHandler) {
+    document.removeEventListener("keydown", weeklyReportKeydownHandler);
+    weeklyReportKeydownHandler = null;
+  }
+}
+document.addEventListener("nav", () => {
+  resetWeeklyReportInitialization();
+  setTimeout(initializeWeeklySummary, 50);
+});
+initializeWeeklySummary();
+})();
