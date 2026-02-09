@@ -116,41 +116,41 @@ gantt
     
     section Messaging - Launch Critical
     Create Chat SDK MVP                            :crit, active, msg1, 2025-06-24, 2025-12-31
-    click msg1 href "/messaging/milestones/open/2025-create-chat-sdk-mvp"
+    click msg1 href "/messaging/roadmap/milestones/2025-create-chat-sdk-mvp"
     Extend Chat SDK with Group Conversations       :crit, msg2, 2025-12-18, 2026-06-30
-    click msg2 href "/messaging/milestones/open/2025-extend-chat-sdk-with-group-conversations"
+    click msg2 href "/messaging/roadmap/milestones/2025-extend-chat-sdk-with-group-conversations"
     API access to P2P Reliability for Desktop      :active, msg3, 2025-07-03, 2025-08-31
-    click msg3 href "/messaging/milestones/open/2025-api-access-to-p2p-reliability-for-desktop"
+    click msg3 href "/messaging/roadmap/milestones/2025-api-access-to-p2p-reliability-for-desktop"
     Package SDS in Reliable Channel API            :msg4, 2025-12-10, 2026-03-31
-    click msg4 href "/messaging/milestones/open/2025-package-sds-in-reliable-channel-api"
+    click msg4 href "/messaging/roadmap/milestones/2025-package-sds-in-reliable-channel-api"
     Enable easy C-Bindings for Desktop             :active, msg5, 2025-12-19, 2026-03-31
-    click msg5 href "/messaging/milestones/open/2025-enable-easy-c-bindings-for-desktop"
+    click msg5 href "/messaging/roadmap/milestones/2025-enable-easy-c-bindings-for-desktop"
     
     section Messaging - Launch Important
     Support Discovery Research & Libp2p QUIC       :msg6, 2025-12-03, 2026-06-30
-    click msg6 href "/messaging/milestones/open/2025-support-discovery-research-and-libp2p-quic"
+    click msg6 href "/messaging/roadmap/milestones/2025-support-discovery-research-and-libp2p-quic"
     Add Edge Mode to Messaging API                 :msg7, 2025-12-10, 2026-06-30
-    click msg7 href "/messaging/milestones/open/2025-add-edge-mode-to-messaging-api"
+    click msg7 href "/messaging/roadmap/milestones/2025-add-edge-mode-to-messaging-api"
     Enable easy C-Bindings for Mobile              :active, msg8, 2025-12-19, 2026-06-30
-    click msg8 href "/messaging/milestones/open/2025-enable-easy-c-bindings-for-mobile"
+    click msg8 href "/messaging/roadmap/milestones/2025-enable-easy-c-bindings-for-mobile"
     Messaging and Chat on Mobile                   :msg9, 2025-12-11, 2026-06-30
-    click msg9 href "/messaging/milestones/open/2025-messaging-chat-on-mobile"
+    click msg9 href "/messaging/roadmap/milestones/2025-messaging-chat-on-mobile"
     Complete Reliable Channel API                  :msg10, 2025-12-17, 2026-06-30
-    click msg10 href "/messaging/milestones/open/2026-complete-reliable-channel-api"
+    click msg10 href "/messaging/roadmap/milestones/2026-complete-reliable-channel-api"
     Implement RLN Membership Management            :active, msg11, 2025-09-30, 2026-03-31
-    click msg11 href "/messaging/milestones/open/2025-implement-rln-membership-management"
+    click msg11 href "/messaging/roadmap/milestones/2025-implement-rln-membership-management"
     Add Support of RLN LSSA                        :msg12, 2026-01-01, 2026-09-30
-    click msg12 href "/messaging/milestones"
+    click msg12 href "/messaging/roadmap"
     
     section Messaging - Status
     Foundation for Communities Optimization        :active, msg13, 2024-09-07, 2025-10-31
-    click msg13 href "/messaging/milestones/open/2025-foundation-for-communities-optimization"
+    click msg13 href "/messaging/roadmap/milestones/2025-foundation-for-communities-optimization"
     Integrate nwaku in Status Desktop              :active, msg14, 2025-10-17, 2025-12-31
-    click msg14 href "/messaging/milestones/open/2024-nwaku-in-status-desktop"
+    click msg14 href "/messaging/roadmap/milestones/2024-nwaku-in-status-desktop"
     E2E Reliability in Status Communities          :active, msg15, 2024-09-07, 2025-12-31
-    click msg15 href "/messaging/milestones/open/2024-e2e-reliability-protocol"
+    click msg15 href "/messaging/roadmap/milestones/2024-e2e-reliability-protocol"
     Nwaku in Status Mobile & Light Mode            :active, msg16, 2025-01-10, 2026-06-30
-    click msg16 href "/messaging/milestones/open/2025-nwaku-in-status-mobile"
+    click msg16 href "/messaging/roadmap/milestones/2025-nwaku-in-status-mobile"
 ```
 
 ## Legend

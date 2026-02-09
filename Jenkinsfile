@@ -45,7 +45,7 @@ pipeline {
     stage('Publish Prod') {
       steps { script {
         sshagent(credentials: ['status-im-auto-ssh']) {
-          nix.develop('ghp-import -c roadmap.logos.co -p public', pure: false)
+          nix.develop('ghp-import -f -c roadmap.logos.co -p public', pure: false)
         }
       } }
     }

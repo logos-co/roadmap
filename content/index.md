@@ -12,6 +12,9 @@ You an read more about the contents of a given milestone and the various justifi
 
 ## Navigation
 
+### Reports
+- [[reports/index|Reports]]
+
 ### Logos Components
 
 - [[anoncomms/index|AnonComms]]
