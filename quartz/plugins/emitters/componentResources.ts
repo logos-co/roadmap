@@ -7,6 +7,8 @@ import spaRouterScript from "../../components/scripts/spa.inline"
 import plausibleScript from "../../components/scripts/plausible.inline"
 // @ts-ignore
 import popoverScript from "../../components/scripts/popover.inline"
+// @ts-ignore
+import weeklyReportScript from "../../components/scripts/weeklyReport.inline"
 import styles from "../../styles/custom.scss"
 import popoverStyle from "../../components/styles/popover.scss"
 import { BuildCtx } from "../../util/ctx"
@@ -87,7 +89,7 @@ function addGlobalPageResources(
       function gtag() { dataLayer.push(arguments); }
       gtag(\`js\`, new Date());
       gtag(\`config\`, \`${tagId}\`, { send_page_view: false });
-  
+
       document.addEventListener(\`nav\`, () => {
         gtag(\`event\`, \`page_view\`, {
           page_title: document.title,
@@ -102,7 +104,7 @@ function addGlobalPageResources(
       umamiScript.src = "https://analytics.umami.is/script.js"
       umamiScript.setAttribute("data-website-id", "${cfg.analytics.websiteId}")
       umamiScript.async = true
-  
+
       document.head.appendChild(umamiScript)
     `)
   }
@@ -115,6 +117,9 @@ function addGlobalPageResources(
         const event = new CustomEvent("nav", { detail: { url: document.body.dataset.slug } })
         document.dispatchEvent(event)`)
   }
+
+  // Weekly report interactivity
+  componentResources.afterDOMLoaded.push(weeklyReportScript)
 
   let wsUrl = `ws://localhost:${ctx.argv.wsPort}`
 
