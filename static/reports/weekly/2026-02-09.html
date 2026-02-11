@@ -492,11 +492,11 @@
 
       <div class="stats-bar">
         <div class="stat">
-          <div class="stat-value">4</div>
+          <div class="stat-value">5</div>
           <div class="stat-label">Teams Reporting</div>
         </div>
         <div class="stat">
-          <div class="stat-value">30+</div>
+          <div class="stat-value">60+</div>
           <div class="stat-label">PRs & Updates</div>
         </div>
         <div class="stat">
@@ -567,6 +567,27 @@
               callback removal from synchronous calls
             </p>
           </div>
+          <div class="highlight-card blockchain">
+            <div class="team">Blockchain</div>
+            <p>
+              Internal Devnet launched! First ever Logos Blockchain release with faucet,
+              multiplatform Docker images, and Swagger API docs
+            </p>
+          </div>
+          <div class="highlight-card blockchain">
+            <div class="team">Blockchain</div>
+            <p>
+              Token Program refactored into reusable crates; full LEE Bedrock integration with
+              Sequencer + Indexer + Explorer wired together
+            </p>
+          </div>
+          <div class="highlight-card blockchain">
+            <div class="team">Blockchain</div>
+            <p>
+              Compressed Block Proposal RFC ready for general review; began research into PoW
+              bootstrapping
+            </p>
+          </div>
         </div>
       </section>
 
@@ -583,6 +604,7 @@
         <button class="tab logoscore" data-team="logoscore">Logos Core</button>
         <button class="tab messaging" data-team="messaging">Messaging</button>
         <button class="tab storage" data-team="storage">Storage</button>
+        <button class="tab blockchain" data-team="blockchain">Blockchain</button>
       </div>
 
       <!-- AnonComms Team Content -->
@@ -1155,6 +1177,418 @@
                     Start using Nimble in nim-sds -
                     <a href="https://github.com/logos-messaging/nim-sds/pull/52">#52</a>
                   </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blockchain Team Content -->
+      <div class="team-content" id="blockchain">
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Bedrock Research</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>Cryptarchia</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>
+                    Updated draft on Total Stake Inference (TSI) via Uncle/DAG references: fixes
+                    ~15% underestimation by adding bounded uncle references for measurement. Updated
+                    validity rules, measurement procedure, and incentive analysis
+                  </li>
+                  <li>
+                    Drafted EmPoWering the Consensus: a PoW-based note minting mechanism enabling
+                    permissionless consensus participation without prior stake
+                  </li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4>DA Sampling</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>
+                    Completed "Network view" analysis: derived optimal sampling threshold using
+                    hypergeometric model, extended to n-node network perspective with collective
+                    acceptance/rejection probabilities
+                  </li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4>Blend</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>
+                    Batch proving for PoQ Groth16: caches ~95% invariant witness across proofs,
+                    achieving ~2.5x speedup for 100 proofs
+                  </li>
+                  <li>Compressed Block Proposal RFC cleaned up and ready for general review</li>
+                  <li>
+                    Updated Blend Protocol Node Communication Strategy Guide, motivating the
+                    redundancy parameter setting
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Bedrock Engineering</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>Cryptarchia</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>
+                    Finished leader voucher implementation: derivation from master key
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2089"
+                      >#2089</a
+                    >, claim API
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2102"
+                      >#2102</a
+                    >
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2108"
+                      >#2108</a
+                    >, bug fixes and refactoring
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2114"
+                      >#2114</a
+                    >
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2123"
+                      >#2123</a
+                    >
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2104"
+                      >#2104</a
+                    >
+                  </li>
+                  <li>
+                    Chain services bug fixes: remove assertion that proposed block always becomes
+                    honest chain tip
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2099"
+                      >#2099</a
+                    >, don't propose blocks during Bootstrapping
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2115"
+                      >#2115</a
+                    >
+                  </li>
+                  <li>
+                    Prune lottery vouchers from wallet on LIB update
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2120"
+                      >#2120</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4>Blend</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>
+                    Integration of real PoL proofs in Blend
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2090"
+                      >#2090</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4>Testing</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>
+                    Cryptarchia cucumber tests
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2091"
+                      >#2091</a
+                    >
+                  </li>
+                  <li>
+                    Improved cucumber tests
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2150"
+                      >#2150</a
+                    >
+                  </li>
+                  <li>
+                    Test adjustments
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2136"
+                      >#2136</a
+                    >,
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2116"
+                      >#2116</a
+                    >
+                  </li>
+                  <li>
+                    Fix genesis UTXO
+                    <a href="https://github.com/logos-blockchain/logos-blockchain-testing/pull/24"
+                      >#24</a
+                    >
+                  </li>
+                  <li>
+                    Framework core and Logos separation (draft)
+                    <a href="https://github.com/logos-blockchain/logos-blockchain-testing/pull/28"
+                      >#28</a
+                    >
+                  </li>
+                  <li>
+                    Config and naming updates, custom persistent dir, merge dev to master
+                    <a href="https://github.com/logos-blockchain/logos-blockchain-testing/pull/23"
+                      >#23</a
+                    >
+                    <a href="https://github.com/logos-blockchain/logos-blockchain-testing/pull/25"
+                      >#25</a
+                    >
+                    <a href="https://github.com/logos-blockchain/logos-blockchain-testing/pull/26"
+                      >#26</a
+                    >
+                    <a href="https://github.com/logos-blockchain/logos-blockchain-testing/pull/27"
+                      >#27</a
+                    >
+                  </li>
+                  <li>Performed devnet pre-startup and devnet tests</li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4>Deployment</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>First ever Logos Blockchain release</li>
+                  <li>
+                    Optimized release builds
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2094"
+                      >#2094</a
+                    >,
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2103"
+                      >#2103</a
+                    >,
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2106"
+                      >#2106</a
+                    >,
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2111"
+                      >#2111</a
+                    >
+                  </li>
+                  <li>
+                    Deployment settings changes
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2093"
+                      >#2093</a
+                    >,
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2110"
+                      >#2110</a
+                    >,
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2112"
+                      >#2112</a
+                    >,
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2140"
+                      >#2140</a
+                    >
+                  </li>
+                  <li>
+                    Faucet implementation
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2122"
+                      >#2122</a
+                    >
+                  </li>
+                  <li>
+                    Multiplatform docker images
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2109"
+                      >#2109</a
+                    >
+                  </li>
+                  <li>
+                    Devnet setup instructions
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2107"
+                      >#2107</a
+                    >
+                  </li>
+                  <li>
+                    Node API documentation via Swagger
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2125"
+                      >#2125</a
+                    >
+                  </li>
+                  <li>
+                    Devnet prometheus endpoint exposed publicly
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2126"
+                      >#2126</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4>Logos Core Integration</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>
+                    Logos Blockchain Module post-restructure: standardized CMake paths, pure C++
+                    interface, auto-formatting, library naming fixes
+                    <a href="https://github.com/logos-blockchain/logos-blockchain-module/pull/2"
+                      >#2</a
+                    >
+                  </li>
+                  <li>
+                    Block events in logos-blockchain-module (WIP)
+                    <a href="https://github.com/logos-blockchain/logos-blockchain-module/pull/4"
+                      >#4</a
+                    >
+                  </li>
+                  <li>
+                    LEZ Nixify (in-review)
+                    <a href="https://github.com/logos-blockchain/lssa/pull/320">#320</a>
+                  </li>
+                  <li>LEZ Module repository created</li>
+                  <li>
+                    Logos Modules listing updated
+                    <a href="https://github.com/logos-co/logos-modules/pull/8">#8</a>
+                  </li>
+                  <li>Simple text-based UI for Cargo Hack to track progress</li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4>SDP (Zone SDK)</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>
+                    Zone-SDK non-finalized state tracking: safe, pending, finalized txs (in-review)
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2132"
+                      >#2132</a
+                    >
+                  </li>
+                  <li>
+                    SQLite zone demo: sequencer side implemented with SDK, working with generic
+                    query support
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>LEE (Logos Execution Environment)</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>Key Protocol</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>
+                    Prepared multisignature authorization document for private accounts with
+                    multiple owners
+                  </li>
+                  <li>
+                    Working on alternative "voting" program based approach for multi-owner private
+                    accounts
+                  </li>
+                  <li>
+                    Public key protocol updated to match HD key specs (in-review)
+                    <a href="https://github.com/logos-blockchain/lssa/pull/249">#249</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4>Token Program</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>
+                    Token Program refactored into library crates: main logic moved to
+                    <code>token_program</code> lib, common types extracted to
+                    <code>token_core</code>
+                    <a href="https://github.com/logos-blockchain/lssa/pull/293">#293</a>
+                  </li>
+                  <li>
+                    AMM Program refactor following same approach (in-review)
+                    <a href="https://github.com/logos-blockchain/lssa/pull/306">#306</a>
+                  </li>
+                  <li>
+                    Wallet FFI tests: new integration test suite with BlockingTestContext
+                    <a href="https://github.com/logos-blockchain/lssa/pull/318">#318</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4>Indexer</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>
+                    Indexer state management: added Indexer DB with V02State reconstruction, mapping
+                    columns for block hash/tx hash/account lookup, RPC API extended
+                    <a href="https://github.com/logos-blockchain/lssa/pull/308">#308</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4>Integration</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>
+                    Full Bedrock integration PR: Sequencer accepts generic Bedrock/Indexer clients,
+                    uses testcontainers, added retries, fixed flaky tests
+                    <a href="https://github.com/logos-blockchain/lssa/pull/316">#316</a>
+                  </li>
+                  <li>
+                    Implemented all-in-one docker compose for simplified local running and stage
+                    deployment
+                  </li>
+                  <li>Publishing indexer_service and explorer_service Docker images via CI</li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4>Explorer</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>
+                    Block Explorer implemented using leptos Rust fullstack framework with pages for
+                    blocks/transactions/accounts and Docker support (in-review)
+                    <a href="https://github.com/logos-blockchain/lssa/pull/315">#315</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4>Documentation</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>
+                    Rewrote main repo README: updated intro to use LEE/LEZ terminology
+                    <a href="https://github.com/logos-blockchain/lssa/pull/323">#323</a>
+                  </li>
+                  <li>
+                    Created LEZ testnet v0.1 tutorial guide: wallet setup, token transfer, custom
+                    tokens, AMM
+                    <a href="https://github.com/logos-blockchain/lssa/pull/322">#322</a>
+                  </li>
+                  <li>
+                    Updated program deployment tutorial README
+                    <a href="https://github.com/logos-blockchain/lssa/pull/324">#324</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Comms</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>Blog</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Sovereign Zone Interoperability blog draft (in-progress)</li>
                 </ul>
               </div>
             </div>
