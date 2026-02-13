@@ -4,7 +4,24 @@ date: 2025-12-10
 ---
 # Roadmap Overview
 
-Logos Messaging is working towards the following milestones
+Logos Messaging is working towards these features, required to be implemented for Mainnet:
+
+- Delivery module for Logos Core
+	- Exposes [Messaging API](2025-messaging-api)
+	- Exposes [Reliable Channel API](reliable_channel)
+	- Supports RLN membership on Logos Blockchain
+- Chat module for Logos Core
+	- Exposes 1:1 chats API
+	- Exposes group chats API, based on de-MLS
+	- Uses Delivery module as transport, through Logos Core
+- Status:
+	- Uses [SDS protocol](sds) for Communities
+	- Uses Logos Chat for 1:1 and group chats
+	- Integrates Logos Chat and Delivery is done using Logos Core
+
+# Milestones
+
+The work is split into milestones, planned to be achieved by certain release.
 
 ### Testnet [v0.1](v01)
 
