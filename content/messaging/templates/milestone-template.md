@@ -3,6 +3,7 @@ title: {Milestone Title - use verb}
 tags:
     - messaging-milestone
 date: {creation date}
+github-milestone: <Link to Github Milestone>
 ---
 
 # {Milestone Title - use verb}

@@ -2,41 +2,62 @@
 title: Messaging Roadmap Overview
 date: 2025-12-10
 ---
+# Roadmap Overview
 
-# Messaging Roadmap Overview
+Logos Messaging is working towards these features, required to be implemented for Mainnet:
 
-In order of priority **and** execution.
+- Delivery module for Logos Core
+	- Exposes [Messaging API](2025-messaging-api)
+	- Exposes [Reliable Channel API](reliable_channel)
+	- Supports RLN membership on Logos Blockchain
+- Chat module for Logos Core
+	- Exposes 1:1 chats API
+	- Exposes group chats API, based on de-MLS
+	- Uses Delivery module as transport, through Logos Core
+- Status:
+	- Uses [SDS protocol](sds) for Communities
+	- Uses Logos Chat for 1:1 and group chats
+	- Integrates Logos Chat and Delivery is done using Logos Core
 
-## 1. Logos Launch Critical
+## Milestones
 
-Must be delivered with mainnet.
+The work is split into milestones, planned to be achieved by certain release.
+
+### Testnet [v0.1](v01)
 
 - [Create Chat SDK MVP](2025-create-chat-sdk-mvp.md)
+- [Messaging API](2025-messaging-api.md)
+- [Enable easy C-Bindings for Desktop](2025-enable-easy-c-bindings-for-desktop.md)
+
+### Testnet [v0.2](v02)
+
 - [Extend Chat SDK with Group Conversations](2025-extend-chat-sdk-with-group-conversations.md)
 - [API access to P2P Reliability for Desktop](2025-api-access-to-p2p-reliability-for-desktop.md)
 - [Package SDS in Reliable Channel API](2025-package-sds-in-reliable-channel-api.md)
-- [Enable easy C-Bindings for Desktop](2025-enable-easy-c-bindings-for-desktop.md)
+- [Complete Reliable Channel API](2026-complete-reliable-channel-api.md)
+- Chat Identity
+- Logos Core integration (Chat module -> LMN module)
 
-## 2. Logos Launch Important
+### Required for Mainnet
 
-Ideally delivered with mainnet.
-
-- [Support Discovery Research and Libp2p QUIC](2025-support-discovery-research-and-libp2p-quic.md)
 - [Add Edge Mode to Messaging API](2025-add-edge-mode-to-messaging-api.md)
 - [Enable easy C-Bindings for Mobile](2025-enable-easy-c-bindings-for-mobile.md)
 - [Messaging and Chat on Mobile](2025-messaging-chat-on-mobile.md)
-- [Complete Reliable Channel API](2026-complete-reliable-channel-api.md)
+- [Nwaku in Status Mobile and Light Mode MVP](2025-nwaku-in-status-mobile.md)
 - [Implement RLN Membership Management](2025-implement-rln-membership-management.md)
-- Add Support of RLN LSSA
+- [Add support for RLN on LEE](2026-add-support-for-rln-on-lee)
+- [Support Discovery Research and Libp2p QUIC](2025-support-discovery-research-and-libp2p-quic.md)
+- Status consumes Logos Chat and LMN as a Logos Core modules
 
-## 3. Status
+### Parallel Milestones
 
 - [Foundation for Communities Optimization](2025-foundation-for-communities-optimization.md)
+- [Introduce E2E Reliability in Status Communities](2024-e2e-reliability-protocol.md) (complete integration after 2 release cycles)
 - [Integrate nwaku in status desktop relay mode only](2024-nwaku-in-status-desktop.md)
-- [Introduce E2E Reliability in Status Communities](2024-e2e-reliability-protocol.md)
-- [Nwaku in Status Mobile and Light Mode MVP](2025-nwaku-in-status-mobile.md)
 
-# Chronological
+
+---
+# Chronological (archive)
 
 ## H2 2025
 
@@ -72,7 +93,6 @@ Ideally delivered with mainnet.
 - [Hardening and scaling foundations for private chats](2025-hardening-and-scaling-foundations-for-private-chats.md)
 - [Incentivisation and Marketplace Follow-Up Outline](2025-incentivisation-and-marketplace-follow-up-outline.md)
 - [Introduce Mixnet For Message Sending](2025-introduce-mixnet-for-message-sending.md)
-- [Messaging API](2025-messaging-api.md)
 - [Upgrade Waku for the Web](2025-upgrade-waku-for-the-web.md)
 - [Acquire first 10 Customers](2024-acquire-first-10-customers.md)
 - [Demonstrate Product Market-Fit](2024-demonstrate-product-market-fit.md)

@@ -88,11 +88,6 @@ tags:
   - next:
   - blockers:
 
-- [[Deliverable] Allow graceful shutdown on nim-chronos](https://github.com/logos-messaging/pm/issues/371)
-  - achieved:
-  - next:
-  - blockers:
-
 ## [Support Discovery Research and Libp2p QUIC](https://github.com/logos-messaging/pm/milestone/58)
 
 - [[Deliverable] Trial QUIC](https://github.com/logos-messaging/pm/issues/324)
