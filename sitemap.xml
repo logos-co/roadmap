@@ -813,7 +813,7 @@
     <lastmod>2025-11-18T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/</loc>
-    <lastmod>2026-02-02T23:17:52.923Z</lastmod>
+    <lastmod>2026-02-13T14:11:10.882Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2023-milestones</loc>
     <lastmod>2024-03-07T00:00:00.000Z</lastmod>
@@ -867,7 +867,7 @@
     <lastmod>2026-02-02T23:17:52.927Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2025-create-chat-sdk-mvp</loc>
-    <lastmod>2026-02-02T23:17:52.927Z</lastmod>
+    <lastmod>2026-02-13T14:11:10.882Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2025-debugging-tools</loc>
     <lastmod>2026-02-02T23:17:52.927Z</lastmod>
@@ -888,7 +888,7 @@
     <lastmod>2026-02-02T23:17:52.927Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2025-extend-chat-sdk-with-group-conversations</loc>
-    <lastmod>2026-02-02T23:17:52.927Z</lastmod>
+    <lastmod>2026-02-13T14:11:10.882Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2025-formalize-and-expand-waku-web-apps</loc>
     <lastmod>2026-02-02T23:17:52.927Z</lastmod>
@@ -915,7 +915,7 @@
     <lastmod>2026-02-02T23:17:52.927Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2025-messaging-api</loc>
-    <lastmod>2026-02-02T23:17:52.927Z</lastmod>
+    <lastmod>2026-02-13T14:11:10.882Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2025-messaging-chat-on-mobile</loc>
     <lastmod>2026-02-02T23:17:52.927Z</lastmod>
@@ -935,6 +935,9 @@
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2025-upgrade-waku-for-the-web</loc>
     <lastmod>2026-02-02T23:17:52.927Z</lastmod>
   </url><url>
+    <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2026-add-support-for-rln-on-lee</loc>
+    <lastmod>2026-02-13T14:11:10.882Z</lastmod>
+  </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2026-complete-reliable-channel-api</loc>
     <lastmod>2026-02-02T23:17:52.927Z</lastmod>
   </url><url>
@@ -942,10 +945,10 @@
     <lastmod>2025-12-11T14:43:30.775Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/templates/milestone-template</loc>
-    <lastmod>2025-12-11T14:43:30.775Z</lastmod>
+    <lastmod>2026-02-13T14:11:10.882Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/templates/weekly-update-template</loc>
-    <lastmod>2026-02-02T23:17:52.927Z</lastmod>
+    <lastmod>2026-02-13T14:11:10.882Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/updates/2023-07-24</loc>
     <lastmod>2023-08-04T00:00:00.000Z</lastmod>
