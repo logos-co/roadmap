@@ -1,6 +1,6 @@
 # [Implement multi-burn RLN and slasher module](https://github.com/logos-co/anoncomms-pm/milestone/8)
 
-**Estimated date of completion**: 31 February 2026
+**Estimated date of completion**: 28 February 2026
 
 **Resources Required**:
 - 2 developers for 4 weeks
