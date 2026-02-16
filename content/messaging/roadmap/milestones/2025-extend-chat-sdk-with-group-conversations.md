@@ -63,18 +63,12 @@ Moving to an architecture where the Chat module uses the locally available messa
 - +PRIV1. Non-participants cannot correlate a group conversation to any of its participants.
 - +PRIV2. No identifying information is visible when registering an installation.
 
-### [Group Chat Bindings](https://github.com/waku-org/pm/issues/348)
+### [Add Group chats API to LogosCore Chat module](https://github.com/logos-messaging/pm/issues/375)
 
-**Owner**: Chat Team
+**Owner:** Chat Team
 
 **Feature**: [Bindings](/messaging/furps/application/group_chat.md)
 
-**FURPS**:
+**FURPS:**
 
 - S1. Developers can create group conversations from C-bindings, in Logos Core framework.
-
-### Setup production fleet for Chat SDK
-
-**Owner**: Nim Messaging Team
-
-Ensure a production fleet is available and pre-configurable for the Chat SDK Developer preview.
