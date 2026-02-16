@@ -6,7 +6,7 @@
 2. Multiple RLN prover instances can operate on a shared database
 3. An RLN prover can burn multiple message-ids in a single proof
 4. The Zerokit module supports big-endian operations
-5. The RLN prover module supports authenticated slasher connections using a statically configured authentication mechanism
+5. The RLN prover module supports a statically configured authentication mechanism for slasher connections
 
 ## Usability
 
@@ -18,7 +18,8 @@
 ## Reliability
 
 1. Multiple RLN prover instances operate consistently without database conflicts
-2. Decentralized slashers establish authenticated connections to the RLN prover to observe proofs and detect spam
+2. Authenticated slasher connections remain stable and do not interfere with proof generation or database consistency.
+3. Decentralized slashers extract the secret from double-signaled (spammed) proofs to enable slashing
 
 ## Performance
 

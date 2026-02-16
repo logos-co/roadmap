@@ -49,7 +49,9 @@ All components will be fully specified.
 
 **FURPS**:
 
+- F5. The RLN prover module supports a statically configured authentication mechanism for slasher connections
 - R2. Decentralized slashers establish authenticated connections to the RLN prover to observe proofs and detect spam
+- R3. Decentralized slashers extract the secret from double-signaled (spammed) proofs to enable slashing
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
