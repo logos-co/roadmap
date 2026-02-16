@@ -1,0 +1,1223 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Logos Collective Weekly Summary - Week 7, 2026</title>
+    <style>
+      :root {
+        --bg-primary: #0d1117;
+        --bg-secondary: #161b22;
+        --bg-tertiary: #21262d;
+        --text-primary: #f0f6fc;
+        --text-secondary: #8b949e;
+        --border-color: #30363d;
+        --accent-storage: #3fb950;
+        --accent-messaging: #58a6ff;
+        --accent-logoscore: #a371f7;
+        --accent-blockchain: #f78166;
+        --accent-anoncomms: #d2a8ff;
+        --highlight-bg: rgba(56, 139, 253, 0.15);
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial,
+          sans-serif;
+        background: var(--bg-primary);
+        color: var(--text-primary);
+        line-height: 1.6;
+        min-height: 100vh;
+      }
+
+      .container {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 2rem;
+      }
+
+      header {
+        text-align: center;
+        margin-bottom: 3rem;
+        padding-bottom: 2rem;
+        border-bottom: 1px solid var(--border-color);
+      }
+
+      header h1 {
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
+        background: linear-gradient(135deg, #58a6ff, #a371f7);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+
+      header .date {
+        color: var(--text-secondary);
+        font-size: 1.1rem;
+      }
+
+      .highlights-section {
+        background: var(--bg-secondary);
+        border-radius: 12px;
+        padding: 2rem;
+        margin-bottom: 2rem;
+        border: 1px solid var(--border-color);
+      }
+
+      .highlights-section h2 {
+        margin-bottom: 1.5rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      .highlights-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 1rem;
+      }
+
+      .highlight-card {
+        background: var(--bg-tertiary);
+        border-radius: 8px;
+        padding: 1rem 1.25rem;
+        border-left: 4px solid;
+        transition:
+          transform 0.2s,
+          box-shadow 0.2s;
+      }
+
+      .highlight-card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      }
+
+      .highlight-card.storage {
+        border-left-color: var(--accent-storage);
+      }
+      .highlight-card.messaging {
+        border-left-color: var(--accent-messaging);
+      }
+      .highlight-card.logoscore {
+        border-left-color: var(--accent-logoscore);
+      }
+      .highlight-card.blockchain {
+        border-left-color: var(--accent-blockchain);
+      }
+      .highlight-card.anoncomms {
+        border-left-color: var(--accent-anoncomms);
+      }
+
+      .highlight-card .team {
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        margin-bottom: 0.5rem;
+        opacity: 0.8;
+      }
+
+      .highlight-card.storage .team {
+        color: var(--accent-storage);
+      }
+      .highlight-card.messaging .team {
+        color: var(--accent-messaging);
+      }
+      .highlight-card.logoscore .team {
+        color: var(--accent-logoscore);
+      }
+      .highlight-card.blockchain .team {
+        color: var(--accent-blockchain);
+      }
+      .highlight-card.anoncomms .team {
+        color: var(--accent-anoncomms);
+      }
+
+      .tabs {
+        display: flex;
+        gap: 0.5rem;
+        margin-bottom: 1.5rem;
+        flex-wrap: wrap;
+      }
+
+      .tab {
+        padding: 0.75rem 1.5rem;
+        border: none;
+        background: var(--bg-secondary);
+        color: var(--text-secondary);
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 0.95rem;
+        font-weight: 500;
+        transition: all 0.2s;
+        border: 1px solid var(--border-color);
+      }
+
+      .tab:hover {
+        background: var(--bg-tertiary);
+        color: var(--text-primary);
+      }
+
+      .tab.active {
+        color: var(--text-primary);
+      }
+
+      .tab.active.storage {
+        background: var(--accent-storage);
+        color: #000;
+      }
+      .tab.active.messaging {
+        background: var(--accent-messaging);
+        color: #000;
+      }
+      .tab.active.logoscore {
+        background: var(--accent-logoscore);
+        color: #000;
+      }
+      .tab.active.blockchain {
+        background: var(--accent-blockchain);
+        color: #000;
+      }
+      .tab.active.anoncomms {
+        background: var(--accent-anoncomms);
+        color: #000;
+      }
+
+      .team-content {
+        display: none;
+        animation: fadeIn 0.3s ease;
+      }
+
+      .team-content.active {
+        display: block;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .milestone {
+        background: var(--bg-secondary);
+        border-radius: 12px;
+        margin-bottom: 1.5rem;
+        border: 1px solid var(--border-color);
+        overflow: hidden;
+      }
+
+      .milestone-header {
+        padding: 1rem 1.5rem;
+        background: var(--bg-tertiary);
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        user-select: none;
+      }
+
+      .milestone-header:hover {
+        background: rgba(48, 54, 61, 0.8);
+      }
+
+      .milestone-header h3 {
+        font-size: 1.1rem;
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+      }
+
+      .milestone-header h3 a {
+        color: var(--text-primary);
+        text-decoration: none;
+      }
+
+      .milestone-header h3 a:hover {
+        text-decoration: underline;
+      }
+
+      .milestone-toggle {
+        font-size: 1.5rem;
+        color: var(--text-secondary);
+        transition: transform 0.3s;
+      }
+
+      .milestone.expanded .milestone-toggle {
+        transform: rotate(180deg);
+      }
+
+      .milestone-body {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+      }
+
+      .milestone.expanded .milestone-body {
+        max-height: 2000px;
+      }
+
+      .milestone-content {
+        padding: 1.5rem;
+      }
+
+      .deliverable {
+        margin-bottom: 1.5rem;
+        padding-bottom: 1.5rem;
+        border-bottom: 1px solid var(--border-color);
+      }
+
+      .deliverable:last-child {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        border-bottom: none;
+      }
+
+      .deliverable h4 {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        color: var(--text-primary);
+      }
+
+      .deliverable h4 a {
+        color: #58a6ff;
+        text-decoration: none;
+      }
+
+      .deliverable h4 a:hover {
+        text-decoration: underline;
+      }
+
+      .section-label {
+        display: inline-block;
+        padding: 0.25rem 0.5rem;
+        border-radius: 4px;
+        font-size: 0.75rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 0.5rem;
+      }
+
+      .section-label.achieved {
+        background: rgba(63, 185, 80, 0.2);
+        color: var(--accent-storage);
+      }
+
+      .section-label.next {
+        background: rgba(88, 166, 255, 0.2);
+        color: var(--accent-messaging);
+      }
+
+      .section-label.blockers {
+        background: rgba(247, 129, 102, 0.2);
+        color: var(--accent-blockchain);
+      }
+
+      .item-list {
+        list-style: none;
+        margin-left: 0;
+      }
+
+      .item-list li {
+        padding: 0.5rem 0;
+        padding-left: 1.5rem;
+        position: relative;
+        color: var(--text-secondary);
+        font-size: 0.95rem;
+      }
+
+      .item-list li::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0.85rem;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: var(--text-secondary);
+      }
+
+      .item-list li a {
+        color: #58a6ff;
+        text-decoration: none;
+      }
+
+      .item-list li a:hover {
+        text-decoration: underline;
+      }
+
+      .stats-bar {
+        display: flex;
+        gap: 2rem;
+        padding: 1rem 1.5rem;
+        background: var(--bg-secondary);
+        border-radius: 12px;
+        margin-bottom: 2rem;
+        border: 1px solid var(--border-color);
+        flex-wrap: wrap;
+      }
+
+      .stat {
+        text-align: center;
+      }
+
+      .stat-value {
+        font-size: 2rem;
+        font-weight: 700;
+      }
+
+      .stat-label {
+        font-size: 0.85rem;
+        color: var(--text-secondary);
+      }
+
+      .repo-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 1rem;
+      }
+
+      .repo-card {
+        background: var(--bg-tertiary);
+        border-radius: 8px;
+        padding: 1rem;
+        border: 1px solid var(--border-color);
+      }
+
+      .repo-card h4 {
+        font-size: 0.95rem;
+        margin-bottom: 0.75rem;
+      }
+
+      .repo-card h4 a {
+        color: #58a6ff;
+        text-decoration: none;
+      }
+
+      .repo-card h4 a:hover {
+        text-decoration: underline;
+      }
+
+      .repo-card p {
+        font-size: 0.85rem;
+        color: var(--text-secondary);
+      }
+
+      .pr-list {
+        margin-top: 0.5rem;
+      }
+
+      .pr-list a {
+        display: inline-block;
+        font-size: 0.8rem;
+        color: #58a6ff;
+        margin-right: 0.5rem;
+        text-decoration: none;
+      }
+
+      .pr-list a:hover {
+        text-decoration: underline;
+      }
+
+      .search-box {
+        margin-bottom: 1.5rem;
+      }
+
+      .search-box input {
+        width: 100%;
+        padding: 0.75rem 1rem;
+        border: 1px solid var(--border-color);
+        border-radius: 8px;
+        background: var(--bg-secondary);
+        color: var(--text-primary);
+        font-size: 1rem;
+      }
+
+      .search-box input::placeholder {
+        color: var(--text-secondary);
+      }
+
+      .search-box input:focus {
+        outline: none;
+        border-color: #58a6ff;
+        box-shadow: 0 0 0 3px rgba(88, 166, 255, 0.2);
+      }
+
+      .hidden {
+        display: none !important;
+      }
+
+      footer {
+        text-align: center;
+        padding: 2rem;
+        color: var(--text-secondary);
+        border-top: 1px solid var(--border-color);
+        margin-top: 3rem;
+      }
+
+      @media (max-width: 768px) {
+        .container {
+          padding: 1rem;
+        }
+
+        header h1 {
+          font-size: 1.75rem;
+        }
+
+        .stats-bar {
+          justify-content: space-around;
+        }
+
+        .stat-value {
+          font-size: 1.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Logos Collective Weekly Summary</h1>
+        <p class="date">Week 7, 2026 (February 16, 2026)</p>
+      </header>
+
+      <div class="stats-bar">
+        <div class="stat">
+          <div class="stat-value">3</div>
+          <div class="stat-label">Teams Reporting</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value">35+</div>
+          <div class="stat-label">PRs & Updates</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value">10</div>
+          <div class="stat-label">Deliverables Active</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value">1</div>
+          <div class="stat-label">New Libraries Published</div>
+        </div>
+      </div>
+
+      <section class="highlights-section">
+        <h2>Key Highlights</h2>
+        <div class="highlights-grid">
+          <div class="highlight-card anoncomms">
+            <div class="team">AnonComms</div>
+            <p>First de-MLS API implementation merged, with core library published to crates.io</p>
+          </div>
+          <div class="highlight-card anoncomms">
+            <div class="team">AnonComms</div>
+            <p>
+              Demo chat app dogfooding started using mix publishing and extended kad-DHT discovery
+            </p>
+          </div>
+          <div class="highlight-card logoscore">
+            <div class="team">Logos Core</div>
+            <p>
+              Multi-platform package building with CI actions for portable library and binary
+              distribution
+            </p>
+          </div>
+          <div class="highlight-card logoscore">
+            <div class="team">Logos Core</div>
+            <p>Wallet and Accounts UI modules reworked in QML with improved design system</p>
+          </div>
+          <div class="highlight-card anoncomms">
+            <div class="team">AnonComms</div>
+            <p>
+              RLN membership allocation service prepared for public release with improved storage
+            </p>
+          </div>
+          <div class="highlight-card anoncomms">
+            <div class="team">AnonComms</div>
+            <p>
+              Multi-message-id RLN proof feature completed across all modules, examples, and
+              documentation
+            </p>
+          </div>
+          <div class="highlight-card messaging">
+            <div class="team">Messaging</div>
+            <p>
+              Chat SDK with libchat integration, multiple instance support in Logos Core, and Health
+              API implementation
+            </p>
+          </div>
+          <div class="highlight-card messaging">
+            <div class="team">Messaging</div>
+            <p>Completed nix + nimble integration in nim-sds for improved build management</p>
+          </div>
+        </div>
+      </section>
+
+      <div class="search-box">
+        <input
+          type="text"
+          id="search"
+          placeholder="Search updates (e.g., 'RLN', 'module', 'UI')..."
+        />
+      </div>
+
+      <div class="tabs">
+        <button class="tab logoscore active" data-team="logoscore">Logos Core</button>
+        <button class="tab messaging" data-team="messaging">Messaging</button>
+        <button class="tab anoncomms" data-team="anoncomms">AnonComms</button>
+      </div>
+
+      <!-- Logos Core Content -->
+      <div class="team-content active" id="logoscore">
+        <div class="repo-list">
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-package">logos-package</a></h4>
+            <p>
+              Portability improvements with static library linking and CI actions for cross-platform
+              checks
+            </p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-package/pull/10">#10</a>
+              <a href="https://github.com/logos-co/logos-package/pull/11">#11</a>
+            </div>
+          </div>
+
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-liblogos">logos-liblogos</a></h4>
+            <p>Set modulePath property when loading modules</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-liblogos/pull/57">#57</a>
+            </div>
+          </div>
+
+          <div class="repo-card">
+            <h4>
+              <a href="https://github.com/logos-co/logos-module-builder">logos-module-builder</a>
+            </h4>
+            <p>Template updates and fixes for override issues</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-module-builder/pull/3">#3</a>
+              <a href="https://github.com/logos-co/logos-module-builder/pull/4">#4</a>
+            </div>
+          </div>
+
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-module">logos-module</a></h4>
+            <p>Suppressed debug outputs and improved default LM command behavior</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-module/pull/5">#5</a>
+            </div>
+          </div>
+
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-app-poc">logos-app-poc</a></h4>
+            <p>UI improvements: removed modules section, overlayed macOS traffic buttons</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-app-poc/pull/65">#65</a>
+              <a href="https://github.com/logos-co/logos-app-poc/pull/66">#66</a>
+            </div>
+          </div>
+
+          <div class="repo-card">
+            <h4>
+              <a href="https://github.com/logos-blockchain/logos-blockchain-module"
+                >logos-blockchain-module</a
+              >
+            </h4>
+            <p>
+              Event emission fixes, nix files for C++ code generation, and constructor crash fix
+            </p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-blockchain/logos-blockchain-module/pull/6">#6</a>
+              <a href="https://github.com/logos-blockchain/logos-blockchain-module/pull/9">#9</a>
+              <a href="https://github.com/logos-blockchain/logos-blockchain-module/pull/10">#10</a>
+            </div>
+          </div>
+
+          <div class="repo-card">
+            <h4>
+              <a href="https://github.com/logos-co/logos-module-viewer">logos-module-viewer</a>
+            </h4>
+            <p>Fixed package manager module path</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-module-viewer/pull/2">#2</a>
+            </div>
+          </div>
+
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-modules">logos-modules</a></h4>
+            <p>
+              Added blockchain UI submodule, multi-OS/arch package building, path fixes, bumped
+              modules
+            </p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-modules/pull/14">#14</a>
+              <a href="https://github.com/logos-co/logos-modules/pull/15">#15</a>
+              <a href="https://github.com/logos-co/logos-modules/pull/16">#16</a>
+              <a href="https://github.com/logos-co/logos-modules/pull/20">#20</a>
+            </div>
+          </div>
+
+          <div class="repo-card">
+            <h4>
+              <a href="https://github.com/logos-co/logos-design-system">logos-design-system</a>
+            </h4>
+            <p>Added primary and secondary text sizes</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-design-system/pull/2">#2</a>
+            </div>
+          </div>
+
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-wallet-ui">logos-wallet-ui</a></h4>
+            <p>Bumped wallet module, reworked UI in QML</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-wallet-ui/pull/6">#6</a>
+              <a href="https://github.com/logos-co/logos-wallet-ui/pull/7">#7</a>
+            </div>
+          </div>
+
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-accounts-ui">logos-accounts-ui</a></h4>
+            <p>Bumped accounts module, reworked UI in QML</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-accounts-ui/pull/3">#3</a>
+              <a href="https://github.com/logos-co/logos-accounts-ui/pull/4">#4</a>
+            </div>
+          </div>
+
+          <div class="repo-card">
+            <h4>
+              <a href="https://github.com/logos-co/logos-package-manager-module"
+                >logos-package-manager-module</a
+              >
+            </h4>
+            <p>Get packages from latest GitHub release</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-package-manager-module/pull/25">#25</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Messaging Content -->
+      <div class="team-content" id="messaging">
+        <div class="milestone">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Create Chat SDK MVP</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>
+                  <a href="https://github.com/waku-org/pm/issues/316">Chat SDK Developer Preview</a>
+                </h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>
+                    PrivateV1 ConvoId -
+                    <a href="https://github.com/logos-messaging/libchat/pull/54">#54</a>
+                  </li>
+                  <li>
+                    CI Tests -
+                    <a href="https://github.com/logos-messaging/libchat/pull/52">#52</a>
+                  </li>
+                  <li>
+                    Decrypt Initial Message -
+                    <a href="https://github.com/logos-messaging/libchat/pull/48">#48</a>
+                  </li>
+                  <li>
+                    Introduction Bundle Encoding -
+                    <a href="https://github.com/logos-messaging/libchat/pull/43">#43</a>
+                  </li>
+                  <li>
+                    LogosChat build tests -
+                    <a href="https://github.com/logos-messaging/nim-chat-poc/pull/62">#62</a>
+                  </li>
+                  <li>
+                    Build Logos Chat -
+                    <a href="https://github.com/logos-messaging/nim-chat-poc/pull/59">#59</a>
+                  </li>
+                  <li>
+                    Libchat Integration -
+                    <a href="https://github.com/logos-messaging/nim-chat-poc/pull/55">#55</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="deliverable">
+                <h4>
+                  <a href="https://github.com/waku-org/pm/issues/317">Chat SDK Bindings</a>
+                </h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>
+                    Run Multiple Instances of chat module in logos core -
+                    <a href="https://github.com/logos-co/logos-chatsdk-ui/pull/2">#2</a>
+                  </li>
+                  <li>
+                    Add ChatSDK - UI to Logos-core modules -
+                    <a href="https://github.com/logos-co/logos-modules/pull/13">#13</a>
+                  </li>
+                  <li>Plan for Identity updates to λChat API</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>API access to P2P Reliability for Desktop</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>
+                  <a href="https://github.com/waku-org/pm/issues/305"
+                    >Introduce Waku API in nwaku</a
+                  >
+                </h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>
+                    <a href="https://github.com/logos-messaging/logos-messaging-nim/issues/3646"
+                      >Implement Health API</a
+                    >
+                  </li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>
+                    <a href="https://github.com/logos-messaging/logos-messaging-nim/issues/3709"
+                      >Create liblogosdelivery</a
+                    >
+                    - Implementation ready, hold back while module is not ready
+                  </li>
+                  <li>
+                    <a href="https://github.com/logos-co/logos-delivery-module"
+                      >Create logos-delivery-module</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://github.com/logos-messaging/logos-messaging-nim/issues/3710"
+                      >Implement receive/subscribe API</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://github.com/status-im/infra-misc/issues/461"
+                      >Deploy logos.dev messaging fleet</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Maintenance</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>Build System Improvements</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>
+                    <a href="https://github.com/logos-messaging/nim-sds/pull/52"
+                      >Start using nimble in nim-sds</a
+                    >
+                  </li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>
+                    <a href="https://github.com/logos-messaging/logos-messaging-nim/pull/3682"
+                      >Start using nimble in logos-delivery</a
+                    >
+                  </li>
+                  <li>Rename all current logos-messaging-* repositories to logos-delivery*</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- AnonComms Content -->
+      <div class="team-content" id="anoncomms">
+        <div class="milestone">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>
+              <a href="https://github.com/logos-co/anoncomms-pm/milestone/1"
+                >Create basic capability discovery module for Logos Core</a
+              >
+            </h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>
+                  <a href="https://github.com/logos-co/anoncomms-pm/issues/1"
+                    >Specify basic capability discovery protocol</a
+                  >
+                </h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>
+                    <a href="https://github.com/vacp2p/rfc-index/pull/280">PR</a> on adding
+                    explanation before pseudocode ready to merge
+                  </li>
+                </ul>
+              </div>
+
+              <div class="deliverable">
+                <h4>
+                  <a href="https://github.com/logos-co/anoncomms-pm/issues/13"
+                    >Implement capability discovery protocol</a
+                  >
+                </h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>
+                    Cleaned and modularized ip tree tests in
+                    <a href="https://github.com/vacp2p/nim-libp2p/pull/2103">PR</a>
+                  </li>
+                  <li>Fully spec compliant implementation</li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>
+                    Continue cleaning and modularizing tests in other modules and improving test
+                    coverage
+                  </li>
+                  <li>More minor fixes, add metrics</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>
+              <a href="https://github.com/logos-co/anoncomms-pm/milestone/2"
+                >Establish libp2p mixnet for Logos Core</a
+              >
+            </h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>
+                  <a href="https://github.com/logos-co/anoncomms-pm/issues/19"
+                    >Implement DoS and Sybil protection protocol for libp2p mix</a
+                  >
+                </h4>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>Code review and further tests</li>
+                </ul>
+              </div>
+
+              <div class="deliverable">
+                <h4>
+                  <a href="https://github.com/logos-co/anoncomms-pm/issues/14"
+                    >Create demo chat app in Logos Core for messaging over libp2p mix</a
+                  >
+                </h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>
+                    <a href="https://github.com/logos-co/logos-docs/pull/173">Doc packet</a> for the
+                    demo app
+                  </li>
+                  <li>
+                    Demo app ready for
+                    <a
+                      href="https://discord.com/channels/973324189794697286/1471061367363469312/1471063765029097495"
+                      >dogfooding</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://github.com/vacp2p/nim-libp2p/pull/2094">Delay</a> and
+                    <a href="https://github.com/vacp2p/nim-libp2p/pull/2089">crash</a> fixes in mix
+                    protocol
+                  </li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>Fix any issues or handle feedback from dogfooding</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>
+              <a href="https://github.com/logos-co/anoncomms-pm/milestone/5"
+                >Implement MVP payment protocol</a
+              >
+            </h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>
+                  <a href="https://github.com/logos-co/anoncomms-pm/issues/10"
+                    >Specify MVP payment protocol</a
+                  >
+                </h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Going through LEZ tutorial</li>
+                  <li>
+                    Research and write-up (WIP) on timestamp and block context exposure in payment
+                    streams
+                  </li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>
+                    Publish the write-up, invite feedback from LEE devs and other interested parties
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>
+              <a href="https://github.com/logos-co/anoncomms-pm/milestone/3"
+                >Deliver de-MLS API supporting multi-stewards and advanced group management</a
+              >
+            </h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>
+                  <a href="https://github.com/logos-co/anoncomms-pm/issues/5"
+                    >Specify and implement de-MLS API</a
+                  >
+                </h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>
+                    Finished first API implementation with
+                    <a href="https://github.com/vacp2p/de-mls/pull/47">merged PR</a>
+                  </li>
+                  <li>
+                    Integrated logos-messaging in Delivery Service with
+                    <a href="https://github.com/vacp2p/de-mls/pull/49">merged PR</a>
+                  </li>
+                  <li>
+                    Published core library on
+                    <a href="https://crates.io/crates/de-mls">crates.io</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="deliverable">
+                <h4>
+                  <a href="https://github.com/logos-co/anoncomms-pm/issues/4"
+                    >Separate Hashgraph-like consensus crate</a
+                  >
+                </h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>
+                    Published patch
+                    <a href="https://crates.io/crates/hashgraph-like-consensus">release</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="deliverable">
+                <h4>
+                  <a href="https://github.com/logos-co/anoncomms-pm/issues/21"
+                    >Implement de-MLS multi-steward and advanced group management protocol</a
+                  >
+                </h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Cover some part of RFC in de-mls API PR</li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>Start working on peer scoring system</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>
+              <a href="https://github.com/logos-co/anoncomms-pm/milestone/7"
+                >Implement RLN membership allocation service for Logos Core</a
+              >
+            </h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>
+                  <a href="https://github.com/logos-co/anoncomms-pm/issues/17"
+                    >Specify and implement RLN membership allocation service</a
+                  >
+                </h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Rework authentication between registry, merkle tree, and tokens</li>
+                  <li>Improve storage of merkle tree among accounts</li>
+                  <li>
+                    Improve code quality,
+                    <a href="https://github.com/logos-co/logos-lez-rln">prepare repo for public</a>
+                  </li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>
+                    Add LICENSE and make repo public, continue writing allocation service spec
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>
+              <a href="https://github.com/logos-co/anoncomms-pm/milestone/8"
+                >Implement multi-burn RLN and slasher module</a
+              >
+            </h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>
+                  <a href="https://github.com/logos-co/anoncomms-pm/issues/15"
+                    >Support burning multiple IDs in a single RLN proof</a
+                  >
+                </h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>
+                    Complete implementation of multi-message-id feature across all modules,
+                    examples, and documents (<a href="https://github.com/vacp2p/zerokit/pull/375"
+                      >PR</a
+                    >)
+                  </li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>Feedback and address PR comments</li>
+                </ul>
+              </div>
+
+              <div class="deliverable">
+                <h4>
+                  <a href="https://github.com/logos-co/anoncomms-pm/issues/16"
+                    >Authenticated connections between prover and slashers</a
+                  >
+                </h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Aggregator node + slashing node initial code</li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>Slashing cap for slashing node + slow client fixes for aggregator node</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <p>Generated from weekly updates | Logos Collective Roadmap</p>
+      </footer>
+    </div>
+
+    <script>
+      // Tab switching
+      document.querySelectorAll(".tab").forEach((tab) => {
+        tab.addEventListener("click", () => {
+          const team = tab.dataset.team
+
+          // Update active states
+          document.querySelectorAll(".tab").forEach((t) => t.classList.remove("active"))
+          document.querySelectorAll(".team-content").forEach((c) => c.classList.remove("active"))
+
+          tab.classList.add("active")
+          document.getElementById(team).classList.add("active")
+        })
+      })
+
+      // Milestone toggle
+      function toggleMilestone(header) {
+        const milestone = header.closest(".milestone")
+        milestone.classList.toggle("expanded")
+      }
+
+      // Search functionality
+      const searchInput = document.getElementById("search")
+      searchInput.addEventListener("input", (e) => {
+        const searchTerm = e.target.value.toLowerCase()
+        const allContent = document.querySelectorAll(".repo-card, .milestone, .deliverable")
+
+        allContent.forEach((element) => {
+          const text = element.textContent.toLowerCase()
+          if (text.includes(searchTerm) || searchTerm === "") {
+            element.style.display = ""
+          } else {
+            element.style.display = "none"
+          }
+        })
+      })
+
+      // Keyboard navigation
+      document.addEventListener("keydown", (e) => {
+        if (e.ctrlKey || e.metaKey) {
+          const tabs = Array.from(document.querySelectorAll(".tab"))
+          const activeIndex = tabs.findIndex((t) => t.classList.contains("active"))
+
+          if (e.key === "ArrowLeft" && activeIndex > 0) {
+            e.preventDefault()
+            tabs[activeIndex - 1].click()
+          } else if (e.key === "ArrowRight" && activeIndex < tabs.length - 1) {
+            e.preventDefault()
+            tabs[activeIndex + 1].click()
+          }
+        }
+      })
+    </script>
+  </body>
+</html>
