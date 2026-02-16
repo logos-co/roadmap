@@ -1,4 +1,4 @@
-# [Implement multi-burn RLN and slasher module](https://github.com/logos-co/anoncomms-pm/milestone/8)
+# [Extend gasless L2 transactions with multi-burn RLN and decentralized slashing](https://github.com/logos-co/anoncomms-pm/milestone/8)
 
 **Estimated date of completion**: 28 February 2026
 
