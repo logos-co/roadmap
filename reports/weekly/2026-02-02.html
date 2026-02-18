@@ -1822,7 +1822,58 @@
       </footer>
     </div>
 
+    <script>
+      // Tab switching
+      document.querySelectorAll(".tab").forEach((tab) => {
+        tab.addEventListener("click", () => {
+          const team = tab.dataset.team
 
+          // Update active states
+          document.querySelectorAll(".tab").forEach((t) => t.classList.remove("active"))
+          document.querySelectorAll(".team-content").forEach((c) => c.classList.remove("active"))
 
+          tab.classList.add("active")
+          document.getElementById(team).classList.add("active")
+        })
+      })
+
+      // Milestone toggle
+      function toggleMilestone(header) {
+        const milestone = header.closest(".milestone")
+        milestone.classList.toggle("expanded")
+      }
+
+      // Search functionality
+      const searchInput = document.getElementById("search")
+      searchInput.addEventListener("input", (e) => {
+        const searchTerm = e.target.value.toLowerCase()
+        const allContent = document.querySelectorAll(".repo-card, .milestone, .deliverable")
+
+        allContent.forEach((element) => {
+          const text = element.textContent.toLowerCase()
+          if (text.includes(searchTerm) || searchTerm === "") {
+            element.style.display = ""
+          } else {
+            element.style.display = "none"
+          }
+        })
+      })
+
+      // Keyboard navigation
+      document.addEventListener("keydown", (e) => {
+        if (e.ctrlKey || e.metaKey) {
+          const tabs = Array.from(document.querySelectorAll(".tab"))
+          const activeIndex = tabs.findIndex((t) => t.classList.contains("active"))
+
+          if (e.key === "ArrowLeft" && activeIndex > 0) {
+            e.preventDefault()
+            tabs[activeIndex - 1].click()
+          } else if (e.key === "ArrowRight" && activeIndex < tabs.length - 1) {
+            e.preventDefault()
+            tabs[activeIndex + 1].click()
+          }
+        }
+      })
+    </script>
 </body>
 </html>
