@@ -56,10 +56,7 @@ Add tabs for each reporting team. The first tab must have `active` class:
 <button class="tab anoncomms" data-team="anoncomms">AnonComms</button>
 ```
 
-**Important:** Update the keyboard navigation range in the JavaScript if you change the number of tabs:
-```javascript
-if (e.key >= '1' && e.key <= '3') {  // Change '3' to match number of tabs
-```
+**Important:** The first tab and its corresponding `team-content` must have the `active` class so content is visible on load.
 
 ## Team Content Formats
 
@@ -207,7 +204,7 @@ Before publishing your weekly summary:
 - [ ] First team-content has `active` class and `id` matches first tab's `data-team`
 - [ ] All `[PLACEHOLDER]` tags replaced
 - [ ] Links tested (no broken URLs)
-- [ ] Keyboard navigation range updated if needed
+- [ ] New file added to `index.md` with a `data-router-ignore` link
 - [ ] Important milestones marked with `expanded` class
 - [ ] New repositories marked with "(NEW)"
 - [ ] Section labels only included when they have content
@@ -215,12 +212,12 @@ Before publishing your weekly summary:
 ## Troubleshooting
 
 ### Tabs not working after page load
-The template includes fixes for static site generators and client-side routing. The initialization function runs on:
-- `DOMContentLoaded` (initial page load)
-- Immediate execution if DOM is ready
-- `pageshow` event (browser navigation)
+The report must be opened as a full page load, not via Quartz's SPA router. Links in `index.md` use `data-router-ignore` to ensure this. If you link to a report from elsewhere, use raw HTML with that attribute:
+```html
+<a href="/reports/weekly/YYYY-MM-DD.html" data-router-ignore>YYYY-MM-DD</a>
+```
 
-If tabs still don't work, check browser console for JavaScript errors.
+If tabs still don't work after a full page load, check the browser console for JavaScript errors.
 
 ### Search not finding items
 Make sure the search input has `id="search"` and items to search have appropriate classes (`.milestone`, `.repo-card`, `.highlight-card`).
@@ -238,7 +235,7 @@ Verify the `onclick="toggleMilestone(this)"` attribute is on the `.milestone-hea
   - Blockchain: Orange (`#f78166`)
   - AnonComms: Light Purple (`#d2a8ff`)
 - Mobile-responsive design included
-- Keyboard shortcuts: Press 1-5 to switch tabs
+- Keyboard shortcuts: Ctrl/Cmd + Left/Right Arrow to switch tabs
 
 ## Example Files
 
