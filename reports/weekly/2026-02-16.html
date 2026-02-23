@@ -492,15 +492,15 @@
 
       <div class="stats-bar">
         <div class="stat">
-          <div class="stat-value">3</div>
+          <div class="stat-value">5</div>
           <div class="stat-label">Teams Reporting</div>
         </div>
         <div class="stat">
-          <div class="stat-value">35+</div>
+          <div class="stat-value">80+</div>
           <div class="stat-label">PRs & Updates</div>
         </div>
         <div class="stat">
-          <div class="stat-value">10</div>
+          <div class="stat-value">18</div>
           <div class="stat-label">Deliverables Active</div>
         </div>
         <div class="stat">
@@ -557,6 +557,46 @@
             <div class="team">Messaging</div>
             <p>Completed nix + nimble integration in nim-sds for improved build management</p>
           </div>
+          <div class="highlight-card storage">
+            <div class="team">Storage</div>
+            <p>
+              Draft approach for anonymous download using the mix protocol published
+            </p>
+          </div>
+          <div class="highlight-card storage">
+            <div class="team">Storage</div>
+            <p>
+              Storage Module finalized with download support, headless mode, and tutorial for Logos
+              Core integration
+            </p>
+          </div>
+          <div class="highlight-card blockchain">
+            <div class="team">Blockchain</div>
+            <p>
+              Devnet stabilization: 0.1.2 release with major config overhaul, IBD and NAT fixes
+            </p>
+          </div>
+          <div class="highlight-card blockchain">
+            <div class="team">Blockchain</div>
+            <p>
+              Zone-SDK v0 API complete with sequencer, indexer, checkpoint, and self-healing support;
+              SQLite zone demo MVP ready
+            </p>
+          </div>
+          <div class="highlight-card blockchain">
+            <div class="team">Blockchain</div>
+            <p>
+              Initial LEE Bedrock integration merged with full end-to-end testing; Block Explorer
+              shipped
+            </p>
+          </div>
+          <div class="highlight-card blockchain">
+            <div class="team">Blockchain</div>
+            <p>
+              DA sampling security: median time to first block from unavailable data exceeds age of
+              universe
+            </p>
+          </div>
         </div>
       </section>
 
@@ -572,6 +612,8 @@
         <button class="tab logoscore active" data-team="logoscore">Logos Core</button>
         <button class="tab messaging" data-team="messaging">Messaging</button>
         <button class="tab anoncomms" data-team="anoncomms">AnonComms</button>
+        <button class="tab storage" data-team="storage">Storage</button>
+        <button class="tab blockchain" data-team="blockchain">Blockchain</button>
       </div>
 
       <!-- Logos Core Content -->
@@ -1154,6 +1196,727 @@
                 <span class="section-label next">Next</span>
                 <ul class="item-list">
                   <li>Slashing cap for slashing node + slow client fixes for aggregator node</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Storage Content -->
+      <div class="team-content" id="storage">
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>
+              <a href="https://github.com/logos-storage/logos-storage-nim/milestone/11"
+                >Status Integration</a
+              >
+            </h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>
+                    Final round of heavy refactorings: renamed archiveId to archiveLink, introduced
+                    NOP pattern in ArchiveManager for safer code and simplified lifecycle management
+                  </li>
+                  <li>Improved archive cleanup and thread safety</li>
+                  <li>
+                    Porting changes from
+                    <a href="https://github.com/status-im/status-go/pull/7201">#7201</a> to
+                    <a href="https://github.com/status-im/status-go/pull/7312">#7312</a>
+                  </li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>
+                    Fix tests on
+                    <a href="https://github.com/status-im/status-go/pull/7312">#7312</a> and get it
+                    merged
+                  </li>
+                  <li>
+                    Fix tests on
+                    <a href="https://github.com/status-im/status-go/pull/7201">#7201</a> and rebase
+                    onto develop
+                  </li>
+                  <li>Update nix configuration and release for final review</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>
+              <a href="https://github.com/logos-storage/logos-storage-nim/milestone/12"
+                >Testnet Filesharing Client</a
+              >
+            </h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>
+                    Block exchange protocol: decoupled manifest fetching from block exchange,
+                    download manager and scheduler API cleanup, multi-download per CID
+                  </li>
+                  <li>
+                    Testing:
+                    <a href="https://github.com/logos-storage/logos-storage-nim/pull/1407"
+                      >added local libstorage tests and replaced CI</a
+                    >,
+                    <a href="https://github.com/logos-storage/logos-storage-nim/pull/1406"
+                      >enabled REST API in libstorage debug builds</a
+                    >
+                  </li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>
+                    Block exchange protocol: rebase on latest, add/cleanup/consolidate tests
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>AnonComm Collaboration</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>
+                    <a
+                      href="https://www.notion.so/Mix-Meeting-Notes-2b58f96fb65c80af9f85c3df48297b5a"
+                      >Continued discussion and meetings</a
+                    >
+                    with the AnonComm team
+                  </li>
+                  <li>
+                    Draft approach for
+                    <a href="https://hackmd.io/@codex-storage/rkCIGuuw-g"
+                      >logos-storage anonymous download</a
+                    >
+                    using the mix protocol
+                  </li>
+                  <li>
+                    Work on
+                    <a href="https://github.com/vacp2p/zerokit/pull/373"
+                      >partial Groth16 proof generation for RLN</a
+                    >: added serialization, improved API, added FFI API, and tests
+                  </li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>
+                    Improve and refine the anonymous download approach after discussions
+                  </li>
+                  <li>
+                    Draft hidden-services over mix approach for logos-storage anonymous publishing
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>
+              <a href="https://github.com/logos-storage/logos-storage-nim/milestone/10"
+                >Integration with Logos Core</a
+              >
+            </h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>
+                    SDK contributions: boolean argument support
+                    <a href="https://github.com/logos-co/logos-cpp-sdk/pull/17">#17</a>, include
+                    interface comments in generated header
+                    <a href="https://github.com/logos-co/logos-cpp-sdk/pull/16">#16</a>
+                  </li>
+                  <li>
+                    Finalized Storage Module with download and headless mode:
+                    <a href="https://github.com/logos-co/logos-storage-module/pull/8">#8</a>,
+                    <a href="https://github.com/logos-co/logos-storage-module/pull/10">#10</a>,
+                    <a href="https://github.com/logos-co/logos-storage-module/pull/11">#11</a>,
+                    <a href="https://github.com/logos-co/logos-storage-module/pull/12">#12</a>
+                  </li>
+                  <li>
+                    Storage Module tutorial
+                    <a href="https://github.com/logos-co/logos-storage-module/pull/9">#9</a>
+                  </li>
+                  <li>
+                    Added Storage Module to Logos modules list
+                    <a href="https://github.com/logos-co/logos-modules/pull/17">#17</a>
+                  </li>
+                  <li>
+                    Package manager bug fix
+                    <a href="https://github.com/logos-co/logos-package-manager-module/pull/26"
+                      >#26</a
+                    >
+                  </li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>Focus on design implementation</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blockchain Content -->
+      <div class="team-content" id="blockchain">
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Bedrock Research</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>Cryptarchia</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>
+                    Continued refining Total Stake Inference (TSI)
+                    <a
+                      href="https://www.notion.so/nomos-tech/Updated-Understanding-and-Improving-Total-Stake-Inference-Accuracy-via-Uncle-DAG-References-2fb261aa09df808784f5e7abaaea460a"
+                      >draft</a
+                    >, addressing technical comments with updated sections and simulations
+                  </li>
+                  <li>
+                    Updated EmPoWering the Consensus with PoW mining options, exploring methods of
+                    transmitting PoW claims through Blend
+                    <a
+                      href="https://www.notion.so/nomos-tech/EmPoWering-the-Consensus-2fd261aa09df8089b71cd69d0d22d447"
+                      >doc</a
+                    >
+                  </li>
+                  <li>Began research on ZK checkpoints</li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4>Tokenomics</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>
+                    Proposed
+                    <a
+                      href="https://www.notion.so/nomos-tech/RFC-Cryptoeconomics-Specifications-removal-of-DA-303261aa09df805cbee6f0805a8454f6"
+                      >RFC</a
+                    >
+                    for removing DA from TKE block rewards and fees specifications
+                  </li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4>DA Sampling</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>
+                    Computed joint probability of a node building a block from unavailable data,
+                    winning election, and block being accepted. Lower bound on median time exceeds
+                    age of the universe
+                    <a
+                      href="https://www.notion.so/nomos-tech/Data-availability-DA-sampling-2d1261aa09df805facbcfd8184009928?source=copy_link#2f8261aa09df80619707e63cca81e857"
+                      >analysis</a
+                    >
+                  </li>
+                  <li>
+                    Began Private DA literature review, examining Celestia's blob encryption and
+                    verifiable encryption approach
+                    <a
+                      href="https://www.notion.so/nomos-tech/Some-Ideas-For-Private-DA-305261aa09df80c29c91e4a5dabbbed1"
+                      >notes</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4>Blend</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>
+                    Iterating on Compressed Block Proposal
+                    <a
+                      href="https://www.notion.so/nomos-tech/RFC-Compressed-Block-Proposal-2e3261aa09df80a38df7eb9f14ddeb5e"
+                      >RFC</a
+                    >, expanded analysis to account for multiple collisions per transaction
+                  </li>
+                  <li>
+                    Reviewed Circom constraint optimization for comparisons paper
+                    <a
+                      href="https://www.notion.so/nomos-tech/Comparisons-1fd261aa09df81feae1ff3e6612b92a0?source=copy_link#302261aa09df8067949aebef0d52fd31"
+                      >doc</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Bedrock Engineering</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>Cryptarchia</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>
+                    IBD bug fix: fail if no peer is successfully caught up
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2179"
+                      >#2179</a
+                    >
+                  </li>
+                  <li>
+                    Use NOM for CryptarchiaParameter encode/decode
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2185"
+                      >#2185</a
+                    >
+                  </li>
+                  <li>
+                    Initialize LIB with correct slot and height
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2198"
+                      >#2198</a
+                    >
+                  </li>
+                  <li>
+                    Use s_gen for bootstrap fork choice rule
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2209"
+                      >#2209</a
+                    >
+                  </li>
+                  <li>
+                    Remove OnceLock for LotteryConstants
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2203"
+                      >#2203</a
+                    >
+                  </li>
+                  <li>
+                    Add tracing for epoch state changes
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2202"
+                      >#2202</a
+                    >, stake inference beta config
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2199"
+                      >#2199</a
+                    >
+                  </li>
+                  <li>
+                    Remove waiting service dependencies from API
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2194"
+                      >#2194</a
+                    >
+                  </li>
+                  <li>
+                    Derived t0/t1_constant from f (in-review)
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2155"
+                      >#2155</a
+                    >, CryptarchiaParameter for genesis block (in-review)
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2174"
+                      >#2174</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4>Blend</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>
+                    Fix Blend panic with empty membership
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2158"
+                      >#2158</a
+                    >
+                  </li>
+                  <li>
+                    Reduce blend net inactivity and retention period
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2168"
+                      >#2168</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4>Testing</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>
+                    Improved cucumber tests
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2150"
+                      >#2150</a
+                    >, fix NTP config and Windows compile
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2148"
+                      >#2148</a
+                    >, prevent potential panics
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2162"
+                      >#2162</a
+                    >
+                  </li>
+                  <li>
+                    Framework core and Logos separation (draft)
+                    <a
+                      href="https://github.com/logos-blockchain/logos-blockchain-testing/pull/28"
+                      >#28</a
+                    >
+                  </li>
+                  <li>
+                    Logos integration layer for testing framework (in-review)
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2196"
+                      >#2196</a
+                    >
+                  </li>
+                  <li>
+                    Config sync updates
+                    <a
+                      href="https://github.com/logos-blockchain/logos-blockchain-testing/pull/30"
+                      >#30</a
+                    >
+                    <a
+                      href="https://github.com/logos-blockchain/logos-blockchain-testing/pull/31"
+                      >#31</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4>Deployment</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>0.1.2 release with major configuration overhaul</li>
+                  <li>
+                    Config improvements: remove YAML bundling
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2147"
+                      >#2147</a
+                    >, promote genesis state
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2149"
+                      >#2149</a
+                    >
+                    and chain start time
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2159"
+                      >#2159</a
+                    >, decouple service configs
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2160"
+                      >#2160</a
+                    >, sensible defaults
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2173"
+                      >#2173</a
+                    >
+                  </li>
+                  <li>
+                    Node init subcommand
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2164"
+                      >#2164</a
+                    >, single recovery folder
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2197"
+                      >#2197</a
+                    >
+                  </li>
+                  <li>
+                    Docker improvements: compose volumes
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2172"
+                      >#2172</a
+                    >, release binaries
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2154"
+                      >#2154</a
+                    >, build workflow fix
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2189"
+                      >#2189</a
+                    >, tar binaries
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2200"
+                      >#2200</a
+                    >
+                  </li>
+                  <li>
+                    Faucet: multiple UTXOs
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2169"
+                      >#2169</a
+                    >, all faucet keys in config
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2204"
+                      >#2204</a
+                    >
+                  </li>
+                  <li>
+                    NAT traversal via autonat
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2193"
+                      >#2193</a
+                    >, extract peer IDs from multiaddr for IBD
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2180"
+                      >#2180</a
+                    >
+                  </li>
+                  <li>
+                    Release process updates
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2181"
+                      >#2181</a
+                    >
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2205"
+                      >#2205</a
+                    >, 0.1.3 devnet spec
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2207"
+                      >#2207</a
+                    >
+                  </li>
+                  <li>
+                    Systemd template for node deployment
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2152"
+                      >#2152</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4>DA</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>
+                    Remove kzgrs params and mentions
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2190"
+                      >#2190</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4>Logos Core Integration</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>
+                    Logos Blockchain Module improvements: packaging with deps
+                    <a href="https://github.com/logos-blockchain/logos-blockchain-module/pull/5"
+                      >#5</a
+                    >, emit events
+                    <a href="https://github.com/logos-blockchain/logos-blockchain-module/pull/6"
+                      >#6</a
+                    >, class static
+                    <a href="https://github.com/logos-blockchain/logos-blockchain-module/pull/7"
+                      >#7</a
+                    >, circuits env
+                    <a href="https://github.com/logos-blockchain/logos-blockchain-module/pull/8"
+                      >#8</a
+                    >, constructor crash fix
+                    <a href="https://github.com/logos-blockchain/logos-blockchain-module/pull/10"
+                      >#10</a
+                    >, known address
+                    <a href="https://github.com/logos-blockchain/logos-blockchain-module/pull/11"
+                      >#11</a
+                    >
+                  </li>
+                  <li>
+                    Fix linux-aarch64 circuits
+                    <a href="https://github.com/logos-blockchain/logos-blockchain-circuits/pull/13"
+                      >#13</a
+                    >
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2184"
+                      >#2184</a
+                    >, output circuits in nix build
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2165"
+                      >#2165</a
+                    >, fix Nix OSX deps
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2157"
+                      >#2157</a
+                    >
+                  </li>
+                  <li>
+                    C-bindings: wallet known address retrieval
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2191"
+                      >#2191</a
+                    >, storage get_blocks range (in-review)
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2188"
+                      >#2188</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4>Zones (Zone SDK)</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>
+                    Zone-SDK v0 API complete: non-finalized block tracking
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2132"
+                      >#2132</a
+                    >, v0 indexer/sequencer e2e
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2161"
+                      >#2161</a
+                    >, backfilling + checkpoint with self-healing sequencer
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2175"
+                      >#2175</a
+                    >
+                  </li>
+                  <li>
+                    TUI zone: sample sequencer for text inscriptions
+                    <a href="https://github.com/logos-blockchain/logos-blockchain/pull/2177"
+                      >#2177</a
+                    >
+                  </li>
+                  <li>
+                    SQLite zone demo MVP ready
+                    <a
+                      href="https://github.com/logos-blockchain/logos-blockchain/tree/sql-zone/testnet/sqlite-zone-demo"
+                      >branch</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>LEE (Logos Execution Environment)</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>Key Protocol</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>
+                    Multi-owner private accounts: researched PDA approach, solved ownership griefing
+                    attack, finished
+                    <a
+                      href="https://www.notion.so/Program-based-approach-for-private-accounts-with-multiple-owners-3038f96fb65c8044a637ebcbea0cf56d"
+                      >program-based approach document</a
+                    >
+                  </li>
+                  <li>
+                    SLIP-010 key generation
+                    <a
+                      href="https://www.notion.so/LEE-key-protocol-modification-based-on-SLIP-010-30a8f96fb65c8022bb40e133e152a69b"
+                      >security document</a
+                    >
+                    for LEE
+                  </li>
+                  <li>
+                    Nonce mechanism update for private accounts (in-review)
+                    <a href="https://github.com/logos-blockchain/lssa/pull/334">#334</a>
+                  </li>
+                  <li>
+                    Public key protocol updated to match HD key specs
+                    <a href="https://github.com/logos-blockchain/lssa/pull/249">#249</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4>Token Program</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>
+                    AMM Program refactor: logic to amm_program lib, types to amm_core,
+                    strongly-typed instructions
+                    <a href="https://github.com/logos-blockchain/lssa/pull/306">#306</a>
+                  </li>
+                  <li>
+                    Auth transfer FFI full functionality
+                    <a href="https://github.com/logos-blockchain/lssa/pull/332">#332</a>
+                  </li>
+                  <li>
+                    AMM program ID fix for sequencer RPC
+                    <a href="https://github.com/logos-blockchain/lssa/pull/335">#335</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4>Indexer</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>
+                    Integration tests for block and public state queries, config and port fixes
+                    <a href="https://github.com/logos-blockchain/lssa/pull/308">#308</a>
+                  </li>
+                  <li>
+                    Rewrote finalized block fetching: streams to polling with backfilling, DB
+                    restart support (in-review)
+                    <a href="https://github.com/logos-blockchain/lssa/pull/331">#331</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4>Integration</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>
+                    Full Bedrock integration: generic clients, testcontainers, retries, flaky test
+                    fixes, all-in-one docker compose
+                    <a href="https://github.com/logos-blockchain/lssa/pull/316">#316</a>
+                  </li>
+                  <li>
+                    Fix sequencer data synchronization: updated docs, tests, CI
+                    <a href="https://github.com/logos-blockchain/lssa/pull/333">#333</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4>Explorer</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>
+                    Block Explorer: leptos Rust fullstack with blocks/transactions/accounts pages
+                    and Docker
+                    <a href="https://github.com/logos-blockchain/lssa/pull/315">#315</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4>Logos Core</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>
+                    LEZ Nixify
+                    <a href="https://github.com/logos-blockchain/lssa/pull/320">#320</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Comms</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>Blog</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>
+                    Sovereign Zone Interoperability blog draft (in-progress)
+                    <a
+                      href="https://www.notion.so/nomos-tech/Sovereign-Zone-Interoperability-302261aa09df808d8e21e3b53e64dd88"
+                      >draft</a
+                    >
+                  </li>
                 </ul>
               </div>
             </div>
