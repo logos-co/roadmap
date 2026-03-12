@@ -41,7 +41,7 @@ All components will be fully specified.
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### [Authenticated connections between prover and slashers](https://github.com/logos-co/anoncomms-pm/issues/16)
+### [Implementation of aggregator-slasher architecture](https://github.com/logos-co/anoncomms-pm/issues/16)
 
 **Owner**: AnonComms Zerokit-RLN
 
@@ -49,8 +49,8 @@ All components will be fully specified.
 
 **FURPS**:
 
-- F5. The RLN prover module supports a statically configured authentication mechanism for slasher connections
-- R2. Decentralized slashers establish authenticated connections to the RLN prover to observe proofs and detect spam
+- F5. The RLN prover module supports proof output streaming to an aggregator node
+- R2. The aggregator relays RLN proof metadata to decentralized slashers
 - R3. Decentralized slashers extract the secret from double-signaled (spammed) proofs to enable slashing
 
 **Checklist**:
