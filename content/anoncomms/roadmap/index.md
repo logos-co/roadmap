@@ -37,7 +37,7 @@ The work is split into milestones, according to the targeted Logos testnet/relea
 
 #### Modules
 
-The AnonComms team have responsibilities within the following Logos modules:
+For Testnet v0.2, the AnonComms team have responsibilities within the following Logos modules:
 
 - Logos Chat module:
   - De-MLS backed group chat implementation
