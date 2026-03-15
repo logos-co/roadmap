@@ -11,8 +11,7 @@ date: 2025-11-13
 ## Usability
 
 1. Introduce new pragma definitions, such as `{.ffi.}`, to appropriately annotate types and procedures.
-2. Any Nim project can use it and can be installed using Nimble,
-   similarly to how nim-chronos is imported.
+2. Any Nim project can use it and can be installed using Nimble, similarly to how nim-chronos is imported.
 3. The interaction with the exposed C library can be done using JSON.
 
 ## Reliability
@@ -29,4 +28,4 @@ date: 2025-11-13
 
 ## + (Privacy, Anonymity, Deployments)
 
-1. `logos-messaging-nim` repository uses `nim-ffi`.
+1. `logos-delivery` repository uses `nim-ffi`.
