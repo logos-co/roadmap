@@ -1,0 +1,95 @@
+---
+title: Chat — Developer Preview
+tags:
+  - messaging-milestone
+date: 2026-01-15
+---
+
+# Chat — Developer Preview
+
+**Estimated date of completion**: Testnet v0.3
+
+**Resources Required**:
+- 2 Chat engineers
+- 1 Delivery engineer (testing support)
+- DST involvement for reliability testing
+
+The Developer Preview focuses on polishing the Logos Chat implementation into a state suitable for real application integration. It builds on the foundations (v0.1, 1:1 chats) and group conversations (v0.2) by hardening the API, completing the identity model, enabling on-chain contact discovery, and validating the integration in Status.
+
+The focus is:
+- Stabilize and polish the API based on feedback from v0.2 Status test integration
+- Complete the full identity model
+- Replace out-of-band contact discovery with on-chain approach
+- Test and fix integration issues at scale with DST
+- Deliver user-facing features needed for a real chat experience
+
+## FURPS
+
+- [Logos Chat](/messaging/furps/application/chat_sdk.md): all
+- [Group Chat](/messaging/furps/application/group_chat.md): all
+- [Reliable Channel API](/messaging/furps/application/reliable_channel.md): via integration
+
+## Risks
+
+| Risk                          | (Accept, Own, Mitigation)                                                                                                                  |
+| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| On-chain contact discovery    | Storing intro bundles on Logos Blockchain requires research. Uncertain if the blockchain is ready for this by v0.3. Needs early validation. |
+| Integration stability         | Combining 1:1, group chats, identity, and reliability into a cohesive release may surface emergent bugs.                                   |
+| Status feedback volume        | Real integration testing may surface a large number of issues. Need capacity to triage and address.                                        |
+
+## Deliverables
+
+### Implement full identity model
+
+**Owner**: Chat Team
+
+Building on the simple identity model from v0.2:
+- Full user identity spanning multiple installations/devices
+- Key rotation without losing conversation history
+- Device recovery mechanisms
+- Optional binding to external identity systems
+- Specification and implementation, in collaboration with AnonComms team
+
+### Implement contact discovery
+
+**Owner**: Chat Team
+
+The implementation should replace v0.1 out-of-band intro bundle sharing.
+Current agreement is to use on-chain storage.
+
+> [!WARNING] Risk
+> Requires research into whether Logos Blockchain supports the needed functionality by this timeline. Fallback is to continue with out-of-band sharing.
+
+### Stabilize and polish API
+
+**Owner**: Chat Team
+
+- Address feedback from v0.2 Status test integration
+- Fix API inconsistencies and footguns discovered during integration
+- Stabilize error handling and edge cases
+
+### Deliver user-facing chat features
+
+**Owner**: Chat Team
+
+Features needed for a real chat experience beyond the protocol layer:
+- Message history persistence and retrieval across sessions
+- Contact management (add, remove, block contacts)
+- Conversation list management
+- Typing indicators and read receipts
+
+### Reliability testing with DST
+
+**Owner**: Chat Team + DST
+
+- Message delivery rates across scenarios (1:1, groups, multi-device)
+- Recovery scenarios (node restart, network partition, device offline)
+- Multi-device sync correctness
+- Performance testing against FURPS targets (10K users, 10Mbps bandwidth)
+- Scale testing with up to 201 users in a group chat
+
+### Validate integration in Status
+
+**Owner**: Chat Team + Status Team
+
+Continue and deepen the Status integration started in v0.2. Address issues found during exploratory integration and validate that the polished API works for Status's production requirements.
