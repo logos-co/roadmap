@@ -1,74 +1,91 @@
 ---
-title: Extend Chat SDK with Group Conversations
+title: Chat — Group Conversations
 tags:
-    - messaging-milestone
+  - messaging-milestone
 date: 2025-12-18
+github-milestone: 'https://github.com/logos-messaging/pm/milestone/50'
 ---
 
-# [Extend Chat SDK with Group Conversations](https://github.com/logos-messaging/pm/milestone/50)
+# Chat — Group Conversations
 
-**Estimated date of completion**: TODO
+https://github.com/logos-messaging/pm/milestone/50
+
+**Estimated date of completion**: Testnet v0.2
 
 **Resources Required for 2026H1**:
-- 2 Chat Engineers
-- 1 Messaging Logos Core engineer for 1 month (C-Bindings) 
+- 2 Chat engineers
 
-Once done, apps like Status can build a chat experience which includes support for multiple device, and multiple
-participants in a given group chat.
+Once done, apps like Status can build a chat experience which includes support for multiple devices and multiple participants in a given group chat.
 
-The features to said group chat will be limited, and extended with further milestones.
+Group chat features will be limited at this stage and extended with further milestones. Support for plugging Status Communities on top of Logos Chat is **not** expected — further group size scaling and extension of membership management API would be needed.
 
-Support to plug Status Communities on top of this SDK is **not** expected.
-Further group size scaling and extension of membership management API would be needed.
+**Encryption approach**: de-MLS (decentralised MLS) from the AnonComms team, which provides multi-steward group management. de-MLS API is consumed as a dependency from the AnonComms team.
 
-Note: Dependency to nim-messaging is to be handled via Nimble, meaning the Chat Logos Module would have libp2p,
-messaging, etc embedded.
-Moving to an architecture where the Chat module uses the locally available messaging module, is not yet planned.
+**Identity**: A simple identity model must be in place for this milestone. A "user" is a set of installations (devices), with basic association between them. Key rotation and device recovery are included at a basic level. Full identity (binding to external identities, provenance logs, advanced recovery) is planned for [Chat — Developer Preview](2026-chat-developer-preview).
+
+**Remove unnecessary Nim shim**: This milestone includes an attempt to remove the unnecessary Nim layer in Logos Chat by rewriting it in Rust. Currently the Nim layer exists primarily to manage the async runtime and Logos Delivery integration, but adds complexity with no clear benefit. This rewrite is only feasible if Logos Chat can remain fully synchronous on the Rust side. If successful, it would significantly simplify development going forward.
 
 ## FURPS
 
-[Group Chat](/messaging/furps/application/group_chat.md)
+- [Group Chat](/messaging/furps/application/group_chat.md): all
 
 ## Risks
 
-| Type/Level       | Risk                                                                                                                                                                                               | (Accept, Own, Mitigation)                                                                                                                                                                                                                                                                                                                           |
-|------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Schedule/Medium  | Milestone Dependency                                                                                                                                                                               | This milestone is dependent on [ChatSDK - Developer Preview](2025-create-chat-sdk-mvp.md).   Delays there will translate into delays to this milestone.                                                                                                                                                                  |
-| Technical/Medium | Lack of NimLibraries                                                                                                                                                                               | There currently does not exist the required libraries in Nim to build group chat. This will involve evaluating the potential of calling an existing library via FFI or implementing it from scratch. This can be mitigated by vetting existing library potential should occur early or finding security reviewers for nim implemented cryptography. |
-| Technical/Low    | Group chat is prone to bugs, even when using existing encryption protocols. Extra time has been allocated to testing and debugging in an effort to mitigate this, however it still remains a risk. | 
-| Technical/High   | SDS and de-MLS/Sender key integration need to be well thoughts due to conflicting message ordering (forward to construct keys, backward to recover messages with SDS)                              | Specific deliverable schedule to design and define integration                                                                                                                                                                                                                                                                                      |                                      
-| Migration/High   | RLN-less fleet lead to breaking change                                                                                                                                                             | If the staging, and then prod fleets, for Chat SDK are setup without RLN, then breaking changes will be needed to migrate to an RLN-protected network.                                                                                                                                                                                              |
+| Type/Level      | Risk                             | (Accept, Own, Mitigation)                                                                                                                                              |
+| --------------- | -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Schedule/Medium | Milestone dependency             | This milestone depends on [Chat — Foundations](2025-create-chat-sdk-mvp.md). Delays there translate into delays here.                                                        |
+| Technical/Low   | Group chat bugs                  | Group chat is prone to bugs even when using existing encryption protocols. Extra time allocated to testing and debugging.                                              |
+| Technical/High  | SDS and de-MLS ordering conflict | SDS works backward in the dependency tree, but de-MLS requires forward construction from checkpoints. Specific deliverable scheduled to design and define integration. |
+| Technical/High  | Nim shim removal feasibility     | Removing the Nim layer is only possible if Logos Chat remains fully synchronous. If async is required (e.g. for data storage), the removal may not be feasible.        |
 
 ## Deliverables
 
-### [Add Group Chat](https://github.com/waku-org/pm/issues/346)
+### [Add Group Chat](https://github.com/logos-messaging/pm/issues/346)
 
 **Owner**: Chat Team
 
 **Feature**: [Group Chat](/messaging/furps/application/group_chat.md)
 
 **FURPS**:
-
 - F1. Accounts can receive a message in multiple locations (e.g. devices) by registering new installations.
 - F2. Accounts can view and remove installations as needed.
-- F3. Accounts can create GroupChats between multiple accounts.
-- F4. Participants can set a group name and description for all participants in the group. 
+- F3. Accounts can create group chats between multiple accounts.
+- F4. Participants can set a group name and description for all participants in the group.
 - F5. Account can view all provisioned installations.
 - F6. Account can revoke other installations in case of a lost device.
 
-- R1. Group Participants in a conversation can tell if a message is missing, and who sent it.
+- R1. Group participants in a conversation can tell if a message is missing, and who sent it.
 
 - P1. The number of network messages for a single outbound group message does not scale with the number of group members.
 
 - +PRIV1. Non-participants cannot correlate a group conversation to any of its participants.
 - +PRIV2. No identifying information is visible when registering an installation.
 
-### [Add Group chats API to LogosCore Chat module](https://github.com/logos-messaging/pm/issues/375)
+### Implement simple identity model
 
-**Owner:** Chat Team
+**Owner**: Chat Team
 
-**Feature**: [Bindings](/messaging/furps/application/group_chat.md)
+- A "user" is represented as a set of installations (devices)
+- Basic association between installations belonging to the same user
+- Basic key rotation: ability to add/remove installations
+- Basic device recovery mechanism
 
-**FURPS:**
+### Design SDS and de-MLS integration
 
-- S1. Developers can create group conversations from C-bindings, in Logos Core framework.
+**Owner**: Chat Team
+
+Define how SDS reliability (backward dependency resolution) integrates with de-MLS encryption (forward checkpoint construction). This is a design deliverable that feeds into the Reliable Channel API General Availability milestone.
+
+**Dependency**: de-MLS API from AnonComms team must be available.
+
+### Remove unnecessary Nim shim from Logos Chat
+
+**Owner**: Chat Team
+
+Evaluate and attempt removing the Nim layer of Logos Chat (`logos-chat`) by rewriting it in Rust. The Nim layer currently handles async runtime management and Logos Delivery integration but adds development complexity. If Logos Chat can remain fully synchronous, this layer can be replaced with Rust, unifying the codebase.
+
+### Perform test integration of Logos Chat into Status App
+
+**Owner**: Chat Team + Status Team
+
+Initial validation that Logos Chat (1:1 + group chats) can be consumed by Status. This is an exploratory integration, not a production milestone. The goal is to get feedback on the API from a production app.
