@@ -8,7 +8,7 @@ tags:
 ## Highlights
 <!-- Please Add the team weekly highlights here -->
 
-- Logos Messaging Nim:
+- Logos Delivery:
 - Chat: 
 - Logos Integrations:
 - Status:

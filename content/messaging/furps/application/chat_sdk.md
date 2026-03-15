@@ -1,7 +1,7 @@
 ---
-title: Chat SDK
+title: Logos Chat
 tags:
-    - messaging-furps
+  - messaging-furps
 date: 2025-11-13
 ---
 
@@ -12,14 +12,14 @@ date: 2025-11-13
 3. All conversations benefit from forward secrecy and post-compromise security.
 4. Sender gets confirmation of message reception by recipient device.
 5. Developers can create their own payload types or use supplied basic types.
-6. Sdk contains a default message database for developers.
-7. Sdk contains a default secrets database for developers.
+6. Library contains a default message database for developers.
+7. Library contains a default secrets database for developers.
 
 ## Usability
 
 1. Secure session setups are non-interactive, allowing messages to be sent without waiting for the recipient's device to come online.
 2. Conversations are initiated by sharing invite links out-of-band.
-3. Minimal example of the ChatSDK is no more than 25 lines of code.
+3. Minimal example of Logos Chat is no more than 25 lines of code.
 
 ## Reliability
 
@@ -27,13 +27,13 @@ date: 2025-11-13
 
 ## Performance
 
-1. 10K active SDK users on a single shard add no more than an average of 10Mbps to the total bandwidth; based on clients generating 100 character chat messages, 4 times per minute.
+1. 10K active users on a single shard add no more than an average of 10Mbps to the total bandwidth; based on clients generating 100 character chat messages, 4 times per minute.
 
 ## Supportability
 
 1. Messaging integrates RLN-like rate limit, limiting outbound messages per epoch.
 2. Payload definitions are versioned to support future protocol updates.
-3. library can be used via C-Bindings.
+3. Library can be used via C-Bindings.
 
 ## + (Privacy, Anonymity, Deployments)
 

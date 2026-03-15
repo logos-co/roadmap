@@ -31,7 +31,7 @@ github-milestone: <Link to Github Milestone>
 
 ### {Name of deliverable 1 - eg "improve feature X for the browser"}
 
-**Owner**: {one waku subteam}
+**Owner**: {one messaging team}
 
 **Feature**: [{Feature Name (only 1)}]({path/to/furps/file})
 
