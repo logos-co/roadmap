@@ -1,8 +1,8 @@
 ---
-title: Messaging SDK
-date: 2025-11-13
+title: Messaging API
 tags:
-    - messaging-furps
+  - messaging-furps
+date: 2025-11-13
 ---
 ## Functionality
 
@@ -11,7 +11,7 @@ tags:
 3. Support core node operation mode.
 4. Does automatic peer discovery based on the node platform and operation mode.
 5. Returns health and connectivity information using proven heuristics.
-6. Previously discovered peers are persisted across restarted, and potentially used for future connections.
+6. Previously discovered peers are persisted across restarts, and potentially used for future connections.
 
 ## Usability
 
@@ -30,7 +30,7 @@ tags:
 
 ## Supportability
 
-1. Developers can use the SDK in nim software, importing it via git path.
-2. Developers can use the SDK via C API, in Logos Core.
-## + (Privacy, Anonymity, Deployments)
+1. Developers can use the API in Nim software, importing it via Nimble.
+2. Developers can use the API via C-bindings, in Logos Core.
 
+## + (Privacy, Anonymity, Deployments)

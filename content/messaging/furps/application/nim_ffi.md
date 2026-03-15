@@ -1,8 +1,8 @@
 ---
-title: Nim-FFI
-date: 2025-11-13
+title: Nim FFI
 tags:
-    - messaging-furps
+  - messaging-furps
+date: 2025-11-13
 ---
 ## Functionality
 
