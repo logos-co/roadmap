@@ -12,7 +12,7 @@ tags:
 The AnonComms team is currently working on the following tracks:
 
 1. [Create a basic capability discovery module for Logos Core](./discovery.md), by defining an efficient capability discovery protocol over libp2p kad-DHT.
-2. [Establish a libp2p mixnet for Logos Core](./establish_libp2p_mixnet.md), with a special focus on getting pluggable Sybil and DoS protection right.
+2. [Establish a libp2p mixnet for Logos Core](./mix.md), with a special focus on getting pluggable Sybil and DoS protection right.
 3. [Deliver de-MLS for p2p group messaging](./deliver_de-mls_api.md), with an API supporting multiple stewards and advanced group management.
 4. [Implement an MVP payment protocol](./incentivisation.md) that exploits Logos Blockchain/Nescience to allow privacy-preserving, mostly off-chain payments to service providers.
 5. [Rework and deliver a public Zerokit 1.0 API](./deliver_public_zerokit_1.0_api.md) that improves usability and add big-endian support.
@@ -31,11 +31,13 @@ The work is split into milestones, according to the targeted Logos testnet/relea
 
 - [Capability Discovery Testnet v0.1 Deliverables](../roadmap/testnet_v0.1/discovery_v0.1.md)
 - [Service Incentivisation Testnet v0.1 Deliverables](../roadmap/testnet_v0.1/incentivisation_v0.1.md)
+- [Mix Testnet v0.1 Deliverables](../roadmap/testnet_v0.1/mix_v0.1.md)
 
 ### Testnet v0.2
 
 - [Capability Discovery Testnet v0.2 Deliverables](../roadmap/testnet_v0.2/discovery_v0.2.md)
 - [Service Incentivisation Testnet v0.2 Deliverables](../roadmap/testnet_v0.2/incentivisation_v0.2.md)
+- [Mix Testnet v0.2 Deliverables](../roadmap/testnet_v0.2/mix_v0.2.md)
 
 #### Modules
 
