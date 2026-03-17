@@ -29,11 +29,11 @@ The work is split into milestones, according to the targeted Logos testnet/relea
 
 ### Testnet v0.1
 
-- [Capability Discovery Track](../roadmap/testnet_v0.1/discovery_v0.1.md)
+- [Capability Discovery Testnet v0.1 Deliverables](../roadmap/testnet_v0.1/discovery_v0.1.md)
 
 ### Testnet v0.2
 
-- [Capability Discovery Track](../roadmap/testnet_v0.2/discovery_v0.2.md)
+- [Capability Discovery Testnet v0.2 Deliverables](../roadmap/testnet_v0.2/discovery_v0.2.md)
 
 #### Modules
 
