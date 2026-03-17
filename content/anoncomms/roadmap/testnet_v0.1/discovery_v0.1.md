@@ -2,7 +2,7 @@
 
 **Track:** [Capability Discovery Track](../discovery.md)
 
-**FURPS:** [Capability Discovery FURPS](../furps/discovery.md)
+**FURPS:** [Capability Discovery FURPS](../../furps/discovery.md)
 
 **Estimated date of completion**: 31 Mar 2026
 
