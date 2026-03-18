@@ -15,9 +15,9 @@ The AnonComms team is currently working on the following tracks:
 2. [Establish a libp2p mixnet for Logos Core](./mix.md), with a special focus on getting pluggable Sybil and DoS protection right.
 3. [Deliver de-MLS for p2p group messaging](./de-mls.md), with an API supporting multiple stewards and advanced group management.
 4. [Implement an MVP payment protocol](./incentivisation.md) that exploits Logos Blockchain/Nescience to allow privacy-preserving, mostly off-chain payments to service providers.
-5. [Rework and deliver a public Zerokit 1.0 API](./deliver_public_zerokit_1.0_api.md) that improves usability and add big-endian support.
-6. [Release an RLN Prover to support gasless L2 transactions](./release-rln-prover_for_gasless_l2.md) on Status Network, including publishing a whitepaper.
-7. [Implement RLN membership allocation service for Logos Core](./implement_rln_membership_allocation.md), including translating RLN to the Logos Blockchain environment
+5. [Rework and deliver an improved Zerokit library](./zerokit.md) that improves usability and add big-endian support.
+6. [Release an RLN Prover to support gasless L2 transactions](./gasless-l2.md) on Status Network, including publishing a whitepaper.
+7. [Implement RLN membership allocation service for Logos Core](./rln.md), including translating RLN to the Logos Blockchain environment
 
 Of these, (1) and (2) are the team's current top priorities,
 as both capability discovery and mixifying libp2p protocols
@@ -33,6 +33,9 @@ The work is split into milestones, according to the targeted Logos testnet/relea
 - [Service Incentivisation Testnet v0.1 Deliverables](../roadmap/testnet_v0.1/incentivisation_v0.1.md)
 - [Mix Testnet v0.1 Deliverables](../roadmap/testnet_v0.1/mix_v0.1.md)
 - [De-MLS Testnet v0.1 Deliverables](../roadmap/testnet_v0.1/de-mls_v0.1.md)
+- [Zerokit Testnet v0.1 Deliverables](../roadmap/testnet_v0.1/zerokit_v0.1.md)
+- [Gasless L2 Testnet v0.1 Deliverables](../roadmap/testnet_v0.1/gasless-l2_v0.1.md)
+- [RLN Testnet v0.1 Deliverables](../roadmap/testnet_v0.1/rln_v0.1.md)
 
 ### Testnet v0.2
 
@@ -40,6 +43,8 @@ The work is split into milestones, according to the targeted Logos testnet/relea
 - [Service Incentivisation Testnet v0.2 Deliverables](../roadmap/testnet_v0.2/incentivisation_v0.2.md)
 - [Mix Testnet v0.2 Deliverables](../roadmap/testnet_v0.2/mix_v0.2.md)
 - [De-MLS Testnet v0.2 Deliverables](../roadmap/testnet_v0.2/de-mls_v0.2.md)
+- [Zerokit Testnet v0.2 Deliverables](../roadmap/testnet_v0.2/zerokit_v0.2.md)
+- [RLN Testnet v0.2 Deliverables](../roadmap/testnet_v0.2/rln_v0.2.md)
 
 #### Modules
 
