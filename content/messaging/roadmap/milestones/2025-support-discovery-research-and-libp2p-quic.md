@@ -1,35 +1,35 @@
 ---
-title: Support Discovery Research and Libp2p QUIC
+title: QUIC Transport in Logos Delivery
 tags:
-    - messaging-milestone
+  - messaging-milestone
 date: 2025-12-03
 ---
 
-# Support Discovery Research and Libp2p QUIC
+# QUIC Transport in Logos Delivery
 
-**Estimated date of completion**: {Enter date}
+**Estimated date of completion**: Testnet v0.2
 
-**Resources Required for 2025H2**: 0.5 Nim Engineer
+**Resources Required**: 0.5 Nim Engineer
 
-Proceed with several items to support internal teams.
+Replace legacy multiplexers (Yamux, Mplex) with QUIC transport. The old multiplexers are going towards deprecation — Yamux is inefficient, Mplex is outdated. QUIC should be prioritized.
 
 ## FURPS
 
-- [{Feature Name}]({path/to/furps/file}): {list of furps: F1, etc}
+- [Messaging API](/messaging/furps/core/messaging_sdk.md): S4. QUIC transport is supported for peer-to-peer message routing connections.
 
 ## Risks
 
-| Risk   | (Accept, Own, Mitigation)     |
-|--------|-------------------------------|
-| [Risk] | [how to we address this risk] |
+| Risk                       | (Accept, Own, Mitigation)                                                              |
+| -------------------------- | -------------------------------------------------------------------------------------- |
+| QUIC maturity in nim-libp2p | QUIC support in nim-libp2p may not be production-ready. Trial and evaluate early.      |
 
-## Deliverables 
+## Deliverables
 
 ### [Trial QUIC](https://github.com/waku-org/pm/issues/324)
 
-**Owner**: Nim Messaging Team
+**Owner**: Delivery Team
 
-**Feature**: [nwaku](/messaging/furps/application/nwaku.md)
+**Feature**: [Messaging API](/messaging/furps/core/messaging_sdk.md)
 
 **FURPS**:
 - S4. QUIC transport is supported for peer-to-peer message routing connections.
