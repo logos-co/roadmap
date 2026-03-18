@@ -23,7 +23,7 @@ Group chat features will be limited at this stage and extended with further mile
 
 **Identity**: A simple identity model must be in place for this milestone. A "user" is a set of installations (devices), with basic association between them. Key rotation and device recovery are included at a basic level. Full identity (binding to external identities, provenance logs, advanced recovery) is planned for [Chat — Developer Preview](2026-chat-developer-preview).
 
-**Nim-to-Rust**: This milestone includes an attempt to rewrite the Nim layer of Logos Chat to Rust. Currently the Nim layer exists primarily to manage the async runtime and Logos Delivery integration, but adds complexity with no clear benefit. This rewrite is only feasible if Logos Chat can remain fully synchronous on the Rust side. If successful, it would significantly simplify development going forward.
+**Remove unnecessary Nim shim**: This milestone includes an attempt to remove the unnecessary Nim layer in Logos Chat by rewriting it in Rust. Currently the Nim layer exists primarily to manage the async runtime and Logos Delivery integration, but adds complexity with no clear benefit. This rewrite is only feasible if Logos Chat can remain fully synchronous on the Rust side. If successful, it would significantly simplify development going forward.
 
 ## FURPS
 
@@ -36,7 +36,7 @@ Group chat features will be limited at this stage and extended with further mile
 | Schedule/Medium | Milestone dependency             | This milestone depends on [Chat — Foundations](2025-create-chat-sdk-mvp.md). Delays there translate into delays here.                                                        |
 | Technical/Low   | Group chat bugs                  | Group chat is prone to bugs even when using existing encryption protocols. Extra time allocated to testing and debugging.                                              |
 | Technical/High  | SDS and de-MLS ordering conflict | SDS works backward in the dependency tree, but de-MLS requires forward construction from checkpoints. Specific deliverable scheduled to design and define integration. |
-| Technical/High  | Nim-to-Rust rewrite feasibility  | Rewriting the Nim layer is only possible if Logos Chat remains fully synchronous. If async is required (e.g. for data storage), the rewrite may not be feasible.       |
+| Technical/High  | Nim shim removal feasibility     | Removing the Nim layer is only possible if Logos Chat remains fully synchronous. If async is required (e.g. for data storage), the removal may not be feasible.        |
 
 ## Deliverables
 
@@ -78,11 +78,11 @@ Define how SDS reliability (backward dependency resolution) integrates with de-M
 
 **Dependency**: de-MLS API from AnonComms team must be available.
 
-### Attempt Nim-to-Rust rewrite of Logos Chat
+### Remove unnecessary Nim shim from Logos Chat
 
 **Owner**: Chat Team
 
-Evaluate and attempt rewriting the Nim layer of Logos Chat (`logos-chat`) to Rust. The Nim layer currently handles async runtime management and Logos Delivery integration but adds development complexity. If Logos Chat can remain fully synchronous, this layer can be replaced with Rust, unifying the codebase.
+Evaluate and attempt removing the Nim layer of Logos Chat (`logos-chat`) by rewriting it in Rust. The Nim layer currently handles async runtime management and Logos Delivery integration but adds development complexity. If Logos Chat can remain fully synchronous, this layer can be replaced with Rust, unifying the codebase.
 
 ### Perform test integration of Logos Chat into Status App
 
