@@ -40,6 +40,7 @@ We use two release stages for developer-facing APIs and libraries:
 - [Reliable Channel API — Developer Preview](2025-package-sds-in-reliable-channel-api.md)
 - [Chat — Group Conversations](2025-extend-chat-sdk-with-group-conversations)
 - [Logos Core Integration — Phase 2](2026-logos-core-integration-phase-2)
+- [QUIC Transport in Logos Delivery](2025-support-discovery-research-and-libp2p-quic)
 
 ### Testnet [v0.3](v03)
 
@@ -52,11 +53,7 @@ We use two release stages for developer-facing APIs and libraries:
 - [Support Mobile Platforms](2026-support-mobile-platforms)
 - [Chat — General Availability](2026-chat-general-availability)
 - [Logos Core Integration — Phase 3](2026-logos-core-integration-phase-3)
-
-### Post-Mainnet
-
-- [QUIC Transport in Logos Delivery](2025-support-discovery-research-and-libp2p-quic)
-- Security audit of Logos Chat (external audit of double ratchet / de-MLS implementation)
+- Security audit (internal security team review followed by external audit)
 
 ### Parallel milestones
 
@@ -96,7 +93,7 @@ We use two release stages for developer-facing APIs and libraries:
 # Closed Milestones
 
 - [Implement RLN Membership Management](2025-implement-rln-membership-management.md) — superseded by [RLN on Logos Blockchain](2026-add-support-for-rln-on-lee)
-- [Support Discovery Research and Libp2p QUIC](2025-support-discovery-research-and-libp2p-quic.md) — discovery now under AnonComms; QUIC moved to post-mainnet
+- [Support Discovery Research and Libp2p QUIC](2025-support-discovery-research-and-libp2p-quic.md) — discovery now under AnonComms; QUIC moved to v0.2
 - [Enable easy C-Bindings for Desktop](2025-enable-easy-c-bindings-for-desktop.md) — absorbed into [Initial Integration to Logos Core](2025-enable-easy-c-bindings-for-desktop.md)
 - [Enable easy C-Bindings for Mobile](2025-enable-easy-c-bindings-for-mobile.md) — absorbed into [Support Mobile Platforms](2026-support-mobile-platforms)
 - [Add Edge Mode to Messaging API](2025-add-edge-mode-to-messaging-api.md) — absorbed into [Messaging API — General Availability](2026-messaging-api-general-availability)
