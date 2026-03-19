@@ -3,15 +3,10 @@
 according to the FURPS model.</p>
 <p>FURPS are elsewhere divided into Milestones and Deliverables, to form a roadmap.</p>
 <h1 id="functionality">Functionality<a aria-hidden="true" tabindex="-1" href="#functionality" class="internal"> §</a></h1>
-<h2 id="bedrock"><code>bedrock</code><a aria-hidden="true" tabindex="-1" href="#bedrock" class="internal"> §</a></h2>
-<h3 id="bedrockblockchain"><code>bedrock:blockchain</code><a aria-hidden="true" tabindex="-1" href="#bedrockblockchain" class="internal"> §</a></h3>
+<h2 id="blockchain"><code>blockchain</code><a aria-hidden="true" tabindex="-1" href="#blockchain" class="internal"> §</a></h2>
+<h3 id="blockchainppos-private-proof-of-stake"><code>blockchain:ppos</code> (Private Proof of Stake)<a aria-hidden="true" tabindex="-1" href="#blockchainppos-private-proof-of-stake" class="internal"> §</a></h3>
 <ol>
 <li>Nodes can permissionlessly participate in consensus</li>
-<li>Nodes can join bedrock services and earn rewards</li>
-<li>Users can transfer funds</li>
-</ol>
-<h3 id="bedrockppos-private-proof-of-stake"><code>bedrock:ppos</code> (Private Proof of Stake)<a aria-hidden="true" tabindex="-1" href="#bedrockppos-private-proof-of-stake" class="internal"> §</a></h3>
-<ol start="4">
 <li>Leaders can propose blocks privately</li>
 <li>Leaders can claim block rewards without revealing their block proposal</li>
 <li>Blend spam protection</li>
@@ -19,117 +14,117 @@ according to the FURPS model.</p>
 <li>Censorship resistance against malicious broadcasters</li>
 <li>Blend edge node privacy</li>
 </ol>
-<h3 id="bedrocksdp-service-declaration-protocol"><code>bedrock:sdp</code> (Service Declaration Protocol)<a aria-hidden="true" tabindex="-1" href="#bedrocksdp-service-declaration-protocol" class="internal"> §</a></h3>
-<ol start="10">
-<li>SDP enables membership in service networks</li>
-<li>SDP enables rewarding of service participants</li>
+<h3 id="blockchainsdp-service-declaration-protocol"><code>blockchain:sdp</code> (Service Declaration Protocol)<a aria-hidden="true" tabindex="-1" href="#blockchainsdp-service-declaration-protocol" class="internal"> §</a></h3>
+<ol start="8">
+<li>Nodes can join blockchain services</li>
+<li>Nodes can earn rewards by participating in blockchain services</li>
 <li>SDP enables sybil resistance in service networks</li>
 </ol>
-<h3 id="bedrocksovereign-rollups"><code>bedrock:sovereign-rollups</code><a aria-hidden="true" tabindex="-1" href="#bedrocksovereign-rollups" class="internal"> §</a></h3>
-<ol start="13">
-<li>Sovereign Rollups can post their data to Bedrock channels</li>
-<li>Decentralized sequencing for Sovereign Rollups through blockchain enforced sequencer coordination</li>
-<li>Cross-Sovereign Rollups messaging facilitated by Bedrock</li>
+<h3 id="blockchainsovereign-zones"><code>blockchain:sovereign-zones</code><a aria-hidden="true" tabindex="-1" href="#blockchainsovereign-zones" class="internal"> §</a></h3>
+<ol start="11">
+<li>Sovereign Zones can post their data to Blockchain channels</li>
+<li>Decentralized sequencing for Sovereign Zones through blockchain enforced sequencer coordination</li>
+<li>Cross-Sovereign Zones messaging facilitated by Blockchain</li>
 </ol>
-<h3 id="bedrockwallet"><code>bedrock:wallet</code><a aria-hidden="true" tabindex="-1" href="#bedrockwallet" class="internal"> §</a></h3>
-<ol start="16">
+<h3 id="blockchainwallet"><code>blockchain:wallet</code><a aria-hidden="true" tabindex="-1" href="#blockchainwallet" class="internal"> §</a></h3>
+<ol start="14">
 <li>Transfer operations</li>
 <li>Inscription operations</li>
 <li>SDP operations</li>
 </ol>
-<h3 id="bedrockareon"><code>bedrock:areon</code><a aria-hidden="true" tabindex="-1" href="#bedrockareon" class="internal"> §</a></h3>
-<ol start="19">
+<h3 id="blockchainareon"><code>blockchain:areon</code><a aria-hidden="true" tabindex="-1" href="#blockchainareon" class="internal"> §</a></h3>
+<ol start="17">
 <li>Probabilistic finality model analyzed</li>
 <li>Network latency tolerance analyzed</li>
 <li>Total stake inference on Areon model</li>
 <li>Areon with Private Proof of Stake (Cryptareon)</li>
 </ol>
-<h3 id="bedrockblock-building"><code>bedrock:block-building</code><a aria-hidden="true" tabindex="-1" href="#bedrockblock-building" class="internal"> §</a></h3>
-<ol start="23">
+<h3 id="blockchainblock-building"><code>blockchain:block-building</code><a aria-hidden="true" tabindex="-1" href="#blockchainblock-building" class="internal"> §</a></h3>
+<ol start="21">
 <li><strong>Distributed block building</strong> Enabling tagging attack resistance and removing the leader as SPOF</li>
 </ol>
-<h2 id="lssa"><code>lssa</code><a aria-hidden="true" tabindex="-1" href="#lssa" class="internal"> §</a></h2>
-<h3 id="lssaprogrammable-privacy"><code>lssa:programmable-privacy</code><a aria-hidden="true" tabindex="-1" href="#lssaprogrammable-privacy" class="internal"> §</a></h3>
-<ol start="24">
-<li>LSSA supports Programmable Privacy by allowing LSSA Programs to be agnostic as to whether they are interacting with private or public accounts</li>
+<h2 id="lez"><code>lez</code><a aria-hidden="true" tabindex="-1" href="#lez" class="internal"> §</a></h2>
+<h3 id="lezprogrammable-privacy"><code>lez:programmable-privacy</code><a aria-hidden="true" tabindex="-1" href="#lezprogrammable-privacy" class="internal"> §</a></h3>
+<ol start="22">
+<li>LEZ supports Programmable Privacy by allowing LEZ Programs to be agnostic as to whether they are interacting with private or public accounts</li>
 </ol>
-<h3 id="lssasequencer"><code>lssa:sequencer</code><a aria-hidden="true" tabindex="-1" href="#lssasequencer" class="internal"> §</a></h3>
-<ol start="25">
-<li>LSSA Sequencer accepts transactions from users, orders them and posts them to Logos Blockchain</li>
+<h3 id="lezsequencer"><code>lez:sequencer</code><a aria-hidden="true" tabindex="-1" href="#lezsequencer" class="internal"> §</a></h3>
+<ol start="23">
+<li>LEZ Sequencer accepts transactions from users, orders them and posts them to Logos Blockchain</li>
 <li>Sequencer manages pending vs. safe vs. confirmed transactions</li>
-<li>Sequencer maintains funds to pay for bedrock transactions</li>
+<li>Sequencer maintains funds to pay for blockchain transactions</li>
 </ol>
-<h3 id="lssaindexer"><code>lssa:indexer</code><a aria-hidden="true" tabindex="-1" href="#lssaindexer" class="internal"> §</a></h3>
-<ol start="28">
-<li>Indexer follows LSSA channel in bedrock</li>
+<h3 id="lezindexer"><code>lez:indexer</code><a aria-hidden="true" tabindex="-1" href="#lezindexer" class="internal"> §</a></h3>
+<ol start="26">
+<li>Indexer follows LEZ channel in blockchain</li>
 <li>Indexer validates messages in the channel, skips invalid messages</li>
 <li>Indexer parses messages as blocks and applies blocks to local state</li>
 <li>Indexer maintains state history</li>
-<li>Indexer provides RPC endpoints for querying LSSA state</li>
+<li>Indexer provides RPC endpoints for querying LEZ state</li>
 </ol>
-<h3 id="lssaprogram-interface"><code>lssa:program-interface</code><a aria-hidden="true" tabindex="-1" href="#lssaprogram-interface" class="internal"> §</a></h3>
-<ol start="33">
+<h3 id="lezprogram-interface"><code>lez:program-interface</code><a aria-hidden="true" tabindex="-1" href="#lezprogram-interface" class="internal"> §</a></h3>
+<ol start="31">
 <li>Programs have defined interface exposing input/output accounts and contextual information (block number, random oracle, etc.)</li>
 </ol>
-<h3 id="lssacross-program-calls"><code>lssa:cross-program-calls</code><a aria-hidden="true" tabindex="-1" href="#lssacross-program-calls" class="internal"> §</a></h3>
-<ol start="34">
-<li>Programs can call other programs deployed on LSSA</li>
+<h3 id="lezcross-program-calls"><code>lez:cross-program-calls</code><a aria-hidden="true" tabindex="-1" href="#lezcross-program-calls" class="internal"> §</a></h3>
+<ol start="32">
+<li>Programs can call other programs deployed on LEZ</li>
 </ol>
-<h3 id="lssabridging"><code>lssa:bridging</code><a aria-hidden="true" tabindex="-1" href="#lssabridging" class="internal"> §</a></h3>
-<ol start="35">
+<h3 id="lezbridging"><code>lez:bridging</code><a aria-hidden="true" tabindex="-1" href="#lezbridging" class="internal"> §</a></h3>
+<ol start="33">
 <li>Channel Balance management</li>
 <li>Sequencer signing on withdrawal</li>
-<li>User deposits from L1 to LSSA</li>
+<li>User deposits from Blockchain to LEZ</li>
 </ol>
 <h1 id="usability">Usability<a aria-hidden="true" tabindex="-1" href="#usability" class="internal"> §</a></h1>
-<h2 id="bedrock-1"><code>bedrock</code><a aria-hidden="true" tabindex="-1" href="#bedrock-1" class="internal"> §</a></h2>
+<h2 id="blockchain-1"><code>blockchain</code><a aria-hidden="true" tabindex="-1" href="#blockchain-1" class="internal"> §</a></h2>
 <ol>
 <li>Blockchain node will be accessible through Logos-Core</li>
 <li>Blockchain configuration will be done through Logos-Core</li>
 <li>Blockchain will finalize transactions within 18hrs</li>
 <li>Logos Core Blockchain Wallet integration</li>
-<li>Ability to select which bedrock services are configured in a bedrock node</li>
+<li>Ability to select which blockchain services are configured in a blockchain node</li>
 </ol>
-<h2 id="lssa-1"><code>lssa</code><a aria-hidden="true" tabindex="-1" href="#lssa-1" class="internal"> §</a></h2>
+<h2 id="lez-1"><code>lez</code><a aria-hidden="true" tabindex="-1" href="#lez-1" class="internal"> §</a></h2>
 <ol start="6">
-<li>LSSA Programs are RISCV binaries, allowing developers to program in high level languages like Rust that compile down to RISCV</li>
-<li>The same LSSA Programs can be used in both private and public execution contexts</li>
-<li>Logos Core integration for LSSA Wallet</li>
+<li>LEZ Programs are RISCV binaries, allowing developers to program in high level languages like Rust that compile down to RISCV</li>
+<li>The same LEZ Programs can be used in both private and public execution contexts</li>
+<li>Logos Core integration for LEZ Wallet</li>
 <li>Ability to run a sequencer through Logos Core</li>
-<li>Users can interact with LSSA through a wallet</li>
-<li>Block Explorer displays LSSA blocks and transactions</li>
-<li>Logos Core Module for LSSA operations</li>
+<li>Users can interact with LEZ through a wallet</li>
+<li>Block Explorer displays LEZ blocks and transactions</li>
+<li>Logos Core Module for LEZ operations</li>
 </ol>
 <h1 id="reliability">Reliability<a aria-hidden="true" tabindex="-1" href="#reliability" class="internal"> §</a></h1>
-<h2 id="bedrock-2"><code>bedrock</code><a aria-hidden="true" tabindex="-1" href="#bedrock-2" class="internal"> §</a></h2>
+<h2 id="blockchain-2"><code>blockchain</code><a aria-hidden="true" tabindex="-1" href="#blockchain-2" class="internal"> §</a></h2>
 <ol>
 <li>Blockchain prioritizes liveness over safety ensuring we are resilient to large network failures</li>
 <li>Blockchain provides 18hrs for failures to resolve before the chain may split requiring manual intervention</li>
 <li>Data posted to DA will be available for at least 2 sessions (session length to be determined)</li>
 </ol>
-<h2 id="lssa-2"><code>lssa</code><a aria-hidden="true" tabindex="-1" href="#lssa-2" class="internal"> §</a></h2>
+<h2 id="lez-2"><code>lez</code><a aria-hidden="true" tabindex="-1" href="#lez-2" class="internal"> §</a></h2>
 <ol start="4">
-<li>LSSA Sequencer supports decentralized sequencing through Blockchain enforced sequencer coordination, ensuring crash tolerance</li>
+<li>LEZ Sequencer supports decentralized sequencing through Blockchain enforced sequencer coordination, ensuring crash tolerance</li>
 <li>Crash tolerance through persisting state to disk</li>
 <li>Sequencer passes stress testing</li>
 </ol>
 <h1 id="performance">Performance<a aria-hidden="true" tabindex="-1" href="#performance" class="internal"> §</a></h1>
-<h2 id="bedrock-3"><code>bedrock</code><a aria-hidden="true" tabindex="-1" href="#bedrock-3" class="internal"> §</a></h2>
+<h2 id="blockchain-3"><code>blockchain</code><a aria-hidden="true" tabindex="-1" href="#blockchain-3" class="internal"> §</a></h2>
 <ol>
 <li>Blockchain finalizes transactions in 18hrs</li>
 <li>Practical finality can be achieved much sooner</li>
 <li>Blocks are produced on average every 30s</li>
 <li>Blend network manageable on low bandwidth network links</li>
 </ol>
-<h2 id="lssa-3"><code>lssa</code><a aria-hidden="true" tabindex="-1" href="#lssa-3" class="internal"> §</a></h2>
+<h2 id="lez-3"><code>lez</code><a aria-hidden="true" tabindex="-1" href="#lez-3" class="internal"> §</a></h2>
 <ol start="5">
 <li>Transaction throughput targets (TBD)</li>
 <li>Proof generation time targets (TBD)</li>
 </ol>
 <h1 id="supportability">Supportability<a aria-hidden="true" tabindex="-1" href="#supportability" class="internal"> §</a></h1>
-<h2 id="lssa-4"><code>lssa</code><a aria-hidden="true" tabindex="-1" href="#lssa-4" class="internal"> §</a></h2>
+<h2 id="lez-4"><code>lez</code><a aria-hidden="true" tabindex="-1" href="#lez-4" class="internal"> §</a></h2>
 <ol>
-<li>Developer tooling to support LSSA program development</li>
+<li>Developer tooling to support LEZ program development</li>
 <li>Documentation ready for external contributors</li>
 </ol></p></article><p>0 items under this folder.</p><div><ul class="section-ul"></ul></div></div></div><div class="right sidebar"></div></div><footer class><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a>, © 2026</p><ul><li><a href="https://github.com/logos-co/roadmap">GitHub</a></li><li><a href="https://discord.com/invite/logosnetwork">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
 function toggleCallout() {

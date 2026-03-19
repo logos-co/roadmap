@@ -153,61 +153,82 @@
     <lastmod>2025-05-20T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/blockchain/furps/</loc>
-    <lastmod>2026-03-02T07:03:52.136Z</lastmod>
+    <lastmod>2026-03-19T06:33:16.549Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/blockchain/</loc>
     <lastmod>2025-12-11T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/blockchain/roadmap/areon_finality</loc>
-    <lastmod>2026-03-02T07:03:52.136Z</lastmod>
+    <lastmod>2026-03-19T06:33:16.549Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/blockchain/roadmap/blend_broadcaster_censorship</loc>
-    <lastmod>2026-03-02T07:03:52.136Z</lastmod>
+    <lastmod>2026-03-19T06:33:16.549Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/blockchain/roadmap/blend_edge_node_privacy</loc>
-    <lastmod>2026-03-02T07:03:52.136Z</lastmod>
+    <lastmod>2026-03-19T06:33:16.549Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/blockchain/roadmap/blend_message_compression</loc>
     <lastmod>2026-03-02T07:03:52.136Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/blockchain/roadmap/blockchain_blend</loc>
-    <lastmod>2026-03-02T07:03:52.136Z</lastmod>
+    <lastmod>2026-03-19T06:33:16.549Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/blockchain/roadmap/blockchain_cryptarchia</loc>
-    <lastmod>2026-03-02T07:03:52.136Z</lastmod>
+    <lastmod>2026-03-19T06:33:16.549Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/blockchain/roadmap/blockchain_logos_core</loc>
-    <lastmod>2026-03-02T07:03:52.136Z</lastmod>
+    <lastmod>2026-03-19T06:33:16.549Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/blockchain/roadmap/blockchain_sdp</loc>
-    <lastmod>2026-03-02T07:03:52.136Z</lastmod>
+    <lastmod>2026-03-19T06:33:16.549Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/blockchain/roadmap/blockchain_wallet</loc>
-    <lastmod>2026-03-02T07:03:52.136Z</lastmod>
+    <lastmod>2026-03-19T06:33:16.549Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/blockchain/roadmap/bridging</loc>
-    <lastmod>2026-03-02T07:03:52.136Z</lastmod>
+    <lastmod>2026-03-19T06:33:16.549Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/blockchain/roadmap/cross_sovereign_rollup_messaging</loc>
-    <lastmod>2026-03-02T07:03:52.136Z</lastmod>
+    <loc>https://roadmap.logos.co/blockchain/roadmap/cross_sovereign_zone_messaging</loc>
+    <lastmod>2026-03-19T06:33:16.549Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/blockchain/roadmap/cryptarchia_stake_inference</loc>
-    <lastmod>2026-03-02T07:03:52.136Z</lastmod>
+    <lastmod>2026-03-19T06:33:16.549Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/blockchain/roadmap/cryptareon</loc>
-    <lastmod>2026-03-02T07:03:52.136Z</lastmod>
+    <lastmod>2026-03-19T06:33:16.549Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/blockchain/roadmap/crypto_audit</loc>
     <lastmod>2026-03-02T07:03:52.136Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/blockchain/roadmap/decentralized_block_building</loc>
-    <lastmod>2026-03-02T07:03:52.136Z</lastmod>
+    <lastmod>2026-03-19T06:33:16.549Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/blockchain/roadmap/decentralized_sequencing</loc>
-    <lastmod>2026-03-02T07:03:52.136Z</lastmod>
+    <lastmod>2026-03-19T06:33:16.549Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/blockchain/roadmap/</loc>
-    <lastmod>2026-03-02T07:03:52.136Z</lastmod>
+    <lastmod>2026-03-19T06:33:16.549Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/blockchain/roadmap/lez_cross_program_calls</loc>
+    <lastmod>2026-03-19T06:33:16.549Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/blockchain/roadmap/lez_logos_core</loc>
+    <lastmod>2026-03-19T06:33:16.549Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/blockchain/roadmap/lez_program_interface</loc>
+    <lastmod>2026-03-19T06:33:16.549Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/blockchain/roadmap/lez_resilience</loc>
+    <lastmod>2026-03-19T06:33:16.549Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/blockchain/roadmap/lez_sovereign_zone</loc>
+    <lastmod>2026-03-19T06:33:16.549Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/blockchain/roadmap/lez_state_contention</loc>
+    <lastmod>2026-03-19T06:33:16.549Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/blockchain/roadmap/lez_unify_execution</loc>
+    <lastmod>2026-03-19T06:33:16.549Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/blockchain/roadmap/logosda_bandwidth_efficient</loc>
     <lastmod>2026-03-02T07:03:52.136Z</lastmod>
@@ -218,29 +239,8 @@
     <loc>https://roadmap.logos.co/blockchain/roadmap/logosda_resilient_sampling</loc>
     <lastmod>2026-03-02T07:03:52.136Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/blockchain/roadmap/lssa_cross_program_calls</loc>
-    <lastmod>2026-03-02T07:03:52.136Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/blockchain/roadmap/lssa_logos_core</loc>
-    <lastmod>2026-03-02T07:03:52.136Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/blockchain/roadmap/lssa_program_interface</loc>
-    <lastmod>2026-03-02T07:03:52.136Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/blockchain/roadmap/lssa_resilience</loc>
-    <lastmod>2026-03-02T07:03:52.136Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/blockchain/roadmap/lssa_sovereign_rollup</loc>
-    <lastmod>2026-03-02T07:03:52.136Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/blockchain/roadmap/lssa_state_contention</loc>
-    <lastmod>2026-03-02T07:03:52.136Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/blockchain/roadmap/lssa_unify_execution</loc>
-    <lastmod>2026-03-02T07:03:52.136Z</lastmod>
-  </url><url>
     <loc>https://roadmap.logos.co/blockchain/roadmap/testing_framework</loc>
-    <lastmod>2026-03-02T07:03:52.136Z</lastmod>
+    <lastmod>2026-03-19T06:33:16.549Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/blockchain/roadmap/zones_design</loc>
     <lastmod>2026-03-02T07:03:52.136Z</lastmod>
@@ -636,7 +636,7 @@
     <lastmod>2024-04-15T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/blockchain/updates/</loc>
-    <lastmod>2026-03-02T07:03:52.140Z</lastmod>
+    <lastmod>2026-03-19T06:33:16.549Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/combined_roadmap</loc>
     <lastmod>2026-03-02T07:03:52.140Z</lastmod>
