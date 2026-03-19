@@ -8,6 +8,7 @@
 ## Risks
 
 - Security of bridge is critical - must handle malicious sequencer scenarios
+- Handling finality of user deposits is complex; if not handled correctly, unfinalized deposits could be reverted on the blockchain without the corresponding LEZ-side mint being reverted
 
 ## Deliverables
 
