@@ -27,7 +27,11 @@ Logos Blockchain is working towards the following milestones
 - [ ] [LEZ Bridging](./lez_bridging.md)
 - [ ] [Blockchain Decentralized Sequencing](./blockchain_decentralized_sequencing.md)
 - [ ] [LEZ Block Context](./lez_block_context.md)
-- [ ] [Blockchain SDP Rewards](./blockchain_sdp_rewards.md)
+- [ ] [Blockchain Tokenomics](./blockchain_tokenomics.md)
+- [ ] [Blockchain Explorer App](./blockchain_explorer.md)
+- [ ] [LEZ Explorer App](./lez_explorer.md)
+- [ ] [LEZ Indexer Module](./lez_indexer_module.md)
+- [ ] [LEZ Private Transfers](./lez_private_transfers.md)
 
 ### Testnet v0.3 Milestones
 
