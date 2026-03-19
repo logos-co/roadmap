@@ -12,8 +12,8 @@ Logos Blockchain is working towards the following milestones
 ### Testnet v0.1 Milestones
 
 - [x] [LEZ Running as a Sovereign Zone](./lez_sovereign_zone.md)
-- [ ] [LEZ Resilience](./lez_resilience.md)
-- [ ] [LEZ Program Interface](./lez_program_interface.md)
+- [x] [LEZ Resilience](./lez_resilience.md)
+- [x] [LEZ Program Interface](./lez_program_interface.md)
 - [ ] [LEZ Logos Core Integration](./lez_logos_core.md)
 - [ ] [Blockchain Logos Core Integration](./blockchain_logos_core.md)
 - [ ] [Blockchain SDP Implementation](./blockchain_sdp.md)
@@ -26,6 +26,7 @@ Logos Blockchain is working towards the following milestones
 - [ ] [Bridge Logos Token Between Blockchain and LEZ](./bridging.md)
 - [ ] [LEZ Decentralized Sequencing](./decentralized_sequencing.md)
 - [ ] [LEZ Stress Testing](./lez_stress_testing.md)
+- [ ] [LEZ Block Context](./lez_block_context.md)
 
 ### Parallel Milestones
 

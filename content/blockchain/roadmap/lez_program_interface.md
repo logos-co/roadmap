@@ -26,7 +26,6 @@ Define a clear interface for LEZ programs to interact with the runtime.
 - F31. Programs have defined interface exposing input/output accounts and contextual information (block number, random oracle, etc.)
 
 **Checklist**:
-- [ ] Block context exposed to programs
-- [ ] Input account interface defined
-- [ ] Output account interface defined
-- [ ] Interface documentation complete
+- [x] Input account interface defined
+- [x] Output account interface defined
+- [x] Interface documentation complete
