@@ -1,11 +1,11 @@
-# LSSA Running as a Sovereign Rollup
+# LEZ Running as a Sovereign Zone
 
 **Estimated Delivery Date** March 2026
 
 ## Resources Required
 
 - 2.5 Engineers
-- Server for LSSA sequencer
+- Server for LEZ sequencer
 
 ## Risks
 
@@ -20,11 +20,11 @@
 
 **Feature**: [FURPS](/blockchain/furps/index.md)
 
-The LSSA Sequencer follows and publishes to Bedrock, managing the full lifecycle of sovereign rollup operations.
+The LEZ Sequencer follows and publishes to Bedrock, managing the full lifecycle of sovereign zone operations.
 
 **FURPS**:
 
-- F25. LSSA Sequencer accepts transactions from users, orders them and posts them to Logos Blockchain
+- F25. LEZ Sequencer accepts transactions from users, orders them and posts them to Logos Blockchain
 - F26. Sequencer manages pending vs. safe vs. confirmed transactions
 - F27. Sequencer maintains funds to pay for bedrock transactions
 
@@ -39,15 +39,15 @@ The LSSA Sequencer follows and publishes to Bedrock, managing the full lifecycle
 
 **Feature**: [FURPS](/blockchain/furps/index.md)
 
-The Indexer follows the LSSA channel in Bedrock and maintains local state.
+The Indexer follows the LEZ channel in Bedrock and maintains local state.
 
 **FURPS**:
 
-- F28. Indexer follows LSSA channel in bedrock
+- F28. Indexer follows LEZ channel in bedrock
 - F29. Indexer validates messages in the channel, skips invalid messages
 - F30. Indexer parses messages as blocks and applies blocks to local state
 - F31. Indexer maintains state history
-- F32. Indexer provides RPC endpoints for querying LSSA state
+- F32. Indexer provides RPC endpoints for querying LEZ state
 
 **Checklist**:
 - [ ] Channel following operational
@@ -61,11 +61,11 @@ The Indexer follows the LSSA channel in Bedrock and maintains local state.
 
 **Feature**: [FURPS](/blockchain/furps/index.md)
 
-Block Explorer connecting to Indexer for visibility into LSSA operations.
+Block Explorer connecting to Indexer for visibility into LEZ operations.
 
 **FURPS**:
 
-- U11. Block Explorer displays LSSA blocks and transactions
+- U11. Block Explorer displays LEZ blocks and transactions
 
 **Checklist**:
 - [ ] Block Explorer connected to Indexer

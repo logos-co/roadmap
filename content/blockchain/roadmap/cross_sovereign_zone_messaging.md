@@ -1,4 +1,4 @@
-# Logos Blockchain Cross-Sovereign Rollup Messaging
+# Logos Blockchain Cross-Sovereign Zone Messaging
 
 **Estimated Delivery Date** EoY 2026
 
@@ -13,21 +13,21 @@
 
 ## Deliverables
 
-### Cross-Sovereign Rollup Messaging
+### Cross-Sovereign Zone Messaging
 
 **Owner**: David Rusu
 
 **Feature**: [FURPS](/blockchain/furps/index.md)
 
-Enable messaging between Sovereign Rollups facilitated by Bedrock.
+Enable messaging between Sovereign Zones facilitated by Bedrock.
 
 **FURPS**:
 
-- F15. Cross-Sovereign Rollups messaging facilitated by Bedrock
+- F15. Cross-Sovereign Zones messaging facilitated by Bedrock
 
 **Checklist**:
 - [ ] Async messaging spec
 - [ ] Sync messaging spec
 - [ ] Bedrock implementation updated to match spec
-- [ ] cross-LSSA messaging spec
-- [ ] cross-LSSA messaging implementation
+- [ ] cross-LEZ messaging spec
+- [ ] cross-LEZ messaging implementation

@@ -1,4 +1,4 @@
-# LSSA Resolve State Contention
+# LEZ Resolve State Contention
 
 **Estimated Delivery Date** Parallel Milestone
 

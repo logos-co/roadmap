@@ -32,10 +32,10 @@ FURPS are elsewhere divided into Milestones and Deliverables, to form a roadmap.
 11. SDP enables rewarding of service participants
 12. SDP enables sybil resistance in service networks
 
-### `bedrock:sovereign-rollups`
-13. Sovereign Rollups can post their data to Bedrock channels
-14. Decentralized sequencing for Sovereign Rollups through blockchain enforced sequencer coordination
-15. Cross-Sovereign Rollups messaging facilitated by Bedrock
+### `bedrock:sovereign-zones`
+13. Sovereign Zones can post their data to Bedrock channels
+14. Decentralized sequencing for Sovereign Zones through blockchain enforced sequencer coordination
+15. Cross-Sovereign Zones messaging facilitated by Bedrock
 
 ### `bedrock:wallet`
 16. Transfer operations
@@ -51,33 +51,33 @@ FURPS are elsewhere divided into Milestones and Deliverables, to form a roadmap.
 ### `bedrock:block-building`
 23. **Distributed block building** Enabling tagging attack resistance and removing the leader as SPOF
 
-## `lssa`
+## `lez`
 
-### `lssa:programmable-privacy`
-24. LSSA supports Programmable Privacy by allowing LSSA Programs to be agnostic as to whether they are interacting with private or public accounts
+### `lez:programmable-privacy`
+24. LEZ supports Programmable Privacy by allowing LEZ Programs to be agnostic as to whether they are interacting with private or public accounts
 
-### `lssa:sequencer`
-25. LSSA Sequencer accepts transactions from users, orders them and posts them to Logos Blockchain
+### `lez:sequencer`
+25. LEZ Sequencer accepts transactions from users, orders them and posts them to Logos Blockchain
 26. Sequencer manages pending vs. safe vs. confirmed transactions
 27. Sequencer maintains funds to pay for bedrock transactions
 
-### `lssa:indexer`
-28. Indexer follows LSSA channel in bedrock
+### `lez:indexer`
+28. Indexer follows LEZ channel in bedrock
 29. Indexer validates messages in the channel, skips invalid messages
 30. Indexer parses messages as blocks and applies blocks to local state
 31. Indexer maintains state history
-32. Indexer provides RPC endpoints for querying LSSA state
+32. Indexer provides RPC endpoints for querying LEZ state
 
-### `lssa:program-interface`
+### `lez:program-interface`
 33. Programs have defined interface exposing input/output accounts and contextual information (block number, random oracle, etc.)
 
-### `lssa:cross-program-calls`
-34. Programs can call other programs deployed on LSSA
+### `lez:cross-program-calls`
+34. Programs can call other programs deployed on LEZ
 
-### `lssa:bridging`
+### `lez:bridging`
 35. Channel Balance management
 36. Sequencer signing on withdrawal
-37. User deposits from L1 to LSSA
+37. User deposits from L1 to LEZ
 
 # Usability
 
@@ -88,14 +88,14 @@ FURPS are elsewhere divided into Milestones and Deliverables, to form a roadmap.
 4. Logos Core Blockchain Wallet integration
 5. Ability to select which bedrock services are configured in a bedrock node
 
-## `lssa`
-6. LSSA Programs are RISCV binaries, allowing developers to program in high level languages like Rust that compile down to RISCV
-7. The same LSSA Programs can be used in both private and public execution contexts
-8. Logos Core integration for LSSA Wallet
+## `lez`
+6. LEZ Programs are RISCV binaries, allowing developers to program in high level languages like Rust that compile down to RISCV
+7. The same LEZ Programs can be used in both private and public execution contexts
+8. Logos Core integration for LEZ Wallet
 9. Ability to run a sequencer through Logos Core
-10. Users can interact with LSSA through a wallet
-11. Block Explorer displays LSSA blocks and transactions
-12. Logos Core Module for LSSA operations
+10. Users can interact with LEZ through a wallet
+11. Block Explorer displays LEZ blocks and transactions
+12. Logos Core Module for LEZ operations
 
 # Reliability
 
@@ -104,8 +104,8 @@ FURPS are elsewhere divided into Milestones and Deliverables, to form a roadmap.
 2. Blockchain provides 18hrs for failures to resolve before the chain may split requiring manual intervention
 3. Data posted to DA will be available for at least 2 sessions (session length to be determined)
 
-## `lssa`
-4. LSSA Sequencer supports decentralized sequencing through Blockchain enforced sequencer coordination, ensuring crash tolerance
+## `lez`
+4. LEZ Sequencer supports decentralized sequencing through Blockchain enforced sequencer coordination, ensuring crash tolerance
 5. Crash tolerance through persisting state to disk
 6. Sequencer passes stress testing
 
@@ -117,12 +117,12 @@ FURPS are elsewhere divided into Milestones and Deliverables, to form a roadmap.
 3. Blocks are produced on average every 30s
 4. Blend network manageable on low bandwidth network links
 
-## `lssa`
+## `lez`
 5. Transaction throughput targets (TBD)
 6. Proof generation time targets (TBD)
 
 # Supportability
 
-## `lssa`
-1. Developer tooling to support LSSA program development
+## `lez`
+1. Developer tooling to support LEZ program development
 2. Documentation ready for external contributors

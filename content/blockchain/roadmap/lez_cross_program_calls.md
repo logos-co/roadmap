@@ -1,4 +1,4 @@
-# LSSA Cross Program Calls
+# LEZ Cross Program Calls
 
 **Estimated Delivery Date** Parallel Milestone
 
@@ -19,11 +19,11 @@
 
 **Feature**: [FURPS](/blockchain/furps/index.md)
 
-Enable programs to call other programs within LSSA.
+Enable programs to call other programs within LEZ.
 
 **FURPS**:
 
-- F34. Programs can call other programs deployed on LSSA
+- F34. Programs can call other programs deployed on LEZ
 
 **Checklist**:
 - [ ] Cross-program call mechanism specification

@@ -1,4 +1,4 @@
-# LSSA Logos Core Integration
+# LEZ Logos Core Integration
 
 **Estimated Delivery Date** March 2026
 
@@ -19,12 +19,12 @@
 
 **Feature**: [FURPS](/blockchain/furps/index.md)
 
-Integrate LSSA wallet and sequencer operations with Logos Core.
+Integrate LEZ wallet and sequencer operations with Logos Core.
 
 **FURPS**:
 
-- U8. Logos Core integration for LSSA Wallet
-- U12. Logos Core Module for LSSA operations
+- U8. Logos Core integration for LEZ Wallet
+- U12. Logos Core Module for LEZ operations
 
 **Checklist**:
 - [ ] C API defined and implemented
