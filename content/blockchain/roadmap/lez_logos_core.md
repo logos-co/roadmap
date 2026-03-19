@@ -1,7 +1,5 @@
 # LEZ Logos Core Integration
 
-**Estimated Delivery Date** March 2026
-
 ## Resources Required
 
 - 1 Engineer

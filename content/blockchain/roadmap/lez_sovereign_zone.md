@@ -1,7 +1,5 @@
 # LEZ Running as a Sovereign Zone
 
-**Estimated Delivery Date** March 2026
-
 ## Resources Required
 
 - 2.5 Engineers

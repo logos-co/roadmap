@@ -1,7 +1,5 @@
 # Blockchain Blend Edge Node Privacy
 
-**Estimated Delivery Date** EoY 2026
-
 ## Resources Required
 
 - 1 Researcher (MP)

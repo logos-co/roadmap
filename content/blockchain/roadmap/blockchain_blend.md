@@ -1,7 +1,5 @@
 # Blockchain Blend Implementation
 
-**Estimated Delivery Date** March 2026
-
 ## Resources Required
 
 - 3 Engineers

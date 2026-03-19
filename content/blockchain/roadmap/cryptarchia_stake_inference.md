@@ -1,7 +1,5 @@
 # Blockchain Cryptarchia Accurate Total Stake Inference
 
-**Estimated Delivery Date** June 2026
-
 ## Resources Required
 
 - 2 Researchers

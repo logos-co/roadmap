@@ -1,7 +1,5 @@
 # Blockchain Testing Framework
 
-**Estimated Delivery Date** June 2026
-
 ## Resources Required
 
 - 1 Engineer

@@ -1,7 +1,5 @@
 # Logos Blockchain Cross-Sovereign Zone Messaging
 
-**Estimated Delivery Date** EoY 2026
-
 ## Resources Required
 
 - 2 Researchers

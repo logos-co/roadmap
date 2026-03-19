@@ -1,7 +1,5 @@
 # Logos Blockchain Decentralized Sequencing
 
-**Estimated Delivery Date** June 2026
-
 ## Resources Required
 - blockchain:research: 2 CC's
 - blockchain:engineering: 2 CC's

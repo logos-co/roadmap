@@ -1,7 +1,5 @@
 # Blockchain Cryptarchia Implementation
 
-**Estimated Delivery Date** March 2026
-
 ## Resources Required
 
 - 2 Engineers

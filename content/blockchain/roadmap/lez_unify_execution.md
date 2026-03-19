@@ -1,7 +1,5 @@
 # LEZ Unify Private / Public Execution
 
-**Estimated Delivery Date** Parallel Milestone
-
 ## Resources Required
 
 - 1 Engineer

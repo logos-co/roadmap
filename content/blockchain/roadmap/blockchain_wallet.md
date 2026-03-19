@@ -1,7 +1,5 @@
 # Blockchain Wallet Implementation
 
-**Estimated Delivery Date** March 2026
-
 ## Resources Required
 
 - 1 Engineer

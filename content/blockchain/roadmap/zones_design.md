@@ -1,7 +1,5 @@
 # Zones Design
 
-**Estimated Delivery Date** EoY 2026
-
 ## Resources Required
 
 - 3 Researchers
