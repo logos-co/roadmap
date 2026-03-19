@@ -1,4 +1,4 @@
 ---
-title: Nomos Weekly Updates
+title: Logos Blockchain Weekly Updates
 ---
-These are all the Nomos weekly updates that are reported to Logos Insight team.
+These are all the weekly blockchain updates that are reported to Logos Insight team.
