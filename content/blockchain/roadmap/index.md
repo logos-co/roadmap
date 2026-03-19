@@ -19,6 +19,7 @@ Logos Blockchain is working towards the following milestones
 - [x] [Blockchain SDP Implementation](./blockchain_sdp.md)
 - [x] [Blockchain Cryptarchia Implementation](./blockchain_cryptarchia.md)
 - [x] [Blockchain Wallet Implementation](./blockchain_wallet.md)
+- [x] [Blockchain Testing Framework](./testing_framework.md)
 
 ### Testnet v0.2 Milestones
 
@@ -32,28 +33,26 @@ Logos Blockchain is working towards the following milestones
 - [ ] [LEZ Explorer App](./lez_explorer.md)
 - [ ] [LEZ Indexer Module](./lez_indexer_module.md)
 - [ ] [LEZ Private Transfers](./lez_private_transfers.md)
+- [ ] [LEZ Cross Program Calls](./lez_cross_program_calls.md)
+- [ ] [Blockchain LogosDA Resilient Sampling](./logosda_resilient_sampling.md)
+- [ ] [Blockchain LogosDA Bandwidth Efficient DA Sampling](./logosda_bandwidth_efficient.md)
 
 ### Testnet v0.3 Milestones
 
 - [ ] [LEZ Decentralized Sequencing](./lez_decentralized_sequencing.md)
+- [ ] [Cross Sovereign Zone Messaging](./cross_sovereign_zone_messaging.md)
+- [ ] [Blockchain Blend Message Compression](./blend_message_compression.md)
+- [ ] [Blockchain Areon Finality Model](./areon_finality.md)
 
 ### Parallel Milestones
 
 - [ ] [LEZ Stress Testing](./lez_stress_testing.md)
-- [ ] [Cross Sovereign Zone Messaging](./cross_sovereign_zone_messaging.md)
-- [ ] [LEZ Unify Private / Public Execution](./lez_unify_execution.md)
-- [ ] [LEZ Cross Program Calls](./lez_cross_program_calls.md)
 - [ ] [LEZ Resolve State Contention](./lez_state_contention.md)
-- [ ] [Blockchain Blend Message Compression](./blend_message_compression.md)
 - [ ] [Blockchain Blend Broadcaster Censorship Resistance](./blend_broadcaster_censorship.md)
 - [ ] [Blockchain Blend Edge Node Privacy](./blend_edge_node_privacy.md)
-- [ ] [Blockchain Areon Finality Model](./areon_finality.md)
 - [ ] [Blockchain Cryptarchia Accurate Total Stake Inference](./cryptarchia_stake_inference.md)
-- [ ] [Blockchain Testing Framework](./testing_framework.md)
 - [ ] [Blockchain Cryptareon](./cryptareon.md)
 - [ ] [Blockchain Decentralized Block Building](./decentralized_block_building.md)
-- [ ] [Blockchain LogosDA Resilient Sampling](./logosda_resilient_sampling.md)
-- [ ] [Blockchain LogosDA Bandwidth Efficient DA Sampling](./logosda_bandwidth_efficient.md)
 - [ ] [Blockchain LogosDA Private DA](./logosda_private_da.md)
-- [ ] [Zones Design](./zones_design.md)
 - [ ] [Crypto Audit](./crypto_audit.md)
+- [ ] [Native Zone](./native_zone.md)
