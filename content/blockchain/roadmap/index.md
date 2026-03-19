@@ -9,7 +9,7 @@ tags:
 
 Logos Blockchain is working towards the following milestones
 
-### March Testnet Milestones
+### Testnet v0.1 Milestones
 
 - [LSSA Running as a Sovereign Rollup](./lssa_sovereign_rollup.md)
 - [LSSA Resilience](./lssa_resilience.md)
@@ -21,7 +21,7 @@ Logos Blockchain is working towards the following milestones
 - [Blockchain Blend Implementation](./blockchain_blend.md)
 - [Blockchain Wallet Implementation](./blockchain_wallet.md)
 
-### June Testnet Milestones
+### Testnet v0.2 Milestones
 
 - [Bridge Logos Token Between L1 and LSSA](./bridging.md)
 - [LSSA Decentralized Sequencing](./decentralized_sequencing.md)
