@@ -17,11 +17,11 @@
 
 **Feature**: [FURPS](/blockchain/furps/index.md)
 
-Further compression of blocks in Blend network through use of partial transaction hashes. For example, instead of providing full transaction hashes, we can give a prefix of the hash together with the block root hash. Prefix collisions can be disambiguated using the block root.
+Further compression of blocks in Blend Network through use of partial transaction hashes. For example, instead of providing full transaction hashes, we can give a prefix of the hash together with the block root hash. Prefix collisions can be disambiguated using the block root.
 
 **FURPS**:
 
-- P4. Blend network manageable on low bandwidth network links
+- P4. Blend Network manageable on low bandwidth network links
 
 **Checklist**:
 - [ ] Compression algorithm designed
