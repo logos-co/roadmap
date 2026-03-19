@@ -20,7 +20,7 @@ Logos Messaging is working towards these features, required to be implemented fo
 	- Uses Logos Chat for 1:1 and group chats
 	- Integration of Logos Chat and Delivery is done using Logos Core
 
-# Milestones
+## Milestones
 
 The work is split into milestones, planned to be achieved by certain release.
 
