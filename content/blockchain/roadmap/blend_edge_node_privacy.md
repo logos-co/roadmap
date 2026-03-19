@@ -24,7 +24,7 @@ Edge nodes only connect to Blend network nodes when they have block proposals, t
 
 **FURPS**:
 
-- F9. Blend edge node privacy
+- F7. Blend edge node privacy
 
 **Checklist**:
 - [ ] Mix network integration designed

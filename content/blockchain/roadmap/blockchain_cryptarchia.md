@@ -24,8 +24,6 @@ Full Cryptarchia consensus implementation for Logos Blockchain.
 **FURPS**:
 
 - F1. Nodes can permissionlessly participate in consensus
-- F2. Nodes can join bedrock services and earn rewards
-- F3. Users can transfer funds
 
 **Checklist**:
 - [ ] Chain leader selection (sk + slot secret + PoL)

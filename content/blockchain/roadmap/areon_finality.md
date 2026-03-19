@@ -22,8 +22,8 @@ Develop probabilistic model for finality in Areon. Areon is a testing ground for
 
 **FURPS**:
 
-- F19. Probabilistic finality model analyzed
-- F20. Network latency tolerance analyzed
+- F17. Probabilistic finality model analyzed
+- F18. Network latency tolerance analyzed
 
 **Checklist**:
 - [ ] Probabilistic finality model

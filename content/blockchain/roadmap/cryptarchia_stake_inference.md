@@ -24,7 +24,7 @@ Address total stake inference underestimation by applying block reference ideas 
 
 **FURPS**:
 
-- F21. Total stake inference on Areon model
+- F19. Total stake inference on Areon model
 
 **Checklist**:
 - [ ] Current underestimation quantified

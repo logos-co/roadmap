@@ -23,7 +23,7 @@ Comprehensive testing framework to support testing scenarios and benchmarks.
 
 **FURPS**:
 
-- S1. Developer tooling to support LSSA program development
+- S1. Developer tooling to support LEZ program development
 
 **Checklist**:
 - [ ] Testing framework designed
