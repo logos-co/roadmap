@@ -14,19 +14,20 @@ Logos Blockchain is working towards the following milestones
 - [x] [LEZ Running as a Sovereign Zone](./lez_sovereign_zone.md)
 - [x] [LEZ Resilience](./lez_resilience.md)
 - [x] [LEZ Program Interface](./lez_program_interface.md)
-- [ ] [LEZ Logos Core Integration](./lez_logos_core.md)
-- [ ] [Blockchain Logos Core Integration](./blockchain_logos_core.md)
-- [ ] [Blockchain SDP Implementation](./blockchain_sdp.md)
-- [ ] [Blockchain Cryptarchia Implementation](./blockchain_cryptarchia.md)
-- [ ] [Blockchain Blend Implementation](./blockchain_blend.md)
-- [ ] [Blockchain Wallet Implementation](./blockchain_wallet.md)
+- [x] [LEZ Logos Core Integration](./lez_logos_core.md)
+- [x] [Blockchain Logos Core Integration](./blockchain_logos_core.md)
+- [x] [Blockchain SDP Implementation](./blockchain_sdp.md)
+- [x] [Blockchain Cryptarchia Implementation](./blockchain_cryptarchia.md)
+- [x] [Blockchain Wallet Implementation](./blockchain_wallet.md)
 
 ### Testnet v0.2 Milestones
 
+- [ ] [Blockchain Blend Implementation](./blockchain_blend.md)
 - [ ] [Bridge Logos Token Between Blockchain and LEZ](./bridging.md)
 - [ ] [LEZ Decentralized Sequencing](./decentralized_sequencing.md)
 - [ ] [LEZ Stress Testing](./lez_stress_testing.md)
 - [ ] [LEZ Block Context](./lez_block_context.md)
+- [ ] [Blockchain SDP Rewards](./blockchain_sdp_rewards.md)
 
 ### Parallel Milestones
 
