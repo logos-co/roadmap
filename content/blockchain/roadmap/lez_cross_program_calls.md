@@ -23,7 +23,7 @@ Enable programs to call other programs within LEZ.
 
 **FURPS**:
 
-- F34. Programs can call other programs deployed on LEZ
+- F32. Programs can call other programs deployed on LEZ
 
 **Checklist**:
 - [ ] Cross-program call mechanism specification

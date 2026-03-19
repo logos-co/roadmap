@@ -22,9 +22,9 @@ Implement the Service Declaration Protocol for membership and rewards in service
 
 **FURPS**:
 
-- F10. SDP enables membership in service networks
-- F11. SDP enables rewarding of service participants
-- F12. SDP enables sybil resistance in service networks
+- F8. Nodes can join blockchain services
+- F9. Nodes can earn rewards by participating in blockchain services
+- F10. SDP enables sybil resistance in service networks
 
 **Checklist**:
 - [ ] SDP transaction type implemented

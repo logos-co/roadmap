@@ -23,7 +23,7 @@ Unify private and public execution to ensure programs truly support programmable
 
 **FURPS**:
 
-- F24. LEZ supports Programmable Privacy by allowing LEZ Programs to be agnostic as to whether they are interacting with private or public accounts
+- F22. LEZ supports Programmable Privacy by allowing LEZ Programs to be agnostic as to whether they are interacting with private or public accounts
 - U7. The same LEZ Programs can be used in both private and public execution contexts
 
 **Checklist**:

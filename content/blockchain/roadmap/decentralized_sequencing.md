@@ -3,8 +3,8 @@
 **Estimated Delivery Date** June 2026
 
 ## Resources Required
-- bedrock:research: 2 CC's
-- bedrock:engineering: 2 CC's
+- blockchain:research: 2 CC's
+- blockchain:engineering: 2 CC's
 - zones: 2 CC's
 
 ## Risks
@@ -14,13 +14,13 @@
 
 ## Deliverables
 
-### Bedrock
+### Blockchain
 
 **Owner**: David Rusu
 
 **Feature**: [FURPS](/blockchain/furps/index.md)
 
-Most L2's depend on centralized sequencers, this is antithetical to the idea of decentralized networks. If we are to provide an L1 where the dominant programming model is through app chains, then we must ensure that we do all we can to make decentralized sequencing easy.
+Most L2's depend on centralized sequencers, this is antithetical to the idea of decentralized networks. If we are to provide a Blockchain where the dominant programming model is through app chains, then we must ensure that we do all we can to make decentralized sequencing easy.
 
 The primary goal of this feature is to achieve decentralized sequencing without forcing Sovereign Zones to run consensus. They should be able to achieve decentralized sequencing without the complexities of P2P networking and consensus protocols.
 
@@ -28,11 +28,11 @@ Instead, Sovereign Zones offload the complexity of decentralized networks to Log
 
 **FURPS**:
 
-- F14. Decentralized sequencing for Sovereign Zones through blockchain enforced sequencer coordination
+- F12. Decentralized sequencing for Sovereign Zones through blockchain enforced sequencer coordination
 
 **Checklist**:
 - [ ] Sequencers can join and leave from a Sovereign Zone
-- [ ] Bedrock enforces sequencer schedule
+- [ ] Blockchain enforces sequencer schedule
 - [ ] Decentralized Sequencing is tolerant to misbehaving sequencers
 
 ### LEZ
@@ -49,9 +49,9 @@ LEZ will be the first user of decentralized sequencing, it will need to understa
 - U9. Ability to run a sequencer through Logos Core
 
 **Checklist**:
-- [ ] Bedrock Specification updated with support for decentralized sequencing
-- [ ] Bedrock implementation updated to match spec.
-- [ ] LEZ integration with Bedrock Decentralized Sequencing model
-- [ ] Sequencers download channel messages from bedrock that were produced by fellow sequencers
+- [ ] Blockchain Specification updated with support for decentralized sequencing
+- [ ] Blockchain implementation updated to match spec.
+- [ ] LEZ integration with Blockchain Decentralized Sequencing model
+- [ ] Sequencers download channel messages from blockchain that were produced by fellow sequencers
 - [ ] Reject invalid blocks from fellow sequencers
 - [ ] Apply valid blocks from fellow sequencers

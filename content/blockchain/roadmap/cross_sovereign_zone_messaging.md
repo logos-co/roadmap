@@ -9,7 +9,7 @@
 
 ## Risks
 
-- Finalization delays in bedrock may prevent common use-cases
+- Finalization delays in blockchain may prevent common use-cases
 
 ## Deliverables
 
@@ -19,15 +19,15 @@
 
 **Feature**: [FURPS](/blockchain/furps/index.md)
 
-Enable messaging between Sovereign Zones facilitated by Bedrock.
+Enable messaging between Sovereign Zones facilitated by Blockchain.
 
 **FURPS**:
 
-- F15. Cross-Sovereign Zones messaging facilitated by Bedrock
+- F13. Cross-Sovereign Zones messaging facilitated by Blockchain
 
 **Checklist**:
 - [ ] Async messaging spec
 - [ ] Sync messaging spec
-- [ ] Bedrock implementation updated to match spec
+- [ ] Blockchain implementation updated to match spec
 - [ ] cross-LEZ messaging spec
 - [ ] cross-LEZ messaging implementation

@@ -23,7 +23,7 @@ Define a clear interface for LEZ programs to interact with the runtime.
 
 **FURPS**:
 
-- F33. Programs have defined interface exposing input/output accounts and contextual information (block number, random oracle, etc.)
+- F31. Programs have defined interface exposing input/output accounts and contextual information (block number, random oracle, etc.)
 
 **Checklist**:
 - [ ] Block context exposed to programs

@@ -20,18 +20,18 @@
 
 **Feature**: [FURPS](/blockchain/furps/index.md)
 
-The LEZ Sequencer follows and publishes to Bedrock, managing the full lifecycle of sovereign zone operations.
+The LEZ Sequencer follows and publishes to Blockchain, managing the full lifecycle of sovereign zone operations.
 
 **FURPS**:
 
-- F25. LEZ Sequencer accepts transactions from users, orders them and posts them to Logos Blockchain
-- F26. Sequencer manages pending vs. safe vs. confirmed transactions
-- F27. Sequencer maintains funds to pay for bedrock transactions
+- F23. LEZ Sequencer accepts transactions from users, orders them and posts them to Logos Blockchain
+- F24. Sequencer manages pending vs. safe vs. confirmed transactions
+- F25. Sequencer maintains funds to pay for blockchain transactions
 
 **Checklist**:
-- [ ] Sequencer publishes blocks to Bedrock
+- [ ] Sequencer publishes blocks to Blockchain
 - [ ] Transaction lifecycle management (pending/safe/confirmed)
-- [ ] Automatic funding management for bedrock transactions
+- [ ] Automatic funding management for blockchain transactions
 
 ### Indexer
 
@@ -39,15 +39,15 @@ The LEZ Sequencer follows and publishes to Bedrock, managing the full lifecycle 
 
 **Feature**: [FURPS](/blockchain/furps/index.md)
 
-The Indexer follows the LEZ channel in Bedrock and maintains local state.
+The Indexer follows the LEZ channel in Blockchain and maintains local state.
 
 **FURPS**:
 
-- F28. Indexer follows LEZ channel in bedrock
-- F29. Indexer validates messages in the channel, skips invalid messages
-- F30. Indexer parses messages as blocks and applies blocks to local state
-- F31. Indexer maintains state history
-- F32. Indexer provides RPC endpoints for querying LEZ state
+- F26. Indexer follows LEZ channel in blockchain
+- F27. Indexer validates messages in the channel, skips invalid messages
+- F28. Indexer parses messages as blocks and applies blocks to local state
+- F29. Indexer maintains state history
+- F30. Indexer provides RPC endpoints for querying LEZ state
 
 **Checklist**:
 - [ ] Channel following operational

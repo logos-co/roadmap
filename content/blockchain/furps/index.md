@@ -12,81 +12,77 @@ FURPS are elsewhere divided into Milestones and Deliverables, to form a roadmap.
 
 # Functionality
 
-## `bedrock`
+## `blockchain`
 
-### `bedrock:blockchain`
+### `blockchain:ppos` (Private Proof of Stake)
 1. Nodes can permissionlessly participate in consensus
-2. Nodes can join bedrock services and earn rewards
-3. Users can transfer funds
+2. Leaders can propose blocks privately
+3. Leaders can claim block rewards without revealing their block proposal
+4. Blend spam protection
+5. Block proposal redundancy
+6. Censorship resistance against malicious broadcasters
+7. Blend edge node privacy
 
-### `bedrock:ppos` (Private Proof of Stake)
-4. Leaders can propose blocks privately
-5. Leaders can claim block rewards without revealing their block proposal
-6. Blend spam protection
-7. Block proposal redundancy
-8. Censorship resistance against malicious broadcasters
-9. Blend edge node privacy
+### `blockchain:sdp` (Service Declaration Protocol)
+8. Nodes can join blockchain services
+9. Nodes can earn rewards by participating in blockchain services
+10. SDP enables sybil resistance in service networks
 
-### `bedrock:sdp` (Service Declaration Protocol)
-10. SDP enables membership in service networks
-11. SDP enables rewarding of service participants
-12. SDP enables sybil resistance in service networks
+### `blockchain:sovereign-zones`
+11. Sovereign Zones can post their data to Blockchain channels
+12. Decentralized sequencing for Sovereign Zones through blockchain enforced sequencer coordination
+13. Cross-Sovereign Zones messaging facilitated by Blockchain
 
-### `bedrock:sovereign-zones`
-13. Sovereign Zones can post their data to Bedrock channels
-14. Decentralized sequencing for Sovereign Zones through blockchain enforced sequencer coordination
-15. Cross-Sovereign Zones messaging facilitated by Bedrock
+### `blockchain:wallet`
+14. Transfer operations
+15. Inscription operations
+16. SDP operations
 
-### `bedrock:wallet`
-16. Transfer operations
-17. Inscription operations
-18. SDP operations
+### `blockchain:areon`
+17. Probabilistic finality model analyzed
+18. Network latency tolerance analyzed
+19. Total stake inference on Areon model
+20. Areon with Private Proof of Stake (Cryptareon)
 
-### `bedrock:areon`
-19. Probabilistic finality model analyzed
-20. Network latency tolerance analyzed
-21. Total stake inference on Areon model
-22. Areon with Private Proof of Stake (Cryptareon)
-
-### `bedrock:block-building`
-23. **Distributed block building** Enabling tagging attack resistance and removing the leader as SPOF
+### `blockchain:block-building`
+21. **Distributed block building** Enabling tagging attack resistance and removing the leader as SPOF
 
 ## `lez`
 
 ### `lez:programmable-privacy`
-24. LEZ supports Programmable Privacy by allowing LEZ Programs to be agnostic as to whether they are interacting with private or public accounts
+22. LEZ supports Programmable Privacy by allowing LEZ Programs to be agnostic as to whether they are interacting with private or public accounts
 
 ### `lez:sequencer`
-25. LEZ Sequencer accepts transactions from users, orders them and posts them to Logos Blockchain
-26. Sequencer manages pending vs. safe vs. confirmed transactions
-27. Sequencer maintains funds to pay for bedrock transactions
+23. LEZ Sequencer accepts transactions from users, orders them and posts them to Logos Blockchain
+24. Sequencer manages pending vs. safe vs. confirmed transactions
+25. Sequencer maintains funds to pay for blockchain transactions
 
 ### `lez:indexer`
-28. Indexer follows LEZ channel in bedrock
-29. Indexer validates messages in the channel, skips invalid messages
-30. Indexer parses messages as blocks and applies blocks to local state
-31. Indexer maintains state history
-32. Indexer provides RPC endpoints for querying LEZ state
+26. Indexer follows LEZ channel in blockchain
+27. Indexer validates messages in the channel, skips invalid messages
+28. Indexer parses messages as blocks and applies blocks to local state
+29. Indexer maintains state history
+30. Indexer provides RPC endpoints for querying LEZ state
 
 ### `lez:program-interface`
-33. Programs have defined interface exposing input/output accounts and contextual information (block number, random oracle, etc.)
+31. Programs have defined interface exposing input/output accounts and contextual information (block number, random oracle, etc.)
 
 ### `lez:cross-program-calls`
-34. Programs can call other programs deployed on LEZ
+32. Programs can call other programs deployed on LEZ
 
 ### `lez:bridging`
-35. Channel Balance management
-36. Sequencer signing on withdrawal
-37. User deposits from L1 to LEZ
+33. Channel Balance management
+34. Sequencer signing on withdrawal
+35. User deposits from Blockchain to LEZ
 
 # Usability
 
-## `bedrock`
+## `blockchain`
 1. Blockchain node will be accessible through Logos-Core
 2. Blockchain configuration will be done through Logos-Core
 3. Blockchain will finalize transactions within 18hrs
 4. Logos Core Blockchain Wallet integration
-5. Ability to select which bedrock services are configured in a bedrock node
+5. Ability to select which blockchain services are configured in a blockchain node
 
 ## `lez`
 6. LEZ Programs are RISCV binaries, allowing developers to program in high level languages like Rust that compile down to RISCV
@@ -99,7 +95,7 @@ FURPS are elsewhere divided into Milestones and Deliverables, to form a roadmap.
 
 # Reliability
 
-## `bedrock`
+## `blockchain`
 1. Blockchain prioritizes liveness over safety ensuring we are resilient to large network failures
 2. Blockchain provides 18hrs for failures to resolve before the chain may split requiring manual intervention
 3. Data posted to DA will be available for at least 2 sessions (session length to be determined)
@@ -111,7 +107,7 @@ FURPS are elsewhere divided into Milestones and Deliverables, to form a roadmap.
 
 # Performance
 
-## `bedrock`
+## `blockchain`
 1. Blockchain finalizes transactions in 18hrs
 2. Practical finality can be achieved much sooner
 3. Blocks are produced on average every 30s

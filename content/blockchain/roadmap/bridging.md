@@ -1,4 +1,4 @@
-# Bridge Logos Token Between L1 and LEZ
+# Bridge Logos Token Between Blockchain and LEZ
 
 **Estimated Delivery Date** June 2026
 
@@ -19,16 +19,16 @@
 
 **Feature**: [FURPS](/blockchain/furps/index.md)
 
-Enable bridging of Logos tokens between L1 (Bedrock) and LEZ.
+Enable bridging of Logos tokens between Blockchain and LEZ.
 
 **FURPS**:
 
-- F35. Channel Balance management
-- F36. Sequencer signing on withdrawal
-- F37. User deposits from L1 to LEZ
+- F33. Channel Balance management
+- F34. Sequencer signing on withdrawal
+- F35. User deposits from Blockchain to LEZ
 
 **Checklist**:
 - [ ] Channel balance protocol
-- [ ] Deposit functionality (L1 to LEZ)
-- [ ] Withdrawal functionality (LEZ to L1)
+- [ ] Deposit functionality (Blockchain to LEZ)
+- [ ] Withdrawal functionality (LEZ to Blockchain)
 - [ ] Sequencer withdrawal signing

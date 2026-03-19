@@ -23,7 +23,7 @@ Logos Blockchain is working towards the following milestones
 
 ### Testnet v0.2 Milestones
 
-- [Bridge Logos Token Between L1 and LEZ](./bridging.md)
+- [Bridge Logos Token Between Blockchain and LEZ](./bridging.md)
 - [LEZ Decentralized Sequencing](./decentralized_sequencing.md)
 
 ### Parallel Milestones
