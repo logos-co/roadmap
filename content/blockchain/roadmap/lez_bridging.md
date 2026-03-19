@@ -1,9 +1,9 @@
-# Bridge Logos Token Between Blockchain and LEZ
+# LEZ Bridging
 
 ## Resources Required
 
-- 2 Researchers
-- 2 Engineers
+- 1 Researcher
+- 1 Engineer
 
 ## Risks
 
@@ -11,13 +11,13 @@
 
 ## Deliverables
 
-### Bridge Protocol
+### LEZ Bridging
 
 **Owner**: David Rusu
 
 **Feature**: [FURPS](/blockchain/furps/index.md)
 
-Enable bridging of Logos tokens between Blockchain and LEZ.
+Add bridging support to LEZ utilizing the Zone SDK, enabling deposit and withdrawal of Logos tokens between the blockchain and LEZ.
 
 **FURPS**:
 
@@ -26,7 +26,6 @@ Enable bridging of Logos tokens between Blockchain and LEZ.
 - F35. User deposits from Blockchain to LEZ
 
 **Checklist**:
-- [ ] Channel balance protocol
 - [ ] Deposit functionality (Blockchain to LEZ)
 - [ ] Withdrawal functionality (LEZ to Blockchain)
 - [ ] Sequencer withdrawal signing
