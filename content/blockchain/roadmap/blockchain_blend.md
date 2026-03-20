@@ -23,10 +23,10 @@ Complete Blend network implementation supporting private block proposals.
 
 **FURPS**:
 
-- F4. Leaders can propose blocks privately
-- F6. Blend spam protection
-- F7. Block proposal redundancy
-- F8. Censorship resistance against malicious broadcasters
+- F2. Leaders can propose blocks privately
+- F4. Blend spam protection
+- F5. Block proposal redundancy
+- F6. Censorship resistance against malicious broadcasters
 
 **Checklist**:
 - [ ] Private block proposals

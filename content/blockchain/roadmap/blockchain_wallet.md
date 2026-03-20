@@ -22,9 +22,9 @@ Wallet implementation for Logos Blockchain operations.
 
 **FURPS**:
 
-- F16. Transfer operations
-- F17. Inscription operations
-- F18. SDP operations
+- F14. Transfer operations
+- F15. Inscription operations
+- F16. SDP operations
 
 **Checklist**:
 - [ ] Expose API for Transaction building

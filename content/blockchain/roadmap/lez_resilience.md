@@ -1,4 +1,4 @@
-# LSSA Resilience
+# LEZ Resilience
 
 **Estimated Delivery Date** March 2026
 
@@ -16,7 +16,7 @@
 
 **Feature**: [FURPS](/blockchain/furps/index.md)
 
-Ensure the LSSA sequencer can recover from crashes without data loss.
+Ensure the LEZ sequencer can recover from crashes without data loss.
 
 **FURPS**:
 

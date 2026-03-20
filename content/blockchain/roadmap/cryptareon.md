@@ -23,7 +23,7 @@ Make Areon use Private Proof of Stake (PPoS), creating Cryptareon.
 
 **FURPS**:
 
-- F22. Areon with Private Proof of Stake (Cryptareon)
+- F20. Areon with Private Proof of Stake (Cryptareon)
 
 **Checklist**:
 - [ ] PPoS integration with Areon designed
