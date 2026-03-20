@@ -11,7 +11,7 @@
 
 ## Deliverables
 
-### [Specifying oracle mechanism](https://github.com/logos-co/anoncomms-pm/issues/)
+### [Specifying oracle mechanism](https://github.com/logos-co/anoncomms-pm/issues/22)
 
 **Owner**: AnonComms Oracle
 
@@ -26,7 +26,7 @@
 - [ ] Specs: link to specs and/or API definition
 - [ ] Docs: links to README.md or other docs
 
-### [Implementing Oracle poc node](https://github.com/logos-co/anoncomms-pm/issues/)
+### [Implementing Oracle poc node](https://github.com/logos-co/anoncomms-pm/issues/23)
 
 **Owner**: AnonComms Oracle
 
@@ -44,7 +44,7 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### [Implementing Oracle LEZ part](https://github.com/logos-co/anoncomms-pm/issues/)
+### [Implementing Oracle LEZ part](https://github.com/logos-co/anoncomms-pm/issues/24)
 
 **Owner**: AnonComms Oracle
 
