@@ -10,7 +10,7 @@
 ## Usability
 
 1. The system design is documented in a LIP
-2. The oracle nodes is implemented in Rust
+2. The oracle nodes are implemented in Rust
 
 ## Reliability
 
