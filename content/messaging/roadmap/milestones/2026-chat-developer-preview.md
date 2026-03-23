@@ -19,7 +19,6 @@ The Developer Preview focuses on polishing the Logos Chat implementation into a 
 The focus is:
 - Stabilize and polish the API based on feedback from v0.2 Status test integration
 - Complete the full identity model
-- Replace out-of-band contact discovery with on-chain approach
 - Test and fix integration issues at scale with DST
 - Deliver user-facing features needed for a real chat experience
 
@@ -49,16 +48,6 @@ Building on the simple identity model from v0.2:
 - Device recovery mechanisms
 - Optional binding to external identity systems
 - Specification and implementation, in collaboration with AnonComms team
-
-### Implement contact discovery
-
-**Owner**: Chat Team
-
-The implementation should replace v0.1 out-of-band intro bundle sharing.
-Current agreement is to use on-chain storage.
-
-> [!WARNING] Risk
-> Requires research into whether Logos Blockchain supports the needed functionality by this timeline. Fallback is to continue with out-of-band sharing.
 
 ### Stabilize and polish API
 

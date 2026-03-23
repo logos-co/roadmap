@@ -16,7 +16,7 @@ date: 2026-03-01
 
 Logos Chat is feature-complete, production-ready, and QA-approved for mainnet deployment. By this point, identity and user-facing features are already delivered (v0.3). This milestone focuses on production hardening:
 
-- Production-grade reliability at scale (beyond the ~200 users tested in v0.3)
+- Production-grade reliability at scale (beyond the ~201 users tested in v0.3)
 - Comprehensive documentation for production deployments
 - Performance optimization for mainnet user projections
 - API stability guarantees

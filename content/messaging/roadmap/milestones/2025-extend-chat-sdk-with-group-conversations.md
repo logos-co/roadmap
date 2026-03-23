@@ -68,8 +68,16 @@ Group chat features will be limited at this stage and extended with further mile
 - A "user" is represented as a set of installations (devices)
 - Basic association between installations belonging to the same user
 - Basic key rotation: ability to add/remove installations
-- Basic device recovery mechanism
 
+### Implement contact discovery
+
+**Owner**: Chat Team
+
+The implementation should replace v0.1 out-of-band intro bundle sharing.
+Current agreement is to use on-chain storage.
+
+> [!WARNING] Risk
+> Requires research into whether Logos Blockchain supports the needed functionality by this timeline. Fallback is to continue with out-of-band sharing.
 ### Design SDS and de-MLS integration
 
 **Owner**: Chat Team
