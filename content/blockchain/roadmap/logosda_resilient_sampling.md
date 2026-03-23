@@ -1,7 +1,5 @@
 # Blockchain LogosDA Resilient Sampling
 
-**Estimated Delivery Date** March 2026
-
 ## Resources Required
 
 - 2 Researchers

@@ -1,7 +1,5 @@
 # LEZ Resolve State Contention
 
-**Estimated Delivery Date** Parallel Milestone
-
 ## Resources Required
 
 - 1 Researcher

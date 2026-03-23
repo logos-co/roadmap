@@ -1,7 +1,5 @@
 # Blockchain LogosDA Bandwidth Efficient DA Sampling
 
-**Estimated Delivery Date** June 2026
-
 ## Resources Required
 
 - 2 Researchers

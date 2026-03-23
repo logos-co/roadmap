@@ -1,7 +1,5 @@
 # Blockchain Decentralized Block Building
 
-**Estimated Delivery Date** EoY 2026
-
 ## Resources Required
 
 - 1 Researcher

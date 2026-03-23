@@ -1,7 +1,5 @@
 # Crypto Audit
 
-**Estimated Delivery Date** EoY 2026
-
 ## Resources Required
 
 - 2 Researchers
