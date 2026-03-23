@@ -753,7 +753,7 @@
     <lastmod>2024-07-22T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/furps/application/chat_sdk</loc>
-    <lastmod>2026-03-02T07:03:52.152Z</lastmod>
+    <lastmod>2026-03-23T13:44:23.287Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/furps/application/codex_archiving</loc>
     <lastmod>2026-03-02T07:03:52.152Z</lastmod>
@@ -780,7 +780,7 @@
     <lastmod>2026-03-02T07:03:52.152Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/furps/application/nim_ffi</loc>
-    <lastmod>2026-03-02T07:03:52.152Z</lastmod>
+    <lastmod>2026-03-23T13:44:23.287Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/furps/application/nwaku</loc>
     <lastmod>2026-03-02T07:03:52.152Z</lastmod>
@@ -804,7 +804,7 @@
     <lastmod>2026-03-02T07:03:52.152Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/furps/application/segmentation</loc>
-    <lastmod>2026-03-02T07:03:52.152Z</lastmod>
+    <lastmod>2026-03-23T13:44:23.291Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/furps/application/signal_network</loc>
     <lastmod>2026-03-02T07:03:52.152Z</lastmod>
@@ -825,7 +825,7 @@
     <lastmod>2026-03-02T07:03:52.152Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/furps/core/messaging_sdk</loc>
-    <lastmod>2026-03-02T07:03:52.152Z</lastmod>
+    <lastmod>2026-03-23T13:44:23.291Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/furps/core/mix</loc>
     <lastmod>2026-03-02T07:03:52.152Z</lastmod>
@@ -852,7 +852,7 @@
     <lastmod>2025-11-18T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/</loc>
-    <lastmod>2026-03-02T07:03:52.156Z</lastmod>
+    <lastmod>2026-03-23T13:44:23.291Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2023-milestones</loc>
     <lastmod>2024-03-07T00:00:00.000Z</lastmod>
@@ -903,10 +903,10 @@
     <lastmod>2026-03-02T07:03:52.156Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2025-api-access-to-p2p-reliability-for-desktop</loc>
-    <lastmod>2026-03-02T07:03:52.156Z</lastmod>
+    <lastmod>2026-03-23T13:44:23.291Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2025-create-chat-sdk-mvp</loc>
-    <lastmod>2026-03-02T07:03:52.156Z</lastmod>
+    <lastmod>2026-03-23T13:44:23.291Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2025-debugging-tools</loc>
     <lastmod>2026-03-02T07:03:52.156Z</lastmod>
@@ -918,7 +918,7 @@
     <lastmod>2026-03-02T07:03:52.156Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2025-enable-easy-c-bindings-for-desktop</loc>
-    <lastmod>2026-03-02T07:03:52.156Z</lastmod>
+    <lastmod>2026-03-23T13:44:23.291Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2025-enable-easy-c-bindings-for-mobile</loc>
     <lastmod>2026-03-02T07:03:52.156Z</lastmod>
@@ -927,7 +927,7 @@
     <lastmod>2026-03-02T07:03:52.156Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2025-extend-chat-sdk-with-group-conversations</loc>
-    <lastmod>2026-03-02T07:03:52.156Z</lastmod>
+    <lastmod>2026-03-23T13:44:23.291Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2025-formalize-and-expand-waku-web-apps</loc>
     <lastmod>2026-03-02T07:03:52.156Z</lastmod>
@@ -951,9 +951,6 @@
     <lastmod>2026-03-02T07:03:52.156Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2025-introduce-mixnet-for-message-sending</loc>
-    <lastmod>2026-03-02T07:03:52.156Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2025-messaging-api</loc>
     <lastmod>2026-03-02T07:03:52.156Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2025-messaging-chat-on-mobile</loc>
@@ -980,14 +977,35 @@
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2026-complete-reliable-channel-api</loc>
     <lastmod>2026-03-02T07:03:52.156Z</lastmod>
   </url><url>
+    <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2026-fleet-stability</loc>
+    <lastmod>2026-03-23T13:44:23.291Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2026-logos-core-integration-phase-2</loc>
+    <lastmod>2026-03-23T13:44:23.291Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2026-logos-core-integration-phase-3</loc>
+    <lastmod>2026-03-23T13:44:23.291Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2026-nimble-migration</loc>
+    <lastmod>2026-03-23T13:44:23.291Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2026-status-logos-chat-integration</loc>
+    <lastmod>2026-03-23T13:44:23.291Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2026-status-logos-delivery-integration</loc>
+    <lastmod>2026-03-23T13:44:23.291Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2026-support-mobile-platforms</loc>
+    <lastmod>2026-03-23T13:44:23.291Z</lastmod>
+  </url><url>
     <loc>https://roadmap.logos.co/messaging/templates/furps-template</loc>
     <lastmod>2026-03-02T07:03:52.156Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/templates/milestone-template</loc>
-    <lastmod>2026-03-02T07:03:52.156Z</lastmod>
+    <lastmod>2026-03-23T13:44:23.291Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/templates/weekly-update-template</loc>
-    <lastmod>2026-03-02T07:03:52.156Z</lastmod>
+    <lastmod>2026-03-23T13:44:23.291Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/updates/2023-07-24</loc>
     <lastmod>2023-08-04T00:00:00.000Z</lastmod>
