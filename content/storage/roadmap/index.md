@@ -24,12 +24,13 @@ Both are key to the Logos effort - without storage, neither applications/fronten
 ### Testnet [v0.2](v02)
 
 - Enhanced File Sharing Protocol
-- Anonymous DHT Queries
-- Anonymous Downloads
-- Large-Data Transport Layer for Mix
+- Anonymous Filesharing - Part 1:
+  - Anonymous DHT Queries
+  - Anonymous Downloads over Mix
+  - Large-Data Transport Layer for Mix
 - Improved NAT Traversal
 
 ### Testnet [v0.3](v03)
 
-- Anonymous Publishing with Hidden Services on Mix
-- Fully Anonymous File Sharing
+- Anonymous Filesharing - Part 2:
+  - Anonymous Publishing with Hidden Services over Mix
