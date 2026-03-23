@@ -1,7 +1,5 @@
 # LEZ Cross Program Calls
 
-**Estimated Delivery Date** Parallel Milestone
-
 ## Resources Required
 
 - 1 Engineer

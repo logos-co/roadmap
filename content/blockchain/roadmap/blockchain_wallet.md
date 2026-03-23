@@ -1,7 +1,5 @@
 # Blockchain Wallet Implementation
 
-**Estimated Delivery Date** March 2026
-
 ## Resources Required
 
 - 1 Engineer
@@ -27,9 +25,9 @@ Wallet implementation for Logos Blockchain operations.
 - F16. SDP operations
 
 **Checklist**:
-- [ ] Expose API for Transaction building
-- [ ] Expose API for Transaction funding
-- [ ] Expose API for Transaction signing
-- [ ] Expose API for Transfer functionality
-- [ ] Expose API for Inscription functionality
-- [ ] Expose API for SDP functionality
+- [x] Expose API for Transaction building
+- [x] Expose API for Transaction funding
+- [x] Expose API for Transaction signing
+- [x] Expose API for Transfer functionality
+- [x] Expose API for Inscription functionality
+- [x] Expose API for SDP functionality

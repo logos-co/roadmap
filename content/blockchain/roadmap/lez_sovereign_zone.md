@@ -1,7 +1,5 @@
 # LEZ Running as a Sovereign Zone
 
-**Estimated Delivery Date** March 2026
-
 ## Resources Required
 
 - 2.5 Engineers
@@ -29,9 +27,9 @@ The LEZ Sequencer follows and publishes to Blockchain, managing the full lifecyc
 - F25. Sequencer maintains funds to pay for blockchain transactions
 
 **Checklist**:
-- [ ] Sequencer publishes blocks to Blockchain
-- [ ] Transaction lifecycle management (pending/safe/confirmed)
-- [ ] Automatic funding management for blockchain transactions
+- [x] Sequencer publishes blocks to Blockchain
+- [x] Transaction lifecycle management (pending/safe/confirmed)
+- [x] Automatic funding management for blockchain transactions (we used 0 fees for this implementation)
 
 ### Indexer
 
@@ -50,10 +48,10 @@ The Indexer follows the LEZ channel in Blockchain and maintains local state.
 - F30. Indexer provides RPC endpoints for querying LEZ state
 
 **Checklist**:
-- [ ] Channel following operational
-- [ ] Message validation
-- [ ] Block parsing and state application
-- [ ] RPC endpoints available
+- [x] Channel following operational
+- [x] Message validation
+- [x] Block parsing and state application
+- [x] RPC endpoints available
 
 ### Block Explorer
 
@@ -68,5 +66,5 @@ Block Explorer connecting to Indexer for visibility into LEZ operations.
 - U11. Block Explorer displays LEZ blocks and transactions
 
 **Checklist**:
-- [ ] Block Explorer connected to Indexer
-- [ ] Transaction and block visibility
+- [x] Block Explorer connected to Indexer
+- [x] Transaction and block visibility

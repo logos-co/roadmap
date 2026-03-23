@@ -1,7 +1,5 @@
 # LEZ Logos Core Integration
 
-**Estimated Delivery Date** March 2026
-
 ## Resources Required
 
 - 1 Engineer
@@ -27,7 +25,7 @@ Integrate LEZ wallet and sequencer operations with Logos Core.
 - U12. Logos Core Module for LEZ operations
 
 **Checklist**:
-- [ ] C API defined and implemented
-- [ ] Logos Core integration tested
-- [ ] Logos Core Module implemented
-- [ ] Module configuration in Logos Core
+- [x] C API defined and implemented
+- [x] Logos Core integration tested
+- [x] Logos Core Module implemented
+- [x] Module configuration in Logos Core
