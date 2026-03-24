@@ -1,33 +1,28 @@
 ---
-title: Package SDS in Reliable Channel API
+title: Reliable Channel API — Developer Preview
 tags:
-    - messaging-milestone
+  - messaging-milestone
 date: 2025-12-10
 ---
 
-# Package SDS in Reliable Channel API
+> [!NOTE] This file will be renamed to `2026-reliable-channel-api-developer-preview`
 
-**Estimated date of completion**: {Enter date}
+# Reliable Channel API — Developer Preview
 
-**Resources Required for 2025H2**:
-- {roles and % application to it}
-- {external services consumed (Vac/IFT)}
-- {infrastructure}
+**Estimated date of completion**: June 2026 (Testnet v0.2)
 
-The [[Create Chat SDK MVP]] - developer preview - does include the [Scalable Data Sync](https://github.com/vacp2p/rfc-index/blob/main/vac/raw/sds.md) protocol usage. However, dedicated work is necessary to
-fully leverage SDS to:
-- identify and retrieved missed messages
-- track acknowledge, and resend unacknowledged message
+**Resources Required for 2026H1**:
+- 2 Delivery engineers
+- 1 Chat engineer for integration
+
+The [Chat — Foundations](2025-create-chat-sdk-mvp.md) milestone does not include the [Scalable Data Sync](https://github.com/vacp2p/rfc-index/blob/main/vac/raw/sds.md) protocol. This milestone delivers dedicated work to fully leverage SDS to:
+- Identify and retrieve missed messages
+- Track, acknowledge, and resend unacknowledged messages
 
 The [Reliable Channel API](https://github.com/logos-messaging/specs/pull/89) delivers a simple API that enables those features, as well as:
-- message segmentation
-- Rate limit management (in preparation to future RLN integration).
-- SDS-Repair, an extension to SDS that reduce reliance on Store services, and improves received anonymity from original SDS protocol.
+- SDS-Repair, an extension to SDS that reduces reliance on Store services and improves receiver anonymity from the original SDS protocol.
 
-This milestone focuses on delivering a pre-configured SDS experience. Segmentation and rate limit manager will be delivered at a later stage.
-
-Note: Dependency to logos-messaging-nim is to be handled via Nimble, meaning the Chat Logos Module would have libp2p, logos-messaging, etc embedded. It also means that there is no "reliable channel" Logos Core module as part of this milestone.
-Moving to an architecture where the Chat module uses the locally available messaging module, is not yet planned.
+This milestone focuses on forming the API and delivering a pre-configured SDS experience. Segmentation and rate limit manager will be delivered in the [General Availability](2026-complete-reliable-channel-api.md) milestone.
 
 ## FURPS
 
@@ -35,15 +30,16 @@ Moving to an architecture where the Chat module uses the locally available messa
 
 ## Risks
 
-| Risk   | (Accept, Own, Mitigation)     |
-|--------|-------------------------------|
-| [Risk] | [how to we address this risk] |
+| Risk                             | (Accept, Own, Mitigation)                                                                                                                                                                   |
+| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| SDS maturity                     | SDS protocol has not been extensively tested in production. May require tuning of parameters to avoid network saturation.                                                                   |
+| SDS-Repair network overhead      | SDS-R can quickly saturate the network with repair requests if parameters are not carefully tuned. Linear backoff should become exponential.                                                |
 
 ## Deliverables
 
 ### Deliver Reliable Channel API
 
-**Owner**: Nim Messaging Team
+**Owner**: Delivery Team
 
 **Feature**: [Reliable Channel API](/messaging/furps/application/reliable_channel.md)
 
@@ -65,14 +61,14 @@ Note: No segmentation or rate limit manager in this milestone. SDS messages cach
 
 ### Implement SDS Repair
 
-**Owner**: Nim Messaging Team
+**Owner**: Delivery Team
 
 **Feature**: [Reliable Channel API](/messaging/furps/application/reliable_channel.md)
 
 **FURPS**:
 - F9. Missing messages re-emission is requested from other channel participants
 
-### Use Reliable Channels in Chat SDK
+### Use Reliable Channels in Logos Chat
 
 **Owner**: Chat Team
 

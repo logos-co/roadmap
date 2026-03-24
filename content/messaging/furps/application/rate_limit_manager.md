@@ -28,8 +28,6 @@ tags:
 
 ## Performance
 
-1. ...
-
 ## Supportability
 
 1. Nim library.
