@@ -1,7 +1,5 @@
 # Blockchain Blend Broadcaster Censorship Resistance
 
-**Estimated Delivery Date** June 2026
-
 ## Resources Required
 
 - 3 Researchers
@@ -25,8 +23,8 @@ This has the added benefit of increasing blend reliability through message redun
 
 **FURPS**:
 
-- F7. Block proposal redundancy
-- F8. Censorship resistance against malicious broadcasters
+- F5. Block proposal redundancy
+- F6. Censorship resistance against malicious broadcasters
 
 **Checklist**:
 - [ ] Message sharding protocol designed

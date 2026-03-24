@@ -9,11 +9,14 @@ tags:
 
 The Logs core team is currently working on the following milestones:
 
-- LogosApp Installer
+- Finalize Logos Abstraction
+- Implement CDDL/CBOR
+- Improve LGX packages
+- Improve API for QML UI Apps
+- Re-Work Various SDKs
 - Mobile App for ios and Android
 - Package Format & Manifest
-- Package Manager
 - Module Loading/Code-siging & Packaging
-- QML Module UI Apps
-- Test a QtWebview UI Module with a API
-- Help develop modules & test apps for Keycard, Logos Storage, Logos Comms, Logos Blockchain.
+- Logos Basecamp for Windows
+- Improved QtWebview UI Module with a API
+- Decentralized Package Manager

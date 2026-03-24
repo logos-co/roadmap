@@ -1,7 +1,5 @@
 # Blockchain Testing Framework
 
-**Estimated Delivery Date** June 2026
-
 ## Resources Required
 
 - 1 Engineer
@@ -23,10 +21,10 @@ Comprehensive testing framework to support testing scenarios and benchmarks.
 
 **FURPS**:
 
-- S1. Developer tooling to support LSSA program development
+- S1. Developer tooling to support LEZ program development
 
 **Checklist**:
-- [ ] Testing framework designed
-- [ ] Existing integration tests migrated
-- [ ] Support DST simulations
-- [ ] CI pipeline integration
+- [x] Testing framework designed
+- [x] Existing integration tests migrated
+- [x] Support DST simulations
+- [x] CI pipeline integration

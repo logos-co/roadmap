@@ -1,7 +1,5 @@
 # Blockchain Cryptarchia Accurate Total Stake Inference
 
-**Estimated Delivery Date** June 2026
-
 ## Resources Required
 
 - 2 Researchers
@@ -24,7 +22,7 @@ Address total stake inference underestimation by applying block reference ideas 
 
 **FURPS**:
 
-- F21. Total stake inference on Areon model
+- F19. Total stake inference on Areon model
 
 **Checklist**:
 - [ ] Current underestimation quantified

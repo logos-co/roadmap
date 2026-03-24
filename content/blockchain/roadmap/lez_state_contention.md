@@ -1,6 +1,4 @@
-# LSSA Resolve State Contention
-
-**Estimated Delivery Date** Parallel Milestone
+# LEZ Resolve State Contention
 
 ## Resources Required
 

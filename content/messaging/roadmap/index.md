@@ -2,6 +2,7 @@
 title: Messaging Roadmap Overview
 date: 2025-12-10
 ---
+
 # Roadmap Overview
 
 Logos Messaging is working towards these features, required to be implemented for Mainnet:
@@ -17,43 +18,51 @@ Logos Messaging is working towards these features, required to be implemented fo
 - Status:
 	- Uses [SDS protocol](sds) for Communities
 	- Uses Logos Chat for 1:1 and group chats
-	- Integrates Logos Chat and Delivery is done using Logos Core
+	- Integration of Logos Chat and Delivery is done using Logos Core
 
 ## Milestones
 
 The work is split into milestones, planned to be achieved by certain release.
 
+We use two release stages for developer-facing APIs and libraries:
+- **Developer Preview** — first externally-usable release. Functional but limited scope, intended for early adopters and feedback collection.
+- **General Availability** — feature-complete, QA-approved, production-ready release.
+
 ### Testnet [v0.1](v01)
 
-- [Create Chat SDK MVP](2025-create-chat-sdk-mvp.md)
-- [Messaging API](2025-messaging-api.md)
-- [Enable easy C-Bindings for Desktop](2025-enable-easy-c-bindings-for-desktop.md)
+- [Messaging API — Developer Preview](2025-api-access-to-p2p-reliability-for-desktop.md)
+- [Chat — Foundations](2025-create-chat-sdk-mvp.md)
+- [Initial Integration to Logos Core](2025-enable-easy-c-bindings-for-desktop.md)
 
 ### Testnet [v0.2](v02)
 
-- [Extend Chat SDK with Group Conversations](2025-extend-chat-sdk-with-group-conversations.md)
-- [API access to P2P Reliability for Desktop](2025-api-access-to-p2p-reliability-for-desktop.md)
-- [Package SDS in Reliable Channel API](2025-package-sds-in-reliable-channel-api.md)
-- [Complete Reliable Channel API](2026-complete-reliable-channel-api.md)
-- Chat Identity
-- Logos Core integration (Chat module -> LMN module)
+- [Messaging API — General Availability](2026-messaging-api-general-availability)
+- [Reliable Channel API — Developer Preview](2025-package-sds-in-reliable-channel-api.md)
+- [Chat — Group Conversations](2025-extend-chat-sdk-with-group-conversations)
+- [Logos Core Integration — Phase 2](2026-logos-core-integration-phase-2)
+- [QUIC Transport in Logos Delivery](2025-support-discovery-research-and-libp2p-quic)
+
+### Testnet [v0.3](v03)
+
+- [Reliable Channel API — General Availability](2026-complete-reliable-channel-api.md)
+- [Chat — Developer Preview](2026-chat-developer-preview)
+- [RLN on Logos Blockchain](2026-add-support-for-rln-on-lee)
 
 ### Required for Mainnet
 
-- [Add Edge Mode to Messaging API](2025-add-edge-mode-to-messaging-api.md)
-- [Enable easy C-Bindings for Mobile](2025-enable-easy-c-bindings-for-mobile.md)
-- [Messaging and Chat on Mobile](2025-messaging-chat-on-mobile.md)
-- [Nwaku in Status Mobile and Light Mode MVP](2025-nwaku-in-status-mobile.md)
-- [Implement RLN Membership Management](2025-implement-rln-membership-management.md)
-- [Add support for RLN on LEE](2026-add-support-for-rln-on-lee)
-- [Support Discovery Research and Libp2p QUIC](2025-support-discovery-research-and-libp2p-quic.md)
-- Status consumes Logos Chat and LMN as a Logos Core modules
+- [Support Mobile Platforms](2026-support-mobile-platforms)
+- [Chat — General Availability](2026-chat-general-availability)
+- [Logos Core Integration — Phase 3](2026-logos-core-integration-phase-3)
+- Security audit (internal security team review followed by external audit)
 
-### Parallel Milestones
+### Parallel milestones
 
-- [Foundation for Communities Optimization](2025-foundation-for-communities-optimization.md)
-- [Introduce E2E Reliability in Status Communities](2024-e2e-reliability-protocol.md) (complete integration after 2 release cycles)
-- [Integrate nwaku in status desktop relay mode only](2024-nwaku-in-status-desktop.md)
+- [Nimble Migration](2026-nimble-migration)
+- [Fleet Stability](2026-fleet-stability)
+- [Status: Logos Delivery Integration](2026-status-logos-delivery-integration)
+	- Includes [Foundation for Communities Optimization](2025-foundation-for-communities-optimization)
+	- Includes [E2E Reliability in Status Communities](2024-e2e-reliability-protocol)
+- [Status: Logos Chat Integration](2026-status-logos-chat-integration)
 
 
 ---
@@ -61,16 +70,14 @@ The work is split into milestones, planned to be achieved by certain release.
 
 ## H2 2025
 
-- [Streamline DevEx: Mobile, Rust and Web dev](2025-streamline-devex.md)
-- [Formalize and Expand Waku Web Apps](2025-formalize-and-expand-waku-web-apps.md)
 - [Create Chat SDK MVP](2025-create-chat-sdk-mvp.md)
-- [Extend Chat SDK with Group Conversations](2025-extend-chat-sdk-with-group-conversations.md)
+- [Messaging API](2025-messaging-api.md)
+- [Enable easy C-Bindings for Desktop](2025-enable-easy-c-bindings-for-desktop.md)
 - [Formalize and Expand Waku Web Apps](2025-formalize-and-expand-waku-web-apps.md)
 - [Harden RLN Testnet Deployment](2025-harden-rln-testnet-deployment.md)
 - [Improve DevEx: API, TWN, Metrics, Docs](2025-improve-devex.md)
 - [Implement RLN Membership Management](2025-implement-rln-membership-management.md)
 - [Streamline DevEx: Mobile, Rust and Web dev](2025-streamline-devex.md)
-- [Enable easy C-Bindings for Desktop](2025-enable-easy-c-bindings-for-desktop.md)
 
 ## H1 2025
 
@@ -85,6 +92,12 @@ The work is split into milestones, planned to be achieved by certain release.
 
 # Closed Milestones
 
+- [Implement RLN Membership Management](2025-implement-rln-membership-management.md) — superseded by [RLN on Logos Blockchain](2026-add-support-for-rln-on-lee)
+- [Support Discovery Research and Libp2p QUIC](2025-support-discovery-research-and-libp2p-quic.md) — discovery now under AnonComms; QUIC moved to v0.2
+- [Enable easy C-Bindings for Desktop](2025-enable-easy-c-bindings-for-desktop.md) — absorbed into [Initial Integration to Logos Core](2025-enable-easy-c-bindings-for-desktop.md)
+- [Enable easy C-Bindings for Mobile](2025-enable-easy-c-bindings-for-mobile.md) — absorbed into [Support Mobile Platforms](2026-support-mobile-platforms)
+- [Add Edge Mode to Messaging API](2025-add-edge-mode-to-messaging-api.md) — absorbed into [Messaging API — General Availability](2026-messaging-api-general-availability)
+- [Messaging and Chat on Mobile](2025-messaging-chat-on-mobile.md) — absorbed into [Support Mobile Platforms](2026-support-mobile-platforms)
 - [Add peer discovery to mixnet and support browser](2025-add-peer-discovery-to-mixnet-and-support-browser.md)
 - [Debugging Tools](2025-debugging-tools.md)
 - [Define Incentivisation for RLNaaS](2025-define-incentivisation-for-rlnaas.md)

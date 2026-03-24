@@ -1,7 +1,5 @@
 # Blockchain Decentralized Block Building
 
-**Estimated Delivery Date** EoY 2026
-
 ## Resources Required
 
 - 1 Researcher
@@ -23,7 +21,7 @@ Protocol draft for distributed block building in the mempool. Addresses tagging 
 
 **FURPS**:
 
-- F23. **Distributed block building** Enabling tagging attack resistance and removing the leader as SPOF
+- F21. **Distributed block building** Enabling tagging attack resistance and removing the leader as SPOF
 
 **Checklist**:
 - [ ] Protocol draft complete

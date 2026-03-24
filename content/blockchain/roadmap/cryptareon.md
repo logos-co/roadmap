@@ -1,7 +1,5 @@
 # Blockchain Cryptareon
 
-**Estimated Delivery Date** EoY 2026
-
 ## Resources Required
 
 - 2 Researchers
@@ -23,7 +21,7 @@ Make Areon use Private Proof of Stake (PPoS), creating Cryptareon.
 
 **FURPS**:
 
-- F22. Areon with Private Proof of Stake (Cryptareon)
+- F20. Areon with Private Proof of Stake (Cryptareon)
 
 **Checklist**:
 - [ ] PPoS integration with Areon designed

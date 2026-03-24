@@ -1,6 +1,4 @@
-# LSSA Unify Private / Public Execution
-
-**Estimated Delivery Date** Parallel Milestone
+# LEZ Unify Private / Public Execution
 
 ## Resources Required
 
@@ -23,8 +21,8 @@ Unify private and public execution to ensure programs truly support programmable
 
 **FURPS**:
 
-- F24. LSSA supports Programmable Privacy by allowing LSSA Programs to be agnostic as to whether they are interacting with private or public accounts
-- U7. The same LSSA Programs can be used in both private and public execution contexts
+- F22. LEZ supports Programmable Privacy by allowing LEZ Programs to be agnostic as to whether they are interacting with private or public accounts
+- U7. The same LEZ Programs can be used in both private and public execution contexts
 
 **Checklist**:
 - [ ] Unified execution model designed
