@@ -66,7 +66,7 @@
 **FURPS**:
 
 - F11. Providers can anonymously register as a hidden service
-- F12. Clients can anonymously discover and access hidden services
+- F12. Clients can discover and anonymously access hidden services
 - U10. The protocol allowing hidden service provisioning, discovery and access is published in a specification
 
 **Checklist**:
@@ -84,7 +84,6 @@
 - U12. The libp2p mix protocol is integrated into the Logos Chat module
 
 **Checklist**:
-- [ ] Specs: link to specs and/or API definition
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs

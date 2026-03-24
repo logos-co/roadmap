@@ -13,7 +13,7 @@
 9. An application-level mechanism exists to segment large responses and coordinating multiple-SURB response paths
 10. Nodes can generate cover traffic to increase K-anonymity in the mixnet
 11. Providers can anonymously register as a hidden service
-12. Clients can anonymously discover and access hidden services
+12. Clients can discover and anonymously access hidden services
 
 ## Usability
 
