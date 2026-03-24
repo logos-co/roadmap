@@ -111,7 +111,7 @@ FURPS are elsewhere divided into Milestones and Deliverables, to form a roadmap.
 1. Blockchain finalizes transactions in 18hrs
 2. Practical finality can be achieved much sooner
 3. Blocks are produced on average every 30s
-4. Blend network manageable on low bandwidth network links
+4. Blend Network manageable on low bandwidth network links
 
 ## `lez`
 5. Transaction throughput targets (TBD)

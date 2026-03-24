@@ -1,7 +1,5 @@
 # Blockchain Blend Broadcaster Censorship Resistance
 
-**Estimated Delivery Date** June 2026
-
 ## Resources Required
 
 - 3 Researchers
