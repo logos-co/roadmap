@@ -33,25 +33,28 @@
     <lastmod>2026-03-02T07:03:52.132Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/anoncomms/furps/de-mls</loc>
-    <lastmod>2026-03-02T07:03:52.132Z</lastmod>
+    <lastmod>2026-03-24T18:15:12.247Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/anoncomms/furps/discovery</loc>
-    <lastmod>2026-03-02T07:03:52.132Z</lastmod>
+    <lastmod>2026-03-24T18:15:12.247Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/anoncomms/furps/incentivisation</loc>
-    <lastmod>2026-03-02T07:03:52.132Z</lastmod>
+    <lastmod>2026-03-24T18:15:12.247Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/anoncomms/furps/</loc>
     <lastmod>2026-03-02T07:03:52.132Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/anoncomms/furps/mix</loc>
-    <lastmod>2026-03-02T07:03:52.132Z</lastmod>
+    <lastmod>2026-03-24T18:15:12.247Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/anoncomms/furps/oracle</loc>
+    <lastmod>2026-03-24T18:15:12.247Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/anoncomms/furps/rln</loc>
-    <lastmod>2026-03-02T07:03:52.132Z</lastmod>
+    <lastmod>2026-03-24T18:15:12.247Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/anoncomms/furps/zerokit-rln</loc>
-    <lastmod>2026-03-12T17:41:26.606Z</lastmod>
+    <loc>https://roadmap.logos.co/anoncomms/furps/zerokit</loc>
+    <lastmod>2026-03-24T18:15:12.247Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/anoncomms/</loc>
     <lastmod>2025-11-27T00:00:00.000Z</lastmod>
@@ -59,32 +62,74 @@
     <loc>https://roadmap.logos.co/anoncomms/roadmap/_template</loc>
     <lastmod>2026-03-02T07:03:52.132Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/anoncomms/roadmap/create_basic_capability_discovery_module</loc>
-    <lastmod>2026-03-02T07:03:52.132Z</lastmod>
+    <loc>https://roadmap.logos.co/anoncomms/roadmap/de-mls</loc>
+    <lastmod>2026-03-24T18:15:12.247Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/anoncomms/roadmap/deliver_de-mls_api</loc>
-    <lastmod>2026-03-02T07:03:52.132Z</lastmod>
+    <loc>https://roadmap.logos.co/anoncomms/roadmap/discovery</loc>
+    <lastmod>2026-03-24T18:15:12.247Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/anoncomms/roadmap/deliver_public_zerokit_1.0_api</loc>
-    <lastmod>2026-03-02T07:03:52.132Z</lastmod>
+    <loc>https://roadmap.logos.co/anoncomms/roadmap/gasless-l2</loc>
+    <lastmod>2026-03-24T18:15:12.247Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/anoncomms/roadmap/establish_libp2p_mixnet</loc>
-    <lastmod>2026-03-02T07:03:52.132Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/anoncomms/roadmap/extend_gasless_L2_transactions_with_multi-burn_RLN_and_decentralized_slashing</loc>
-    <lastmod>2026-03-12T17:41:26.606Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/anoncomms/roadmap/implement_mvp_payment_protocol</loc>
-    <lastmod>2026-03-02T07:03:52.132Z</lastmod>
-  </url><url>
-    <loc>https://roadmap.logos.co/anoncomms/roadmap/implement_rln_membership_allocation</loc>
-    <lastmod>2026-03-02T07:03:52.132Z</lastmod>
+    <loc>https://roadmap.logos.co/anoncomms/roadmap/incentivisation</loc>
+    <lastmod>2026-03-24T18:15:12.247Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/anoncomms/roadmap/</loc>
-    <lastmod>2026-03-02T07:03:52.136Z</lastmod>
+    <lastmod>2026-03-24T18:15:12.247Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/anoncomms/roadmap/release-rln-prover_for_gasless_l2</loc>
-    <lastmod>2026-03-02T07:03:52.136Z</lastmod>
+    <loc>https://roadmap.logos.co/anoncomms/roadmap/mix</loc>
+    <lastmod>2026-03-24T18:15:12.247Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/anoncomms/roadmap/oracle</loc>
+    <lastmod>2026-03-24T18:15:12.247Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/anoncomms/roadmap/rln</loc>
+    <lastmod>2026-03-24T18:15:12.247Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/anoncomms/roadmap/testnet_v0.1/de-mls_v0.1</loc>
+    <lastmod>2026-03-24T18:15:12.247Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/anoncomms/roadmap/testnet_v0.1/discovery_v0.1</loc>
+    <lastmod>2026-03-24T18:15:12.247Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/anoncomms/roadmap/testnet_v0.1/gasless-l2_v0.1</loc>
+    <lastmod>2026-03-24T18:15:12.247Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/anoncomms/roadmap/testnet_v0.1/incentivisation_v0.1</loc>
+    <lastmod>2026-03-24T18:15:12.247Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/anoncomms/roadmap/testnet_v0.1/mix_v0.1</loc>
+    <lastmod>2026-03-24T18:15:12.247Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/anoncomms/roadmap/testnet_v0.1/rln_v0.1</loc>
+    <lastmod>2026-03-24T18:15:12.247Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/anoncomms/roadmap/testnet_v0.1/zerokit_v0.1</loc>
+    <lastmod>2026-03-24T18:15:12.247Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/anoncomms/roadmap/testnet_v0.2/de-mls_v0.2</loc>
+    <lastmod>2026-03-24T18:15:12.247Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/anoncomms/roadmap/testnet_v0.2/discovery_v0.2</loc>
+    <lastmod>2026-03-24T18:15:12.247Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/anoncomms/roadmap/testnet_v0.2/incentivisation_v0.2</loc>
+    <lastmod>2026-03-24T18:15:12.247Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/anoncomms/roadmap/testnet_v0.2/mix_v0.2</loc>
+    <lastmod>2026-03-24T18:15:12.247Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/anoncomms/roadmap/testnet_v0.2/oracle_v0.2</loc>
+    <lastmod>2026-03-24T18:15:12.247Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/anoncomms/roadmap/testnet_v0.2/rln_v0.2</loc>
+    <lastmod>2026-03-24T18:15:12.247Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/anoncomms/roadmap/testnet_v0.2/zerokit_v0.2</loc>
+    <lastmod>2026-03-24T18:15:12.247Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/anoncomms/roadmap/zerokit</loc>
+    <lastmod>2026-03-24T18:15:12.247Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/anoncomms/updates/2025-11-24</loc>
     <lastmod>2026-03-02T07:03:52.136Z</lastmod>
