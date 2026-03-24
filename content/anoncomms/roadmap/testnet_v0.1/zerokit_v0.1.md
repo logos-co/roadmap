@@ -1,23 +1,13 @@
-# [Deliver public Zerokit 1.0 API with big-endian support](https://github.com/logos-co/anoncomms-pm/milestone/6)
+# [Zerokit Track: Testnet v0.1](https://github.com/logos-co/anoncomms-pm/milestone/6)
 
-**Estimated date of completion**: 31 January 2026
+**Track:** [Zerokit Track](../zerokit.md)
+
+**FURPS:** [Zerokit FURPS](../../furps/zerokit.md)
+
+**Estimated date of completion**: 30 Jun 2026
 
 **Resources Required**:
-- 2 developers for 10 weeks
-
-[Zerokit](https://github.com/vacp2p/zerokit) is a collection of Zero Knowledge modules
-that focus on RLN, developed in Rust, is intended for integration with various system programming environments.
-
-Previously, we released Zerokit v0.9.0, which supports improved CI, optimized,
-partially BE support and research on FFI improvements.
-By the end of this milestone, we will deliver Zerokit v1 and begin advancing the next version.
-This includes big-endian support and an improved FFI interface.
-
-## Risks
-
-| Risk                   | (Accept, Own, Mitigation)                                                                                        |
-|------------------------|------------------------------------------------------------------------------------------------------------------|
-|  |  |
+- 2 developers for 16 weeks
 
 ## Deliverables
 

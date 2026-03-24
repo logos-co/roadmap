@@ -8,7 +8,11 @@
 
 ## Usability
 
-1. The payment protocol is published in a specification
+1. The off-chain payment protocol is published in a specification
+2. The on-chain component of the protocol is published in a specification
+3. The off-chain protocol is implemented in Nim
+4. The on-chain component of the protocol is implemented for Logos Execution Zone
+5. A demo Logos core module demonstrates the payment protocol functioning end-to-end for a service protocol
 
 ## Reliability
 
