@@ -5,18 +5,41 @@ tags:
   - logoscore
 ---
 
-## Roadmap Overview
+# Roadmap Overview
 
-The Logs core team is currently working on the following milestones:
+The Logoscore team is working towards a modular, cross-platform application framework with a decentralized package ecosystem.
 
-- Finalize Logos Abstraction
-- Implement CDDL/CBOR
-- Improve LGX packages
-- Improve API for QML UI Apps
-- Re-Work Various SDKs
-- Mobile App for ios and Android
-- Package Format & Manifest
-- Module Loading/Code-siging & Packaging
-- Logos Basecamp for Windows
-- Improved QtWebview UI Module with a API
+## Milestones
+
+### Testnet v0.2
+
+- Logoscore Consolidation
+  - Finish Abstraction
+  - Structural Improvements and Updates to Foundational Projects
+  - CBOR/CDDL
+- Improve Developer Journey for Modules & Apps Development
+  - Facilitate agentic workflows
+  - Update projects to use Logos Module Builder
+  - Improve Logos Module Builder
+- Package Manager
+  - Extract library, get it ready for decentralized package manager
+  - Various improvements and updates
+
+### Testnet v0.3
+
+- Basecamp
+  - Remove qtwidgets MDI and add kdbab docker widgets
+  - Onboarding & settings encryption
+  - sqlcipher module
+- Logoscore Enhancements
+  - Support talking to an existing core
+  - Support running multiple instances of a module
+  - Debug Tool: log calls between modules
+- Support Other Platforms
+  - Windows Support
+  - Mobile iOS support
+  - Mobile Android support
+
+### Testnet v0.4
+
 - Decentralized Package Manager
