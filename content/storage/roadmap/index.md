@@ -24,7 +24,7 @@ Both are key to the Logos effort - without storage, neither applications/fronten
 ### Testnet [v0.2](v02)
 
 - [Enhanced File Sharing Protocol](enhanced-filesharing-protocol)
-- Anonymous Filesharing - Part 1:
+- [Privacy Preserving Filesharing](privacy-preserving-filesharing) - Part 1:
   - [Anonymous DHT Queries](anonymous-dht-queries)
   - [Anonymous Downloads over Mix](anonymous-downloads-over-mix)
   - [Large-Data Transport Layer for Mix](large-data-transport-layer-for-mix)
@@ -32,5 +32,5 @@ Both are key to the Logos effort - without storage, neither applications/fronten
 
 ### Testnet [v0.3](v03)
 
-- Anonymous Filesharing - Part 2:
+- [Privacy Preserving Filesharing](privacy-preserving-filesharing) - Part 2:
   - Anonymous Publishing with Hidden Services over Mix

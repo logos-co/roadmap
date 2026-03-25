@@ -2,7 +2,7 @@
 
 ## Functionality
 
-1. Nodes should be able to exchange arbitrary sized payloads over a mixnet of fixed message size.
+1. Nodes should be able to exchange arbitrary sized payloads over a mixnet of fixed message size. This effectively emulates arbitrarily sized messages.
 1. Allows asymmetrical request/response operations in which the response is orders of magnitude larger than the request.
 
 ## Usability
@@ -17,6 +17,10 @@
 ## Performance
 
 1. Performance should not be significantly different from doing the process manually: chunking the request payload and sending it over the mixnet, pushing enough SURBs to cover the response, chunking the response and sending it back over the mixnet.
+
+## Supportability
+
+1. ...
 
 ## Security
 

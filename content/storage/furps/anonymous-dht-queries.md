@@ -16,6 +16,10 @@
 
 1. Performance should not be significantly worse than querying a regular DHT over a mixnet.
 
+## Supportability
+
+1. ...
+
 ## Security
 
 1. The node issuing the operation (put/get/add_provider/get_providers) should not be linkable to the operation. Note that the node that replies to the query is not anonymized here.

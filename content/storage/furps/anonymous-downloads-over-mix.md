@@ -16,6 +16,10 @@
 
 1. Performance should not be significantly worse than downloading a file over a mixnet. When downloading from multiple providers, performance might be better if mixnet allows.
 
+## Supportability
+
+1. ...
+
 ## Security
 
 1. The node downloading the file should not be linkable to the download. Note that the node that provides the file is not anonymized here.
