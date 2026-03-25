@@ -2,21 +2,25 @@
 
 ## Functionality
 
-1. A messaging group can have multiple stewards
-2. A member can leave a messaging group
-3. Groups can resync after state partition
+1. A messaging group can use peer scoring to track bad behaviour and remove misbehaving members
+2. A messaging group can use steward list to elect and function with multiple stewards
+3. Messaging groups with multiple stewards can deterministically handle multiple commits
+4. Messaging groups with multiple stewards can trigger and recover from a partial freeze to resolve basic conflicts
+5. Messaging groups have a recovery mode to deal with more serious unexpected group states
+6. New joiners can properly setup the group state after being accepted into the group
+7. Commits can be validated and violations appropriately handled
 
 ## Usability
 
 1. De-MLS protocol with multi-steward support is published in a specification
-2. The specification describes how members can leave the group
-3. The specification describes how groups can resync after a state partition
-4. The specification contains implementation suggestions to guide developers
+2. The specification describes peer scoring
+3. The specification describes steward lists and election process
+4. The specification describes different conflict resolution and recovery mechanisms
 5. An API spec is published that exposes de-MLS functionality and abstracts consensus
 6. De-MLS is implemented in Rust
 7. The De-MLS API is available in Rust and C
-8. De-MLS is included in the Chat SDK protocol stack specification
-9. De-MLS is integrated into a working ChatSDK module deployed to Logos Core
+8. De-MLS is included in the Logos Chat protocol stack specification
+9. De-MLS is integrated into a working Logos Chat module deployed to Logos Core
 
 ## Reliability
 
