@@ -1,4 +1,4 @@
-# Enhanced Filehsharing Protocol
+# Enhanced Filesharing Protocol
 
 We aim at a simpler, cleaner and more principled implementation which should be easier to explain and reason about while at the same time being faster and more efficient.
 
