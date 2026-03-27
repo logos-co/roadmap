@@ -1,5 +1,5 @@
 ---
-title: Status: Foundation for Communities Optimization
+title: 'Status: Foundation for Communities Optimization'
 tags:
     - messaging-milestone
 date: 2024-09-07

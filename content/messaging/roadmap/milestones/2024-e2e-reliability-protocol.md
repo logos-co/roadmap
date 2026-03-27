@@ -1,5 +1,5 @@
 ---
-title: Status: Introduce E2E Reliability in Communities
+title: 'Status: Introduce E2E Reliability in Communities'
 tags:
     - messaging-milestone
 date: 2024-09-07
