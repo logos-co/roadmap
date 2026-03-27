@@ -3,11 +3,9 @@ title: Fleet Stability
 tags:
   - messaging-milestone
 date: 2026-02-01
+github: https://github.com/logos-messaging/pm/milestone/66
 ---
-
-# Fleet Stability
-
-**Estimated date of completion**: Ongoing
+**Estimated date of completion**: End of April 2026
 
 **Resources Required**:
 - 1 Delivery engineer (intermittent)
@@ -32,45 +30,26 @@ This milestone is considered complete when **all** of the following are true for
 
 ## Deliverables
 
-### Integrate Sentry for crash reporting
+### [Integrate Sentry for crash reporting](https://github.com/logos-messaging/pm/issues/381)
 
 **Owner**: Delivery Team
 
 - Compile-time flag (`-d:sentry`) for public/open-source builds (no telemetry code present)
-- Runtime dynamic loading for fleet builds
 - Dual approach satisfies privacy narrative while enabling crash reporting for operated fleets
 - Sentry project configured and receiving reports from all fleet nodes
 
 **Done when**: All fleet nodes report crashes to Sentry. Crash reports include stack traces and node metadata.
 
-### Fleet monitoring dashboards for Logos fleets
+### [Fleet monitoring dashboards for Logos fleets](https://github.com/logos-messaging/pm/issues/382)
 
 **Owner**: Delivery Team + Infra + Logos Core Team
 
 - Logos Core exposes module metrics (blocker — coordinate with Logos Core team)
-- Dashboards for `logos.dev` and `logos.test` showing:
-  - Node uptime and restart frequency
-  - Message send/receive rates and latency
-  - Peer connectivity (number of peers, connection stability)
-  - Resource usage (CPU, memory, disk, bandwidth)
-  - Database health (size, query latency, corruption indicators)
+- Dashboards for `logos.dev` and `logos.test` showing same metrics as for other fleets.
 
 **Done when**: Dashboards are deployed and accessible for Logos fleets. Data is current and accurate. (Status and Waku fleets already have this.)
 
-### Fleet alerting for Logos fleets
-
-**Owner**: Delivery Team + Infra
-
-- Alerts configured for:
-  - Node crash or unexpected restart
-  - Database corruption or excessive size
-  - Connectivity drops (below minimum peer threshold)
-  - Memory or disk exhaustion
-  - Message delivery failure rate exceeding threshold
-
-**Done when**: Alerts fire within 5 minutes of incident. (Status and Waku fleets already have alerting.)
-
-### Resolve known fleet stability issues
+### [Resolve known fleet stability issues](https://github.com/logos-messaging/pm/issues/384)
 
 **Owner**: Delivery Team
 
