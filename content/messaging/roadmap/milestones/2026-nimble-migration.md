@@ -4,9 +4,8 @@ tags:
   - messaging-milestone
 date: 2026-01-15
 github: https://github.com/logos-messaging/pm/milestone/65
+est-completion: Q2 2026
 ---
-
-**Estimated date of completion**: Q2 2026
 
 **Resources Required**:
 - 1 Delivery engineer (intermittent)

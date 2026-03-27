@@ -24,9 +24,9 @@ function GithubMilestone({ fileData, displayClass }: QuartzComponentProps) {
 
 GithubMilestone.css = `
 .github-milestone {
-  margin: 0.5rem 0 1rem;
-  display: flex;
-  justify-content: flex-end;
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 1rem;
 }
 
 .github-milestone-link {

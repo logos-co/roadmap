@@ -20,6 +20,7 @@ import MobileOnly from "./MobileOnly"
 import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
 import GithubMilestone from "./GithubMilestone"
+import EstimatedCompletion from "./EstimatedCompletion"
 
 export {
   ArticleTitle,
@@ -44,4 +45,5 @@ export {
   NotFound,
   Breadcrumbs,
   GithubMilestone,
+  EstimatedCompletion,
 }
