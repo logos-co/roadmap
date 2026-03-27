@@ -3,6 +3,7 @@ title: 'Status: Logos Chat Integration'
 tags:
   - messaging-milestone
 date: 2026-02-01
+github: https://github.com/logos-messaging/pm/milestone/69
 ---
 
 # Status: Logos Chat Integration

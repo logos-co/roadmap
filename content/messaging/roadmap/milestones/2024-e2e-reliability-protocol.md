@@ -1,11 +1,10 @@
 ---
-title: Introduce E2E Reliability in Status Communities
+title: Status: Introduce E2E Reliability in Communities
 tags:
     - messaging-milestone
 date: 2024-09-07
+github: https://github.com/waku-org/pm/milestone/29
 ---
-
-# [Introduce E2E Reliability in Status Communities](https://github.com/waku-org/pm/milestone/29)
 
 **Estimated date of completion**: 31 Dec 2025
 
@@ -30,8 +29,6 @@ This protocol will be specified and implemented in the Status app for Status Com
 as well as in the browser for PoC Web Apps such as Qaku and Logos Forum.
 
 **FURPS** (see deliverables)
-
-**GitHub Milestone and deliverables**: https://github.com/waku-org/pm/milestone/29
 
 ## [SDS protocol in Status - basic integration](https://github.com/waku-org/pm/issues/194)
 

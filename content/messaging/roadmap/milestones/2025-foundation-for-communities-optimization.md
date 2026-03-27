@@ -1,10 +1,10 @@
 ---
-title: Foundation for Communities Optimization
+title: Status: Foundation for Communities Optimization
 tags:
     - messaging-milestone
 date: 2024-09-07
+github: https://github.com/waku-org/pm/milestone/31
 ---
-# [Foundation for Communities Optimisation](https://github.com/waku-org/pm/milestone/31)
 
 **Estimated date of completion**: 31 Oct 2025 (Final clean-up to be merged after a few Status app releases)
 
@@ -24,11 +24,7 @@ Finally, Communities traffic will be segregated in a few shards, per message typ
 enabling future bandwidth or performance optimization such as setting up different DB per message type,
 reducing retention time for control messages, or disabling the usage of relay for large messages.
 
-
 **FURPS**: [Status Communities](/messaging/furps/application/status_communities.md): all.
-
-**Milestone and deliverables**: https://github.com/waku-org/pm/milestone/31 
-
 
 ### Deliverable: [Define and implement sharding for Communities messages](https://github.com/waku-org/pm/issues/266)
 
