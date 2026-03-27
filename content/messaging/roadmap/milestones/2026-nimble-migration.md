@@ -3,9 +3,8 @@ title: Nimble Migration
 tags:
   - messaging-milestone
 date: 2026-01-15
+github: https://github.com/logos-messaging/pm/milestone/65
 ---
-
-# Nimble Migration
 
 **Estimated date of completion**: Q2 2026
 
