@@ -37,7 +37,7 @@ Also deprecates store hash queries as they enable linkability of participants in
 
 https://github.com/logos-messaging/pm/issues/318
 
-**Owner**: Chat Team
+**Owner**: Chat Team + Delivery Team
 
 **Feature**: [Segmentation](/messaging/furps/application/segmentation.md)
 
