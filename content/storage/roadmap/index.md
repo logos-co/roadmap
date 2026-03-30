@@ -33,4 +33,4 @@ In addition, the team is also working on the following post-mainnet features:
 
 ### Testnet [v0.3](v03)
 
-- [ ] Privacy-Preserving Filesharing v0.3 Deliverables
+- [ ] [[v0.3-privacy-preserving-filesharing | Privacy-Preserving Filesharing v0.3 Deliverables]]
