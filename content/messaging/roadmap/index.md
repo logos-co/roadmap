@@ -96,7 +96,7 @@ We use two release stages for developer-facing APIs and libraries:
 - [Support Discovery Research and Libp2p QUIC](2025-support-discovery-research-and-libp2p-quic.md) — discovery now under AnonComms; QUIC moved to v0.2
 - [Enable easy C-Bindings for Desktop](2025-enable-easy-c-bindings-for-desktop.md) — absorbed into [Initial Integration to Logos Core](2025-enable-easy-c-bindings-for-desktop.md)
 - [Enable easy C-Bindings for Mobile](2025-enable-easy-c-bindings-for-mobile.md) — absorbed into [Support Mobile Platforms](2026-support-mobile-platforms)
-- [Add Edge Mode to Messaging API](2025-add-edge-mode-to-messaging-api.md) — absorbed into [Messaging API — General Availability](2026-messaging-api-general-availability)
+- [Add Edge Mode to Messaging API](2025-add-edge-mode-to-messaging-api.md) — absorbed into [Messaging API — Developer Preview](2025-api-access-to-p2p-reliability-for-desktop)
 - [Messaging and Chat on Mobile](2025-messaging-chat-on-mobile.md) — absorbed into [Support Mobile Platforms](2026-support-mobile-platforms)
 - [Add peer discovery to mixnet and support browser](2025-add-peer-discovery-to-mixnet-and-support-browser.md)
 - [Debugging Tools](2025-debugging-tools.md)
