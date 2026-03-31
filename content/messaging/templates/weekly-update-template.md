@@ -1,8 +1,8 @@
 ---
 title: 2026-MM-DD Messaging Weekly
 tags: 
-##  - messaging-updates
-## date: 2026-MM-DD
+  - messaging-updates
+date: 2026-MM-DD
 ---
 
 ## Highlights
@@ -12,8 +12,6 @@ tags:
 - Logos Chat:
 - Logos Integrations:
 - Status:
-
----
 
 # Logos Delivery
 
@@ -26,29 +24,29 @@ tags:
 
 ## [Messaging API — General Availability](2026-messaging-api-general-availability.md)
 
-- Provide Store API access for Status needs
+- [Deliverable] Provide Store API access for Status needs
   - achieved:
   - next:
   - blockers:
 
-- Test suite for Messaging API
+- [Deliverable] Test suite for Messaging API
   - achieved:
   - next:
   - blockers:
 
-- Provide comprehensive documentation on the API
+- [Deliverable] Provide comprehensive documentation on the API
   - achieved:
   - next:
   - blockers:
 
 ## [Reliable Channel API — Developer Preview](2025-package-sds-in-reliable-channel-api.md)
 
-- Deliver Reliable Channel API
+- [Deliverable] Deliver Reliable Channel API
   - achieved:
   - next:
   - blockers:
 
-- Implement SDS Repair
+- [Deliverable] Implement SDS Repair
   - achieved:
   - next:
   - blockers:
@@ -123,8 +121,6 @@ tags:
   - next:
   - blockers:
 
----
-
 # Logos Chat
 
 ## [Chat — Foundations](2025-create-chat-sdk-mvp.md)
@@ -185,8 +181,6 @@ tags:
   - next:
   - blockers:
 
----
-
 # Logos Core
 
 ## [Initial Integration to Logos Core](2025-enable-easy-c-bindings-for-desktop.md)
@@ -237,8 +231,6 @@ tags:
   - achieved:
   - next:
   - blockers:
-
----
 
 # Status
 
@@ -292,9 +284,8 @@ tags:
   - next:
   - blockers:
 
----
+# Maintenance
 
-## Maintenance
   - achieved:
   - next:
   - blocked:
