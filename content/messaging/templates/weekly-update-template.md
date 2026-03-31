@@ -1,183 +1,291 @@
 ---
 title: 2026-MM-DD Messaging Weekly
-tags:
-##  - messaging-updates
-## date: 2026-MM-DD
+tags: 
+  - messaging-updates
+date: 2026-MM-DD
 ---
 
 ## Highlights
 <!-- Please Add the team weekly highlights here -->
 
 - Logos Delivery:
-- Chat: 
+- Logos Chat:
 - Logos Integrations:
 - Status:
 
-## [Create Chat SDK MVP](2025-create-chat-sdk-mvp.md)
+# Logos Delivery
 
-- [[Deliverable] Chat SDK Developer Preview](https://github.com/waku-org/pm/issues/316)
+## [Messaging API — Developer Preview](2025-api-access-to-p2p-reliability-for-desktop.md)
+
+- [[Deliverable] Introduce Messaging API in Logos Delivery](https://github.com/logos-messaging/pm/issues/305)
   - achieved:
   - next:
   - blockers:
 
-- [[Deliverable] Chat SDK Bindings](https://github.com/waku-org/pm/issues/317)
+## [Messaging API — General Availability](2026-messaging-api-general-availability.md)
+
+- [Deliverable] Provide Store API access for Status needs
   - achieved:
   - next:
   - blockers:
 
-- [[Deliverable] Create Segmentation Library](https://github.com/waku-org/pm/issues/318)
+- [Deliverable] Test suite for Messaging API
   - achieved:
   - next:
   - blockers:
 
-- [[Deliverable] Create Rate Limit Manager](https://github.com/waku-org/pm/issues/319)
+- [Deliverable] Provide comprehensive documentation on the API
   - achieved:
   - next:
   - blockers:
 
-## [Extend Chat SDK with Group Conversations](2025-extend-chat-sdk-with-group-conversations.md)
+## [Reliable Channel API — Developer Preview](2025-package-sds-in-reliable-channel-api.md)
 
-- []()
+- [Deliverable] Deliver Reliable Channel API
   - achieved:
   - next:
   - blockers:
 
-## [API access to P2P Reliability for Desktop](2025-improve-devex.md)
-
-- [[Deliverable] Global Network Metrics](https://github.com/waku-org/pm/issues/295)
+- [Deliverable] Implement SDS Repair
   - achieved:
   - next:
   - blockers:
 
-- [[Deliverable] Introduce Waku API in the Browser](https://github.com/waku-org/pm/issues/283)
+## [Reliable Channel API — General Availability](2026-complete-reliable-channel-api.md)
+
+- Add Segmentation to Reliable Channel API
   - achieved:
   - next:
   - blockers:
 
-- [[Deliverable] Review Documentation and Define Guidelines](https://github.com/waku-org/pm/issues/323)
+- Add Rate Limit Manager to Reliable Channel API
   - achieved:
   - next:
   - blockers:
 
-- [[Deliverable] Trial QUIC](https://github.com/waku-org/pm/issues/324)
+- Deprecate store hash queries for missing messages
   - achieved:
   - next:
   - blockers:
 
-- [[Deliverable] Optimise Browser Bootstrapping](https://github.com/waku-org/pm/issues/290)
-  - achieved:
-  - next:
-  - blockers:
-
-- [[Deliverable] Introduce Waku API in nwaku](https://github.com/waku-org/pm/issues/305)
-  - achieved:
-  - next:
-  - blockers:
-
-## [Package SDS in Reliable Channel API](https://github.com/logos-messaging/pm/milestone/57)
-
-- []()
-  - achieved:
-  - next:
-  - blockers:
-
-## [Enable easy C-Bindings for Desktop](https://github.com/logos-messaging/pm/milestone/53)
-
-- [[Deliverable] Create nim-ffi](https://github.com/logos-messaging/pm/issues/332)
-  - achieved:
-  - next:
-  - blockers:
-
-## [Support Discovery Research and Libp2p QUIC](https://github.com/logos-messaging/pm/milestone/58)
+## [QUIC Transport in Logos Delivery](2025-support-discovery-research-and-libp2p-quic.md)
 
 - [[Deliverable] Trial QUIC](https://github.com/logos-messaging/pm/issues/324)
   - achieved:
   - next:
   - blockers:
 
-## [Add Edge Mode to Messaging API](https://github.com/logos-messaging/pm/milestone/59)
+## [RLN on Logos Blockchain](2026-add-support-for-rln-on-lee.md)
 
-- []()
+- Implement pluggable RLN membership interface
   - achieved:
   - next:
   - blockers:
 
-## [Enable easy C-Bindings for Mobile](https://github.com/logos-messaging/pm/milestone/53)
-
-- []()
+- Integrate Logos Delivery with RLN on Logos Blockchain
   - achieved:
   - next:
   - blockers:
 
-## [Messaging and Chat on Mobile](https://github.com/logos-messaging/pm/milestone/61)
+## [Fleet Stability](2026-fleet-stability.md)
 
-- []()
+- [[Deliverable] Integrate Sentry for crash reporting](https://github.com/logos-messaging/pm/issues/381)
   - achieved:
   - next:
   - blockers:
 
-## [Complete Reliable Channel API](https://github.com/logos-messaging/pm/milestone/62)
-
-- []()
+- [[Deliverable] Fleet monitoring dashboards for Logos fleets](https://github.com/logos-messaging/pm/issues/382)
   - achieved:
   - next:
   - blockers:
 
-## [Implement RLN Membership Management](https://github.com/logos-messaging/pm/milestone/63)
-
-- []()
+- [[Deliverable] Fleet alerting for Logos fleets](https://github.com/logos-messaging/pm/issues/383)
   - achieved:
   - next:
   - blockers:
 
-## [Port RLN to Logos Blockchain](https://github.com/logos-messaging/pm/milestone/64)
-
-- []()
+- [[Deliverable] Resolve known fleet stability issues](https://github.com/logos-messaging/pm/issues/384)
   - achieved:
   - next:
   - blockers:
 
-## [Foundation for Communities Optimization](2025-foundation-for-communities-optimization.md)
+## [Nimble Migration](2026-nimble-migration.md)
 
-- [[Deliverable] Define and implement sharding for Communities messages](https://github.com/waku-org/pm/issues/266)
+- [[Deliverable] Migrate logos-delivery to Nimble](https://github.com/logos-messaging/pm/issues/377)
   - achieved:
   - next:
   - blockers:
 
-## [Integrate nwaku in status desktop relay mode only](2024-nwaku-in-status-desktop.md)
-
-- [[Deliverable] Nwaku in Status Desktop](https://github.com/waku-org/pm/issues/203)
+- [[Deliverable] Migrate nim-sds to Nimble](https://github.com/logos-messaging/pm/issues/378)
   - achieved:
   - next:
   - blockers:
 
-## [Streamline DevEx: Mobile, Rust and Web dev](milestones/messaging/open/2025-streamline-devex-mobile-rust-and-web-dev.md)
+# Logos Chat
 
-- [[Deliverable] Local Dev RLN Harness](https://github.com/logos-messaging/pm/issues/360)
-  - achieved:
-  - next: 
-  - blockers:
+## [Chat — Foundations](2025-create-chat-sdk-mvp.md)
 
-## [Introduce E2E Reliability in Status Communities](2024-e2e-reliability-protocol.md)
-
-- [[Deliverable] SDS protocol in Status - basic integration](https://github.com/waku-org/pm/issues/194)
+- [[Deliverable] Logos Chat Library](https://github.com/logos-messaging/pm/issues/316)
   - achieved:
   - next:
   - blockers:
 
-- [[Deliverable] SDS protocol in Status - basic recovery](https://github.com/waku-org/pm/issues/304)
+## [Chat — Group Conversations](2025-extend-chat-sdk-with-group-conversations.md)
+
+- [[Deliverable] Add Group Chat](https://github.com/logos-messaging/pm/issues/346)
   - achieved:
   - next:
   - blockers:
 
-## [Nwaku in Status Mobile and Light Mode MVP](2025-nwaku-in-status-mobile.md)
-
-- [[Deliverable] Status mobile build with nwaku MVP](https://github.com/waku-org/pm/issues/276)
+- Implement simple identity model
   - achieved:
   - next:
   - blockers:
 
-## Maintenance
+- Implement contact discovery
+  - achieved:
+  - next:
+  - blockers:
+
+- Design SDS and de-MLS integration
+  - achieved:
+  - next:
+  - blockers:
+
+- Remove unnecessary Nim shim from Logos Chat
+  - achieved:
+  - next:
+  - blockers:
+
+- Use Reliable Channels in Logos Chat
+  - achieved:
+  - next:
+  - blockers:
+
+## [Reliable Channel API — General Availability](2026-complete-reliable-channel-api.md)
+
+- [[Deliverable] Create Segmentation Library](https://github.com/logos-messaging/pm/issues/318)
+  - achieved:
+  - next:
+  - blockers:
+
+- [[Deliverable] Create Rate Limit Manager](https://github.com/logos-messaging/pm/issues/319)
+  - achieved:
+  - next:
+  - blockers:
+
+## [Chat — Developer Preview](2026-chat-developer-preview.md)
+
+- (deliverables TBD)
+  - achieved:
+  - next:
+  - blockers:
+
+# Logos Core
+
+## [Initial Integration to Logos Core](2025-enable-easy-c-bindings-for-desktop.md)
+
+- [[Deliverable] Implement a Delivery module for Logos Core](https://github.com/logos-messaging/pm/issues/374)
+  - achieved:
+  - next:
+  - blockers:
+
+- [[Deliverable] Create nim-ffi](https://github.com/logos-messaging/pm/issues/332)
+  - achieved:
+  - next:
+  - blockers:
+
+- [[Deliverable] Deploy required fleets for Testnet](https://github.com/logos-messaging/pm/issues/386)
+  - achieved:
+  - next:
+  - blockers:
+
+## [Logos Core Integration — Phase 2](2026-logos-core-integration-phase-2.md)
+
+- [[Deliverable] Integrate Chat and Delivery Logos Core modules](https://github.com/logos-messaging/pm/issues/387)
+  - achieved:
+  - next:
+  - blockers:
+
+- [[Deliverable] Add Group Chats API to Logos Core Chat module](https://github.com/logos-messaging/pm/issues/375)
+  - achieved:
+  - next:
+  - blockers:
+
+- [[Deliverable] Add Reliable Channel API to Logos Core Delivery module](https://github.com/logos-messaging/pm/issues/388)
+  - achieved:
+  - next:
+  - blockers:
+
+- [[Deliverable] POC: Delivery module uses Discovery module](https://github.com/logos-messaging/pm/issues/389)
+  - achieved:
+  - next:
+  - blockers:
+
+- [[Deliverable] Build Logos Core demo app in QML](https://github.com/logos-messaging/pm/issues/390)
+  - achieved:
+  - next:
+  - blockers:
+
+- [[Deliverable] Implement integration tests for Messaging modules](https://github.com/logos-messaging/pm/issues/391)
+  - achieved:
+  - next:
+  - blockers:
+
+# Status
+
+## [Status: Logos Delivery Integration](2026-status-logos-delivery-integration.md)
+
+- [[Deliverable] Remove existing nwaku integration from status-go](https://github.com/logos-messaging/pm/issues/394)
+  - achieved:
+  - next:
+  - blockers:
+
+- [[Deliverable] Integrate Messaging API in status-go](https://github.com/logos-messaging/pm/issues/380)
+  - achieved:
+  - next:
+  - blockers:
+
+## [Status: E2E Reliability in Communities](2024-e2e-reliability-protocol.md)
+
+- [[Deliverable] SDS protocol in Status — basic integration](https://github.com/logos-messaging/pm/issues/194)
+  - achieved:
+  - next:
+  - blockers:
+
+- [[Deliverable] SDS protocol in Status — basic recovery](https://github.com/logos-messaging/pm/issues/304)
+  - achieved:
+  - next:
+  - blockers:
+
+- [[Deliverable] SDS protocol in Status — enable wrapping for communities](https://github.com/logos-messaging/pm/issues/385)
+  - achieved:
+  - next:
+  - blockers:
+
+## [Status: Foundation for Communities Optimization](2025-foundation-for-communities-optimization.md)
+
+- [[Deliverable] Define and implement sharding for Communities messages](https://github.com/logos-messaging/pm/issues/266)
+  - achieved:
+  - next:
+  - blockers:
+
+## [Chat — Group Conversations](2025-extend-chat-sdk-with-group-conversations.md)
+
+- Perform test integration of Logos Chat into Status App
+  - achieved:
+  - next:
+  - blockers:
+
+## [Status: Logos Chat Integration](2026-status-logos-chat-integration.md)
+
+- (deliverables TBD)
+  - achieved:
+  - next:
+  - blockers:
+
+# Maintenance
+
   - achieved:
   - next:
   - blocked:
