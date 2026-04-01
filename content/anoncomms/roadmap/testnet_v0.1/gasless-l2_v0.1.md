@@ -1,8 +1,8 @@
 # [Gasless L2 Track: Testnet v0.1](ttps://github.com/logos-co/anoncomms-pm/milestone/8)
 
-**Track:** [Gasless L2 Track](../gasless-l2.md)
+**Track:** [Gasless L2 Track](/anoncomms/roadmap/gasless-l2.md)
 
-**FURPS:** [Zerokit FURPS](../../furps/zerokit.md)
+**FURPS:** [Zerokit FURPS](/anoncomms/furps/zerokit.md)
 
 **Estimated date of completion**: 30 Jun 2026
 
@@ -14,8 +14,6 @@
 ### [Allow multiple RLN provers to share a database](https://github.com/logos-co/anoncomms-pm/issues/11)
 
 **Owner**: AnonComms Zerokit-RLN
-
-**Feature**: [Zerokit-RLN FURPS](../furps/zerokit-rln.md)
 
 **FURPS**:
 
@@ -34,8 +32,6 @@
 
 **Owner**: AnonComms Zerokit-RLN
 
-**Feature**: [Zerokit-RLN FURPS](../furps/zerokit-rln.md)
-
 **FURPS**:
 
 - S1. A gasless L2 whitepaper is written to document the design and trade-offs
@@ -46,8 +42,6 @@
 ### [Support burning multiple IDs in a single RLN proof](https://github.com/logos-co/anoncomms-pm/issues/15)
 
 **Owner**: AnonComms Zerokit-RLN
-
-**Feature**: [Zerokit-RLN FURPS](../furps/zerokit-rln.md)
 
 **FURPS**:
 
@@ -62,8 +56,6 @@
 ### [Implementation of aggregator-slasher architecture](https://github.com/logos-co/anoncomms-pm/issues/16)
 
 **Owner**: AnonComms Zerokit-RLN
-
-**Feature**: [Zerokit-RLN FURPS](../furps/zerokit-rln.md)
 
 **FURPS**:
 

@@ -11,11 +11,11 @@ tags:
 
 The AnonComms team is currently working on the following features, required for mainnet:
 
-1. [Create a basic capability discovery module for Logos Core](./discovery.md), by defining an efficient capability discovery protocol over libp2p kad-DHT.
-2. [Establish a libp2p mixnet for Logos Core](./mix.md), with a special focus on DoS/Sybil protection and delivering privacy-preserving file sharing in collaboration with the Logos Storage team.
-3. [Deliver de-MLS for p2p group messaging](./de-mls.md), with a special focus on integration in the Logos Chat module.
-4. [Implement RLN membership allocation service for Logos Core](./rln.md), including translating RLN to run in the Logos Execution Zone (LEZ)
-5. [Research and develop an LEZ-compatible Decentralised Oracle Network](./oracle.md), in support of features such as a stablecoin
+1. [Create a basic capability discovery module for Logos Core](/anoncomms/roadmap/discovery.md), by defining an efficient capability discovery protocol over libp2p kad-DHT.
+2. [Establish a libp2p mixnet for Logos Core](/anoncomms/roadmap/mix.md), with a special focus on DoS/Sybil protection and delivering privacy-preserving file sharing in collaboration with the Logos Storage team.
+3. [Deliver de-MLS for p2p group messaging](/anoncomms/roadmap/de-mls.md), with a special focus on integration in the Logos Chat module.
+4. [Implement RLN membership allocation service for Logos Core](/anoncomms/roadmap/rln.md), including translating RLN to run in the Logos Execution Zone (LEZ)
+5. [Research and develop an LEZ-compatible Decentralised Oracle Network](/anoncomms/roadmap/oracle.md), in support of features such as a stablecoin
 
 Of these, (1) and (2) are the most critical,
 as basic capability discovery and routing anonymity
@@ -25,9 +25,9 @@ In addition, the team is also working on tracks,
 that either target post-mainnet features
 or are not critical for mainnet launch.
 
-6. [Implement an MVP payment protocol](./incentivisation.md) that exploits Logos Blockchain/Nescience to allow privacy-preserving, mostly off-chain payments to service providers.
-7. [Maintain and expand the Zerokit library](./zerokit.md) that improves usability and add big-endian support.
-8. [Support gasless L2 transactions](./gasless-l2.md) on Status Network, including publishing a whitepaper.
+6. [Implement an MVP payment protocol](/anoncomms/roadmap/incentivisation.md) that exploits Logos Blockchain/Nescience to allow privacy-preserving, mostly off-chain payments to service providers.
+7. [Maintain and expand the Zerokit library](/anoncomms/roadmap/zerokit.md) that improves usability and add big-endian support.
+8. [Support gasless L2 transactions](/anoncomms/roadmap/gasless-l2.md) on Status Network, including publishing a whitepaper.
 
 ## Testnet Milestones
 
@@ -37,31 +37,31 @@ The work is split into milestones, according to the targeted Logos testnet/relea
 
 Features critical for the testnet:
 
-- [x] [Capability Discovery Testnet v0.1 Deliverables](../roadmap/testnet_v0.1/discovery_v0.1.md)
-- [x] [Mix Testnet v0.1 Deliverables](../roadmap/testnet_v0.1/mix_v0.1.md)
+- [x] [Capability Discovery Testnet v0.1 Deliverables](/anoncomms/roadmap/testnet_v0.1/discovery_v0.1.md)
+- [x] [Mix Testnet v0.1 Deliverables](/anoncomms/roadmap/testnet_v0.1/mix_v0.1.md)
 
 Non-critical features explored within testnet scope:
 
-- [x] [Service Incentivisation Testnet v0.1 Deliverables](../roadmap/testnet_v0.1/incentivisation_v0.1.md)
-- [x] [De-MLS Testnet v0.1 Deliverables](../roadmap/testnet_v0.1/de-mls_v0.1.md)
-- [x] [Zerokit Testnet v0.1 Deliverables](../roadmap/testnet_v0.1/zerokit_v0.1.md)
-- [ ] [Gasless L2 Testnet v0.1 Deliverables](../roadmap/testnet_v0.1/gasless-l2_v0.1.md)
-- [ ] [RLN Testnet v0.1 Deliverables](../roadmap/testnet_v0.1/rln_v0.1.md)
+- [x] [Service Incentivisation Testnet v0.1 Deliverables](/anoncomms/roadmap/testnet_v0.1/incentivisation_v0.1.md)
+- [x] [De-MLS Testnet v0.1 Deliverables](/anoncomms/roadmap/testnet_v0.1/de-mls_v0.1.md)
+- [x] [Zerokit Testnet v0.1 Deliverables](/anoncomms/roadmap/testnet_v0.1/zerokit_v0.1.md)
+- [ ] [Gasless L2 Testnet v0.1 Deliverables](/anoncomms/roadmap/testnet_v0.1/gasless-l2_v0.1.md)
+- [ ] [RLN Testnet v0.1 Deliverables](/anoncomms/roadmap/testnet_v0.1/rln_v0.1.md)
 
 ### Testnet v0.2
 
 Features critical for the testnet:
 
-- [ ] [Capability Discovery Testnet v0.2 Deliverables](../roadmap/testnet_v0.2/discovery_v0.2.md)
-- [ ] [Mix Testnet v0.2 Deliverables](../roadmap/testnet_v0.2/mix_v0.2.md)
-- [ ] [De-MLS Testnet v0.2 Deliverables](../roadmap/testnet_v0.2/de-mls_v0.2.md)
+- [ ] [Capability Discovery Testnet v0.2 Deliverables](/anoncomms/roadmap/testnet_v0.2/discovery_v0.2.md)
+- [ ] [Mix Testnet v0.2 Deliverables](/anoncomms/roadmap/testnet_v0.2/mix_v0.2.md)
+- [ ] [De-MLS Testnet v0.2 Deliverables](/anoncomms/roadmap/testnet_v0.2/de-mls_v0.2.md)
 
 Non-critical features explored within testnet scope:
 
-- [ ] [Service Incentivisation Testnet v0.2 Deliverables](../roadmap/testnet_v0.2/incentivisation_v0.2.md)
-- [ ] [Zerokit Testnet v0.2 Deliverables](../roadmap/testnet_v0.2/zerokit_v0.2.md)
-- [ ] [RLN Testnet v0.2 Deliverables](../roadmap/testnet_v0.2/rln_v0.2.md)
-- [ ] [Oracle Testnet v0.2 Deliverables](../roadmap/testnet_v0.2/oracle_v0.2.md)
+- [ ] [Service Incentivisation Testnet v0.2 Deliverables](/anoncomms/roadmap/testnet_v0.2/incentivisation_v0.2.md)
+- [ ] [Zerokit Testnet v0.2 Deliverables](/anoncomms/roadmap/testnet_v0.2/zerokit_v0.2.md)
+- [ ] [RLN Testnet v0.2 Deliverables](/anoncomms/roadmap/testnet_v0.2/rln_v0.2.md)
+- [ ] [Oracle Testnet v0.2 Deliverables](/anoncomms/roadmap/testnet_v0.2/oracle_v0.2.md)
 
 #### Modules
 

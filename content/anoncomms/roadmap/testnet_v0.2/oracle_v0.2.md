@@ -1,8 +1,8 @@
-# Oracle Track: Testnet v0.2
+# [Oracle Track: Testnet v0.2](https://github.com/logos-co/anoncomms-pm/milestone/13)
 
-**Track:** [Oracle Track](../oracle.md)
+**Track:** [Oracle Track](/anoncomms/roadmap/oracle.md)
 
-**FURPS:** [Oracle FURPS](../../furps/oracle.md)
+**FURPS:** [Oracle FURPS](/anoncomms/furps/oracle.md)
 
 **Estimated date of completion**: 30 Jun 2026
 

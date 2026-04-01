@@ -1,8 +1,8 @@
-# Mix Track: Testnet v0.2
+# [Mix Track: Testnet v0.2](https://github.com/logos-co/anoncomms-pm/milestone/12)
 
-**Track:** [Mix Track](../mix.md)
+**Track:** [Mix Track](/anoncomms/roadmap/mix.md)
 
-**FURPS:** [Mix FURPS](../../furps/mix.md)
+**FURPS:** [Mix FURPS](/anoncomms/furps/mix.md)
 
 **Estimated date of completion**: 30 Jun 2026
 
@@ -12,7 +12,7 @@
 
 ## Deliverables
 
-### Specify and implement extended DoS and exit node abuse protection for libp2p mix
+### [Specify and implement extended DoS and exit node abuse protection for libp2p mix](https://github.com/logos-co/anoncomms-pm/issues/40)
 
 **Owner**: AnonComms Mix
 
@@ -28,7 +28,7 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### Add app-layer support for large messages (including large responses)
+### [Add app-layer support for large messages (including large responses)](https://github.com/logos-co/anoncomms-pm/issues/41)
 
 **Owner**: Storage Team (primary), AnonComms Mix (support)
 
@@ -44,7 +44,7 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### Specify and implement cover traffic generation
+### [Specify and implement cover traffic generation](https://github.com/logos-co/anoncomms-pm/issues/42)
 
 **Owner**: AnonComms Mix
 
@@ -59,7 +59,7 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### Specify and implement hidden services
+### [Specify and implement hidden services](https://github.com/logos-co/anoncomms-pm/issues/43)
 
 **Owner**: AnonComms Mix (primary), Storage Team (support)
 
@@ -75,7 +75,7 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### Integrate mix into the Logos Chat module
+### [Integrate mix into the Logos Chat module](https://github.com/logos-co/anoncomms-pm/issues/44)
 
 **Owner**: AnonComms Mix
 
@@ -88,7 +88,7 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### Experiment with mixifying basic DHT interactions
+### [Experiment with mixifying basic DHT interactions](https://github.com/logos-co/anoncomms-pm/issues/45)
 
 **Owner**: AnonComms Mix
 

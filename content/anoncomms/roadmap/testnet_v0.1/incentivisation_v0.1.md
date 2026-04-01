@@ -1,8 +1,8 @@
 # [Service Incentivisation Track: Testnet v0.1](https://github.com/logos-co/anoncomms-pm/milestone/5)
 
-**Track:** [Service Incentivisation Track](../incentivisation.md)
+**Track:** [Service Incentivisation Track](/anoncomms/roadmap/incentivisation.md)
 
-**FURPS:** [Service Incentivisation FURPS](../../furps/incentivisation.md)
+**FURPS:** [Service Incentivisation FURPS](/anoncomms/furps/incentivisation.md)
 
 **Estimated date of completion**: 31 Mar 2026
 

@@ -10,11 +10,11 @@ In this track, we specify and implement a privacy-preserving payment protocol fo
 
 ## Roadmap
 
-**FURPS**: [Service Incentivisation FURPS](../furps/incentivisation.md)
+**FURPS**: [Service Incentivisation FURPS](/anoncomms/furps/incentivisation.md)
 
 **Scheduled milestones**:
-- [Testnet v0.1](./testnet_v0.1/incentivisation_v0.1.md)
-- [Testnet v0.2](./testnet_v0.2/incentivisation_v0.2.md)
+- [Testnet v0.1](/anoncomms/roadmap/testnet_v0.1/incentivisation_v0.1.md)
+- [Testnet v0.2](/anoncomms/roadmap/testnet_v0.2/incentivisation_v0.2.md)
 
 ## Risks
 
