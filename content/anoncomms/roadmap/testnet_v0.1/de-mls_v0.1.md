@@ -1,8 +1,8 @@
 # [De-MLS Track: Testnet v0.1](https://github.com/logos-co/anoncomms-pm/milestone/3)
 
-**Track:** [De-MLS Track](../de-mls.md)
+**Track:** [De-MLS Track](/anoncomms/roadmap/de-mls.md)
 
-**FURPS:** [De-MLS FURPS](../../furps/de-mls.md)
+**FURPS:** [De-MLS FURPS](/anoncomms/furps/de-mls.md)
 
 **Estimated date of completion**: 31 March 2026
 

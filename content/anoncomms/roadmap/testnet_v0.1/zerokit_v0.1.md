@@ -1,8 +1,8 @@
 # [Zerokit Track: Testnet v0.1](https://github.com/logos-co/anoncomms-pm/milestone/6)
 
-**Track:** [Zerokit Track](../zerokit.md)
+**Track:** [Zerokit Track](/anoncomms/roadmap/zerokit.md)
 
-**FURPS:** [Zerokit FURPS](../../furps/zerokit.md)
+**FURPS:** [Zerokit FURPS](/anoncomms/furps/zerokit.md)
 
 **Estimated date of completion**: 30 Jun 2026
 
@@ -14,8 +14,6 @@
 ### [Rework Zerokit WASM FFI](https://github.com/logos-co/anoncomms-pm/issues/7)
 
 **Owner**: AnonComms Zerokit-RLN
-
-**Feature**: [Zerokit-RLN FURPS](../furps/zerokit-rln.md)
 
 **FURPS**:
 
@@ -31,8 +29,6 @@
 ### [Rework Zerokit Public API](https://github.com/logos-co/anoncomms-pm/issues/8)
 
 **Owner**: AnonComms Zerokit-RLN
-
-**Feature**: [Zerokit-RLN FURPS](../furps/zerokit-rln.md)
 
 **FURPS**:
 

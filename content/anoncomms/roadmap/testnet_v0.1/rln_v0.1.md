@@ -1,8 +1,8 @@
 # RLN Track: Testnet v0.1
 
-**Track:** [RLN Track](../rln.md)
+**Track:** [RLN Track](/anoncomms/roadmap/rln.md)
 
-**FURPS:** [RLN FURPS](../../furps/rln.md)
+**FURPS:** [RLN FURPS](/anoncomms/furps/rln.md)
 
 **Estimated date of completion**: 31 Mar 2026
 

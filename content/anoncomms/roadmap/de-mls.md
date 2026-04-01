@@ -15,11 +15,11 @@ This includes a public API wrapping the functionality.
 
 ## Roadmap
 
-**FURPS**: [De-MLS FURPS](../furps/de-mls.md)
+**FURPS**: [De-MLS FURPS](/anoncomms/furps/de-mls.md)
 
 **Scheduled milestones**:
-- [Testnet v0.1](./testnet_v0.1/de-mls_v0.1.md)
-- [Testnet v0.2](./testnet_v0.2/de-mls_v0.2.md)
+- [Testnet v0.1](/anoncomms/roadmap/testnet_v0.1/de-mls_v0.1.md)
+- [Testnet v0.2](/anoncomms/roadmap/testnet_v0.2/de-mls_v0.2.md)
 
 Future work in this track, include:
 1. Longer term benchmarking and testing to improve the efficiency and scalability of the consensus and messaging protocol.

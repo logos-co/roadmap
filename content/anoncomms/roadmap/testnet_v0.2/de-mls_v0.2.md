@@ -1,8 +1,8 @@
-# [De-MLS Track: Testnet v0.2](https://github.com/logos-co/anoncomms-pm/milestone/3)
+# [De-MLS Track: Testnet v0.2](https://github.com/logos-co/anoncomms-pm/milestone/9)
 
-**Track:** [De-MLS Track](../de-mls.md)
+**Track:** [De-MLS Track](/anoncomms/roadmap/de-mls.md)
 
-**FURPS:** [De-MLS FURPS](../../furps/de-mls.md)
+**FURPS:** [De-MLS FURPS](/anoncomms/furps/de-mls.md)
 
 **Estimated date of completion**: 30 Jun 2026
 
@@ -16,8 +16,6 @@
 
 **Owner**: AnonComms de-MLS
 
-**Feature**: [de-MLS FURPS](../furps/de-mls.md)
-
 **FURPS**:
 
 - U1. De-MLS protocol with multi-steward support is published in a specification
@@ -28,7 +26,7 @@
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
 
-### Implement de-MLS peer scoring
+### [Implement de-MLS peer scoring](https://github.com/logos-co/anoncomms-pm/issues/25)
 
 **Owner**: AnonComms de-MLS
 
@@ -41,7 +39,7 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### Implement de-MLS multi-stewards
+### [Implement de-MLS multi-stewards](https://github.com/logos-co/anoncomms-pm/issues/26)
 
 **Owner**: AnonComms de-MLS
 
@@ -56,7 +54,7 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### Implement de-MLS recovery mode
+### [Implement de-MLS recovery mode](https://github.com/logos-co/anoncomms-pm/issues/27)
 
 **Owner**: AnonComms de-MLS
 
@@ -69,7 +67,7 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### Allow de-MLS new joiners to sync group state
+### [Allow de-MLS new joiners to sync group state](https://github.com/logos-co/anoncomms-pm/issues/28)
 
 **Owner**: AnonComms de-MLS
 
@@ -82,7 +80,7 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### Implement a de-MLS commit validation service
+### [Implement a de-MLS commit validation service](https://github.com/logos-co/anoncomms-pm/issues/29)
 
 **Owner**: AnonComms de-MLS
 
@@ -90,7 +88,13 @@
 
 - F7. Commits can be validated and violations appropriately handled
 
-### Integrate de-MLS into Logos Chat
+**Checklist**:
+- [ ] Specs: link to specs and/or API definition
+- [ ] Code: link to GitHub issues/PRs/Epic
+- [ ] Dogfood: link to dogfooding session/artefact
+- [ ] Docs: links to README.md or other docs
+
+### [Integrate de-MLS into Logos Chat](https://github.com/logos-co/anoncomms-pm/issues/30)
 
 **Owner**: Messaging Chat (primary), AnonComms de-MLS (support)
 

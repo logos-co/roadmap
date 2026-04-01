@@ -1,8 +1,8 @@
-# RLN Track: Testnet v0.2
+# [RLN Track: Testnet v0.2](https://github.com/logos-co/anoncomms-pm/milestone/14)
 
-**Track:** [RLN Track](../rln.md)
+**Track:** [RLN Track](/anoncomms/roadmap/rln.md)
 
-**FURPS:** [RLN FURPS](../../furps/rln.md)
+**FURPS:** [RLN FURPS](/anoncomms/furps/rln.md)
 
 **Estimated date of completion**: 30 Jun 2026
 
@@ -31,7 +31,7 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### Integrate RLN membership allocation into Logos Chat module
+### [Integrate RLN membership allocation into Logos Chat module](https://github.com/logos-co/anoncomms-pm/issues/46)
 
 - U2. Logos Delivery and Chat can use the service to obtain RLN memberships
 
