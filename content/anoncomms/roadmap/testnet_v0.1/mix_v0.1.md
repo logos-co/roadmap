@@ -1,8 +1,8 @@
 # [Mix Track: Testnet v0.1](https://github.com/logos-co/anoncomms-pm/milestone/2)
 
-**Track:** [Mix Track](../mix.md)
+**Track:** [Mix Track](/anoncomms/roadmap/mix.md)
 
-**FURPS:** [Mix FURPS](../../furps/mix.md)
+**FURPS:** [Mix FURPS](/anoncomms/furps/mix.md)
 
 **Estimated date of completion**: 31 Mar 2026
 

@@ -1,8 +1,8 @@
-# Capability Discovery Track: Testnet v0.2
+# [Capability Discovery Track: Testnet v0.2](https://github.com/logos-co/anoncomms-pm/milestone/10)
 
-**Track:** [Capability Discovery Track](../discovery.md)
+**Track:** [Capability Discovery Track](/anoncomms/roadmap/discovery.md)
 
-**FURPS:** [Capability Discovery FURPS](../../furps/discovery.md)
+**FURPS:** [Capability Discovery FURPS](/anoncomms/furps/discovery.md)
 
 **Estimated date of completion**: 30 Jun 2026
 
@@ -13,7 +13,7 @@
 
 ## Deliverables
 
-### Integrate and dogfood capability discovery in Logos Delivery
+### [Integrate and dogfood capability discovery in Logos Delivery](https://github.com/logos-co/anoncomms-pm/issues/31)
 
 **Owner**: AnonComms Discovery
 
@@ -27,7 +27,7 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### Specify standalone capability discovery API
+### [Specify standalone capability discovery API](https://github.com/logos-co/anoncomms-pm/issues/32)
 
 **Owner**: AnonComms Discovery
 
@@ -38,7 +38,7 @@
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
 
-### Allow client mode for discovery without Kad-DHT participation
+### [Allow client mode for discovery without Kad-DHT participation](https://github.com/logos-co/anoncomms-pm/issues/33)
 
 **Owner**: AnonComms Discovery
 
@@ -52,7 +52,7 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### Implement extensible peer record library for discoverable records
+### [Implement extensible peer record library for discoverable records](https://github.com/logos-co/anoncomms-pm/issues/34)
 
 **Owner**: AnonComms Discovery
 
@@ -65,7 +65,7 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### Implement standalone Logos capability discovery module
+### [Implement standalone Logos capability discovery module](https://github.com/logos-co/anoncomms-pm/issues/35)
 
 **Owner**: P2P Team (primary), AnonComms Discovery (support)
 
@@ -78,7 +78,7 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### Large scale benchmarking of the capability discovery module
+### [Large scale benchmarking of the capability discovery module](https://github.com/logos-co/anoncomms-pm/issues/36)
 
 **Owner**: DST Team (primary), AnonComms Discovery (support)
 

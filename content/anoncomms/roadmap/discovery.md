@@ -12,11 +12,11 @@ The new capability discovery protocol will be published as a specification adapt
 
 ## Roadmap
 
-**FURPS**: [Capability Discovery FURPS](../furps/discovery.md)
+**FURPS**: [Capability Discovery FURPS](/anoncomms/furps/discovery.md)
 
 **Scheduled milestones**:
-- [Testnet v0.1](./testnet_v0.1/discovery_v0.1.md)
-- [Testnet v0.2](./testnet_v0.2/discovery_v0.2.md)
+- [Testnet v0.1](/anoncomms/roadmap/testnet_v0.1/discovery_v0.1.md)
+- [Testnet v0.2](/anoncomms/roadmap/testnet_v0.2/discovery_v0.2.md)
 
 Future work in this track, include:
 1. Anonymising the discovery protocol, including privacy-preserving discovery requests, anonymous DHT participation, etc.

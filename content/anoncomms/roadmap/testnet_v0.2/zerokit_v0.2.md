@@ -1,8 +1,8 @@
-# Zerokit Track: Testnet v0.2
+# [Zerokit Track: Testnet v0.2](https://github.com/logos-co/anoncomms-pm/milestone/15)
 
-**Track:** [Zerokit Track](../zerokit.md)
+**Track:** [Zerokit Track](/anoncomms/roadmap/zerokit.md)
 
-**FURPS:** [Zerokit FURPS](../../furps/zerokit.md)
+**FURPS:** [Zerokit FURPS](/anoncomms/furps/zerokit.md)
 
 **Estimated date of completion**: 30 Jun 2026
 
@@ -11,7 +11,7 @@
 
 ## Deliverables
 
-### Release Zerokit (v2.0.0) for multi-ID burning and partial proof generation
+### [Release Zerokit (v2.0.0) for multi-ID burning and partial proof generation](https://github.com/logos-co/anoncomms-pm/issues/47)
 
 **Owner**: AnonComms Zerokit
 
@@ -25,7 +25,7 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### Rearchitecture Zerokit to support enum-based runtime configuration
+### [Rearchitecture Zerokit to support enum-based runtime configuration](https://github.com/logos-co/anoncomms-pm/issues/48)
 
 **Owner**: AnonComms Zerokit
 

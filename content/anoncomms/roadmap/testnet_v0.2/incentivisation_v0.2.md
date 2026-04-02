@@ -1,8 +1,8 @@
-# Service Incentivisation Track: Testnet v0.2
+# [Service Incentivisation Track: Testnet v0.2](https://github.com/logos-co/anoncomms-pm/milestone/11)
 
-**Track:** [Service Incentivisation Track](../incentivisation.md)
+**Track:** [Service Incentivisation Track](/anoncomms/roadmap/incentivisation.md)
 
-**FURPS:** [Service Incentivisation FURPS](../../furps/incentivisation.md)
+**FURPS:** [Service Incentivisation FURPS](/anoncomms/furps/incentivisation.md)
 
 **Estimated date of completion**: 30 Jun 2026
 
@@ -11,7 +11,7 @@
 
 ## Deliverables
 
-### Specify on-chain component for payment protocol
+### [Specify on-chain component for payment protocol](https://github.com/logos-co/anoncomms-pm/issues/37)
 
 **Owner**: AnonComms Incentivisation
 
@@ -22,7 +22,7 @@
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
 
-### Implement MVP payment protocol
+### [Implement MVP payment protocol](https://github.com/logos-co/anoncomms-pm/issues/38)
 
 **Owner**: AnonComms Incentivisation
 
@@ -39,7 +39,7 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### Create demo payment module for Logos Core
+### [Create demo payment module for Logos Core](https://github.com/logos-co/anoncomms-pm/issues/39)
 
 **Owner**: AnonComms Incentivisation
 
