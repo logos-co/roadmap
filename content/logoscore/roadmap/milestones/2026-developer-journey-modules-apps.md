@@ -10,7 +10,7 @@ github-milestone: 'https://github.com/logos-co/logos-workspace/issues/44'
 
 https://github.com/logos-co/logos-workspace/issues/44
 
-**Estimated date of completion**: June 2026 (Testnet v0.2)
+**completion target**:  Testnet v0.2
 
 **Resources Required for 2026H1**:
 
