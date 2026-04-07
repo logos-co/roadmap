@@ -41,6 +41,7 @@ We use two release stages for developer-facing APIs and libraries:
 - [ ] [Chat — Group Conversations](2025-extend-chat-sdk-with-group-conversations)
 - [ ] [Logos Core Integration — Phase 2](2026-logos-core-integration-phase-2)
 - [ ] [QUIC Transport in Logos Delivery](2025-support-discovery-research-and-libp2p-quic)
+- [ ] [RLN for lightpush](2026-rln-for-lightpush.md)
 
 ### Testnet [v0.3](v03)
 
