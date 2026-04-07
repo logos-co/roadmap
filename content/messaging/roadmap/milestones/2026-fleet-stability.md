@@ -3,7 +3,7 @@ title: Fleet Stability
 tags:
   - messaging-milestone
 date: 2026-02-01
-github: https://github.com/logos-messaging/pm/milestone/66
+github: https://github.com/logos-messaging/pm/issues/399
 ---
 **Estimated date of completion**: End of April 2026
 

@@ -1,13 +1,10 @@
 ---
-title: 'Status: Foundation for Communities Optimization'
+title: "Status: Foundation for Communities Optimization"
 tags:
-    - messaging-milestone
+  - messaging-milestone
 date: 2024-09-07
-github: https://github.com/waku-org/pm/milestone/31
+github: https://github.com/logos-messaging/pm/issues/409
 ---
-
-**Estimated date of completion**: 31 Oct 2025 (Final clean-up to be merged after a few Status app releases)
-
 **Resources Required for 2025H2**:
 - 1 App/Chat engineer for 2 weeks (only work will be to rebase and merge an existing clean-up PR)
 - Vac/QA to run status-backend tests
@@ -27,7 +24,6 @@ reducing retention time for control messages, or disabling the usage of relay fo
 **FURPS**: [Status Communities](/messaging/furps/application/status_communities.md): all.
 
 ### Deliverable: [Define and implement sharding for Communities messages](https://github.com/waku-org/pm/issues/266)
-
 Define message flows to be moved to separate shards (e.g. community control + content messages). Extracting community messages off the common open shard (also used by private chats) should be considered.
 
 Breaking changes and migration plans, if necessary, should be specified as part of this output.

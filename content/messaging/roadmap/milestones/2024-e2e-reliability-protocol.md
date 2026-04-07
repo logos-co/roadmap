@@ -1,13 +1,10 @@
 ---
-title: 'Status: Introduce E2E Reliability in Communities'
+title: "Status: Introduce E2E Reliability in Communities"
 tags:
-    - messaging-milestone
+  - messaging-milestone
 date: 2024-09-07
-github: https://github.com/waku-org/pm/milestone/29
+github: https://github.com/logos-messaging/pm/issues/410
 ---
-
-**Estimated date of completion**: 31 Dec 2025
-
 **Resources Required for 2025H2**:
 - 1 app chat engineer for 2 months
 - Status dev for review support

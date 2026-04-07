@@ -1,9 +1,9 @@
 ---
-title: 'Status: Logos Delivery Integration'
+title: "Status: Logos Delivery Integration"
 tags:
   - messaging-milestone
 date: 2026-02-01
-github: https://github.com/logos-messaging/pm/milestone/33
+github: https://github.com/logos-messaging/pm/issues/408
 ---
 
 **Estimated date of completion**: May 2026 (after Messaging API is integration-ready)
