@@ -3,12 +3,10 @@ title: Chat — Group Conversations
 tags:
   - messaging-milestone
 date: 2025-12-18
-github-milestone: 'https://github.com/logos-messaging/pm/milestone/50'
+github: 'https://github.com/logos-messaging/pm/issues/406'
 ---
 
 # Chat — Group Conversations
-
-https://github.com/logos-messaging/pm/milestone/50
 
 **Estimated date of completion**: Testnet v0.2
 
