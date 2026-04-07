@@ -113,6 +113,20 @@ https://github.com/logos-messaging/pm/issues/319
 - U5. Rate limit is configurable at channel creation.
 - U6. Rate limit "approached" state is configurable at channel creation.
 
+### [Implement RLN membership management in `logos-delivery`](https://github.com/logos-messaging/pm/issues/353)
+
+**Owner:** Delivery Team
+
+**FURPS:**
+- F1. Can generate RLN credentials.
+- F2. Can insert RLN membership in smart contract, with accompanying deposit.
+- F3. Can extend RLN membership on smart contract.
+- F4. Can withdraw deposit from smart contract.
+- F5. Membership credentials are encrypted by default on local disk.
+- U1. RLN membership details can be exported and imported.
+- U2. Deployment details (address, chain id) are persisted by library and in exports.
+- +2. Available for Linea Sepolia Testnet contracts.
+
 ### Deprecate store hash queries for missing messages
 
 **Owner**: Delivery Team

@@ -78,7 +78,7 @@ A single Logos Core application implemented in QML (replacing the v0.1 Qt widget
 - Supports identity (user with multiple installations, add/remove devices)
 - Uses the Chat and Delivery Logos Core modules through their APIs
 
-### Define integration tests for Messaging modules
+### Implement integration tests for Messaging modules
 
 **Owner**: Messaging Team (definition) + IFT-TS (implementation)
 

@@ -73,3 +73,10 @@ Status switches from its current chat protocol implementation to Logos Chat, con
 - Token-gated access layer remains Status-owned
 - No separate community protocol from Messaging team
 - Logos Chat provides the group chat substrate; Status builds community features on top
+
+### [Deploy RLN Contracts to Status L2 testnet](https://github.com/logos-messaging/pm/issues/356)
+
+**Owner:** Delivery Team
+
+- RLN contracts are deployed on Status Network
+- Logos Delivery in Status is uses RLN on Status Network
