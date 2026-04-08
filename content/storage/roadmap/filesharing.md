@@ -1,8 +1,6 @@
-# Create A Basic File Sharing Client for Logos Core
+# Scalable, Simple File Sharing Client for Logos
 
-**Estimated date of completion.** Feb 2026
-
-**Resources Required**: 3 developers for 12 weeks.
+**Estimated date of completion.** Apr 2026
 
 Serving frontends, modules, and files boils down to being able to allowing users to publish and retrieve content-addressable files over the network. From the point of view of Logos Storage, this means providing the required primitives and protocols which enable that.
 
@@ -19,6 +17,4 @@ The current Nim implementation of Storage already provides that to some extent, 
 
 ## Deliverables
 
-**Feature**: [[frontends-filesharing]]
-
-A list of detailed deliverables will be specified soon.
+See the deliverables for each testnet under our [detailed roadmap](/storage/roadmap/#detailed-roadmap).
