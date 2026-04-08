@@ -25,7 +25,7 @@ Logos Messaging is working towards these features, required to be implemented fo
 The work is split into milestones, planned to be achieved by certain release.
 
 We use two release stages for developer-facing APIs and libraries:
-- **Developer Preview** — first externally-usable release. Functional but limited scope, intended for early adopters and feedback collection.
+- **Developer Preview** — first externally-usable arelease. Functional but limited scope, intended for early adopters and feedback collection.
 - **General Availability** — feature-complete, QA-approved, production-ready release.
 
 ### Testnet [v0.1](v01)
