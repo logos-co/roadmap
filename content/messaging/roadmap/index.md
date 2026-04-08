@@ -30,39 +30,39 @@ We use two release stages for developer-facing APIs and libraries:
 
 ### Testnet [v0.1](v01)
 
-- [Messaging API — Developer Preview](2025-api-access-to-p2p-reliability-for-desktop.md)
-- [Chat — Foundations](2025-create-chat-sdk-mvp.md)
-- [Initial Integration to Logos Core](2025-enable-easy-c-bindings-for-desktop.md)
+- [x] [Messaging API — Developer Preview](2025-api-access-to-p2p-reliability-for-desktop.md)
+- [x] [Chat — Foundations](2025-create-chat-sdk-mvp.md)
+- [ ] [Initial Integration to Logos Core](2025-enable-easy-c-bindings-for-desktop.md)
 
 ### Testnet [v0.2](v02)
 
-- [Messaging API — General Availability](2026-messaging-api-general-availability)
-- [Reliable Channel API — Developer Preview](2025-package-sds-in-reliable-channel-api.md)
-- [Chat — Group Conversations](2025-extend-chat-sdk-with-group-conversations)
-- [Logos Core Integration — Phase 2](2026-logos-core-integration-phase-2)
-- [QUIC Transport in Logos Delivery](2025-support-discovery-research-and-libp2p-quic)
+- [ ] [Messaging API — General Availability](2026-messaging-api-general-availability)
+- [ ] [Reliable Channel API — Developer Preview](2025-package-sds-in-reliable-channel-api.md)
+- [ ] [Chat — Group Conversations](2025-extend-chat-sdk-with-group-conversations)
+- [ ] [Logos Core Integration — Phase 2](2026-logos-core-integration-phase-2)
+- [ ] [QUIC Transport in Logos Delivery](2025-support-discovery-research-and-libp2p-quic)
 
 ### Testnet [v0.3](v03)
 
-- [Reliable Channel API — General Availability](2026-complete-reliable-channel-api.md)
-- [Chat — Developer Preview](2026-chat-developer-preview)
-- [RLN on Logos Blockchain](2026-add-support-for-rln-on-lee)
+- [ ] [Reliable Channel API — General Availability](2026-complete-reliable-channel-api.md)
+- [ ] [Chat — Developer Preview](2026-chat-developer-preview)
+- [ ] [RLN on Logos Blockchain](2026-add-support-for-rln-on-lee)
 
 ### Required for Mainnet
 
-- [Support Mobile Platforms](2026-support-mobile-platforms)
-- [Chat — General Availability](2026-chat-general-availability)
-- [Logos Core Integration — Phase 3](2026-logos-core-integration-phase-3)
-- Security audit (internal security team review followed by external audit)
+- [ ] [Support Mobile Platforms](2026-support-mobile-platforms)
+- [ ] [Chat — General Availability](2026-chat-general-availability)
+- [ ] [Logos Core Integration — Phase 3](2026-logos-core-integration-phase-3)
+- [ ] Security audit (internal security team review followed by external audit)
 
 ### Parallel milestones
 
-- [Nimble Migration](2026-nimble-migration)
-- [Fleet Stability](2026-fleet-stability)
-- [Status: Logos Delivery Integration](2026-status-logos-delivery-integration)
-- [Status: Foundation for Communities Optimization](2025-foundation-for-communities-optimization)
-- [Status: E2E Reliability in Communities](2024-e2e-reliability-protocol)
-- [Status: Logos Chat Integration](2026-status-logos-chat-integration)
+- [ ] [Nimble Migration](2026-nimble-migration)
+- [ ] [Fleet Stability](2026-fleet-stability)
+- [ ] [Status: Logos Delivery Integration](2026-status-logos-delivery-integration)
+- [ ] [Status: Foundation for Communities Optimization](2025-foundation-for-communities-optimization)
+- [ ] [Status: E2E Reliability in Communities](2024-e2e-reliability-protocol)
+- [ ] [Status: Logos Chat Integration](2026-status-logos-chat-integration)
 
 
 ---
