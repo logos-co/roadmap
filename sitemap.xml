@@ -948,7 +948,7 @@
     <lastmod>2025-11-18T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/</loc>
-    <lastmod>2026-03-23T13:44:23.291Z</lastmod>
+    <lastmod>2026-04-08T14:33:47.507Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2023-milestones</loc>
     <lastmod>2024-03-07T00:00:00.000Z</lastmod>
@@ -1472,23 +1472,59 @@
     <loc>https://roadmap.logos.co/reports/weekly/</loc>
     <lastmod>2026-04-01T18:08:01.061Z</lastmod>
   </url><url>
+    <loc>https://roadmap.logos.co/storage/furps/anonymous-dht-queries</loc>
+    <lastmod>2026-04-08T14:33:47.507Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/storage/furps/anonymous-downloads-over-mix</loc>
+    <lastmod>2026-04-08T14:33:47.507Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/storage/furps/enhanced-filesharing-protocol</loc>
+    <lastmod>2026-04-08T14:33:47.507Z</lastmod>
+  </url><url>
     <loc>https://roadmap.logos.co/storage/furps/frontends-filesharing</loc>
     <lastmod>2026-03-02T07:03:52.164Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/storage/furps/privacy-preserving-filesharing</loc>
-    <lastmod>2026-03-02T07:03:52.164Z</lastmod>
+    <loc>https://roadmap.logos.co/storage/furps/improved-nat-traversal</loc>
+    <lastmod>2026-04-08T14:33:47.507Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/storage/furps/large-data-transport-layer-for-mix</loc>
+    <lastmod>2026-04-08T14:33:47.507Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/storage/furps/privacy-preserving-filesharing-furps</loc>
+    <lastmod>2026-04-08T14:33:47.507Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/storage/</loc>
     <lastmod>2025-12-09T00:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/storage/roadmap/frontends-filesharing-rme</loc>
-    <lastmod>2026-03-02T07:03:52.164Z</lastmod>
+    <loc>https://roadmap.logos.co/storage/roadmap/anonymous-persistence</loc>
+    <lastmod>2026-04-08T14:33:47.507Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/storage/roadmap/filesharing</loc>
+    <lastmod>2026-04-08T14:33:47.507Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/storage/roadmap/</loc>
-    <lastmod>2026-03-02T07:03:52.164Z</lastmod>
+    <lastmod>2026-04-08T14:33:47.507Z</lastmod>
   </url><url>
-    <loc>https://roadmap.logos.co/storage/roadmap/privacy-preserving-filesharing-rme</loc>
-    <lastmod>2026-03-02T07:03:52.164Z</lastmod>
+    <loc>https://roadmap.logos.co/storage/roadmap/logos-core-integration</loc>
+    <lastmod>2026-04-08T14:33:47.507Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/storage/roadmap/privacy-preserving-filesharing</loc>
+    <lastmod>2026-04-08T14:33:47.507Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/storage/roadmap/tracks/v0.1-filesharing</loc>
+    <lastmod>2026-04-08T14:33:47.507Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/storage/roadmap/tracks/v0.1-logos-core-integration</loc>
+    <lastmod>2026-04-08T14:33:47.507Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/storage/roadmap/tracks/v0.2-filesharing</loc>
+    <lastmod>2026-04-08T14:33:47.507Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/storage/roadmap/tracks/v0.2-privacy-preserving-filesharing</loc>
+    <lastmod>2026-04-08T14:33:47.507Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/storage/roadmap/tracks/v0.3-privacy-preserving-filesharing</loc>
+    <lastmod>2026-04-08T14:33:47.511Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/storage/updates/2023-07-21</loc>
     <lastmod>2023-08-03T00:00:00.000Z</lastmod>
