@@ -3,14 +3,12 @@ title: Messaging API — Developer Preview
 tags:
   - messaging-milestone
 date: 2025-07-03
-github-milestone: 'https://github.com/logos-messaging/pm/milestone/46'
+github: 'https://github.com/logos-messaging/pm/issues/395'
 ---
 
 > [!NOTE] This file will be renamed to `2026-messaging-api-developer-preview`
 
 # Messaging API — Developer Preview
-
-https://github.com/logos-messaging/pm/milestone/46
 
 **Estimated date of completion**: March 2026 (Testnet v0.1)
 
