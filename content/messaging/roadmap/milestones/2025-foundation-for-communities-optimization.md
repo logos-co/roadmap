@@ -23,12 +23,12 @@ reducing retention time for control messages, or disabling the usage of relay fo
 
 **FURPS**: [Status Communities](/messaging/furps/application/status_communities.md): all.
 
-### Deliverable: [Define and implement sharding for Communities messages](https://github.com/waku-org/pm/issues/266)
+### Deliverable: [Define and implement sharding for Communities messages](https://github.com/logos-messaging/pm/issues/266)
 Define message flows to be moved to separate shards (e.g. community control + content messages). Extracting community messages off the common open shard (also used by private chats) should be considered.
 
 Breaking changes and migration plans, if necessary, should be specified as part of this output.
 
-### Deliverable: [Review usage of content topics in Status Communities protocol](https://github.com/waku-org/pm/issues/268)
+### Deliverable: [Review usage of content topics in Status Communities protocol](https://github.com/logos-messaging/pm/issues/268)
 
 The usage of content topics in Status is aligned with Wakuv1. Waku v2 comes with a new recommended format that enables auto-sharding.
 

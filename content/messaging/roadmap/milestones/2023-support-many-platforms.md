@@ -4,21 +4,18 @@ tags:
     - messaging-milestone
 date: 2024-09-07
 lastmod: 2024-09-29
+github: https://github.com/waku-org/pm/milestone/2
 ---
 
-Github Milestone: https://github.com/waku-org/pm/milestone/2
 Due by: 2024-04-30
 
-## Epic: Ship RLN as part of non-native SDKs
-- Link: https://github.com/waku-org/pm/issues/88
 - Issues in Epic:
 	- https://github.com/waku-org/go-zerokit-rln/issues/5
 	- https://github.com/waku-org/go-waku/issues/732
 	- https://github.com/waku-org/nwaku/issues/2033
 	- https://github.com/fryorcraken/milestone-update/
 
-## Epic: REST API service node
-- Link: https://github.com/waku-org/pm/issues/82
+### Epic: [REST API service node](https://github.com/logos-messaging/pm/issues/82)
 - Issues in Epic:
 	- https://github.com/waku-org/nwaku/issues/1988
 	- https://github.com/waku-org/nwaku/issues/1985
@@ -31,7 +28,6 @@ Due by: 2024-04-30
 	- https://github.com/waku-org/nwaku/issues/938
 	- https://github.com/waku-org/go-waku/issues/264
 
-## Epic: NodeJS Library
-- Link: https://github.com/waku-org/pm/issues/81
+### Epic: [NodeJS Library](https://github.com/logos-messaging/pm/issues/81)
 - Issues in Epic:
 	- https://github.com/waku-org/nwaku/issues/1332

@@ -39,7 +39,7 @@ With this milestone, we tackle the lesson learned from dogfooding by:
 
 ## Deliverables 
 
-### [Zerokit is used in the Browser for Credentials Management](https://github.com/waku-org/pm/issues/341)
+### [Zerokit is used in the Browser for Credentials Management](https://github.com/logos-messaging/pm/issues/341)
 
 **Owner**: js-waku
 

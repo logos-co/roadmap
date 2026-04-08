@@ -42,7 +42,7 @@ See deliverables.
 
 ## Deliverables
 
-### ~~[Global Network Metrics](https://github.com/waku-org/pm/issues/295)~~
+### ~~[Global Network Metrics](https://github.com/logos-messaging/pm/issues/295)~~
 
 **Owner**: ~~App/Chat Dev~~ BI
 
@@ -155,7 +155,7 @@ For:
   - [ ] How to contribute to documentation: location, format
 - [ ] Setup an initial structure to enable the guideline
 
-### [Trial QUIC](https://github.com/waku-org/pm/issues/324)
+### [Trial QUIC](https://github.com/logos-messaging/pm/issues/324)
 
 **Owner**: nwaku
 

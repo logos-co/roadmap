@@ -3,6 +3,7 @@ title: Reliable Channel API — Developer Preview
 tags:
   - messaging-milestone
 date: 2025-12-10
+github: https://github.com/logos-messaging/pm/issues/405
 ---
 
 > [!NOTE] This file will be renamed to `2026-reliable-channel-api-developer-preview`

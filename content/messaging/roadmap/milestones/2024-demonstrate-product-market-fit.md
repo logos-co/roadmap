@@ -11,7 +11,7 @@ To demonstrate the viability of Waku as a self-sustainable independent project, 
 
 Such validation can enable prioritisation of work and potentially dropping undesired features.
 
-### Deliverable: [Define cost (self-host)](https://github.com/waku-org/pm/issues/247)
+### Deliverable: [Define cost (self-host)](https://github.com/logos-messaging/pm/issues/247)
 
 Cost of using Waku needs to be assessed to enable projects, including Status, to understand the potential ROI in using Waku.
 
@@ -25,13 +25,13 @@ The output of this deliverable should provide an estimate, in terms of infrastru
 
 Note: depends on PostgreSQL Optimisation - phase 2 deliverable for infrastructure costs.
 
-### Deliverable: [The Waku Whitepaper](https://github.com/waku-org/pm/issues/248)
+### Deliverable: [The Waku Whitepaper](https://github.com/logos-messaging/pm/issues/248)
 
 Write an academically rigorous whitepaper explaining the what, why and how of Waku protocols and ensure the coherence of the Waku technology.
 
 As set out in [research#7](https://github.com/waku-org/research/issues/7). The document itself may source from one or more academic papers published and presented throughout the year. Total length should be around 15 pages.
 
-### Deliverable: [Define potential USPs](https://github.com/waku-org/pm/issues/249)
+### Deliverable: [Define potential USPs](https://github.com/logos-messaging/pm/issues/249)
 
 Define Waku products and features, and potential problems they may solve. Some of it is already captured in the validation matrix.
 
@@ -41,7 +41,7 @@ Items can be validated, invalidated or new items can be recorded as part of rese
 
 This deliverable includes an update of the waku.org website to ensure that the USPs are clear to potential customers. 
 
-### Deliverable: [Define target customers](https://github.com/waku-org/pm/issues/250)
+### Deliverable: [Define target customers](https://github.com/logos-messaging/pm/issues/250)
 
 Target customers and segments have been identified and presented in Athens all-hands.
 
@@ -58,7 +58,7 @@ A document should capture:
 This document + IFT CRM + Validation matrix are the core material for Waku GTM.
 ~5 segments must be identified to proceed with customer interviews.
 
-### Deliverable: [Customer Interviews](https://github.com/waku-org/pm/issues/251)
+### Deliverable: [Customer Interviews](https://github.com/logos-messaging/pm/issues/251)
 
 Proceed with ~10 interviews of current and interested customers, spread across the ~5 identified segments.
 
@@ -73,11 +73,11 @@ To help establish the product-fit and identify potential blockers. This is shoul
 
 When synthesising the interviews, a review of segments should be done to select and focus on segments with most potential.
 
-### Deliverable: [Co-design sessions](https://github.com/waku-org/pm/issues/252)
+### Deliverable: [Co-design sessions](https://github.com/logos-messaging/pm/issues/252)
 
 At Devcon 2024, organise 3-4 co-design sessions to sit down to discuss potential Waku  integration in more detail. Targeting customers in most promising segments deduced from customer interviews. This acts as a follow-up to the customer interviews deliverable and will require Waku engineers to attend.
 
-### Deliverable: [Review Waku MVP](https://github.com/waku-org/pm/issues/253)
+### Deliverable: [Review Waku MVP](https://github.com/logos-messaging/pm/issues/253)
 
 Based on customer interviews and co-design sessions, identify the Waku USPs with most potential and outline an MVP.
 

@@ -3,6 +3,7 @@ title: Messaging API — General Availability
 tags:
   - messaging-milestone
 date: 2025-07-03
+github: https://github.com/logos-messaging/pm/issues/403
 ---
 
 **Resources Required for 2026H1**:

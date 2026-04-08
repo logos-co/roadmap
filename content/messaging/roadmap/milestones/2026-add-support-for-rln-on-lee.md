@@ -3,7 +3,7 @@ title: RLN on Logos Blockchain
 tags:
   - messaging-milestone
 date: 2026-02-01
-github-milestone: 'https://github.com/logos-messaging/pm/issues/401'
+github: 'https://github.com/logos-messaging/pm/issues/401'
 ---
 
 **Resources Required**:

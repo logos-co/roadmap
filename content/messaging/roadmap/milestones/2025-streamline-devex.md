@@ -40,7 +40,7 @@ See deliverables.
 
 ## Deliverables
 
-### [Waku Rust SDK](https://github.com/waku-org/pm/issues/289)
+### [Waku Rust SDK](https://github.com/logos-messaging/pm/issues/289)
 
 **Owner**: Nim Messaging Team
 
@@ -55,7 +55,7 @@ See deliverables.
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-### [Local Web Dev Harness](https://github.com/waku-org/pm/issues/359)
+### [Local Web Dev Harness](https://github.com/logos-messaging/pm/issues/359)
 
 **Owner**: js-waku
 
@@ -80,7 +80,7 @@ See deliverables.
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-### [Local Dev RLN Harness](https://github.com/waku-org/pm/issues/360)
+### [Local Dev RLN Harness](https://github.com/logos-messaging/pm/issues/360)
 
 **Owner**: Nim Messaging Team
 
@@ -101,7 +101,7 @@ See deliverables.
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-### [Waku as a Signal Network (WebRTC) PoC](https://github.com/waku-org/pm/issues/298)
+### [Waku as a Signal Network (WebRTC) PoC](https://github.com/logos-messaging/pm/issues/298)
 
 **Owner**: js-waku
 

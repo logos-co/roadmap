@@ -3,6 +3,7 @@ title: Reliable Channel API — General Availability
 tags:
   - messaging-milestone
 date: 2025-12-17
+github: https://github.com/logos-messaging/pm/issues/402
 ---
 
 > [!NOTE] This file will be renamed to `2026-reliable-channel-api-general-availability`

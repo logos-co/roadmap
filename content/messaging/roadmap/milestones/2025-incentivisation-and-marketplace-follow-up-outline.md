@@ -3,8 +3,8 @@ title: Incentivisation and Marketplace Follow-Up Outline
 tags:
     - messaging-milestone
 date: 2025-12-18
+github: https://github.com/waku-org/pm/milestone/51
 ---
-Github Milestone: https://github.com/waku-org/pm/milestone/51
 
 # ~~Incentivisation and Marketplace Follow-Up Outline~~
 
@@ -15,9 +15,9 @@ Github Milestone: https://github.com/waku-org/pm/milestone/51
 **Resources Required for 2025H2**:
 - 2.5 core research engineer for 5 months
 
-Proceed with follow-up step once the [incentivisation light push PoC](https://github.com/waku-org/pm/issues/245) is delivered.
+Proceed with follow-up step once the [incentivisation light push PoC](https://github.com/logos-messaging/pm/issues/245) is delivered.
 
-The exact commitments and deliverables are to be defined as part of the [incentivisation roadmap output](https://github.com/waku-org/pm/issues/246)
+The exact commitments and deliverables are to be defined as part of the [incentivisation roadmap output](https://github.com/logos-messaging/pm/issues/246)
 
 This includes progress towards both incentivisation and marketplace problems. 
 

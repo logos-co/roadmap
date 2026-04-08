@@ -3,9 +3,8 @@ title: Formalize and Expand Waku Web Apps
 tags:
     - messaging-milestone
 date: 2025-12-19
+github: https://github.com/waku-org/pm/milestone/42
 ---
-
-Github Milestone: https://github.com/waku-org/pm/milestone/42
 
 **Dropped - all browser technologies are shelved - Logos Core mini app creation out of this scope for messaging**
 
@@ -38,7 +37,7 @@ to build over Waku.
 
 ## Deliverables
 
-### [Forum PoC](https://github.com/waku-org/pm/issues/292)
+### [Forum PoC](https://github.com/logos-messaging/pm/issues/292)
 
 **Owner**: App/Chat Dev
 
@@ -55,7 +54,7 @@ to build over Waku.
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-### [Codex for Message Archival PoC](https://github.com/waku-org/pm/issues/293)
+### [Codex for Message Archival PoC](https://github.com/logos-messaging/pm/issues/293)
 
 **Owner**: App/Chat Dev
 
@@ -80,13 +79,13 @@ to build over Waku.
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-### [Reliable Qaku & library](https://github.com/waku-org/pm/issues/287)
+### [Reliable Qaku & library](https://github.com/logos-messaging/pm/issues/287)
 
 **Owner**: App/Chat Dev 
 
 **Feature**: [Qaku](/messaging/furps/application/qaku.md)
 
-**FURPS**: (see GitHub [issue](https://github.com/waku-org/pm/issues/292))
+**FURPS**: (see GitHub [issue](https://github.com/logos-messaging/pm/issues/292))
 - F1-21
 - U1-7
 - R1
@@ -99,7 +98,7 @@ to build over Waku.
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or docs.waku.org (TBD)
 
-### [Build Ten Waku Web Apps](https://github.com/waku-org/pm/issues/349)
+### [Build Ten Waku Web Apps](https://github.com/logos-messaging/pm/issues/349)
 
 **Owner**: App/Chat Dev
 
@@ -120,7 +119,7 @@ to build over Waku.
   - [ ] Walkthrough Video
   - [ ] Social media post for re-broadcast
 
-### [Build One Waku Logos Core App](https://github.com/waku-org/pm/issues/350)
+### [Build One Waku Logos Core App](https://github.com/logos-messaging/pm/issues/350)
 
 **Owner**: App/Chat Dev
 
@@ -141,7 +140,7 @@ to build over Waku.
   - [ ] Walkthrough Video
   - [ ] Social media post for re-broadcast
 
-### [Open Forum to Web3 Users and Anons](https://github.com/waku-org/pm/issues/351)
+### [Open Forum to Web3 Users and Anons](https://github.com/logos-messaging/pm/issues/351)
 
 **Owner**: App/Chat Dev
 
