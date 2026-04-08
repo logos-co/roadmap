@@ -44,6 +44,18 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
+### [Modify Sphinx payload encryption to preserve payload integrity](https://github.com/logos-co/anoncomms-pm/issues/49)
+
+**Owner**: Storage Team (primary), AnonComms Mix (support)
+
+**FURPS**:
+
+- F13. The libp2p mix protocol's payload encryption preserves payload integrity
+
+**Checklist**:
+- [ ] Specs: link to specs and/or API definition
+- [ ] Code: link to GitHub issues/PRs/Epic
+
 ### [Specify and implement cover traffic generation](https://github.com/logos-co/anoncomms-pm/issues/42)
 
 **Owner**: AnonComms Mix
