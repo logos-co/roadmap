@@ -5,9 +5,6 @@ tags:
 date: 2025-12-19
 ---
 
-# Enable easy C-Bindings for Mobile
-
-**Estimated date of completion**: {Enter date}
 
 **Resources Required for 2025H2**:
 TODO

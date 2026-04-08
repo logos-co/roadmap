@@ -5,7 +5,6 @@ tags:
 date: 2026-02-01
 github: https://github.com/logos-messaging/pm/issues/399
 ---
-**Estimated date of completion**: End of April 2026
 
 **Resources Required**:
 - 1 Delivery engineer (intermittent)

@@ -5,9 +5,6 @@ tags:
 date: 2026-03-01
 ---
 
-# Logos Core Integration — Phase 3
-
-**Estimated date of completion**: Required for Mainnet
 
 **Resources Required**:
 - 1 Delivery engineer

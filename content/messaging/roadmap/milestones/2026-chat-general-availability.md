@@ -5,9 +5,6 @@ tags:
 date: 2026-03-01
 ---
 
-# Chat — General Availability
-
-**Estimated date of completion**: TBD (Required for Mainnet)
 
 **Resources Required**:
 - 2 Chat engineers

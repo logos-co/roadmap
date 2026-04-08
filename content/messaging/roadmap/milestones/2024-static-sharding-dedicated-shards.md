@@ -3,9 +3,8 @@ title: Static Sharding - dedicated shards
 tags:
     - messaging-milestone
 date: 2024-09-07
+github: https://github.com/waku-org/pm/milestone/30
 ---
-
-Github Milestone: https://github.com/waku-org/pm/milestone/30
 
 Estimated Date of Completion: 2024-12-31
 
@@ -19,19 +18,19 @@ Finally, telemetry service will be updated to include bandwidth usage statistics
 
 ## Deliverables
 
-### [Telemetry: Measure Bandwidth](https://github.com/waku-org/pm/issues/195)
+### [Telemetry: Measure Bandwidth](https://github.com/logos-messaging/pm/issues/195)
 
 Add bandwidth measurements to the self-report (opt-in) telemetry service, including a message type breakdown (ctrl, chat, etc) when possible as well as other protocols such as discovery.
 Usage of non-waku bandwidth should also be considered (bittorrent, RPC) to have a full picture in case of report of high bandwidth usage by users.
 
-### [Telemetry: Sharding](https://github.com/waku-org/pm/issues/261)
+### [Telemetry: Sharding](https://github.com/logos-messaging/pm/issues/261)
 
 Improve telemetry service to capture shard information. Particularly relevant for discovery and connection.
 
 Improve API to display shard information to users in the node management tab, to provide more accurate health metrics.
 
 
-### [Sharding peer management and discovery hardening](https://github.com/waku-org/pm/issues/172)
+### [Sharding peer management and discovery hardening](https://github.com/logos-messaging/pm/issues/172)
 
 Further testing and improvement of peer management in the context of sharding in all Waku implementations. The aim is to ensure that nodes are connected to other nodes of interested shards. As the number of shards (several communities) increase, some improvement on the logic should be needed.
 
@@ -44,7 +43,7 @@ Further testing and improvement of peer management in the context of sharding in
 (3) go-waku and js-waku should follow the same patterns in terms of managing service peers within clients.
 (4) Capture recommendations in an RFC and use it as a discussion and decision medium across implementations.
 
-### [Enable testing of custom shard implementation for Communities](https://github.com/waku-org/pm/issues/196)
+### [Enable testing of custom shard implementation for Communities](https://github.com/logos-messaging/pm/issues/196)
 
 Create/update CLI with REST API to enable creation and usage of static communities on own dedicated shard for Vac/QA to proceed with testing of various scenarios.
 This CLI should also enable running simulations of bandwidth usage by communities, including ctrl messages.
@@ -54,7 +53,7 @@ Note that the ability to create communities on a custom shard and assign a pre-s
 
 Note that telemetry service should include shard specific reports.
 
-### [Setup Waku Community on dedicated shard with pre-shared key dos protection](https://github.com/waku-org/pm/issues/262)
+### [Setup Waku Community on dedicated shard with pre-shared key dos protection](https://github.com/logos-messaging/pm/issues/262)
 
 Create a Waku token-gated community on its own dedicated shard to further dog food sharding, find and fix any Waku related bugs as well as providing support to the Status app team.
 
@@ -62,7 +61,7 @@ The outputs of this deliverable are:
 - Waku token-gated community created on dedicated shard. While this community may not be advertised publicly at first, it will be set up as if, with Waku CC and IFT CCs roles being defined etc.
 - Document that summarises the steps to setup a dedicated community, where IFT devops are provisioning the new shard, and setting pre-shared key in coordination with community owner.
 
-### [PostgreSQL Optimisation phase 2](https://github.com/waku-org/pm/issues/263)
+### [PostgreSQL Optimisation phase 2](https://github.com/logos-messaging/pm/issues/263)
 
 With phase 1, feedback from test stressing and IFT CC has been tackled.Preparation has been done to consult an external agency to fine tune PostgreSQL setup.
 

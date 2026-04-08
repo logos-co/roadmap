@@ -27,7 +27,7 @@ as well as in the browser for PoC Web Apps such as Qaku and Logos Forum.
 
 **FURPS** (see deliverables)
 
-## [SDS protocol in Status - basic integration](https://github.com/waku-org/pm/issues/194)
+## [SDS protocol in Status - basic integration](https://github.com/logos-messaging/pm/issues/194)
 
 **Owner**: core research
 
@@ -45,7 +45,7 @@ as well as in the browser for PoC Web Apps such as Qaku and Logos Forum.
 
 For S1. Applied to Communities channels on Status Desktop
 
-## [SDS protocol in Status - basic recovery](https://github.com/waku-org/pm/issues/304)
+## [SDS protocol in Status - basic recovery](https://github.com/logos-messaging/pm/issues/304)
 
 **Owner**: chat app dev
 

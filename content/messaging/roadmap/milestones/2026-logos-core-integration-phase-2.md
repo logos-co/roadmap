@@ -5,9 +5,6 @@ tags:
 date: 2026-01-19
 ---
 
-# Logos Core Integration — Phase 2
-
-**Estimated date of completion**: Testnet v0.2
 
 **Resources Required for 2026H1**:
 - 1 dev for 4 weeks from Chat Team

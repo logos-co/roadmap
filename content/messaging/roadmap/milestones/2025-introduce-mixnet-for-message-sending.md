@@ -3,8 +3,8 @@ title: Introduce Mixnet For Message Sending
 tags:
     - messaging-milestone
 date: 2025-09-30
+github: https://github.com/waku-org/pm/milestone/48
 ---
-Github Milestone: https://github.com/waku-org/pm/milestone/48
 
 # ~~Introduce Mixnet For Message Sending~~
 
@@ -35,7 +35,7 @@ See deliverables.
 
 ## Deliverables
 
-### [Integrate libp2p mix into lightpush](https://github.com/waku-org/pm/issues/291)
+### [Integrate libp2p mix into lightpush](https://github.com/logos-messaging/pm/issues/291)
 
 **Owner**: core research
 

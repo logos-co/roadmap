@@ -5,9 +5,6 @@ tags:
 date: 2026-02-21
 ---
 
-# Support Mobile Platforms
-
-**Estimated date of completion**: Required for Mainnet
 
 **Resources Required**:
 - 1 Delivery engineer

@@ -5,9 +5,6 @@ tags:
 date: 2026-01-15
 ---
 
-# Chat — Developer Preview
-
-**Estimated date of completion**: Testnet v0.3
 
 **Resources Required**:
 - 2 Chat engineers

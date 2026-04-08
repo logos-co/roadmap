@@ -8,9 +8,6 @@ github: 'https://github.com/logos-messaging/pm/issues/407'
 
 > [!NOTE] This file will be renamed to `2026-chat-foundations`
 
-# Chat — Foundations
-
-**Estimated date of completion**: March 2026 (Testnet v0.1)
 
 **Resources Required for 2026H1**:
 - 2 Chat Researchers

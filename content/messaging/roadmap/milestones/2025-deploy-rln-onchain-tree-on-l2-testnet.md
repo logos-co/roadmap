@@ -5,9 +5,6 @@ tags:
 date: 2024-09-07
 ---
 
-# [Define Incentivisation for RLNaaS](https://github.com/waku-org/pm/milestone/35)
-
-**Estimated date of completion**: 31 July 2025
 
 **Resources Required for 2025H2**:
 - 1.5 core researchers for 1 month
