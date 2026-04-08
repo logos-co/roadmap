@@ -14,6 +14,7 @@
 10. Nodes can generate cover traffic to increase K-anonymity in the mixnet
 11. Providers can anonymously register as a hidden service
 12. Clients can discover and anonymously access hidden services
+13. The libp2p mix protocol's payload encryption preserves payload integrity
 
 ## Usability
 
