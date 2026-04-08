@@ -7,9 +7,6 @@ date: 2025-12-10
 
 > [!NOTE] This file will be renamed to `2026-reliable-channel-api-developer-preview`
 
-# Reliable Channel API — Developer Preview
-
-**Estimated date of completion**: June 2026 (Testnet v0.2)
 
 **Resources Required for 2026H1**:
 - 2 Delivery engineers

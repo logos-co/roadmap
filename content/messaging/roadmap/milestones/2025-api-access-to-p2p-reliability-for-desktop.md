@@ -8,9 +8,6 @@ github: 'https://github.com/logos-messaging/pm/issues/395'
 
 > [!NOTE] This file will be renamed to `2026-messaging-api-developer-preview`
 
-# Messaging API — Developer Preview
-
-**Estimated date of completion**: March 2026 (Testnet v0.1)
 
 **Resources Required for 2026H1**:
 - 3 Nim engineers

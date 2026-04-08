@@ -7,9 +7,6 @@ date: 2025-12-17
 
 > [!NOTE] This file will be renamed to `2026-reliable-channel-api-general-availability`
 
-# Reliable Channel API — General Availability
-
-**Estimated date of completion**: Q3 2026 (Testnet v0.3)
 
 **Resources Required for 2026H2**:
 - 2 Delivery engineers

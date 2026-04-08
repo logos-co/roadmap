@@ -5,9 +5,6 @@ tags:
 date: 2025-12-10
 ---
 
-# Add Edge Mode to Messaging API
-
-**Estimated date of completion**: {Enter date}
 
 **Resources Required for 2025H2**:
 - {roles and % application to it}

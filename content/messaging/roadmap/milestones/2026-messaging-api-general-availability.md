@@ -5,10 +5,6 @@ tags:
 date: 2025-07-03
 ---
 
-# Messaging API — General Availability
-
-**Estimated date of completion**: June 2026 (Testnet v0.2)
-
 **Resources Required for 2026H1**:
 - 1 Nim engineer for testing support and bugfixes
 - 1 Nim engineer for edge mode

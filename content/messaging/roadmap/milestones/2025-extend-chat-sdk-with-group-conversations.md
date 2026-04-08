@@ -6,9 +6,6 @@ date: 2025-12-18
 github: 'https://github.com/logos-messaging/pm/issues/406'
 ---
 
-# Chat — Group Conversations
-
-**Estimated date of completion**: Testnet v0.2
 
 **Resources Required for 2026H1**:
 - 2 Chat engineers

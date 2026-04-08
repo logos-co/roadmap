@@ -6,9 +6,6 @@ date: 2026-02-01
 github: https://github.com/logos-messaging/pm/issues/396
 ---
 
-# Status: Logos Chat Integration
-
-**Estimated date of completion**: ~Q4 2026 (after Logos Chat Developer Preview)
 
 **Resources Required**:
 - 1 Chat engineer

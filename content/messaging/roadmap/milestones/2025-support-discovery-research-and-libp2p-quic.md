@@ -5,9 +5,6 @@ tags:
 date: 2025-12-03
 ---
 
-# QUIC Transport in Logos Delivery
-
-**Estimated date of completion**: Testnet v0.2
 
 **Resources Required**: 0.5 Nim Engineer
 

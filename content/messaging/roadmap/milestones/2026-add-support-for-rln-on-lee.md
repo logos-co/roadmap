@@ -6,10 +6,6 @@ date: 2026-02-01
 github-milestone: 'https://github.com/logos-messaging/pm/issues/401'
 ---
 
-# RLN on Logos Blockchain
-
-**Estimated date of completion**: Testnet v0.3
-
 **Resources Required**:
 - 1 Delivery engineer
 - Collaboration with Logos Blockchain team (LEE/LEZ)

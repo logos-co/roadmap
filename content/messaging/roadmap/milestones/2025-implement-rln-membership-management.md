@@ -5,9 +5,6 @@ tags:
 date: 2025-09-30
 ---
 
-# [Implement RLN Membership Management](https://github.com/waku-org/pm/milestone/52)
-
-**Estimated date of completion**: 30 Sep 2025
 
 **Resources Required for 2025H2**:
 - 2 nwaku engineer for 2 months 

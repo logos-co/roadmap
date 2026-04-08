@@ -6,7 +6,6 @@ date: 2026-02-01
 github: https://github.com/logos-messaging/pm/issues/408
 ---
 
-**Estimated date of completion**: May 2026 (after Messaging API is integration-ready)
 
 **Resources Required**:
 - 1 Delivery engineer (50% of work)
