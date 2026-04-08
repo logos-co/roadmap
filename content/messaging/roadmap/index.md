@@ -25,7 +25,7 @@ Logos Messaging is working towards these features, required to be implemented fo
 The work is split into milestones, planned to be achieved by certain release.
 
 We use two release stages for developer-facing APIs and libraries:
-- **Developer Preview** — first externally-usable release. Functional but limited scope, intended for early adopters and feedback collection.
+- **Developer Preview** — first externally-usable arelease. Functional but limited scope, intended for early adopters and feedback collection.
 - **General Availability** — feature-complete, QA-approved, production-ready release.
 
 ### Testnet [v0.1](v01)
@@ -60,8 +60,8 @@ We use two release stages for developer-facing APIs and libraries:
 - [Nimble Migration](2026-nimble-migration)
 - [Fleet Stability](2026-fleet-stability)
 - [Status: Logos Delivery Integration](2026-status-logos-delivery-integration)
-	- Includes [Foundation for Communities Optimization](2025-foundation-for-communities-optimization)
-	- Includes [E2E Reliability in Status Communities](2024-e2e-reliability-protocol)
+- [Status: Foundation for Communities Optimization](2025-foundation-for-communities-optimization)
+- [Status: E2E Reliability in Communities](2024-e2e-reliability-protocol)
 - [Status: Logos Chat Integration](2026-status-logos-chat-integration)
 
 

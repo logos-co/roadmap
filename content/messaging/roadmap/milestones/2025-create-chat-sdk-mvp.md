@@ -3,14 +3,12 @@ title: Chat — Foundations
 tags:
   - messaging-milestone
 date: 2025-06-24
-github-milestone: 'https://github.com/logos-messaging/pm/milestone/45'
+github: 'https://github.com/logos-messaging/pm/issues/407'
 ---
 
 > [!NOTE] This file will be renamed to `2026-chat-foundations`
 
 # Chat — Foundations
-
-https://github.com/logos-messaging/pm/milestone/45
 
 **Estimated date of completion**: March 2026 (Testnet v0.1)
 

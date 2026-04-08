@@ -3,12 +3,10 @@ title: RLN on Logos Blockchain
 tags:
   - messaging-milestone
 date: 2026-02-01
-github-milestone: 'https://github.com/logos-messaging/pm/milestone/64'
+github-milestone: 'https://github.com/logos-messaging/pm/issues/401'
 ---
 
 # RLN on Logos Blockchain
-
-https://github.com/logos-messaging/pm/milestone/64
 
 **Estimated date of completion**: Testnet v0.3
 
