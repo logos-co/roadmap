@@ -20,47 +20,13 @@ culminating in a whitepaper and academic paper describing the RLN prover approac
 
 ## Roadmap
 
-**FURPS**: [Zerokit FURPS](../furps/zerokit.md)
+**FURPS**: [Zerokit FURPS](/anoncomms/furps/zerokit.md)
 
 **Scheduled milestones**:
-- [Testnet v0.1](./testnet_v0.1/gasless-l2_v0.1.md)
+- [Testnet v0.1](/anoncomms/roadmap/testnet_v0.1/gasless-l2_v0.1.md)
 
 ## Risks
 
 | Risk                   | (Accept, Own, Mitigation)                                                                                        |
 |------------------------|------------------------------------------------------------------------------------------------------------------|
 | Dependency on the Status L2 team for adaptation-related improvements | Collaboration with the Status L2 team through codebase and document reviews |
-
-## Deliverables
-
-### [Allow multiple RLN provers to share a database](https://github.com/logos-co/anoncomms-pm/issues/11)
-
-**Owner**: AnonComms Zerokit-RLN
-
-**Feature**: [Zerokit-RLN FURPS](../furps/zerokit-rln.md)
-
-**FURPS**:
-
-- F1. The RLN prover module supports gasless L2 operations
-- F2. Multiple RLN prover instances can operate on a shared database
-- U4. The RLN prover module has an associated specification
-- R1. Multiple RLN prover instances operate consistently without database conflicts
-
-**Checklist**:
-- [ ] Specs: link to specs and/or API definition
-- [ ] Code: link to GitHub issues/PRs/Epic
-- [ ] Dogfood: link to dogfooding session/artefact
-- [ ] Docs: links to README.md or other docs
-
-### [Write whitepaper on gasless L2 transactions](https://github.com/logos-co/anoncomms-pm/issues/12)
-
-**Owner**: AnonComms Zerokit-RLN
-
-**Feature**: [Zerokit-RLN FURPS](../furps/zerokit-rln.md)
-
-**FURPS**:
-
-- S1. A gasless L2 whitepaper is written to document the design and trade-offs
-
-**Checklist**:
-- [ ] Docs: link to whitepaper

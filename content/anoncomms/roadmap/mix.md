@@ -15,11 +15,11 @@ as pluggable extensions to the libp2p mix specification.
 
 ## Roadmap
 
-**FURPS**: [Mix FURPS](../furps/mix.md)
+**FURPS**: [Mix FURPS](/anoncomms/furps/mix.md)
 
 **Scheduled milestones**:
-- [Testnet v0.1](./testnet_v0.1/mix_v0.1.md)
-- [Testnet v0.2](./testnet_v0.2/mix_v0.2.md)
+- [Testnet v0.1](/anoncomms/roadmap/testnet_v0.1/mix_v0.1.md)
+- [Testnet v0.2](/anoncomms/roadmap/testnet_v0.2/mix_v0.2.md)
 
 Future work in this track, include:
 1. Introducing longer-lived mix circuits

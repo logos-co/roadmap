@@ -8,11 +8,11 @@ that forms the foundation of all Logos (and Status) RLN integrations
 
 ## Roadmap
 
-**FURPS**: [Zerokit FURPS](../furps/zerokit.md)
+**FURPS**: [Zerokit FURPS](/anoncomms/furps/zerokit.md)
 
 **Scheduled milestones**:
-- [Testnet v0.1](./testnet_v0.1/zerokit_v0.1.md)
-- [Testnet v0.2](./testnet_v0.2/zerokit_v0.2.md)
+- [Testnet v0.1](/anoncomms/roadmap/testnet_v0.1/zerokit_v0.1.md)
+- [Testnet v0.2](/anoncomms/roadmap/testnet_v0.2/zerokit_v0.2.md)
 
 
 ## Risks

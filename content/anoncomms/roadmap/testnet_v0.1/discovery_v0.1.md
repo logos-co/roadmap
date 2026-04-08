@@ -1,8 +1,8 @@
 # [Capability Discovery Track: Testnet v0.1](https://github.com/logos-co/anoncomms-pm/milestone/1)
 
-**Track:** [Capability Discovery Track](../discovery.md)
+**Track:** [Capability Discovery Track](/anoncomms/roadmap/discovery.md)
 
-**FURPS:** [Capability Discovery FURPS](../../furps/discovery.md)
+**FURPS:** [Capability Discovery FURPS](/anoncomms/furps/discovery.md)
 
 **Estimated date of completion**: 31 Mar 2026
 

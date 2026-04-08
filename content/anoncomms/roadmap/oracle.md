@@ -9,10 +9,10 @@ The work includes (i) a pre-study to define stablecoin requirements and evaluate
 
 ## Roadmap
 
-**FURPS**: [Oracle FURPS](../furps/oracle.md)
+**FURPS**: [Oracle FURPS](/anoncomms/furps/oracle.md)
 
 **Scheduled milestones**:
-- [Testnet v0.2](./testnet_v0.2/oracle_v0.2.md)
+- [Testnet v0.2](/anoncomms/roadmap/testnet_v0.2/oracle_v0.2.md)
 
 ## Risks
 
