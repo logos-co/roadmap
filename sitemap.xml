@@ -963,7 +963,7 @@
     <lastmod>2025-11-18T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/</loc>
-    <lastmod>2026-04-08T22:50:44.126Z</lastmod>
+    <lastmod>2026-04-15T22:34:10.079Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2023-milestones</loc>
     <lastmod>2024-03-07T00:00:00.000Z</lastmod>
@@ -1014,7 +1014,7 @@
     <lastmod>2026-03-02T07:03:52.156Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2025-api-access-to-p2p-reliability-for-desktop</loc>
-    <lastmod>2026-04-08T22:50:44.130Z</lastmod>
+    <lastmod>2026-04-15T22:34:10.079Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2025-create-chat-sdk-mvp</loc>
     <lastmod>2026-04-08T22:50:44.130Z</lastmod>
@@ -1083,7 +1083,7 @@
     <lastmod>2026-04-08T22:50:44.130Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2026-add-support-for-rln-on-lee</loc>
-    <lastmod>2026-04-08T22:50:44.130Z</lastmod>
+    <lastmod>2026-04-15T22:34:10.079Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2026-chat-developer-preview</loc>
     <lastmod>2026-04-08T22:50:44.130Z</lastmod>
@@ -1092,25 +1092,28 @@
     <lastmod>2026-04-08T22:50:44.130Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2026-complete-reliable-channel-api</loc>
-    <lastmod>2026-04-08T22:50:44.130Z</lastmod>
+    <lastmod>2026-04-15T22:34:10.079Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2026-fleet-stability</loc>
     <lastmod>2026-04-08T22:50:44.130Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2026-logos-core-integration-phase-2</loc>
-    <lastmod>2026-04-08T22:50:44.130Z</lastmod>
+    <lastmod>2026-04-15T22:34:10.079Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2026-logos-core-integration-phase-3</loc>
     <lastmod>2026-04-08T22:50:44.130Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2026-messaging-api-general-availability</loc>
-    <lastmod>2026-04-08T22:50:44.130Z</lastmod>
+    <lastmod>2026-04-15T22:34:10.079Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2026-nimble-migration</loc>
     <lastmod>2026-04-08T22:50:44.130Z</lastmod>
   </url><url>
+    <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2026-rln-for-lightpush</loc>
+    <lastmod>2026-04-15T22:34:10.079Z</lastmod>
+  </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2026-status-logos-chat-integration</loc>
-    <lastmod>2026-04-08T22:50:44.130Z</lastmod>
+    <lastmod>2026-04-15T22:34:10.079Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2026-status-logos-delivery-integration</loc>
     <lastmod>2026-04-08T22:50:44.130Z</lastmod>
