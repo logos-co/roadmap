@@ -34,7 +34,7 @@ This is important because Status will use RLN on Status Network (EVM-based, gasl
 ## Dependencies
 
 - **AnonComms**: RLN membership allocation LEE program deployed and functional
-- **AnonComms**: Zerokit 1.0 API stable and public
+- **AnonComms**: Zerokit 2.0 API stable and public
 - **Logos Blockchain**: LEE program model and tooling ready
 
 ## Risks

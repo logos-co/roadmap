@@ -14,7 +14,7 @@ github: 'https://github.com/logos-messaging/pm/issues/395'
 
 The Messaging API provides a higher-level abstraction over Logos Delivery protocols, enabling easier integration in Status, Logos Chat, and for developer experience in Logos Core.
 
-The Developer Preview delivers the Send and Health APIs, with core mode only (relay is used to send and receive messages). The Subscribe/Receive API is in progress but may extend into v0.2.
+The Developer Preview delivers the Send, Health, and Subscribe/Receive APIs. Core mode uses relay to send and receive messages. Edge mode uses light push for sending and filter for reception.
 
 RLN and RLNaaS are out of scope for this milestone. No function for store or message retrieval is exposed on the API — previous message retrieval is to be done as part of the `subscribe` function, applying P2P reliability protocol.
 
@@ -22,7 +22,7 @@ This includes removing potential foot guns (store as CDN) and reducing learning 
 
 ## FURPS
 
-- [Messaging API](/messaging/furps/core/messaging_sdk.md): F1, F3, F4, F5, F6, U1, U2, U3, U4, U5, R1, S1
+- [Messaging API](/messaging/furps/core/messaging_sdk.md): F1, F2, F3, F4, F5, F6, U1, U2, U3, U4, U5, R1, R2, S1
 
 ## Risks
 
@@ -51,6 +51,3 @@ This includes removing potential foot guns (store as CDN) and reducing learning 
 - U5. Developers only need to handle errors in cases of irretrievable failure requiring end-user action. Internal errors are not bubbled up if they can be recovered internally.
 - R1. Sends a message using peer-to-peer reliability (service node redundancy, optional store confirmation)
 - R2. Receives messages using peer-to-peer reliability (service node redundancy, periodic store query, periodic filter ping)
-
-For:
-- S1. Nim library with Nimble.
