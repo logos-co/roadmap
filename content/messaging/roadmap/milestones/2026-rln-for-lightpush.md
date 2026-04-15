@@ -13,7 +13,7 @@ Resolve the architectural gap where LightPush service nodes share a single RLN q
 
 Once done, Logos Messaging fleets should be able to become fully RLN-protected; edge nodes are required to get an RLN membership and send lightpush requests with RLN-proof attached; RLNaaS is discontinued.
 
-It's an open question, how edge not will get RLN membership. The initial implementation should have the same approach as Relay, later versions might introduce sponsored memberships.
+It's an open question, how edge nodes will get RLN memberships. The initial implementation should have the same approach as Relay, later versions might introduce sponsored memberships.
 ## Risks
 
 | Risk                                            | (Accept, Own, Mitigation)                     |
