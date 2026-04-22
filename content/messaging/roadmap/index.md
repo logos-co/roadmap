@@ -58,10 +58,10 @@ We use two release stages for developer-facing APIs and libraries:
 
 ### Parallel milestones
 
-- [ ] [Nimble Migration](2026-nimble-migration)
+- [x] [Nimble Migration](2026-nimble-migration)
 - [ ] [Fleet Stability](2026-fleet-stability)
 - [ ] [Status: Logos Delivery Integration](2026-status-logos-delivery-integration)
-- [ ] [Status: Foundation for Communities Optimization](2025-foundation-for-communities-optimization)
+- [x] [Status: Foundation for Communities Optimization](2025-foundation-for-communities-optimization)
 - [ ] [Status: E2E Reliability in Communities](2024-e2e-reliability-protocol)
 - [ ] [Status: Logos Chat Integration](2026-status-logos-chat-integration)
 
