@@ -15,13 +15,6 @@ title: 2026-MM-DD Messaging Weekly
 
 # Logos Delivery
 
-## [Messaging API — Developer Preview](2025-api-access-to-p2p-reliability-for-desktop.md)
-
-- [[Deliverable] Stabilize and improve Messaging API, fix bugs](https://github.com/logos-messaging/pm/issues/414)
-  - achieved:
-  - next:
-  - blockers:
-
 ## [Messaging API — General Availability](2026-messaging-api-general-availability.md)
 
 - [Deliverable] Provide Store API access for Status needs
@@ -35,6 +28,11 @@ title: 2026-MM-DD Messaging Weekly
   - blockers:
 
 - [Deliverable] Provide comprehensive documentation on the API
+  - achieved:
+  - next:
+  - blockers:
+
+- [[Deliverable] Stabilize and improve Messaging API, fix bugs](https://github.com/logos-messaging/pm/issues/414)
   - achieved:
   - next:
   - blockers:
@@ -78,21 +76,21 @@ title: 2026-MM-DD Messaging Weekly
   - next:
   - blockers:
 
-## [QUIC Transport in Logos Delivery](2025-support-discovery-research-and-libp2p-quic.md)
+## [Support QUIC Transport in Logos Delivery](2025-support-discovery-research-and-libp2p-quic.md)
 
 - [[Deliverable] Trial QUIC](https://github.com/logos-messaging/pm/issues/324)
   - achieved:
   - next:
   - blockers:
 
-## [RLN for LightPush](https://github.com/logos-messaging/pm/issues/411)
+## [RLN for lightpush](https://github.com/logos-messaging/pm/issues/411)
 
 - [[Deliverable] Improve RLN UX by reducing contract interactions](https://github.com/logos-messaging/pm/issues/344)
   - achieved:
   - next:
   - blockers:
 
-## [RLN on Logos Blockchain](2026-add-support-for-rln-on-lee.md)
+## [Port RLN to Logos Blockchain](2026-add-support-for-rln-on-lee.md)
 
 - Implement pluggable RLN membership interface
   - achieved:
@@ -104,7 +102,7 @@ title: 2026-MM-DD Messaging Weekly
   - next:
   - blockers:
 
-## [Fleet Stability](2026-fleet-stability.md)
+## [Fleet stability](2026-fleet-stability.md)
 
 - [[Deliverable] Integrate Sentry for crash reporting](https://github.com/logos-messaging/pm/issues/381)
   - achieved:
@@ -126,26 +124,7 @@ title: 2026-MM-DD Messaging Weekly
   - next:
   - blockers:
 
-## [Nimble Migration](2026-nimble-migration.md)
-
-- [[Deliverable] Migrate logos-delivery to Nimble](https://github.com/logos-messaging/pm/issues/377)
-  - achieved:
-  - next:
-  - blockers:
-
-- [[Deliverable] Migrate nim-sds to Nimble](https://github.com/logos-messaging/pm/issues/378)
-  - achieved:
-  - next:
-  - blockers:
-
 # Logos Chat
-
-## [Chat — Foundations](2025-create-chat-sdk-mvp.md)
-
-- [[Deliverable] Chat SDK Developer Preview](https://github.com/logos-messaging/pm/issues/316)
-  - achieved:
-  - next:
-  - blockers:
 
 ## [Chat — Group Conversations](2025-extend-chat-sdk-with-group-conversations.md)
 
@@ -184,23 +163,16 @@ title: 2026-MM-DD Messaging Weekly
   - next:
   - blockers:
 
-## [Chat — Developer Preview](2026-chat-developer-preview.md)
-
-- (deliverables TBD)
-  - achieved:
-  - next:
-  - blockers:
-
 # Logos Core
 
-## [Initial Integration to Logos Core](2025-enable-easy-c-bindings-for-desktop.md)
+## [Initial integration into Logos Core](2025-enable-easy-c-bindings-for-desktop.md)
 
 - [[Deliverable] Deploy required fleets for Testnet](https://github.com/logos-messaging/pm/issues/386)
   - achieved:
   - next:
   - blockers:
 
-## [Logos Core Integration — Phase 2](2026-logos-core-integration-phase-2.md)
+## [Logos Core integration — phase 2](2026-logos-core-integration-phase-2.md)
 
 - [[Deliverable] Integrate Chat and Delivery Logos Core modules](https://github.com/logos-messaging/pm/issues/387)
   - achieved:
@@ -234,7 +206,7 @@ title: 2026-MM-DD Messaging Weekly
 
 # Status
 
-## [Status: Logos Delivery Integration](2026-status-logos-delivery-integration.md)
+## [Integrate logos-delivery in Status](2026-status-logos-delivery-integration.md)
 
 - [[Deliverable] Remove existing nwaku integration from status-go](https://github.com/logos-messaging/pm/issues/394)
   - achieved:
@@ -246,21 +218,14 @@ title: 2026-MM-DD Messaging Weekly
   - next:
   - blockers:
 
-## [Status: E2E Reliability in Communities](2024-e2e-reliability-protocol.md)
+## [Introduce E2E Reliability in Status Communities](2024-e2e-reliability-protocol.md)
 
-- [[Deliverable] SDS protocol in Status — basic recovery](https://github.com/logos-messaging/pm/issues/304)
+- [[Deliverable] SDS protocol in Status - basic recovery](https://github.com/logos-messaging/pm/issues/304)
   - achieved:
   - next:
   - blockers:
 
-- [[Deliverable] SDS protocol in Status — enable wrapping for communities](https://github.com/logos-messaging/pm/issues/385)
-  - achieved:
-  - next:
-  - blockers:
-
-## [Status: Foundation for Communities Optimization](2025-foundation-for-communities-optimization.md)
-
-- [[Deliverable] Define and implement sharding for Communities messages](https://github.com/logos-messaging/pm/issues/266)
+- [[Deliverable] SDS protocol in Status — enable wrapping for communities messages](https://github.com/logos-messaging/pm/issues/385)
   - achieved:
   - next:
   - blockers:
@@ -272,14 +237,9 @@ title: 2026-MM-DD Messaging Weekly
   - next:
   - blockers:
 
-## [Status: Logos Chat Integration](2026-status-logos-chat-integration.md)
+## [Integrate logos-chat in Status](2026-status-logos-chat-integration.md)
 
 - [[Deliverable] Deploy RLN Contracts to Status L2 testnet](https://github.com/logos-messaging/pm/issues/356)
-  - achieved:
-  - next:
-  - blockers:
-
-- (other deliverables TBD)
   - achieved:
   - next:
   - blockers:
