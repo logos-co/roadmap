@@ -9,6 +9,17 @@ tags:
 
 Logos Blockchain is working towards the following milestones
 
+### Required for Mainnet
+
+| Blockchain | LEZ |
+|---|---|
+| [Blend Implementation](./blockchain_blend.md) | [Block Context](./lez_block_context.md) |
+| [Bridging Support](./blockchain_bridging.md) | [Bridging](./lez_bridging.md) |
+| [Decentralized Sequencing](./blockchain_decentralized_sequencing.md) | [Cross Program Calls](./lez_cross_program_calls.md) |
+| [Tokenomics](./blockchain_tokenomics.md) | [Indexer Module](./lez_indexer_module.md) |
+| [Crypto Audit](./blockchain_crypto_audit.md) | [Crypto Audit](./lez_crypto_audit.md) |
+|  | [Private Transfers](./lez_private_transfers.md) |
+
 ### Testnet v0.1 Milestones
 
 - [x] [LEZ Running as a Sovereign Zone](./lez_sovereign_zone.md)
@@ -54,5 +65,6 @@ Logos Blockchain is working towards the following milestones
 - [ ] [Blockchain Cryptareon](./cryptareon.md)
 - [ ] [Blockchain Decentralized Block Building](./decentralized_block_building.md)
 - [ ] [Blockchain LogosDA Private DA](./logosda_private_da.md)
-- [ ] [Crypto Audit](./crypto_audit.md)
+- [ ] [Blockchain Crypto Audit](./blockchain_crypto_audit.md)
+- [ ] [LEZ Crypto Audit](./lez_crypto_audit.md)
 - [ ] [Native Zone](./native_zone.md)

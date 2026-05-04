@@ -94,7 +94,7 @@ gantt
     Zones Design                                   :active, bc27, 2025-06-01, 2026-12-31
     click bc27 href "/blockchain/roadmap/zones_design"
     Crypto Audit                                   :active, bc28, 2025-06-01, 2026-12-31
-    click bc28 href "/blockchain/roadmap/crypto_audit"
+    click bc28 href "/blockchain/roadmap/blockchain_crypto_audit"
     
     section AnonComms - Priority
     Basic Capability Discovery Module              :crit, active, ac1, 2025-01-01, 2026-03-31
