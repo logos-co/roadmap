@@ -11,14 +11,21 @@ Logos Blockchain is working towards the following milestones
 
 ### Required for Mainnet
 
-| Blockchain | LEZ |
-|---|---|
-| [Blend Implementation](./blockchain_blend.md) | [Block Context](./lez_block_context.md) |
-| [Bridging Support](./blockchain_bridging.md) | [Bridging](./lez_bridging.md) |
-| [Decentralized Sequencing](./blockchain_decentralized_sequencing.md) | [Cross Program Calls](./lez_cross_program_calls.md) |
-| [Tokenomics](./blockchain_tokenomics.md) | [Indexer Module](./lez_indexer_module.md) |
-| [Crypto Audit](./blockchain_crypto_audit.md) | [Crypto Audit](./lez_crypto_audit.md) |
-|  | [Private Transfers](./lez_private_transfers.md) |
+Logos Blockchain is working towards the following capabilities, required for Mainnet:
+
+- **Blockchain**: The settlement layer for Zones
+  - **PPoS (Private Proof of Stake)**: privacy-preserving consensus
+    - [Cryptarchia](./blockchain_cryptarchia.md): proof-of-stake consensus protocol with private leader selection
+    - [Blend Network](./blockchain_blend.md): anonymizing network that protects block leader privacy by breaking the link between proposer and proposal
+  - **Sovereign Zones**: primitives that let app-specific zones run on top of the blockchain
+    - **Zone SDK**: developer toolkit exposing channels, bridging, and sequencing primitives for building Sovereign Zones
+    - **Channels**: unopinionated decentralized replicated logs that any transaction model can be built on
+    - [Bridging Support](./blockchain_bridging.md): protocol for moving tokens between the blockchain and Sovereign Zones
+    - [Decentralized Sequencing](./blockchain_decentralized_sequencing.md): blockchain-enforced sequencer coordination so Sovereign Zones can run with multiple sequencers without standing up their own consensus
+- **LEZ**: the Logos Execution Zone, a Sovereign Zone offering programmable privacy; the same program runs over private and public state
+  - **Programmable Privacy**: developers can compose programs over private and public state, with access to block context, enabling use cases like private donations, private voting, and atomic swaps
+  - [Bridging](./lez_bridging.md): deposit and withdraw tokens between the blockchain and LEZ
+  - [Decentralized Sequencing](./lez_decentralized_sequencing.md): LEZ as the first user of the decentralized sequencing model
 
 ### Testnet v0.1 Milestones
 
@@ -34,12 +41,13 @@ Logos Blockchain is working towards the following milestones
 
 ### Testnet v0.2 Milestones
 
-- [ ] [Blockchain Blend Implementation](./blockchain_blend.md)
+- [ ] [Blockchain Blend Network](./blockchain_blend.md)
 - [ ] [Blockchain Bridging Support](./blockchain_bridging.md)
 - [ ] [LEZ Bridging](./lez_bridging.md)
 - [ ] [Blockchain Decentralized Sequencing](./blockchain_decentralized_sequencing.md)
 - [ ] [LEZ Block Context](./lez_block_context.md)
 - [ ] [Blockchain Tokenomics](./blockchain_tokenomics.md)
+- [ ] [LEZ Tokenomics](./lez_tokenomics.md)
 - [ ] [Blockchain Explorer App](./blockchain_explorer.md)
 - [ ] [LEZ Explorer App](./lez_explorer.md)
 - [ ] [LEZ Indexer Module](./lez_indexer_module.md)

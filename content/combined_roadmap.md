@@ -49,7 +49,7 @@ gantt
     click bc6 href "/blockchain/roadmap/blockchain_sdp"
     Cryptarchia Implementation                     :active, bc7, 2025-01-01, 2026-03-31
     click bc7 href "/blockchain/roadmap/blockchain_cryptarchia"
-    Blend Implementation                           :active, bc8, 2025-01-01, 2026-03-31
+    Blend Network                                  :active, bc8, 2025-01-01, 2026-03-31
     click bc8 href "/blockchain/roadmap/blockchain_blend"
     Wallet Implementation                          :active, bc9, 2025-01-01, 2026-03-31
     click bc9 href "/blockchain/roadmap/blockchain_wallet"
