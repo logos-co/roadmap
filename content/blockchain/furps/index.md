@@ -65,7 +65,7 @@ FURPS are elsewhere divided into Milestones and Deliverables, to form a roadmap.
 30. Indexer provides RPC endpoints for querying LEZ state
 
 ### `lez:program-interface`
-31. Programs have defined interface exposing input/output accounts and contextual information (block number, random oracle, etc.)
+31. Programs have defined interface exposing input/output accounts and contextual information (block number, etc.)
 
 ### `lez:cross-program-calls`
 32. Programs can call other programs deployed on LEZ

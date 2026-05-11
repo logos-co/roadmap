@@ -1,4 +1,4 @@
-# Blockchain Blend Implementation
+# Blockchain Blend Network
 
 ## Resources Required
 
