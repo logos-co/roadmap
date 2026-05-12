@@ -492,11 +492,11 @@
 
       <div class="stats-bar">
         <div class="stat">
-          <div class="stat-value">4</div>
+          <div class="stat-value">5</div>
           <div class="stat-label">Teams Reporting</div>
         </div>
         <div class="stat">
-          <div class="stat-value">70+</div>
+          <div class="stat-value">80+</div>
           <div class="stat-label">PRs &amp; Updates</div>
         </div>
       </div>
@@ -528,6 +528,10 @@
             <div class="team">Logos Core</div>
             <p>New TabBar, LogosTable components added to logos-design-system; Wayland support and nested QML dir loading added to logos-basecamp; package manager UI refactored into smaller components.</p>
           </div>
+          <div class="highlight-card storage">
+            <div class="team">Storage</div>
+            <p>LIONESS Mix payload encryption spec completed; AutoNAT v2 dial-back address PR merged into nim-libp2p; Sphinx packet format generalized in a new transport-over-mix reference implementation.</p>
+          </div>
         </div>
       </section>
 
@@ -543,6 +547,7 @@
         <button class="tab messaging active" data-team="messaging">Messaging</button>
         <button class="tab anoncomms" data-team="anoncomms">AnonComms</button>
         <button class="tab blockchain" data-team="blockchain">Blockchain</button>
+        <button class="tab storage" data-team="storage">Storage</button>
         <button class="tab logoscore" data-team="logoscore">Logos Core</button>
       </div>
 
@@ -1024,6 +1029,150 @@
           </div>
         </div>
 
+      </div>
+
+      <!-- ================================================================
+             STORAGE
+             ================================================================ -->
+      <div class="team-content" id="storage">
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>AnonComm Collaboration</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>LIONESS &amp; transport over Mix</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li><strong>Completed the <a href="https://github.com/logos-co/logos-lips/pull/329">LIONESS specification</a></strong> for Mix payload encryption &mdash; provides strong guarantees for payload integrity (also tracked in <a href="https://hackmd.io/@codex-storage/Bko-170aWl">hackmd</a>)</li>
+                  <li>Improved the LIONESS wide-block cipher <a href="https://github.com/mghazwi/lioness_blockcipher">implementation</a></li>
+                  <li><a href="https://github.com/logos-storage/transport-over-mix/">Implemented and documented</a> a more general version of the Sphinx packet format; started working towards the transport layer</li>
+                  <li>Extracted libp2p mix example to a <a href="https://github.com/marcinczenko/nim-libp2p-mix-example">separate repo</a> to test it over QUIC (vs. default TCP) &mdash; potential improvements/fixes to discuss in AnonComms meeting</li>
+                  <li>Working through spec and Haskell reference implementation in <a href="https://github.com/logos-storage/transport-over-mix/">transport-over-mix</a></li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>Draft first primitive transport (chunking layer) over Mix (WIP)</li>
+                  <li>Work out the "compressed address space" proposal for Logos Mix</li>
+                  <li>Implement and document a working transport layer abstraction over Mix</li>
+                  <li>Review and help with the <a href="https://github.com/logos-co/nim-libp2p-mix/pull/1">LIONESS Nim implementation</a></li>
+                  <li>Continue on <a href="https://hackmd.io/@codex-storage/BJ2V1TwsZg">hidden services over Mix</a>: Ed25519 with key blinding, DOS/spam prevention, client auth and restricted discovery mode</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3><a href="https://github.com/logos-storage/logos-storage-pm/issues/5">NAT Traversal</a></h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>NAT Traversal progress</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Finalised the UDP experiment: most NATs are <em>Address and Port-Dependent Filter</em> (APDF) as documented in <a href="https://inria.hal.science/hal-01597969v1/document">this paper</a> &mdash; consequence: a client mode is needed for the DHT</li>
+                  <li>Updated the <a href="https://hackmd.io/3DR2Of1qS9iwXl_qdGdkKg">NAT Traversal strategy</a> to address feedback and describe the public-IP retrieval strategy</li>
+                  <li><strong><a href="https://github.com/vacp2p/nim-libp2p/pull/2354">Dial-back address in AutoNAT v2 merged</a></strong> in libp2p &mdash; observed address available as part of the callback for configuring announce address</li>
+                  <li>DHT client mode implementation in progress</li>
+                  <li>Updated <a href="https://github.com/logos-storage/logos-storage-nim/pull/1433">Nix configuration</a> in Logos Storage Nim</li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>Finish DHT client mode implementation</li>
+                  <li>Implement the NAT Traversal strategy</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Logos Blockchain Collaboration</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>Cryptography collaboration</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li><a href="https://github.com/logos-storage/nim-groth16/commit/eb3d805ee06b1b6aa7a5a573eb858ec493ab132a">Implemented</a> <code>arkworks</code>-compatible point compression (Nimbos required it; Logos Blockchain uses proof compression)</li>
+                  <li>Discovered <a href="https://github.com/logos-blockchain/logos-blockchain/issues/2664">issues</a> with the Logos Blockchain Poseidon hash implementation and helped address them</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3><a href="https://github.com/logos-storage/logos-storage-nim/milestone/11">Status Integration</a></h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>Status integration</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Not working on status-go this week</li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>Creating the final PR integrating logos-storage for history archive storage; prep work in <a href="https://github.com/status-im/status-go/pull/7344">status-go #7344</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3><a href="https://github.com/logos-storage/logos-storage-nim/milestone/10">Integration with Logos Core</a></h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>Logos Core integration progress</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Second review of <a href="https://github.com/logos-co/logos-storage-ui/pull/27">Logos Storage UI PR</a> updating to module-builder</li>
+                  <li>Second review of <a href="https://github.com/logos-co/logos-storage-module/pull/27#pullrequestreview-4211446935">Logos Storage Module PR</a> removing Qt dependency</li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>Provide a last review for Logos Storage Module</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Privacy track / research</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>Reference implementations</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Implemented <a href="https://github.com/logos-storage/hs-leopard/">Haskell bindings</a> for the Leopard erasure coding library (for the reference implementation of transport over Mix)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <!-- ================================================================
