@@ -50,11 +50,3 @@ Note that this might already be possible in `logos-delivery`, in that case it ne
 Enable Logos Testnet fleet nodes to start verifying lightpush RLN proofs, and drop lightpush requests without RLN proofs.
 
 **Done when**: Fleet deployments (`logos.dev`, `logos.test`) are updated.
-
-### Enable LightPush rate limiting in `waku.sandbox`
-
-Enable `waku.sandbox` fleet nodes to start verifying lightpush RLN proofs, and drop lightpush requests without RLN proofs.
-
-This must be done carefully. Node operators and users should be notified. No disturbance should occur for network users.
-
-**Done when**: Fleet deployments (`logos.dev`, `logos.test`) are updated.
