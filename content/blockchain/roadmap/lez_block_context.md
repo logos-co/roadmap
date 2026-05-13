@@ -17,14 +17,14 @@
 
 **Feature**: [FURPS](/blockchain/furps/index.md)
 
-Expose block context (block number, random oracle, etc.) to LEZ programs. For example:
+Expose block context (block number, etc.) to LEZ programs. For example:
 
 - Voting protocols need a cutoff time, which can be implemented through knowing the block number the transaction is executed in.
 - Atomic swaps require timeouts after which funds are released, this timing can be implemented through the block number.
 
 **FURPS**:
 
-- F31. Programs have defined interface exposing input/output accounts and contextual information (block number, random oracle, etc.)
+- F31. Programs have defined interface exposing input/output accounts and contextual information (block number, etc.)
 
 **Checklist**:
 - [ ] Block context exposed to programs

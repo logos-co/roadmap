@@ -1,4 +1,4 @@
-# Crypto Audit
+# Blockchain Crypto Audit
 
 ## Resources Required
 
@@ -11,7 +11,7 @@
 
 ## Deliverables
 
-### Cryptographic Audit
+### Blockchain Cryptographic Audit
 
 **Owner**: David Rusu
 
