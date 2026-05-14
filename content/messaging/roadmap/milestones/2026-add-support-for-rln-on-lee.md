@@ -67,7 +67,15 @@ The interface covers:
 
 - Implement the Logos Blockchain backend for the pluggable interface
 - Logos Delivery nodes can generate and validate RLN proofs against the LEE-deployed membership
-- Transition Logos testnet fleets from Ethereum Sepolia to Logos Blockchain
+- Deploy Logos testnet fleets (`logos.dev`, `logos.test`) with RLN backed by Logos Blockchain
+
+### Upgrade to Zerokit 2.0
+
+**Owner**: Delivery Team
+
+Adopt Zerokit 2.0 in `logos-delivery` on `master`, in coordination with AnonComms. Zerokit 2.0 is a breaking change at the RLN protocol level, so Logos Testnet fleets start on it directly rather than migrating from an earlier version.
+
+**Done when**: `logos-delivery` `master` builds against Zerokit 2.0.
 
 ### Update RLN membership management library
 
