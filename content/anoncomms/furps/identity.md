@@ -28,14 +28,15 @@
 3. The identity library is implemented in Rust.
 4. The identity library is available via C-bindings.
 5. The identity library is integrated into a working Logos Chat module deployed to Logos Core.
-6. The registry is implemented as an LEZ program.
+6. The registry is implemented on the Logos Blockchain (as an LEZ program or as a dedicated Identity Zone).
+7. The registry backend choice on the Logos Blockchain (LEZ program vs dedicated Identity Zone) is evaluated and documented.
 
 <!-- ──────── post-mainnet ──────── -->
 
-7. The EoI format and disclosure model is published in a specification.
-8. The CAIP-122 binding for Logos identities is published in a specification.
-9. Holder-defined identity recovery policies are published in a specification.
-10. The provenance log protocol is published in a specification.
+8. The EoI format and disclosure model is published in a specification.
+9. The CAIP-122 binding for Logos identities is published in a specification.
+10. Holder-defined identity recovery policies are published in a specification.
+11. The provenance log protocol is published in a specification.
 
 ## Reliability
 
@@ -48,4 +49,4 @@
 
 ## Miscellaneous dependencies
 
-1. Dependency on performant LEZ for the V1 registry backend.
+1. Dependency on a performant Logos Blockchain backend for the V1 registry.

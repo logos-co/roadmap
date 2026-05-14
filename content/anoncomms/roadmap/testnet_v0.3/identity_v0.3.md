@@ -39,6 +39,16 @@ and a working contact-discovery flow.
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
+### [Investigate dedicated Identity Zone for registry](TBD: anoncomms-pm issue)
+
+**Owner**: Messaging Chat
+
+**FURPS**:
+- U7. The registry backend choice on the Logos Blockchain (LEZ program vs dedicated Identity Zone) is evaluated and documented.
+
+**Checklist**:
+- [ ] Docs: links to README.md or other docs
+- [ ] Specs: link to specs and/or API definition
 
 ### [Specify registry interface](TBD: anoncomms-pm issue)
 
