@@ -22,14 +22,13 @@ and a working contact-discovery flow.
 **Owner**: Messaging Chat
 
 **FURPS**:
-- F2. An identity has a stable, long-lived address that does not change when keys rotate or are revoked.
-- F3. An identity carries an append-only operation log of credential changes.
-- F4. An identity can be created without permission from any third party.
-- F5. An identity can hold one or more installation keys.
-- F6. A new installation can be added to an identity by an authorised current installation.
-- F7. An installation can be revoked by an authorised current installation.
-- F8. An identity is consumable by de-MLS to retrieve the key package for an active installation.
-- F10. An identity can be discovered by contacts via address share and registry lookup.
+- F2. An account has a stable, long-lived address that does not change when keys rotate or are revoked.
+- F3. An account carries an append-only operation log of credential changes.
+- F4. An account can be created without permission from any third party.
+- F5. An account can hold one or more keys.
+- F6. A new key can be added to an account by the account holder.
+- F7. A key can be revoked by the account holder.
+- F8. Given an account address, anyone can query for the associated keys.
 - U3. The identity library is implemented in Rust.
 - U4. The identity library is available via C-bindings.
 - U5. The identity library is integrated into a working Logos Chat module deployed to Logos Core.

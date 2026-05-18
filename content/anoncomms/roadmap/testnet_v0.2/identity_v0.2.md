@@ -22,7 +22,7 @@ and validates the LEZ-as-Registry approach via a spike.
 **Owner**: Messaging Chat (primary), AnonComms Identity (review)
 
 **FURPS**:
-- U1. The basic identity protocol (address format, operation log, contact discovery flow) is published in a specification.
+- U1. The basic identity protocol (accounts, address format, operation log, contact discovery flow) is published in a specification.
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
@@ -32,7 +32,7 @@ and validates the LEZ-as-Registry approach via a spike.
 **Owner**: Messaging Chat
 
 **FURPS**:
-- P1. A registry lookup of an identity's current state completes within a bounded time under typical network conditions.
+- P1. A registry lookup of an account's current state completes within a bounded time under typical network conditions.
 
 **Checklist**:
 - [ ] Docs: links to README.md or other docs
@@ -42,7 +42,7 @@ and validates the LEZ-as-Registry approach via a spike.
 **Owner**: Messaging Chat
 
 **FURPS**:
-- F1. An identity is bound to at least one cryptographic key whose private part is controlled by the holder.
+- F1. An account is bound to at least one cryptographic key whose private part is controlled by the holder.
 
 **Checklist**:
 - [ ] Code: link to GitHub issues/PRs/Epic
