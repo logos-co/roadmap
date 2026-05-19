@@ -102,6 +102,11 @@ title: 2026-MM-DD Messaging Weekly
   - next:
   - blockers:
 
+- Upgrade to Zerokit 2.0
+  - achieved:
+  - next:
+  - blockers:
+
 ## [Fleet stability](2026-fleet-stability.md)
 
 - [[Deliverable] Integrate Sentry for crash reporting](https://github.com/logos-messaging/pm/issues/381)
