@@ -92,12 +92,22 @@ title: 2026-MM-DD Messaging Weekly
 
 ## [Port RLN to Logos Blockchain](2026-add-support-for-rln-on-lee.md)
 
-- Implement pluggable RLN membership interface
+- [[Deliverable] Implement pluggable RLN membership interface](https://github.com/logos-messaging/pm/issues/416)
   - achieved:
   - next:
   - blockers:
 
-- Integrate Logos Delivery with RLN on Logos Blockchain
+- [[Deliverable] Integrate Logos Delivery with RLN on Logos Blockchain](https://github.com/logos-messaging/pm/issues/417)
+  - achieved:
+  - next:
+  - blockers:
+
+- [[Deliverable] Upgrade to Zerokit 2.0](https://github.com/logos-messaging/pm/issues/418)
+  - achieved:
+  - next:
+  - blockers:
+
+- [[Deliverable] Update RLN membership management library](https://github.com/logos-messaging/pm/issues/419)
   - achieved:
   - next:
   - blockers:
