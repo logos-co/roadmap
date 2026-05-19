@@ -6,9 +6,6 @@ date: 2025-07-03
 github: 'https://github.com/logos-messaging/pm/issues/395'
 ---
 
-> [!NOTE] This file will be renamed to `2026-messaging-api-developer-preview`
-
-
 **Resources Required for 2026H1**:
 - 3 Nim engineers
 

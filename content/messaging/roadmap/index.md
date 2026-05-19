@@ -30,14 +30,14 @@ We use two release stages for developer-facing APIs and libraries:
 
 ### Testnet [v0.1](v01)
 
-- [x] [Messaging API — Developer Preview](2025-api-access-to-p2p-reliability-for-desktop.md)
-- [x] [Chat — Foundations](2025-create-chat-sdk-mvp.md)
-- [ ] [Initial Integration to Logos Core](2025-enable-easy-c-bindings-for-desktop.md)
+- [x] [Messaging API — Developer Preview](2026-messaging-api-developer-preview.md)
+- [x] [Chat — Foundations](2026-chat-foundations.md)
+- [ ] [Initial Integration to Logos Core](2026-initial-integration-to-logos-core.md)
 
 ### Testnet [v0.2](v02)
 
 - [ ] [Messaging API — General Availability](2026-messaging-api-general-availability)
-- [ ] [Reliable Channel API — Developer Preview](2025-package-sds-in-reliable-channel-api.md)
+- [ ] [Reliable Channel API — Developer Preview](2026-reliable-channel-api-developer-preview.md)
 - [ ] [Chat — Group Conversations](2025-extend-chat-sdk-with-group-conversations)
 - [ ] [Logos Core Integration — Phase 2](2026-logos-core-integration-phase-2)
 - [ ] [QUIC Transport in Logos Delivery](2025-support-discovery-research-and-libp2p-quic)
@@ -45,7 +45,7 @@ We use two release stages for developer-facing APIs and libraries:
 
 ### Testnet [v0.3](v03)
 
-- [ ] [Reliable Channel API — General Availability](2026-complete-reliable-channel-api.md)
+- [ ] [Reliable Channel API — General Availability](2026-reliable-channel-api-general-availability.md)
 - [ ] [Chat — Developer Preview](2026-chat-developer-preview)
 - [ ] [RLN on Logos Blockchain](2026-add-support-for-rln-on-lee)
 
@@ -71,9 +71,9 @@ We use two release stages for developer-facing APIs and libraries:
 
 ## H2 2025
 
-- [Create Chat SDK MVP](2025-create-chat-sdk-mvp.md)
+- [Create Chat SDK MVP](2026-chat-foundations.md)
 - [Messaging API](2025-messaging-api.md)
-- [Enable easy C-Bindings for Desktop](2025-enable-easy-c-bindings-for-desktop.md)
+- [Enable easy C-Bindings for Desktop](2026-initial-integration-to-logos-core.md)
 - [Formalize and Expand Waku Web Apps](2025-formalize-and-expand-waku-web-apps.md)
 - [Harden RLN Testnet Deployment](2025-harden-rln-testnet-deployment.md)
 - [Improve DevEx: API, TWN, Metrics, Docs](2025-improve-devex.md)
@@ -95,9 +95,9 @@ We use two release stages for developer-facing APIs and libraries:
 
 - [Implement RLN Membership Management](2025-implement-rln-membership-management.md) — superseded by [RLN on Logos Blockchain](2026-add-support-for-rln-on-lee)
 - [Support Discovery Research and Libp2p QUIC](2025-support-discovery-research-and-libp2p-quic.md) — discovery now under AnonComms; QUIC moved to v0.2
-- [Enable easy C-Bindings for Desktop](2025-enable-easy-c-bindings-for-desktop.md) — absorbed into [Initial Integration to Logos Core](2025-enable-easy-c-bindings-for-desktop.md)
+- [Enable easy C-Bindings for Desktop](2026-initial-integration-to-logos-core.md) — absorbed into [Initial Integration to Logos Core](2026-initial-integration-to-logos-core.md)
 - [Enable easy C-Bindings for Mobile](2025-enable-easy-c-bindings-for-mobile.md) — absorbed into [Support Mobile Platforms](2026-support-mobile-platforms)
-- [Add Edge Mode to Messaging API](2025-add-edge-mode-to-messaging-api.md) — absorbed into [Messaging API — Developer Preview](2025-api-access-to-p2p-reliability-for-desktop)
+- [Add Edge Mode to Messaging API](2025-add-edge-mode-to-messaging-api.md) — absorbed into [Messaging API — Developer Preview](2026-messaging-api-developer-preview)
 - [Messaging and Chat on Mobile](2025-messaging-chat-on-mobile.md) — absorbed into [Support Mobile Platforms](2026-support-mobile-platforms)
 - [Add peer discovery to mixnet and support browser](2025-add-peer-discovery-to-mixnet-and-support-browser.md)
 - [Debugging Tools](2025-debugging-tools.md)
