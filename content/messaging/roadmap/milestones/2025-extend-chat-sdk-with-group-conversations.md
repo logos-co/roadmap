@@ -28,7 +28,7 @@ Group chat features will be limited at this stage and extended with further mile
 
 | Type/Level      | Risk                             | (Accept, Own, Mitigation)                                                                                                                                              |
 | --------------- | -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Schedule/Medium | Milestone dependency             | This milestone depends on [Chat — Foundations](2025-create-chat-sdk-mvp.md). Delays there translate into delays here.                                                        |
+| Schedule/Medium | Milestone dependency             | This milestone depends on [Chat — Foundations](2026-chat-foundations.md). Delays there translate into delays here.                                                        |
 | Technical/Low   | Group chat bugs                  | Group chat is prone to bugs even when using existing encryption protocols. Extra time allocated to testing and debugging.                                              |
 | Technical/High  | SDS and de-MLS ordering conflict | SDS works backward in the dependency tree, but de-MLS requires forward construction from checkpoints. Specific deliverable scheduled to design and define integration. |
 | Technical/High  | Nim shim removal feasibility     | Removing the Nim layer is only possible if Logos Chat remains fully synchronous. If async is required (e.g. for data storage), the removal may not be feasible.        |

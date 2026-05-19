@@ -6,14 +6,11 @@ date: 2025-12-17
 github: https://github.com/logos-messaging/pm/issues/402
 ---
 
-> [!NOTE] This file will be renamed to `2026-reliable-channel-api-general-availability`
-
-
 **Resources Required for 2026H2**:
 - 2 Delivery engineers
 - 1 Chat engineer
 
-The [Developer Preview](2025-package-sds-in-reliable-channel-api.md) delivers the core SDS experience. This milestone completes the [Reliable Channel API](https://github.com/logos-messaging/specs/pull/89) by adding:
+The [Developer Preview](2026-reliable-channel-api-developer-preview.md) delivers the core SDS experience. This milestone completes the [Reliable Channel API](https://github.com/logos-messaging/specs/pull/89) by adding:
 - Message segmentation for large payloads
 - Rate limit management (in preparation for future RLN integration)
 
