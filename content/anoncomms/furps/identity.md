@@ -7,15 +7,16 @@
 3. An account carries an append-only operation log of credential changes.
 4. An account can be created without permission from any third party.
 5. An account can hold one or more keys.
-6. A new key can be added to an account by the account holder.
-7. A key can be revoked by the account holder.
+6. A new key can be added to an account
+7. A key can be revoked from the account.
 8. Given an account address, anyone can query for the associated keys.
+9. Single-key compromise must not permit irreversible account takeover.
 
 <!-- ──────── post-mainnet ──────── -->
 
-9. Account creation is resistant to trivial Sybil attacks.
-10. An account allows for associating externally owned identifiers (EoIs) to be used as alternative addresses.
-11. An account supports programmable validation policies, defined by the holder, that govern which mutations are accepted (i.e., full provenance log implementation)
+10. Account creation is resistant to trivial Sybil attacks.
+11. An account allows for associating externally owned identifiers (EoIs) to be used as alternative addresses.
+12. An account supports programmable validation policies, defined by the holder, that govern which mutations are accepted (i.e., full provenance log implementation)
 
 ## Usability
 

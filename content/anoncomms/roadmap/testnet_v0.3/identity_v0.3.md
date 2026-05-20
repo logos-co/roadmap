@@ -26,9 +26,10 @@ and a working contact-discovery flow.
 - F3. An account carries an append-only operation log of credential changes.
 - F4. An account can be created without permission from any third party.
 - F5. An account can hold one or more keys.
-- F6. A new key can be added to an account by the account holder.
-- F7. A key can be revoked by the account holder.
+- F6. A new key can be added to an account.
+- F7. A key can be revoked from the account.
 - F8. Given an account address, anyone can query for the associated keys.
+- F9. Single-key compromise must not permit irreversible account takeover.
 - U3. The identity library is implemented in Rust.
 - U4. The identity library is available via C-bindings.
 - U5. The identity library is integrated into a working Logos Chat module deployed to Logos Core.
