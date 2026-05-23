@@ -116,15 +116,15 @@ gantt
     
     section Messaging - Launch Critical
     Create Chat SDK MVP                            :crit, active, msg1, 2025-06-24, 2025-12-31
-    click msg1 href "/messaging/roadmap/milestones/2025-create-chat-sdk-mvp"
+    click msg1 href "/messaging/roadmap/milestones/2026-chat-foundations"
     Extend Chat SDK with Group Conversations       :crit, msg2, 2025-12-18, 2026-06-30
     click msg2 href "/messaging/roadmap/milestones/2025-extend-chat-sdk-with-group-conversations"
     API access to P2P Reliability for Desktop      :active, msg3, 2025-07-03, 2025-08-31
-    click msg3 href "/messaging/roadmap/milestones/2025-api-access-to-p2p-reliability-for-desktop"
+    click msg3 href "/messaging/roadmap/milestones/2026-messaging-api-developer-preview"
     Package SDS in Reliable Channel API            :msg4, 2025-12-10, 2026-03-31
-    click msg4 href "/messaging/roadmap/milestones/2025-package-sds-in-reliable-channel-api"
+    click msg4 href "/messaging/roadmap/milestones/2026-reliable-channel-api-developer-preview"
     Enable easy C-Bindings for Desktop             :active, msg5, 2025-12-19, 2026-03-31
-    click msg5 href "/messaging/roadmap/milestones/2025-enable-easy-c-bindings-for-desktop"
+    click msg5 href "/messaging/roadmap/milestones/2026-initial-integration-to-logos-core"
     
     section Messaging - Launch Important
     Support Discovery Research & Libp2p QUIC       :msg6, 2025-12-03, 2026-06-30
@@ -136,7 +136,7 @@ gantt
     Messaging and Chat on Mobile                   :msg9, 2025-12-11, 2026-06-30
     click msg9 href "/messaging/roadmap/milestones/2025-messaging-chat-on-mobile"
     Complete Reliable Channel API                  :msg10, 2025-12-17, 2026-06-30
-    click msg10 href "/messaging/roadmap/milestones/2026-complete-reliable-channel-api"
+    click msg10 href "/messaging/roadmap/milestones/2026-reliable-channel-api-general-availability"
     Implement RLN Membership Management            :active, msg11, 2025-09-30, 2026-03-31
     click msg11 href "/messaging/roadmap/milestones/2025-implement-rln-membership-management"
     Add Support of RLN LSSA                        :msg12, 2026-01-01, 2026-09-30

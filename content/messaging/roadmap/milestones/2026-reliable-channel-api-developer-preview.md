@@ -6,21 +6,18 @@ date: 2025-12-10
 github: https://github.com/logos-messaging/pm/issues/405
 ---
 
-> [!NOTE] This file will be renamed to `2026-reliable-channel-api-developer-preview`
-
-
 **Resources Required for 2026H1**:
 - 2 Delivery engineers
 - 1 Chat engineer for integration
 
-The [Chat — Foundations](2025-create-chat-sdk-mvp.md) milestone does not include the [Scalable Data Sync](https://github.com/vacp2p/rfc-index/blob/main/vac/raw/sds.md) protocol. This milestone delivers dedicated work to fully leverage SDS to:
+The [Chat — Foundations](2026-chat-foundations.md) milestone does not include the [Scalable Data Sync](https://github.com/vacp2p/rfc-index/blob/main/vac/raw/sds.md) protocol. This milestone delivers dedicated work to fully leverage SDS to:
 - Identify and retrieve missed messages
 - Track, acknowledge, and resend unacknowledged messages
 
 The [Reliable Channel API](https://github.com/logos-messaging/specs/pull/89) delivers a simple API that enables those features, as well as:
 - SDS-Repair, an extension to SDS that reduces reliance on Store services and improves receiver anonymity from the original SDS protocol.
 
-This milestone focuses on forming the API and delivering a pre-configured SDS experience. Segmentation and rate limit manager will be delivered in the [General Availability](2026-complete-reliable-channel-api.md) milestone.
+This milestone focuses on forming the API and delivering a pre-configured SDS experience. Segmentation and rate limit manager will be delivered in the [General Availability](2026-reliable-channel-api-general-availability.md) milestone.
 
 ## FURPS
 

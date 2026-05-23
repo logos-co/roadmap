@@ -59,7 +59,7 @@ The Chat module API is extended to expose group chat functionality (create group
 
 **Owner**: Delivery Team
 
-When the [Reliable Channel API — Developer Preview](2025-package-sds-in-reliable-channel-api.md) is ready, the Delivery Logos Core module is updated to expose it alongside the Messaging API. Chat module switches to using Reliable Channel API for message delivery.
+When the [Reliable Channel API — Developer Preview](2026-reliable-channel-api-developer-preview.md) is ready, the Delivery Logos Core module is updated to expose it alongside the Messaging API. Chat module switches to using Reliable Channel API for message delivery.
 
 ### POC: Delivery module uses Discovery module for peer discovery
 

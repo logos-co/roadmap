@@ -46,7 +46,7 @@ This is important because Status will use RLN on Status Network (EVM-based, gasl
 
 ## Deliverables
 
-### Implement pluggable RLN membership interface
+### [Implement pluggable RLN membership interface](https://github.com/logos-messaging/pm/issues/416)
 
 **Owner**: Delivery Team
 
@@ -61,7 +61,7 @@ The interface covers:
 - Proof generation and validation
 - Credential persistence and export/import
 
-### Integrate Logos Delivery with RLN on Logos Blockchain
+### [Integrate Logos Delivery with RLN on Logos Blockchain](https://github.com/logos-messaging/pm/issues/417)
 
 **Owner**: Delivery Team
 
@@ -69,7 +69,7 @@ The interface covers:
 - Logos Delivery nodes can generate and validate RLN proofs against the LEE-deployed membership
 - Deploy Logos testnet fleets (`logos.dev`, `logos.test`) with RLN backed by Logos Blockchain
 
-### Upgrade to Zerokit 2.0
+### [Upgrade to Zerokit 2.0](https://github.com/logos-messaging/pm/issues/418)
 
 **Owner**: Delivery Team
 
@@ -77,7 +77,7 @@ Adopt Zerokit 2.0 in `logos-delivery` on `master`, in coordination with AnonComm
 
 **Done when**: `logos-delivery` `master` builds against Zerokit 2.0.
 
-### Update RLN membership management library
+### [Update RLN membership management library](https://github.com/logos-messaging/pm/issues/419)
 
 **Owner**: Delivery Team
 

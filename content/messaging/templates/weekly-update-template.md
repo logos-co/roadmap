@@ -37,7 +37,7 @@ title: 2026-MM-DD Messaging Weekly
   - next:
   - blockers:
 
-## [Reliable Channel API — Developer Preview](2025-package-sds-in-reliable-channel-api.md)
+## [Reliable Channel API — Developer Preview](2026-reliable-channel-api-developer-preview.md)
 
 - [[Deliverable] Implement Reliable Channel API](https://github.com/logos-messaging/pm/issues/412)
   - achieved:
@@ -49,7 +49,7 @@ title: 2026-MM-DD Messaging Weekly
   - next:
   - blockers:
 
-## [Reliable Channel API — General Availability](2026-complete-reliable-channel-api.md)
+## [Reliable Channel API — General Availability](2026-reliable-channel-api-general-availability.md)
 
 - [[Deliverable] Create Segmentation Library](https://github.com/logos-messaging/pm/issues/318)
   - achieved:
@@ -92,12 +92,22 @@ title: 2026-MM-DD Messaging Weekly
 
 ## [Port RLN to Logos Blockchain](2026-add-support-for-rln-on-lee.md)
 
-- Implement pluggable RLN membership interface
+- [[Deliverable] Implement pluggable RLN membership interface](https://github.com/logos-messaging/pm/issues/416)
   - achieved:
   - next:
   - blockers:
 
-- Integrate Logos Delivery with RLN on Logos Blockchain
+- [[Deliverable] Integrate Logos Delivery with RLN on Logos Blockchain](https://github.com/logos-messaging/pm/issues/417)
+  - achieved:
+  - next:
+  - blockers:
+
+- [[Deliverable] Upgrade to Zerokit 2.0](https://github.com/logos-messaging/pm/issues/418)
+  - achieved:
+  - next:
+  - blockers:
+
+- [[Deliverable] Update RLN membership management library](https://github.com/logos-messaging/pm/issues/419)
   - achieved:
   - next:
   - blockers:
@@ -165,7 +175,7 @@ title: 2026-MM-DD Messaging Weekly
 
 # Logos Core
 
-## [Initial integration into Logos Core](2025-enable-easy-c-bindings-for-desktop.md)
+## [Initial integration into Logos Core](2026-initial-integration-to-logos-core.md)
 
 - [[Deliverable] Deploy required fleets for Testnet](https://github.com/logos-messaging/pm/issues/386)
   - achieved:

@@ -6,9 +6,6 @@ date: 19-01-2026
 github: https://github.com/logos-messaging/pm/issues/398
 ---
 
-> [!NOTE] This file will be renamed to `2026-logos-core-initial-integration`
-
-
 **Resources Required for 2026H1**:
 - 2 devs for 1 month from Delivery Team
 - 1 dev for 1 month from Chat Team
