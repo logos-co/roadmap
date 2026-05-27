@@ -6,9 +6,6 @@ date: 2025-06-24
 github: 'https://github.com/logos-messaging/pm/issues/407'
 ---
 
-> [!NOTE] This file will be renamed to `2026-chat-foundations`
-
-
 **Resources Required for 2026H1**:
 - 2 Chat Researchers
 - 1 Delivery Dev for 1 month (C-bindings)
