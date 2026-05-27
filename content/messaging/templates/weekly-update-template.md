@@ -102,11 +102,6 @@ title: 2026-MM-DD Messaging Weekly
   - next:
   - blockers:
 
-- [[Deliverable] Upgrade to Zerokit 2.0](https://github.com/logos-messaging/pm/issues/418)
-  - achieved:
-  - next:
-  - blockers:
-
 - [[Deliverable] Update RLN membership management library](https://github.com/logos-messaging/pm/issues/419)
   - achieved:
   - next:
@@ -218,11 +213,6 @@ title: 2026-MM-DD Messaging Weekly
 
 ## [Integrate logos-delivery in Status](2026-status-logos-delivery-integration.md)
 
-- [[Deliverable] Remove existing nwaku integration from status-go](https://github.com/logos-messaging/pm/issues/394)
-  - achieved:
-  - next:
-  - blockers:
-
 - [[Deliverable] Integrate Messaging API in status-go](https://github.com/logos-messaging/pm/issues/380)
   - achieved:
   - next:
@@ -256,6 +246,6 @@ title: 2026-MM-DD Messaging Weekly
 
 # Maintenance
 
-  - achieved:
-  - next:
-  - blocked:
+- achieved:
+- next:
+- blocked:

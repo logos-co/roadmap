@@ -32,7 +32,7 @@ We use two release stages for developer-facing APIs and libraries:
 
 - [x] [Messaging API — Developer Preview](2026-messaging-api-developer-preview.md)
 - [x] [Chat — Foundations](2026-chat-foundations.md)
-- [ ] [Initial Integration to Logos Core](2026-initial-integration-to-logos-core.md)
+- [x] [Initial Integration to Logos Core](2026-initial-integration-to-logos-core.md)
 
 ### Testnet [v0.2](v02)
 
