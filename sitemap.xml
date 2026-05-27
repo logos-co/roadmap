@@ -38,6 +38,9 @@
     <loc>https://roadmap.logos.co/anoncomms/furps/discovery</loc>
     <lastmod>2026-03-24T18:15:12.247Z</lastmod>
   </url><url>
+    <loc>https://roadmap.logos.co/anoncomms/furps/identity</loc>
+    <lastmod>2026-05-27T16:24:44.367Z</lastmod>
+  </url><url>
     <loc>https://roadmap.logos.co/anoncomms/furps/incentivisation</loc>
     <lastmod>2026-03-24T18:15:12.247Z</lastmod>
   </url><url>
@@ -71,11 +74,17 @@
     <loc>https://roadmap.logos.co/anoncomms/roadmap/gasless-l2</loc>
     <lastmod>2026-04-01T10:09:59.959Z</lastmod>
   </url><url>
+    <loc>https://roadmap.logos.co/anoncomms/roadmap/identity</loc>
+    <lastmod>2026-05-27T16:24:44.367Z</lastmod>
+  </url><url>
     <loc>https://roadmap.logos.co/anoncomms/roadmap/incentivisation</loc>
     <lastmod>2026-04-01T10:09:59.959Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/anoncomms/roadmap/</loc>
     <lastmod>2026-04-01T10:09:59.959Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/anoncomms/roadmap/mainnet/identity_mainnet</loc>
+    <lastmod>2026-05-27T16:24:44.367Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/anoncomms/roadmap/mix</loc>
     <lastmod>2026-04-01T10:09:59.959Z</lastmod>
@@ -113,6 +122,9 @@
     <loc>https://roadmap.logos.co/anoncomms/roadmap/testnet_v0.2/discovery_v0.2</loc>
     <lastmod>2026-04-01T10:09:59.959Z</lastmod>
   </url><url>
+    <loc>https://roadmap.logos.co/anoncomms/roadmap/testnet_v0.2/identity_v0.2</loc>
+    <lastmod>2026-05-27T16:24:44.367Z</lastmod>
+  </url><url>
     <loc>https://roadmap.logos.co/anoncomms/roadmap/testnet_v0.2/incentivisation_v0.2</loc>
     <lastmod>2026-04-01T10:09:59.959Z</lastmod>
   </url><url>
@@ -127,6 +139,9 @@
   </url><url>
     <loc>https://roadmap.logos.co/anoncomms/roadmap/testnet_v0.2/zerokit_v0.2</loc>
     <lastmod>2026-04-01T10:09:59.959Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/anoncomms/roadmap/testnet_v0.3/identity_v0.3</loc>
+    <lastmod>2026-05-27T16:24:44.367Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/anoncomms/roadmap/zerokit</loc>
     <lastmod>2026-04-01T10:09:59.959Z</lastmod>
