@@ -168,14 +168,12 @@ title: 2026-MM-DD Messaging Weekly
   - next:
   - blockers:
 
-# Logos Core
-
-## [Initial integration into Logos Core](2026-initial-integration-to-logos-core.md)
-
-- [[Deliverable] Deploy required fleets for Testnet](https://github.com/logos-messaging/pm/issues/386)
+- Perform test integration of Logos Chat into Status App
   - achieved:
   - next:
   - blockers:
+
+# Logos Core
 
 ## [Logos Core integration — phase 2](2026-logos-core-integration-phase-2.md)
 
@@ -226,13 +224,6 @@ title: 2026-MM-DD Messaging Weekly
   - blockers:
 
 - [[Deliverable] SDS protocol in Status — enable wrapping for communities messages](https://github.com/logos-messaging/pm/issues/385)
-  - achieved:
-  - next:
-  - blockers:
-
-## [Chat — Group Conversations](2025-extend-chat-sdk-with-group-conversations.md)
-
-- Perform test integration of Logos Chat into Status App
   - achieved:
   - next:
   - blockers:
