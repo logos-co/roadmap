@@ -21,7 +21,7 @@ EmPoWering is a proof-of-work on-ramp for the Logos Blockchain. It lets new part
 
 **Feature**: [FURPS](/blockchain/furps/index.md)
 
-Amend the Blend Protocol so any participant can earn private-messaging access through proof of work. Extends Proof of Quota to a three-branch disjunction (core, leader, proof-of-work), adds a pre-relay proof check at the edge-to-core boundary to prevent spam, and generalizes Blend payloads to carry transactions as well as block proposals — enlarging the anonymity set and making edge-node leader traffic indistinguishable from ordinary traffic.
+Amend the Blend Protocol so any participant can earn private-messaging access through proof of work. Extends Proof of Quota to a three-branch disjunction (core, leader, proof-of-work), protects the edge-to-core boundary against spam, and generalizes Blend payloads to carry transactions as well as block proposals — enlarging the anonymity set and making edge-node leader traffic indistinguishable from ordinary traffic.
 
 **FURPS**:
 
@@ -32,7 +32,7 @@ Amend the Blend Protocol so any participant can earn private-messaging access th
 
 **Checklist**:
 - [ ] Three-branch Proof of Quota circuit extension
-- [ ] Pre-relay Proof of Quota verification at the edge-to-core boundary
+- [ ] Edge-to-core boundary spam protection
 - [ ] Payload header routing transactions to the mempool and block proposals to broadcast
 - [ ] Per-epoch Blend difficulty controller tracking transaction load
 
