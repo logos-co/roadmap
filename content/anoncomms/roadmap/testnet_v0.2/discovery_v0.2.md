@@ -1,8 +1,8 @@
-# [Capability Discovery Track: Testnet v0.2](https://github.com/logos-co/anoncomms-pm/milestone/10)
+# [Service Discovery Track: Testnet v0.2](https://github.com/logos-co/anoncomms-pm/milestone/10)
 
-**Track:** [Capability Discovery Track](/anoncomms/roadmap/discovery.md)
+**Track:** [Service Discovery Track](/anoncomms/roadmap/discovery.md)
 
-**FURPS:** [Capability Discovery FURPS](/anoncomms/furps/discovery.md)
+**FURPS:** [Service Discovery FURPS](/anoncomms/furps/discovery.md)
 
 **Estimated date of completion**: 30 Jun 2026
 
@@ -13,27 +13,27 @@
 
 ## Deliverables
 
-### [Integrate and dogfood capability discovery in Logos Delivery](https://github.com/logos-co/anoncomms-pm/issues/31)
+### [Integrate and dogfood service discovery in Logos Delivery](https://github.com/logos-co/anoncomms-pm/issues/31)
 
 **Owner**: AnonComms Discovery
 
 **FURPS**:
 
-- U9. Capability discovery is integrated in Logos Delivery to replace discv5 discovery
-- U13. Capability discovery is integrated into `chat2mix` application for dogfooding
+- U9. Service discovery is integrated in Logos Delivery to discover libp2p mix nodes
+- U13. Service discovery is integrated into `chat2mix` application for dogfooding
 
 **Checklist**:
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### [Specify standalone capability discovery API](https://github.com/logos-co/anoncomms-pm/issues/32)
+### [Specify standalone service discovery API](https://github.com/logos-co/anoncomms-pm/issues/32)
 
 **Owner**: AnonComms Discovery
 
 **FURPS**:
 
-- U11. The capability discovery API is published in a specification
+- U11. The service discovery API is published in a specification
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
@@ -65,30 +65,28 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### [Implement standalone Logos capability discovery module](https://github.com/logos-co/anoncomms-pm/issues/35)
+### [Implement standalone Logos service discovery module](https://github.com/logos-co/anoncomms-pm/issues/35)
 
 **Owner**: P2P Team (primary), AnonComms Discovery (support)
 
 **FURPS**:
 
-- U10. The capability discovery module is available as a Logos Core module
+- U10. The service discovery module is available as a Logos Core module
 
 **Checklist**:
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### [Large scale benchmarking of the capability discovery module](https://github.com/logos-co/anoncomms-pm/issues/36)
+### [Validate service discovery protocol correctness in large-scale simulations](https://github.com/logos-co/anoncomms-pm/issues/36)
 
 **Owner**: DST Team (primary), AnonComms Discovery (support)
 
 **FURPS**:
 
-- P1. Capability discovery provides comparable performance to discv5 when all nodes support the same service
-- P2. Capability discovery performs better than discv5 to find a sparse service
-- S1. Capability discovery can be benchmarked in large scale Delivery module simulations
-- S2. Capability discovery can be benchmarked in a standalone p2p capability discovery module
+- F7. Service discovery correctly discovers all advertised peers in a topology of several thousand nodes
+- F8. Service discovery correctly discovers peers advertising a sparse service in a topology of several thousand nodes
+- S1. Service discovery can be functionally validated in large-scale standalone DST simulations
 
 **Checklist**:
-- [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
