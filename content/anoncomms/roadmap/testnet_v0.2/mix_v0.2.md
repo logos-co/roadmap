@@ -54,7 +54,6 @@
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
-- [ ] Code: link to GitHub issues/PRs/Epic
 
 ### [Specify and implement cover traffic generation](https://github.com/logos-co/anoncomms-pm/issues/42)
 
@@ -87,7 +86,7 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### [Integrate mix into the Logos Chat module](https://github.com/logos-co/anoncomms-pm/issues/44)
+### [Integrate mix into the Logos Mix Demo Chat module](https://github.com/logos-co/anoncomms-pm/issues/44)
 
 **Owner**: AnonComms Mix
 
@@ -100,9 +99,9 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### [Experiment with mixifying basic DHT interactions](https://github.com/logos-co/anoncomms-pm/issues/45)
+### [Mixify a DHT query](https://github.com/logos-co/anoncomms-pm/issues/45)
 
-**Owner**: AnonComms Mix
+**Owner**: Storage Team
 
 **FURPS**:
 
