@@ -41,31 +41,37 @@ Logos Blockchain is working towards the following capabilities, required for Mai
 
 ### Testnet v0.2 Milestones
 
-- [ ] [Blockchain Blend Network](./blockchain_blend.md)
+- [x] [Blockchain Blend Network](./blockchain_blend.md)
 - [ ] [Blockchain Bridging Support](./blockchain_bridging.md)
 - [ ] [LEZ Bridging](./lez_bridging.md)
-- [ ] [Blockchain Decentralized Sequencing](./blockchain_decentralized_sequencing.md)
-- [ ] [LEZ Block Context](./lez_block_context.md)
-- [ ] [Blockchain Tokenomics](./blockchain_tokenomics.md)
-- [ ] [LEZ Tokenomics](./lez_tokenomics.md)
-- [ ] [Blockchain Explorer App](./blockchain_explorer.md)
+- [x] [Blockchain Decentralized Sequencing](./blockchain_decentralized_sequencing.md)
+- [x] [LEZ Block Context](./lez_block_context.md)
+- [x] [Blockchain Tokenomics](./blockchain_tokenomics.md)
+- [x] [LEZ Tokenomics](./lez_tokenomics.md)
 - [ ] [LEZ Explorer App](./lez_explorer.md)
-- [ ] [LEZ Indexer Module](./lez_indexer_module.md)
-- [ ] [LEZ Private Transfers](./lez_private_transfers.md)
-- [ ] [LEZ Cross Program Calls](./lez_cross_program_calls.md)
-- [ ] [Blockchain LogosDA Resilient Sampling](./logosda_resilient_sampling.md)
-- [ ] [Blockchain LogosDA Bandwidth Efficient DA Sampling](./logosda_bandwidth_efficient.md)
+- [x] [LEZ Indexer Module](./lez_indexer_module.md)
+- [x] [LEZ Private Transfers](./lez_private_transfers.md)
+- [x] [LEZ Cross Program Calls](./lez_cross_program_calls.md)
+- [x] [Blockchain LogosDA Resilient Sampling](./logosda_resilient_sampling.md)
+- [x] [Blockchain LogosDA Bandwidth Efficient DA Sampling](./logosda_bandwidth_efficient.md)
+- [x] [LEZ Mult-owner accounts](./lez_multiowner_accounts.md) see https://www.notion.so/R-E-Multiple-owners-shared-private-account-3268f96fb65c8004814cfeefb90dc22c?v=3268f96fb65c81a59a5a000c6d82a955&source=copy_link
+- [ ] [LEZ Core Module](./lez_core_module.md)
+- [ ] [Blockchain Logos Core Migration](./blockchain-logos-core-migration.md)
 
 ### Testnet v0.3 Milestones
 
+- [ ] [Blockchain Explorer App](./blockchain_explorer.md)
 - [ ] [LEZ Decentralized Sequencing](./lez_decentralized_sequencing.md)
 - [ ] [Cross Sovereign Zone Messaging](./cross_sovereign_zone_messaging.md)
+- [ ] [LEZ TKE Implementation](./lez_tke_implementation.md)
 - [ ] [Blockchain Blend Message Compression](./blend_message_compression.md)
-- [ ] [Blockchain Areon Finality Model](./areon_finality.md)
 - [ ] [Blockchain EmPoWering](./blockchain_empowering.md)
+- [ ] [Blockchain TKE Implementation](./blockchain_tke_implementation.md)
+- [ ] [LEZ publishes events](./lez_events.md)
 
 ### Parallel Milestones
 
+- [ ] [Blockchain Areon Finality Model](./areon_finality.md)
 - [ ] [LEZ Stress Testing](./lez_stress_testing.md)
 - [ ] [LEZ Resolve State Contention](./lez_state_contention.md)
 - [ ] [Blockchain Blend Broadcaster Censorship Resistance](./blend_broadcaster_censorship.md)

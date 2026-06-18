@@ -1,4 +1,4 @@
-# LEZ Tokenomics
+# LEZ TKE Implementation
 
 ## Resources Required
 
@@ -18,10 +18,10 @@
 
 **Feature**: [FURPS](/blockchain/furps/index.md)
 
-Design and implement reward distribution for LEZ sequencers, ensuring incentive alignment under decentralized sequencing.
+Implement reward distribution for LEZ sequencers, following the sequencer reward spec and ensuring incentive alignment under decentralized sequencing.
 
 **Checklist**:
-- [ ] Sequencer reward spec
+- [ ] Sequencer reward implementation
 
 ### Transaction Fees
 
@@ -29,7 +29,7 @@ Design and implement reward distribution for LEZ sequencers, ensuring incentive 
 
 **Feature**: [FURPS](/blockchain/furps/index.md)
 
-Design and implement transaction fee collection and distribution for LEZ program execution.
+Implement transaction fee collection and distribution for LEZ program execution, following the transaction fee spec.
 
 **Checklist**:
-- [ ] Transaction fee spec
+- [ ] Transaction fee implementation

@@ -28,6 +28,7 @@ Implement bridging support in the blockchain and expose it through the Zone SDK,
 
 **Checklist**:
 - [x] Channel account protocol: permissionless deposits, threshold-signed sequencer withdrawals
-- [ ] Atomic bridging: user deposit is atomically included on chain with the zone's inscription tx
-- [ ] Async bridging: user deposit waits for finality before inclusion on chain
-- [ ] Deposit events exposed through the Zone SDK
+- [x] Atomic bridging: user deposit is atomically included on chain with the zone's inscription tx
+- [x] Async bridging: user deposit waits for finality before inclusion on chain
+- [x] Deposit events exposed through the Zone SDK
+- [ ] Blockchain Dashboard Includes Deposit Button
