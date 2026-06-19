@@ -1,10 +1,10 @@
-# Service Discovery Track: Testnet v0.3
+# [Service Discovery Track: Testnet v0.3](TBD: anoncomms-pm milestone)
 
 **Track:** [Service Discovery Track](/anoncomms/roadmap/discovery.md)
 
 **FURPS:** [Service Discovery FURPS](/anoncomms/furps/discovery.md)
 
-**Estimated date of completion**: 30 Sep 2026
+**Estimated date of completion**: 30 Sept 2026
 
 **Resources Required**:
 - 2 developers for 16 weeks

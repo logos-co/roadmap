@@ -4,7 +4,7 @@
 
 **FURPS:** [Identity FURPS](/anoncomms/furps/identity.md)
 
-**Estimated date of completion**: in line with v0.3 freeze
+**Estimated date of completion**: 30 Sept 2026
 
 **Resources Required**:
 - 1 AnonComms researcher for review

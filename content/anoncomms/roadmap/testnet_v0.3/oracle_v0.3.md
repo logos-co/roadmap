@@ -4,7 +4,7 @@
 
 **FURPS:** [Oracle FURPS](/anoncomms/furps/oracle.md)
 
-**Estimated date of completion**: 30 Sep 2026
+**Estimated date of completion**: 30 Sept 2026
 
 **Resources Required**:
 - `2` developers for `12` weeks
@@ -15,7 +15,7 @@
 
 **Owner**: AnonComms Oracle
 
-**Feature**: [Oracle FURPS](../furps/oracle.md)
+**Feature**: [Oracle FURPS](/anoncomms/furps/oracle.md)
 
 **FURPS**:
 
@@ -31,7 +31,7 @@
 
 **Owner**: AnonComms Oracle
 
-**Feature**: [Oracle FURPS](../furps/oracle.md)
+**Feature**: [Oracle FURPS](/anoncomms/furps/oracle.md)
 
 **FURPS**:
 
@@ -52,7 +52,7 @@
 
 **Owner**: AnonComms Oracle
 
-**Feature**: [Oracle FURPS](../furps/oracle.md)
+**Feature**: [Oracle FURPS](/anoncomms/furps/oracle.md)
 
 **FURPS**:
 
@@ -70,7 +70,7 @@
 
 **Owner**: AnonComms Oracle
 
-**Feature**: [Oracle FURPS](../furps/oracle.md)
+**Feature**: [Oracle FURPS](/anoncomms/furps/oracle.md)
 
 **FURPS**:
 

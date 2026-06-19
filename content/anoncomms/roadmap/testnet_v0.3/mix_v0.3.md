@@ -4,7 +4,7 @@
 
 **FURPS:** [Mix FURPS](/anoncomms/furps/mix.md)
 
-**Estimated date of completion**: in line with v0.3 freeze
+**Estimated date of completion**: 30 Sept 2026
 
 **Resources Required**:
 - `2` AnonComms Mix developers
