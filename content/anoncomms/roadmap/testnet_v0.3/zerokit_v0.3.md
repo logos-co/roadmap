@@ -1,0 +1,52 @@
+# [Zerokit Track: Testnet v0.3](TBD: anoncomms-pm milestone)
+
+**Track:** [Zerokit Track](/anoncomms/roadmap/zerokit.md)
+
+**FURPS:** [Zerokit FURPS](/anoncomms/furps/zerokit.md)
+
+**Estimated date of completion**: 30 Sep 2026
+
+**Resources Required**:
+- 3 developers for 12 weeks
+
+## Deliverables
+
+### [Integrate and benchmark Poseidon2 hash function](TBD: anoncomms-pm issue)
+
+**Owner**: AnonComms Zerokit
+
+**FURPS**:
+
+- F2. Zerokit supports Poseidon2 as an alternative hash function alongside Poseidon
+- U6. The hash function selection (Poseidon vs Poseidon2) is exposed via the runtime configuration enum
+- R1. Poseidon2 proofs verify correctly and Poseidon behavior remains unchanged when Poseidon2 is enabled
+- P1. Poseidon2 proof generation is benchmarked against Poseidon and demonstrates measurable improvement
+
+**Checklist**:
+- [ ] Code: link to GitHub issues/PRs/Epic
+- [ ] Dogfood: link to dogfooding session/artefact
+- [ ] Docs: links to README.md or other docs
+
+### [Static analysis of Poseidon and Poseidon2 circuits](TBD: anoncomms-pm issue)
+
+**Owner**: AnonComms Zerokit
+
+**FURPS**:
+
+- S2. Static analysis of the circuits for both Poseidon and Poseidon2 is performed and documented
+
+**Checklist**:
+- [ ] Code: link to GitHub issues/PRs/Epic
+- [ ] Docs: links to README.md or other docs
+
+### [Zerokit maintenance](TBD: anoncomms-pm issue)
+
+**Owner**: AnonComms Zerokit
+
+**FURPS**:
+
+- S1. Outstanding issues and dependency updates are addressed to keep the codebase maintainable
+
+**Checklist**:
+- [ ] Code: link to GitHub issues/PRs/Epic
+- [ ] Docs: links to README.md or other docs
