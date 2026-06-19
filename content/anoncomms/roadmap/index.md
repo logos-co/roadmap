@@ -99,3 +99,4 @@ Features critical for the testnet:
 - [ ] [Identity Track Testnet v0.3 Deliverables](/anoncomms/roadmap/testnet_v0.3/identity_v0.3.md)
 - [ ] [Mix Testnet v0.3 Deliverables](/anoncomms/roadmap/testnet_v0.3/mix_v0.3.md)
 - [ ] [Oracle Testnet v0.3 Deliverables](/anoncomms/roadmap/testnet_v0.3/oracle_v0.3.md)
+- [ ] [RLN Testnet v0.3 Deliverables](/anoncomms/roadmap/testnet_v0.3/rln_v0.3.md)
