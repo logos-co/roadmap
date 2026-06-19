@@ -63,13 +63,6 @@ Non-critical features explored within testnet scope:
 - [ ] [RLN Testnet v0.2 Deliverables](/anoncomms/roadmap/testnet_v0.2/rln_v0.2.md)
 - [ ] [Oracle Testnet v0.2 Deliverables](/anoncomms/roadmap/testnet_v0.2/oracle_v0.2.md)
 
-### Testnet v0.3
-
-Features critical for the testnet:
-
-- [ ] [Identity Track Testnet v0.3 Deliverables](/anoncomms/roadmap/testnet_v0.3/identity_v0.3.md)
-- [ ] [Mix Testnet v0.3 Deliverables](/anoncomms/roadmap/testnet_v0.3/mix_v0.3.md)
-
 #### Modules
 
 For Testnet v0.2, the AnonComms team have responsibilities within the following critical Logos modules:
@@ -100,4 +93,9 @@ the AnonComms team aim to have the following optional features as part of Testne
 
 ### Testnet v0.3
 
+Features critical for the testnet:
+
 - [ ] [Service Discovery Testnet v0.3 Deliverables](/anoncomms/roadmap/testnet_v0.3/discovery_v0.3.md)
+- [ ] [Identity Track Testnet v0.3 Deliverables](/anoncomms/roadmap/testnet_v0.3/identity_v0.3.md)
+- [ ] [Mix Testnet v0.3 Deliverables](/anoncomms/roadmap/testnet_v0.3/mix_v0.3.md)
+- [ ] [Oracle Testnet v0.3 Deliverables](/anoncomms/roadmap/testnet_v0.3/oracle_v0.3.md)
