@@ -69,18 +69,19 @@ Logos Blockchain is working towards the following capabilities, required for Mai
 - [ ] [Blockchain TKE Implementation](./blockchain_tke_implementation.md)
 - [ ] [LEZ publishes events](./lez_events.md)
 - [ ] [Blockchain PoS Participation for Bridged Funds](./blockchain_pos_bridged_funds.md)
+- [ ] [Blockchain Cryptarchia Accurate Total Stake Inference](./cryptarchia_stake_inference.md)
 
 ### Parallel Milestones
-
-- [ ] [Blockchain Areon Finality Model](./areon_finality.md)
 - [ ] [LEZ Stress Testing](./lez_stress_testing.md)
 - [ ] [LEZ Resolve State Contention](./lez_state_contention.md)
-- [ ] [Blockchain Blend Broadcaster Censorship Resistance](./blend_broadcaster_censorship.md)
-- [ ] [Blockchain Blend Edge Node Privacy](./blend_edge_node_privacy.md)
-- [ ] [Blockchain Cryptarchia Accurate Total Stake Inference](./cryptarchia_stake_inference.md)
-- [ ] [Blockchain Cryptareon](./cryptareon.md)
-- [ ] [Blockchain Decentralized Block Building](./decentralized_block_building.md)
-- [ ] [Blockchain LogosDA Private DA](./logosda_private_da.md)
 - [ ] [Blockchain Crypto Audit](./blockchain_crypto_audit.md)
 - [ ] [LEZ Crypto Audit](./lez_crypto_audit.md)
+
+### Post-mainnet
+- [ ] [Blockchain Blend Broadcaster Censorship Resistance](./blend_broadcaster_censorship.md)
+- [ ] [Blockchain Areon Finality Model](./areon_finality.md)
+- [ ] [Blockchain Blend Edge Node Privacy](./blend_edge_node_privacy.md)
+- [ ] [Blockchain Cryptareon](./cryptareon.md)
+- [ ] [Blockchain LogosDA Private DA](./logosda_private_da.md)
+- [ ] [Blockchain Decentralized Block Building](./decentralized_block_building.md)
 - [ ] [Native Zone](./native_zone.md)
