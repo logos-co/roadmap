@@ -32,4 +32,4 @@ Design and implement reward distribution for LEZ sequencers, ensuring incentive 
 Design and implement transaction fee collection and distribution for LEZ program execution.
 
 **Checklist**:
-- [ ] Transaction fee spec
+- [x] Transaction fee spec

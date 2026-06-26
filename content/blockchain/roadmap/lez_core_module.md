@@ -25,6 +25,6 @@ A Logos Core module that serves as the shared backend for all LEZ apps. It expos
 - U12. Logos Core Module for LEZ operations
 
 **Checklist**:
-- [ ] LEZ core module C API
-- [ ] LEZ core module implementation
-- [ ] Module configuration in Logos Core
+- [x] LEZ core module supports transaction proving / transaction signing
+- [x] LEZ core module supports submitting txs to sequencer
+

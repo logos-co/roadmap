@@ -28,5 +28,5 @@ Add bridging support to LEZ utilizing the Zone SDK, enabling deposit and withdra
 
 **Checklist**:
 - [x] Deposit functionality (Blockchain to LEZ)
-- [ ] Withdrawal functionality (LEZ to Blockchain)
-- [ ] Sequencer withdrawal signing
+- [x] Withdrawal functionality (LEZ to Blockchain)
+- [x] Sequencer withdrawal signing

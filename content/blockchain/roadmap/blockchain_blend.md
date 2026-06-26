@@ -30,7 +30,7 @@ Complete Blend Network implementation supporting private block proposals.
 - F6. Censorship resistance against malicious broadcasters
 
 **Checklist**:
-- [ ] Private block proposals
-- [ ] Spam protection mechanism
-- [ ] Blend node rewarding mechanism
-- [ ] Blend parameter tuning
+- [x] Private block proposals
+- [x] Spam protection mechanism
+- [x] Blend node rewarding mechanism
+- [x] Blend parameter tuning

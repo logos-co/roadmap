@@ -17,4 +17,4 @@
 LEZ explorer for viewing LEZ blocks, LEZ transactions, and account states.
 
 **Checklist**:
-- [ ] LEZ explorer implementation
+- [x] LEZ explorer implementation

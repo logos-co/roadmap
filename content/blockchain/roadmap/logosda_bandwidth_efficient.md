@@ -19,7 +19,4 @@
 Reduce bandwidth requirements for DA sampling while maintaining data availability guarantees.
 
 **Checklist**:
-- [ ] Current bandwidth usage analyzed
-- [ ] Optimization strategies identified
-- [ ] Bandwidth reduction implemented
-- [ ] DA guarantees verified
+- [x] We understand the optimal regime for DA sampling

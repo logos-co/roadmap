@@ -26,7 +26,7 @@ Migrate the blockchain node onto Logos Core as the standard way to run, configur
 - U5. Ability to select which blockchain services are configured in a blockchain node
 
 **Checklist**:
-- [ ] Blockchain node packaged as a Logos Core module
-- [ ] Node configuration migrated to Logos Core
-- [ ] Service selection exposed through Logos Core
-- [ ] Migration validated against existing node deployments
+- [x] Blockchain node packaged as a Logos Core module
+- [x] Node configuration migrated to Logos Core
+- [x] Service selection exposed through Logos Core
+- [x] Migration validated against existing node deployments

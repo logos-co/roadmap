@@ -41,22 +41,22 @@ Logos Blockchain is working towards the following capabilities, required for Mai
 
 ### Testnet v0.2 Milestones
 
-- [x] [Blockchain Blend Network](./blockchain_blend.md)
-- [ ] [Blockchain Bridging Support](./blockchain_bridging.md)
-- [ ] [LEZ Bridging](./lez_bridging.md)
-- [x] [Blockchain Decentralized Sequencing](./blockchain_decentralized_sequencing.md)
+- [x] [LEZ Bridging](./lez_bridging.md)
 - [x] [LEZ Block Context](./lez_block_context.md)
-- [x] [Blockchain Tokenomics](./blockchain_tokenomics.md)
 - [x] [LEZ Tokenomics](./lez_tokenomics.md)
-- [ ] [LEZ Explorer App](./lez_explorer.md)
+- [x] [LEZ Explorer App](./lez_explorer.md)
 - [x] [LEZ Indexer Module](./lez_indexer_module.md)
 - [x] [LEZ Private Transfers](./lez_private_transfers.md)
 - [x] [LEZ Cross Program Calls](./lez_cross_program_calls.md)
+- [x] [LEZ Mult-owner accounts](./lez_multiowner_accounts.md)
+- [x] [LEZ Core Module](./lez_core_module.md)
+- [x] [Blockchain Blend Network](./blockchain_blend.md)
+- [x] [Blockchain Bridging Support](./blockchain_bridging.md)
+- [x] [Blockchain Decentralized Sequencing](./blockchain_decentralized_sequencing.md)
+- [x] [Blockchain Tokenomics](./blockchain_tokenomics.md)
 - [x] [Blockchain LogosDA Resilient Sampling](./logosda_resilient_sampling.md)
 - [x] [Blockchain LogosDA Bandwidth Efficient DA Sampling](./logosda_bandwidth_efficient.md)
-- [x] [LEZ Mult-owner accounts](./lez_multiowner_accounts.md) see https://www.notion.so/R-E-Multiple-owners-shared-private-account-3268f96fb65c8004814cfeefb90dc22c?v=3268f96fb65c81a59a5a000c6d82a955&source=copy_link
-- [ ] [LEZ Core Module](./lez_core_module.md)
-- [ ] [Blockchain Logos Core Migration](./blockchain-logos-core-migration.md)
+- [x] [Blockchain Logos Core Migration](./blockchain-logos-core-migration.md)
 
 ### Testnet v0.3 Milestones
 
@@ -68,6 +68,7 @@ Logos Blockchain is working towards the following capabilities, required for Mai
 - [ ] [Blockchain EmPoWering](./blockchain_empowering.md)
 - [ ] [Blockchain TKE Implementation](./blockchain_tke_implementation.md)
 - [ ] [LEZ publishes events](./lez_events.md)
+- [ ] [Blockchain PoS Participation for Bridged Funds](./blockchain_pos_bridged_funds.md)
 
 ### Parallel Milestones
 
