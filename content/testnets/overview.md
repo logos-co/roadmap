@@ -12,3 +12,6 @@ See individual component team roadmaps for full details.
 ## Planned Testnet Details
 - [[v01|Testnet version 0.1]]
 - [[v02|Testnet version 0.2]]
+
+## Testnet Release Notes
+- [[v02-release|Testnet v0.2 release notes]]
