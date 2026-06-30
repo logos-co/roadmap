@@ -481,6 +481,41 @@
           font-size: 1.5rem;
         }
       }
+      /* week-nav-css */
+      .week-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1.5rem;
+        padding: 0.75rem 1.5rem;
+        background: var(--bg-secondary);
+        border-radius: 12px;
+        border: 1px solid var(--border-color);
+        flex-wrap: wrap;
+        gap: 0.5rem;
+      }
+      .week-nav a {
+        color: var(--text-primary);
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        border-radius: 8px;
+        font-size: 0.95rem;
+        font-weight: 500;
+        transition: background 0.2s;
+      }
+      .week-nav a:hover {
+        background: var(--bg-tertiary);
+      }
+      .week-nav .prev {
+        margin-right: auto;
+      }
+      .week-nav .next {
+        margin-left: auto;
+      }
+      .week-nav .spacer {
+        flex: 1;
+      }
+      /* /week-nav-css */
     </style>
   </head>
   <body>
@@ -489,6 +524,11 @@
         <h1>Logos Collective Weekly Summary</h1>
         <p class="date">Week 11, 2026 (March 16, 2026)</p>
       </header>
+
+      <nav class="week-nav">
+        <a class="prev" data-router-ignore href="/reports/weekly/2026-03-09.html">&larr; 2026-03-09</a>
+        <a class="next" data-router-ignore href="/reports/weekly/2026-03-23.html">2026-03-23 &rarr;</a>
+      </nav>
 
       <div class="stats-bar">
         <div class="stat">
