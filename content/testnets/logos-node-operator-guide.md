@@ -80,7 +80,7 @@ Create the runtime user and directories:
 ```sh
 useradd --system --home /var/lib/logos-node --create-home --shell /usr/sbin/nologin logos
 mkdir -p /opt/logos-node/modules /opt/logos-node/packages
-mkdir -p /var/lib/logos-node/blockchain-module-devnet
+mkdir -p /var/lib/logos-node/blockchain-module-testnet
 mkdir -p /var/lib/logos-node/storage-module
 mkdir -p /var/lib/logos-node/delivery-module
 chown -R logos:logos /var/lib/logos-node
@@ -159,7 +159,7 @@ logoscore status
 Create the blockchain peer file:
 
 ```sh
-cd /var/lib/logos-node/blockchain-module-devnet
+cd /var/lib/logos-node/blockchain-module-testnet
 cat > peers.json <<EOF
 {
   "initial_peers": [
@@ -176,7 +176,7 @@ Load the module and generate `user_config.yaml`:
 
 ```sh
 logoscore load-module blockchain_module
-cd /var/lib/logos-node/blockchain-module-devnet
+cd /var/lib/logos-node/blockchain-module-testnet
 logoscore call blockchain_module generate_user_config "$(cat peers.json)"
 chmod 600 /var/lib/logos-node/user_config.yaml
 ```
