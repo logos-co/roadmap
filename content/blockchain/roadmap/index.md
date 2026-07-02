@@ -70,6 +70,8 @@ Logos Blockchain is working towards the following capabilities, required for Mai
 - [ ] [LEZ publishes events](./lez_events.md)
 - [ ] [Blockchain PoS Participation for Bridged Funds](./blockchain_pos_bridged_funds.md)
 - [ ] [Blockchain Cryptarchia Accurate Total Stake Inference](./cryptarchia_stake_inference.md)
+- [ ] [λSQL](./logos_sql.md)
+- [ ] [ZoneSDK Logos Protocol Backend](./zone_sdk_logoscore.md)
 
 ### Parallel Milestones
 - [ ] [LEZ Stress Testing](./lez_stress_testing.md)
