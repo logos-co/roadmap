@@ -172,6 +172,13 @@ cat > peers.json <<EOF
 EOF
 ```
 
+The `blockchain-module-testnet` directory is a setup workspace for the peer file
+and related blockchain commands.
+If an existing node was created with the older `blockchain-module-devnet`
+directory name, do not rename a running node just to match this guide.
+Keep the existing path or update all local scripts and services consistently
+during a planned reprovision.
+
 Load the module and generate `user_config.yaml`:
 
 ```sh
@@ -213,6 +220,91 @@ Operator-facing fields in `user_config.yaml`:
 | `state.base_folder` | State directory | Use a persistent local path |
 | logger filters | Log verbosity | Use `INFO` for unattended operation |
 
+
+### Joining Blend Network
+
+Request funds to both the BlendZk and SdpFunding keys from your `keystore.yaml` from the [faucet](https://testnet.blockchain.logos.co/web/faucet/)
+```bash
+# keystore.yaml
+public_keys:
+  ...
+  BlendZk: 13cccf99f90fd78c2134891ce3c1afce0605753a7694b9d56678d63a8d471820
+  ...
+  SdpFunding: 91d381a87e05d46fc9bc95246273b6930290506f0589ad039444decd3c24940e
+  ...
+secret_keys:
+  ...
+```
+
+Wait until you receive funds to both addresses, you can check the balance of your accounts with the following commands, you may need to repeat the faucet requests since only one drip is allowed per block.
+
+```bash
+# check BlendZk key has received funds
+logoscore call blockchain_module wallet_get_notes 13cccf99f90fd78c2134891ce3c1afce0605753a7694b9d56678d63a8d471820 "" \
+  | jq -r .result.value | jq .notes
+# > [
+# >   {
+# >     "id": "de5f5b6d2baac23bf562d89676ebd304e8d6e6f67afc22f378b5dabf164d142d",
+# >     "value": "1000"
+# >   }
+# > ]
+
+
+# check SdpFunding key has received funds
+logoscore call blockchain_module wallet_get_notes 91d381a87e05d46fc9bc95246273b6930290506f0589ad039444decd3c24940e "" \
+  | jq -r .result.value | jq .notes
+# > [
+# >   {
+# >     "id": "47831c89a3609a7bd38755b2d2da7e2dfb63bef8515a8b8ad82c8a61b7b9a006",
+# >     "value": "1000"
+# >   }
+# > ]
+```
+
+Join the blend network by locking one of the notes held by your `BlendZk` key.
+
+- `<YOUR_IP>`: must be your external ip address
+- `<YOUR_BLEND_PORT>`: Retrieve your configured blend port from the user_config.yaml (`blend.core.backend.listening_address`), note that if you do port-mapping, the external mapped port must be used.
+- `<BLEND_ZK_NOTE_ID>`: the note id of one of the notes held by your BlendZk key, as queried above.
+
+Before joining, make sure the UDP port in the locator is reachable from the public Internet.
+The submitted locator should use the external address and port that other nodes can dial.
+
+```
+curl -X POST http://127.0.0.1:8080/blend/join \
+  -H 'Content-Type: application/json' \
+  -d '{"locator":"/ip4/<YOUR_IP>/udp/<YOUR_BLEND_PORT>/quic-v1","locked_note_id": "<BLEND_ZK_NOTE_ID>"}'
+
+# successful call will return the declaration id:
+# > 2691821bd61394cc18939626de4e9231c699e8ddefd1ebf9e6c35b32229bdc65
+```
+
+Verify the declaration was accepted on chain by polling `/mantle/sdp/declarations`, looking for your declaration
+
+```
+curl http://127.0.0.1:8080/mantle/sdp/declarations | jq . 
+# > [
+# >   {
+# >     "service_type": "BN",
+# >     "provider_id": "35d60d973560b8344f83dc266a3fe89e35a3dcf9959c492d0a7a0b7a85c5d2ce",
+# >     "locked_note_id": "<BLEND_ZK_NOTE_ID>",
+# >     "locators": [
+# >       "/ip4/<YOUR_IP>/udp/<YOUR_BLEND_PORT>/quic-v1"
+# >     ],
+# >     "zk_id": "13cccf99f90fd78c2134891ce3c1afce0605753a7694b9d56678d63a8d471820",
+# >     "created": 1,
+# >     "active": 3,
+# >     "withdraw_at": null,
+# >     "nonce": 0
+# >   }
+# > ]
+```
+
+`service_type: BN` identifies it as a Blend node declaration, `zk_id` is your BlendZk public key, and `provider_id` is your BlendSigning key.
+
+When in a block, the active epoch should be two epochs in the future (`active == created + 2`), as that's when it will become active
+
+
 ## Storage
 
 Create the storage config:
@@ -252,66 +344,93 @@ The `logos.test` network preset provides the storage bootstrap settings.
 Use fixed `listen-port` and `disc-port`.
 Do not leave public nodes on random ports.
 
+Start storage without mix:
+
+```sh
+cd /var/lib/logos-node/storage-module
+logoscore load-module storage_module
+logoscore call storage_module init @config.json
+logoscore call storage_module start
+```
+
 ### Optional: Mix Support And Private Queries
 
 To run storage with mix support,
 generate the storage config from the current published mix bootstrap data.
 This replaces the basic `config.json` above.
+Replace `<public-ip>` before running this command.
 
 ```sh
 cd /var/lib/logos-node/storage-module
 cat > make-mix-storage-config.sh <<'EOF'
 #!/usr/bin/env bash
-set -e
+set -euo pipefail
 
-data_dir=${1:-"./logos-storage-data"}
-udp_spr_json=$(curl -s https://logos-storage-network.fra1.digitaloceanspaces.com/v0.2/udp-sprs.json)
-tcp_spr_json=$(curl -s https://logos-storage-network.fra1.digitaloceanspaces.com/v0.2/tcp-sprs.json)
+public_ip=${1:-}
+data_dir=${2:-"./logos-storage-data"}
 
-wget https://logos-storage-network.fra1.digitaloceanspaces.com/v0.2/mix-pool.json
-mp_path=$(realpath "./mix-pool.json")
+if [ -z "${public_ip}" ]; then
+  echo "Need to supply a public IP"
+  exit 1
+fi
+
+if ! command -v jq &> /dev/null; then
+  echo "jq is not installed"
+  exit 1
+fi
+
+curl -fsSL "https://fleets.logos.co/logos-test/storage-network.json" > ./raw-data.json
+
+tcp_spr_json=$(jq '[.[].tcpSpr]' ./raw-data.json)
+mix_pool_json=$(jq -c '{
+  "version": 1,
+  "relays": map({
+    "peerId": .peerId,
+    "mixPubKey": .mixPubKey,
+    "libp2pPubKey": .libp2pPubKey,
+    "multiAddr": "/ip4/\(.address)/tcp/\(.port)"
+  })
+} | tostring' ./raw-data.json)
 
 cat <<JSON
 {
-  "nat": "any",
-  "log-level": "DEBUG",
+  "nat": "extip:${public_ip}",
+  "log-level": "INFO",
   "mix-enabled": true,
-  "listen-port": 8080,
+  "listen-port": 8091,
   "disc-port": 8090,
-  "bootstrap-node": $udp_spr_json,
+  "network": "logos.test",
   "dht-mix-proxy": $tcp_spr_json,
   "data-dir": "${data_dir}",
-  "mix-pool": "${mp_path}"
+  "mix-pool-json": ${mix_pool_json}
 }
 JSON
+
+rm ./raw-data.json
 EOF
 
 chmod 755 make-mix-storage-config.sh
-./make-mix-storage-config.sh > config.json
+./make-mix-storage-config.sh <public-ip> > config.json
 ```
 
 Start storage with that config:
 
 ```sh
+cd /var/lib/logos-node/storage-module
 logoscore load-module storage_module
 logoscore call storage_module init @config.json
 logoscore call storage_module start
 logoscore call storage_module togglePrivateQueries true
 ```
 
+After startup, allow the node time to populate routing state.
+If the first private query fails with a manifest lookup error,
+retry once after a short warm-up period.
+
 Privately query a known test object:
 
 ```sh
-logoscore call storage_module downloadToUrl zDvZRwzkzrrYB6sS1rRpRLt4gBhc1pWoyTSjkfszfmj1seaYYLCZ ./farewell-to-westphalia.pdf false 65536
-```
-
-Start:
-
-```sh
-cd /var/lib/logos-node/storage-module
-logoscore load-module storage_module
-logoscore call storage_module init @config.json
-logoscore call storage_module start
+logoscore call storage_module downloadToUrl zDvZRwzkzrrYB6sS1rRpRLt4gBhc1pWoyTSjkfszfmj1seaYYLCZ /var/lib/logos-node/storage-module/farewell-to-westphalia.pdf false 65536
 ```
 
 ## Delivery
