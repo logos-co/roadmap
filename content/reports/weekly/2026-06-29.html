@@ -527,21 +527,21 @@
 
       <nav class="week-nav">
         <a class="prev" data-router-ignore href="/reports/weekly/2026-06-22.html">&larr; 2026-06-22</a>
-        <span class="spacer"></span>
+        <a class="next" data-router-ignore href="/reports/weekly/2026-07-06.html">2026-07-06 &rarr;</a>
       </nav>
 
       <div class="stats-bar">
         <div class="stat">
-          <div class="stat-value">2</div>
+          <div class="stat-value">3</div>
           <div class="stat-label">Teams Reporting</div>
         </div>
         <div class="stat">
-          <div class="stat-value">50+</div>
+          <div class="stat-value">70+</div>
           <div class="stat-label">PRs &amp; Updates</div>
         </div>
       </div>
 
-      <p style="text-align:center; color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 1.5rem;">Note: AnonComms and Messaging have reported. Blockchain, Storage, and Logos Core sections will be added as updates land.</p>
+      <p style="text-align:center; color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 1.5rem;">Note: AnonComms, Messaging, and Storage have reported. Blockchain and Logos Core sections will be added as updates land.</p>
 
       <section class="highlights-section">
         <h2>Key Highlights</h2>
@@ -574,6 +574,18 @@
             <div class="team">Messaging</div>
             <p>RLN isolated into a self-contained module reusable by any protocol &mdash; extraction of the validator, rename to <code>waku_rln</code>, and <code>mountRlnRelay</code> without <code>wakuRelay</code> all merged in three phases.</p>
           </div>
+          <div class="highlight-card storage">
+            <div class="team">Storage</div>
+            <p><strong>Logos Storage Module v2.0.0 released</strong> with an all-new filesharing protocol adding robustness, efficiency, and support for anonymized DHT queries over Mix networks; the matching Logos UI app is out for testing.</p>
+          </div>
+          <div class="highlight-card storage">
+            <div class="team">Storage</div>
+            <p>Final Status integration PR <a href="https://github.com/status-im/status-go/pull/7486">status-go #7486</a> merged &mdash; Logos Storage is now an archival-storage option in the Status app.</p>
+          </div>
+          <div class="highlight-card storage">
+            <div class="team">Storage</div>
+            <p>Hidden services over Mix <a href="https://forum.research.logos.co/t/hidden-services-over-mix/706">research post</a> published, describing the malicious-path problem and the current state on the path to anonymous filesharing.</p>
+          </div>
         </div>
       </section>
 
@@ -588,6 +600,7 @@
       <div class="tabs">
         <button class="tab messaging active" data-team="messaging">Messaging</button>
         <button class="tab anoncomms" data-team="anoncomms">AnonComms</button>
+        <button class="tab storage" data-team="storage">Storage</button>
       </div>
 
       <!-- ================================================================
@@ -1000,6 +1013,145 @@
           </div>
         </div>
 
+      </div>
+
+      <!-- ================================================================
+             STORAGE
+             ================================================================ -->
+      <div class="team-content" id="storage">
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3><a href="https://github.com/logos-storage/logos-storage-nim/milestone/10">Integration with Logos Core &mdash; Storage Module v2.0.0</a></h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>Release preparations for basecamp 0.2.0</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li><strong>New releases</strong> of libstorage, logos-storage-module and logos-storage-ui prepared and landed on logos-basecamp:
+                    <ul>
+                      <li><a href="https://github.com/logos-co/logos-basecamp/releases#release-0.2.0">logos-basecamp@0.2.0</a></li>
+                      <li><a href="https://github.com/logos-co/logos-storage-module/releases/tag/v2.0.0">logos-storage-module@2.0.0</a></li>
+                      <li><a href="https://github.com/logos-co/logos-storage-ui/releases/tag/v2.0.0">logos-storage-ui@2.0.0</a></li>
+                      <li><a href="https://github.com/logos-storage/logos-storage-nim/releases/tag/v0.4.0">logos-storage-nim@0.4.0</a></li>
+                    </ul>
+                  </li>
+                  <li>All-new filesharing protocol adds robustness and efficiency; supports anonymized DHT queries over <a href="https://github.com/logos-co/nim-libp2p-mix">Mix networks</a></li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>Actual public release scheduled for 2026-07-01</li>
+                  <li>Hardening the release, bug fixing, docs updates</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3><a href="https://github.com/logos-storage/logos-storage-nim/milestone/11">Status Integration (CLOSED)</a></h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>History Archives integration merged</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li><strong>Final PR merged:</strong> <a href="https://github.com/status-im/status-go/pull/7486">status-go #7486 &mdash; feat: logos storage for History Archives</a> &mdash; Logos Storage now available as an archival option in the Status app</li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>Bump the version of lib storage to a more recent version</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3><a href="https://github.com/logos-storage/logos-storage-pm/issues/20">Hidden Services Over Mix</a></h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>Research post published</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Restructured the hidden-services spec as a research post; described the malicious-path problem</li>
+                  <li><strong>Research post published:</strong> <a href="https://forum.research.logos.co/t/hidden-services-over-mix/706">Hidden services over mix</a></li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>Continue research, experiments, and simulations on the malicious-path problem to inform hidden-services-over-Mix decisions</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3><a href="https://github.com/logos-storage/logos-storage-pm/issues/2">Large Data Transport Layer for Mix</a></h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>Transport-over-Mix reference implementation</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Transport layer <a href="https://hackmd.io/CykSpMIrRP6XA2byDiWurg">draft spec</a></li>
+                  <li><a href="https://github.com/logos-storage/transport-over-mix/">Reference implementation of the transport layer</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3><a href="https://github.com/logos-storage/logos-storage-nim/issues/1377">E2E Testing</a></h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>Distributed testing infrastructure</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>OpenAPI spec re-synced with logos-storage-nim so dist-tests API client generates correct definitions: <a href="https://github.com/logos-storage/logos-storage-nim-cs-dist-tests/pull/131">#131</a>, <a href="https://github.com/logos-storage/logos-storage-nim-cs-dist-tests/pull/132">#132</a>, <a href="https://github.com/logos-storage/logos-storage-nim-cs-dist-tests/pull/133">#133</a>, <a href="https://github.com/logos-storage/logos-storage-nim/pull/1470">#1470</a></li>
+                  <li>Anti-affinity change forcing one-pod-per-node broke local testing (only one pod) &mdash; <a href="https://github.com/logos-storage/logos-storage-nim-cs-dist-tests/pull/134">fix</a></li>
+                  <li>Relax openapi hash check by ignoring whitespace <a href="https://github.com/logos-storage/logos-storage-nim-cs-dist-tests/pull/136">#136</a></li>
+                  <li>Publish <code>openapi.yaml</code> spec as a release asset <a href="https://github.com/logos-storage/logos-storage-nim/pull/1474">#1474</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3><a href="https://github.com/logos-storage/logos-storage-pm/issues/3">Anonymous DHT Queries</a></h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>Next steps</h4>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>Migrate all wire protocols from <code>minprotobuf</code> to <code>nim-protobuf-serialization</code></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <footer>

@@ -1,0 +1,808 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Logos Collective Weekly Summary - Week 27, 2026</title>
+    <style>
+      :root {
+        --bg-primary: #0d1117;
+        --bg-secondary: #161b22;
+        --bg-tertiary: #21262d;
+        --text-primary: #f0f6fc;
+        --text-secondary: #8b949e;
+        --border-color: #30363d;
+        --accent-storage: #3fb950;
+        --accent-messaging: #58a6ff;
+        --accent-logoscore: #a371f7;
+        --accent-blockchain: #f78166;
+        --accent-anoncomms: #d2a8ff;
+        --highlight-bg: rgba(56, 139, 253, 0.15);
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial,
+          sans-serif;
+        background: var(--bg-primary);
+        color: var(--text-primary);
+        line-height: 1.6;
+        min-height: 100vh;
+      }
+
+      .container {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 2rem;
+      }
+
+      header {
+        text-align: center;
+        margin-bottom: 3rem;
+        padding-bottom: 2rem;
+        border-bottom: 1px solid var(--border-color);
+      }
+
+      header h1 {
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
+        background: linear-gradient(135deg, #58a6ff, #a371f7);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+
+      header .date {
+        color: var(--text-secondary);
+        font-size: 1.1rem;
+      }
+
+      .highlights-section {
+        background: var(--bg-secondary);
+        border-radius: 12px;
+        padding: 2rem;
+        margin-bottom: 2rem;
+        border: 1px solid var(--border-color);
+      }
+
+      .highlights-section h2 {
+        margin-bottom: 1.5rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      .highlights-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 1rem;
+      }
+
+      .highlight-card {
+        background: var(--bg-tertiary);
+        border-radius: 8px;
+        padding: 1rem 1.25rem;
+        border-left: 4px solid;
+        transition:
+          transform 0.2s,
+          box-shadow 0.2s;
+      }
+
+      .highlight-card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      }
+
+      .highlight-card.storage {
+        border-left-color: var(--accent-storage);
+      }
+      .highlight-card.messaging {
+        border-left-color: var(--accent-messaging);
+      }
+      .highlight-card.logoscore {
+        border-left-color: var(--accent-logoscore);
+      }
+      .highlight-card.blockchain {
+        border-left-color: var(--accent-blockchain);
+      }
+      .highlight-card.anoncomms {
+        border-left-color: var(--accent-anoncomms);
+      }
+
+      .highlight-card .team {
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        margin-bottom: 0.5rem;
+        opacity: 0.8;
+      }
+
+      .highlight-card.storage .team {
+        color: var(--accent-storage);
+      }
+      .highlight-card.messaging .team {
+        color: var(--accent-messaging);
+      }
+      .highlight-card.logoscore .team {
+        color: var(--accent-logoscore);
+      }
+      .highlight-card.blockchain .team {
+        color: var(--accent-blockchain);
+      }
+      .highlight-card.anoncomms .team {
+        color: var(--accent-anoncomms);
+      }
+
+      .tabs {
+        display: flex;
+        gap: 0.5rem;
+        margin-bottom: 1.5rem;
+        flex-wrap: wrap;
+      }
+
+      .tab {
+        padding: 0.75rem 1.5rem;
+        border: none;
+        background: var(--bg-secondary);
+        color: var(--text-secondary);
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 0.95rem;
+        font-weight: 500;
+        transition: all 0.2s;
+        border: 1px solid var(--border-color);
+      }
+
+      .tab:hover {
+        background: var(--bg-tertiary);
+        color: var(--text-primary);
+      }
+
+      .tab.active {
+        color: var(--text-primary);
+      }
+
+      .tab.active.storage {
+        background: var(--accent-storage);
+        color: #000;
+      }
+      .tab.active.messaging {
+        background: var(--accent-messaging);
+        color: #000;
+      }
+      .tab.active.logoscore {
+        background: var(--accent-logoscore);
+        color: #000;
+      }
+      .tab.active.blockchain {
+        background: var(--accent-blockchain);
+        color: #000;
+      }
+      .tab.active.anoncomms {
+        background: var(--accent-anoncomms);
+        color: #000;
+      }
+
+      .team-content {
+        display: none;
+        animation: fadeIn 0.3s ease;
+      }
+
+      .team-content.active {
+        display: block;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .milestone {
+        background: var(--bg-secondary);
+        border-radius: 12px;
+        margin-bottom: 1.5rem;
+        border: 1px solid var(--border-color);
+        overflow: hidden;
+      }
+
+      .milestone-header {
+        padding: 1rem 1.5rem;
+        background: var(--bg-tertiary);
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        user-select: none;
+      }
+
+      .milestone-header:hover {
+        background: rgba(48, 54, 61, 0.8);
+      }
+
+      .milestone-header h3 {
+        font-size: 1.1rem;
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+      }
+
+      .milestone-header h3 a {
+        color: var(--text-primary);
+        text-decoration: none;
+      }
+
+      .milestone-header h3 a:hover {
+        text-decoration: underline;
+      }
+
+      .milestone-toggle {
+        font-size: 1.5rem;
+        color: var(--text-secondary);
+        transition: transform 0.3s;
+      }
+
+      .milestone.expanded .milestone-toggle {
+        transform: rotate(180deg);
+      }
+
+      .milestone-body {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+      }
+
+      .milestone.expanded .milestone-body {
+        max-height: 5000px;
+      }
+
+      .milestone-content {
+        padding: 1.5rem;
+      }
+
+      .deliverable {
+        margin-bottom: 1.5rem;
+        padding-bottom: 1.5rem;
+        border-bottom: 1px solid var(--border-color);
+      }
+
+      .deliverable:last-child {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        border-bottom: none;
+      }
+
+      .deliverable h4 {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        color: var(--text-primary);
+      }
+
+      .deliverable h4 a {
+        color: #58a6ff;
+        text-decoration: none;
+      }
+
+      .deliverable h4 a:hover {
+        text-decoration: underline;
+      }
+
+      .section-label {
+        display: inline-block;
+        padding: 0.25rem 0.5rem;
+        border-radius: 4px;
+        font-size: 0.75rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 0.5rem;
+      }
+
+      .section-label.achieved {
+        background: rgba(63, 185, 80, 0.2);
+        color: var(--accent-storage);
+      }
+
+      .section-label.next {
+        background: rgba(88, 166, 255, 0.2);
+        color: var(--accent-messaging);
+      }
+
+      .section-label.blockers {
+        background: rgba(247, 129, 102, 0.2);
+        color: var(--accent-blockchain);
+      }
+
+      .item-list {
+        list-style: none;
+        margin-left: 0;
+      }
+
+      .item-list li {
+        padding: 0.5rem 0;
+        padding-left: 1.5rem;
+        position: relative;
+        color: var(--text-secondary);
+        font-size: 0.95rem;
+      }
+
+      .item-list li::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0.85rem;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: var(--text-secondary);
+      }
+
+      .item-list li a {
+        color: #58a6ff;
+        text-decoration: none;
+      }
+
+      .item-list li a:hover {
+        text-decoration: underline;
+      }
+
+      .stats-bar {
+        display: flex;
+        gap: 2rem;
+        padding: 1rem 1.5rem;
+        background: var(--bg-secondary);
+        border-radius: 12px;
+        margin-bottom: 2rem;
+        border: 1px solid var(--border-color);
+        flex-wrap: wrap;
+      }
+
+      .stat {
+        text-align: center;
+      }
+
+      .stat-value {
+        font-size: 2rem;
+        font-weight: 700;
+      }
+
+      .stat-label {
+        font-size: 0.85rem;
+        color: var(--text-secondary);
+      }
+
+      .repo-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 1rem;
+      }
+
+      .repo-card {
+        background: var(--bg-tertiary);
+        border-radius: 8px;
+        padding: 1rem;
+        border: 1px solid var(--border-color);
+      }
+
+      .repo-card h4 {
+        font-size: 0.95rem;
+        margin-bottom: 0.75rem;
+      }
+
+      .repo-card h4 a {
+        color: #58a6ff;
+        text-decoration: none;
+      }
+
+      .repo-card h4 a:hover {
+        text-decoration: underline;
+      }
+
+      .repo-card p {
+        font-size: 0.85rem;
+        color: var(--text-secondary);
+      }
+
+      .pr-list {
+        margin-top: 0.5rem;
+      }
+
+      .pr-list a {
+        display: inline-block;
+        font-size: 0.8rem;
+        color: #58a6ff;
+        margin-right: 0.5rem;
+        text-decoration: none;
+      }
+
+      .pr-list a:hover {
+        text-decoration: underline;
+      }
+
+      .search-box {
+        margin-bottom: 1.5rem;
+      }
+
+      .search-box input {
+        width: 100%;
+        padding: 0.75rem 1rem;
+        border: 1px solid var(--border-color);
+        border-radius: 8px;
+        background: var(--bg-secondary);
+        color: var(--text-primary);
+        font-size: 1rem;
+      }
+
+      .search-box input::placeholder {
+        color: var(--text-secondary);
+      }
+
+      .search-box input:focus {
+        outline: none;
+        border-color: #58a6ff;
+        box-shadow: 0 0 0 3px rgba(88, 166, 255, 0.2);
+      }
+
+      .hidden {
+        display: none !important;
+      }
+
+      footer {
+        text-align: center;
+        padding: 2rem;
+        color: var(--text-secondary);
+        border-top: 1px solid var(--border-color);
+        margin-top: 3rem;
+      }
+
+      @media (max-width: 768px) {
+        .container {
+          padding: 1rem;
+        }
+
+        header h1 {
+          font-size: 1.75rem;
+        }
+
+        .stats-bar {
+          justify-content: space-around;
+        }
+
+        .stat-value {
+          font-size: 1.5rem;
+        }
+      }
+      /* week-nav-css */
+      .week-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1.5rem;
+        padding: 0.75rem 1.5rem;
+        background: var(--bg-secondary);
+        border-radius: 12px;
+        border: 1px solid var(--border-color);
+        flex-wrap: wrap;
+        gap: 0.5rem;
+      }
+      .week-nav a {
+        color: var(--text-primary);
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        border-radius: 8px;
+        font-size: 0.95rem;
+        font-weight: 500;
+        transition: background 0.2s;
+      }
+      .week-nav a:hover {
+        background: var(--bg-tertiary);
+      }
+      .week-nav .prev {
+        margin-right: auto;
+      }
+      .week-nav .next {
+        margin-left: auto;
+      }
+      .week-nav .spacer {
+        flex: 1;
+      }
+      /* /week-nav-css */
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Logos Collective Weekly Summary</h1>
+        <p class="date">Week 27, 2026 (July 6, 2026)</p>
+      </header>
+
+      <nav class="week-nav">
+        <a class="prev" data-router-ignore href="/reports/weekly/2026-06-29.html">&larr; 2026-06-29</a>
+        <span class="spacer"></span>
+      </nav>
+
+      <div class="stats-bar">
+        <div class="stat">
+          <div class="stat-value">1</div>
+          <div class="stat-label">Teams Reporting</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value">15+</div>
+          <div class="stat-label">PRs &amp; Updates</div>
+        </div>
+      </div>
+
+      <p style="text-align:center; color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 1.5rem;">Note: Only AnonComms has reported so far this week. Other team sections will be added as updates land.</p>
+
+      <section class="highlights-section">
+        <h2>Key Highlights</h2>
+        <div class="highlights-grid">
+          <div class="highlight-card anoncomms">
+            <div class="team">AnonComms</div>
+            <p><strong>Oracle mechanism RFC finalized</strong> and presented for review; initial issues identified for the Logos Blockchain integration.</p>
+          </div>
+          <div class="highlight-card anoncomms">
+            <div class="team">AnonComms</div>
+            <p>MVP payment protocol streams finalized on testnet and localnet, covering both standalone and Store-integration journeys.</p>
+          </div>
+          <div class="highlight-card anoncomms">
+            <div class="team">AnonComms</div>
+            <p>RLN membership allocation reliably simulated in a mix network against testnet 0.2, validating the protocol ahead of upcoming 0.3 work.</p>
+          </div>
+          <div class="highlight-card anoncomms">
+            <div class="team">AnonComms</div>
+            <p>Zerokit rearchitecture PR11 merged; PR12 in progress; POC alignment with the RFC underway.</p>
+          </div>
+        </div>
+      </section>
+
+      <div class="search-box">
+        <input
+          type="text"
+          id="search"
+          placeholder="Search updates (e.g., 'RLN', 'oracle', 'payments', 'Zerokit')..."
+        />
+      </div>
+
+      <div class="tabs">
+        <button class="tab anoncomms active" data-team="anoncomms">AnonComms</button>
+      </div>
+
+
+
+
+      <!-- ================================================================
+             ANONCOMMS
+             ================================================================ -->
+      <div class="team-content active" id="anoncomms">
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Develop a decentralised oracle for LEZ</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4><a href="https://github.com/logos-co/anoncomms-pm/issues/22">Specifying oracle mechanism</a></h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li><strong>Finished and presented the <a href="https://github.com/logos-co/logos-lips/pull/366">RFC PR</a></strong> for review</li>
+                  <li>Reviewed the RFC PR</li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>Address identified issues for the Logos Blockchain part with the necessary RFC changes</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Develop service incentivisation</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4><a href="https://github.com/logos-co/anoncomms-pm/issues/38">Implement MVP payment protocol</a></h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li><strong>Finalized payment streams on testnet and localnet</strong> for both the <a href="https://github.com/logos-co/logos-docs/issues/370">standalone</a> and <a href="https://github.com/logos-co/logos-docs/issues/369">Store integration</a> journeys</li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>Present at Townhall</li>
+                  <li>Address feedback</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Implement RLN membership allocation service</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4><a href="https://github.com/logos-co/anoncomms-pm/issues/17">Specify and implement RLN membership allocation service</a></h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li><strong>Reliably simulated the protocol in a mix network against testnet 0.2</strong>, per the <a href="https://github.com/logos-co/logos-docs/issues/381">journey</a></li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>Prepare and begin 0.3 deliverables, likely starting with the RLN membership management module</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Establish libp2p mixnet</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4><a href="https://github.com/logos-co/anoncomms-pm/issues/40">Specify and implement extended DoS and exit node abuse protection for libp2p mix</a></h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Traced testnet-0.2 bugs across chat-side receive-reliability and service discovery; explored folding LEZ-RLN gifter work into the chat-mix v0.2 stack; reviewed the v0.3 roadmap</li>
+                  <li>Completed the testnet doc packet and testnet demo app; all fixes ready after feedback</li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>Revisit differentiated rate-limiting with local reputation</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Create a basic capability discovery module</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4><a href="https://github.com/logos-co/anoncomms-pm/issues/31">Integrate and dogfood capability discovery in Logos Delivery</a></h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Tested the <a href="https://github.com/logos-co/logos-docs/issues/307">doc packet</a> for phases D and E; added logs for discovery testing in nim-libp2p; collaborated with the DST team on testing and debugging</li>
+                  <li>Completed a first draft of the service table bootstrap mechanism</li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>Continue collaboration with DST on discovery testing</li>
+                  <li>Continue work on the service table bootstrap mechanism</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Deliver de-MLS for p2p group messaging</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4><a href="https://github.com/logos-co/anoncomms-pm/issues/30">Integrate de-MLS into Logos Chat</a></h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Nearly completed the recovery gap; reviewed the code against the RFC</li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>Finish the recovery task, then move on to the WallClock Service item</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Maintain and expand the Zerokit library</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4><a href="https://github.com/logos-co/anoncomms-pm/issues/48">Rearchitecture Zerokit to support enum-based runtime configuration</a></h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Merged <a href="https://github.com/vacp2p/zerokit/pull/421">PR11</a> and progressed <a href="https://github.com/vacp2p/zerokit/pull/423">PR12</a></li>
+                  <li>Conducted multiple reviews of PR11 and attempted to design the hashing system</li>
+                  <li>Reviewed the RFC and related discussion and the PACT discussion; started modifying the POC to match the RFC's technical choices</li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>Address PR12 review comments and continue on PR13</li>
+                  <li>Keep reviewing PRs</li>
+                  <li>Continue POC upgrade and testing</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <p>Generated from weekly updates | Logos Collective Roadmap</p>
+      </footer>
+    </div>
+    <script>
+      // Tab switching
+      document.querySelectorAll(".tab").forEach((tab) => {
+        tab.addEventListener("click", () => {
+          const team = tab.dataset.team
+
+          document.querySelectorAll(".tab").forEach((t) => t.classList.remove("active"))
+          document.querySelectorAll(".team-content").forEach((c) => c.classList.remove("active"))
+
+          tab.classList.add("active")
+          document.getElementById(team).classList.add("active")
+        })
+      })
+
+      // Milestone toggle
+      function toggleMilestone(header) {
+        const milestone = header.closest(".milestone")
+        milestone.classList.toggle("expanded")
+      }
+
+      // Search functionality
+      const searchInput = document.getElementById("search")
+      searchInput.addEventListener("input", (e) => {
+        const searchTerm = e.target.value.toLowerCase()
+        const allContent = document.querySelectorAll(".milestone, .deliverable, .repo-card")
+
+        allContent.forEach((element) => {
+          const text = element.textContent.toLowerCase()
+          if (text.includes(searchTerm) || searchTerm === "") {
+            element.style.display = ""
+          } else {
+            element.style.display = "none"
+          }
+        })
+      })
+
+      // Keyboard navigation
+      document.addEventListener("keydown", (e) => {
+        if (e.ctrlKey || e.metaKey) {
+          const tabs = Array.from(document.querySelectorAll(".tab"))
+          const activeIndex = tabs.findIndex((t) => t.classList.contains("active"))
+
+          if (e.key === "ArrowLeft" && activeIndex > 0) {
+            e.preventDefault()
+            tabs[activeIndex - 1].click()
+          } else if (e.key === "ArrowRight" && activeIndex < tabs.length - 1) {
+            e.preventDefault()
+            tabs[activeIndex + 1].click()
+          }
+        }
+      })
+    </script>
+  </body>
+</html>
