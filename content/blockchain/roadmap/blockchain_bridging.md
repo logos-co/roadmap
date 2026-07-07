@@ -18,7 +18,7 @@
 
 **Feature**: [FURPS](/blockchain/furps/index.md)
 
-Implement bridging support in the blockchain and expose it through the Zone SDK, enabling Sovereign Zones to bridge tokens between the blockchain and their zone.
+Implement bridging support in the blockchain and expose it through the ZoneSDK, enabling Sovereign Zones to bridge tokens between the blockchain and their zone.
 
 **FURPS**:
 
@@ -30,5 +30,5 @@ Implement bridging support in the blockchain and expose it through the Zone SDK,
 - [x] Channel account protocol: permissionless deposits, threshold-signed sequencer withdrawals
 - [x] Atomic bridging: user deposit is atomically included on chain with the zone's inscription tx
 - [x] Async bridging: user deposit waits for finality before inclusion on chain
-- [x] Deposit events exposed through the Zone SDK
+- [x] Deposit events exposed through the ZoneSDK
 - [x] Blockchain Dashboard Includes Deposit Button

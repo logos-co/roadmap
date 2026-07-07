@@ -18,7 +18,7 @@
 
 **Feature**: [FURPS](/blockchain/furps/index.md)
 
-Add bridging support to LEZ utilizing the Zone SDK, enabling deposit and withdrawal of tokens between the blockchain and LEZ.
+Add bridging support to LEZ utilizing the ZoneSDK, enabling deposit and withdrawal of tokens between the blockchain and LEZ.
 
 **FURPS**:
 
