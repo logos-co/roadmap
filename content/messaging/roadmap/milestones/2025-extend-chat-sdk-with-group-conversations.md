@@ -73,22 +73,9 @@ Current agreement is to use on-chain storage.
 
 > [!WARNING] Risk
 > Requires research into whether Logos Blockchain supports the needed functionality by this timeline. Fallback is to continue with out-of-band sharing.
-### Design SDS and de-MLS integration
-
-**Owner**: Chat Team
-
-Define how SDS reliability (backward dependency resolution) integrates with de-MLS encryption (forward checkpoint construction). This is a design deliverable that feeds into the Reliable Channel API General Availability milestone.
-
-**Dependency**: de-MLS API from AnonComms team must be available.
-
 ### Remove unnecessary Nim shim from Logos Chat
 
 **Owner**: Chat Team
 
 Evaluate and attempt removing the Nim layer of Logos Chat (`logos-chat`) by rewriting it in Rust. The Nim layer currently handles async runtime management and Logos Delivery integration but adds development complexity. If Logos Chat can remain fully synchronous, this layer can be replaced with Rust, unifying the codebase.
 
-### Perform test integration of Logos Chat into Status App
-
-**Owner**: Chat Team + Status Team
-
-Initial validation that Logos Chat (1:1 + group chats) can be consumed by Status. This is an exploratory integration, not a production milestone. The goal is to get feedback on the API from a production app.

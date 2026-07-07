@@ -74,8 +74,20 @@ Features needed for a real chat experience beyond the protocol layer:
 - Performance testing against FURPS targets (10K users, 10Mbps bandwidth)
 - Scale testing with up to 201 users in a group chat
 
-### Validate integration in Status
+### Add support for Logos Delivery RLN
+
+
+
+### Perform test integration of Logos Chat into Status App
 
 **Owner**: Chat Team + Status Team
 
-Continue and deepen the Status integration started in v0.2. Address issues found during exploratory integration and validate that the polished API works for Status's production requirements.
+Initial validation that Logos Chat (1:1 + group chats) can be consumed by Status. This is an exploratory integration, not a production milestone. The goal is to get feedback on the API from a production app.
+
+### Design SDS and de-MLS integration
+
+**Owner**: Chat Team
+
+Define how SDS reliability (backward dependency resolution) integrates with de-MLS encryption (forward checkpoint construction). This is a design deliverable that feeds into the Reliable Channel API General Availability milestone.
+
+**Dependency**: de-MLS API from AnonComms team must be available.

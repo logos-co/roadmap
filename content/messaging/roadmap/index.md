@@ -26,6 +26,7 @@ The work is split into milestones, planned to be achieved by certain release.
 
 We use two release stages for developer-facing APIs and libraries:
 - **Developer Preview** — first externally-usable arelease. Functional but limited scope, intended for early adopters and feedback collection.
+- **Beta** — feature-complete, but ???  TBD
 - **General Availability** — feature-complete, QA-approved, production-ready release.
 
 ### Testnet [v0.1](v01)
@@ -36,24 +37,27 @@ We use two release stages for developer-facing APIs and libraries:
 
 ### Testnet [v0.2](v02)
 
-- [ ] [Messaging API — General Availability](2026-messaging-api-general-availability)
-- [ ] [Reliable Channel API — Developer Preview](2026-reliable-channel-api-developer-preview.md)
-- [ ] [Chat — Group Conversations](2025-extend-chat-sdk-with-group-conversations)
+- [x] [Messaging API — Beta](2026-messaging-api-beta.md)
+- [x] [Reliable Channel API — Developer Preview](2026-reliable-channel-api-developer-preview.md)
+- [x] [Chat — Developer Preview](2025-extend-chat-sdk-with-group-conversations)
 - [ ] [Logos Core Integration — Phase 2](2026-logos-core-integration-phase-2)
 - [ ] [QUIC Transport in Logos Delivery](2025-support-discovery-research-and-libp2p-quic)
-- [ ] [RLN for lightpush](2026-rln-for-lightpush.md)
+- [ ] [RLN for edge nodes](2026-rln-for-edge-nodes.md)
 
 ### Testnet [v0.3](v03)
 
-- [ ] [Reliable Channel API — General Availability](2026-reliable-channel-api-general-availability.md)
-- [ ] [Chat — Developer Preview](2026-chat-developer-preview)
+- [ ] [Modularize Delivery Kernel](2026-modularize-delivery-kernel)
+- [ ] [Messaging API — General Availability](2026-messaging-api-general-availability)
+- [ ] [Reliable Channel API — Beta](2026-reliable-channel-api-beta.md)
+- [ ] [Chat — Beta](2026-chat-developer-preview)
 - [ ] [RLN on Logos Blockchain](2026-add-support-for-rln-on-lee)
+- [ ] [Logos Core integration — Phase 3]()
 
 ### Required for Mainnet
 
-- [ ] [Support Mobile Platforms](2026-support-mobile-platforms)
 - [ ] [Chat — General Availability](2026-chat-general-availability)
-- [ ] [Logos Core Integration — Phase 3](2026-logos-core-integration-phase-3)
+- [ ] [Logos Core Integration — Phase 4](2026-logos-core-integration-phase-4.md)
+- [ ] [Support Mobile Platforms](2026-support-mobile-platforms)
 - [ ] Security audit (internal security team review followed by external audit)
 
 ### Parallel milestones

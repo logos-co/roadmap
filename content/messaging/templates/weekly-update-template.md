@@ -15,7 +15,7 @@ title: 2026-MM-DD Messaging Weekly
 
 # Logos Delivery
 
-## [Messaging API — General Availability](2026-messaging-api-general-availability.md)
+## [Messaging API — General Availability](2026-messaging-api-beta.md)
 
 - [Deliverable] Provide Store API access for Status needs
   - achieved:
@@ -44,7 +44,7 @@ title: 2026-MM-DD Messaging Weekly
   - next:
   - blockers:
 
-## [Reliable Channel API — General Availability](2026-reliable-channel-api-general-availability.md)
+## [Reliable Channel API — General Availability](2026-reliable-channel-api-beta.md)
 
 - [[Deliverable] Create Segmentation Library](https://github.com/logos-messaging/pm/issues/318)
   - achieved:

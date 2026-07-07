@@ -1,5 +1,5 @@
 ---
-title: Reliable Channel API — General Availability
+title: Reliable Channel API — Beta
 tags:
   - messaging-milestone
 date: 2025-12-17
@@ -141,7 +141,3 @@ https://github.com/logos-messaging/pm/issues/319
 
 **FURPS**:
 - F11. A different encryption mechanism can be applied for sync messages (than the one for content messages).
-
-### Provide comprehensive documentation on the API
-
-**Owner**: Delivery Team

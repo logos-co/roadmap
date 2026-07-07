@@ -91,3 +91,11 @@ Adopt Zerokit 2.0 in `logos-delivery` on `master`, in coordination with AnonComm
 - F5. Membership credentials are encrypted by default on local disk.
 - U1. RLN membership details can be exported and imported.
 - U2. Deployment details (backend type, address/endpoint) are persisted by library and in exports.
+
+### Enable RLN in Logos Devnet
+
+**Owner**: Delivery Team
+
+Configure Logos Devnet to require RLN proofs for all traffic (both Relay and Lighpush).
+
+**Done when**: Fleet deployments `logos.dev` is updated.

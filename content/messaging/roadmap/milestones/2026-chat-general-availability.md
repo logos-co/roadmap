@@ -57,3 +57,9 @@ Logos Chat is feature-complete, production-ready, and QA-approved for mainnet de
 - Freeze API surface
 - Deprecation policy for any future changes
 - Versioning strategy
+
+### Validate integration in Status
+
+**Owner**: Chat Team + Status Team
+
+Continue and deepen the Status integration started in v0.2. Address issues found during exploratory integration and validate that the polished API works for Status's production requirements.
