@@ -46,7 +46,6 @@ We use three release stages for developer-facing APIs and libraries:
 
 ### Testnet [v0.3](v03)
 
-- [ ] [Modularize Delivery Kernel](2026-modularize-delivery-kernel)
 - [ ] [Messaging API — General Availability](2026-messaging-api-general-availability)
 - [ ] [Reliable Channel API — Beta](2026-reliable-channel-api-beta.md)
 - [ ] [Chat — Beta](2026-chat-beta)
