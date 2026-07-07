@@ -5,11 +5,7 @@ tags:
 date: 2026-07-07
 ---
 
-**Resources Required**:
-- 2 Delivery engineers
-- DST involvement for reliability and scale validation
-
-The [Beta](2026-messaging-api-beta.md) delivered the full API surface (Send, Health, Subscribe/Receive in core and edge mode) plus Store access for existing applications. General Availability makes the Messaging API production-ready: anonymity via mix integration, automatic recovery of messages missed while offline, built-in rate limit management, and DST-validated reliability at scale.
+The [Beta](2026-messaging-api-beta.md) delivered the full API surface (Send, Health, Subscribe/Receive in core and edge mode), while allowing to use Kernel API for Store access for existing applications. General Availability makes the Messaging API production-ready: DST-validated reliability at scale, automatic recovery of messages missed while offline, built-in rate limit management and anonymity via mix integration.
 
 ## FURPS
 
@@ -26,21 +22,13 @@ The [Beta](2026-messaging-api-beta.md) delivered the full API surface (Send, Hea
 
 ## Deliverables
 
-### Integrate Mix into Messaging API
+### Reliability and scale validation with DST
 
-**Owner**: Delivery Team
+**Owner**: Delivery Team + DST
 
-Outbound messages sent through the Messaging API are routed through the mix network (libp2p mixnet, owned by AnonComms) to provide sender anonymity by default.
+The Messaging API is QA-approved for production use. DST validates reliability and performance at scale against FURPS targets.
 
-**Feature**: [Mixnet](/messaging/furps/core/mix.md)
-
-**FURPS**:
-- F3. Client nodes can send light push requests over the mixnet before delivery to a service node.
-- F4. Client nodes can receive a response to a light push request over the mixnet.
-
-**Dependency**: mix interface from AnonComms team must be available.
-
-**Done when**: Messages sent through the Messaging API are routed over the mix network by default, with no application changes required.
+**Done when**: A DST test report covering reliability and scale targets is available, and QA sign-off is obtained.
 
 ### Offline periods backfill
 
@@ -63,15 +51,28 @@ Integrate the Rate Limit Manager (created in [Reliable Channel API — Beta](202
 
 **Feature**: [Rate Limit Manager](/messaging/furps/application/rate_limit_manager.md)
 
-**Done when**: The Messaging API send path enforces the rate limit with message priorities, sharing a single per-node quota with the Reliable Channel API.
+**Done when**: The Messaging API send path enforces the rate limit with message priorities, using a single per-node quota.
 
-### Reliability and scale validation with DST
+### Integrate Mix into Messaging API
 
-**Owner**: Delivery Team + DST
+**Owner**: Delivery Team
 
-The Messaging API is QA-approved for production use. DST validates reliability and performance at scale against FURPS targets.
+Messaging API gains an additional configuration parameter that allows clients to specify the anonymity requirements:
+- `Required`  // when Mix is not available, messages are not published 
+- `Preferred` // when Mix is not available, fallback to regular relay/lightpush
+- `None`      // don't use Mix
 
-**Done when**: A DST test report covering reliability and scale targets is available, and QA sign-off is obtained.
+Behind the MessagingAPI, Mix discovery should be started when needed and Mix protocol should be used for publishing accordingly.
+
+**Feature**: [Mixnet](/messaging/furps/core/mix.md)
+
+**FURPS**:
+- F3. Client nodes can send light push requests over the mixnet before delivery to a service node.
+- F4. Client nodes can receive a response to a light push request over the mixnet.
+
+**Dependency**: mix interface from AnonComms team must be available.
+
+**Done when**: Messages sent through the Messaging API are routed over the mix network by default, with no application changes required.
 
 ### Provide documentation on the API
 
