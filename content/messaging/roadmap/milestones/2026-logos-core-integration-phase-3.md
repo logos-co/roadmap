@@ -17,7 +17,15 @@ The v0.3 stage of Logos Core integration. Building on [Phase 2](2026-logos-core-
 
 **Owner**: Delivery Team
 
-The pluggable RLN membership interface itself is designed in [RLN on Logos Blockchain](2026-add-support-for-rln-on-lee) ([#416](https://github.com/logos-messaging/pm/issues/416)), with in-process backends (EVM, Logos Blockchain, centralized server). This deliverable makes the rest of `logos-delivery` consume RLN membership strictly through that interface — no direct blockchain or group-manager access from the kernel — so that a backend can also be provided across the Logos Core module boundary.
+[RLN for Edge Nodes](2026-rln-for-edge-nodes.md) extracted a generic RLN module in `logos-delivery`, and [RLN on Logos Blockchain](2026-add-support-for-rln-on-lee) has a requirement to build a membership management API ([#416](https://github.com/logos-messaging/pm/issues/416)).
+
+But also, AnonComms specified an RLN membership allocation service ([anoncomms-pm#17](https://github.com/logos-co/anoncomms-pm/issues/17)) that can run as a standalone Logos Core module. Logos Delivery should be able to use it when running in Logos Core. The module itself is not on the AnonComms roadmap yet — ownership to be aligned with AnonComms.
+
+Note that "making RLN pluggable" has different parts:
+- enable `logos-delivery`'s RLN module to use different backends — Logos Blockchain / Ethereum L2 / centralized server
+- extract part of `logos-delivery`'s RLN module into a Logos Core module
+  - Main part (current scope): RLN membership library
+  - Extra part (next, to be aligned with AnonComms): generate/validate proofs using external RLN module too.
 
 **Done when**: An RLN membership backend can be swapped — including one provided by a Logos Core module — without changes to `logos-delivery` internals. Exercised by the POC below.
 
