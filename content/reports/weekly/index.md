@@ -3,6 +3,13 @@ title: Weekly Reports
 ---
 This directory contains all the weekly files in a linkable fashion.
 
+- <a href="/reports/weekly/2026-06-29.html" data-router-ignore>2026-06-29</a>
+- <a href="/reports/weekly/2026-06-22.html" data-router-ignore>2026-06-22</a>
+- <a href="/reports/weekly/2026-06-15.html" data-router-ignore>2026-06-15</a>
+- <a href="/reports/weekly/2026-06-08.html" data-router-ignore>2026-06-08</a>
+- <a href="/reports/weekly/2026-06-01.html" data-router-ignore>2026-06-01</a>
+- <a href="/reports/weekly/2026-05-25.html" data-router-ignore>2026-05-25</a>
+- <a href="/reports/weekly/2026-05-18.html" data-router-ignore>2026-05-18</a>
 - <a href="/reports/weekly/2026-05-11.html" data-router-ignore>2026-05-11</a>
 - <a href="/reports/weekly/2026-05-04.html" data-router-ignore>2026-05-04</a>
 - <a href="/reports/weekly/2026-04-27.html" data-router-ignore>2026-04-27</a>

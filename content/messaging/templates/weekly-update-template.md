@@ -44,11 +44,6 @@ title: 2026-MM-DD Messaging Weekly
   - next:
   - blockers:
 
-- [[Deliverable] Implement SDS-Repair](https://github.com/logos-messaging/pm/issues/413)
-  - achieved:
-  - next:
-  - blockers:
-
 ## [Reliable Channel API — General Availability](2026-reliable-channel-api-general-availability.md)
 
 - [[Deliverable] Create Segmentation Library](https://github.com/logos-messaging/pm/issues/318)

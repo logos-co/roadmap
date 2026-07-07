@@ -47,6 +47,12 @@ FURPS are elsewhere divided into Milestones and Deliverables, to form a roadmap.
 ### `blockchain:block-building`
 21. **Distributed block building** Enabling tagging attack resistance and removing the leader as SPOF
 
+### `blockchain:empowering` (Proof-of-Work Onboarding)
+36. Permissionless user onboarding: mining transactions — newcomers earn tokens through proof of work and pay for transactions with them
+37. Permissionless network privacy: any participant can earn Blend Network access through proof of work
+38. Permissionless transaction privacy: Blend Network carries transactions in addition to block proposals
+39. Permissionless bootstrapping of Proof of Stake: fair and private initial stake distribution through proof of work while token markets are thin
+
 ## `lez`
 
 ### `lez:programmable-privacy`

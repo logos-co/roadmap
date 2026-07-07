@@ -62,6 +62,7 @@ Logos Blockchain is working towards the following capabilities, required for Mai
 - [ ] [Cross Sovereign Zone Messaging](./cross_sovereign_zone_messaging.md)
 - [ ] [Blockchain Blend Message Compression](./blend_message_compression.md)
 - [ ] [Blockchain Areon Finality Model](./areon_finality.md)
+- [ ] [Blockchain EmPoWering](./blockchain_empowering.md)
 
 ### Parallel Milestones
 
