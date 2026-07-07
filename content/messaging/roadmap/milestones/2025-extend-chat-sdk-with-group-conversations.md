@@ -1,5 +1,5 @@
 ---
-title: Chat — Group Conversations
+title: Chat — Developer Preview
 tags:
   - messaging-milestone
 date: 2025-12-18
@@ -16,7 +16,7 @@ Group chat features will be limited at this stage and extended with further mile
 
 **Encryption approach**: de-MLS (decentralised MLS) from the AnonComms team, which provides multi-steward group management. de-MLS API is consumed as a dependency from the AnonComms team.
 
-**Identity**: A simple identity model must be in place for this milestone. A "user" is a set of installations (devices), with basic association between them. Key rotation and device recovery are included at a basic level. Full identity (binding to external identities, provenance logs, advanced recovery) is planned for [Chat — Developer Preview](2026-chat-developer-preview).
+**Identity**: A simple identity model must be in place for this milestone. A "user" is a set of installations (devices), with basic association between them. Key rotation and device recovery are included at a basic level. Full identity (binding to external identities, provenance logs, advanced recovery) is planned for [Chat — Beta](2026-chat-beta).
 
 **Remove unnecessary Nim shim**: This milestone includes an attempt to remove the unnecessary Nim layer in Logos Chat by rewriting it in Rust. Currently the Nim layer exists primarily to manage the async runtime and Logos Delivery integration, but adds complexity with no clear benefit. This rewrite is only feasible if Logos Chat can remain fully synchronous on the Rust side. If successful, it would significantly simplify development going forward.
 

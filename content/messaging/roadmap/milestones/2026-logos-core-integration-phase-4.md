@@ -16,7 +16,7 @@ The final integration phase for mainnet. Logos Delivery module stops embedding f
 The vision is a shared P2P module that all Logos modules (Delivery, Storage, Blockchain) use for common networking concerns — discovery, mix, gossip. Delivery is the first module to adopt this architecture.
 
 The progression toward the shared P2P module:
-1. **Discovery** (mainnet requirement) — Delivery module uses the Discovery Logos Core module for peer discovery instead of its own embedded discovery (discv5). The interface is straightforward: ask for peers, get peers. This builds on the [POC from v0.2](2026-logos-core-integration-phase-2).
+1. **Discovery** (mainnet requirement) — Delivery module uses the Discovery Logos Core module for peer discovery instead of its own embedded discovery (discv5). The interface is straightforward: ask for peers, get peers. This builds on the [POC from v0.3](2026-logos-core-integration-phase-3).
 2. **Mix** (mainnet goal) — Delivery module uses mix from the P2P module. Interface between module and mix needs design work (current callback-based mixification is not clean).
 3. **GossipSub** (stretch goal, post-mainnet acceptable) — Delivery module uses a shared gossip layer from the P2P module. If achieved, it demonstrates the full P2P module vision.
 
@@ -44,7 +44,7 @@ This enables a fully modular Logos Core deployment where all modules share infra
 
 **Owner**: Delivery Team
 
-Logos Delivery module uses the Discovery Logos Core module (capability discovery, developed by AnonComms) as its primary peer discovery mechanism. This replaces the embedded discv5 discovery. Builds on the [v0.2 POC](2026-logos-core-integration-phase-2).
+Logos Delivery module uses the Discovery Logos Core module (capability discovery, developed by AnonComms) as its primary peer discovery mechanism. This replaces the embedded discv5 discovery. Builds on the [v0.3 POC](2026-logos-core-integration-phase-3).
 
 **This is a mainnet requirement.**
 

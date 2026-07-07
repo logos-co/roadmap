@@ -96,6 +96,6 @@ Adopt Zerokit 2.0 in `logos-delivery` on `master`, in coordination with AnonComm
 
 **Owner**: Delivery Team
 
-Configure Logos Devnet to require RLN proofs for all traffic (both Relay and Lighpush).
+Configure Logos Devnet to require RLN proofs for all traffic (both Relay and LightPush).
 
-**Done when**: Fleet deployments `logos.dev` is updated.
+**Done when**: The `logos.dev` fleet deployment is updated.

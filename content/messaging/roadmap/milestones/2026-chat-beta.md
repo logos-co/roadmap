@@ -1,8 +1,10 @@
 ---
-title: Chat — Developer Preview
+title: Chat — Beta
 tags:
   - messaging-milestone
 date: 2026-01-15
+aliases:
+  - 2026-chat-developer-preview
 ---
 
 
@@ -11,7 +13,7 @@ date: 2026-01-15
 - 1 Delivery engineer (testing support)
 - DST involvement for reliability testing
 
-The Developer Preview focuses on polishing the Logos Chat implementation into a state suitable for real application integration. It builds on the foundations (v0.1, 1:1 chats) and group conversations (v0.2) by hardening the API, completing the identity model, enabling on-chain contact discovery, and validating the integration in Status.
+The Beta focuses on polishing the Logos Chat implementation into a state suitable for real application integration. It builds on the foundations (v0.1, 1:1 chats) and the [Developer Preview](2025-extend-chat-sdk-with-group-conversations) (v0.2, group conversations) by hardening the API, completing the identity model, enabling on-chain contact discovery, and validating the integration in Status.
 
 The focus is:
 - Stabilize and polish the API based on feedback from v0.2 Status test integration
@@ -76,7 +78,11 @@ Features needed for a real chat experience beyond the protocol layer:
 
 ### Add support for Logos Delivery RLN
 
+**Owner**: Chat Team
 
+Logos Chat works against RLN-enforcing networks: chat traffic sent through Logos Delivery carries valid RLN proofs, and the application can set up and manage the required RLN membership through the delivery layer. Rate limiting implications (queued or dropped messages) are surfaced to the application.
+
+**Dependency**: [RLN for Edge Nodes](2026-rln-for-edge-nodes.md) must be delivered.
 
 ### Perform test integration of Logos Chat into Status App
 
@@ -88,6 +94,6 @@ Initial validation that Logos Chat (1:1 + group chats) can be consumed by Status
 
 **Owner**: Chat Team
 
-Define how SDS reliability (backward dependency resolution) integrates with de-MLS encryption (forward checkpoint construction). This is a design deliverable that feeds into the Reliable Channel API General Availability milestone.
+Define how SDS reliability (backward dependency resolution) integrates with de-MLS encryption (forward checkpoint construction). This is a design deliverable that feeds into the [Reliable Channel API — Beta](2026-reliable-channel-api-beta.md) milestone.
 
 **Dependency**: de-MLS API from AnonComms team must be available.

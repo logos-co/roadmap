@@ -1,6 +1,23 @@
+---
+title: Logos Core Integration — Phase 3
+tags:
+  - messaging-milestone
+date: 2026-07-07
+---
+
+**Resources Required**:
+- 1 Delivery engineer
+- Logos Core team support
+
+The v0.3 stage of Logos Core integration. Building on [Phase 2](2026-logos-core-integration-phase-2) (Chat module using the Delivery module through Logos Core), this phase proves the first cross-module integrations as proofs of concept and rolls out QUIC on the fleets. The POCs de-risk [Phase 4](2026-logos-core-integration-phase-4.md), where embedded components are fully replaced by shared Logos Core modules.
+
 ## Deliverables
 
 ### POC: Integrate RLN module
+
+**Owner**: Delivery Team
+
+Proof of concept: the Delivery module obtains RLN credentials and validates proofs through the RLN membership Logos Core module (from AnonComms), instead of interacting with the blockchain directly. Validates the module interface ahead of the full integration in [Phase 4](2026-logos-core-integration-phase-4.md).
 
 ### POC: Delivery module uses Discovery module for peer discovery
 
@@ -8,7 +25,12 @@
 
 Proof of concept: the Delivery module uses the Discovery Logos Core module (from AnonComms) as an additional source of peer discovery. In this stage, Discovery module is used alongside existing discovery (discv5) — the Delivery module queries the Discovery module for peers and merges them with peers from its own discovery. discv5 can be disabled once this integration is validated.
 
-This is a POC — required for v0.3, but only included in v0.2 if a clean architecture is achievable. If integration would require a hacky shim that gets thrown away, it is deferred to v0.3.
+This is a POC — the full replacement of embedded discv5 happens in [Phase 4](2026-logos-core-integration-phase-4.md).
 
-### Enable QUIC in `logos.dev` and  `logos.test`
+### Enable QUIC in `logos.dev` and `logos.test`
 
+**Owner**: Delivery Team
+
+QUIC transport support landed in `logos-delivery` in v0.2. This deliverable enables QUIC on the fleet nodes.
+
+**Done when**: The `logos.dev` and `logos.test` fleet deployments are updated and nodes communicate over QUIC.

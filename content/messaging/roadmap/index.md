@@ -24,10 +24,10 @@ Logos Messaging is working towards these features, required to be implemented fo
 
 The work is split into milestones, planned to be achieved by certain release.
 
-We use two release stages for developer-facing APIs and libraries:
-- **Developer Preview** — first externally-usable arelease. Functional but limited scope, intended for early adopters and feedback collection.
-- **Beta** — feature-complete, but ???  TBD
-- **General Availability** — feature-complete, QA-approved, production-ready release.
+We use three release stages for developer-facing APIs and libraries:
+- **Developer Preview** — first externally-usable release. Functional but limited scope, intended for early adopters and feedback collection.
+- **Beta** — feature-complete and API-stable. Documentation, QA sign-off and performance tuning may still be in progress.
+- **General Availability** — feature-complete, documented, QA-approved, production-ready release.
 
 ### Testnet [v0.1](v01)
 
@@ -42,16 +42,16 @@ We use two release stages for developer-facing APIs and libraries:
 - [x] [Chat — Developer Preview](2025-extend-chat-sdk-with-group-conversations)
 - [ ] [Logos Core Integration — Phase 2](2026-logos-core-integration-phase-2)
 - [ ] [QUIC Transport in Logos Delivery](2025-support-discovery-research-and-libp2p-quic)
-- [ ] [RLN for edge nodes](2026-rln-for-edge-nodes.md)
+- [ ] [RLN for Edge Nodes](2026-rln-for-edge-nodes.md)
 
 ### Testnet [v0.3](v03)
 
 - [ ] [Modularize Delivery Kernel](2026-modularize-delivery-kernel)
 - [ ] [Messaging API — General Availability](2026-messaging-api-general-availability)
 - [ ] [Reliable Channel API — Beta](2026-reliable-channel-api-beta.md)
-- [ ] [Chat — Beta](2026-chat-developer-preview)
+- [ ] [Chat — Beta](2026-chat-beta)
 - [ ] [RLN on Logos Blockchain](2026-add-support-for-rln-on-lee)
-- [ ] [Logos Core integration — Phase 3]()
+- [ ] [Logos Core Integration — Phase 3](2026-logos-core-integration-phase-3)
 
 ### Required for Mainnet
 

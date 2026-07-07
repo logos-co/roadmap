@@ -15,7 +15,7 @@ title: 2026-MM-DD Messaging Weekly
 
 # Logos Delivery
 
-## [Messaging API — General Availability](2026-messaging-api-beta.md)
+## [Messaging API — Beta](2026-messaging-api-beta.md)
 
 - [Deliverable] Provide Store API access for Status needs
   - achieved:
@@ -27,12 +27,14 @@ title: 2026-MM-DD Messaging Weekly
   - next:
   - blockers:
 
-- [Deliverable] Provide comprehensive documentation on the API
+- [[Deliverable] Stabilize and improve Messaging API, fix bugs](https://github.com/logos-messaging/pm/issues/414)
   - achieved:
   - next:
   - blockers:
 
-- [[Deliverable] Stabilize and improve Messaging API, fix bugs](https://github.com/logos-messaging/pm/issues/414)
+## [Messaging API — General Availability](2026-messaging-api-general-availability.md)
+
+- [Deliverable] Provide documentation on the API
   - achieved:
   - next:
   - blockers:
@@ -44,7 +46,7 @@ title: 2026-MM-DD Messaging Weekly
   - next:
   - blockers:
 
-## [Reliable Channel API — General Availability](2026-reliable-channel-api-beta.md)
+## [Reliable Channel API — Beta](2026-reliable-channel-api-beta.md)
 
 - [[Deliverable] Create Segmentation Library](https://github.com/logos-messaging/pm/issues/318)
   - achieved:
@@ -78,7 +80,7 @@ title: 2026-MM-DD Messaging Weekly
   - next:
   - blockers:
 
-## [RLN for lightpush](https://github.com/logos-messaging/pm/issues/411)
+## [RLN for Edge Nodes](https://github.com/logos-messaging/pm/issues/411)
 
 - [[Deliverable] Improve RLN UX by reducing contract interactions](https://github.com/logos-messaging/pm/issues/344)
   - achieved:
@@ -126,7 +128,7 @@ title: 2026-MM-DD Messaging Weekly
 
 # Logos Chat
 
-## [Chat — Group Conversations](2025-extend-chat-sdk-with-group-conversations.md)
+## [Chat — Developer Preview](2025-extend-chat-sdk-with-group-conversations.md)
 
 - [[Deliverable] Add Group Chat](https://github.com/logos-messaging/pm/issues/346)
   - achieved:
@@ -154,11 +156,6 @@ title: 2026-MM-DD Messaging Weekly
   - blockers:
 
 - Remove unnecessary Nim shim from Logos Chat
-  - achieved:
-  - next:
-  - blockers:
-
-- Use Reliable Channels in Logos Chat
   - achieved:
   - next:
   - blockers:

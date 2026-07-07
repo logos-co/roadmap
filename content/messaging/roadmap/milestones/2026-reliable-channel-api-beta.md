@@ -4,6 +4,8 @@ tags:
   - messaging-milestone
 date: 2025-12-17
 github: https://github.com/logos-messaging/pm/issues/402
+aliases:
+  - 2026-reliable-channel-api-general-availability
 ---
 
 **Resources Required for 2026H2**:
@@ -141,3 +143,9 @@ https://github.com/logos-messaging/pm/issues/319
 
 **FURPS**:
 - F11. A different encryption mechanism can be applied for sync messages (than the one for content messages).
+
+### Provide documentation on the API
+
+**Owner**: Delivery Team
+
+Documentation is a hard requirement before the API graduates to General Availability. It does not have to be published as a website — comprehensive documentation in the repository (e.g. a README) is sufficient.

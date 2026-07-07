@@ -10,11 +10,12 @@ github: https://github.com/logos-messaging/pm/issues/403
 - 1 Nim engineer for testing support and bugfixes
 - 1 Nim engineer for Store API work.
 
-The Developer Preview delivered the Send, Health, and Subscribe/Receive APIs, including both core and edge mode. General Availability completes the Messaging API with:
+The Developer Preview delivered the Send, Health, and Subscribe/Receive APIs, including both core and edge mode. Beta completes the Messaging API surface with:
 
 1. **Store API** — Status still relies on Store nodes for history retrieval, community descriptions, profiles, and SDS-hinted missed messages. Either introduce a new Store API alongside Messaging API, or allow using low-level API from the same `liblogosdelivery`.
 2. **Test suite** — Messaging API is QA-approved. Involvement of DST for reliability testing.
-3. **Documentation** — comprehensive developer documentation on the API.
+
+Comprehensive documentation and production readiness are delivered in [General Availability](2026-messaging-api-general-availability).
 
 ## FURPS
 
