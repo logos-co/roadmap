@@ -18,6 +18,7 @@
 14. A standalone Logos Mix module encapsulates the Logos libp2p module with nim-libp2p-mix, RLN-based DoS protection, and cover traffic for Logos Core services
 15. Applications can route libp2p request-response messages over mix via the Logos Mix module API
 16. Mix nodes maintain a local reputation record for peers
+17. Nodes can use advanced cover traffic patterns to improve anonymity
 
 ## Usability
 
@@ -40,6 +41,7 @@
 17. The anonymity limitations of the mix hidden services approach and alternative provider anonymity techniques are evaluated and published
 18. Differentiated RLN rate-limiting based on peer reputation metrics is researched and published
 19. Non-RLN DoS and Sybil protection approaches are researched and published
+20. Advanced cover traffic patterns are researched and published in a specification
 
 ## Reliability
 

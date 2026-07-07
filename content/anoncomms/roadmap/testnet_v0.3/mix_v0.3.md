@@ -13,7 +13,7 @@
 
 ## Deliverables
 
-### [Implement LIONESS payload encryption for Sphinx](TBD: anoncomms-pm issue)
+### [Implement LIONESS payload encryption for Sphinx](https://github.com/logos-co/anoncomms-pm/issues/50)
 
 **Owner**: AnonComms Mix (primary), Storage Team (support)
 
@@ -22,6 +22,37 @@
 - F13. The libp2p mix protocol's payload encryption preserves payload integrity
 
 **Checklist**:
+- [ ] Code: link to GitHub issues/PRs/Epic
+- [ ] Dogfood: link to dogfooding session/artefact
+- [ ] Docs: links to README.md or other docs
+
+### [Research more advanced cover traffic generation techniques](https://github.com/logos-co/anoncomms-pm/issues/51)
+
+**Owner**: AnonComms Mix (primary)
+
+**FURPS**:
+
+- F17. Nodes can use advanced cover traffic patterns to improve anonymity
+- U20. Advanced cover traffic patterns are researched and published in a specification
+
+**Checklist**:
+- [ ] Specs: link to specs and/or API definition
+- [ ] Code: link to GitHub issues/PRs/Epic
+- [ ] Dogfood: link to dogfooding session/artefact
+- [ ] Docs: links to README.md or other docs
+
+### [Implement local reputation mechanism and research advanced DoS protection](https://github.com/logos-co/anoncomms-pm/issues/52)
+
+**Owner**: AnonComms Mix
+
+**FURPS**:
+
+- F16. Mix nodes maintain a local reputation record for peers
+- U18. Differentiated RLN rate-limiting based on peer reputation metrics is researched and published
+- U19. Non-RLN DoS and Sybil protection approaches are researched and published
+
+**Checklist**:
+- [ ] Specs: link to specs and/or API definition
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
@@ -42,9 +73,9 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### [Specify and implement hidden services and research provider anonymity techniques](TBD: anoncomms-pm issue)
+### [Specify and implement hidden services and research provider anonymity techniques](https://github.com/logos-co/anoncomms-pm/issues/43)
 
-**Owner**: AnonComms Mix
+**Owner**: Storage Team (primary), AnonComms Mix (support)
 
 **FURPS**:
 
@@ -59,9 +90,9 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### [Integrate mix into the Logos Delivery module](TBD: anoncomms-pm issue)
+### [Integrate mix into the Logos Delivery module](https://github.com/logos-co/anoncomms-pm/issues/53)
 
-**Owner**: AnonComms Mix
+**Owner**: Messaging Delivery (primary), AnonComms Mix (support)
 
 **FURPS**:
 
@@ -73,7 +104,7 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### [Logos Mix Module](TBD: anoncomms-pm issue)
+### [Create a standalone Logos Mix Module](https://github.com/logos-co/anoncomms-pm/issues/54)
 
 **Owner**: P2P Team (primary), AnonComms Mix (support)
 
@@ -89,18 +120,13 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### [Implement local reputation mechanism and research advanced DoS protection](TBD: anoncomms-pm issue)
+### [Specify a Logos Mix Network opinionated configuration](https://github.com/logos-co/anoncomms-pm/issues/55)
 
 **Owner**: AnonComms Mix
 
 **FURPS**:
 
-- F16. Mix nodes maintain a local reputation record for peers
-- U18. Differentiated RLN rate-limiting based on peer reputation metrics is researched and published
-- U19. Non-RLN DoS and Sybil protection approaches are researched and published
+- U21. The opinionated protocol stack composition and configuration for a Logos Mix Network is specified
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
-- [ ] Code: link to GitHub issues/PRs/Epic
-- [ ] Dogfood: link to dogfooding session/artefact
-- [ ] Docs: links to README.md or other docs
