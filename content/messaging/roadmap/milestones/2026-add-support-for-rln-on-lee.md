@@ -77,11 +77,11 @@ Adopt Zerokit 2.0 in `logos-delivery` on `master`, in coordination with AnonComm
 
 **Done when**: `logos-delivery` `master` builds against Zerokit 2.0.
 
-### [Update RLN membership management library](https://github.com/logos-messaging/pm/issues/419)
+### [Implement RLN membership management API](https://github.com/logos-messaging/pm/issues/419)
 
 **Owner**: Delivery Team
 
-**Feature**: [RLN Membership Management](/messaging/furps/application/rln_membership_management.md)
+**Feature**: [Add RLN Membership Management API](/messaging/furps/application/rln_membership_management.md)
 
 **FURPS**:
 - F1. Can generate RLN credentials.
