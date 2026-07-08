@@ -28,6 +28,7 @@ or are not critical for mainnet launch.
 6. [Implement an MVP payment protocol](/anoncomms/roadmap/incentivisation.md) that exploits Logos Blockchain/Nescience to allow privacy-preserving, mostly off-chain payments to service providers.
 7. [Maintain and expand the Zerokit library](/anoncomms/roadmap/zerokit.md) that improves usability and add big-endian support.
 8. [Support gasless L2 transactions](/anoncomms/roadmap/gasless-l2.md) on Status Network, including publishing a whitepaper.
+9. [Develop the λAccount identity primitive](/anoncomms/roadmap/identity.md), a VLAD-based identity anchor developed cross-team with Logos Chat, extending to Blockchain and Storage needs.
 
 ## Testnet Milestones
 
@@ -55,6 +56,7 @@ Features critical for the testnet:
 - [ ] [Service Discovery Testnet v0.2 Deliverables](/anoncomms/roadmap/testnet_v0.2/discovery_v0.2.md)
 - [ ] [Mix Testnet v0.2 Deliverables](/anoncomms/roadmap/testnet_v0.2/mix_v0.2.md)
 - [ ] [De-MLS Testnet v0.2 Deliverables](/anoncomms/roadmap/testnet_v0.2/de-mls_v0.2.md)
+- [ ] [Identity Track Testnet v0.2 Deliverables](/anoncomms/roadmap/testnet_v0.2/identity_v0.2.md)
 
 Non-critical features explored within testnet scope:
 
@@ -100,7 +102,13 @@ Features critical for the testnet:
 - [ ] [Mix Testnet v0.3 Deliverables](/anoncomms/roadmap/testnet_v0.3/mix_v0.3.md)
 - [ ] [Oracle Testnet v0.3 Deliverables](/anoncomms/roadmap/testnet_v0.3/oracle_v0.3.md)
 - [ ] [RLN Testnet v0.3 Deliverables](/anoncomms/roadmap/testnet_v0.3/rln_v0.3.md)
+- [ ] [De-MLS Testnet v0.3 Deliverables](/anoncomms/roadmap/testnet_v0.3/de-mls_v0.3.md)
 
 Non-critical features explored within testnet scope:
 
 - [ ] [Service Incentivisation Testnet v0.3 Deliverables](/anoncomms/roadmap/testnet_v0.3/incentivisation_v0.3.md)
+- [ ] [Zerokit Testnet v0.3 Deliverables](/anoncomms/roadmap/testnet_v0.3/zerokit_v0.3.md)
+
+### Mainnet
+
+- [ ] [Identity Track Mainnet Deliverables](/anoncomms/roadmap/mainnet/identity_mainnet.md)

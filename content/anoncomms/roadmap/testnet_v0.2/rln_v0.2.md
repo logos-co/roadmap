@@ -15,7 +15,7 @@
 
 **Owner**: AnonComms Zerokit-RLN
 
-**Feature**: [RLN](../furps/rln.md)
+**Feature**: [RLN](/anoncomms/furps/rln.md)
 
 **FURPS**:
 
