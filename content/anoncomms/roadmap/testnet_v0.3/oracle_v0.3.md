@@ -4,7 +4,7 @@
 
 **FURPS:** [Oracle FURPS](/anoncomms/furps/oracle.md)
 
-**Estimated date of completion**: 30 Sept 2026
+**Estimated date of completion**: 30 Sep 2026
 
 **Resources Required**:
 - `2` developers for `12` weeks
@@ -74,6 +74,8 @@
 
 **FURPS**:
 
+- U5. Developer documentation for the Oracle Zone is published in a document
+- U6. Benchmark results for the Oracle Zone are published in a research blog
 - P1. Price updates are completed within a reasonable time bound
 - P2. Cross-zone transaction latency is benchmarked
 

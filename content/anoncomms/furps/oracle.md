@@ -14,6 +14,8 @@
 2. The oracle nodes and indexer are implemented in Rust
 3. The fetch mechanism is specified and documented
 4. Atomic cross zone TX is deployed for cross-zone interactions involving the oracle zone
+5. Developer documentation for the Oracle Zone is published in a document
+6. Benchmark results for the Oracle Zone are published in a research blog
 
 ## Reliability
 
