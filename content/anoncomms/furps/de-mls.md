@@ -23,7 +23,7 @@
 7. The De-MLS API is available in Rust and C
 8. De-MLS is included in the Logos Chat protocol stack specification
 9. De-MLS is integrated into a working Logos Chat module deployed to Logos Core
-10. De-MLS integrates into libchat as a standard module using caller-provided services
+10. De-MLS is integrated into libchat using caller-provided services
 
 ## Reliability
 

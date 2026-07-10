@@ -44,7 +44,7 @@
 
 **FURPS**:
 
-- U10. De-MLS integrates into libchat as a standard module using caller-provided services
+- U10. De-MLS is integrated into libchat using caller-provided services
 - R1. De-MLS operates correctly within libchat
 
 **Checklist**:
