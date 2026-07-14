@@ -50,3 +50,17 @@
 **Checklist**:
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Docs: links to README.md or other docs
+
+### [Release Zerokit (v3.0.0) with enum-based runtime configuration](https://github.com/logos-co/anoncomms-pm/issues/48)
+
+**Owner**: AnonComms Zerokit
+
+**FURPS**:
+
+- U6. The Zerokit architecture is changed from compile-time feature flags to runtime configuration based on enums
+
+**Checklist**:
+- [ ] Specs: link to specs and/or API definition
+- [ ] Code: link to GitHub issues/PRs/Epic
+- [ ] Dogfood: link to dogfooding session/artefact
+- [ ] Docs: links to README.md or other docs
