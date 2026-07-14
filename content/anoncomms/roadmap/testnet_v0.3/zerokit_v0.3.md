@@ -51,7 +51,7 @@
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Docs: links to README.md or other docs
 
-### [Release Zerokit (v3.0.0) with enum-based runtime configuration](https://github.com/logos-co/anoncomms-pm/issues/48)
+### [Release Zerokit (v3.0.0) with enum-based runtime configuration](TBD: anoncomms-pm issue)
 
 **Owner**: AnonComms Zerokit
 
