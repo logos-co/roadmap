@@ -63,7 +63,7 @@ Logos Blockchain is working towards the following capabilities, required for Mai
 
 - [ ] [LEZ Decentralized Sequencing](./lez_decentralized_sequencing.md)
 - [ ] [LEZ TKE Implementation](./lez_tke_implementation.md)
-- [ ] [Cross Sovereign Zone Messaging](./cross_sovereign_zone_messaging.md)
+- [ ] [Cross-LEZ Messaging](./cross_lez_messaging.md)
 - [ ] [LEZ publishes events](./lez_events.md)
 - [ ] [Blockchain Explorer App](./blockchain_explorer.md)
 - [ ] [Blockchain Blend Message Compression](./blend_message_compression.md)
