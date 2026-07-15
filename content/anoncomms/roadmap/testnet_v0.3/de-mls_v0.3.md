@@ -4,7 +4,7 @@
 
 **FURPS:** [De-MLS FURPS](/anoncomms/furps/de-mls.md)
 
-**Estimated date of completion**: 30 Sep 2026
+**Estimated date of completion**: Testnet v0.3 launch
 
 **Resources Required**:
 - 2 developers for 12 weeks

@@ -4,7 +4,7 @@
 
 **FURPS:** [RLN FURPS](/anoncomms/furps/rln.md)
 
-**Estimated date of completion**: 30 Sept 2026
+**Estimated date of completion**: Testnet v0.3 launch
 
 **Resources Required**:
 - `2` AnonComms Zerokit-RLN developers

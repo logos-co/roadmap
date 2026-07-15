@@ -4,7 +4,7 @@
 
 **FURPS:** [Identity FURPS](/anoncomms/furps/identity.md)
 
-**Estimated date of completion**: 30 Sept 2026
+**Estimated date of completion**: Testnet v0.3 launch
 
 **Resources Required**:
 - 1 AnonComms researcher for review

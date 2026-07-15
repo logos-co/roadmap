@@ -4,7 +4,7 @@
 
 **FURPS:** [Service Discovery FURPS](/anoncomms/furps/discovery.md)
 
-**Estimated date of completion**: 30 Sept 2026
+**Estimated date of completion**: Testnet v0.3 launch
 
 **Resources Required**:
 - 2 developers for 16 weeks
