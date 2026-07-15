@@ -17,6 +17,6 @@
 A Logos Core module for the LEZ indexer, allowing for local querying of LEZ state. The LEZ indexer follows LEZ's channel on the blockchain and exposes the LEZ RPCs as APIs for apps to build on top of LEZ.
 
 **Checklist**:
-- [ ] LEZ indexer C API
-- [ ] LEZ indexer module implementation
-- [ ] LEZ indexer RPC endpoints
+- [x] LEZ indexer C API
+- [x] LEZ indexer module implementation
+- [x] LEZ indexer RPC endpoints

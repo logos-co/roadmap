@@ -24,6 +24,6 @@ Enable programs to call other programs within LEZ.
 - F32. Programs can call other programs deployed on LEZ
 
 **Checklist**:
-- [ ] Cross-program call mechanism specification
-- [ ] Cross-program call mechanism implemented
-- [ ] Cross-program call documentation
+- [x] Cross-program call mechanism specification
+- [x] Cross-program call mechanism implemented
+- [x] Cross-program call documentation

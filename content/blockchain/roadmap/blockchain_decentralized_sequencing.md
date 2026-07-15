@@ -29,8 +29,8 @@ Instead, Sovereign Zones offload the complexity of decentralized networks to Log
 
 **Checklist**:
 - [x] Blockchain Specification updated with support for decentralized sequencing
-- [ ] Blockchain implementation updated to match spec
+- [x] Blockchain implementation updated to match spec
 - [x] Sequencers can join and leave from a Sovereign Zone
 - [x] Blockchain enforces sequencer schedule
 - [x] Decentralized Sequencing is tolerant to misbehaving sequencers
-- [ ] Decentralized Sequencing exposed through Zone SDK
+- [x] Decentralized Sequencing exposed through ZoneSDK
