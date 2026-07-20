@@ -24,7 +24,7 @@ Work is split **50/50** between Delivery team and Status team. Delivery team pro
 ## Related milestones
 
 - [Integrate nwaku in Status Desktop relay mode only](2024-nwaku-in-status-desktop) — superseded by this milestone
-- [Messaging API — General Availability](2026-messaging-api-general-availability) — prerequisite (includes edge mode for mobile, Subscribe API)
+- [Messaging API — Beta](2026-messaging-api-beta.md) — prerequisite (includes edge mode for mobile, Subscribe API)
 
 ## Risks
 

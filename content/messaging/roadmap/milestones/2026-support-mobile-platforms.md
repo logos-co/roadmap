@@ -13,7 +13,7 @@ date: 2026-02-21
 
 Ensure that Logos Chat and Logos Delivery modules are usable in Logos Core on mobile platforms (iOS and Android).
 
-Edge mode (light push, filter, peer exchange) is implemented in earlier milestones ([Messaging API — General Availability](2026-messaging-api-general-availability)). This milestone ensures it fully works on mobile, with testing and DST validation.
+Edge mode (light push, filter, peer exchange) is implemented in earlier milestones ([Messaging API — Beta](2026-messaging-api-beta.md)). This milestone ensures it fully works on mobile, with testing and DST validation.
 
 This involves three areas:
 1. **nim-ffi mobile support** — Ensure C-bindings produced by nim-ffi work on iOS and Android
@@ -48,7 +48,7 @@ This involves three areas:
 
 **Owner**: Delivery Team + DST
 
-Edge mode is implemented in [Messaging API — General Availability](2026-messaging-api-general-availability). This deliverable covers:
+Edge mode is implemented in [Messaging API — Beta](2026-messaging-api-beta.md). This deliverable covers:
 - Testing edge mode on iOS and Android devices
 - Battery and bandwidth impact assessment
 - Performance tuning for mobile constraints

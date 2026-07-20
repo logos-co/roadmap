@@ -17,7 +17,7 @@ The [Chat — Foundations](2026-chat-foundations.md) milestone does not include 
 The [Reliable Channel API](https://github.com/logos-messaging/specs/pull/89) delivers a simple API that enables those features, as well as:
 - SDS-Repair, an extension to SDS that reduces reliance on Store services and improves receiver anonymity from the original SDS protocol.
 
-This milestone focuses on forming the API and delivering a pre-configured SDS experience. Segmentation and rate limit manager will be delivered in the [General Availability](2026-reliable-channel-api-general-availability.md) milestone.
+This milestone focuses on forming the API and delivering a pre-configured SDS experience. Segmentation and rate limit manager will be delivered in the [Beta](2026-reliable-channel-api-beta.md) milestone.
 
 ## FURPS
 
@@ -63,11 +63,3 @@ Note: No segmentation or rate limit manager in this milestone. SDS messages cach
 **FURPS**:
 - F9. Missing messages re-emission is requested from other channel participants
 
-### Use Reliable Channels in Logos Chat
-
-**Owner**: Chat Team
-
-**Feature**: [Reliable Channel API](/messaging/furps/application/reliable_channel.md)
-
-**FURPS**:
-- U2. Single cohesive interface wrapping SDS, store queries, segmentation, and rate limits.

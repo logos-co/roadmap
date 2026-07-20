@@ -30,14 +30,3 @@ Replace legacy multiplexers (Yamux, Mplex) with QUIC transport. The old multiple
 
 **FURPS**:
 - S4. QUIC transport is supported for peer-to-peer message routing connections.
-
-### Make Discovery Pluggable
-
-**Owner**: Nim Messaging Team
-
-**Feature**: [nwaku](/messaging/furps/application/nwaku.md)
-
-**FURPS**:
-
-- F?. Peer exchanges feeds from the running discovery protocol (discv5 or otherwise).
-- U?. Discv5 implementation uses a defined interface, enabling it to be swapped with another discovery protocol.

@@ -2,80 +2,80 @@
 title: Chat — Developer Preview
 tags:
   - messaging-milestone
-date: 2026-01-15
+date: 2025-12-18
+github: 'https://github.com/logos-messaging/pm/issues/406'
 ---
 
 
-**Resources Required**:
+**Resources Required for 2026H1**:
 - 2 Chat engineers
-- 1 Delivery engineer (testing support)
-- DST involvement for reliability testing
 
-The Developer Preview focuses on polishing the Logos Chat implementation into a state suitable for real application integration. It builds on the foundations (v0.1, 1:1 chats) and group conversations (v0.2) by hardening the API, completing the identity model, enabling on-chain contact discovery, and validating the integration in Status.
+Once done, apps like Status can build a chat experience which includes support for multiple devices and multiple participants in a given group chat.
 
-The focus is:
-- Stabilize and polish the API based on feedback from v0.2 Status test integration
-- Complete the full identity model
-- Test and fix integration issues at scale with DST
-- Deliver user-facing features needed for a real chat experience
+Group chat features will be limited at this stage and extended with further milestones. Support for plugging Status Communities on top of Logos Chat is **not** expected — further group size scaling and extension of membership management API would be needed.
+
+**Encryption approach**: de-MLS (decentralised MLS) from the AnonComms team, which provides multi-steward group management. de-MLS API is consumed as a dependency from the AnonComms team.
+
+**Identity**: A simple identity model must be in place for this milestone. A "user" is a set of installations (devices), with basic association between them. Key rotation and device recovery are included at a basic level. Full identity (binding to external identities, provenance logs, advanced recovery) is planned for [Chat — Beta](2026-chat-beta).
+
+**Remove unnecessary Nim shim**: This milestone includes an attempt to remove the unnecessary Nim layer in Logos Chat by rewriting it in Rust. Currently the Nim layer exists primarily to manage the async runtime and Logos Delivery integration, but adds complexity with no clear benefit. This rewrite is only feasible if Logos Chat can remain fully synchronous on the Rust side. If successful, it would significantly simplify development going forward.
 
 ## FURPS
 
-- [Logos Chat](/messaging/furps/application/chat_sdk.md): all
 - [Group Chat](/messaging/furps/application/group_chat.md): all
-- [Reliable Channel API](/messaging/furps/application/reliable_channel.md): via integration
 
 ## Risks
 
-| Risk                          | (Accept, Own, Mitigation)                                                                                                                  |
-| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| On-chain contact discovery    | Storing intro bundles on Logos Blockchain requires research. Uncertain if the blockchain is ready for this by v0.3. Needs early validation. |
-| Integration stability         | Combining 1:1, group chats, identity, and reliability into a cohesive release may surface emergent bugs.                                   |
-| Status feedback volume        | Real integration testing may surface a large number of issues. Need capacity to triage and address.                                        |
+| Type/Level      | Risk                             | (Accept, Own, Mitigation)                                                                                                                                              |
+| --------------- | -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Schedule/Medium | Milestone dependency             | This milestone depends on [Chat — Foundations](2026-chat-foundations.md). Delays there translate into delays here.                                                        |
+| Technical/Low   | Group chat bugs                  | Group chat is prone to bugs even when using existing encryption protocols. Extra time allocated to testing and debugging.                                              |
+| Technical/High  | SDS and de-MLS ordering conflict | SDS works backward in the dependency tree, but de-MLS requires forward construction from checkpoints. Specific deliverable scheduled to design and define integration. |
+| Technical/High  | Nim shim removal feasibility     | Removing the Nim layer is only possible if Logos Chat remains fully synchronous. If async is required (e.g. for data storage), the removal may not be feasible.        |
 
 ## Deliverables
 
-### Implement full identity model
+### [Add Group Chat](https://github.com/logos-messaging/pm/issues/346)
 
 **Owner**: Chat Team
 
-Building on the simple identity model from v0.2:
-- Full user identity spanning multiple installations/devices
-- Key rotation without losing conversation history
-- Device recovery mechanisms
-- Optional binding to external identity systems
-- Specification and implementation, in collaboration with AnonComms team
+**Feature**: [Group Chat](/messaging/furps/application/group_chat.md)
 
-### Stabilize and polish API
+**FURPS**:
+- F1. Accounts can receive a message in multiple locations (e.g. devices) by registering new installations.
+- F2. Accounts can view and remove installations as needed.
+- F3. Accounts can create group chats between multiple accounts.
+- F4. Participants can set a group name and description for all participants in the group.
+- F5. Account can view all provisioned installations.
+- F6. Account can revoke other installations in case of a lost device.
+
+- R1. Group participants in a conversation can tell if a message is missing, and who sent it.
+
+- P1. The number of network messages for a single outbound group message does not scale with the number of group members.
+
+- +PRIV1. Non-participants cannot correlate a group conversation to any of its participants.
+- +PRIV2. No identifying information is visible when registering an installation.
+
+### Implement simple identity model
 
 **Owner**: Chat Team
 
-- Address feedback from v0.2 Status test integration
-- Fix API inconsistencies and footguns discovered during integration
-- Stabilize error handling and edge cases
+- A "user" is represented as a set of installations (devices)
+- Basic association between installations belonging to the same user
+- Basic key rotation: ability to add/remove installations
 
-### Deliver user-facing chat features
+### Implement contact discovery
 
 **Owner**: Chat Team
 
-Features needed for a real chat experience beyond the protocol layer:
-- Message history persistence and retrieval across sessions
-- Contact management (add, remove, block contacts)
-- Conversation list management
-- Typing indicators and read receipts
+The implementation should replace v0.1 out-of-band intro bundle sharing.
+Current agreement is to use on-chain storage.
 
-### Reliability testing with DST
+> [!WARNING] Risk
+> Requires research into whether Logos Blockchain supports the needed functionality by this timeline. Fallback is to continue with out-of-band sharing.
+### Remove unnecessary Nim shim from Logos Chat
 
-**Owner**: Chat Team + DST
+**Owner**: Chat Team
 
-- Message delivery rates across scenarios (1:1, groups, multi-device)
-- Recovery scenarios (node restart, network partition, device offline)
-- Multi-device sync correctness
-- Performance testing against FURPS targets (10K users, 10Mbps bandwidth)
-- Scale testing with up to 201 users in a group chat
+Evaluate and attempt removing the Nim layer of Logos Chat (`logos-chat`) by rewriting it in Rust. The Nim layer currently handles async runtime management and Logos Delivery integration but adds development complexity. If Logos Chat can remain fully synchronous, this layer can be replaced with Rust, unifying the codebase.
 
-### Validate integration in Status
-
-**Owner**: Chat Team + Status Team
-
-Continue and deepen the Status integration started in v0.2. Address issues found during exploratory integration and validate that the polished API works for Status's production requirements.

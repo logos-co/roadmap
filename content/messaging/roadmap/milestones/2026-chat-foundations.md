@@ -23,7 +23,7 @@ For testing, a `logos.dev` fleet is used, at early stages with no RLN support.
 
 Note: Logos Delivery is embedded directly in Logos Chat via Nimble — Logos Chat does *not* use the Delivery Logos Core module. Moving to an architecture where the Chat module uses the locally available Delivery module is planned for v0.2 (Logos Core Integration — Phase 2).
 
-Identity is limited to installation keys (one keypair = one client instance). There is no concept of a "user" spanning multiple devices — that is deferred to [Chat — Group Conversations](2025-extend-chat-sdk-with-group-conversations).
+Identity is limited to installation keys (one keypair = one client instance). There is no concept of a "user" spanning multiple devices — that is deferred to [Chat — Developer Preview](2026-chat-developer-preview).
 
 ## FURPS
 

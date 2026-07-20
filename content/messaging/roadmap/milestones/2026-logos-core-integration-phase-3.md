@@ -2,67 +2,38 @@
 title: Logos Core Integration — Phase 3
 tags:
   - messaging-milestone
-date: 2026-03-01
+date: 2026-07-07
 ---
-
 
 **Resources Required**:
 - 1 Delivery engineer
-- 1 Chat engineer
 - Logos Core team support
 
-The final integration phase for mainnet. Logos Delivery module stops embedding functionality and instead integrates with other Logos Core modules.
-
-The vision is a shared P2P module that all Logos modules (Delivery, Storage, Blockchain) use for common networking concerns — discovery, mix, gossip. Delivery is the first module to adopt this architecture.
-
-The progression toward the shared P2P module:
-1. **Discovery** (mainnet requirement) — Delivery module uses the Discovery Logos Core module for peer discovery instead of its own embedded discovery (discv5). The interface is straightforward: ask for peers, get peers. This builds on the [POC from v0.2](2026-logos-core-integration-phase-2).
-2. **Mix** (mainnet goal) — Delivery module uses mix from the P2P module. Interface between module and mix needs design work (current callback-based mixification is not clean).
-3. **GossipSub** (stretch goal, post-mainnet acceptable) — Delivery module uses a shared gossip layer from the P2P module. If achieved, it demonstrates the full P2P module vision.
-
-Additionally:
-- **RLN membership module**: Delivery module uses the RLN membership Logos Core module to manage rate-limiting credentials, rather than interacting with the blockchain directly.
-
-This enables a fully modular Logos Core deployment where all modules share infrastructure and can be independently updated.
-
-## FURPS
-
-- [Messaging API](/messaging/furps/core/messaging_sdk.md): S2 (C-bindings via Logos Core)
-
-## Risks
-
-| Risk                            | (Accept, Own, Mitigation)                                                                                                                                   |
-| ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Logos Core module API stability | Module APIs must be stable for mainnet. Breaking changes at this stage are costly.                                                                          |
-| Discovery module readiness      | AnonComms Discovery module may not be ready or may not meet Delivery requirements. Evaluate early via v0.2 POC.                                             |
-| Mix module interface design     | The interface between a module and mix is currently callback-based and complex. Needs redesign for clean integration.                                        |
-| Multi-module coordination       | Running RLN, discovery, p2p, Delivery, and Chat modules together introduces coordination complexity. Integration testing is critical.                       |
+The v0.3 stage of Logos Core integration. Building on [Phase 2](2026-logos-core-integration-phase-2) (Chat module using the Delivery module through Logos Core), this phase proves the first cross-module integrations as proofs of concept and rolls out QUIC on the fleets. The POCs de-risk [Phase 4](2026-logos-core-integration-phase-4.md), where embedded components are fully replaced by shared Logos Core modules.
 
 ## Deliverables
 
-### Delivery module uses Discovery module
+### Pluggable RLN membership
 
 **Owner**: Delivery Team
 
-Logos Delivery module uses the Discovery Logos Core module (capability discovery, developed by AnonComms) as its primary peer discovery mechanism. This replaces the embedded discv5 discovery. Builds on the [v0.2 POC](2026-logos-core-integration-phase-2).
+[RLN for Edge Nodes](2026-rln-for-edge-nodes.md) extracted a generic RLN module in `logos-delivery`, and [RLN on Logos Blockchain](2026-add-support-for-rln-on-lee) has a requirement to build a membership management API ([#416](https://github.com/logos-messaging/pm/issues/416)).
 
-**This is a mainnet requirement.**
+But also, AnonComms specified an RLN membership allocation service ([anoncomms-pm#17](https://github.com/logos-co/anoncomms-pm/issues/17)) that can run as a standalone Logos Core module. Logos Delivery should be able to use it when running in Logos Core. The module itself is not on the AnonComms roadmap yet — ownership to be aligned with AnonComms.
 
-### Delivery module uses Mix from P2P module
+Note that "making RLN pluggable" has different parts:
+- enable `logos-delivery`'s RLN module to use different backends — Logos Blockchain / Ethereum L2 / centralized server
+- extract part of `logos-delivery`'s RLN module into a Logos Core module
+  - Main part (current scope): RLN membership library
+  - Extra part (next, to be aligned with AnonComms): generate/validate proofs using external RLN module too.
+
+**Done when**: An RLN membership backend can be swapped — including one provided by a Logos Core module — without changes to `logos-delivery` internals. Exercised by the POC below.
+
+### POC: Integrate RLN module
 
 **Owner**: Delivery Team
 
-Logos Delivery module uses mix capabilities from the shared P2P/networking module. Requires a clean interface design to replace the current callback-based mixification approach.
-
-**Mainnet goal, but not blocking if interface design is not resolved.**
-
-### Delivery module uses shared GossipSub (stretch)
-
-**Owner**: Delivery Team
-
-Logos Delivery module uses a shared gossip layer from the P2P module, completing the vision of a fully shared networking stack across all Logos modules.
-
-**Stretch goal — post-mainnet acceptable.**
+Proof of concept: the Delivery module obtains RLN credentials and validates proofs through the RLN membership Logos Core module (from AnonComms), instead of interacting with the blockchain directly. Validates the module interface ahead of the full integration (see deliverable below).
 
 ### Delivery module uses RLN membership module
 
@@ -70,13 +41,26 @@ Logos Delivery module uses a shared gossip layer from the P2P module, completing
 
 Logos Delivery module obtains RLN credentials and validates proofs through the RLN membership Logos Core module rather than direct blockchain interaction.
 
-### Full integration testing
+### Make discovery pluggable in Logos Delivery
 
-**Owner**: Messaging Team (definition) + IFT-TS (implementation)
+**Owner**: Delivery Team
 
-End-to-end testing of all Messaging-related Logos Core modules running together:
-- Chat module → Delivery module (via Logos Core)
-- Delivery module → RLN membership module (via Logos Core)
-- Delivery module → Discovery module (via Logos Core)
-- Delivery module → P2P module (via Logos Core)
-- Full message lifecycle: send, deliver, acknowledge, with RLN rate limiting
+Peer discovery is extracted behind a kernel discovery interface, with the embedded discv5 as the default implementation. Additional discovery sources can be plugged in and their results merged.
+
+**Done when**: The Discovery Logos Core module can be added as a peer source (see the POC below) without kernel changes, enabling the full replacement of discv5 in [Phase 4](2026-logos-core-integration-phase-4.md).
+
+### POC: Delivery module uses Discovery module for peer discovery
+
+**Owner**: Delivery Team
+
+Proof of concept: the Delivery module uses the Discovery Logos Core module (from AnonComms) as an additional source of peer discovery. In this stage, Discovery module is used alongside existing discovery (discv5) — the Delivery module queries the Discovery module for peers and merges them with peers from its own discovery. discv5 can be disabled once this integration is validated.
+
+This is a POC — the full replacement of embedded discv5 happens in [Phase 4](2026-logos-core-integration-phase-4.md).
+
+### Enable QUIC in `logos.dev` and `logos.test`
+
+**Owner**: Delivery Team
+
+QUIC transport support landed in `logos-delivery` in v0.2. This deliverable enables QUIC on the fleet nodes.
+
+**Done when**: The `logos.dev` and `logos.test` fleet deployments are updated and nodes communicate over QUIC.

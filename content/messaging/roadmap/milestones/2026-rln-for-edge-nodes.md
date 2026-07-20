@@ -1,9 +1,9 @@
 ---
-title: RLN for LightPush
+title: RLN for Edge Nodes
 tags:
   - messaging-milestone
-date: '2026-04-06T00:00:00.000Z'
-github: 'https://github.com/logos-messaging/pm/issues/411'
+date: 2026-04-06T00:00:00.000Z
+github: https://github.com/logos-messaging/pm/issues/411
 ---
 **Resources Required**:
 - 1 Delivery engineer
@@ -21,7 +21,7 @@ It's an open question, how edge nodes will get RLN memberships. The initial impl
 | RLN membership sponsorship model is not defined | Focus on no-sponsorship implementation first. |
 ## Deliverables
 
-### Add support for RLN proofs in edge mode
+### Add support for RLN proofs in LightPush
 
 **Owner**: Delivery Team
 
@@ -43,10 +43,3 @@ Note that this might already be possible in `logos-delivery`, in that case it ne
 - U3. Application does not need to do a Web3 RPC call for every tree change to generate or validate messages.
 - U4. Application can transfer tokens and register membership with a single transaction.
 
-### Enable LightPush rate limiting in Logos Testnet
-
-**Owner**: Delivery Team
-
-Enable Logos Testnet fleet nodes to start verifying lightpush RLN proofs, and drop lightpush requests without RLN proofs.
-
-**Done when**: Fleet deployments (`logos.dev`, `logos.test`) are updated.

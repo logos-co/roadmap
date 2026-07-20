@@ -2,51 +2,108 @@
 title: Messaging API — General Availability
 tags:
   - messaging-milestone
-date: 2025-07-03
-github: https://github.com/logos-messaging/pm/issues/403
+date: 2026-07-07
 ---
 
-**Resources Required for 2026H1**:
-- 1 Nim engineer for testing support and bugfixes
-- 1 Nim engineer for Store API work.
-
-The Developer Preview delivered the Send, Health, and Subscribe/Receive APIs, including both core and edge mode. General Availability completes the Messaging API with:
-
-1. **Store API** — Status still relies on Store nodes for history retrieval, community descriptions, profiles, and SDS-hinted missed messages. Either introduce a new Store API alongside Messaging API, or allow using low-level API from the same `liblogosdelivery`.
-2. **Test suite** — Messaging API is QA-approved. Involvement of DST for reliability testing.
-3. **Documentation** — comprehensive developer documentation on the API.
+The [Beta](2026-messaging-api-beta.md) delivered the full API surface (Send, Health, Subscribe/Receive in core and edge mode), while allowing to use Kernel API for Store access for existing applications. General Availability makes the Messaging API production-ready: DST-validated reliability at scale, automatic recovery of messages missed while offline, built-in rate limit management and anonymity via mix integration.
 
 ## FURPS
 
-- [Messaging API](/messaging/furps/core/messaging_sdk.md): F6, S2
+- [Messaging API](/messaging/furps/core/messaging_sdk.md): R1, R2
+- [Mixnet](/messaging/furps/core/mix.md)
+- [Rate Limit Manager](/messaging/furps/application/rate_limit_manager.md)
 
 ## Risks
 
-| Risk                                | (Accept, Own, Mitigation)                                                                                                                                   |
-| ----------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Store is out of Messaging API scope | The Messaging API intentionally left the Store protocol outside to prevent foot-guns, a decision has to be made here to enable Status to use Messaging API. |
+| Risk                        | (Accept, Own, Mitigation)                                                                                                                          |
+| --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------|
+| Mix module readiness        | Mix is owned by AnonComms. If the mix interface is not ready in time, sender anonymity properties of the API are delayed, not the API itself.       |
+| Rate limit UX impact        | Rate limiting causes messages to be queued or dropped. UX implications must be communicated clearly in the API and documentation.                   |
 
 ## Deliverables
 
-### Provide Store API access for Status needs
+### Reliability and scale validation with DST
+
+**Owner**: Delivery Team + DST
+
+The Messaging API is QA-approved for production use. DST validates reliability and performance at scale against FURPS targets.
+
+**Done when**: A DST test report covering reliability and scale targets is available, and QA sign-off is obtained.
+
+### Offline periods backfill
 
 **Owner**: Delivery Team
 
-Status relies on Store nodes for:
-1. Fetching history while being offline
-2. Fetching community descriptions and profiles
-3. Fetching missed messages (by SDS hints)
+Messages missed while a node was offline are retrieved automatically on reconnect and delivered through the regular Subscribe/Receive path. Applications get a complete message stream without implementing their own Store-based recovery.
 
-Either introduce a new Store API (next to Messaging API), or allow using low-level API from the same `liblogosdelivery`.
+**Feature**: [Messaging API](/messaging/furps/core/messaging_sdk.md)
 
-Note that Store protocol was intentionally left out of Messaging API. But we should provide a solution for existing apps, e.g. Status.
+**FURPS**:
+- R2. Receives messages using peer-to-peer reliability (service node redundancy, periodic store query, periodic filter ping).
 
-### Test suite for Messaging API
+**Done when**: After an offline period, a subscribed application receives all missed messages through its existing subscription, with no additional API calls.
+
+### Create Rate Limit Manager
+
+https://github.com/logos-messaging/pm/issues/319
+
+**Owner**: Chat Team
+
+**Feature**: [Rate Limit Manager](/messaging/furps/application/rate_limit_manager.md)
+
+**FURPS**:
+- F1. Rate limit the number of messages passed to the delivery service.
+- F2. The rate limit is set in the form of number of messages per epoch; same format as RLN Relay.
+- F3. Tracks current quota and usage.
+- F4. Messages can be flagged with three priority levels: critical, normal, optional.
+- F5. When remaining message quota is low, critical messages are sent, normal messages are queued and optional messages are dropped.
+- F6. When message quota is exhausted, critical messages are queued on top, normal messages are queued, optional messages are dropped.
+
+- U1. Developer can mark messages with relevant priority.
+- U2. Developer can pass messages by batch; with an all-or-none sending strategy.
+- U3. Developer can access total quota and remaining quota values.
+- U4. Message status is available to the developer (queued, dropped, passed to delivery service).
+
+- R1. Errors and status from the underlying delivery service are available to the developer.
+- R2. Queued messages are persisted across restart.
+- R3. Quota status is persisted across restart.
+
+- S1. Nim library.
+- +1. Nimble package manager is used to build.
+
+### Integrate Rate Limit manager
 
 **Owner**: Delivery Team
 
-Messaging API should be QA-approved. Coordinate with DST for reliability and scale testing.
+Integrate the Rate Limit Manager (created in [Reliable Channel API — Beta](2026-reliable-channel-api-beta.md)) into the Messaging API, so applications sending via the plain Messaging API get quota tracking and prioritized queueing without implementing it themselves.
 
-### Provide comprehensive documentation on the API
+**Feature**: [Rate Limit Manager](/messaging/furps/application/rate_limit_manager.md)
+
+**Done when**: The Messaging API send path enforces the rate limit with message priorities, using a single per-node quota.
+
+### Integrate Mix into Messaging API
 
 **Owner**: Delivery Team
+
+Messaging API gains an additional configuration parameter that allows clients to specify the anonymity requirements:
+- `Required`  // when Mix is not available, messages are not published 
+- `Preferred` // when Mix is not available, fallback to regular relay/lightpush
+- `None`      // don't use Mix
+
+Behind the MessagingAPI, Mix discovery should be started when needed and Mix protocol should be used for publishing accordingly.
+
+**Feature**: [Mixnet](/messaging/furps/core/mix.md)
+
+**FURPS**:
+- F3. Client nodes can send light push requests over the mixnet before delivery to a service node.
+- F4. Client nodes can receive a response to a light push request over the mixnet.
+
+**Dependency**: mix interface from AnonComms team must be available.
+
+**Done when**: Messages sent through the Messaging API are routed over the mix network by default, with no application changes required.
+
+### Provide documentation on the API
+
+**Owner**: Delivery Team
+
+Documentation is a hard requirement for General Availability. It does not have to be published as a website — comprehensive documentation in the repository (e.g. a README) is sufficient.
