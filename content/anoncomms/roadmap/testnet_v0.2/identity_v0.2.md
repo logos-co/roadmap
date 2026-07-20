@@ -17,16 +17,6 @@ and validates the LEZ-as-Registry approach via a spike.
 
 ## Deliverables
 
-### [Specify basic λAccount protocol](TBD: anoncomms-pm issue)
-
-**Owner**: Messaging Chat (primary), AnonComms Identity (review)
-
-**FURPS**:
-- U1. The basic identity protocol (accounts, address format, operation log, contact discovery flow) is published in a specification.
-
-**Checklist**:
-- [ ] Specs: link to specs and/or API definition
-
 ### [Spike: LEZ-as-Registry feasibility](TBD: anoncomms-pm issue)
 
 **Owner**: Messaging Chat

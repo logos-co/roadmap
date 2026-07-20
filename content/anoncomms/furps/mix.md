@@ -42,6 +42,7 @@
 18. Differentiated RLN rate-limiting based on peer reputation metrics is researched and published
 19. Non-RLN DoS and Sybil protection approaches are researched and published
 20. Advanced cover traffic patterns are researched and published in a specification
+21. The opinionated protocol stack composition and configuration for a Logos Mix Network is specified
 
 ## Reliability
 
