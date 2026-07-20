@@ -28,19 +28,13 @@ Note that "making RLN pluggable" has different parts:
   - Main part (current scope): RLN membership library
   - Extra part (next, to be aligned with AnonComms): generate/validate proofs using external RLN module too.
 
-**Done when**: An RLN membership backend can be swapped — including one provided by a Logos Core module — without changes to `logos-delivery` internals. Exercised by the POC below.
-
-### [POC: Integrate RLN module](https://github.com/logos-messaging/pm/issues/447)
-
-**Owner**: Delivery Team
-
-Proof of concept: the Delivery module obtains RLN credentials and validates proofs through the RLN membership Logos Core module (from AnonComms), instead of interacting with the blockchain directly. Validates the module interface ahead of the full integration (see deliverable below).
+**Done when**: An RLN membership backend can be swapped — including one provided by a Logos Core module — without changes to `logos-delivery` internals. Exercised by the [Delivery module uses RLN membership module](https://github.com/logos-messaging/pm/issues/448) deliverable below.
 
 ### [Delivery module uses RLN membership module](https://github.com/logos-messaging/pm/issues/448)
 
 **Owner**: Delivery Team
 
-Logos Delivery module obtains RLN credentials and validates proofs through the RLN membership Logos Core module rather than direct blockchain interaction.
+Logos Delivery module obtains RLN credentials and validates proofs through the RLN membership Logos Core module rather than direct blockchain interaction, validating the module interface developed with AnonComms.
 
 ### [Make discovery pluggable in Logos Delivery](https://github.com/logos-messaging/pm/issues/449)
 

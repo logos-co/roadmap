@@ -182,11 +182,6 @@ title: 2026-MM-DD Messaging Weekly
   - next:
   - blockers:
 
-- [[Deliverable] POC: Integrate RLN module](https://github.com/logos-messaging/pm/issues/447)
-  - achieved:
-  - next:
-  - blockers:
-
 - [[Deliverable] Delivery module uses RLN membership module](https://github.com/logos-messaging/pm/issues/448)
   - achieved:
   - next:
