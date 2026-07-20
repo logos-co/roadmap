@@ -15,7 +15,7 @@
 
 **Owner**: AnonComms Oracle
 
-**Feature**: [Oracle FURPS](../furps/oracle.md)
+**Feature**: [Oracle FURPS](/anoncomms/furps/oracle.md)
 
 **FURPS**:
 
@@ -30,7 +30,7 @@
 
 **Owner**: AnonComms Oracle
 
-**Feature**: [Oracle FURPS](../furps/oracle.md)
+**Feature**: [Oracle FURPS](/anoncomms/furps/oracle.md)
 
 **FURPS**:
 
@@ -48,7 +48,7 @@
 
 **Owner**: AnonComms Oracle
 
-**Feature**: [Oracle FURPS](../furps/oracle.md)
+**Feature**: [Oracle FURPS](/anoncomms/furps/oracle.md)
 
 **FURPS**:
 

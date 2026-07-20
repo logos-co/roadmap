@@ -9,6 +9,8 @@
 5. Messaging groups have a recovery mode to deal with more serious unexpected group states
 6. New joiners can properly setup the group state after being accepted into the group
 7. Commits can be validated and violations appropriately handled
+8. De-MLS obtains the current time through a caller-provided WallClock service instead of hardcoded debug timer values
+9. A messaging group can recover from steward liveness failures by triggering a new steward list election
 
 ## Usability
 
@@ -21,10 +23,11 @@
 7. The De-MLS API is available in Rust and C
 8. De-MLS is included in the Logos Chat protocol stack specification
 9. De-MLS is integrated into a working Logos Chat module deployed to Logos Core
+10. De-MLS is integrated into libchat using caller-provided services
 
 ## Reliability
 
-1.
+1. De-MLS operates correctly within libchat
 
 ## Performance
 
@@ -35,9 +38,10 @@
 ## Supportability
 
 1. Hashgraph-like consensus is separated out into its own library for modularity
+2. The WallClock service provides test implementations that simulate time progression without real-time waits
 
 ## Miscellaneous dependencies:
 
 1. Dependency on DST for benchmarking of consensus mechanism
-1. Dependency on DST for benchmarking of de-MLS integrated protocol
-1. Dependency on ChatSDK to clarify requirements for API
+2. Dependency on DST for benchmarking of de-MLS integrated protocol
+3. Dependency on ChatSDK to clarify requirements for API

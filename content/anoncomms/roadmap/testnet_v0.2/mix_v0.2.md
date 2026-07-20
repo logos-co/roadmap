@@ -28,23 +28,7 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### [Add app-layer support for large messages (including large responses)](https://github.com/logos-co/anoncomms-pm/issues/41)
-
-**Owner**: Storage Team (primary), AnonComms Mix (support)
-
-**FURPS**:
-
-- F8. An application-level mechanism exists to segment large messages and mixify over multiple paths
-- F9. An application-level mechanism exists to segment large responses and coordinating multiple-SURB response paths
-- U8. The application-level mechanism to support large messages (requests & responses) is published in a specification
-
-**Checklist**:
-- [ ] Specs: link to specs and/or API definition
-- [ ] Code: link to GitHub issues/PRs/Epic
-- [ ] Dogfood: link to dogfooding session/artefact
-- [ ] Docs: links to README.md or other docs
-
-### [Modify Sphinx payload encryption to preserve payload integrity](https://github.com/logos-co/anoncomms-pm/issues/49)
+### [Specify Sphinx payload encryption to preserve payload integrity](https://github.com/logos-co/anoncomms-pm/issues/49)
 
 **Owner**: Storage Team (primary), AnonComms Mix (support)
 
@@ -54,7 +38,6 @@
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
-- [ ] Code: link to GitHub issues/PRs/Epic
 
 ### [Specify and implement cover traffic generation](https://github.com/logos-co/anoncomms-pm/issues/42)
 
@@ -71,23 +54,7 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### [Specify and implement hidden services](https://github.com/logos-co/anoncomms-pm/issues/43)
-
-**Owner**: AnonComms Mix (primary), Storage Team (support)
-
-**FURPS**:
-
-- F11. Providers can anonymously register as a hidden service
-- F12. Clients can discover and anonymously access hidden services
-- U10. The protocol allowing hidden service provisioning, discovery and access is published in a specification
-
-**Checklist**:
-- [ ] Specs: link to specs and/or API definition
-- [ ] Code: link to GitHub issues/PRs/Epic
-- [ ] Dogfood: link to dogfooding session/artefact
-- [ ] Docs: links to README.md or other docs
-
-### [Integrate mix into the Logos Chat module](https://github.com/logos-co/anoncomms-pm/issues/44)
+### [Integrate mix into the Logos Mix Demo Chat module](https://github.com/logos-co/anoncomms-pm/issues/44)
 
 **Owner**: AnonComms Mix
 
@@ -100,9 +67,9 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### [Experiment with mixifying basic DHT interactions](https://github.com/logos-co/anoncomms-pm/issues/45)
+### [Mixify a DHT query](https://github.com/logos-co/anoncomms-pm/issues/45)
 
-**Owner**: AnonComms Mix
+**Owner**: Storage Team
 
 **FURPS**:
 

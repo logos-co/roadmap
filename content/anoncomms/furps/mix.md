@@ -15,6 +15,10 @@
 11. Providers can anonymously register as a hidden service
 12. Clients can discover and anonymously access hidden services
 13. The libp2p mix protocol's payload encryption preserves payload integrity
+14. A standalone Logos Mix module encapsulates the Logos libp2p module with nim-libp2p-mix, RLN-based DoS protection, and cover traffic for Logos Core services
+15. Applications can route libp2p request-response messages over mix via the Logos Mix module API
+16. Mix nodes maintain a local reputation record for peers
+17. Nodes can use advanced cover traffic patterns to improve anonymity
 
 ## Usability
 
@@ -28,8 +32,17 @@
 8. The application-level mechanism to support large messages (requests & responses) is published in a specification
 9. Cover traffic generation is published in a specification
 10. The protocol allowing hidden service provisioning, discovery and access is published in a specification
-11. Basic DHT interactions can be mixified
-12. The libp2p mix protocol is integrated into the Logos Chat module
+11. A DHT query can be mixified
+12. The libp2p mix protocol is integrated into the Logos Mix Demo Chat module
+13. The Sphinx payload encryption scheme providing payload integrity is published as a specification
+14. The libp2p mix protocol is integrated into the Logos Delivery module with exposure on the Messaging API
+15. The Logos Chat module provides a user interface to select mix when publishing messages
+16. The Logos Mix module API for routing messages over mix is published as a specification
+17. The anonymity limitations of the mix hidden services approach and alternative provider anonymity techniques are evaluated and published
+18. Differentiated RLN rate-limiting based on peer reputation metrics is researched and published
+19. Non-RLN DoS and Sybil protection approaches are researched and published
+20. Advanced cover traffic patterns are researched and published in a specification
+21. The opinionated protocol stack composition and configuration for a Logos Mix Network is specified
 
 ## Reliability
 

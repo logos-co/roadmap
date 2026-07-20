@@ -1,10 +1,10 @@
-# [Identity Track: Testnet v0.3](TBD: anoncomms-pm milestone)
+# [Identity Track: Testnet v0.3](https://github.com/logos-co/anoncomms-pm/milestone/21)
 
 **Track:** [Identity Track](/anoncomms/roadmap/identity.md)
 
 **FURPS:** [Identity FURPS](/anoncomms/furps/identity.md)
 
-**Estimated date of completion**: in line with v0.3 freeze
+**Estimated date of completion**: Testnet v0.3 launch
 
 **Resources Required**:
 - 1 AnonComms researcher for review
@@ -17,7 +17,17 @@ and a working contact-discovery flow.
 
 ## Deliverables
 
-### [Implement basic λAccount library](TBD: logos-messaging/pm issue)
+### [Specify basic λAccount protocol](https://github.com/logos-co/anoncomms-pm/issues/69)
+
+**Owner**: Messaging Chat (primary), AnonComms Identity (review)
+
+**FURPS**:
+- U1. The basic identity protocol (accounts, address format, operation log, contact discovery flow) is published in a specification.
+
+**Checklist**:
+- [ ] Specs: link to specs and/or API definition
+
+### [Implement basic λAccount library](https://github.com/logos-co/anoncomms-pm/issues/70)
 
 **Owner**: Messaging Chat
 
@@ -39,7 +49,7 @@ and a working contact-discovery flow.
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### [Investigate dedicated Identity Zone for registry](TBD: anoncomms-pm issue)
+### [Investigate dedicated Identity Zone for registry](https://github.com/logos-co/anoncomms-pm/issues/71)
 
 **Owner**: Messaging Chat
 
@@ -50,7 +60,7 @@ and a working contact-discovery flow.
 - [ ] Docs: links to README.md or other docs
 - [ ] Specs: link to specs and/or API definition
 
-### [Specify registry interface](TBD: anoncomms-pm issue)
+### [Specify registry interface](https://github.com/logos-co/anoncomms-pm/issues/72)
 
 **Owner**: Messaging Chat
 

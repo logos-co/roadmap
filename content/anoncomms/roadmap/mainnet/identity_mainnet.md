@@ -20,7 +20,7 @@ and key revocation.
 
 ## Deliverables
 
-### [Mainnet deployment with Logos Blockchain-backed registry](TBD)
+### [Mainnet deployment with Logos Blockchain-backed registry](TBD: anoncomms-pm issue)
 
 **Owner**: Messaging Chat (primary), AnonComms Identity (review)
 

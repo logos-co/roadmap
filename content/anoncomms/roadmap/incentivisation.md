@@ -15,6 +15,7 @@ In this track, we specify and implement a privacy-preserving payment protocol fo
 **Scheduled milestones**:
 - [Testnet v0.1](/anoncomms/roadmap/testnet_v0.1/incentivisation_v0.1.md)
 - [Testnet v0.2](/anoncomms/roadmap/testnet_v0.2/incentivisation_v0.2.md)
+- [Testnet v0.3](/anoncomms/roadmap/testnet_v0.3/incentivisation_v0.3.md)
 
 ## Risks
 
