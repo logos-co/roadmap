@@ -20,5 +20,5 @@
 Sampling resilient to transient DA failures. Currently need 20 positive samples, may do more than 20 samples to get that. DA failures may lead to large blockchain reorgs, threatening finality.
 
 **Checklist**:
-- [ ] Impact of DA Failure is analyzed
-- [ ] Adaptive sampling mechanism
+- [x] Impact of DA Failure is analyzed
+- [x] Adaptive sampling mechanism

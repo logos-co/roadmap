@@ -21,7 +21,7 @@ Design and implement block rewards for block producers.
 
 **Checklist**:
 - [x] Block reward spec
-- [ ] Block reward implementation
+- [x] Block reward implementation
 
 ### Transaction Fees
 
@@ -33,20 +33,17 @@ Design and implement transaction fee collection and distribution.
 
 **Checklist**:
 - [x] Transaction fee spec
-- [ ] Transaction fee implementation
+- [x] Transaction fee implementation
 
-### Service Rewards
+
+### ZoneSDK can pay for transaction fees
 
 **Owner**: David Rusu
 
 **Feature**: [FURPS](/blockchain/furps/index.md)
 
-Design and implement reward distribution for nodes participating in blockchain services.
-
-**FURPS**:
-
-- F9. Nodes can earn rewards by participating in blockchain services
+SDK is aware of transaction fees and builds transactions that pay fees.
 
 **Checklist**:
-- [x] Service reward spec
-- [ ] Service reward implementation
+- [ ] ZoneSDK is fee aware
+- [ ] ZoneSDK provides admin tools for configuring keys for fee payment

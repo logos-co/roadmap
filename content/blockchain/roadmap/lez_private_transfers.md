@@ -18,5 +18,5 @@
 Ability to receive private donations without off-chain coordination.
 
 **Checklist**:
-- [ ] Private transfer spec
-- [ ] Private transfer implementation
+- [x] Private transfer spec
+- [x] Private transfer implementation

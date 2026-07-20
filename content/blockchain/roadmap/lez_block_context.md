@@ -27,4 +27,4 @@ Expose block context (block number, etc.) to LEZ programs. For example:
 - F31. Programs have defined interface exposing input/output accounts and contextual information (block number, etc.)
 
 **Checklist**:
-- [ ] Block context exposed to programs
+- [x] Block context exposed to programs
