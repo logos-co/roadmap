@@ -1,4 +1,4 @@
-# [Zerokit Track: Testnet v0.3](TBD: anoncomms-pm milestone)
+# [Zerokit Track: Testnet v0.3](https://github.com/logos-co/anoncomms-pm/milestone/18)
 
 **Track:** [Zerokit Track](/anoncomms/roadmap/zerokit.md)
 
@@ -11,7 +11,7 @@
 
 ## Deliverables
 
-### [Integrate and benchmark Poseidon2 hash function](TBD: anoncomms-pm issue)
+### [Integrate and benchmark Poseidon2 hash function](https://github.com/logos-co/anoncomms-pm/issues/84)
 
 **Owner**: AnonComms Zerokit
 
@@ -30,7 +30,7 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### [Static analysis of Poseidon and Poseidon2 circuits](TBD: anoncomms-pm issue)
+### [Static analysis of Poseidon and Poseidon2 circuits](https://github.com/logos-co/anoncomms-pm/issues/85)
 
 **Owner**: AnonComms Zerokit
 
@@ -42,7 +42,7 @@
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Docs: links to README.md or other docs
 
-### [Zerokit maintenance](TBD: anoncomms-pm issue)
+### [Zerokit maintenance](https://github.com/logos-co/anoncomms-pm/issues/86)
 
 **Owner**: AnonComms Zerokit
 

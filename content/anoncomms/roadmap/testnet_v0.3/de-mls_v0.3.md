@@ -1,4 +1,4 @@
-# [De-MLS Track: Testnet v0.3](TBD: anoncomms-pm milestone)
+# [De-MLS Track: Testnet v0.3](https://github.com/logos-co/anoncomms-pm/milestone/19)
 
 **Track:** [De-MLS Track](/anoncomms/roadmap/de-mls.md)
 
@@ -11,7 +11,7 @@
 
 ## Deliverables
 
-### [Implementing a WallClock service for de-MLS timing](TBD: anoncomms-pm issue)
+### [Implementing a WallClock service for de-MLS timing](https://github.com/logos-co/anoncomms-pm/issues/61)
 
 **Owner**: AnonComms de-MLS
 
@@ -25,7 +25,7 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### [Implementing recovery mode](TBD: anoncomms-pm issue)
+### [Implementing recovery mode](https://github.com/logos-co/anoncomms-pm/issues/62)
 
 **Owner**: AnonComms de-MLS
 
@@ -38,7 +38,7 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### [Integrating de-MLS into libchat](TBD: anoncomms-pm issue)
+### [Integrating de-MLS into libchat](https://github.com/logos-co/anoncomms-pm/issues/63)
 
 **Owner**: AnonComms de-MLS
 

@@ -1,4 +1,4 @@
-# [Service Incentivisation Track: Testnet v0.3](TBD: anoncomms-pm milestone)
+# [Service Incentivisation Track: Testnet v0.3](https://github.com/logos-co/anoncomms-pm/milestone/22)
 
 **Track:** [Service Incentivisation Track](/anoncomms/roadmap/incentivisation.md)
 
@@ -11,7 +11,7 @@
 
 ## Deliverables
 
-### [Specify and implement client payment shielding via LEZ private execution mode](TBD: anoncomms-pm issue)
+### [Specify and implement client payment shielding via LEZ private execution mode](https://github.com/logos-co/anoncomms-pm/issues/73)
 
 **Owner**: AnonComms Incentivisation
 
@@ -26,7 +26,7 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### [Research shielding the service provider identity in the payment protocol](TBD: anoncomms-pm issue)
+### [Research shielding the service provider identity in the payment protocol](https://github.com/logos-co/anoncomms-pm/issues/74)
 
 **Owner**: AnonComms Incentivisation
 
@@ -38,7 +38,7 @@
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
 
-### [Research service discovery integration for provider payment policy advertisement](TBD: anoncomms-pm issue)
+### [Research service discovery integration for provider payment policy advertisement](https://github.com/logos-co/anoncomms-pm/issues/75)
 
 **Owner**: AnonComms Incentivisation (primary), AnonComms Discovery (support)
 
@@ -51,7 +51,7 @@
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
 
-### [Research non-native token support in provider payment policies](TBD: anoncomms-pm issue)
+### [Research non-native token support in provider payment policies](https://github.com/logos-co/anoncomms-pm/issues/76)
 
 **Owner**: AnonComms Incentivisation
 
@@ -63,7 +63,7 @@
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
 
-### [Research a shared payment pool model for multiple service providers](TBD: anoncomms-pm issue)
+### [Research a shared payment pool model for multiple service providers](https://github.com/logos-co/anoncomms-pm/issues/77)
 
 **Owner**: AnonComms Incentivisation
 

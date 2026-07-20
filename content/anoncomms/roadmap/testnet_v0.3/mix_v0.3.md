@@ -1,4 +1,4 @@
-# [Mix Track: Testnet v0.3](TBD: anoncomms-pm milestone)
+# [Mix Track: Testnet v0.3](https://github.com/logos-co/anoncomms-pm/milestone/16)
 
 **Track:** [Mix Track](/anoncomms/roadmap/mix.md)
 

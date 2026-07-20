@@ -1,4 +1,4 @@
-# [RLN Track: Testnet v0.3](TBD: anoncomms-pm milestone)
+# [RLN Track: Testnet v0.3](https://github.com/logos-co/anoncomms-pm/milestone/23)
 
 **Track:** [RLN Track](/anoncomms/roadmap/rln.md)
 
@@ -11,7 +11,7 @@
 
 ## Deliverables
 
-### [Specify basic RLN membership management module API](TBD: anoncomms-pm issue)
+### [Specify basic RLN membership management module API](https://github.com/logos-co/anoncomms-pm/issues/78)
 
 **Owner**: AnonComms Zerokit-RLN
 
@@ -22,7 +22,7 @@
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
 
-### [Implement basic RLN membership management module](TBD: anoncomms-pm issue)
+### [Implement basic RLN membership management module](https://github.com/logos-co/anoncomms-pm/issues/79)
 
 **Owner**: AnonComms Zerokit-RLN
 
@@ -37,7 +37,7 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### [Migrate Logos Delivery to LEZ-based RLN using the RLN membership management module](TBD: anoncomms-pm issue)
+### [Migrate Logos Delivery to LEZ-based RLN using the RLN membership management module](https://github.com/logos-co/anoncomms-pm/issues/80)
 
 **Owner**: AnonComms Zerokit-RLN (primary), Logos Delivery (support)
 
@@ -51,7 +51,7 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### [Standalone RLN membership allocation service module](TBD: anoncomms-pm issue)
+### [Standalone RLN membership allocation service module](https://github.com/logos-co/anoncomms-pm/issues/81)
 
 **Owner**: AnonComms Zerokit-RLN
 
@@ -67,7 +67,7 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### [Research advanced authentication techniques for RLN membership allocation](TBD: anoncomms-pm issue)
+### [Research advanced authentication techniques for RLN membership allocation](https://github.com/logos-co/anoncomms-pm/issues/82)
 
 **Owner**: AnonComms Zerokit-RLN
 
@@ -79,7 +79,7 @@
 - [ ] Specs: link to specs and/or API definition
 - [ ] Docs: links to README.md or other docs
 
-### [Full RLN module](TBD: anoncomms-pm issue)
+### [Full RLN module](https://github.com/logos-co/anoncomms-pm/issues/83)
 
 **Owner**: AnonComms Zerokit-RLN
 

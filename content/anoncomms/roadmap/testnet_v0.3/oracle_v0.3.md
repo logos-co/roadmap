@@ -1,4 +1,4 @@
-# [Oracle Track: Testnet v0.3](TBD: anoncomms-pm milestone)
+# [Oracle Track: Testnet v0.3](https://github.com/logos-co/anoncomms-pm/milestone/17)
 
 **Track:** [Oracle Track](/anoncomms/roadmap/oracle.md)
 
@@ -11,7 +11,7 @@
 
 ## Deliverables
 
-### [Specifying oracle mechanism](TBD: anoncomms-pm issue)
+### [Specifying oracle mechanism](https://github.com/logos-co/anoncomms-pm/issues/56)
 
 **Owner**: AnonComms Oracle
 
@@ -27,7 +27,7 @@
 - [ ] Specs: link to specs and/or API definition
 - [ ] Docs: links to README.md or other docs
 
-### [Implementing Oracle Zone](TBD: anoncomms-pm issue)
+### [Implementing Oracle Zone](https://github.com/logos-co/anoncomms-pm/issues/57)
 
 **Owner**: AnonComms Oracle
 
@@ -48,7 +48,7 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### [Bringing Data from Oracle zone to LEZ](TBD: anoncomms-pm issue)
+### [Bringing Data from Oracle zone to LEZ](https://github.com/logos-co/anoncomms-pm/issues/58)
 
 **Owner**: AnonComms Oracle
 
@@ -66,7 +66,7 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### [Oracle Zone Documentation and Benchmarking](TBD: anoncomms-pm issue)
+### [Oracle Zone Documentation and Benchmarking](https://github.com/logos-co/anoncomms-pm/issues/59)
 
 **Owner**: AnonComms Oracle
 

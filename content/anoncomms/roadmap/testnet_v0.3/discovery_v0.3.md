@@ -1,4 +1,4 @@
-# [Service Discovery Track: Testnet v0.3](TBD: anoncomms-pm milestone)
+# [Service Discovery Track: Testnet v0.3](https://github.com/logos-co/anoncomms-pm/milestone/20)
 
 **Track:** [Service Discovery Track](/anoncomms/roadmap/discovery.md)
 
@@ -12,7 +12,7 @@
 
 ## Deliverables
 
-### [Integrate the standalone service discovery module into Logos Delivery](TBD: anoncomms-pm issue)
+### [Integrate the standalone service discovery module into Logos Delivery](https://github.com/logos-co/anoncomms-pm/issues/64)
 
 **Owner**: AnonComms Discovery
 
@@ -26,7 +26,7 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### [Benchmark the service discovery module against discv5](TBD: anoncomms-pm issue)
+### [Benchmark the service discovery module against discv5](https://github.com/logos-co/anoncomms-pm/issues/65)
 
 **Owner**: DST Team (primary), AnonComms Discovery (support)
 
@@ -40,7 +40,7 @@
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Docs: links to README.md or other docs
 
-### [Benchmark service discovery performance in Logos Delivery](TBD: anoncomms-pm issue)
+### [Benchmark service discovery performance in Logos Delivery](https://github.com/logos-co/anoncomms-pm/issues/66)
 
 **Owner**: DST Team (primary), AnonComms Discovery (support)
 
@@ -54,7 +54,7 @@
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Docs: links to README.md or other docs
 
-### [Publish a research post on service discovery for the Logos research blog](TBD: anoncomms-pm issue)
+### [Publish a research post on service discovery for the Logos research blog](https://github.com/logos-co/anoncomms-pm/issues/67)
 
 **Owner**: AnonComms Discovery
 
@@ -65,7 +65,7 @@
 **Checklist**:
 - [ ] Docs: links to README.md or other docs
 
-### [Research and publish an anonymity roadmap for service discovery](TBD: anoncomms-pm issue)
+### [Research and publish an anonymity roadmap for service discovery](https://github.com/logos-co/anoncomms-pm/issues/68)
 
 **Owner**: AnonComms Discovery
 
