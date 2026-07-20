@@ -42,19 +42,16 @@ Group chat features will be limited at this stage and extended with further mile
 **Feature**: [Group Chat](/messaging/furps/application/group_chat.md)
 
 **FURPS**:
-- F1. Accounts can receive a message in multiple locations (e.g. devices) by registering new installations.
-- F2. Accounts can view and remove installations as needed.
 - F3. Accounts can create group chats between multiple accounts.
 - F4. Participants can set a group name and description for all participants in the group.
-- F5. Account can view all provisioned installations.
-- F6. Account can revoke other installations in case of a lost device.
 
 - R1. Group participants in a conversation can tell if a message is missing, and who sent it.
 
 - P1. The number of network messages for a single outbound group message does not scale with the number of group members.
 
 - +PRIV1. Non-participants cannot correlate a group conversation to any of its participants.
-- +PRIV2. No identifying information is visible when registering an installation.
+
+Installation-related FURPS (F1, F2, F5, F6, +PRIV2) moved to [Installation management](2026-chat-beta#installation-management) in Chat — Beta.
 
 ### Implement simple identity model
 
