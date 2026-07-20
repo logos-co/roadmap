@@ -46,24 +46,24 @@ Non-critical features explored within testnet scope:
 - [x] [Service Incentivisation Testnet v0.1 Deliverables](/anoncomms/roadmap/testnet_v0.1/incentivisation_v0.1.md)
 - [x] [De-MLS Testnet v0.1 Deliverables](/anoncomms/roadmap/testnet_v0.1/de-mls_v0.1.md)
 - [x] [Zerokit Testnet v0.1 Deliverables](/anoncomms/roadmap/testnet_v0.1/zerokit_v0.1.md)
-- [ ] [Gasless L2 Testnet v0.1 Deliverables](/anoncomms/roadmap/testnet_v0.1/gasless-l2_v0.1.md)
-- [ ] [RLN Testnet v0.1 Deliverables](/anoncomms/roadmap/testnet_v0.1/rln_v0.1.md)
+- [x] [Gasless L2 Testnet v0.1 Deliverables](/anoncomms/roadmap/testnet_v0.1/gasless-l2_v0.1.md)
+- [x] [RLN Testnet v0.1 Deliverables](/anoncomms/roadmap/testnet_v0.1/rln_v0.1.md)
 
 ### Testnet v0.2
 
 Features critical for the testnet:
 
-- [ ] [Service Discovery Testnet v0.2 Deliverables](/anoncomms/roadmap/testnet_v0.2/discovery_v0.2.md)
-- [ ] [Mix Testnet v0.2 Deliverables](/anoncomms/roadmap/testnet_v0.2/mix_v0.2.md)
-- [ ] [De-MLS Testnet v0.2 Deliverables](/anoncomms/roadmap/testnet_v0.2/de-mls_v0.2.md)
-- [ ] [Identity Track Testnet v0.2 Deliverables](/anoncomms/roadmap/testnet_v0.2/identity_v0.2.md)
+- [x] [Service Discovery Testnet v0.2 Deliverables](/anoncomms/roadmap/testnet_v0.2/discovery_v0.2.md)
+- [x] [Mix Testnet v0.2 Deliverables](/anoncomms/roadmap/testnet_v0.2/mix_v0.2.md)
+- [x] [De-MLS Testnet v0.2 Deliverables](/anoncomms/roadmap/testnet_v0.2/de-mls_v0.2.md)
+- [x] [Identity Track Testnet v0.2 Deliverables](/anoncomms/roadmap/testnet_v0.2/identity_v0.2.md)
 
 Non-critical features explored within testnet scope:
 
-- [ ] [Service Incentivisation Testnet v0.2 Deliverables](/anoncomms/roadmap/testnet_v0.2/incentivisation_v0.2.md)
-- [ ] [Zerokit Testnet v0.2 Deliverables](/anoncomms/roadmap/testnet_v0.2/zerokit_v0.2.md)
-- [ ] [RLN Testnet v0.2 Deliverables](/anoncomms/roadmap/testnet_v0.2/rln_v0.2.md)
-- [ ] [Oracle Testnet v0.2 Deliverables](/anoncomms/roadmap/testnet_v0.2/oracle_v0.2.md)
+- [x] [Service Incentivisation Testnet v0.2 Deliverables](/anoncomms/roadmap/testnet_v0.2/incentivisation_v0.2.md)
+- [x] [Zerokit Testnet v0.2 Deliverables](/anoncomms/roadmap/testnet_v0.2/zerokit_v0.2.md)
+- [x] [RLN Testnet v0.2 Deliverables](/anoncomms/roadmap/testnet_v0.2/rln_v0.2.md)
+- [x] [Oracle Testnet v0.2 Deliverables](/anoncomms/roadmap/testnet_v0.2/oracle_v0.2.md)
 
 #### Modules
 
