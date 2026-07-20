@@ -47,6 +47,23 @@ Building on the simple identity model from v0.2:
 - Optional binding to external identity systems
 - Specification and implementation, in collaboration with AnonComms team
 
+Installation (device) lifecycle is covered separately by [Installation management](#installation-management).
+
+### Installation management
+
+**Owner**: Chat Team
+
+Extracted from [Add Group Chat](https://github.com/logos-messaging/pm/issues/346): the installation (device) lifecycle for accounts. The current implementation registers installation keys and key packages, but installations cannot yet be listed, removed, or revoked, and known gaps prevent true multi-device usage: one-time key packages limit a member to a single conversation ([libchat#169](https://github.com/logos-messaging/libchat/issues/169)), installation keys are not persisted across sessions ([libchat#28](https://github.com/logos-messaging/libchat/issues/28)), and multiple installations cannot resolve to a single account ([libchat#109](https://github.com/logos-messaging/libchat/issues/109)).
+
+**Feature**: [Group Chat](/messaging/furps/application/group_chat.md)
+
+**FURPS**:
+- F1. Accounts can receive a message in multiple locations (e.g. devices) by registering new installations.
+- F2. Accounts can view and remove installations as needed.
+- F5. Account can view all provisioned installations.
+- F6. Account can revoke other installations in case of a lost device.
+- +PRIV2. No identifying information is visible when registering an installation — to be addressed by design in the key package registry replacement ([libchat#110](https://github.com/logos-messaging/libchat/issues/110) is an interim testnet service).
+
 ### [Stabilize and polish API](https://github.com/logos-messaging/pm/issues/440)
 
 **Owner**: Chat Team
