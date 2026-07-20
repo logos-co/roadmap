@@ -3,6 +3,7 @@ title: Chat — General Availability
 tags:
   - messaging-milestone
 date: 2026-03-01
+github: https://github.com/logos-messaging/pm/issues/426
 ---
 
 
@@ -32,7 +33,7 @@ Logos Chat is feature-complete, production-ready, and QA-approved for mainnet de
 
 ## Deliverables
 
-### Production scale testing
+### [Production scale testing](https://github.com/logos-messaging/pm/issues/453)
 
 **Owner**: Chat Team + DST
 
@@ -40,7 +41,7 @@ Logos Chat is feature-complete, production-ready, and QA-approved for mainnet de
 - Performance optimization based on testing results
 - Stress testing group chats at community scale
 
-### Production documentation
+### [Production documentation](https://github.com/logos-messaging/pm/issues/454)
 
 **Owner**: Chat Team
 
@@ -50,7 +51,7 @@ Logos Chat is feature-complete, production-ready, and QA-approved for mainnet de
 - Content topic design guidelines for auto-sharding
 - Production deployment guide
 
-### API stability
+### [API stability](https://github.com/logos-messaging/pm/issues/455)
 
 **Owner**: Chat Team
 
@@ -58,7 +59,7 @@ Logos Chat is feature-complete, production-ready, and QA-approved for mainnet de
 - Deprecation policy for any future changes
 - Versioning strategy
 
-### Validate integration in Status
+### [Validate integration in Status](https://github.com/logos-messaging/pm/issues/456)
 
 **Owner**: Chat Team + Status Team
 

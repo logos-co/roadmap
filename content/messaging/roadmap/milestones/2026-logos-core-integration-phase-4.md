@@ -3,6 +3,7 @@ title: Logos Core Integration — Phase 4
 tags:
   - messaging-milestone
 date: 2026-03-01
+github: https://github.com/logos-messaging/pm/issues/427
 ---
 
 
@@ -33,7 +34,7 @@ This enables a fully modular Logos Core deployment where all modules share infra
 
 ## Deliverables
 
-### Delivery module uses Discovery module
+### [Delivery module uses Discovery module](https://github.com/logos-messaging/pm/issues/452)
 
 **Owner**: Delivery Team
 

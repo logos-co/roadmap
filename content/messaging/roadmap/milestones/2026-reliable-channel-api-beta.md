@@ -58,7 +58,7 @@ https://github.com/logos-messaging/pm/issues/318
 - +2. Relevant for all Logos Delivery nodes.
 - +3. Nimble package manager is used to build.
 
-### Add Segmentation to Reliable Channel API
+### [Add Segmentation to Reliable Channel API](https://github.com/logos-messaging/logos-delivery/issues/3854)
 
 **Owner**: Delivery Team
 
@@ -69,7 +69,7 @@ https://github.com/logos-messaging/pm/issues/318
 - R2. Segments tracked independently and reassembled before delivery (via event emission).
 - P2. Final encoded routed message stays below 150 KB routing layer limit.
 
-### Deprecate store hash queries for missing messages
+### [Deprecate store hash queries for missing messages](https://github.com/logos-messaging/pm/issues/436)
 
 **Owner**: Delivery Team
 
@@ -78,7 +78,7 @@ https://github.com/logos-messaging/pm/issues/318
 **FURPS**:
 - ~~F4. Missing messages are automatically retrieved via store hash queries.~~
 
-### Support different encryption for sync messages
+### [Support different encryption for sync messages](https://github.com/logos-messaging/logos-delivery/issues/3856)
 
 **Owner**: Delivery Team
 
@@ -87,7 +87,7 @@ https://github.com/logos-messaging/pm/issues/318
 **FURPS**:
 - F11. A different encryption mechanism can be applied for sync messages (than the one for content messages).
 
-### Provide documentation on the API
+### [Provide documentation on the Reliable Channel API](https://github.com/logos-messaging/pm/issues/438)
 
 **Owner**: Delivery Team
 

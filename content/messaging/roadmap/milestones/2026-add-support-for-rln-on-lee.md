@@ -92,7 +92,7 @@ Adopt Zerokit 2.0 in `logos-delivery` on `master`, in coordination with AnonComm
 - U1. RLN membership details can be exported and imported.
 - U2. Deployment details (backend type, address/endpoint) are persisted by library and in exports.
 
-### Enable RLN in Logos Devnet
+### [Enable RLN in Logos Devnet](https://github.com/logos-messaging/pm/issues/451)
 
 **Owner**: Delivery Team
 

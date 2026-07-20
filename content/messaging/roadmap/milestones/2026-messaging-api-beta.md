@@ -29,7 +29,7 @@ Comprehensive documentation and production readiness are delivered in [General A
 
 ## Deliverables
 
-### Provide Store API access for Status needs
+### [Provide Store API access for Status needs](https://github.com/logos-messaging/pm/issues/463)
 
 **Owner**: Delivery Team
 
@@ -42,7 +42,7 @@ Either introduce a new Store API (next to Messaging API), or allow using low-lev
 
 Note that Store protocol was intentionally left out of Messaging API. But we should provide a solution for existing apps, e.g. Status.
 
-### Test suite for Messaging API
+### [Test suite for Messaging API](https://github.com/logos-messaging/pm/issues/422)
 
 **Owner**: Delivery Team
 

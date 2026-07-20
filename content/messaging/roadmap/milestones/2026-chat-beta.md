@@ -3,6 +3,7 @@ title: Chat — Beta
 tags:
   - messaging-milestone
 date: 2026-01-15
+github: https://github.com/logos-messaging/pm/issues/425
 ---
 
 
@@ -35,7 +36,7 @@ The focus is:
 
 ## Deliverables
 
-### Implement full identity model
+### [Implement full identity model](https://github.com/logos-messaging/pm/issues/439)
 
 **Owner**: Chat Team
 
@@ -46,7 +47,7 @@ Building on the simple identity model from v0.2:
 - Optional binding to external identity systems
 - Specification and implementation, in collaboration with AnonComms team
 
-### Stabilize and polish API
+### [Stabilize and polish API](https://github.com/logos-messaging/pm/issues/440)
 
 **Owner**: Chat Team
 
@@ -54,7 +55,7 @@ Building on the simple identity model from v0.2:
 - Fix API inconsistencies and footguns discovered during integration
 - Stabilize error handling and edge cases
 
-### Deliver user-facing chat features
+### [Deliver user-facing chat features](https://github.com/logos-messaging/pm/issues/441)
 
 **Owner**: Chat Team
 
@@ -64,7 +65,7 @@ Features needed for a real chat experience beyond the protocol layer:
 - Conversation list management
 - Typing indicators and read receipts
 
-### Reliability testing with DST
+### [Reliability testing with DST](https://github.com/logos-messaging/pm/issues/442)
 
 **Owner**: Chat Team + DST
 
@@ -74,7 +75,7 @@ Features needed for a real chat experience beyond the protocol layer:
 - Performance testing against FURPS targets (10K users, 10Mbps bandwidth)
 - Scale testing with up to 201 users in a group chat
 
-### Add support for Logos Delivery RLN
+### [Add support for Logos Delivery RLN](https://github.com/logos-messaging/pm/issues/347)
 
 **Owner**: Chat Team
 
@@ -82,13 +83,13 @@ Logos Chat works against RLN-enforcing networks: chat traffic sent through Logos
 
 **Dependency**: [RLN for Edge Nodes](2026-rln-for-edge-nodes.md) must be delivered.
 
-### Perform test integration of Logos Chat into Status App
+### [Perform test integration of Logos Chat into Status App](https://github.com/logos-messaging/pm/issues/444)
 
 **Owner**: Chat Team + Status Team
 
 Initial validation that Logos Chat (1:1 + group chats) can be consumed by Status. This is an exploratory integration, not a production milestone. The goal is to get feedback on the API from a production app.
 
-### Design SDS and de-MLS integration
+### [Design SDS and de-MLS integration](https://github.com/logos-messaging/pm/issues/445)
 
 **Owner**: Chat Team
 

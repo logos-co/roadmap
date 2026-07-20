@@ -48,7 +48,7 @@ Status switches from its current chat protocol implementation to Logos Chat, con
 
 ## Deliverables
 
-### Integrate Logos Chat 1:1 chats in Status
+### [Integrate Logos Chat 1:1 chats in Status](https://github.com/logos-messaging/pm/issues/460)
 
 **Owner**: Chat Team + Status Core
 
@@ -57,7 +57,7 @@ Status switches from its current chat protocol implementation to Logos Chat, con
 - Migration path from existing Status 1:1 chat protocol
 - Go bindings via C-bindings from Logos Core
 
-### Integrate Logos Chat group chats in Status
+### [Integrate Logos Chat group chats in Status](https://github.com/logos-messaging/pm/issues/461)
 
 **Owner**: Chat Team + Status Core
 
@@ -65,7 +65,7 @@ Status switches from its current chat protocol implementation to Logos Chat, con
 - Migration path from existing Status group chat protocol
 - Multi-device support through de-MLS installations
 
-### Define communities architecture on Logos Chat
+### [Define communities architecture on Logos Chat](https://github.com/logos-messaging/pm/issues/462)
 
 **Owner**: Status Core (with Messaging team advisory)
 

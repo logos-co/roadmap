@@ -58,3 +58,7 @@ For S1. Applied to Communities channels on Status Desktop
 - P3. When receiving messages in group, the receiver can reach eventual consistency within `6*S` seconds **(Vac-DST)**
 
 For S1. Applied to Communities channels on Status Desktop
+
+## [SDS protocol in Status — enable wrapping for communities messages](https://github.com/logos-messaging/pm/issues/385)
+
+**Owner**: Delivery Team + Status Core
