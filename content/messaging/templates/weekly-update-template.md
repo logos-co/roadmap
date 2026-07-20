@@ -117,14 +117,12 @@ title: 2026-MM-DD Messaging Weekly
 
 # Logos Chat
 
-## [Chat — Developer Preview](2026-chat-developer-preview.md)
+## [Chat — Beta](2026-chat-beta.md)
 
-- [[Deliverable] Add Group Chat](https://github.com/logos-messaging/pm/issues/346)
+- [[Deliverable] Installation management](https://github.com/logos-messaging/pm/issues/464)
   - achieved:
   - next:
   - blockers:
-
-## [Chat — Beta](2026-chat-beta.md)
 
 - [[Deliverable] Implement full identity model](https://github.com/logos-messaging/pm/issues/439)
   - achieved:
