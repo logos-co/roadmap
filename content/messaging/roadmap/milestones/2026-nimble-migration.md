@@ -33,7 +33,7 @@ Note: `libchat` is a Rust library and does not use Nimble.
 - CI/CD updated accordingly
 - Nix flake integration with Nimble
 
-This milestone can be removed is [[2026-chat-developer-preview# Remove unnecessary Nim shim from Logos Chat]] succeeds.  
+This milestone can be removed if [[2026-chat-developer-preview# Remove unnecessary Nim shim from Logos Chat]] succeeds.  
 
 ### [Migrate nim-sds to Nimble](https://github.com/logos-messaging/pm/issues/378)
 

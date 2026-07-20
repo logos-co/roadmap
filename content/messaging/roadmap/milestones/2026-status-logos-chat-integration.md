@@ -79,4 +79,4 @@ Status switches from its current chat protocol implementation to Logos Chat, con
 **Owner:** Delivery Team
 
 - RLN contracts are deployed on Status Network
-- Logos Delivery in Status is uses RLN on Status Network
+- Logos Delivery in Status uses RLN on Status Network

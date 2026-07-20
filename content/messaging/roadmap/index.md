@@ -8,7 +8,7 @@ date: 2025-12-10
 Logos Messaging is working towards these features, required to be implemented for Mainnet:
 
 - Delivery module for Logos Core
-	- Exposes [Messaging API](2025-messaging-api)
+	- Exposes [Messaging API](messaging_sdk)
 	- Exposes [Reliable Channel API](reliable_channel)
 	- Supports RLN membership on Logos Blockchain
 - Chat module for Logos Core

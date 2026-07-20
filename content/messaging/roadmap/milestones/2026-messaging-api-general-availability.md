@@ -101,7 +101,7 @@ Behind the MessagingAPI, Mix discovery should be started when needed and Mix pro
 
 **Dependency**: mix interface from AnonComms team must be available.
 
-**Done when**: Messages sent through the Messaging API are routed over the mix network by default, with no application changes required.
+**Done when**: All three anonymity modes work as specified, and mix routing requires no application changes beyond setting the parameter.
 
 ### [Provide documentation on the Messaging API](https://github.com/logos-messaging/pm/issues/434)
 
