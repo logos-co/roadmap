@@ -23,13 +23,13 @@
 
 <table><thead><tr><th>Risk</th><th>(Accept, Own, Mitigation)</th></tr></thead><tbody><tr><td>RLN membership sponsorship model is not defined</td><td>Focus on no-sponsorship implementation first.</td></tr></tbody></table>
 <h2 id="deliverables">Deliverables<a aria-hidden="true" tabindex="-1" href="#deliverables" class="internal"> §</a></h2>
-<h3 id="add-support-for-rln-proofs-in-lightpush">Add support for RLN proofs in LightPush<a aria-hidden="true" tabindex="-1" href="#add-support-for-rln-proofs-in-lightpush" class="internal"> §</a></h3>
+<h3 id="add-support-for-rln-proofs-in-lightpush"><a href="https://github.com/logos-messaging/pm/issues/423" class="external">Add support for RLN proofs in LightPush</a><a aria-hidden="true" tabindex="-1" href="#add-support-for-rln-proofs-in-lightpush" class="internal"> §</a></h3>
 <p><strong>Owner</strong>: Delivery Team</p>
 <p>Enable light clients with their own RLN membership to generate proofs client-side and submit messages with proofs via lightpush. The service node verifies the proof and relays without consuming its own quota.</p>
 <p>This decouples lightpush from service node quota entirely for clients that have their own membership, and is the long-term path to sustainable edge mode.</p>
 <p><strong>Done when</strong>: A light client with its own RLN membership can send a pre-proven message via lighpush, and the service node relays it without consuming its own nonce.</p>
 <p>Note that this might already be possible in <code>logos-delivery</code>, in that case it needs verification.</p>
-<h3 id="improve-rln-ux-by-reducing-contract-interactions"><a href="https://github.com/waku-org/pm/issues/344" class="external">Improve RLN UX by reducing contract interactions</a><a aria-hidden="true" tabindex="-1" href="#improve-rln-ux-by-reducing-contract-interactions" class="internal"> §</a></h3>
+<h3 id="improve-rln-ux-by-reducing-contract-interactions"><a href="https://github.com/logos-messaging/pm/issues/344" class="external">Improve RLN UX by reducing contract interactions</a><a aria-hidden="true" tabindex="-1" href="#improve-rln-ux-by-reducing-contract-interactions" class="internal"> §</a></h3>
 <p><strong>Owner</strong>: Delivery Team</p>
 <p><strong>Feature</strong>: <a href="../../../messaging/furps/core/rln_smart_contract" class="internal" data-slug="messaging/furps/core/rln_smart_contract">RLN Smart Contract</a></p>
 <p><strong>FURPS</strong>:</p>

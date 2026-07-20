@@ -1146,7 +1146,7 @@
     <lastmod>2025-11-18T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/</loc>
-    <lastmod>2026-07-20T16:14:14.655Z</lastmod>
+    <lastmod>2026-07-20T20:10:46.095Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2023-milestones</loc>
     <lastmod>2024-03-07T00:00:00.000Z</lastmod>
@@ -1173,7 +1173,7 @@
     <lastmod>2026-04-08T22:50:44.130Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2024-e2e-reliability-protocol</loc>
-    <lastmod>2026-04-08T22:50:44.130Z</lastmod>
+    <lastmod>2026-07-20T20:10:46.095Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2024-incentivise-running-infra-node</loc>
     <lastmod>2026-04-08T22:50:44.130Z</lastmod>
@@ -1245,16 +1245,16 @@
     <lastmod>2026-04-08T22:50:44.130Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2025-support-discovery-research-and-libp2p-quic</loc>
-    <lastmod>2026-07-20T16:14:14.655Z</lastmod>
+    <lastmod>2026-07-20T20:10:46.095Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2025-upgrade-waku-for-the-web</loc>
     <lastmod>2026-04-08T22:50:44.130Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2026-add-support-for-rln-on-lee</loc>
-    <lastmod>2026-07-20T16:14:14.655Z</lastmod>
+    <lastmod>2026-07-20T20:10:46.095Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2026-chat-beta</loc>
-    <lastmod>2026-07-20T16:14:14.655Z</lastmod>
+    <lastmod>2026-07-20T20:10:46.095Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2026-chat-developer-preview</loc>
     <lastmod>2026-07-20T16:14:14.655Z</lastmod>
@@ -1263,7 +1263,7 @@
     <lastmod>2026-07-20T16:14:14.655Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2026-chat-general-availability</loc>
-    <lastmod>2026-07-20T16:14:14.655Z</lastmod>
+    <lastmod>2026-07-20T20:10:46.095Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2026-fleet-stability</loc>
     <lastmod>2026-04-08T22:50:44.130Z</lastmod>
@@ -1272,43 +1272,43 @@
     <lastmod>2026-05-19T18:01:17.213Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2026-logos-core-integration-phase-2</loc>
-    <lastmod>2026-07-20T16:14:14.655Z</lastmod>
+    <lastmod>2026-07-20T20:10:46.095Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2026-logos-core-integration-phase-3</loc>
-    <lastmod>2026-07-20T16:14:14.655Z</lastmod>
+    <lastmod>2026-07-20T20:10:46.095Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2026-logos-core-integration-phase-4</loc>
-    <lastmod>2026-07-20T16:14:14.655Z</lastmod>
+    <lastmod>2026-07-20T20:10:46.095Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2026-messaging-api-beta</loc>
-    <lastmod>2026-07-20T16:14:14.655Z</lastmod>
+    <lastmod>2026-07-20T20:10:46.095Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2026-messaging-api-developer-preview</loc>
     <lastmod>2026-05-19T18:01:17.213Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2026-messaging-api-general-availability</loc>
-    <lastmod>2026-07-20T16:14:14.655Z</lastmod>
+    <lastmod>2026-07-20T20:10:46.095Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2026-nimble-migration</loc>
     <lastmod>2026-07-20T16:14:14.655Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2026-reliable-channel-api-beta</loc>
-    <lastmod>2026-07-20T16:14:14.655Z</lastmod>
+    <lastmod>2026-07-20T20:10:46.095Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2026-reliable-channel-api-developer-preview</loc>
     <lastmod>2026-07-20T16:14:14.655Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2026-rln-for-edge-nodes</loc>
-    <lastmod>2026-07-20T16:14:14.655Z</lastmod>
+    <lastmod>2026-07-20T20:10:46.095Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2026-status-logos-chat-integration</loc>
-    <lastmod>2026-07-20T16:14:14.655Z</lastmod>
+    <lastmod>2026-07-20T20:10:46.095Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2026-status-logos-delivery-integration</loc>
     <lastmod>2026-07-20T16:14:14.655Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/2026-support-mobile-platforms</loc>
-    <lastmod>2026-07-20T16:14:14.655Z</lastmod>
+    <lastmod>2026-07-20T20:10:46.095Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/templates/furps-template</loc>
     <lastmod>2026-03-02T07:03:52.156Z</lastmod>
@@ -1317,7 +1317,7 @@
     <lastmod>2026-04-08T16:23:41.681Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/templates/weekly-update-template</loc>
-    <lastmod>2026-07-20T16:14:14.655Z</lastmod>
+    <lastmod>2026-07-20T20:10:46.095Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/updates/2023-07-24</loc>
     <lastmod>2023-08-04T00:00:00.000Z</lastmod>
