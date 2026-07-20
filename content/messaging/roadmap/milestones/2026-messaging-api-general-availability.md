@@ -43,6 +43,34 @@ Messages missed while a node was offline are retrieved automatically on reconnec
 
 **Done when**: After an offline period, a subscribed application receives all missed messages through its existing subscription, with no additional API calls.
 
+### Create Rate Limit Manager
+
+https://github.com/logos-messaging/pm/issues/319
+
+**Owner**: Chat Team
+
+**Feature**: [Rate Limit Manager](/messaging/furps/application/rate_limit_manager.md)
+
+**FURPS**:
+- F1. Rate limit the number of messages passed to the delivery service.
+- F2. The rate limit is set in the form of number of messages per epoch; same format as RLN Relay.
+- F3. Tracks current quota and usage.
+- F4. Messages can be flagged with three priority levels: critical, normal, optional.
+- F5. When remaining message quota is low, critical messages are sent, normal messages are queued and optional messages are dropped.
+- F6. When message quota is exhausted, critical messages are queued on top, normal messages are queued, optional messages are dropped.
+
+- U1. Developer can mark messages with relevant priority.
+- U2. Developer can pass messages by batch; with an all-or-none sending strategy.
+- U3. Developer can access total quota and remaining quota values.
+- U4. Message status is available to the developer (queued, dropped, passed to delivery service).
+
+- R1. Errors and status from the underlying delivery service are available to the developer.
+- R2. Queued messages are persisted across restart.
+- R3. Quota status is persisted across restart.
+
+- S1. Nim library.
+- +1. Nimble package manager is used to build.
+
 ### Integrate Rate Limit manager
 
 **Owner**: Delivery Team

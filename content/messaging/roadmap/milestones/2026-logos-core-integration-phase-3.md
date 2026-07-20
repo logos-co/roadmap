@@ -33,7 +33,13 @@ Note that "making RLN pluggable" has different parts:
 
 **Owner**: Delivery Team
 
-Proof of concept: the Delivery module obtains RLN credentials and validates proofs through the RLN membership Logos Core module (from AnonComms), instead of interacting with the blockchain directly. Validates the module interface ahead of the full integration in [Phase 4](2026-logos-core-integration-phase-4.md).
+Proof of concept: the Delivery module obtains RLN credentials and validates proofs through the RLN membership Logos Core module (from AnonComms), instead of interacting with the blockchain directly. Validates the module interface ahead of the full integration (see deliverable below).
+
+### Delivery module uses RLN membership module
+
+**Owner**: Delivery Team
+
+Logos Delivery module obtains RLN credentials and validates proofs through the RLN membership Logos Core module rather than direct blockchain interaction.
 
 ### Make discovery pluggable in Logos Delivery
 

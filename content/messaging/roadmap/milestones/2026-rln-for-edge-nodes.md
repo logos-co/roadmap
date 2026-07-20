@@ -4,8 +4,6 @@ tags:
   - messaging-milestone
 date: 2026-04-06T00:00:00.000Z
 github: https://github.com/logos-messaging/pm/issues/411
-aliases:
-  - 2026-rln-for-lightpush
 ---
 **Resources Required**:
 - 1 Delivery engineer

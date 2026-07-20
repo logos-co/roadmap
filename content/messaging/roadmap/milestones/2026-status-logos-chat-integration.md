@@ -32,7 +32,7 @@ Status switches from its current chat protocol implementation to Logos Chat, con
 ## Related milestones
 
 - [Chat — Foundations](2026-chat-foundations.md) (v0.1) — 1:1 chats
-- [Chat — Developer Preview](2025-extend-chat-sdk-with-group-conversations) (v0.2) — group chats via de-MLS
+- [Chat — Developer Preview](2026-chat-developer-preview) (v0.2) — group chats via de-MLS
 - [Chat — Beta](2026-chat-beta) (v0.3) — first external release
 - [Logos Core Integration — Phase 2](2026-logos-core-integration-phase-2) — Chat ↔ Delivery through Logos Core
 

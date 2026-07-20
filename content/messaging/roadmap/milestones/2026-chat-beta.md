@@ -3,8 +3,6 @@ title: Chat — Beta
 tags:
   - messaging-milestone
 date: 2026-01-15
-aliases:
-  - 2026-chat-developer-preview
 ---
 
 
@@ -13,7 +11,7 @@ aliases:
 - 1 Delivery engineer (testing support)
 - DST involvement for reliability testing
 
-The Beta focuses on polishing the Logos Chat implementation into a state suitable for real application integration. It builds on the foundations (v0.1, 1:1 chats) and the [Developer Preview](2025-extend-chat-sdk-with-group-conversations) (v0.2, group conversations) by hardening the API, completing the identity model, enabling on-chain contact discovery, and validating the integration in Status.
+The Beta focuses on polishing the Logos Chat implementation into a state suitable for real application integration. It builds on the foundations (v0.1, 1:1 chats) and the [Developer Preview](2026-chat-developer-preview) (v0.2, group conversations) by hardening the API, completing the identity model, enabling on-chain contact discovery, and validating the integration in Status.
 
 The focus is:
 - Stabilize and polish the API based on feedback from v0.2 Status test integration

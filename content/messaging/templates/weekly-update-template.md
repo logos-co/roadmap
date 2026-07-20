@@ -128,7 +128,7 @@ title: 2026-MM-DD Messaging Weekly
 
 # Logos Chat
 
-## [Chat — Developer Preview](2025-extend-chat-sdk-with-group-conversations.md)
+## [Chat — Developer Preview](2026-chat-developer-preview.md)
 
 - [[Deliverable] Add Group Chat](https://github.com/logos-messaging/pm/issues/346)
   - achieved:

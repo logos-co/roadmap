@@ -4,8 +4,6 @@ tags:
   - messaging-milestone
 date: 2025-12-17
 github: https://github.com/logos-messaging/pm/issues/402
-aliases:
-  - 2026-reliable-channel-api-general-availability
 ---
 
 **Resources Required for 2026H2**:
@@ -60,34 +58,6 @@ https://github.com/logos-messaging/pm/issues/318
 - +2. Relevant for all Logos Delivery nodes.
 - +3. Nimble package manager is used to build.
 
-### Create Rate Limit Manager
-
-https://github.com/logos-messaging/pm/issues/319
-
-**Owner**: Chat Team
-
-**Feature**: [Rate Limit Manager](/messaging/furps/application/rate_limit_manager.md)
-
-**FURPS**:
-- F1. Rate limit the number of messages passed to the delivery service.
-- F2. The rate limit is set in the form of number of messages per epoch; same format as RLN Relay.
-- F3. Tracks current quota and usage.
-- F4. Messages can be flagged with three priority levels: critical, normal, optional.
-- F5. When remaining message quota is low, critical messages are sent, normal messages are queued and optional messages are dropped.
-- F6. When message quota is exhausted, critical messages are queued on top, normal messages are queued, optional messages are dropped.
-
-- U1. Developer can mark messages with relevant priority.
-- U2. Developer can pass messages by batch; with an all-or-none sending strategy.
-- U3. Developer can access total quota and remaining quota values.
-- U4. Message status is available to the developer (queued, dropped, passed to delivery service).
-
-- R1. Errors and status from the underlying delivery service are available to the developer.
-- R2. Queued messages are persisted across restart.
-- R3. Quota status is persisted across restart.
-
-- S1. Nim library.
-- +1. Nimble package manager is used to build.
-
 ### Add Segmentation to Reliable Channel API
 
 **Owner**: Delivery Team
@@ -98,33 +68,6 @@ https://github.com/logos-messaging/pm/issues/319
 - F10. Large messages are segmented to fit transport constraints.
 - R2. Segments tracked independently and reassembled before delivery (via event emission).
 - P2. Final encoded routed message stays below 150 KB routing layer limit.
-
-### Add Rate Limit Manager to Reliable Channel API
-
-**Owner**: Delivery Team
-
-**Feature**: [Reliable Channel API](/messaging/furps/application/reliable_channel.md)
-
-**FURPS**:
-- F12. Outbound messages passed on the API are queued when the rate limit is exceeded.
-- F13. Ephemeral outbound messages passed on the API are dropped when the rate limit is approached or exceeded.
-- F14. Outbound messages retries are queued when the rate limit is approached or exceeded.
-- U5. Rate limit is configurable at channel creation.
-- U6. Rate limit "approached" state is configurable at channel creation.
-
-### [Implement RLN membership management in `logos-delivery`](https://github.com/logos-messaging/pm/issues/353)
-
-**Owner:** Delivery Team
-
-**FURPS:**
-- F1. Can generate RLN credentials.
-- F2. Can insert RLN membership in smart contract, with accompanying deposit.
-- F3. Can extend RLN membership on smart contract.
-- F4. Can withdraw deposit from smart contract.
-- F5. Membership credentials are encrypted by default on local disk.
-- U1. RLN membership details can be exported and imported.
-- U2. Deployment details (address, chain id) are persisted by library and in exports.
-- +2. Available for Linea Sepolia Testnet contracts.
 
 ### Deprecate store hash queries for missing messages
 
