@@ -49,7 +49,7 @@ Building on the simple identity model from v0.2:
 
 Installation (device) lifecycle is covered separately by [Installation management](#installation-management).
 
-### Installation management
+### [Installation management](https://github.com/logos-messaging/pm/issues/464)
 
 **Owner**: Chat Team
 
