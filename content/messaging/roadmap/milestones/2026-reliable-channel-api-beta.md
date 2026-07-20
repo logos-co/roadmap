@@ -58,7 +58,7 @@ https://github.com/logos-messaging/pm/issues/318
 - +2. Relevant for all Logos Delivery nodes.
 - +3. Nimble package manager is used to build.
 
-### [Add Segmentation to Reliable Channel API](https://github.com/logos-messaging/pm/issues/435)
+### [Add Segmentation to Reliable Channel API](https://github.com/logos-messaging/logos-delivery/issues/3854)
 
 **Owner**: Delivery Team
 
@@ -78,7 +78,7 @@ https://github.com/logos-messaging/pm/issues/318
 **FURPS**:
 - ~~F4. Missing messages are automatically retrieved via store hash queries.~~
 
-### [Support different encryption for sync messages](https://github.com/logos-messaging/pm/issues/437)
+### [Support different encryption for sync messages](https://github.com/logos-messaging/logos-delivery/issues/3856)
 
 **Owner**: Delivery Team
 

@@ -75,7 +75,7 @@ Features needed for a real chat experience beyond the protocol layer:
 - Performance testing against FURPS targets (10K users, 10Mbps bandwidth)
 - Scale testing with up to 201 users in a group chat
 
-### [Add support for Logos Delivery RLN](https://github.com/logos-messaging/pm/issues/443)
+### [Add support for Logos Delivery RLN](https://github.com/logos-messaging/pm/issues/347)
 
 **Owner**: Chat Team
 
