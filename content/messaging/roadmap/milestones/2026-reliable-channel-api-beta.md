@@ -25,7 +25,7 @@ Also deprecates store hash queries as they enable linkability of participants in
 
 | Risk                                                             | (Accept, Own, Mitigation)                                                                                                                                                        |
 | ---------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Reed-Solomon reconstruction in segementation  might be reduntant | Reed-Solomon-based reconstruction in Segmentation might be redundant, because SDS-R already ensures re-transmission of messages. Consider removing, discuss with AnonComms team. |
+| Reed-Solomon reconstruction in segmentation might be redundant | Reed-Solomon-based reconstruction in Segmentation might be redundant, because SDS-R already ensures re-transmission of messages. Consider removing, discuss with AnonComms team. |
 | Rate limit UX impact                                             | Rate limiting will cause messages to be queued or dropped. UX implications need to be communicated to Chat team and developers.                                                  |
 
 ## Deliverables

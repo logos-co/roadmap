@@ -29,7 +29,7 @@ Enable light clients with their own RLN membership to generate proofs client-sid
 
 This decouples lightpush from service node quota entirely for clients that have their own membership, and is the long-term path to sustainable edge mode.
 
-**Done when**: A light client with its own RLN membership can send a pre-proven message via lighpush, and the service node relays it without consuming its own nonce.
+**Done when**: A light client with its own RLN membership can send a pre-proven message via lightpush, and the service node relays it without consuming its own nonce.
 
 Note that this might already be possible in `logos-delivery`, in that case it needs verification.
 
