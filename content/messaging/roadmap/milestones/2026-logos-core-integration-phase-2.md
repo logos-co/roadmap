@@ -3,6 +3,7 @@ title: Logos Core Integration — Phase 2
 tags:
   - messaging-milestone
 date: 2026-01-19
+github: https://github.com/logos-messaging/pm/issues/397
 ---
 
 

@@ -1,8 +1,9 @@
 ---
-title: QUIC Transport in Logos Delivery
+title: Support QUIC Transport in Logos Delivery
 tags:
   - messaging-milestone
 date: 2025-12-03
+github: https://github.com/logos-messaging/pm/issues/404
 ---
 
 
@@ -22,7 +23,7 @@ Replace legacy multiplexers (Yamux, Mplex) with QUIC transport. The old multiple
 
 ## Deliverables
 
-### [Trial QUIC](https://github.com/waku-org/pm/issues/324)
+### [Trial QUIC](https://github.com/logos-messaging/pm/issues/324)
 
 **Owner**: Delivery Team
 

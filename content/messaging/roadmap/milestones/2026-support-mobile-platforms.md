@@ -3,6 +3,7 @@ title: Support Mobile Platforms
 tags:
   - messaging-milestone
 date: 2026-02-21
+github: https://github.com/logos-messaging/pm/issues/428
 ---
 
 
@@ -35,7 +36,7 @@ This involves three areas:
 
 ## Deliverables
 
-### Ensure nim-ffi libraries work on mobile platforms
+### [Ensure nim-ffi libraries work on mobile platforms](https://github.com/logos-messaging/pm/issues/457)
 
 **Owner**: Delivery Team
 
@@ -44,7 +45,7 @@ This involves three areas:
 **FURPS**:
 - S2. The exposed C library can be used in Logos Core for mobile: iOS and Android.
 
-### Verify and test edge mode on mobile
+### [Verify and test edge mode on mobile](https://github.com/logos-messaging/pm/issues/458)
 
 **Owner**: Delivery Team + DST
 
@@ -54,7 +55,7 @@ Edge mode is implemented in [Messaging API — Beta](2026-messaging-api-beta.md)
 - Performance tuning for mobile constraints
 - DST validation of reliability in edge mode on mobile
 
-### Verify Chat and Delivery modules on Logos Core mobile
+### [Verify Chat and Delivery modules on Logos Core mobile](https://github.com/logos-messaging/pm/issues/459)
 
 **Owner**: Delivery Team + Chat Team
 

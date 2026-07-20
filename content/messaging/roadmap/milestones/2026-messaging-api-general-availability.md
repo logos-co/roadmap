@@ -3,6 +3,7 @@ title: Messaging API — General Availability
 tags:
   - messaging-milestone
 date: 2026-07-07
+github: https://github.com/logos-messaging/pm/issues/424
 ---
 
 The [Beta](2026-messaging-api-beta.md) delivered the full API surface (Send, Health, Subscribe/Receive in core and edge mode), while allowing to use Kernel API for Store access for existing applications. General Availability makes the Messaging API production-ready: DST-validated reliability at scale, automatic recovery of messages missed while offline, built-in rate limit management and anonymity via mix integration.
@@ -22,7 +23,7 @@ The [Beta](2026-messaging-api-beta.md) delivered the full API surface (Send, Hea
 
 ## Deliverables
 
-### Reliability and scale validation with DST
+### [Reliability and scale validation with DST](https://github.com/logos-messaging/pm/issues/429)
 
 **Owner**: Delivery Team + DST
 
@@ -30,7 +31,7 @@ The Messaging API is QA-approved for production use. DST validates reliability a
 
 **Done when**: A DST test report covering reliability and scale targets is available, and QA sign-off is obtained.
 
-### Offline periods backfill
+### [Offline periods backfill](https://github.com/logos-messaging/pm/issues/430)
 
 **Owner**: Delivery Team
 
@@ -43,11 +44,11 @@ Messages missed while a node was offline are retrieved automatically on reconnec
 
 **Done when**: After an offline period, a subscribed application receives all missed messages through its existing subscription, with no additional API calls.
 
-### Create Rate Limit Manager
+### [Create Rate Limit Manager](https://github.com/logos-messaging/pm/issues/431)
 
-https://github.com/logos-messaging/pm/issues/319
+**Owner**: Delivery Team
 
-**Owner**: Chat Team
+Note: a basic implementation already exists in `logos_delivery/channels/rate_limit_manager/` (queue + epoch reset). This deliverable completes it per the FURPS below (priorities, batching, persistence).
 
 **Feature**: [Rate Limit Manager](/messaging/furps/application/rate_limit_manager.md)
 
@@ -71,7 +72,7 @@ https://github.com/logos-messaging/pm/issues/319
 - S1. Nim library.
 - +1. Nimble package manager is used to build.
 
-### Integrate Rate Limit manager
+### [Integrate Rate Limit Manager](https://github.com/logos-messaging/pm/issues/432)
 
 **Owner**: Delivery Team
 
@@ -81,7 +82,7 @@ Integrate the Rate Limit Manager (created in [Reliable Channel API — Beta](202
 
 **Done when**: The Messaging API send path enforces the rate limit with message priorities, using a single per-node quota.
 
-### Integrate Mix into Messaging API
+### [Integrate Mix into Messaging API](https://github.com/logos-messaging/pm/issues/433)
 
 **Owner**: Delivery Team
 
@@ -102,7 +103,7 @@ Behind the MessagingAPI, Mix discovery should be started when needed and Mix pro
 
 **Done when**: Messages sent through the Messaging API are routed over the mix network by default, with no application changes required.
 
-### Provide documentation on the API
+### [Provide documentation on the Messaging API](https://github.com/logos-messaging/pm/issues/434)
 
 **Owner**: Delivery Team
 

@@ -21,7 +21,7 @@ It's an open question, how edge nodes will get RLN memberships. The initial impl
 | RLN membership sponsorship model is not defined | Focus on no-sponsorship implementation first. |
 ## Deliverables
 
-### Add support for RLN proofs in LightPush
+### [Add support for RLN proofs in LightPush](https://github.com/logos-messaging/pm/issues/423)
 
 **Owner**: Delivery Team
 
@@ -33,7 +33,7 @@ This decouples lightpush from service node quota entirely for clients that have 
 
 Note that this might already be possible in `logos-delivery`, in that case it needs verification.
 
-### [Improve RLN UX by reducing contract interactions](https://github.com/waku-org/pm/issues/344)
+### [Improve RLN UX by reducing contract interactions](https://github.com/logos-messaging/pm/issues/344)
 
 **Owner**: Delivery Team
 

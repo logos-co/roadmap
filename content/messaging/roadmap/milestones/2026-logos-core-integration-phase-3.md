@@ -3,6 +3,7 @@ title: Logos Core Integration — Phase 3
 tags:
   - messaging-milestone
 date: 2026-07-07
+github: https://github.com/logos-messaging/pm/issues/421
 ---
 
 **Resources Required**:
@@ -13,7 +14,7 @@ The v0.3 stage of Logos Core integration. Building on [Phase 2](2026-logos-core-
 
 ## Deliverables
 
-### Pluggable RLN membership
+### [Pluggable RLN membership](https://github.com/logos-messaging/pm/issues/446)
 
 **Owner**: Delivery Team
 
@@ -29,19 +30,19 @@ Note that "making RLN pluggable" has different parts:
 
 **Done when**: An RLN membership backend can be swapped — including one provided by a Logos Core module — without changes to `logos-delivery` internals. Exercised by the POC below.
 
-### POC: Integrate RLN module
+### [POC: Integrate RLN module](https://github.com/logos-messaging/pm/issues/447)
 
 **Owner**: Delivery Team
 
 Proof of concept: the Delivery module obtains RLN credentials and validates proofs through the RLN membership Logos Core module (from AnonComms), instead of interacting with the blockchain directly. Validates the module interface ahead of the full integration (see deliverable below).
 
-### Delivery module uses RLN membership module
+### [Delivery module uses RLN membership module](https://github.com/logos-messaging/pm/issues/448)
 
 **Owner**: Delivery Team
 
 Logos Delivery module obtains RLN credentials and validates proofs through the RLN membership Logos Core module rather than direct blockchain interaction.
 
-### Make discovery pluggable in Logos Delivery
+### [Make discovery pluggable in Logos Delivery](https://github.com/logos-messaging/pm/issues/449)
 
 **Owner**: Delivery Team
 
@@ -49,7 +50,7 @@ Peer discovery is extracted behind a kernel discovery interface, with the embedd
 
 **Done when**: The Discovery Logos Core module can be added as a peer source (see the POC below) without kernel changes, enabling the full replacement of discv5 in [Phase 4](2026-logos-core-integration-phase-4.md).
 
-### POC: Delivery module uses Discovery module for peer discovery
+### [POC: Delivery module uses Discovery module for peer discovery](https://github.com/logos-messaging/pm/issues/389)
 
 **Owner**: Delivery Team
 
@@ -57,7 +58,7 @@ Proof of concept: the Delivery module uses the Discovery Logos Core module (from
 
 This is a POC — the full replacement of embedded discv5 happens in [Phase 4](2026-logos-core-integration-phase-4.md).
 
-### Enable QUIC in `logos.dev` and `logos.test`
+### [Enable QUIC in `logos.dev` and `logos.test`](https://github.com/logos-messaging/pm/issues/450)
 
 **Owner**: Delivery Team
 
