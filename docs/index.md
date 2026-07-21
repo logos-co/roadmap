@@ -1,21 +1,69 @@
 ---
-title: ""
+title: Welcome to Quartz 5
 ---
-This site attempts to inform the previous, current, and future work required to fulfill the requirements of the projects under the Logos Collective, a complete tech stack that provides infrastructure for the self-sovereign network state. To learn more about the motivation, please visit the [Logos Collective Site](https://logos.co).
 
-This site is an ongoing work in progress. The links within are an attempt to capture a lot of moving targets. This means that the information here may or may not be the bleeding edge of what is true with respect to the development within the Logos Collective projects. Your use of this Website is subject to the following [[terms-of-use|terms of use]] which we ask you to read carefully prior to your use of the Website. 
+Quartz is a fast, batteries-included static-site generator that transforms Markdown content into fully functional websites. Thousands of students, developers, and teachers are [[showcase|already using Quartz]] to publish personal notes, websites, and [digital gardens](https://jzhao.xyz/posts/networked-thought) to the web.
 
-## Navigation
+## 🪴 Get Started
 
-### Projects
-- [Waku](waku/index.md)
-- [Codex](codex/overview.md)
-- [Nomos](nomos)
+Quartz requires **at least [Node](https://nodejs.org/) v22** and `npm` v10.9.2 to function correctly. Ensure you have these installed on your machine before continuing. See the [[getting-started/index#Prerequisites|prerequisites]] for help installing them.
 
-### Services
-- [Vac](vac/index.md)
-- [Comms (Acid Info)](acid/index.md)
-- [[insight/index|Insight]]
+> [!tip] GitHub users
+> You can also use the **[GitHub template](https://github.com/jackyzha0/quartz/generate)** to create your repository in one click, then clone that instead. See [[installation#Option A Use the GitHub Template Recommended|Option A]] in the installation guide.
 
-### Skunk works
-- [Innovation Lab](innovation_lab/index.md)
+```shell
+# 1. Clone the Quartz repository
+git clone https://github.com/jackyzha0/quartz.git
+cd quartz
+
+# 2. Install dependencies
+npm i
+
+# 3. Initialize your site (choose a template, set your base URL, import content)
+npx quartz create
+
+# 4. Install plugins referenced by your chosen template
+npx quartz plugin install --from-config
+
+# 5. Preview your site locally
+npx quartz build --serve
+```
+
+Your site is now running at `http://localhost:8080`. From here:
+
+- **[[authoring-content|Write content]]** in the `content/` folder
+- **[[installation|Push to GitHub]]** with `npx quartz sync`
+- **[[hosting|Deploy]]** to GitHub Pages, Cloudflare, Netlify, or Vercel
+
+For the full walkthrough, see the [[getting-started/index|Getting Started]] guide.
+
+### Returning User?
+
+Already have a Quartz repository and cloning it on a new machine?
+
+```shell
+git clone https://github.com/<your-username>/<your-repo>.git
+cd <your-repo>
+npm ci
+npx quartz plugin install
+npx quartz build --serve
+```
+
+> [!tip]
+> If you hit build errors on a fresh clone, try `npx quartz plugin install --latest` to refresh plugins to their latest versions. See [[troubleshooting#Plugins fail to build on a fresh clone]] for details.
+
+## 🔧 Features
+
+- [[Obsidian compatibility]], [[full-text search]], [[graph view]], [[wikilinks|wikilinks, transclusions]], [[plugins/Backlinks]], [[features/Latex|Latex]], [[syntax highlighting]], [[popover previews]], [[Docker Support]], [[i18n|internationalization]], [[features/comments|comments]] and [many more](./features/) right out of the box
+- Hot-reload on configuration edits and incremental rebuilds for content edits
+- Simple JSX layouts and [[creating components|page components]]
+- [[SPA Routing|Ridiculously fast page loads]] and tiny bundle sizes
+- Fully-customizable parsing, filtering, and page generation through [[making plugins|plugins]]
+
+For a comprehensive list of features, visit the [features page](./features/). You can read more about the _why_ behind these features on the [[philosophy]] page and a technical overview on the [[architecture]] page.
+
+### 🚧 Troubleshooting + Updating
+
+Having trouble with Quartz? Try searching for your issue using the search feature or check the [[troubleshooting]] page. If you haven't already, [[upgrading|upgrade]] to the newest version of Quartz to see if this fixes your issue.
+
+If you're still having trouble, feel free to [submit an issue](https://github.com/jackyzha0/quartz/issues) if you feel you found a bug or ask for help in our [Discord Community](https://discord.gg/cRFFHYye7t). You can also browse the [[community]] page for third-party plugins and resources.

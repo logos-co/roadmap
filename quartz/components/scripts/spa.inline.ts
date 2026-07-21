@@ -1,9 +1,9 @@
 import micromorph from "micromorph"
-import { FullSlug, RelativeURL, getFullSlug } from "../../util/path"
+import { FullSlug, RelativeURL, getFullSlug, normalizeRelativeURLs } from "../../util/path"
+import { fetchCanonical } from "./util"
 
 // adapted from `micromorph`
 // https://github.com/natemoo-re/micromorph
-
 const NODE_TYPE_ELEMENT = 1
 let announcer = document.createElement("route-announcer")
 const isElement = (target: EventTarget | null): target is Element =>
@@ -16,6 +16,12 @@ const isLocalUrl = (href: string) => {
     }
   } catch (e) {}
   return false
+}
+
+const isSamePage = (url: URL): boolean => {
+  const sameOrigin = url.origin === window.location.origin
+  const samePath = url.pathname === window.location.pathname
+  return sameOrigin && samePath
 }
 
 const getOpts = ({ target }: Event): { url: URL; scroll?: boolean } | undefined => {
@@ -34,18 +40,60 @@ function notifyNav(url: FullSlug) {
   document.dispatchEvent(event)
 }
 
+const cleanupFns: Set<(...args: any[]) => void> = new Set()
+window.addCleanup = (fn) => cleanupFns.add(fn)
+
+function startLoading() {
+  document.querySelector(".navigation-progress")?.remove()
+  const loadingBar = document.createElement("div")
+  loadingBar.className = "navigation-progress"
+  loadingBar.style.width = "0"
+  document.body.prepend(loadingBar)
+
+  setTimeout(() => {
+    loadingBar.style.width = "80%"
+  }, 100)
+}
+
+function stopLoading() {
+  const loadingBar = document.querySelector(".navigation-progress")
+  if (loadingBar) {
+    loadingBar.remove()
+  }
+}
+
+let isNavigating = false
 let p: DOMParser
-async function navigate(url: URL, isBack: boolean = false) {
+async function _navigate(url: URL, isBack: boolean = false) {
+  isNavigating = true
+  startLoading()
   p = p || new DOMParser()
-  const contents = await fetch(`${url}`)
-    .then((res) => res.text())
+  const contents = await fetchCanonical(url)
+    .then((res) => {
+      const contentType = res.headers.get("content-type")
+      if (contentType?.startsWith("text/html")) {
+        return res.text()
+      } else {
+        window.location.assign(url)
+      }
+    })
     .catch(() => {
       window.location.assign(url)
     })
 
   if (!contents) return
 
+  // notify about to nav
+  const event: CustomEventMap["prenav"] = new CustomEvent("prenav", { detail: {} })
+  document.dispatchEvent(event)
+
+  // cleanup old
+  cleanupFns.forEach((fn) => fn())
+  cleanupFns.clear()
+
   const html = p.parseFromString(contents, "text/html")
+  normalizeRelativeURLs(html, url)
+
   let title = html.querySelector("title")?.textContent
   if (title) {
     document.title = title
@@ -59,7 +107,7 @@ async function navigate(url: URL, isBack: boolean = false) {
   announcer.dataset.persist = ""
   html.body.appendChild(announcer)
 
-  // morph body
+  document.querySelector(".navigation-progress")?.remove()
   micromorph(document.body, html.body)
 
   // scroll into place and add history
@@ -72,10 +120,10 @@ async function navigate(url: URL, isBack: boolean = false) {
     }
   }
 
-  // now, patch head
-  const elementsToRemove = document.head.querySelectorAll(":not([spa-preserve])")
+  // now, patch head, re-executing scripts
+  const elementsToRemove = document.head.querySelectorAll(":not([data-persist])")
   elementsToRemove.forEach((el) => el.remove())
-  const elementsToAdd = html.head.querySelectorAll(":not([spa-preserve])")
+  const elementsToAdd = html.head.querySelectorAll(":not([data-persist])")
   elementsToAdd.forEach((el) => document.head.appendChild(el))
 
   // delay setting the url until now
@@ -83,8 +131,23 @@ async function navigate(url: URL, isBack: boolean = false) {
   if (!isBack) {
     history.pushState({}, "", url)
   }
+
   notifyNav(getFullSlug(window))
   delete announcer.dataset.persist
+}
+
+async function navigate(url: URL, isBack: boolean = false) {
+  if (isNavigating) return
+  isNavigating = true
+  try {
+    await _navigate(url, isBack)
+  } catch (e) {
+    console.error(e)
+    window.location.assign(url)
+  } finally {
+    stopLoading()
+    isNavigating = false
+  }
 }
 
 window.spaNavigate = navigate
@@ -93,23 +156,24 @@ function createRouter() {
   if (typeof window !== "undefined") {
     window.addEventListener("click", async (event) => {
       const { url } = getOpts(event) ?? {}
+      // dont hijack behaviour, just let browser act normally
       if (!url || event.ctrlKey || event.metaKey) return
       event.preventDefault()
-      try {
-        navigate(url, false)
-      } catch (e) {
-        window.location.assign(url)
+
+      if (isSamePage(url) && url.hash) {
+        const el = document.getElementById(decodeURIComponent(url.hash.substring(1)))
+        el?.scrollIntoView()
+        history.pushState({}, "", url)
+        return
       }
+
+      navigate(url, false)
     })
 
     window.addEventListener("popstate", (event) => {
       const { url } = getOpts(event) ?? {}
       if (window.location.hash && window.location.pathname === url?.pathname) return
-      try {
-        navigate(new URL(window.location.toString()), true)
-      } catch (e) {
-        window.location.reload()
-      }
+      navigate(new URL(window.location.toString()), true)
       return
     })
   }
@@ -140,6 +204,7 @@ if (!customElements.get("route-announcer")) {
     style:
       "position: absolute; left: 0; top: 0; clip: rect(0 0 0 0); clip-path: inset(50%); overflow: hidden; white-space: nowrap; width: 1px; height: 1px",
   }
+
   customElements.define(
     "route-announcer",
     class RouteAnnouncer extends HTMLElement {

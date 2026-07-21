@@ -1,12 +1,16 @@
-import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
+import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
-function GithubMilestone({ fileData, displayClass }: QuartzComponentProps) {
-  const github = fileData.frontmatter?.github
-  if (!github) return null
+const GithubMilestone: QuartzComponent = ({ fileData, displayClass }: QuartzComponentProps) => {
+  const frontmatter = fileData.frontmatter
+  const value = frontmatter?.github ?? frontmatter?.["github-milestone"]
+
+  if (typeof value !== "string" || value.length === 0) {
+    return null
+  }
 
   return (
     <div class={`github-milestone ${displayClass ?? ""}`}>
-      <a href={github} class="github-milestone-link" target="_blank" rel="noopener noreferrer">
+      <a href={value} class="github-milestone-link" target="_blank" rel="noopener noreferrer">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 16 16"

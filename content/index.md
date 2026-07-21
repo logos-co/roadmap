@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Logos Project Roadmaps"
 ---
 This site attempts to inform the previous, current, and future work required to fulfill the requirements of Logos components.
 To learn more about the motivation, please visit the [Logos Site](https://logos.co).

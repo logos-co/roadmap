@@ -1,7 +1,7 @@
 import test, { describe } from "node:test"
 import * as path from "./path"
 import assert from "node:assert"
-import { FullSlug, TransformOptions } from "./path"
+import { FullSlug, TransformOptions, SimpleSlug } from "./path"
 
 describe("typeguards", () => {
   test("isSimpleSlug", () => {
@@ -36,6 +36,17 @@ describe("typeguards", () => {
     assert(!path.isRelativeURL(""))
     assert(!path.isRelativeURL("./abc/def.html"))
     assert(!path.isRelativeURL("./abc/def.md"))
+  })
+
+  test("isAbsoluteURL", () => {
+    assert(path.isAbsoluteURL("https://example.com"))
+    assert(path.isAbsoluteURL("http://example.com"))
+    assert(path.isAbsoluteURL("ftp://example.com/a/b/c"))
+    assert(path.isAbsoluteURL("http://host/%25"))
+    assert(path.isAbsoluteURL("file://host/twoslashes?more//slashes"))
+
+    assert(!path.isAbsoluteURL("example.com/abc/def"))
+    assert(!path.isAbsoluteURL("abc"))
   })
 
   test("isFullSlug", () => {
@@ -83,7 +94,7 @@ describe("transforms", () => {
   test("simplifySlug", () => {
     asserts(
       [
-        ["index", ""],
+        ["index", "/"],
         ["abc", "abc"],
         ["abc/index", "abc/"],
         ["abc/def", "abc/def"],
@@ -105,11 +116,37 @@ describe("transforms", () => {
         ["index.md", "index"],
         ["test.mp4", "test.mp4"],
         ["note with spaces.md", "note-with-spaces"],
+        ["notes.with.dots.md", "notes.with.dots"],
+        ["test/special chars?.md", "test/special-chars"],
+        ["test/special chars #3.md", "test/special-chars-3"],
+        ["cool/what about r&d?.md", "cool/what-about-r-and-d"],
+        // Obsidian "Folder Notes" convention: folder/folder.md is the folder's landing page
+        ["characters/characters.md", "characters/index"],
+        ["fiction/books/books.md", "fiction/books/index"],
+        ["a/a/a.md", "a/a/index"],
+        // Top-level single-segment: NOT rewritten (parentFolder storage, out of scope)
+        ["characters.md", "characters"],
+        // Non-matching last two segments: no rewrite
+        ["characters/alice.md", "characters/alice"],
+        ["characters/sub/characters.md", "characters/sub/characters"],
+        // Folder literally named "index" is unaffected by the rewrite
+        ["index/index.md", "index/index"],
+        ["docs/index/index.md", "docs/index/index"],
       ],
       path.slugifyFilePath,
       path.isFilePath,
       path.isFullSlug,
     )
+  })
+
+  test("slugifyFilePath + simplifySlug end-to-end canonicalization", () => {
+    // Both folder-note conventions must produce identical user-facing URLs.
+    const indexStyle = path.simplifySlug(path.slugifyFilePath("characters/index.md" as any))
+    const folderNameStyle = path.simplifySlug(
+      path.slugifyFilePath("characters/characters.md" as any),
+    )
+    assert.strictEqual(indexStyle, folderNameStyle)
+    assert.strictEqual(indexStyle, "characters/")
   })
 
   test("transformInternalLink", () => {
@@ -133,6 +170,15 @@ describe("transforms", () => {
         ["content/with spaces", "./content/with-spaces"],
         ["content/with spaces/index", "./content/with-spaces/"],
         ["content/with spaces#and Anchor!", "./content/with-spaces#and-anchor"],
+        // Folder note convention: same-name parent triggers /index rewrite → folder path
+        ["characters/characters", "./characters/"],
+        ["My Folder/My Folder", "./my-folder/"],
+        ["a/b/c/d/d", "./a/b/c/d/"],
+        ["My Folder/My Folder#heading", "./my-folder/#heading"],
+        // Non-matching last segments: no folder rewrite
+        ["characters/alice", "./characters/alice"],
+        // Percent-encoded spaces
+        ["My%20Folder/My%20Note", "./my-folder/my-note"],
       ],
       path.transformInternalLink,
       (_x: string): _x is string => true,
@@ -153,6 +199,29 @@ describe("transforms", () => {
       path.isFullSlug,
       path.isRelativeURL,
     )
+  })
+
+  test("joinSegments", () => {
+    assert.strictEqual(path.joinSegments("a", "b"), "a/b")
+    assert.strictEqual(path.joinSegments("a/", "b"), "a/b")
+    assert.strictEqual(path.joinSegments("a", "b/"), "a/b/")
+    assert.strictEqual(path.joinSegments("a/", "b/"), "a/b/")
+
+    // preserve leading and trailing slashes
+    assert.strictEqual(path.joinSegments("/a", "b"), "/a/b")
+    assert.strictEqual(path.joinSegments("/a/", "b"), "/a/b")
+    assert.strictEqual(path.joinSegments("/a", "b/"), "/a/b/")
+    assert.strictEqual(path.joinSegments("/a/", "b/"), "/a/b/")
+
+    // lone slash
+    assert.strictEqual(path.joinSegments("/a/", "b", "/"), "/a/b/")
+    assert.strictEqual(path.joinSegments("a/", "b" + "/"), "a/b/")
+
+    // works with protocol specifiers
+    assert.strictEqual(path.joinSegments("https://example.com", "a"), "https://example.com/a")
+    assert.strictEqual(path.joinSegments("https://example.com/", "a"), "https://example.com/a")
+    assert.strictEqual(path.joinSegments("https://example.com", "a/"), "https://example.com/a/")
+    assert.strictEqual(path.joinSegments("https://example.com/", "a/"), "https://example.com/a/")
   })
 })
 
@@ -274,5 +343,52 @@ describe("link strategies", () => {
       assert.strictEqual(path.transformLink(cur, "e/g/h", opts), "./e/g/h")
       assert.strictEqual(path.transformLink(cur, "a/b/index", opts), "./a/b/")
     })
+  })
+})
+
+describe("resolveRelative", () => {
+  test("from index", () => {
+    assert.strictEqual(path.resolveRelative("index" as FullSlug, "index" as FullSlug), "./")
+    assert.strictEqual(path.resolveRelative("index" as FullSlug, "abc" as FullSlug), "./abc")
+    assert.strictEqual(
+      path.resolveRelative("index" as FullSlug, "abc/def" as FullSlug),
+      "./abc/def",
+    )
+    assert.strictEqual(
+      path.resolveRelative("index" as FullSlug, "abc/def/ghi" as FullSlug),
+      "./abc/def/ghi",
+    )
+  })
+
+  test("from nested page", () => {
+    assert.strictEqual(path.resolveRelative("abc/def" as FullSlug, "index" as FullSlug), "../")
+    assert.strictEqual(path.resolveRelative("abc/def" as FullSlug, "abc" as FullSlug), "../abc")
+    assert.strictEqual(
+      path.resolveRelative("abc/def" as FullSlug, "abc/def" as FullSlug),
+      "../abc/def",
+    )
+    assert.strictEqual(
+      path.resolveRelative("abc/def" as FullSlug, "ghi/jkl" as FullSlug),
+      "../ghi/jkl",
+    )
+  })
+
+  test("with index paths", () => {
+    assert.strictEqual(path.resolveRelative("abc/index" as FullSlug, "index" as FullSlug), "../")
+    assert.strictEqual(
+      path.resolveRelative("abc/def/index" as FullSlug, "index" as FullSlug),
+      "../../",
+    )
+    assert.strictEqual(path.resolveRelative("index" as FullSlug, "abc/index" as FullSlug), "./abc/")
+    assert.strictEqual(
+      path.resolveRelative("abc/def" as FullSlug, "abc/index" as FullSlug),
+      "../abc/",
+    )
+  })
+
+  test("with simple slugs", () => {
+    assert.strictEqual(path.resolveRelative("abc/def" as FullSlug, "" as SimpleSlug), "../")
+    assert.strictEqual(path.resolveRelative("abc/def" as FullSlug, "ghi" as SimpleSlug), "../ghi")
+    assert.strictEqual(path.resolveRelative("abc/def" as FullSlug, "ghi/" as SimpleSlug), "../ghi/")
   })
 })

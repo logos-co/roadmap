@@ -1,68 +1,64 @@
-import { FullSlug, resolveRelative } from "../util/path"
+import { FullSlug, isFolderPath, resolveRelative } from "../util/path"
 import { QuartzPluginData } from "../plugins/vfile"
-import { Date as DateComponent, getDate } from "./Date"
-import { QuartzComponentProps } from "./types"
-import { GlobalConfiguration } from "../cfg"
+import { Date, getDate } from "./Date"
+import { QuartzComponent, QuartzComponentProps } from "./types"
 
-function extractDateFromTitle(title: string): Date | null {
-  // Extract an ISO date anywhere in the title, e.g., "2025-07-28 Waku Weekly"
-  const match = title.match(/(\d{4}-\d{2}-\d{2})/)
-  if (match && match[1]) {
-    const d = new globalThis.Date(match[1])
-    return isNaN(d.getTime()) ? null : d
-  }
-  return null
-}
+export type SortFn = (f1: QuartzPluginData, f2: QuartzPluginData) => number
 
-function extractDateFromSlug(slug?: string): Date | null {
-  if (!slug) return null
-  const match = slug.match(/(\d{4}-\d{2}-\d{2})/)
-  if (!match) return null
-  const d = new globalThis.Date(match[1])
-  return isNaN(d.getTime()) ? null : d
-}
-
-export function byDateAndAlphabetical(
-  cfg: GlobalConfiguration,
-): (f1: QuartzPluginData, f2: QuartzPluginData) => number {
-  const getComparableDate = (file: QuartzPluginData): Date | null => {
-    console.log("Getting comparable date for file:", file.frontmatter?.title, file.dates)
-    return (
-      file.dates?.created ??
-      file.dates?.published ??
-      extractDateFromTitle(file.frontmatter?.title ?? "") ??
-      extractDateFromSlug(file.slug) ??
-      getDate(cfg, file)
-    )
-  }
-
+export function byDateAndAlphabetical(): SortFn {
   return (f1, f2) => {
-    const f1Date = getComparableDate(f1)
-    const f2Date = getComparableDate(f2)
-
-    // If both have dates, sort by date descending (newest first)
-    if (f1Date && f2Date) {
-      return f2Date.getTime() - f1Date.getTime()
-    } else if (f1Date && !f2Date) {
-      // Prioritize files with dates
+    // Sort by date/alphabetical
+    if (f1.dates && f2.dates) {
+      // sort descending
+      return getDate(f2)!.getTime() - getDate(f1)!.getTime()
+    } else if (f1.dates && !f2.dates) {
+      // prioritize files with dates
       return -1
-    } else if (!f1Date && f2Date) {
+    } else if (!f1.dates && f2.dates) {
       return 1
     }
 
-    // Otherwise, sort lexicographically by title
-    const f1Title = f1.frontmatter?.title ?? ""
-    const f2Title = f2.frontmatter?.title ?? ""
-    return f1Title.localeCompare(f2Title, undefined, { numeric: true, sensitivity: "base" })
+    // otherwise, sort lexographically by title
+    const f1Title = f1.frontmatter?.title.toLowerCase() ?? ""
+    const f2Title = f2.frontmatter?.title.toLowerCase() ?? ""
+    return f1Title.localeCompare(f2Title)
+  }
+}
+
+export function byDateAndAlphabeticalFolderFirst(): SortFn {
+  return (f1, f2) => {
+    // Sort folders first
+    const f1IsFolder = isFolderPath(f1.slug ?? "")
+    const f2IsFolder = isFolderPath(f2.slug ?? "")
+    if (f1IsFolder && !f2IsFolder) return -1
+    if (!f1IsFolder && f2IsFolder) return 1
+
+    // If both are folders or both are files, sort by date/alphabetical
+    if (f1.dates && f2.dates) {
+      // sort descending
+      return getDate(f2)!.getTime() - getDate(f1)!.getTime()
+    } else if (f1.dates && !f2.dates) {
+      // prioritize files with dates
+      return -1
+    } else if (!f1.dates && f2.dates) {
+      return 1
+    }
+
+    // otherwise, sort lexographically by title
+    const f1Title = f1.frontmatter?.title.toLowerCase() ?? ""
+    const f2Title = f2.frontmatter?.title.toLowerCase() ?? ""
+    return f1Title.localeCompare(f2Title)
   }
 }
 
 type Props = {
   limit?: number
+  sort?: SortFn
 } & QuartzComponentProps
 
-export function PageList({ cfg, fileData, allFiles, limit }: Props) {
-  let list = [...allFiles].sort(byDateAndAlphabetical(cfg))
+export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, sort }: Props) => {
+  const sorter = sort ?? byDateAndAlphabeticalFolderFirst()
+  let list = allFiles.sort(sorter)
   if (limit) {
     list = list.slice(0, limit)
   }
@@ -76,14 +72,13 @@ export function PageList({ cfg, fileData, allFiles, limit }: Props) {
         return (
           <li class="section-li">
             <div class="section">
-              {page.dates && (
-                <p class="meta">
-                  <DateComponent date={getDate(cfg, page)!} />
-                </p>
-              )}
+              <p class="meta">{page.dates && <Date date={getDate(page)!} locale={cfg.locale} />}</p>
               <div class="desc">
                 <h3>
-                  <a href={resolveRelative(fileData.slug!, page.slug!)} class="internal">
+                  <a
+                    href={resolveRelative(fileData.slug!, page.slug!)}
+                    class="internal internal-link"
+                  >
                     {title}
                   </a>
                 </h3>
@@ -95,7 +90,7 @@ export function PageList({ cfg, fileData, allFiles, limit }: Props) {
                       class="internal tag-link"
                       href={resolveRelative(fileData.slug!, `tags/${tag}` as FullSlug)}
                     >
-                      #{tag}
+                      {tag}
                     </a>
                   </li>
                 ))}

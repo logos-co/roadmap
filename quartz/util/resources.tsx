@@ -1,5 +1,6 @@
 import { randomUUID } from "crypto"
 import { JSX } from "preact/jsx-runtime"
+import { QuartzPluginData } from "../plugins/vfile"
 
 export type JSResource = {
   loadTime: "beforeDOMReady" | "afterDOMReady"
@@ -16,24 +17,66 @@ export type JSResource = {
     }
 )
 
+export type CSSResource = {
+  content: string
+  inline?: boolean
+  spaPreserve?: boolean
+}
+
 export function JSResourceToScriptElement(resource: JSResource, preserve?: boolean): JSX.Element {
   const scriptType = resource.moduleType ?? "application/javascript"
   const spaPreserve = preserve ?? resource.spaPreserve
+
   if (resource.contentType === "external") {
     return (
-      <script key={resource.src} src={resource.src} type={scriptType} spa-preserve={spaPreserve} />
+      <script key={resource.src} src={resource.src} type={scriptType} data-persist={spaPreserve} />
     )
   } else {
     const content = resource.script
     return (
-      <script key={randomUUID()} type={scriptType} spa-preserve={spaPreserve}>
-        {content}
-      </script>
+      <script
+        key={randomUUID()}
+        type={scriptType}
+        data-persist={spaPreserve}
+        dangerouslySetInnerHTML={{ __html: content }}
+      ></script>
+    )
+  }
+}
+
+export function CSSResourceToStyleElement(resource: CSSResource, preserve?: boolean): JSX.Element {
+  const spaPreserve = preserve ?? resource.spaPreserve
+  if (resource.inline ?? false) {
+    return <style dangerouslySetInnerHTML={{ __html: resource.content }} />
+  } else {
+    return (
+      <link
+        key={resource.content}
+        href={resource.content}
+        rel="stylesheet"
+        type="text/css"
+        data-persist={spaPreserve}
+      />
     )
   }
 }
 
 export interface StaticResources {
-  css: string[]
+  css: CSSResource[]
   js: JSResource[]
+  additionalHead: (JSX.Element | ((pageData: QuartzPluginData) => JSX.Element))[]
+}
+
+export type StringResource = string | string[] | undefined
+
+export function normalizeResource(resource: StringResource): string[] {
+  if (!resource) return []
+  if (Array.isArray(resource)) return resource
+  return [resource]
+}
+
+export function concatenateResources(...resources: StringResource[]): StringResource {
+  return resources
+    .filter((resource): resource is string | string[] => resource !== undefined)
+    .flat()
 }
