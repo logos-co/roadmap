@@ -25,7 +25,7 @@ Note: `libchat` is a Rust library and does not use Nimble.
 - CI/CD updated accordingly
 - Nix flake integration with Nimble
 
-### Migrate logos-chat to Nimble
+### [Migrate logos-chat to Nimble](https://github.com/logos-messaging/logos-chat/issues/31)
 
 **Owner**: Chat Team
 

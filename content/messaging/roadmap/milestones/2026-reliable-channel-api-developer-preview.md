@@ -32,7 +32,7 @@ This milestone focuses on forming the API and delivering a pre-configured SDS ex
 
 ## Deliverables
 
-### Deliver Reliable Channel API
+### [Deliver Reliable Channel API](https://github.com/logos-messaging/pm/issues/412)
 
 **Owner**: Delivery Team
 
@@ -54,7 +54,7 @@ This milestone focuses on forming the API and delivering a pre-configured SDS ex
 
 Note: No segmentation or rate limit manager in this milestone. SDS messages cached locally.
 
-### Implement SDS Repair
+### [Implement SDS Repair](https://github.com/logos-messaging/pm/issues/413)
 
 **Owner**: Delivery Team
 

@@ -35,7 +35,7 @@ A `logos.dev` fleet is deployed for testnet operations.
 
 ## Deliverables
 
-### Implement a Chat module for Logos Core
+### [Implement a Chat module for Logos Core](https://github.com/logos-messaging/pm/issues/373)
 
 **Owner**: Chat Team
 
@@ -47,7 +47,7 @@ A `logos.dev` fleet is deployed for testnet operations.
 - RLN is ignored/disabled.
 - Developer-facing documentation: API reference, getting started guide, and example application walkthrough.
 
-### Implement a Delivery module for Logos Core
+### [Implement a Delivery module for Logos Core](https://github.com/logos-messaging/pm/issues/374)
 
 https://github.com/logos-messaging/pm/issues/374
 
@@ -59,7 +59,7 @@ https://github.com/logos-messaging/pm/issues/374
 - Logos Delivery module exposes API for running a Delivery Node.
 - Developer-facing documentation: API reference, getting started guide, and example application walkthrough.
 
-### Deploy required fleets for Testnet
+### [Deploy required fleets for Testnet](https://github.com/logos-messaging/pm/issues/386)
 
 **Owner**: Delivery Team
 
