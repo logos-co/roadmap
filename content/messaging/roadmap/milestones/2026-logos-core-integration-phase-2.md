@@ -34,7 +34,7 @@ Integration tests are defined by the Messaging team and implemented by IFT-TS.
 
 ## Deliverables
 
-### Integrate Chat and Delivery Logos Core modules
+### [Integrate Chat and Delivery Logos Core modules](https://github.com/logos-messaging/pm/issues/387)
 
 **Owner**: Chat Team
 
@@ -56,13 +56,13 @@ Chat should be prepared to use Messaging API first, and switch to Reliable Chann
 
 The Chat module API is extended to expose group chat functionality (create group, send group message, manage members) and identity (manage installations).
 
-### Add Reliable Channel API to Logos Core Delivery module
+### [Add Reliable Channel API to Logos Core Delivery module](https://github.com/logos-messaging/pm/issues/388)
 
 **Owner**: Delivery Team
 
 When the [Reliable Channel API — Developer Preview](2026-reliable-channel-api-developer-preview.md) is ready, the Delivery Logos Core module is updated to expose it alongside the Messaging API. Chat module switches to using Reliable Channel API for message delivery.
 
-### Build Logos Core demo app in QML
+### [Build Logos Core demo app in QML](https://github.com/logos-messaging/pm/issues/390)
 
 **Owner**: Chat Team
 
@@ -71,7 +71,7 @@ A single Logos Core application implemented in QML (replacing the v0.1 Qt widget
 - Supports identity (user with multiple installations, add/remove devices)
 - Uses the Chat and Delivery Logos Core modules through their APIs
 
-### Implement integration tests for Messaging modules
+### [Implement integration tests for Messaging modules](https://github.com/logos-messaging/pm/issues/391)
 
 **Owner**: Messaging Team (definition) + IFT-TS (implementation)
 
