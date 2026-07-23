@@ -28,10 +28,11 @@ In addition, the team is also working on the following post-mainnet features:
 
 ### Testnet [v0.2](v02)
 
-- [ ] [[v0.2-filesharing | Scalable, Simple Filesharing v0.2 Deliverables]]
-- [ ] [[v0.2-privacy-preserving-filesharing | Privacy-Preserving Filesharing v0.2 Deliverables]]
-- [ ] [[v0.2-logos-core-integration | Logos Core Integration v0.2 Deliverables]]
+- [x] [[v0.2-filesharing | Scalable, Simple Filesharing v0.2 Deliverables]]
+- [x] [[v0.2-privacy-preserving-filesharing | Privacy-Preserving Filesharing v0.2 Deliverables]]
+- [x] [[v0.2-logos-core-integration | Logos Core Integration v0.2 Deliverables]]
 
 ### Testnet [v0.3](v03)
 
 - [ ] [[v0.3-privacy-preserving-filesharing | Privacy-Preserving Filesharing v0.3 Deliverables]]
+- [ ] [[v0.3-logos-core-integration | Logos Core Integration v0.3 Deliverables]]
