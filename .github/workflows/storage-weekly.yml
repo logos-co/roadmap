@@ -12,7 +12,7 @@ on:
   workflow_dispatch:
     inputs:
       dry_run:
-        description: Skip the git push and HackMD note creation
+        description: "Dry run: skips git push (last week's weekly into new branch) and new HackMD weekly creation"
         type: boolean
         default: false
   repository_dispatch:
