@@ -1,0 +1,49 @@
+name: Storage weekly
+
+# Dispatched by the "Logos storage weekly update" claude.ai routine (Tue 22:00 UTC),
+# which then polls this run and writes the Highlights bullets onto the pushed branch.
+# See .github/storage-weekly-routine.md for the routine's prompt.
+#
+# Manual test:  Actions → Storage weekly → Run workflow (dry_run = true)
+# Fallback dispatch (no actions:write needed):
+#   POST /repos/emizzle/roadmap/dispatches  {"event_type":"storage-weekly"}
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: Skip the git push and HackMD note creation
+        type: boolean
+        default: false
+  repository_dispatch:
+    types: [storage-weekly]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: storage-weekly
+  cancel-in-progress: false
+
+jobs:
+  storage-weekly:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Unit tests
+        run: node --test .github/scripts/storage-weekly.test.mjs
+
+      - name: Run storage weekly update
+        run: node .github/scripts/storage-weekly.mjs
+        env:
+          HACKMD_TOKEN: ${{ secrets.HACKMD_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # NB: inputs.dry_run is a real boolean on workflow_dispatch; on
+          # repository_dispatch it comes from client_payload. The == true guard
+          # avoids `false || x` falling through to x.
+          DRY_RUN: ${{ (github.event_name == 'workflow_dispatch' && inputs.dry_run == true) || (github.event_name == 'repository_dispatch' && github.event.client_payload.dry_run == true) }}
