@@ -30,7 +30,7 @@ Also deprecates store hash queries as they enable linkability of participants in
 
 ## Deliverables
 
-### Create Segmentation Library
+### [Create Segmentation Library](https://github.com/logos-messaging/pm/issues/318)
 
 https://github.com/logos-messaging/pm/issues/318
 

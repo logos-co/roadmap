@@ -53,7 +53,7 @@ Group chat features will be limited at this stage and extended with further mile
 
 Installation-related FURPS (F1, F2, F5, F6, +PRIV2) moved to [Installation management](2026-chat-beta#installation-management) in Chat — Beta.
 
-### Implement simple identity model
+### [Implement simple identity model](https://github.com/logos-messaging/pm/issues/465)
 
 **Owner**: Chat Team
 
@@ -61,7 +61,7 @@ Installation-related FURPS (F1, F2, F5, F6, +PRIV2) moved to [Installation manag
 - Basic association between installations belonging to the same user
 - Basic key rotation: ability to add/remove installations
 
-### Implement contact discovery
+### [Implement contact discovery](https://github.com/logos-messaging/pm/issues/466)
 
 **Owner**: Chat Team
 
@@ -70,7 +70,7 @@ Current agreement is to use on-chain storage.
 
 > [!WARNING] Risk
 > Requires research into whether Logos Blockchain supports the needed functionality by this timeline. Fallback is to continue with out-of-band sharing.
-### Remove unnecessary Nim shim from Logos Chat
+### [Remove unnecessary Nim shim from Logos Chat](https://github.com/logos-messaging/pm/issues/467)
 
 **Owner**: Chat Team
 
