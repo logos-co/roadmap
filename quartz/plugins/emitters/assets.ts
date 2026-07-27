@@ -27,10 +27,24 @@ const filesToCopy = async (argv: Argv, cfg: QuartzConfig, excludeExtensions: Set
   return await glob("**", argv.directory, excludePatterns)
 }
 
+export const assetOutputPath = (fp: FilePath): FilePath => {
+  const name = slugifyFilePath(fp)
+  const sourceExtension = path.extname(fp)
+
+  // slugifyFilePath intentionally removes HTML extensions for page slugs.
+  // Assets are copied verbatim, so retain an extension that slugification removed
+  // to ensure static servers send the correct content type.
+  if (sourceExtension !== "" && path.extname(name) === "") {
+    return `${name}${sourceExtension}` as FilePath
+  }
+
+  return name as unknown as FilePath
+}
+
 const copyFile = async (argv: Argv, fp: FilePath) => {
   const src = joinSegments(argv.directory, fp) as FilePath
 
-  const name = slugifyFilePath(fp)
+  const name = assetOutputPath(fp)
   const dest = joinSegments(argv.output, name) as FilePath
 
   const dir = path.dirname(dest) as FilePath
