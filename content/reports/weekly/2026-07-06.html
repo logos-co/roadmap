@@ -532,16 +532,16 @@
 
       <div class="stats-bar">
         <div class="stat">
-          <div class="stat-value">3</div>
+          <div class="stat-value">4</div>
           <div class="stat-label">Teams Reporting</div>
         </div>
         <div class="stat">
-          <div class="stat-value">80+</div>
+          <div class="stat-value">85+</div>
           <div class="stat-label">PRs &amp; Updates</div>
         </div>
       </div>
 
-      <p style="text-align:center; color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 1.5rem;">Note: AnonComms, Messaging, and Blockchain have reported. Storage and Logos Core sections will be added as their updates land.</p>
+      <p style="text-align:center; color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 1.5rem;">Note: AnonComms, Messaging, Blockchain, and Storage have reported. Logos Core section will be added as its update lands.</p>
 
       <section class="highlights-section">
         <h2>Key Highlights</h2>
@@ -578,6 +578,14 @@
             <div class="team">Blockchain</div>
             <p>Post-quantum Blend candidates document finalized with Raspberry Pi 5 and Apple M3 benchmarks published; cross-zone messaging browser demo opened for review.</p>
           </div>
+          <div class="highlight-card storage">
+            <div class="team">Storage</div>
+            <p><strong>Maintenance releases for Logos Storage Module and UI v2.0.1</strong>, shipping support for DHT queries over mix &mdash; completing the round of deliverables for the Logos v0.2 testnet.</p>
+          </div>
+          <div class="highlight-card storage">
+            <div class="team">Storage</div>
+            <p>Studied Tor's <code>guard</code> and <code>vanguard</code> specs and experimented with the guard approach over mix, building understanding of the malicious-path problem for hidden services.</p>
+          </div>
         </div>
       </section>
 
@@ -593,6 +601,7 @@
         <button class="tab messaging active" data-team="messaging">Messaging</button>
         <button class="tab blockchain" data-team="blockchain">Blockchain</button>
         <button class="tab anoncomms" data-team="anoncomms">AnonComms</button>
+        <button class="tab storage" data-team="storage">Storage</button>
       </div>
 
       <!-- ================================================================
@@ -1223,6 +1232,54 @@
                   <li>Address PR12 review comments and continue on PR13</li>
                   <li>Keep reviewing PRs</li>
                   <li>Continue POC upgrade and testing</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ================================================================
+             STORAGE
+             ================================================================ -->
+      <div class="team-content" id="storage">
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3><a href="https://github.com/logos-storage/logos-storage-nim/milestone/10">Integration with Logos Core</a></h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>Testnet maintenance release</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li><strong>New testnet release (Storage/UI v2.0.1)</strong>:
+                    <ul>
+                      <li><a href="https://github.com/logos-co/logos-storage-module/releases/tag/v2.0.1">logos-storage-module@2.0.1</a></li>
+                      <li><a href="https://github.com/logos-co/logos-storage-ui/releases/tag/v2.0.1">logos-storage-ui@2.0.1</a> &mdash; ships support for DHT queries over mix</li>
+                    </ul>
+                  </li>
+                  <li>Together with what was released <a href="./2026-06-29.html">last week</a>, this completes the round of deliverables for the Logos v0.2 testnet</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3><a href="https://github.com/logos-storage/logos-storage-pm/issues/20">Hidden Services Over Mix</a></h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>Malicious-path research</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Studied the <a href="https://spec.torproject.org/guard-spec/index.html">guard</a> and <a href="https://spec.torproject.org/vanguards-spec/">vanguard</a> specs that Tor uses to get a better understanding of the malicious-path problem</li>
+                  <li>Experimented with the guard approach over mix as described in the <a href="https://dl.acm.org/doi/pdf/10.1145/3564625.3567996">paper</a></li>
                 </ul>
               </div>
             </div>
