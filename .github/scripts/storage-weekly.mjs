@@ -361,6 +361,17 @@ async function main() {
 
   const fileContent = buildUpdateFile(facts, noteBody(note.content), sourceUrl);
   git('fetch', `https://github.com/${UPSTREAM}.git`, BASE_BRANCH);
+  // Guard: the update may already be merged upstream (branch deleted, PR closed) —
+  // e.g. a manual re-run after the weekly PR landed. Don't propose a duplicate.
+  let alreadyPublished = true;
+  try {
+    git('cat-file', '-e', `FETCH_HEAD:${UPDATES_DIR}/${r.fileName}`);
+  } catch {
+    alreadyPublished = false;
+  }
+  if (alreadyPublished) {
+    stop('stopped:already-published', `\`${UPDATES_DIR}/${r.fileName}\` already exists on ${UPSTREAM} \`${BASE_BRANCH}\` — week ${r.week}'s update has been published.`);
+  }
   git('checkout', '-B', r.branch, 'FETCH_HEAD');
   mkdirSync(UPDATES_DIR, { recursive: true });
   const filePath = `${UPDATES_DIR}/${r.fileName}`;
