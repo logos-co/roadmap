@@ -1,0 +1,1 @@
+@layer quartz-base{.tags{flex-wrap:wrap;gap:.4rem;margin:1rem 0;padding-left:0;list-style:none;display:flex}.section-li>.section>.tags{justify-content:flex-end}.tags>li{white-space:nowrap;overflow-wrap:normal;margin:0;display:inline-block}a.internal.tag-link{background-color:var(--highlight);border-radius:8px;margin:0 .1rem;padding:.2rem .4rem}}
