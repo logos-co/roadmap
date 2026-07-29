@@ -1,6 +1,6 @@
 /**
  * Unit tests for the deterministic parts of storage-weekly.mjs.
- * Run with:  node --test .github/scripts/
+ * Run with:  node --test .github/scripts/storage-weekly.test.mjs
  * Golden cases come verbatim from the original routine's examples.
  */
 import { test } from 'node:test';
@@ -12,6 +12,7 @@ import {
   normalizeLabels,
   noteBody,
   stripHighlights,
+  stripEmptySections,
   buildUpdateFile,
   buildSkeleton,
   findNoteByTitle,
@@ -135,6 +136,68 @@ test('noteBody drops frontmatter and the week heading, stripHighlights removes t
   assert.ok(!body.includes('Week 29'));
   assert.ok(!body.includes('old bullet'));
   assert.ok(body.startsWith('### [Section](url)'));
+});
+
+// --- Empty sections --------------------------------------------------------
+
+// Verbatim from the routine's examples: the first reports nothing, the second does.
+const EMPTY_SECTION = `### [Integration with Logos Core](https://github.com/logos-storage/logos-storage-nim/milestone/10)
+
+- **achieved:**
+- **next:**
+`;
+const FILLED_SECTION = `### [Anonymous DHT Queries](https://github.com/logos-storage/logos-storage-pm/issues/3)
+
+- **achieved:**
+- **next:**
+    - Evaluate replacing discv5 DHT with libp2p Kademlia DHT
+`;
+
+test('stripEmptySections: drops the label-only section, keeps the one with a sub-bullet', () => {
+  const out = stripEmptySections(`${EMPTY_SECTION}\n${FILLED_SECTION}`);
+  assert.ok(!out.includes('Integration with Logos Core'));
+  assert.ok(out.includes('Evaluate replacing discv5 DHT'));
+  assert.ok(out.startsWith('### [Anonymous DHT Queries]'));
+});
+
+test('stripEmptySections: an empty last section has no following heading to stop at', () => {
+  const out = stripEmptySections(`${FILLED_SECTION}\n${EMPTY_SECTION}`);
+  assert.ok(!out.includes('Integration with Logos Core'));
+  assert.ok(out.includes('Evaluate replacing discv5 DHT'));
+});
+
+test('stripEmptySections: no empty sections → byte-identical passthrough', () => {
+  const input = `${FILLED_SECTION}\n\n\n${FILLED_SECTION}`;
+  assert.equal(stripEmptySections(input), input);
+});
+
+test('stripEmptySections: one-sided and heading-only sections also count as empty', () => {
+  const out = stripEmptySections(
+    `### [Only a label](u1)\n\n- **next**\n\n### [Nothing at all](u2)\n\n${FILLED_SECTION}`
+  );
+  assert.ok(!out.includes('Only a label'));
+  assert.ok(!out.includes('Nothing at all'));
+  assert.ok(out.includes('Anonymous DHT Queries'));
+});
+
+test('stripEmptySections: content that is not a sub-bullet keeps the section', () => {
+  const prose = '### [Prose section](u)\n\n- **achieved:**\n- **next:**\n\nBlocked on review.\n';
+  assert.equal(stripEmptySections(prose), prose);
+  const sub = '### [Sub-heading section](u)\n\n- **achieved:**\n\n#### Detail\n';
+  assert.equal(stripEmptySections(sub), sub);
+});
+
+test('stripEmptySections: tolerates CRLF line endings from the HackMD API', () => {
+  const out = stripEmptySections(`${EMPTY_SECTION}\n${FILLED_SECTION}`.replace(/\n/g, '\r\n'));
+  assert.ok(!out.includes('Integration with Logos Core'));
+});
+
+test('buildUpdateFile: drops empty sections from the generated file', () => {
+  const facts = weekFacts(new Date('2026-07-21T22:00:00Z'));
+  const out = buildUpdateFile(facts, `${EMPTY_SECTION}\n${FILLED_SECTION}`, 'https://hackmd.io/xyz');
+  assert.ok(!out.includes('Integration with Logos Core'));
+  assert.ok(out.includes('Evaluate replacing discv5 DHT'));
+  assert.ok(out.includes('### Highlights'), 'the generated Highlights section survives');
 });
 
 test('buildUpdateFile: frontmatter, regenerated heading, pending-highlights marker', () => {
