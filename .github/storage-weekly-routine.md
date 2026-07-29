@@ -41,9 +41,10 @@ Poll for completion, up to 20 minutes:
 Failure handling:
 - If the run completed with conclusion `failure`, the script stopped on a guard. Its log
   contains a status line — one of `stopped:note-not-found`, `stopped:empty-note`,
-  `stopped:duplicate-branch`, `stopped:duplicate-pr`, or `error`. Relay it and STOP.
-  These are expected outcomes, not bugs: e.g. `stopped:empty-note` means the team has not
-  filled in the note yet.
+  `stopped:duplicate-branch`, `stopped:duplicate-pr`, `stopped:already-published`, or
+  `error`. Relay it and STOP. These are expected outcomes, not bugs: e.g.
+  `stopped:empty-note` means the team has not filled in the note yet, and
+  `stopped:already-published` means this week's update is already merged upstream.
 - If you cannot read run status AND the branch has not appeared after 20 minutes, report
   that the outcome is unknown and link to
   https://github.com/emizzle/roadmap/actions/workflows/storage-weekly.yml — then STOP.
