@@ -15,6 +15,7 @@ tags: testnet
 - **L1 fee markets are live**: Inscriptions now require transaction fees, enabling token economics. (LEZ transactions remain free for now.)
 - **Scalable bootstrapping**: Initial Block Download (IBD) has been redesigned to use a BitTorrent-like distribution model. Trusted peers pin the target chain tip, while the rest of the network seeds the chain history.
 - **PoS participation for bridged funds**: Channel balances are now backed by UTXOs, allowing bridged funds to continue participating in PPoS.
+    - *note*: Withdrawals from LEZ will be temporarily disabled until LEZ is updated to support the new UTXO based channel ledger. This will happen soon after the testet release; stay tuned.
 
 ## Storage
 
