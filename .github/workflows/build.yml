@@ -2,9 +2,9 @@ name: Verify Build
 
 on:
   push:
-    branches: [ v4 ]
+    branches: [v4, v5]
   pull_request:
-    branches: [ v4 ]
+    branches: [v4, v5]
 
 jobs:
   build:
@@ -15,11 +15,13 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 18.x
-          cache: 'npm'
+          node-version-file: .node-version
+          cache: "npm"
 
       - name: Install dependencies
-        run: npm ci
+        run: |
+          npm ci
+          npx quartz plugin install
 
       - name: Build project
         run: npx quartz build

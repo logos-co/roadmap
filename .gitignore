@@ -8,6 +8,8 @@ private/
 .replit
 replit.nix
 node_modules
+.quartz/
+quartz/cli/tui/dist/
 .ipynb_checkpoints/
 .claude
 .grepai/

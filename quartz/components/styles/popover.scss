@@ -16,9 +16,12 @@
 
 .popover {
   z-index: 999;
-  position: absolute;
+  position: fixed;
   overflow: visible;
   padding: 1rem;
+  left: 0;
+  top: 0;
+  will-change: transform;
 
   & > .popover-inner {
     position: relative;
@@ -26,6 +29,7 @@
     max-height: 20rem;
     padding: 0 1rem 1rem 1rem;
     font-weight: initial;
+    font-style: initial;
     line-height: normal;
     font-size: initial;
     font-family: var(--bodyFont);
@@ -34,7 +38,32 @@
     border-radius: 5px;
     box-shadow: 6px 6px 36px 0 rgba(0, 0, 0, 0.25);
     overflow: auto;
+    overscroll-behavior: contain;
     white-space: normal;
+    user-select: none;
+    cursor: default;
+  }
+
+  & > .popover-inner[data-content-type] {
+    &[data-content-type*="pdf"],
+    &[data-content-type*="image"] {
+      padding: 0;
+      max-height: 100%;
+    }
+
+    &[data-content-type*="image"] {
+      img {
+        margin: 0;
+        border-radius: 0;
+        display: block;
+      }
+    }
+
+    &[data-content-type*="pdf"] {
+      iframe {
+        width: 100%;
+      }
+    }
   }
 
   h1 {
@@ -47,12 +76,12 @@
     opacity 0.3s ease,
     visibility 0.3s ease;
 
-  @media all and (max-width: $mobileBreakpoint) {
+  @media all and ($mobile) {
     display: none !important;
   }
 }
 
-a:hover .popover,
+.active-popover,
 .popover:hover {
   animation: dropin 0.3s ease;
   animation-fill-mode: forwards;

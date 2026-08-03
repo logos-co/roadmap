@@ -2,7 +2,7 @@
   description = "Flake file for website build";
 
   inputs = {
-    nixpkgs.url = "nixpkgs/nixos-24.05";
+    nixpkgs.url = "nixpkgs/nixos-26.05";
   };
 
   outputs =
@@ -23,11 +23,11 @@
       devShells = forEachSystem (system: {
         default = pkgsFor.${system}.mkShellNoCC {
           packages = with pkgsFor.${system}.buildPackages; [
-            yarn       # 1.22.22
-            nodejs_20  # 20.15.1
-            git        # 2.44.1
-            openssh    # 9.7p1
-            ghp-import # 2.1.0
+            yarn
+            nodejs_22
+            git
+            openssh
+            ghp-import
           ];
         };
       });

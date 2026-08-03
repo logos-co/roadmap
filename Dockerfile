@@ -1,10 +1,16 @@
-FROM node:20-slim as builder
+FROM node:22-slim AS builder
+
+# Git is required to install Quartz 5 plugins.
+RUN apt-get update && apt-get install -y git && rm -rf /var/lib/apt/lists/*
+
 WORKDIR /usr/src/app
 COPY package.json .
 COPY package-lock.json* .
-RUN npm ci
+COPY quartz/ ./quartz/
+COPY quartz.lock.json .
+RUN npm ci && npx quartz plugin install
 
-FROM node:20-slim
+FROM node:22-slim
 WORKDIR /usr/src/app
 COPY --from=builder /usr/src/app/ /usr/src/app/
 COPY . .
