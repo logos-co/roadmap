@@ -11,6 +11,7 @@
  *   2. Find last week's HackMD note BY TITLE (exact, then tolerant fallback).
  *      Guard: stop if the note is an unfilled skeleton.
  *   3. Branch off upstream logos-co/roadmap v4, generate the update file, push to fork.
+ *      Sections reporting nothing (bare achieved/next labels only) are dropped.
  *      Guards: stop if the branch or an open upstream PR already exists.
  *   4. Emit the one-click PR compare URL + facts to $GITHUB_OUTPUT / $GITHUB_STEP_SUMMARY.
  *   5. Create the upcoming week's skeleton HackMD note (no-op if it already exists).
@@ -198,6 +199,39 @@ export function stripHighlights(markdown) {
   return markdown.replace(/^### Highlights\s*\n[\s\S]*?(?=^#{2,3}\s)/m, '');
 }
 
+/** A line carrying an achieved/next label and nothing else. */
+const BARE_LABEL = /^[ \t]*[-*+][ \t]*\*\*[ \t]*(?:achieved|next)[ \t]*:?[ \t]*\*\*[ \t]*:?[ \t\r]*$/i;
+
+/**
+ * Drop `###` sections that report nothing: their only content is bare
+ * achieved/next labels with no work items beneath. The team leaves a section
+ * blank when there was no movement that week, and blank sections are noise in
+ * the published update. A section keeps everything up to the next heading of
+ * level 3 or shallower, so `####` sub-headings count as content.
+ *
+ * Everything that survives is passed through verbatim: a section runs up to
+ * the next heading, so it carries its own trailing blank line away with it and
+ * the seam needs no tidying.
+ */
+export function stripEmptySections(markdown) {
+  const lines = markdown.split('\n');
+  const kept = [];
+  for (let i = 0; i < lines.length; ) {
+    if (!/^###[ \t]/.test(lines[i])) {
+      kept.push(lines[i++]);
+      continue;
+    }
+    let end = i + 1;
+    while (end < lines.length && !/^#{1,3}[ \t]/.test(lines[end])) end++;
+    const hasContent = lines
+      .slice(i + 1, end)
+      .some((l) => l.trim() !== '' && !BARE_LABEL.test(l));
+    if (hasContent) kept.push(...lines.slice(i, end));
+    i = end;
+  }
+  return kept.join('\n');
+}
+
 /** The complete update file for the repo. */
 export function buildUpdateFile(facts, body, sourceUrl) {
   const r = facts.reported;
@@ -215,7 +249,7 @@ ${r.heading}
 
 <!-- ${HIGHLIGHTS_MARKER} source: ${sourceUrl} -->
 
-${normalizeLabels(stripHighlights(body)).trim()}
+${stripEmptySections(normalizeLabels(stripHighlights(body))).trim()}
 `;
 }
 
