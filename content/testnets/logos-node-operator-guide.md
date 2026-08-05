@@ -87,6 +87,16 @@ wget https://github.com/logos-co/logos-package-downloader/releases/download/0.2.
 wget https://github.com/logos-co/logos-package-manager/releases/download/0.2.1/lgpm-x86_64-linux.tar.gz
 ```
 
+Verify the runtime-tool archives against the SHA-256 digests recorded for the pinned GitHub release assets:
+
+```sh
+sha256sum --check <<'EOF'
+6f216f4b807520194dd0e4d1a3d69bd2bc83f38781a5e7b2c1abf66e40143b33  logoscore-x86_64-linux.tar.gz
+2581f5bb6618623b9eb27b8bba37d39647b33c56d2f5bf15b41d0da286d45aee  lgpd-x86_64-linux.tar.gz
+41c897a6da6db0ecabe03c0098b9bd0652ea8cd2eaf091e2d646a65b71260780  lgpm-x86_64-linux.tar.gz
+EOF
+```
+
 Install the tools under `/usr/local/bin` with the expected command names:
 
 ```sh
@@ -140,11 +150,12 @@ It does not automatically build or fetch the newest commit from the module repos
 For a testnet, publish the intended module versions in the catalog before operators run these commands.
 
 Download the module packages from the configured module catalog:
+The root hash selects the exact published package identity for the pinned version.
 
 ```sh
-lgpd download blockchain_module --version 0.2.1 --output /opt/logos-node/packages
-lgpd download storage_module --version 2.1.0 --output /opt/logos-node/packages
-lgpd download delivery_module --version 0.2.0 --output /opt/logos-node/packages
+lgpd download blockchain_module --version 0.2.1 --root-hash c33c59d690b206476214e5fcacaee08bd56911ad855ae9c08919005b5f3b3c43 --output /opt/logos-node/packages
+lgpd download storage_module --version 2.1.0 --root-hash c9ad6299dd62be478dc89a589cb88ab5876bee11812ed3bcaf97ecadcac0b34e --output /opt/logos-node/packages
+lgpd download delivery_module --version 0.2.0 --root-hash eb47c06575a6113f34a6d71e5e0b72d6d2db2ec7510b8be0ab9633b8385edd57 --output /opt/logos-node/packages
 ```
 
 Install all three packages into the shared modules directory:
@@ -239,7 +250,7 @@ Load the module and generate `user_config.yaml`:
 logoscore load-module blockchain_module
 cd /var/lib/logos-node/blockchain-module-testnet
 logoscore call blockchain_module generate_user_config "$(cat peers.json)"
-chmod 600 /var/lib/logos-node/user_config.yaml
+chmod 600 /var/lib/logos-node/user_config.yaml /var/lib/logos-node/keystore.yaml
 ```
 
 `generate_user_config` writes `user_config.yaml` in the `logoscore` daemon working directory.
@@ -329,9 +340,11 @@ Before joining:
 
 - open `<YOUR_BLEND_PORT>/udp` on the public host firewall;
 - if the node is behind NAT, forward that external UDP port to the port in `blend.core.backend.listening_address`;
-- verify that the external UDP port is reachable from the public Internet.
 
 The submitted locator must use the external address and port that other nodes can dial.
+The Blend core listener starts only after the node's declaration becomes active.
+Configure the firewall and NAT forwarding before joining.
+Verify the local listener and public reachability after activation.
 
 ```sh
 logoscore call blockchain_module blend_join_as_core_node \
@@ -529,8 +542,9 @@ logoscore call delivery_module start
 Check:
 
 ```sh
+logoscore call delivery_module getAvailableNodeInfoIDs
 logoscore call delivery_module getNodeInfo Version
-logoscore call delivery_module getNodeInfo MyBoundPorts
+logoscore call delivery_module getNodeInfo MyMultiaddresses
 ```
 
 ## Health Checks
@@ -576,7 +590,7 @@ logoscore call blockchain_module get_cryptarchia_info | jq -r .result.value | jq
 Check delivery:
 
 ```sh
-logoscore call delivery_module getNodeInfo MyBoundPorts
+logoscore call delivery_module getNodeInfo MyMultiaddresses
 ```
 
 Check the configured Blend UDP listener:
