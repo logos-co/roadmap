@@ -1,7 +1,39 @@
 ---
-title: "Testnet version 0.2: Node Operator Guide"
+title: "Testnet version 0.2.1: Node Operator Guide"
 tags: testnet
 ---
+
+## Release set v0.2.1
+
+The following package versions are pinned for release set `v0.2.1`.
+
+> **Note:** The release-set version identifies the testnet version.
+> Individual package versions are pinned independently and do not need to match the release-set version.
+
+### Node operator guide
+
+| Package | Version |
+|---------|---------|
+| `logos-blockchain-module` | `0.2.1` |
+| `logos-storage-module` | `2.1.0` |
+| `logos-delivery-module` | `0.2.0` |
+| `logos-logoscore-cli` | `0.2.2` |
+| `logos-package-manager` | `0.2.1` |
+| `logos-package-downloader` | `0.2.1` |
+
+### Other release packages
+
+| Package | Version |
+|---------|---------|
+| `lez-explorer-ui` | `1.1.0` |
+| `lez-indexer-module` | `1.1.0` |
+| `logos-execution-zone-module` | `1.1.0` |
+| `logos-execution-zone-wallet-ui` | `1.1.0` |
+| `logos-blockchain-ui` | `0.2.1` |
+| `logos-chat-module` | `0.2.1` |
+| `logos-chat-ui` | `0.2.1` |
+| `logos-storage-ui` | `2.1.0` |
+| `logos-basecamp` | `0.2.3` |
 
 ## Overview
 
@@ -11,7 +43,7 @@ This guide starts these modules:
 
 | Module | Package | Public ports |
 |--------|---------|--------------|
-| Blockchain | `blockchain_module` | `3000/udp` |
+| Blockchain | `blockchain_module` | `3000/udp`, configured Blend UDP port |
 | Storage | `storage_module` | `8090/udp`, `8091/tcp` |
 | Delivery | `delivery_module` | `9000/udp`, `30303/tcp` |
 
@@ -47,18 +79,19 @@ Download the Linux release assets from each repository's Releases page:
 | `lgpd` | `https://github.com/logos-co/logos-package-downloader` |
 | `lgpm` | `https://github.com/logos-co/logos-package-manager` |
 
-For x86_64 Linux, these were the current download URLs on 2026-06-25:
+For x86_64 Linux, download the pinned testnet tool versions:
 
 ```sh
-wget https://github.com/logos-co/logos-logoscore-cli/releases/download/v3/logoscore-x86_64-linux.AppImage
-wget https://github.com/logos-co/logos-package-downloader/releases/download/pre-release-99d70db-7/lgpd-x86_64-linux.tar.gz
-wget https://github.com/logos-co/logos-package-manager/releases/download/pre-release-05b2cf8-7/lgpm-x86_64-linux.tar.gz
+wget https://github.com/logos-co/logos-logoscore-cli/releases/download/0.2.2/logoscore-x86_64-linux.tar.gz
+wget https://github.com/logos-co/logos-package-downloader/releases/download/0.2.1/lgpd-x86_64-linux.tar.gz
+wget https://github.com/logos-co/logos-package-manager/releases/download/0.2.1/lgpm-x86_64-linux.tar.gz
 ```
 
 Install the tools under `/usr/local/bin` with the expected command names:
 
 ```sh
-install -m755 logoscore-x86_64-linux.AppImage /usr/local/bin/logoscore
+tar -xzf logoscore-x86_64-linux.tar.gz
+install -m755 logoscore-x86_64.AppImage /usr/local/bin/logoscore
 tar -xzf lgpd-x86_64-linux.tar.gz
 install -m755 lgpd-x86_64.AppImage /usr/local/bin/lgpd
 tar -xzf lgpm-x86_64-linux.tar.gz
@@ -68,9 +101,9 @@ install -m755 lgpm-x86_64.AppImage /usr/local/bin/lgpm
 Verify:
 
 ```sh
-logoscore --help
-lgpd --help
-lgpm --help
+logoscore --version
+lgpd --version
+lgpm --version
 ```
 
 ## Prepare The Host
@@ -90,11 +123,15 @@ Open these ports on the host firewall:
 
 ```text
 3000/udp
+<YOUR_BLEND_PORT>/udp
 8090/udp
 8091/tcp
 9000/udp
 30303/tcp
 ```
+
+`<YOUR_BLEND_PORT>/udp` is required when joining Blend.
+Obtain it from `blend.core.backend.listening_address` in the generated blockchain configuration.
 
 ## Install Modules
 
@@ -105,17 +142,17 @@ For a testnet, publish the intended module versions in the catalog before operat
 Download the module packages from the configured module catalog:
 
 ```sh
-lgpd download blockchain_module --output /opt/logos-node/packages
-lgpd download storage_module --output /opt/logos-node/packages
-lgpd download delivery_module --output /opt/logos-node/packages
+lgpd download blockchain_module --version 0.2.1 --output /opt/logos-node/packages
+lgpd download storage_module --version 2.1.0 --output /opt/logos-node/packages
+lgpd download delivery_module --version 0.2.0 --output /opt/logos-node/packages
 ```
 
 Install all three packages into the shared modules directory:
 
 ```sh
-lgpm --modules-dir /opt/logos-node/modules install --file /opt/logos-node/packages/blockchain_module-0.2.0.lgx
-lgpm --modules-dir /opt/logos-node/modules install --file /opt/logos-node/packages/storage_module-*.lgx
-lgpm --modules-dir /opt/logos-node/modules install --file /opt/logos-node/packages/delivery_module-*.lgx
+lgpm --modules-dir /opt/logos-node/modules install --file /opt/logos-node/packages/blockchain_module-0.2.1.lgx
+lgpm --modules-dir /opt/logos-node/modules install --file /opt/logos-node/packages/storage_module-2.1.0.lgx
+lgpm --modules-dir /opt/logos-node/modules install --file /opt/logos-node/packages/delivery_module-0.2.0.lgx
 ```
 
 Check installed versions:
@@ -124,25 +161,42 @@ Check installed versions:
 jq -r '.name + " " + .version' /opt/logos-node/modules/*/manifest.json
 ```
 
+The output must include:
+
+```text
+blockchain_module 0.2.1
+delivery_module 0.2.0
+storage_module 2.1.0
+```
+
 ## Start Logos Core
+
+As root, open a shell as the `logos` runtime user:
+
+```sh
+runuser -u logos -- env HOME=/var/lib/logos-node bash
+```
+
+Run the daemon, module configuration, module calls, and health checks from this shell.
+This keeps the daemon and CLI client on the same `/var/lib/logos-node/.logoscore` state and ensures generated files belong to `logos`.
 
 For a first manual run,
 start `logoscore` in the foreground with the shared modules directory:
 
 ```sh
 cd /var/lib/logos-node
-logoscore -m /opt/logos-node/modules
+logoscore -D -m /opt/logos-node/modules
 ```
 
 Keep that terminal open.
 Use another terminal for module commands.
 
-For a detached manual run,
-start `logoscore` in daemon mode with `-D`:
+For a temporary background run,
+redirect output and append `&`:
 
 ```sh
 cd /var/lib/logos-node
-logoscore -m /opt/logos-node/modules -D
+logoscore -D -m /opt/logos-node/modules > logoscore.log 2>&1 &
 ```
 
 For unattended operation,
@@ -224,6 +278,10 @@ Operator-facing fields in `user_config.yaml`:
 ### Joining Blend Network
 
 Request funds to both the BlendZk and SdpFunding keys from your `keystore.yaml` from the [faucet](https://testnet.blockchain.logos.co/web/faucet/)
+
+The public keys and note IDs below are examples.
+Use the corresponding values from your own `keystore.yaml` and wallet responses when running these commands.
+
 ```bash
 # keystore.yaml
 public_keys:
@@ -267,16 +325,21 @@ Join the blend network by locking one of the notes held by your `BlendZk` key.
 - `<YOUR_BLEND_PORT>`: Retrieve your configured blend port from the user_config.yaml (`blend.core.backend.listening_address`), note that if you do port-mapping, the external mapped port must be used.
 - `<BLEND_ZK_NOTE_ID>`: the note id of one of the notes held by your BlendZk key, as queried above.
 
-Before joining, make sure the UDP port in the locator is reachable from the public Internet.
-The submitted locator should use the external address and port that other nodes can dial.
+Before joining:
 
-```
-curl -X POST http://127.0.0.1:8080/blend/join \
-  -H 'Content-Type: application/json' \
-  -d '{"locator":"/ip4/<YOUR_IP>/udp/<YOUR_BLEND_PORT>/quic-v1","locked_note_id": "<BLEND_ZK_NOTE_ID>"}'
+- open `<YOUR_BLEND_PORT>/udp` on the public host firewall;
+- if the node is behind NAT, forward that external UDP port to the port in `blend.core.backend.listening_address`;
+- verify that the external UDP port is reachable from the public Internet.
+
+The submitted locator must use the external address and port that other nodes can dial.
+
+```sh
+logoscore call blockchain_module blend_join_as_core_node \
+  "/ip4/<YOUR_IP>/udp/<YOUR_BLEND_PORT>/quic-v1" \
+  "<BLEND_ZK_NOTE_ID>"
 
 # successful call will return the declaration id:
-# > 2691821bd61394cc18939626de4e9231c699e8ddefd1ebf9e6c35b32229bdc65
+# > {"method":"blend_join_as_core_node","module":"blockchain_module","result":{"error":null,"success":true,"value":"2691821bd61394cc18939626de4e9231c699e8ddefd1ebf9e6c35b32229bdc65"},"status":"ok"}
 ```
 
 Verify the declaration was accepted on chain by polling `/mantle/sdp/declarations`, looking for your declaration
@@ -309,8 +372,6 @@ When in a block, the active epoch should be two epochs in the future (`active ==
 
 Create the storage config:
 
-Replace `<public-ip>` before running this command.
-
 ```sh
 cd /var/lib/logos-node/storage-module
 mkdir -p storage-data
@@ -321,7 +382,6 @@ cat > config.json <<EOF
   "listen-ip": "0.0.0.0",
   "listen-port": 8091,
   "disc-port": 8090,
-  "nat": "extip:<public-ip>",
   "network": "logos.test"
 }
 EOF
@@ -336,7 +396,6 @@ Fields:
 | `listen-ip` | Local TCP bind address |
 | `listen-port` | Public TCP libp2p port |
 | `disc-port` | Public UDP discovery port |
-| `nat` | Public IP advertisement mode |
 | `network` | Storage network preset |
 
 The `logos.test` network preset provides the storage bootstrap settings.
@@ -358,59 +417,37 @@ logoscore call storage_module start
 To run storage with mix support,
 generate the storage config from the current published mix bootstrap data.
 This replaces the basic `config.json` above.
-Replace `<public-ip>` before running this command.
+The script accepts an optional storage data directory as its first argument.
+Without one, it uses `logos-storage-data` under the current directory.
 
 ```sh
 cd /var/lib/logos-node/storage-module
 cat > make-mix-storage-config.sh <<'EOF'
 #!/usr/bin/env bash
-set -euo pipefail
+set -e
 
-public_ip=${1:-}
-data_dir=${2:-"./logos-storage-data"}
+data_dir=${1:-"${PWD}/logos-storage-data"}
+udp_spr_json=$(curl -s https://logos-storage-network.fra1.digitaloceanspaces.com/v0.2/udp-sprs.json)
+tcp_spr_json=$(curl -s https://logos-storage-network.fra1.digitaloceanspaces.com/v0.2/tcp-sprs.json)
+mp_json=$(curl -s https://logos-storage-network.fra1.digitaloceanspaces.com/v0.2/mix-pool.json | jq -c 'tostring')
 
-if [ -z "${public_ip}" ]; then
-  echo "Need to supply a public IP"
-  exit 1
-fi
-
-if ! command -v jq &> /dev/null; then
-  echo "jq is not installed"
-  exit 1
-fi
-
-curl -fsSL "https://fleets.logos.co/logos-test/storage-network.json" > ./raw-data.json
-
-tcp_spr_json=$(jq '[.[].tcpSpr]' ./raw-data.json)
-mix_pool_json=$(jq -c '{
-  "version": 1,
-  "relays": map({
-    "peerId": .peerId,
-    "mixPubKey": .mixPubKey,
-    "libp2pPubKey": .libp2pPubKey,
-    "multiAddr": "/ip4/\(.address)/tcp/\(.port)"
-  })
-} | tostring' ./raw-data.json)
-
-cat <<JSON
+cat <<JSON | jq .
 {
-  "nat": "extip:${public_ip}",
-  "log-level": "INFO",
+  "log-level": "INFO;trace:libp2p,mix",
   "mix-enabled": true,
   "listen-port": 8091,
   "disc-port": 8090,
-  "network": "logos.test",
+  "bootstrap-node": $udp_spr_json,
   "dht-mix-proxy": $tcp_spr_json,
   "data-dir": "${data_dir}",
-  "mix-pool-json": ${mix_pool_json}
+  "mix-pool-json": ${mp_json}
 }
 JSON
 
-rm ./raw-data.json
 EOF
 
 chmod 755 make-mix-storage-config.sh
-./make-mix-storage-config.sh <public-ip> > config.json
+./make-mix-storage-config.sh > config.json
 ```
 
 Start storage with that config:
@@ -435,7 +472,7 @@ logoscore call storage_module downloadToUrl zDvZRwzkzrrYB6sS1rRpRLt4gBhc1pWoyTSj
 
 ## Delivery
 
-Create the delivery config:
+Create the kernel-only delivery config for a node operator:
 
 Replace `<public-ip>` before running this command.
 
@@ -443,13 +480,16 @@ Replace `<public-ip>` before running this command.
 cd /var/lib/logos-node/delivery-module
 cat > config.json <<EOF
 {
-  "preset": "logos.test",
-  "mode": "Core",
-  "logLevel": "INFO",
-  "tcpPort": 30303,
-  "discv5UdpPort": 9000,
-  "discv5Discovery": true,
-  "nat": "extip:<public-ip>"
+  "entryLayer": "kernel",
+  "kernelConf": {
+    "preset": "logos.test",
+    "relay": true,
+    "logLevel": "INFO",
+    "tcpPort": 30303,
+    "discv5UdpPort": 9000,
+    "discv5Discovery": true,
+    "nat": "extip:<public-ip>"
+  }
 }
 EOF
 ```
@@ -458,13 +498,18 @@ Fields:
 
 | Field | Purpose |
 |-------|---------|
-| `preset` | Network preset |
-| `mode` | Delivery node mode |
-| `logLevel` | Log verbosity |
-| `tcpPort` | Public TCP P2P port |
-| `discv5UdpPort` | Public UDP discovery port |
-| `discv5Discovery` | Enable discv5 discovery |
-| `nat` | Public IP advertisement mode |
+| `entryLayer` | Delivery stack layer; use `kernel` for a node-operator service |
+| `kernelConf` | Kernel node configuration |
+| `kernelConf.preset` | Network preset |
+| `kernelConf.relay` | Enable the Relay protocol |
+| `kernelConf.logLevel` | Log verbosity |
+| `kernelConf.tcpPort` | Public TCP P2P port |
+| `kernelConf.discv5UdpPort` | Public UDP discovery port |
+| `kernelConf.discv5Discovery` | Enable discv5 discovery |
+| `kernelConf.nat` | Public IP advertisement mode |
+
+The kernel-only entry layer intentionally omits the messaging client and reliable channel manager.
+Calls to `send`, `subscribe`, and `channel*` are unavailable, while `getNodeInfo`, `storeQuery`, and metrics remain available.
 
 The `logos.test` preset provides the delivery network bootstrap settings.
 `extMultiaddrs` is usually not needed when `nat` advertises the public address.
@@ -534,6 +579,15 @@ Check delivery:
 logoscore call delivery_module getNodeInfo MyBoundPorts
 ```
 
+Check the configured Blend UDP listener:
+
+```sh
+ss -lun
+```
+
+Confirm that the local UDP port from `blend.core.backend.listening_address` is present.
+If the public Blend port differs, also confirm that NAT forwards `<YOUR_BLEND_PORT>/udp` to this local port.
+
 ## Optional: Systemd
 
 For unattended operation, use systemd.
@@ -573,8 +627,8 @@ WantedBy=multi-user.target
 The bootstrap script should:
 
 1. wait for `logoscore status`;
-2. load and start storage;
-3. load and start blockchain;
+2. load and start blockchain;
+3. load and start storage;
 4. load and start delivery;
 5. tolerate already-loaded modules and slow module starts.
 
