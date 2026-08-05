@@ -41,7 +41,7 @@ We use three release stages for developer-facing APIs and libraries:
 - [x] [Reliable Channel API — Developer Preview](2026-reliable-channel-api-developer-preview.md)
 - [x] [Chat — Developer Preview](2026-chat-developer-preview)
 - [x] [Logos Core Integration — Phase 2](2026-logos-core-integration-phase-2)
-- [ ] [Support QUIC Transport in Logos Delivery](2025-support-discovery-research-and-libp2p-quic)
+- [x] [Support QUIC Transport in Logos Delivery](2025-support-discovery-research-and-libp2p-quic)
 - [x] [RLN for Edge Nodes](2026-rln-for-edge-nodes.md)
 
 ### Testnet [v0.3](v03)
@@ -65,5 +65,5 @@ We use three release stages for developer-facing APIs and libraries:
 - [ ] [Fleet Stability](2026-fleet-stability)
 - [ ] [Status: Logos Delivery Integration](2026-status-logos-delivery-integration)
 - [x] [Status: Foundation for Communities Optimization](2025-foundation-for-communities-optimization)
-- [ ] [Status: E2E Reliability in Communities](2024-e2e-reliability-protocol)
+- [x] [Status: E2E Reliability in Communities](2024-e2e-reliability-protocol)
 - [ ] [Status: Logos Chat Integration](2026-status-logos-chat-integration)
