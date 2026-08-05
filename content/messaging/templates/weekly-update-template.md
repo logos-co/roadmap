@@ -74,13 +74,6 @@ title: 2026-MM-DD Messaging Weekly
   - next:
   - blockers:
 
-## [Support QUIC Transport in Logos Delivery](2025-support-discovery-research-and-libp2p-quic.md)
-
-- [[Deliverable] Trial QUIC](https://github.com/logos-messaging/pm/issues/324)
-  - achieved:
-  - next:
-  - blockers:
-
 ## [RLN on Logos Blockchain](2026-add-support-for-rln-on-lee.md)
 
 - [[Deliverable] Implement pluggable RLN membership interface](https://github.com/logos-messaging/pm/issues/416)
@@ -104,11 +97,6 @@ title: 2026-MM-DD Messaging Weekly
   - blockers:
 
 ## [Fleet Stability](2026-fleet-stability.md)
-
-- [[Deliverable] Fleet monitoring dashboards for Logos fleets](https://github.com/logos-messaging/pm/issues/382)
-  - achieved:
-  - next:
-  - blockers:
 
 - [[Deliverable] Resolve known fleet stability issues](https://github.com/logos-messaging/pm/issues/384)
   - achieved:
@@ -161,18 +149,6 @@ title: 2026-MM-DD Messaging Weekly
 
 # Logos Core
 
-## [Logos Core Integration — Phase 2](2026-logos-core-integration-phase-2.md)
-
-- [[Deliverable] Add Reliable Channel API to Logos Core Delivery module](https://github.com/logos-messaging/pm/issues/388)
-  - achieved:
-  - next:
-  - blockers:
-
-- [[Deliverable] Implement integration tests for Messaging modules](https://github.com/logos-messaging/pm/issues/391)
-  - achieved:
-  - next:
-  - blockers:
-
 ## [Logos Core Integration — Phase 3](2026-logos-core-integration-phase-3.md)
 
 - [[Deliverable] Pluggable RLN membership](https://github.com/logos-messaging/pm/issues/446)
@@ -205,18 +181,6 @@ title: 2026-MM-DD Messaging Weekly
 ## [Status: Logos Delivery Integration](2026-status-logos-delivery-integration.md)
 
 - [[Deliverable] Integrate Messaging API in status-go](https://github.com/logos-messaging/pm/issues/380)
-  - achieved:
-  - next:
-  - blockers:
-
-## [Introduce E2E Reliability in Status Communities](2024-e2e-reliability-protocol.md)
-
-- [[Deliverable] SDS protocol in Status — basic recovery](https://github.com/logos-messaging/pm/issues/304)
-  - achieved:
-  - next:
-  - blockers:
-
-- [[Deliverable] SDS protocol in Status — enable wrapping for communities messages](https://github.com/logos-messaging/pm/issues/385)
   - achieved:
   - next:
   - blockers:
