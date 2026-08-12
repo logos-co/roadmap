@@ -521,21 +521,21 @@
 
       <nav class="week-nav">
         <a class="prev" data-router-ignore href="/reports/weekly/2026-07-06.html">&larr; 2026-07-06</a>
-        <span class="spacer"></span>
+        <a class="next" data-router-ignore href="/reports/weekly/2026-07-20.html">2026-07-20 &rarr;</a>
       </nav>
 
       <div class="stats-bar">
         <div class="stat">
-          <div class="stat-value">1</div>
+          <div class="stat-value">2</div>
           <div class="stat-label">Teams Reporting</div>
         </div>
         <div class="stat">
-          <div class="stat-value">10+</div>
+          <div class="stat-value">20+</div>
           <div class="stat-label">PRs &amp; Updates</div>
         </div>
       </div>
 
-      <p style="text-align:center; color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 1.5rem;">Note: Only AnonComms has reported so far this week. Other team sections will be added as updates land.</p>
+      <p style="text-align:center; color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 1.5rem;">Note: AnonComms and Storage have reported. Messaging, Blockchain, and Logos Core sections will be added as their updates land.</p>
 
       <section class="highlights-section">
         <h2>Key Highlights</h2>
@@ -560,6 +560,14 @@
             <div class="team">AnonComms</div>
             <p>RLN module ported to the Logos Core Rust SDK; Keycard device key explored as an authentication method for acquiring RLN membership.</p>
           </div>
+          <div class="highlight-card storage">
+            <div class="team">Storage</div>
+            <p><strong>Hidden-service-over-Mix simulator built</strong> &mdash; extended the mix simulator from the <a href="https://dl.acm.org/doi/pdf/10.1145/3564625.3567996">ACM paper</a> with a hidden-service model using guards and vanguards (<a href="https://github.com/logos-storage/hs-mix-sim">hs-mix-sim</a>).</p>
+          </div>
+          <div class="highlight-card storage">
+            <div class="team">Storage</div>
+            <p>Kicked off an effort to centralise all Logos Storage <a href="https://hackmd.io/@codex-storage/rJNzTdOQzl">documentation into a Docusaurus site</a> with C/C++/OpenAPI reference generation; <a href="https://emizzle.github.io/logos-storage-docs/node">prototype live</a>.</p>
+          </div>
         </div>
       </section>
 
@@ -573,6 +581,7 @@
 
       <div class="tabs">
         <button class="tab anoncomms active" data-team="anoncomms">AnonComms</button>
+        <button class="tab storage" data-team="storage">Storage</button>
       </div>
 
       <!-- ================================================================
@@ -763,6 +772,116 @@
                 <span class="section-label next">Next</span>
                 <ul class="item-list">
                   <li>Consolidate on the appropriate approach and move forward</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ================================================================
+             STORAGE
+             ================================================================ -->
+      <div class="team-content" id="storage">
+
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3><a href="https://github.com/logos-storage/logos-storage-pm/issues/20">Hidden Services Over Mix</a></h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>Hidden service simulator over Mix</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li><strong>Improved the mix simulator</strong> from the <a href="https://dl.acm.org/doi/pdf/10.1145/3564625.3567996">reference paper</a> and implemented a hidden-service model to simulate a hidden service over mix with guards and vanguards</li>
+                  <li>Simulator repository: <a href="https://github.com/logos-storage/hs-mix-sim">hs-mix-sim</a> (NEW)</li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>Summarize the simulation results and add the figures in a document</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3><a href="https://github.com/logos-storage/logos-storage-nim/milestone/10">Integration with Logos Core</a></h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>UI/UX &amp; documentation improvements</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Meeting with Aqeel to discuss UI / UX improvements</li>
+                  <li>Improved <a href="https://github.com/logos-co/logos-docs/pull/392">documentation</a></li>
+                  <li>Added <a href="https://github.com/logos-co/logos-storage-ui/pull/68">configuration versioning</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3><a href="https://github.com/logos-storage/logos-storage-pm/issues/5">NAT Traversal</a></h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>libplum protocol filtering API</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Provided an API to <a href="https://github.com/logos-storage/nim-libplum/pull/15">filter the protocol</a></li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>Switch back to <code>paullouisageneau/libplum</code> head after <a href="https://github.com/paullouisageneau/libplum/pull/56">upstream PR 56</a> is merged</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>General improvements</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>Releases, fixes &amp; bindings</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Added <a href="https://github.com/logos-storage/logos-storage-nim/pull/1488">libstorage static artefacts</a> to release</li>
+                  <li>Fixed a <a href="https://github.com/logos-storage/logos-storage-nim/pull/1486">crash with UPnP</a></li>
+                  <li>Provided a better <a href="https://github.com/logos-storage/logos-storage-nim/pull/1487">shutdown process</a></li>
+                  <li>Updated <a href="https://github.com/logos-storage/logos-storage-go-bindings/pull/27">Go bindings</a></li>
+                  <li>Rust bindings update on hold (waiting for repo access)</li>
+                </ul>
+                <span class="section-label blockers">Blockers</span>
+                <ul class="item-list">
+                  <li>Repo access needed to update Rust bindings</li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4>Documentation consolidation into Docusaurus</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li><strong>Kicked off an effort to centralise all Logos Storage documentation</strong> into a Docusaurus site with C/C++/OpenAPI API reference generation &mdash; <a href="https://hackmd.io/@codex-storage/rJNzTdOQzl">planning note</a></li>
+                  <li>Prototype live: <a href="https://emizzle.github.io/logos-storage-docs/node">logos-storage-docs</a></li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>Meeting with EcoDev to discuss moving all documentation into <code>docs.logos.co</code> instead of maintaining a separate repo and mirroring</li>
                 </ul>
               </div>
             </div>
