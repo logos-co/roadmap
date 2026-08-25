@@ -96,13 +96,6 @@ title: 2026-MM-DD Messaging Weekly
   - next:
   - blockers:
 
-## [Fleet Stability](2026-fleet-stability.md)
-
-- [[Deliverable] Resolve known fleet stability issues](https://github.com/logos-messaging/pm/issues/384)
-  - achieved:
-  - next:
-  - blockers:
-
 # Logos Chat
 
 ## [Chat — Beta](2026-chat-beta.md)
