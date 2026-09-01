@@ -44,8 +44,6 @@ The work is split into milestones, planned to be achieved by certain release.
   - Debug Tool: log calls between modules
 - Support Other Platforms
   - Windows Support
-  - Mobile iOS support
-  - Mobile Android support
 
 ### Testnet v0.4
 
