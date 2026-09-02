@@ -16,7 +16,7 @@ The following package versions are pinned for release set `v0.2.1`.
 |---------|---------|
 | `logos-blockchain-module` | `0.2.3` |
 | `logos-storage-module` | `2.1.2` |
-| `logos-delivery-module` | `0.2.0` |
+| `logos-delivery-module` | `0.2.1` |
 | `logosctl` | `0.2.3-rc.1` |
 
 ### Other release packages
@@ -173,8 +173,8 @@ logosctl package install storage_module \
   --root-hash 19b11b153748c30665608c5527776ba2be74f7764481a11d33f687098764b740 \
   --yes
 logosctl package install delivery_module \
-  --version 0.2.0 \
-  --root-hash eb47c06575a6113f34a6d71e5e0b72d6d2db2ec7510b8be0ab9633b8385edd57 \
+  --version 0.2.1 \
+  --root-hash 0bccd85b4702c01a2c227df8aa55b3f5159a9fe009d57ae8bb8b3a7c20dfcbbe \
   --yes
 ```
 
@@ -189,7 +189,7 @@ The output must list:
 
 ```text
 blockchain_module 0.2.3
-delivery_module 0.2.0
+delivery_module 0.2.1
 storage_module 2.1.2
 ```
 
