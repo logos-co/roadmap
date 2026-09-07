@@ -316,6 +316,32 @@ Operator-facing fields in `user_config.yaml`:
 | logger filters | Log verbosity | Use `INFO` for unattended operation |
 
 
+### Fund the node for consensus
+
+After the node reaches `Online`, request testnet funds to participate in consensus.
+Find the public keys associated with your node:
+
+```sh
+cd /var/lib/logos-node
+grep -A6 known_keys user_config.yaml
+```
+
+Choose a public key from `known_keys` and request funds for it from the [faucet](https://testnet.blockchain.logos.co/web/faucet/).
+Alternatively, request funds directly, replacing `<your-chosen-key>` with that public key:
+
+```sh
+curl -fsS -X POST 'https://testnet.blockchain.logos.co/web/faucet-backend/<your-chosen-key>'
+```
+
+The faucet allows one request per key per block.
+Check the balance, replacing `<your-chosen-key>` with the public key you funded:
+
+```sh
+curl -fsS 'http://127.0.0.1:8080/wallet/<your-chosen-key>/balance' | jq .
+```
+
+Funds received in epoch N count for block production from epoch N+2.
+
 ### Joining Blend Network
 
 Request funds to both the BlendZk and SdpFunding keys from your `keystore.yaml` from the [faucet](https://testnet.blockchain.logos.co/web/faucet/)
@@ -335,7 +361,8 @@ secret_keys:
   ...
 ```
 
-Wait until you receive funds to both addresses, you can check the balance of your accounts with the following commands, you may need to repeat the faucet requests since only one drip is allowed per block.
+Wait until you receive funds to both addresses.
+You can check the balance of your accounts with the following commands:
 
 ```bash
 # check BlendZk key has received funds
