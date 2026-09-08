@@ -521,21 +521,19 @@
 
       <nav class="week-nav">
         <a class="prev" data-router-ignore href="/reports/weekly/2026-08-10.html">&larr; 2026-08-10</a>
-        <span class="spacer"></span>
+        <a class="next" data-router-ignore href="/reports/weekly/2026-08-24.html">2026-08-24 &rarr;</a>
       </nav>
 
       <div class="stats-bar">
         <div class="stat">
-          <div class="stat-value">3</div>
+          <div class="stat-value">5</div>
           <div class="stat-label">Teams Reporting</div>
         </div>
         <div class="stat">
-          <div class="stat-value">80+</div>
+          <div class="stat-value">200+</div>
           <div class="stat-label">PRs &amp; Updates</div>
         </div>
       </div>
-
-      <p style="text-align:center; color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 1.5rem;">Note: Messaging, Blockchain, and AnonComms have reported. Storage and Logos Core sections will be added as their updates land.</p>
 
       <section class="highlights-section">
         <h2>Key Highlights</h2>
@@ -564,6 +562,22 @@
             <div class="team">AnonComms</div>
             <p><strong>Logos Oracle Zone specification finalized</strong> &mdash; optimistic and lightweight for LEZ, with signature verification outsourced to the Logos Blockchain; oracle proposer-selection deliverable closed.</p>
           </div>
+          <div class="highlight-card storage">
+            <div class="team">Storage</div>
+            <p><strong>Mix path selection research post published</strong> alongside its <code>freeroutesim</code> evaluation for anonymous downloads over a transport layer; draft mix path selection spec in progress.</p>
+          </div>
+          <div class="highlight-card storage">
+            <div class="team">Storage</div>
+            <p><strong>Storage module 2.1.2 released</strong> with a critical <code>nim-libplum</code> memory bugfix and re-enabled automated portmapping; tutorials simplified to use binary distributions.</p>
+          </div>
+          <div class="highlight-card logoscore">
+            <div class="team">Logos Core</div>
+            <p><strong>Basecamp runs on Windows</strong> &mdash; first end-to-end <code>x86_64-windows</code> cross-build landed across ~15 repos, with <code>logosctl</code> running a module on Windows and CI running <code>lgx-cli</code> doctests on real Windows.</p>
+          </div>
+          <div class="highlight-card logoscore">
+            <div class="team">Logos Core</div>
+            <p><strong>Manifest 0.4.0 released</strong> with variant-independent icons in <code>assets/</code>, wired through packager, bundler, downloader, package manager, and rendered as inset artwork in AppTile.</p>
+          </div>
         </div>
       </section>
 
@@ -579,6 +593,8 @@
         <button class="tab messaging active" data-team="messaging">Messaging</button>
         <button class="tab blockchain" data-team="blockchain">Blockchain</button>
         <button class="tab anoncomms" data-team="anoncomms">AnonComms</button>
+        <button class="tab storage" data-team="storage">Storage</button>
+        <button class="tab logoscore" data-team="logoscore">Logos Core</button>
       </div>
 
       <!-- ================================================================
@@ -1150,6 +1166,412 @@
                   <li>Study an implementation compatible with Circomlib, and port it to Rust</li>
                 </ul>
               </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ================================================================
+             STORAGE
+             ================================================================ -->
+      <div class="team-content" id="storage">
+
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3><a href="https://github.com/logos-storage/logos-storage-pm/issues/2">Large Data Transport Layer for Mix</a></h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>Mix Transport &mdash; full-focus week</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Removed obsolete Mix fragmentation and sequence-number logic, including metadata that could unnecessarily fingerprint senders</li>
+                  <li>Made exit-equals-destination support directly available without the experimental compile-time flag and restricted the new public <code>createSurb</code> API to that routing mode</li>
+                  <li>Defined and validated the Protobuf wire format for transport sessions, streams, data, acknowledgements, SURB refill, rejection, closure, and reset control frames</li>
+                  <li>Implemented a transport-owned reply credential store with redundancy-group consumption, reply recovery, expiry, bounded retired-identifier tracking, and protection against duplicate late replies</li>
+                  <li>Added long-lived transport sessions with stable pseudonymous session IDs, destination-based reuse on the initiator, and session-owned received SURB groups on the recipient</li>
+                  <li>Implemented a complete anonymous <code>Connect</code>/<code>ConnectAck</code> round trip over a live multi-node Mix network, including timeout handling and session reuse</li>
+                  <li>Added virtual stream registration with disjoint initiator/recipient stream-ID spaces and a complete <code>OpenStream</code> round trip using <code>StreamAck</code> or a bounded diagnostic <code>StreamReject</code></li>
+                  <li>Turned virtual transport streams into libp2p-compatible buffered connections, exposing the real destination to the initiator and the stable session pseudonym to the recipient</li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>Recipient-side dispatch to mounted libp2p protocol handlers, including incoming-stream admission limits and independently tracked handler tasks with cancellation-safe teardown</li>
+                  <li>Data exchange and SURB management</li>
+                  <li>Complete the whole thing end-to-end (draft, but working and unit tested)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3><a href="https://github.com/logos-storage/logos-storage-pm/issues/20">Hidden Services Over Mix</a></h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>Mix path selection research and spec</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li><strong>Completed the <a href="https://forum.research.logos.co/t/mix-path-selection/721">research post on mix path selection</a></strong> and its <a href="https://github.com/logos-storage/hs-mix-sim/tree/main/crates/freeroutesim">evaluation for the anonymous download</a> over a transport layer</li>
+                  <li>Worked on the <a href="https://hackmd.io/@codex-storage/HyU6451wGl">draft spec</a> for mix path selection to be used for both anonymous download and hidden services</li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>Work and experiment with hidden services time-based path selection for hidden services</li>
+                  <li>Complete the draft mix path selection spec</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3><a href="https://github.com/logos-storage/logos-storage-pm/issues/5">NAT Traversal</a></h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>NAT traversal fixes and tests</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li><strong>Fixed a memory issue in <code>nim-libplum</code> which was causing node crashes</strong> &mdash; <a href="https://github.com/logos-storage/nim-libplum/pull/20">nim-libplum #20</a></li>
+                  <li>Added a Mix + NAT containerized test and refactored test scripts &mdash; <a href="https://github.com/logos-storage/logos-storage-nim/pull/1507">logos-storage-nim #1507</a></li>
+                  <li>Restored/updated port mapping tests &mdash; <a href="https://github.com/logos-storage/logos-storage-nim/pull/1513">logos-storage-nim #1513</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3><a href="https://github.com/logos-storage/logos-storage-pm/issues/24">Storage Documentation</a></h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>Tutorials and intro pages</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li><strong>Simplified/updated tutorials for v2.1.2</strong> to use binary distributions &mdash; <a href="https://github.com/logos-co/logos-docs/pull/452">logos-docs #452</a></li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>Logos storage intro page</li>
+                  <li>New API tutorial to supersede <a href="https://github.com/logos-co/logos-docs/pull/166">logos-docs #166</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ================================================================
+             LOGOS CORE
+             ================================================================ -->
+      <div class="team-content" id="logoscore">
+
+        <div class="repo-list">
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-basecamp">logos-basecamp</a></h4>
+            <p>Cross-build Basecamp, bundler restored, Windows lockfile repaired, CI paths fixed after move under <code>logos/</code>.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-basecamp/pull/326">#326</a>
+              <a href="https://github.com/logos-co/logos-basecamp/pull/324">#324</a>
+              <a href="https://github.com/logos-co/logos-basecamp/pull/323">#323</a>
+              <a href="https://github.com/logos-co/logos-basecamp/pull/322">#322</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-blockchain/logos-blockchain-ui">logos-blockchain-ui</a></h4>
+            <p>Dropped unused krb5 from runtime deps.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-blockchain/logos-blockchain-ui/pull/58">#58</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-capability-module">logos-capability-module</a></h4>
+            <p>Committed a hand-written LIDL contract.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-capability-module/pull/23">#23</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-chat-ui">logos-chat-ui</a></h4>
+            <p>Chat module icon shipped as 256&times;256 PNG; dropped unused krb5 runtime dep.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-chat-ui/pull/56">#56</a>
+              <a href="https://github.com/logos-co/logos-chat-ui/pull/55">#55</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-container">logos-container</a></h4>
+            <p>Added an <code>x86_64-windows</code> cross target.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-container/pull/4">#4</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-container-subprocess">logos-container-subprocess</a></h4>
+            <p>Graceful shutdown and orphan reaping for module children on Windows.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-container-subprocess/pull/4">#4</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-cpp-sdk">logos-cpp-sdk</a></h4>
+            <p>Windows cross target; doctest coverage for the Qt-typed dependency wrapper; deferred generated event subscriptions.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-cpp-sdk/pull/136">#136</a>
+              <a href="https://github.com/logos-co/logos-cpp-sdk/pull/135">#135</a>
+              <a href="https://github.com/logos-co/logos-cpp-sdk/pull/134">#134</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-design-system">logos-design-system</a></h4>
+            <p>Inset artwork in AppTile; design system and storybook cross-built for Windows.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-design-system/pull/50">#50</a>
+              <a href="https://github.com/logos-co/logos-design-system/pull/49">#49</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-evm-wallet-ui">logos-evm-wallet-ui</a></h4>
+            <p>Dropped unused krb5 from runtime deps.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-evm-wallet-ui/pull/24">#24</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-liblogos">logos-liblogos</a></h4>
+            <p>Cross-compile liblogos with <code>liblogos_core</code> as single provider; bumped package manager.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-liblogos/pull/176">#176</a>
+              <a href="https://github.com/logos-co/logos-liblogos/pull/175">#175</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-libp2p-module">logos-libp2p-module</a></h4>
+            <p>Bounded per-topic gossipsub message queue; service-disco advertises caller-supplied XPR; bumped nim-libp2p.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-libp2p-module/pull/102">#102</a>
+              <a href="https://github.com/logos-co/logos-libp2p-module/pull/101">#101</a>
+              <a href="https://github.com/logos-co/logos-libp2p-module/pull/99">#99</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-lidl">logos-lidl</a></h4>
+            <p>Added an <code>x86_64-windows</code> cross target.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-lidl/pull/8">#8</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-logoscore-cli">logos-logoscore-cli</a></h4>
+            <p><code>logosctl.exe</code> runs a module on Windows; ship bundle-dir outputs; fix <code>--persistence-path</code> reaching the daemon's directory.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-logoscore-cli/pull/86">#86</a>
+              <a href="https://github.com/logos-co/logos-logoscore-cli/pull/85">#85</a>
+              <a href="https://github.com/logos-co/logos-logoscore-cli/pull/84">#84</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-module">logos-module</a></h4>
+            <p>Windows cross target, and resolve a plugin's private DLLs.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-module/pull/23">#23</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-module-builder">logos-module-builder</a></h4>
+            <p>Rust modules cross-compile to <code>x86_64-pc-windows-gnu</code> with winpthreads/headers/archive; staged runtime files; icons for basecamp artwork; dep bumps.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-module-builder/pull/200">#200</a>
+              <a href="https://github.com/logos-co/logos-module-builder/pull/199">#199</a>
+              <a href="https://github.com/logos-co/logos-module-builder/pull/198">#198</a>
+              <a href="https://github.com/logos-co/logos-module-builder/pull/197">#197</a>
+              <a href="https://github.com/logos-co/logos-module-builder/pull/196">#196</a>
+              <a href="https://github.com/logos-co/logos-module-builder/pull/194">#194</a>
+              <a href="https://github.com/logos-co/logos-module-builder/pull/193">#193</a>
+              <a href="https://github.com/logos-co/logos-module-builder/pull/191">#191</a>
+              <a href="https://github.com/logos-co/logos-module-builder/pull/190">#190</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-module-loader">logos-module-loader</a></h4>
+            <p>Added an <code>x86_64-windows</code> cross target.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-module-loader/pull/3">#3</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-module-loader-qt">logos-module-loader-qt</a></h4>
+            <p>Ported the Qt module host and added an <code>x86_64-windows</code> cross target.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-module-loader-qt/pull/7">#7</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-modules-release">logos-modules-release</a></h4>
+            <p><strong>Storage 2.1.2 and LB Module 0.2.2 published</strong>; Storage UI updated to 2.1.2.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-modules-release/pull/46">#46</a>
+              <a href="https://github.com/logos-co/logos-modules-release/pull/45">#45</a>
+              <a href="https://github.com/logos-co/logos-modules-release/pull/44">#44</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-package">logos-package</a></h4>
+            <p><strong>Manifest 0.4.0</strong> with variant-independent icon in <code>assets/</code>; cross-compile <code>lgx</code> for <code>x86_64-w64-mingw32</code>; Windows CI running lgx-cli doctests.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-package/pull/34">#34</a>
+              <a href="https://github.com/logos-co/logos-package/pull/33">#33</a>
+              <a href="https://github.com/logos-co/logos-package/pull/32">#32</a>
+              <a href="https://github.com/logos-co/logos-package/pull/31">#31</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-package-downloader">logos-package-downloader</a></h4>
+            <p>Cross-compile <code>lgpd</code> with DLL closure; read manifest version numbers; dropped stray <code>VERSION</code> file.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-package-downloader/pull/27">#27</a>
+              <a href="https://github.com/logos-co/logos-package-downloader/pull/26">#26</a>
+              <a href="https://github.com/logos-co/logos-package-downloader/pull/25">#25</a>
+              <a href="https://github.com/logos-co/logos-package-downloader/pull/24">#24</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-package-downloader-module">logos-package-downloader-module</a></h4>
+            <p>Windows target; added manifest version; bumped package-downloader.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-package-downloader-module/pull/22">#22</a>
+              <a href="https://github.com/logos-co/logos-package-downloader-module/pull/21">#21</a>
+              <a href="https://github.com/logos-co/logos-package-downloader-module/pull/20">#20</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-package-manager">logos-package-manager</a></h4>
+            <p>Cross-compile <code>lgpm</code>; read manifest version numbers; stop reporting successful installs as failures; dropped stray <code>VERSION</code> file.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-package-manager/pull/31">#31</a>
+              <a href="https://github.com/logos-co/logos-package-manager/pull/29">#29</a>
+              <a href="https://github.com/logos-co/logos-package-manager/pull/28">#28</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-package-manager-module">logos-package-manager-module</a></h4>
+            <p>Emit install event and report path for QML-only <code>ui_qml</code> packages; added manifest version.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-package-manager-module/pull/59">#59</a>
+              <a href="https://github.com/logos-co/logos-package-manager-module/pull/58">#58</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-package-manager-ui">logos-package-manager-ui</a></h4>
+            <p>Distinguish dropped install reply from a failed install; manifest versions and app tile.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-package-manager-ui/pull/67">#67</a>
+              <a href="https://github.com/logos-co/logos-package-manager-ui/pull/65">#65</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-plugin-qt">logos-plugin-qt</a></h4>
+            <p>Cross-compile the Qt plugin backend and stage its DLL closure.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-plugin-qt/pull/18">#18</a>
+              <a href="https://github.com/logos-co/logos-plugin-qt/pull/17">#17</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-protocol">logos-protocol</a></h4>
+            <p>Deep reliability pass on the plain (Qt-free) transport and QtRO edge cases: caller-timeout bounds the token handshake, event subscriptions survive unreachable modules, per-call waiter folded into call object, and many race/lifetime fixes.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-protocol/pull/58">#58</a>
+              <a href="https://github.com/logos-co/logos-protocol/pull/57">#57</a>
+              <a href="https://github.com/logos-co/logos-protocol/pull/56">#56</a>
+              <a href="https://github.com/logos-co/logos-protocol/pull/55">#55</a>
+              <a href="https://github.com/logos-co/logos-protocol/pull/54">#54</a>
+              <a href="https://github.com/logos-co/logos-protocol/pull/53">#53</a>
+              <a href="https://github.com/logos-co/logos-protocol/pull/52">#52</a>
+              <a href="https://github.com/logos-co/logos-protocol/pull/51">#51</a>
+              <a href="https://github.com/logos-co/logos-protocol/pull/50">#50</a>
+              <a href="https://github.com/logos-co/logos-protocol/pull/49">#49</a>
+              <a href="https://github.com/logos-co/logos-protocol/pull/47">#47</a>
+              <a href="https://github.com/logos-co/logos-protocol/pull/46">#46</a>
+              <a href="https://github.com/logos-co/logos-protocol/pull/45">#45</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-qt-sdk">logos-qt-sdk</a></h4>
+            <p>Windows cross target, and LogosAPI as a shared-runtime type.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-qt-sdk/pull/32">#32</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-storage-module">logos-storage-module</a></h4>
+            <p><strong>Storage 2.1.2 shipped</strong> &mdash; double-free fix in libstorage callbacks on failed thread send; module bumped and released.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-storage-module/pull/78">#78</a>
+              <a href="https://github.com/logos-co/logos-storage-module/pull/76">#76</a>
+              <a href="https://github.com/logos-co/logos-storage-module/pull/75">#75</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-storage-ui">logos-storage-ui</a></h4>
+            <p>Per-network mix config; download-folder icon hidden; release prep for 2.1.2.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-storage-ui/pull/85">#85</a>
+              <a href="https://github.com/logos-co/logos-storage-ui/pull/84">#84</a>
+              <a href="https://github.com/logos-co/logos-storage-ui/pull/83">#83</a>
+              <a href="https://github.com/logos-co/logos-storage-ui/pull/82">#82</a>
+              <a href="https://github.com/logos-co/logos-storage-ui/pull/81">#81</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-tutorial">logos-tutorial</a></h4>
+            <p>Cover the Windows target and <code>lgpm --platform</code>; track the qlonglong type contract and Basecamp's renamed Module Inspector.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-tutorial/pull/80">#80</a>
+              <a href="https://github.com/logos-co/logos-tutorial/pull/79">#79</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-view-module-runtime">logos-view-module-runtime</a></h4>
+            <p>Windows cross target with <code>WM_QUIT</code> instead of hard-kill; QML-bridge fixes for modules that are merely starting; CI runs on every push and PR.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-view-module-runtime/pull/23">#23</a>
+              <a href="https://github.com/logos-co/logos-view-module-runtime/pull/22">#22</a>
+              <a href="https://github.com/logos-co/logos-view-module-runtime/pull/21">#21</a>
+              <a href="https://github.com/logos-co/logos-view-module-runtime/pull/20">#20</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/nix-bundle-dir">nix-bundle-dir</a></h4>
+            <p>PE path for the directory bundler; strip host-provided DLLs from PE bundles.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/nix-bundle-dir/pull/20">#20</a>
+              <a href="https://github.com/logos-co/nix-bundle-dir/pull/19">#19</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/nix-bundle-lgx">nix-bundle-lgx</a></h4>
+            <p>Emit <code>windows-x86_64</code> <code>.lgx</code> packages; manifest 0.4.0 icon requirement; <code>bcryptprimitives.dll</code> treated as system DLL.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/nix-bundle-lgx/pull/12">#12</a>
+              <a href="https://github.com/logos-co/nix-bundle-lgx/pull/11">#11</a>
+              <a href="https://github.com/logos-co/nix-bundle-lgx/pull/10">#10</a>
             </div>
           </div>
         </div>
