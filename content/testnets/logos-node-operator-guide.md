@@ -14,7 +14,7 @@ The following package versions are pinned for release set `v0.2.1`.
 
 | Package | Version |
 |---------|---------|
-| `logos-blockchain-module` | `0.2.3` |
+| `logos-blockchain-module` | `0.2.4` |
 | `logos-storage-module` | `2.1.2` |
 | `logos-delivery-module` | `0.2.1` |
 | `logosctl` | `0.2.3-rc.1` |
@@ -165,8 +165,8 @@ Each root hash selects the exact published package identity for its pinned versi
 
 ```sh
 logosctl package install blockchain_module \
-  --version 0.2.3 \
-  --root-hash d7342b2d8a7e59fa312d4fa321340e7893b1b92bb16d4e298d4b2fc493edb618 \
+  --version 0.2.4 \
+  --root-hash 2e57268c4ec1fdcf07e4b6bf1b33b5ac99705c071f879e6ca1c41b4e543cc674 \
   --yes
 logosctl package install storage_module \
   --version 2.1.2 \
@@ -188,7 +188,7 @@ logosctl package ls --type core
 The output must list:
 
 ```text
-blockchain_module 0.2.3
+blockchain_module 0.2.4
 delivery_module 0.2.1
 storage_module 2.1.2
 ```
@@ -244,6 +244,12 @@ logosctl daemon status
 ```
 
 ## Blockchain
+
+> **Note:** Blockchain module `0.2.4` starts a new blockchain with a new genesis.
+> The Logos node testnet release remains `v0.2.1`, and the other module versions are unchanged.
+> Existing nodes must start with an empty blockchain state directory.
+> Existing `0.2.3` blockchain configuration and wallet keys can be retained.
+> Existing wallet keys can be retained, but balances and Blend declarations from the previous blockchain do not carry over.
 
 Create the blockchain peer file:
 
@@ -310,6 +316,32 @@ Operator-facing fields in `user_config.yaml`:
 | logger filters | Log verbosity | Use `INFO` for unattended operation |
 
 
+### Fund the node for consensus
+
+After the node reaches `Online`, request testnet funds to participate in consensus.
+Find the public keys associated with your node:
+
+```sh
+cd /var/lib/logos-node
+grep -A6 known_keys user_config.yaml
+```
+
+Choose a public key from `known_keys` and request funds for it from the [faucet](https://testnet.blockchain.logos.co/web/faucet/).
+Alternatively, request funds directly, replacing `<your-chosen-key>` with that public key:
+
+```sh
+curl -fsS -X POST 'https://testnet.blockchain.logos.co/web/faucet-backend/<your-chosen-key>'
+```
+
+The faucet allows one request per key per block.
+Check the balance, replacing `<your-chosen-key>` with the public key you funded:
+
+```sh
+curl -fsS 'http://127.0.0.1:8080/wallet/<your-chosen-key>/balance' | jq .
+```
+
+Funds received in epoch N count for block production from epoch N+2.
+
 ### Joining Blend Network
 
 Request funds to both the BlendZk and SdpFunding keys from your `keystore.yaml` from the [faucet](https://testnet.blockchain.logos.co/web/faucet/)
@@ -329,7 +361,8 @@ secret_keys:
   ...
 ```
 
-Wait until you receive funds to both addresses, you can check the balance of your accounts with the following commands, you may need to repeat the faucet requests since only one drip is allowed per block.
+Wait until you receive funds to both addresses.
+You can check the balance of your accounts with the following commands:
 
 ```bash
 # check BlendZk key has received funds
