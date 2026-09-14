@@ -78,9 +78,8 @@ Extracted from [Add Group Chat](https://github.com/logos-messaging/pm/issues/346
 
 Features needed for a real chat experience beyond the protocol layer:
 - Message history persistence and retrieval across sessions
-- Contact management (add, remove, block contacts)
-- Conversation list management
-- Typing indicators and read receipts
+- Default content types
+- Ability to remove self from group chat
 
 ### [Reliability testing with DST](https://github.com/logos-messaging/pm/issues/442)
 
