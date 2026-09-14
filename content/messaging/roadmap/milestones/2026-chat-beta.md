@@ -78,7 +78,7 @@ Extracted from [Add Group Chat](https://github.com/logos-messaging/pm/issues/346
 
 Features needed for a real chat experience beyond the protocol layer:
 - Message history persistence and retrieval across sessions
-- Default content types
+- Default content types: `Text`, `Reply`
 - Ability to remove members from group
 
 ### [Reliability testing with DST](https://github.com/logos-messaging/pm/issues/442)
