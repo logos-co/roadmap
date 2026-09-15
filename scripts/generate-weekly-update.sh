@@ -28,9 +28,11 @@ logos-design-system
 logos-doctest
 logos-doctest-hub
 logos-evm-eth-rpc-module
+logos-evm-fee-module
 logos-evm-keystore-module
 logos-evm-net-proxy
 logos-evm-railgun-module
+logos-evm-signer-ui
 logos-evm-token-list-module
 logos-evm-uniswap-module
 logos-evm-wallet-backend-module
@@ -48,6 +50,8 @@ logos-module-client
 logos-module-loader
 logos-module-loader-qt
 logos-module-viewer
+logos-modules-release-tool
+logos-modules-state-module
 logos-package
 logos-package-downloader
 logos-package-downloader-module
@@ -61,7 +65,9 @@ logos-rust-sdk
 logos-standalone-app
 logos-storage-module
 logos-storage-ui
+logos-test-framework
 logos-tutorial
+logos-view-module
 logos-view-module-runtime
 logos-wallet-module
 logos-wallet-ui
@@ -70,11 +76,14 @@ logos-workspace
 nix-bundle-appimage
 nix-bundle-dir
 nix-bundle-lgx
+nix-bundle-logos-module-install
 nix-bundle-macos-app
 logos-modules-release
+logos-delivery-demo
 logos-test-modules
 logos-blockchain/lez-explorer-ui
 logos-blockchain/logos-blockchain-ui
+logos-blockchain/logos-execution-zone-module
 logos-blockchain/logos-execution-zone-wallet-ui
 "
 
