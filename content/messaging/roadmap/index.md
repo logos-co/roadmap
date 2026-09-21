@@ -47,23 +47,31 @@ We use three release stages for developer-facing APIs and libraries:
 ### Testnet [v0.3](v03)
 
 - [ ] [Messaging API — General Availability](2026-messaging-api-general-availability)
-- [ ] [Reliable Channel API — Beta](2026-reliable-channel-api-beta.md)
+- [x] [Reliable Channel API — Beta](2026-reliable-channel-api-beta.md)
 - [ ] [Chat — Beta](2026-chat-beta)
 - [ ] [RLN on Logos Blockchain](2026-add-support-for-rln-on-lee)
 - [ ] [Logos Core Integration — Phase 3](2026-logos-core-integration-phase-3)
+
+### Testnet v0.4
+
+- [ ] [Reliable Channel API — General Availability](2026-reliable-channel-api-general-availability.md)
+- [ ] [Polish the Implementations of Waku Protocols](2026-polish-waku-protocols.md)
+- [ ] [Bugfixes and Improvements](2026-delivery-bugfixes-and-improvements.md)
+- [ ] [Chat — Beta 2](2026-chat-beta-2.md)
+- [ ] [Logos Core Integration — Phase 4](2026-logos-core-integration-testnet-v04.md)
+- [ ] [Status: Logos Delivery Integration](2026-status-logos-delivery-integration)
 
 ### Required for Mainnet
 
 - [ ] [Chat — General Availability](2026-chat-general-availability)
 - [ ] [Logos Core Integration — Phase 4](2026-logos-core-integration-phase-4.md)
 - [ ] [Support Mobile Platforms](2026-support-mobile-platforms)
+- [ ] [Status: Logos Chat Integration](2026-status-logos-chat-integration)
 - [ ] Security audit (internal security team review followed by external audit)
 
 ### Parallel milestones
 
 - [x] [Nimble Migration](2026-nimble-migration)
 - [x] [Fleet Stability](2026-fleet-stability)
-- [ ] [Status: Logos Delivery Integration](2026-status-logos-delivery-integration)
 - [x] [Status: Foundation for Communities Optimization](2025-foundation-for-communities-optimization)
 - [x] [Status: E2E Reliability in Communities](2024-e2e-reliability-protocol)
-- [ ] [Status: Logos Chat Integration](2026-status-logos-chat-integration)
