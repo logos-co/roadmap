@@ -24,4 +24,4 @@ You an read more about the contents of a given milestone and the various justifi
 - [[storage/index|Storage]]
 
 ### Logos Testnets
-- [[overview|Testnets overview]]
+- [[testnets/overview|Testnets overview]]
