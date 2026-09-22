@@ -521,21 +521,21 @@
 
       <nav class="week-nav">
         <a class="prev" data-router-ignore href="/reports/weekly/2026-08-31.html">&larr; 2026-08-31</a>
-        <span class="spacer"></span>
+        <a class="next" data-router-ignore href="/reports/weekly/2026-09-14.html">2026-09-14 &rarr;</a>
       </nav>
 
       <div class="stats-bar">
         <div class="stat">
-          <div class="stat-value">2</div>
+          <div class="stat-value">4</div>
           <div class="stat-label">Teams Reporting</div>
         </div>
         <div class="stat">
-          <div class="stat-value">50+</div>
+          <div class="stat-value">200+</div>
           <div class="stat-label">PRs &amp; Updates</div>
         </div>
       </div>
 
-      <p style="text-align:center; color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 1.5rem;">Note: Messaging and AnonComms have reported. Blockchain, Storage, and Logos Core sections will be added as their updates land.</p>
+      <p style="text-align:center; color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 1.5rem;">Note: Messaging, AnonComms, Logos Core, and Storage have reported. The Blockchain section will be added as its updates land.</p>
 
       <section class="highlights-section">
         <h2>Key Highlights</h2>
@@ -564,6 +564,26 @@
             <div class="team">AnonComms</div>
             <p>Standalone service discovery module now plugs into Logos Delivery &mdash; discovery plugin header PR opened and verified locally against Delivery nodes.</p>
           </div>
+          <div class="highlight-card logoscore">
+            <div class="team">Logos Core</div>
+            <p><strong>A module load now reports a verdict</strong> &mdash; spawned, loaded and ready became three distinct facts across a four-repo chain, so a plugin that never loaded is no longer announced as <code>loaded</code>.</p>
+          </div>
+          <div class="highlight-card logoscore">
+            <div class="team">Logos Core</div>
+            <p><strong>Protocol 0.9 makes a provider restart observable</strong> &mdash; a liveness watchdog, generation counter and status channel, keyed by target module and carried into all three SDKs.</p>
+          </div>
+          <div class="highlight-card logoscore">
+            <div class="team">Logos Core</div>
+            <p><strong>The EVM signer became usable</strong> &mdash; <code>evm.signing.approve</code> brings the approver forward with the request, calldata is decoded on the device that displays it, and account mutation is the custodian's alone.</p>
+          </div>
+          <div class="highlight-card storage">
+            <div class="team">Storage</div>
+            <p><strong>Mix transport gained retransmissions, push-based SURB replenishment and remote session cleanup</strong> &mdash; and works under adverse-network testing.</p>
+          </div>
+          <div class="highlight-card storage">
+            <div class="team">Storage</div>
+            <p><a href="https://forum.research.logos.co/t/hidden-service-time-based-path-selection/730">Research on time-based path selection</a> for hidden services published, and the strategy folded into the <a href="https://github.com/logos-co/logos-lips/pull/445">draft path selection spec</a>. Storage Module &amp; UI <a href="https://github.com/logos-co/logos-storage-module/releases/tag/v2.1.3">v2.1.3</a> are out.</p>
+          </div>
         </div>
       </section>
 
@@ -578,6 +598,8 @@
       <div class="tabs">
         <button class="tab messaging active" data-team="messaging">Messaging</button>
         <button class="tab anoncomms" data-team="anoncomms">AnonComms</button>
+        <button class="tab logoscore" data-team="logoscore">Logos Core</button>
+        <button class="tab storage" data-team="storage">Storage</button>
       </div>
 
       <!-- ================================================================
@@ -912,6 +934,376 @@
                 <span class="section-label next">Next</span>
                 <ul class="item-list">
                   <li>Static analysis of the Poseidon2 Circom implementation using circomspect, and request for review</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ================================================================
+             LOGOS CORE
+             ================================================================ -->
+      <div class="team-content" id="logoscore">
+        <div class="repo-list">
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-basecamp">logos-basecamp</a></h4>
+            <p><strong>Intent routing completes the round trip</strong> &mdash; a caller that raises an intent is routed back once the provider finishes; the PMUI install/uninstall/upgrade ack handshake is gone now that <code>modules_state</code> reports lifecycle directly; mock backends and a mock logos core make the app drivable without a live stack; the MCP-driven UI test layer grew; Windows CI moved to the self-hosted pool.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-basecamp/pull/385">#385</a>
+              <a href="https://github.com/logos-co/logos-basecamp/pull/384">#384</a>
+              <a href="https://github.com/logos-co/logos-basecamp/pull/383">#383</a>
+              <a href="https://github.com/logos-co/logos-basecamp/pull/382">#382</a>
+              <a href="https://github.com/logos-co/logos-basecamp/pull/381">#381</a>
+              <a href="https://github.com/logos-co/logos-basecamp/pull/380">#380</a>
+              <a href="https://github.com/logos-co/logos-basecamp/pull/379">#379</a>
+              <a href="https://github.com/logos-co/logos-basecamp/pull/378">#378</a>
+              <a href="https://github.com/logos-co/logos-basecamp/pull/377">#377</a>
+              <a href="https://github.com/logos-co/logos-basecamp/pull/367">#367</a>
+              <a href="https://github.com/logos-co/logos-basecamp/pull/366">#366</a>
+              <a href="https://github.com/logos-co/logos-basecamp/pull/365">#365</a>
+              <a href="https://github.com/logos-co/logos-basecamp/pull/364">#364</a>
+              <a href="https://github.com/logos-co/logos-basecamp/pull/346">#346</a>
+              <a href="https://github.com/logos-co/logos-basecamp/pull/345">#345</a>
+              <a href="https://github.com/logos-co/logos-basecamp/pull/344">#344</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-blockchain/logos-blockchain-ui">logos-blockchain-ui</a></h4>
+            <p>New designs across the app &mdash; a section nav over dashboard, blocks, accounts and node views, stat tiles, node and validator status cards, chain-stats and Cryptarchia-info views, and a new icon set.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-blockchain/logos-blockchain-ui/pull/62">#62</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-capability-module">logos-capability-module</a></h4>
+            <p>Relocked onto the module-builder carrying the protocol 0.9 revision.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-capability-module/pull/29">#29</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-container">logos-container</a></h4>
+            <p>A container can now report whether a module's plugin actually loaded &mdash; the vocabulary (<code>LoadVerdict</code> / <code>ModuleContainer::awaitLoad</code>) reported over the stdout it already reads, no fourth pipe.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-container/pull/5">#5</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-container-subprocess">logos-container-subprocess</a></h4>
+            <p>Answers whether a launched module actually loaded, and spawns with <code>posix_spawn</code> so the child cannot deadlock before <code>exec</code> &mdash; which also brought fd hygiene.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-container-subprocess/pull/7">#7</a>
+              <a href="https://github.com/logos-co/logos-container-subprocess/pull/6">#6</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-cpp-sdk">logos-cpp-sdk</a></h4>
+            <p><code>LpClient::subscribeEx</code> surfaces subscription transitions, then re-keyed by target module &mdash; guarded on protocol &ge; 0.9 so it merged as a no-op before the protocol side.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-cpp-sdk/pull/154">#154</a>
+              <a href="https://github.com/logos-co/logos-cpp-sdk/pull/153">#153</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-design-system">logos-design-system</a></h4>
+            <p>Progress-bar API fixed to support end-to-end download progress, and a dot matrix added.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-design-system/pull/54">#54</a>
+              <a href="https://github.com/logos-co/logos-design-system/pull/53">#53</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-doctest">logos-doctest</a></h4>
+            <p>Content-addressed screenshot files landed and were then reverted &mdash; the split grew the branch and broke consumers.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-doctest/pull/17">#17</a>
+              <a href="https://github.com/logos-co/logos-doctest/pull/16">#16</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-evm-eth-rpc-module">logos-evm-eth-rpc-module</a></h4>
+            <p>Optional light-client verified routing, per chain &mdash; <code>off</code> (default) is today's behaviour exactly, <code>required</code> refuses on failure, and there is no <code>preferred</code> mode; only proof-backed reads are classed verified.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-evm-eth-rpc-module/pull/8">#8</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-evm-fee-module">logos-evm-fee-module</a></h4>
+            <p>Made to follow our module-builder, and now diffs a fingerprint of the served rows so a list that stops resolving cannot empty its chains in silence.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-evm-fee-module/pull/2">#2</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-evm-keystore-module">logos-evm-keystore-module</a></h4>
+            <p><strong>Tier D &mdash; account mutation belongs to the custodian alone.</strong> The gate runs before arguments are parsed and every secret a refused call carried is zeroized; gating <code>delete_account</code> closed an unmetered password oracle. The decision moved into a pure <code>gate.rs</code>.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-evm-keystore-module/pull/7">#7</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-evm-signer-ui">logos-evm-signer-ui</a></h4>
+            <p><code>evm.signing.approve</code> provided (the intent is a doorbell, not a courier), and the signer decodes the calldata it is about to show &mdash; offline, self-labelling, only VERIFIED for an address the decoder can identify.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-evm-signer-ui/pull/5">#5</a>
+              <a href="https://github.com/logos-co/logos-evm-signer-ui/pull/4">#4</a>
+              <a href="https://github.com/logos-co/logos-evm-signer-ui/pull/3">#3</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-evm-token-list-module">logos-evm-token-list-module</a></h4>
+            <p>A token list that works offline &mdash; 1709 tokens across 25 chains compiled in, with a <code>PROVENANCE.md</code> recording URL, fetch date, version, byte count and sha256 so the blob is re-derivable rather than trusted.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-evm-token-list-module/pull/5">#5</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-blockchain/logos-execution-zone-module">logos-execution-zone-module</a></h4>
+            <p><code>send_generic_public_transaction</code> corrected to a byte-string instruction IPC type.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-blockchain/logos-execution-zone-module/pull/49">#49</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-liblogos">logos-liblogos</a></h4>
+            <p><strong>The load-verdict consumer:</strong> the load waits for the verdict and reports it; a crash stopped being described by a stale teardown; the snapshot reports each module's real type and version; concurrent per-module loading; then relocked onto the fork-safe container and relative-<code>--path</code> host.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-liblogos/pull/204">#204</a>
+              <a href="https://github.com/logos-co/logos-liblogos/pull/203">#203</a>
+              <a href="https://github.com/logos-co/logos-liblogos/pull/202">#202</a>
+              <a href="https://github.com/logos-co/logos-liblogos/pull/201">#201</a>
+              <a href="https://github.com/logos-co/logos-liblogos/pull/200">#200</a>
+              <a href="https://github.com/logos-co/logos-liblogos/pull/199">#199</a>
+              <a href="https://github.com/logos-co/logos-liblogos/pull/198">#198</a>
+              <a href="https://github.com/logos-co/logos-liblogos/pull/197">#197</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-logoscore-cli">logos-logoscore-cli</a></h4>
+            <p>Bumped onto the fork-safe liblogos.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-logoscore-cli/pull/118">#118</a>
+              <a href="https://github.com/logos-co/logos-logoscore-cli/pull/117">#117</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-logoscore-py">logos-logoscore-py</a></h4>
+            <p>Relocked onto the module-not-loaded fix.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-logoscore-py/pull/23">#23</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-module-builder">logos-module-builder</a></h4>
+            <p>A Nim cdylib authoring path (<code>codegen.nim</code>) so a module can be authored with a Nim core behind its <code>.lidl</code> contract &mdash; verified end to end &mdash; plus the relock train onto the protocol 0.9 revision.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-module-builder/pull/227">#227</a>
+              <a href="https://github.com/logos-co/logos-module-builder/pull/225">#225</a>
+              <a href="https://github.com/logos-co/logos-module-builder/pull/224">#224</a>
+              <a href="https://github.com/logos-co/logos-module-builder/pull/223">#223</a>
+              <a href="https://github.com/logos-co/logos-module-builder/pull/222">#222</a>
+              <a href="https://github.com/logos-co/logos-module-builder/pull/202">#202</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-module-loader-qt">logos-module-loader-qt</a></h4>
+            <p>The host reports whether the plugin loaded and why it did not, and resolves a relative <code>--path</code>.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-module-loader-qt/pull/13">#13</a>
+              <a href="https://github.com/logos-co/logos-module-loader-qt/pull/12">#12</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-modules-release">logos-modules-release</a></h4>
+            <p>Storage updated to 2.1.3 through the release set, and the AMM modules added.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-modules-release/pull/53">#53</a>
+              <a href="https://github.com/logos-co/logos-modules-release/pull/52">#52</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-modules-state-module">logos-modules-state-module</a></h4>
+            <p><code>error</code> documented as also covering a load that failed, not only a crash.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-modules-state-module/pull/3">#3</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-package-downloader">logos-package-downloader</a></h4>
+            <p>Progress reported by the downloader for downloads.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-package-downloader/pull/36">#36</a>
+              <a href="https://github.com/logos-co/logos-package-downloader/pull/35">#35</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-package-downloader-module">logos-package-downloader-module</a></h4>
+            <p>Download progress carried through the module.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-package-downloader-module/pull/34">#34</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-package-manager-ui">logos-package-manager-ui</a></h4>
+            <p>Download progress drawn in PMUI (closing #57 and #61), with flake hygiene alongside.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-package-manager-ui/pull/77">#77</a>
+              <a href="https://github.com/logos-co/logos-package-manager-ui/pull/76">#76</a>
+              <a href="https://github.com/logos-co/logos-package-manager-ui/pull/75">#75</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-plugin-qt">logos-plugin-qt</a></h4>
+            <p>Relocked onto the protocol 0.9 revision; the consumer-admission bound raised 8 &rarr; 9 and then its note corrected &mdash; the bound stays at 9.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-plugin-qt/pull/33">#33</a>
+              <a href="https://github.com/logos-co/logos-plugin-qt/pull/32">#32</a>
+              <a href="https://github.com/logos-co/logos-plugin-qt/pull/31">#31</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-protocol">logos-protocol</a></h4>
+            <p><strong>Protocol 0.9 &mdash; subscription continuity, keyed by target module.</strong> A liveness watchdog, generation counter and status channel make a provider restart observable; the silent re-arm was kept deliberately but made observable; plus CI bars a loaded runner can meet, and the mock re-reads <code>LOGOS_MOCK_FIXTURE</code>.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-protocol/pull/83">#83</a>
+              <a href="https://github.com/logos-co/logos-protocol/pull/82">#82</a>
+              <a href="https://github.com/logos-co/logos-protocol/pull/81">#81</a>
+              <a href="https://github.com/logos-co/logos-protocol/pull/80">#80</a>
+              <a href="https://github.com/logos-co/logos-protocol/pull/79">#79</a>
+              <a href="https://github.com/logos-co/logos-protocol/pull/78">#78</a>
+              <a href="https://github.com/logos-co/logos-protocol/pull/77">#77</a>
+              <a href="https://github.com/logos-co/logos-protocol/pull/76">#76</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-qt-sdk">logos-qt-sdk</a></h4>
+            <p>Subscription state keyed by target module; moved to protocol 0.9 and the raised consumer-admission bound; and nine stale tests corrected.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-qt-sdk/pull/49">#49</a>
+              <a href="https://github.com/logos-co/logos-qt-sdk/pull/48">#48</a>
+              <a href="https://github.com/logos-co/logos-qt-sdk/pull/47">#47</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-rust-sdk">logos-rust-sdk</a></h4>
+            <p>Subscription state keyed by target module, not by subscription.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-rust-sdk/pull/52">#52</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-standalone-app">logos-standalone-app</a></h4>
+            <p>Bumped onto the fork-safe liblogos.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-standalone-app/pull/46">#46</a>
+              <a href="https://github.com/logos-co/logos-standalone-app/pull/45">#45</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-storage-module">logos-storage-module</a></h4>
+            <p>Storage Nim core updated to 0.4.5.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-storage-module/pull/84">#84</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-storage-ui">logos-storage-ui</a></h4>
+            <p>Updated onto the new 2.1.3 version.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-storage-ui/pull/91">#91</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-view-module-runtime">logos-view-module-runtime</a></h4>
+            <p><code>watch()</code> stopped hanging silently &mdash; when <code>module()</code> returned null, a type mismatch default-constructed a call whose <code>isFinished()</code> is never true, so no callback fired and nothing was logged, across all 82 call sites.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-view-module-runtime/pull/30">#30</a>
+              <a href="https://github.com/logos-co/logos-view-module-runtime/pull/29">#29</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ================================================================
+             STORAGE
+             ================================================================ -->
+      <div class="team-content" id="storage">
+
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Large Data Transport Layer for Mix</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4><a href="https://github.com/logos-storage/logos-storage-pm/issues/2">Mix Transport</a></h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Added re-transmissions of outbound packets</li>
+                  <li>New "push" model to SURB replenishment</li>
+                  <li>Remote closing and cleanup of sessions and streams</li>
+                  <li>Added netem emulation to the testing harness, with performance analysis</li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>Aligning with the testing harness branch and ensuring the changes introduced there are ported to the main mix-transport branch</li>
+                  <li>Integration with the block exchange protocol</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Hidden Services Over Mix</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4><a href="https://github.com/logos-storage/logos-storage-pm/issues/20">Hidden Services Over Mix</a></h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Completed the research document on hidden services path selection and posted it to the <a href="https://forum.research.logos.co/t/hidden-service-time-based-path-selection/730">forum</a></li>
+                  <li>Included the optimal strategy for hidden services in the <a href="https://github.com/logos-co/logos-lips/pull/445">path selection spec</a></li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>Finalize the <a href="https://hackmd.io/@codex-storage/HyU6451wGl">path selection spec</a> and request reviews</li>
+                  <li>Work on the <a href="https://github.com/logos-storage/hs-mix-sim/tree/main/crates/freeroutesim">hidden services simulator</a> to make the research results reproducible and easy to run</li>
+                  <li>Revise the <a href="https://github.com/logos-co/logos-lips/pull/330">hidden service spec</a> to work with the path selection spec</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Package Manager</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4><a href="https://github.com/logos-storage/logos-storage-pm/issues/25">Package Manager</a></h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Added <a href="https://github.com/logos-co/logos-storage-module/pull/85">total bytes</a> in the download progress callback</li>
+                  <li>Provided an <a href="https://github.com/logos-storage/logos-storage-nim/pull/1523">opt-out</a> solution for download providers</li>
+                  <li>Storage Module <a href="https://github.com/logos-co/logos-storage-module/releases/tag/v2.1.3">2.1.3</a> release &mdash; to be delivered soon for hosting LGX packages</li>
+                  <li>Storage UI <a href="https://github.com/logos-co/logos-storage-ui/releases/tag/v2.1.3">2.1.3</a> release</li>
+                  <li>Tried the full download progress on the basecamp application successfully</li>
+                  <li>Updated the Package Downloader Module <a href="https://github.com/logos-co/logos-package-downloader-module/pull/32">doctests</a> for a full e2e test, including the progress feature</li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>Add Storage Module as an optional dependency in <code>logosctl</code> and <code>basecamp</code></li>
+                  <li>Move the configuration migration into the Storage Module</li>
                 </ul>
               </div>
             </div>
