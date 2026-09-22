@@ -526,7 +526,7 @@
 
       <div class="stats-bar">
         <div class="stat">
-          <div class="stat-value">3</div>
+          <div class="stat-value">4</div>
           <div class="stat-label">Teams Reporting</div>
         </div>
         <div class="stat">
@@ -535,7 +535,7 @@
         </div>
       </div>
 
-      <p style="text-align:center; color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 1.5rem;">Note: AnonComms, Messaging, and Logos Core have reported. Blockchain and Storage sections will be added as their updates land.</p>
+      <p style="text-align:center; color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 1.5rem;">Note: AnonComms, Messaging, Logos Core, and Storage have reported. The Blockchain section will be added as its updates land.</p>
 
       <section class="highlights-section">
         <h2>Key Highlights</h2>
@@ -564,6 +564,14 @@
             <div class="team">Logos Core</div>
             <p><strong>App-to-app intents shipped</strong> &mdash; three frozen QML symbols over a host-side broker that checks each caller's <code>uses</code> declaration; <code>provides</code> landed in the package format and intent names carried through downloader, bundler and templates.</p>
           </div>
+          <div class="highlight-card storage">
+            <div class="team">Storage</div>
+            <p><strong>Mix transport now carries data transfers</strong> &mdash; a new multinode testing harness runs 100+ node experiments with 80+ concurrent downloads in a fault-free network.</p>
+          </div>
+          <div class="highlight-card storage">
+            <div class="team">Storage</div>
+            <p><strong>Storage moved to the nim-libp2p Kademlia DHT</strong> &mdash; discovery runs over the node's existing switch and TCP transport, retiring the whole second UDP stack and bringing us closer to a unified Logos codebase.</p>
+          </div>
         </div>
       </section>
 
@@ -579,6 +587,7 @@
         <button class="tab messaging active" data-team="messaging">Messaging</button>
         <button class="tab anoncomms" data-team="anoncomms">AnonComms</button>
         <button class="tab logoscore" data-team="logoscore">Logos Core</button>
+        <button class="tab storage" data-team="storage">Storage</button>
       </div>
 
       <!-- ================================================================
@@ -1321,6 +1330,83 @@
             </div>
           </div>
         </div>
+      </div>
+
+      <!-- ================================================================
+             STORAGE
+             ================================================================ -->
+      <div class="team-content" id="storage">
+
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Large Data Transport Layer for Mix</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4><a href="https://github.com/logos-storage/logos-storage-pm/issues/2">Mix Transport</a></h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Finished data transfer over the Mix transport</li>
+                  <li>Started adding reliability features: SURB management and refills</li>
+                  <li>Initial implementation of a multinode testing harness &mdash; after some bug fixing, can run 100+ node experiments with 80+ concurrent downloads</li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>Re-transmissions of outbound packets</li>
+                  <li>Introduce the "push" model to SURB replenishment (may extend, complement, or replace the current "pull" strategy &mdash; subject to investigation)</li>
+                  <li>Remote closing and cleanup of sessions and streams</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Hidden Services Over Mix</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4><a href="https://github.com/logos-storage/logos-storage-pm/issues/20">Hidden Services Over Mix</a></h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Evaluated Tor's hidden service path selection strategy in the Mix setting and threat model using Tor's <a href="https://github.com/asn-d6/vanguard_simulator">vanguard simulator</a></li>
+                  <li>Experimented with different parameters and configuration to find optimal params, configuration and path lifetime for mix hidden services, and found a promising approach</li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>Write down the research outcome in a forum post and possibly a paper</li>
+                  <li>Include the optimal strategy in the path selection spec</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Switch to Kad-DHT</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4><a href="https://github.com/logos-storage/logos-storage-pm/issues/9">Switch to Kad-DHT</a></h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Replaced codexdht/discv5 with the nim-libp2p Kademlia DHT &mdash; discovery now runs over the node's existing switch and TCP transport instead of a second UDP stack with its own identity and port</li>
+                  <li>Retired the whole UDP side, the derived UDP announce addresses, and the UDP NAT port mapping</li>
+                  <li>Full test suite passes, including the NAT/hole-punch integration scenarios</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
 
       <footer>
