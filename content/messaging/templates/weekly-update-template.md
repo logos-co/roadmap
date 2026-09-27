@@ -46,6 +46,10 @@ title: 2026-MM-DD Messaging Weekly
   - next:
   - blockers:
 
+- [[Deliverable] Support ephemeral messages in the Reliable Channel API](https://github.com/logos-messaging/logos-delivery/issues/4305)
+  - achieved:
+  - next:
+  - blockers:
 ## [Polish the Implementations of Waku Protocols](2026-polish-waku-protocols.md)
 
 - [[Deliverable] Review implementation of Store Sync protocol](https://github.com/logos-messaging/pm/issues/469)
@@ -56,6 +60,21 @@ title: 2026-MM-DD Messaging Weekly
 ## [Bugfixes and Improvements](2026-delivery-bugfixes-and-improvements.md)
 
 - [[Deliverable] Messaging API — address 0.3 feedback](https://github.com/logos-messaging/pm/issues/481)
+  - achieved:
+  - next:
+  - blockers:
+
+- [[Deliverable] Bump Delivery dependencies](https://github.com/logos-messaging/pm/issues/485)
+  - achieved:
+  - next:
+  - blockers:
+
+- [[Deliverable] Allow pluggable nim-libp2p](https://github.com/logos-messaging/logos-delivery/issues/4341)
+  - achieved:
+  - next:
+  - blockers:
+
+- [[Deliverable] Speed up PR CI](https://github.com/logos-messaging/logos-delivery/issues/4342)
   - achieved:
   - next:
   - blockers:
@@ -89,11 +108,6 @@ title: 2026-MM-DD Messaging Weekly
   - next:
   - blockers:
 
-- [[Deliverable] Design SDS and de-MLS integration](https://github.com/logos-messaging/pm/issues/445)
-  - achieved:
-  - next:
-  - blockers:
-
 ## [Chat — Beta 2](2026-chat-beta-2.md)
 
 - [[Deliverable] Perform test integration of Logos Chat into Status App](https://github.com/logos-messaging/pm/issues/444)
@@ -109,11 +123,6 @@ title: 2026-MM-DD Messaging Weekly
 # Logos Core
 
 ## [Logos Core Integration — Phase 3](2026-logos-core-integration-phase-3.md)
-
-- [[Deliverable] Make discovery pluggable in Logos Delivery](https://github.com/logos-messaging/pm/issues/449)
-  - achieved:
-  - next:
-  - blockers:
 
 - [[Deliverable] POC: Delivery module uses Discovery module for peer discovery](https://github.com/logos-messaging/pm/issues/389)
   - achieved:
@@ -132,6 +141,10 @@ title: 2026-MM-DD Messaging Weekly
   - next:
   - blockers:
 
+- [[Deliverable] Support multiple module clients in `delivery-module`](https://github.com/logos-messaging/pm/issues/484)
+  - achieved:
+  - next:
+  - blockers:
 # Status
 
 ## [Status: Logos Delivery Integration](2026-status-logos-delivery-integration.md)
