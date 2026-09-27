@@ -54,9 +54,8 @@ We use three release stages for developer-facing APIs and libraries:
 
 ### Testnet v0.4
 
+<!-- FIXME: restructure and rename these milestones -->
 - [ ] [Reliable Channel API — General Availability](2026-reliable-channel-api-general-availability.md)
-- [ ] [Polish the Implementations of Waku Protocols](2026-polish-waku-protocols.md)
-- [ ] [Bugfixes and Improvements](2026-delivery-bugfixes-and-improvements.md)
 - [ ] [Chat — Beta 2](2026-chat-beta-2.md)
 - [ ] [Logos Core Integration — Phase 4](2026-logos-core-integration-testnet-v04.md)
 - [ ] [Status: Logos Delivery Integration](2026-status-logos-delivery-integration)

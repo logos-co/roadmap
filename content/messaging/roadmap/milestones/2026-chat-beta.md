@@ -11,7 +11,7 @@ github: https://github.com/logos-messaging/pm/issues/425
 - 2 Chat engineers
 - 1 Delivery engineer (testing support)
 
-The Beta focuses on polishing the Logos Chat implementation into a state suitable for real application integration. It builds on the foundations (v0.1, 1:1 chats) and the [Developer Preview](2026-chat-developer-preview) (v0.2, group conversations) by hardening the API, completing the identity model and enabling on-chain contact discovery. DST reliability testing and the Status test integration continue in [Chat — Beta 2](2026-chat-beta-2).
+The Beta focuses on polishing the Logos Chat implementation into a state suitable for real application integration. It builds on the foundations (v0.1, 1:1 chats) and the [Developer Preview](2026-chat-developer-preview) (v0.2, group conversations) by hardening the API, completing the identity model and enabling on-chain contact discovery.
 
 The focus is:
 - Stabilize and polish the API based on feedback from v0.2 Status test integration

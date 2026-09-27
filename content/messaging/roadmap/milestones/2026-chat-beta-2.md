@@ -6,17 +6,7 @@ date: 2026-09-16
 github: https://github.com/logos-messaging/pm/issues/482
 ---
 
-**Resources Required**:
-- Chat engineers
-- Status Team support
-- DST involvement for reliability testing
-
 Follows [Chat — Beta](2026-chat-beta). Validates Logos Chat at scale with DST and in a real application through a test integration into Status App.
-
-## FURPS
-
-- [Logos Chat](/messaging/furps/application/chat_sdk.md): all
-- [Group Chat](/messaging/furps/application/group_chat.md): all
 
 ## Deliverables
 
