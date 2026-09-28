@@ -13,7 +13,8 @@ tags: testnet
 - Events: LEZ programs support events.
 - Program upgradeability: Support for upgrading deployed programs.
 - Program deployment sharding
-* Bridging Withdraw (from L1)
+- Incremental state updates: LEZ programs now express account transitions as incremental diffs rather than full post-states.
+
 
 ### Blockchain
 
