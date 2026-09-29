@@ -10,6 +10,8 @@
 6. Client nodes can discover addresses of peers with specific capabilities without participating in the Kad-DHT
 7. Service discovery correctly discovers all advertised peers in a topology of several thousand nodes
 8. Service discovery correctly discovers peers advertising a sparse service in a topology of several thousand nodes
+9. The service discovery module advertises only signed extensible peer records provided by consuming modules and never publishes a record of its own
+10. A consuming module can refresh its advertised record in place when its addresses or services change
 
 ## Usability
 
@@ -32,6 +34,7 @@
 17. An analysis enumerating privacy-leaking actions in the service discovery protocol is published
 18. A survey of anonymisation techniques applicable to DHT-based service discovery, including the Octopus protocol and mix-based approaches, is published
 19. A roadmap for introducing anonymity properties into service discovery, including dependencies on the libp2p mix protocol, is published
+20. The service discovery module exposes a minimal synchronous API for advertising, discovering and looking up services
 
 ## Reliability
 
