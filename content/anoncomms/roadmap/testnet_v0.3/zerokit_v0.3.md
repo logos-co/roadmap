@@ -42,18 +42,6 @@
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Docs: links to README.md or other docs
 
-### [Zerokit maintenance](https://github.com/logos-co/anoncomms-pm/issues/86)
-
-**Owner**: AnonComms Zerokit
-
-**FURPS**:
-
-- S1. Outstanding issues and dependency updates are addressed to keep the codebase maintainable
-
-**Checklist**:
-- [ ] Code: link to GitHub issues/PRs/Epic
-- [ ] Docs: links to README.md or other docs
-
 ### [Release Zerokit (v3.0.0) with enum-based runtime configuration](https://github.com/logos-co/anoncomms-pm/issues/60)
 
 **Owner**: AnonComms Zerokit
