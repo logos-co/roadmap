@@ -51,22 +51,6 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### [Standalone RLN membership allocation service module](https://github.com/logos-co/anoncomms-pm/issues/81)
-
-**Owner**: AnonComms Zerokit-RLN
-
-**FURPS**:
-
-- F1. An RLN membership allocation service can register ID commitments on behalf of third parties
-- F2. The RLN membership allocation service has a pluggable authentication mechanism to determine eligibility for membership
-- F4. The RLN membership allocation service can run as a standalone module or mounted on existing modules
-
-**Checklist**:
-- [ ] Specs: link to specs and/or API definition
-- [ ] Code: link to GitHub issues/PRs/Epic
-- [ ] Dogfood: link to dogfooding session/artefact
-- [ ] Docs: links to README.md or other docs
-
 ### [Research advanced authentication techniques for RLN membership allocation](https://github.com/logos-co/anoncomms-pm/issues/82)
 
 **Owner**: AnonComms Zerokit-RLN
