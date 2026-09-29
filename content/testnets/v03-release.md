@@ -51,7 +51,7 @@ tags: testnet
 
 - RLN module: Provides RLN support for Delivery.
 - Mix module: Enables running mix middle nodes.
-- Service Discovery module (used by Delivery).
+- Service Discovery module.
 
 ## Basecamp and Apps
 
