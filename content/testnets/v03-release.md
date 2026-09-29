@@ -43,7 +43,9 @@ tags: testnet
 ### Chat
 
 - Message history: Messages are persisted and can be retrieved across sessions.
+    - Accounts do not yet persist: reopening Chat creates a new account. Previous messages remain readable, including group messages from your time in the group, but your new account needs an invitation to rejoin. Persistent accounts are coming soon. Stay tuned.
 - Delivery integration: Chat uses RLN and mix through Delivery.
+- Accounts UI (early version)
 
 ## AnonComms
 
