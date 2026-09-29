@@ -55,21 +55,6 @@ title: 2026-MM-DD Messaging Weekly
   - next:
   - blockers:
 
-- [[Deliverable] Implement full identity model](https://github.com/logos-messaging/pm/issues/439)
-  - achieved:
-  - next:
-  - blockers:
-
-- [[Deliverable] Stabilize and polish API](https://github.com/logos-messaging/pm/issues/440)
-  - achieved:
-  - next:
-  - blockers:
-
-- [[Deliverable] Deliver user-facing chat features](https://github.com/logos-messaging/pm/issues/441)
-  - achieved:
-  - next:
-  - blockers:
-
 - [[Deliverable] Add support for Logos Delivery RLN](https://github.com/logos-messaging/pm/issues/347)
   - achieved:
   - next:
@@ -88,18 +73,6 @@ title: 2026-MM-DD Messaging Weekly
   - blockers:
 
 # Logos Core
-
-## [Logos Core Integration — Phase 3](2026-logos-core-integration-phase-3.md)
-
-- [[Deliverable] POC: Delivery module uses Discovery module for peer discovery](https://github.com/logos-messaging/pm/issues/389)
-  - achieved:
-  - next:
-  - blockers:
-
-- [[Deliverable] Enable QUIC in logos.dev and logos.test](https://github.com/logos-messaging/pm/issues/450)
-  - achieved:
-  - next:
-  - blockers:
 
 ## [Logos Core Integration — Phase 4](2026-logos-core-integration-testnet-v04.md)
 
