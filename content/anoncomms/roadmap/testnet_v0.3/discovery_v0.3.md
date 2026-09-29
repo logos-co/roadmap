@@ -26,55 +26,15 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### [Benchmark the service discovery module against discv5](https://github.com/logos-co/anoncomms-pm/issues/65)
+### [Validate service discovery protocol correctness in large-scale simulations](https://github.com/logos-co/anoncomms-pm/issues/36)
 
 **Owner**: DST Team (primary), AnonComms Discovery (support)
 
 **FURPS**:
 
-- P1. The service discovery module provides comparable performance to discv5 when all nodes support the same service
-- P2. The service discovery module performs better than discv5 to find a sparse service
-- S2. The service discovery module can be benchmarked in large-scale standalone DST simulations
+- F7. Service discovery correctly discovers all advertised peers in a topology of several thousand nodes
+- F8. Service discovery correctly discovers peers advertising a sparse service in a topology of several thousand nodes
+- S1. Service discovery can be functionally validated in large-scale standalone DST simulations
 
 **Checklist**:
-- [ ] Code: link to GitHub issues/PRs/Epic
-- [ ] Docs: links to README.md or other docs
-
-### [Benchmark service discovery performance in Logos Delivery](https://github.com/logos-co/anoncomms-pm/issues/66)
-
-**Owner**: DST Team (primary), AnonComms Discovery (support)
-
-**FURPS**:
-
-- P3. Service discovery integrated in Logos Delivery provides comparable performance to discv5 when all nodes support the same service
-- P4. Service discovery integrated in Logos Delivery performs better than discv5 to find a sparse service
-- S3. Logos Delivery with integrated service discovery can be validated and benchmarked in large-scale DST simulations
-
-**Checklist**:
-- [ ] Code: link to GitHub issues/PRs/Epic
-- [ ] Docs: links to README.md or other docs
-
-### [Publish a research post on service discovery for the Logos research blog](https://github.com/logos-co/anoncomms-pm/issues/67)
-
-**Owner**: AnonComms Discovery
-
-**FURPS**:
-
-- U16. A research post introducing the service discovery protocol and its implementation, including DST performance results, is published on the Logos research blog
-
-**Checklist**:
-- [ ] Docs: links to README.md or other docs
-
-### [Research and publish an anonymity roadmap for service discovery](https://github.com/logos-co/anoncomms-pm/issues/68)
-
-**Owner**: AnonComms Discovery
-
-**FURPS**:
-
-- U17. An analysis enumerating privacy-leaking actions in the service discovery protocol is published
-- U18. A survey of anonymisation techniques applicable to DHT-based service discovery, including the Octopus protocol and mix-based approaches, is published
-- U19. A roadmap for introducing anonymity properties into service discovery, including dependencies on the libp2p mix protocol, is published
-
-**Checklist**:
-- [ ] Specs: link to specs and/or API definition
 - [ ] Docs: links to README.md or other docs
