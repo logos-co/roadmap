@@ -17,24 +17,7 @@ title: 2026-MM-DD Messaging Weekly
 
 ## [Messaging API — General Availability](2026-messaging-api-general-availability.md)
 
-- [[Deliverable] Reliability and scale validation with DST](https://github.com/logos-messaging/pm/issues/429)
-  - achieved:
-  - next:
-  - blockers:
-
 - [[Deliverable] Integrate Rate Limit Manager](https://github.com/logos-messaging/pm/issues/432)
-  - achieved:
-  - next:
-  - blockers:
-
-## [RLN on Logos Blockchain](2026-add-support-for-rln-on-lee.md)
-
-- [[Deliverable] Implement pluggable RLN membership interface](https://github.com/logos-messaging/pm/issues/416)
-  - achieved:
-  - next:
-  - blockers:
-
-- [[Deliverable] Enable RLN in Logos Devnet](https://github.com/logos-messaging/pm/issues/451)
   - achieved:
   - next:
   - blockers:
@@ -47,18 +30,6 @@ title: 2026-MM-DD Messaging Weekly
   - blockers:
 
 # Logos Chat
-
-## [Chat — Beta](2026-chat-beta.md)
-
-- [[Deliverable] Installation management](https://github.com/logos-messaging/pm/issues/464)
-  - achieved:
-  - next:
-  - blockers:
-
-- [[Deliverable] Add support for Logos Delivery RLN](https://github.com/logos-messaging/pm/issues/347)
-  - achieved:
-  - next:
-  - blockers:
 
 ## [Chat — Beta 2](2026-chat-beta-2.md)
 

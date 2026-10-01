@@ -48,8 +48,8 @@ We use three release stages for developer-facing APIs and libraries:
 
 - [ ] [Messaging API — General Availability](2026-messaging-api-general-availability)
 - [x] [Reliable Channel API — Beta](2026-reliable-channel-api-beta.md)
-- [ ] [Chat — Beta](2026-chat-beta)
-- [ ] [RLN on Logos Blockchain](2026-add-support-for-rln-on-lee)
+- [x] [Chat — Beta](2026-chat-beta)
+- [x] [RLN on Logos Blockchain](2026-add-support-for-rln-on-lee)
 - [x] [Logos Core Integration — Phase 3](2026-logos-core-integration-phase-3)
 
 ### Testnet v0.4
