@@ -22,6 +22,7 @@ and maintaining consistent specifications.
 - [Testnet v0.1](/anoncomms/roadmap/testnet_v0.1/rln_v0.1.md)
 - [Testnet v0.2](/anoncomms/roadmap/testnet_v0.2/rln_v0.2.md)
 - [Testnet v0.3](/anoncomms/roadmap/testnet_v0.3/rln_v0.3.md)
+- [Testnet v0.4](/anoncomms/roadmap/testnet_v0.4/rln_v0.4.md)
 
 Future work in this track, include:
 1. Refactoring the RLN specification(s) to a modular stack of RLN features, rather than a confusing array of RLN "versions"

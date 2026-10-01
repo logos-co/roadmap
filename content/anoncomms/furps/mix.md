@@ -19,6 +19,9 @@
 15. Applications can route libp2p request-response messages over mix via the Logos Mix module API
 16. Mix nodes maintain a local reputation record for peers
 17. Nodes can use advanced cover traffic patterns to improve anonymity
+18. Nodes select mix paths according to the anonymity and communication requirements of each message or session
+19. Nodes monitor the health of their mix node pool using loop cover traffic and exclude nodes that appear not to forward traffic from path selection
+20. Mix nodes rotate their keys so that compromise of a current key does not reveal previously routed traffic
 
 ## Usability
 
@@ -43,6 +46,9 @@
 19. Non-RLN DoS and Sybil protection approaches are researched and published
 20. Advanced cover traffic patterns are researched and published in a specification
 21. The opinionated protocol stack composition and configuration for a Logos Mix Network is specified
+22. The local reputation mechanism for mix nodes is published in a specification
+23. Path selection with pool health monitoring is published in a specification
+24. Basic mix key rotation for forward secrecy is published in a specification
 
 ## Reliability
 

@@ -15,6 +15,7 @@
 5. The Zerokit architecture is changed from compile-time feature flags to runtime configuration based on enums
 6. The hash function selection (Poseidon vs Poseidon2) is exposed via the runtime configuration enum
 7. The implementation of the new Poseidon2 circuit has been completed and documented in the circom-rln repo
+8. A Zerokit release is published introducing Poseidon2 support
 
 ## Reliability
 
@@ -29,3 +30,4 @@
 1. Outstanding issues and dependency updates are addressed to keep the codebase maintainable
 2. Static analysis of the circuits for both Poseidon and Poseidon2 is performed and documented
 3. New Poseidon2-related functionality and APIs are fully exposed through the FFI and WASM interfaces
+4. The Zerokit circuits, including Poseidon and Poseidon2, are audited using existing circuit auditing tools and the findings are documented
