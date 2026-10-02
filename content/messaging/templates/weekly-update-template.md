@@ -15,13 +15,6 @@ title: 2026-MM-DD Messaging Weekly
 
 # Logos Delivery
 
-## [Messaging API — General Availability](2026-messaging-api-general-availability.md)
-
-- [[Deliverable] Integrate Rate Limit Manager](https://github.com/logos-messaging/pm/issues/432)
-  - achieved:
-  - next:
-  - blockers:
-
 ## [Reliable Channel API — General Availability](2026-reliable-channel-api-general-availability.md)
 
 - [[Deliverable] Deprecate store hash queries for missing messages](https://github.com/logos-messaging/pm/issues/436)
