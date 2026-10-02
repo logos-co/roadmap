@@ -53,3 +53,12 @@ Work is split **50/50** between Delivery team and Status team. Delivery team pro
 - Drop `go-waku` dependency entirely
 - Remove existing peer management from `status-go` — Messaging API handles this internally
 - Single implementation path in CI
+
+### [Support mobile platforms in `logos-delivery`](https://github.com/logos-messaging/pm/issues/468)
+
+**Owner**: Delivery Team
+
+- Ensure `logos-delivery` can be compiled for Android and iOS
+- Corresponding `nimble` targets are created, similar to SDS
+
+**Done when**: CI jobs build `liblogosdelivery` for Android and iOS.
