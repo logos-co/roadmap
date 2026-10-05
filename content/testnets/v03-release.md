@@ -13,7 +13,8 @@ tags: testnet
 - Events: LEZ programs support events.
 - Program upgradeability: Support for upgrading deployed programs.
 - Program deployment sharding
-* Bridging Withdraw (from L1)
+- Incremental state updates: LEZ programs now express account transitions as incremental diffs rather than full post-states.
+
 
 ### Blockchain
 
@@ -42,13 +43,15 @@ tags: testnet
 ### Chat
 
 - Message history: Messages are persisted and can be retrieved across sessions.
+    - Accounts do not yet persist: reopening Chat creates a new account. Previous messages remain readable, including group messages from your time in the group, but your new account needs an invitation to rejoin. Persistent accounts are coming soon. Stay tuned.
 - Delivery integration: Chat uses RLN and mix through Delivery.
+- Accounts UI (early version)
 
 ## AnonComms
 
 - RLN module: Provides RLN support for Delivery.
 - Mix module: Enables running mix middle nodes.
-- Service Discovery module (used by Delivery).
+- Service Discovery module.
 
 ## Basecamp and Apps
 
