@@ -125,6 +125,10 @@ Non-critical features explored within testnet scope:
 
 ### Testnet v0.5
 
+Features critical for the testnet:
+
+- [ ] [Mix Testnet v0.5 Deliverables](/anoncomms/roadmap/testnet_v0.5/mix_v0.5.md)
+
 Non-critical features explored within testnet scope:
 
 - [ ] [Service Discovery Testnet v0.5 Deliverables](/anoncomms/roadmap/testnet_v0.5/discovery_v0.5.md)
