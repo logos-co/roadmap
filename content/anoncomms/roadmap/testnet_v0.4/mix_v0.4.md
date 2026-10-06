@@ -9,23 +9,22 @@
 **Resources Required**:
 - `2` AnonComms Mix developers
 - Storage Team ownership of relevant deliverables (see below)
+- P2P Team ownership of Logos Mix module deliverable
+- Messaging Delivery Team support for Logos Mix module integration
 
 ## Deliverables
 
-### Specify and implement path selection with pool health monitoring (TBD: anoncomms-pm issue)
+### [Specify hidden services and research provider anonymity techniques](https://github.com/logos-co/anoncomms-pm/issues/43)
 
-**Owner**: AnonComms Mix
+**Owner**: Storage Team (primary), AnonComms Mix (support)
 
 **FURPS**:
 
-- F18. Nodes select mix paths according to the anonymity and communication requirements of each message or session
-- F19. Nodes monitor the health of their mix node pool using loop cover traffic and exclude nodes that appear not to forward traffic from path selection
-- U23. Path selection with pool health monitoring is published in a specification
+- U10. The protocol allowing hidden service provisioning, discovery and access is published in a specification
+- U17. The anonymity limitations of the mix hidden services approach and alternative provider anonymity techniques are evaluated and published
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
-- [ ] Code: link to GitHub issues/PRs/Epic
-- [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
 ### Specify and implement basic key rotation for forward secrecy (TBD: anoncomms-pm issue)
@@ -43,29 +42,33 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### Implement local reputation mechanism (TBD: anoncomms-pm issue)
+### Specify and implement Poisson-rate cover traffic generation (TBD: anoncomms-pm issue)
 
 **Owner**: AnonComms Mix
 
 **FURPS**:
 
-- F16. Mix nodes maintain a local reputation record for peers
+- F17. Nodes generate cover traffic at a Poisson rate rather than a constant rate so that cover and real traffic are indistinguishable in timing
+- U20. Poisson-rate cover traffic generation is published in a specification
 
 **Checklist**:
+- [ ] Specs: link to specs and/or API definition
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### Implement hidden services (TBD: anoncomms-pm issue)
+### Simplify the Logos Mix module architecture and use it as entry and exit node for Logos Delivery (TBD: anoncomms-pm issue)
 
-**Owner**: Storage Team (primary), AnonComms Mix (support)
+**Owner**: P2P Team (primary), AnonComms Mix (support), Messaging Delivery (support)
 
 **FURPS**:
 
-- F11. Providers can anonymously register as a hidden service
-- F12. Clients can discover and anonymously access hidden services
+- F21. A single Logos Mix module can operate as an intermediate mix node, an entry node, or an exit node
+- F22. Logos Delivery routes Lightpush over Mix through the Logos Mix module acting as entry and exit node
+- S1. Mix, mix RLN DoS protection and mix node discovery are provided to Logos Delivery by the Logos Mix module rather than by implementations integrated into Logos Delivery
 
 **Checklist**:
+- [ ] Specs: link to specs and/or API definition
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs

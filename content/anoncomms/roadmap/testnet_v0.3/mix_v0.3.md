@@ -26,21 +26,6 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### [Research more advanced cover traffic generation techniques](https://github.com/logos-co/anoncomms-pm/issues/51)
-
-**Owner**: AnonComms Mix (primary)
-
-**FURPS**:
-
-- F17. Nodes can use advanced cover traffic patterns to improve anonymity
-- U20. Advanced cover traffic patterns are researched and published in a specification
-
-**Checklist**:
-- [ ] Specs: link to specs and/or API definition
-- [ ] Code: link to GitHub issues/PRs/Epic
-- [ ] Dogfood: link to dogfooding session/artefact
-- [ ] Docs: links to README.md or other docs
-
 ### [Specify local reputation mechanism and research advanced DoS protection](https://github.com/logos-co/anoncomms-pm/issues/52)
 
 **Owner**: AnonComms Mix
@@ -69,19 +54,6 @@
 - [ ] Specs: link to specs and/or API definition
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Dogfood: link to dogfooding session/artefact
-- [ ] Docs: links to README.md or other docs
-
-### [Specify hidden services and research provider anonymity techniques](https://github.com/logos-co/anoncomms-pm/issues/43)
-
-**Owner**: Storage Team (primary), AnonComms Mix (support)
-
-**FURPS**:
-
-- U10. The protocol allowing hidden service provisioning, discovery and access is published in a specification
-- U17. The anonymity limitations of the mix hidden services approach and alternative provider anonymity techniques are evaluated and published
-
-**Checklist**:
-- [ ] Specs: link to specs and/or API definition
 - [ ] Docs: links to README.md or other docs
 
 ### [Integrate mix into the Logos Delivery module](https://github.com/logos-co/anoncomms-pm/issues/53)
