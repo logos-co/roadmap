@@ -14,7 +14,7 @@ The [Developer Preview](2026-reliable-channel-api-developer-preview.md) delivers
 - Message segmentation for large payloads
 - Rate limit management (in preparation for future RLN integration)
 
-Also deprecates store hash queries as they enable linkability of participants in the same channel from a store node PoV. Prepares reliable channel to support de-MLS encryption.
+Prepares reliable channel to support de-MLS encryption. Deprecation of store hash queries moved to [General Availability](2026-reliable-channel-api-general-availability.md).
 
 ## FURPS
 
@@ -68,15 +68,6 @@ https://github.com/logos-messaging/pm/issues/318
 - F10. Large messages are segmented to fit transport constraints.
 - R2. Segments tracked independently and reassembled before delivery (via event emission).
 - P2. Final encoded routed message stays below 150 KB routing layer limit.
-
-### [Deprecate store hash queries for missing messages](https://github.com/logos-messaging/pm/issues/436)
-
-**Owner**: Delivery Team
-
-**Feature**: [Reliable Channel API](/messaging/furps/application/reliable_channel.md)
-
-**FURPS**:
-- ~~F4. Missing messages are automatically retrieved via store hash queries.~~
 
 ### [Support different encryption for sync messages](https://github.com/logos-messaging/logos-delivery/issues/3856)
 

@@ -521,21 +521,20 @@
 
       <nav class="week-nav">
         <a class="prev" data-router-ignore href="/reports/weekly/2026-09-07.html">&larr; 2026-09-07</a>
-        <span class="spacer"></span>
+        <a class="next" data-router-ignore href="/reports/weekly/2026-09-21.html">2026-09-21 &rarr;</a>
       </nav>
 
       <div class="stats-bar">
         <div class="stat">
-          <div class="stat-value">4</div>
+          <div class="stat-value">5</div>
           <div class="stat-label">Teams Reporting</div>
         </div>
         <div class="stat">
-          <div class="stat-value">100+</div>
+          <div class="stat-value">250+</div>
           <div class="stat-label">PRs &amp; Updates</div>
         </div>
       </div>
 
-      <p style="text-align:center; color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 1.5rem;">Note: Messaging, AnonComms, Logos Core, and Storage have reported. The Blockchain section will be added as its updates land.</p>
 
       <section class="highlights-section">
         <h2>Key Highlights</h2>
@@ -580,6 +579,18 @@
             <div class="team">Storage</div>
             <p>Documenting a set of <a href="https://github.com/logos-storage/nim-groth16/tree/dynamic">RLN optimizations</a> that should cut single-core proving time from 200&nbsp;ms to 15&nbsp;ms, with a preprint planned.</p>
           </div>
+          <div class="highlight-card blockchain">
+            <div class="team">Blockchain</div>
+            <p><strong>EmPoWering machinery RFC merged: Proof of Work mining, claims, and reward pool specified in Mantle</strong> <a href="https://github.com/logos-co/logos-lips/pull/400">logos-lips#400</a></p>
+          </div>
+          <div class="highlight-card blockchain">
+            <div class="team">Blockchain</div>
+            <p><strong>Blend Failure Detection and Reaction RFC merged</strong> <a href="https://github.com/logos-co/logos-lips/pull/412">logos-lips#412</a></p>
+          </div>
+          <div class="highlight-card blockchain">
+            <div class="team">Blockchain</div>
+            <p><strong>Hierarchical deterministic wallet primitives merged</strong> <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3508">#3508</a>, <a href="https://github.com/logos-co/logos-lips/pull/437">logos-lips#437</a></p>
+          </div>
         </div>
       </section>
 
@@ -596,6 +607,7 @@
         <button class="tab anoncomms" data-team="anoncomms">AnonComms</button>
         <button class="tab logoscore" data-team="logoscore">Logos Core</button>
         <button class="tab storage" data-team="storage">Storage</button>
+        <button class="tab blockchain" data-team="blockchain">Blockchain</button>
       </div>
 
       <!-- ================================================================
@@ -1621,6 +1633,193 @@
                 <span class="section-label next">Next</span>
                 <ul class="item-list">
                   <li>Work on Windows support for Storage Module and UI</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ================================================================
+             BLOCKCHAIN
+             ================================================================ -->
+      <div class="team-content" id="blockchain">
+
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Bedrock &mdash; Research</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>Cryptarchia</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Every Operation now carries a proof, with gas independent of it: spec merged <a href="https://github.com/logos-co/logos-lips/pull/431">logos-lips#431</a>; node verifies the fresh channel config proof and derives execution gas from state, merged <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3456">#3456</a></li>
+                  <li>Last served epoch made rewardable: RFC merged <a href="https://github.com/logos-co/logos-lips/pull/435">logos-lips#435</a>, implementation merged <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3492">#3492</a>, <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3493">#3493</a></li>
+                  <li>Wallet Technical Standard 1.1.0 merged: key derivation constants and Poseidon2 mode fixed <a href="https://github.com/logos-co/logos-lips/pull/437">logos-lips#437</a></li>
+                  <li>Blend Failure Detection and Reaction RFC merged <a href="https://github.com/logos-co/logos-lips/pull/412">logos-lips#412</a></li>
+                  <li>Blend connection traffic RFC moved to review: message budget enforced at the receiver, sized from the node verification rate and shared over connections with a reserve for edge nodes; liveness judged per identity so a reconnect resumes observation (in-review) <a href="https://github.com/logos-co/logos-lips/pull/421">logos-lips#421</a></li>
+                  <li>Dual-key notes RFC opened: every note commits to a STARK-field public key now, easing the later proof-system transition (in-review) <a href="https://github.com/logos-co/logos-lips/pull/442">logos-lips#442</a></li>
+                  <li>Mempool transaction retention and maturity RFC opened: retired transactions stay resolvable until release at 2 * TRANSACTION_TTL, block building gated on a maturity age of BLEND_DELAY + BROADCAST_DELAY (in-review) <a href="https://github.com/logos-co/logos-lips/pull/448">logos-lips#448</a></li>
+                  <li>Blend data messages carry a length-prefixed batch of transactions in one payload (draft) <a href="https://github.com/logos-co/logos-lips/pull/444">logos-lips#444</a></li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4>EmPoWering</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>EmPoWering machinery RFC merged: claims signed with the mined key, tickets ordered with the epoch nonce last, reward pool and difficulty controllers moved into a new Proof of Work document <a href="https://github.com/logos-co/logos-lips/pull/400">logos-lips#400</a></li>
+                  <li>Follow-up RFCs carved out of the merged machinery: reward retarget floor and pool refill from a fee share (in-review) <a href="https://github.com/logos-co/logos-lips/pull/443">logos-lips#443</a>; reward puzzle solved with Equi-X against an effort target (draft) <a href="https://github.com/logos-co/logos-lips/pull/447">logos-lips#447</a></li>
+                  <li>Proof of Work ticket derivation updated to resist mining optimizations <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3500">#3500</a>; Proof of Quota circuits updated with the new Poseidon2 input order <a href="https://github.com/logos-blockchain/logos-blockchain-circuits/pull/55">logos-blockchain-circuits#55</a></li>
+                  <li>Most conservative onboarding design analysed: Proof of Work earns non-transferable stake credits towards a sponsored validator position, and sponsored tokens transfer only after satisfactory validator service; economic simulation is straightforward, production integration with Private Proof of Stake significantly harder <a href="https://app.notion.com/p/nomos-tech/EmPoWering-Analysis-of-Economics-3bd261aa09df80fcafc6c3cd3d0b6820?source=copy_link#3db261aa09df8009be08dd56cd47e6c8">doc</a></li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4>Post-Quantum</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Companion document of fix propositions to ease the Post-Quantum ZK migration <a href="https://app.notion.com/p/nomos-tech/Fix-propositions-3cf261aa09df80e7a101ff66999cc759">doc</a></li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4>Permissionless Channel Sequencing</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Research started on reducing the blast radius of a malicious zone sequencer set (WIP) <a href="https://app.notion.com/p/nomos-tech/Malicious-Sequencer-Blast-Radius-Reduction-3d5261aa09df8093842ad97c9acb2233">doc</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Bedrock &mdash; Engineering</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>Blend</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Service structure simplified, merged <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3490">#3490</a>; cover traffic schedule kept intact when blending transactions, merged <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3496">#3496</a></li>
+                  <li>Pool state fingerprint diagnostics merged <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3497">#3497</a></li>
+                  <li>Connection monitoring per the revised RFC started: unused machinery cleaned up (draft) <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3510">#3510</a>, new monitoring machinery introduced (draft) <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3539">#3539</a></li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4>Node</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Hierarchical deterministic wallet primitives merged <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3508">#3508</a></li>
+                  <li>Proof of Work precomputed difficulty settings merged <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3481">#3481</a></li>
+                  <li>UI-facing data exposed, merged: voucher rewards and claimable total <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3487">#3487</a>, network info over FFI <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3488">#3488</a>, leader aged notes <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3489">#3489</a>, node version over HTTP and FFI <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3498">#3498</a></li>
+                  <li>Chain leader enforces cumulative gas correctly during block creation, merged <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3480">#3480</a>; finite block-range retrieval consolidated, merged <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3478">#3478</a></li>
+                  <li>Rejected blocks with invalid signatures no longer cached for the orphan downloader (in-review) <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3452">#3452</a></li>
+                  <li>cargo-deny entries resolved or justified <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3505">#3505</a>; <code>SECURITY.md</code> added <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3506">#3506</a></li>
+                  <li>Trace export over OTLP fixed (in-review) <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3543">#3543</a></li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4>Testing</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Controllable Blend provider endpoints and improved test diagnostics merged <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3491">#3491</a></li>
+                  <li>Testing Framework deployments unified under the app model: clusters and container services <a href="https://github.com/logos-blockchain/logos-blockchain-testing/pull/67">logos-blockchain-testing#67</a>, Compose provisioning <a href="https://github.com/logos-blockchain/logos-blockchain-testing/pull/68">logos-blockchain-testing#68</a></li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4>Zone SDK</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Signing helper exposed <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3499">#3499</a>; signing operations exposed in prepared transactions <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3541">#3541</a></li>
+                  <li>λSQL write status tracking: apps see when their writes are displaced, restored, or finalized (in-review) <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3509">#3509</a></li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4>Logos Core</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Blockchain module updated with the newly exposed 0.3.0 node data (in-review) <a href="https://github.com/logos-blockchain/logos-blockchain-module/pull/75">logos-blockchain-module#75</a></li>
+                  <li>Rust client for the blockchain module (in-review) <a href="https://github.com/logos-blockchain/logos-blockchain-module/pull/76">logos-blockchain-module#76</a>, with client types <a href="https://github.com/logos-blockchain/logos-blockchain-module/pull/77">logos-blockchain-module#77</a>; Zone SDK client for the module (WIP) <a href="https://github.com/logos-blockchain/logos-blockchain-module/tree/zone-sdk-module-client">branch</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Logos Execution Zone</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>Sequencer</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>2/3 threshold slashing signatures merged <a href="https://github.com/logos-blockchain/logos-execution-zone/pull/818">#818</a>; 2/3 threshold signatures for Bedrock channel config updates complete the threshold signature work (in-review) <a href="https://github.com/logos-blockchain/logos-execution-zone/pull/834">#834</a></li>
+                  <li>Actor architecture: gossip module turned into an actor, merged <a href="https://github.com/logos-blockchain/logos-execution-zone/pull/833">#833</a>; Bedrock communication moved into a BedrockActor (draft) <a href="https://github.com/logos-blockchain/logos-execution-zone/pull/885">#885</a></li>
+                  <li>Read-only sequencer: sequencer FFI (in-review) <a href="https://github.com/logos-blockchain/logos-execution-zone/pull/823">#823</a>, remaining FFI query methods (in-review) <a href="https://github.com/logos-blockchain/logos-execution-zone/pull/878">#878</a></li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4>Release</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Release candidates published for internal devnet testing <a href="https://github.com/logos-blockchain/logos-execution-zone/releases/tag/v0.2.5-rc2">v0.2.5-rc2</a>, <a href="https://github.com/logos-blockchain/logos-execution-zone/releases/tag/v0.2.5-rc3">v0.2.5-rc3</a></li>
+                  <li>Fixes from release candidate testing: faucet program removed and its genesis role replaced, so deposits show up on the zone again <a href="https://github.com/logos-blockchain/logos-execution-zone/pull/875">#875</a>; logging added around blocks submitted with a rewound id <a href="https://github.com/logos-blockchain/logos-execution-zone/pull/843">#843</a></li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4>Fees</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Non-zero program exit codes handled in the state machine, merged <a href="https://github.com/logos-blockchain/logos-execution-zone/pull/837">#837</a></li>
+                  <li>Fee <code>payer</code> can be given explicitly in the wallet <a href="https://github.com/logos-blockchain/logos-execution-zone/pull/841">#841</a> and over FFI <a href="https://github.com/logos-blockchain/logos-execution-zone-module/pull/56">logos-execution-zone-module#56</a></li>
+                  <li>Fee wiring merged across modules and UIs: Logos Execution Zone module <a href="https://github.com/logos-blockchain/logos-execution-zone-module/pull/55">logos-execution-zone-module#55</a>, wallet UI <a href="https://github.com/logos-blockchain/logos-execution-zone-wallet-ui/pull/47">logos-execution-zone-wallet-ui#47</a>, indexer module <a href="https://github.com/logos-blockchain/lez-indexer-module/pull/23">lez-indexer-module#23</a>, explorer UI <a href="https://github.com/logos-blockchain/lez-explorer-ui/pull/22">lez-explorer-ui#22</a></li>
+                  <li>Priority tip and nonce-based transaction ordering in the mempool (in-review) <a href="https://github.com/logos-blockchain/logos-execution-zone/pull/880">#880</a>; gas limit configurable per wallet (in-review) <a href="https://github.com/logos-blockchain/logos-execution-zone/pull/884">#884</a></li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4>Accounts</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Environment unification: sharded program state moved to review (in-review) <a href="https://github.com/logos-blockchain/logos-execution-zone/pull/835">#835</a></li>
+                  <li>Programs as accounts: kernel omitted from program deployments, saving storage (in-review) <a href="https://github.com/logos-blockchain/logos-execution-zone/pull/845">#845</a>; <code>ProgramId</code> and <code>Program</code> clean-up (in-review) <a href="https://github.com/logos-blockchain/logos-execution-zone/pull/846">#846</a>; private execution of immutable programs and shadow programs moved to review (in-review) <a href="https://github.com/logos-blockchain/logos-execution-zone/pull/824">#824</a></li>
+                  <li>Incremental updates reworked as opt-in, with chained call interaction (draft) <a href="https://github.com/logos-blockchain/logos-execution-zone/pull/881">#881</a></li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4>Testing</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>CI optimised: host cache saves repaired and superseded runs cancelled <a href="https://github.com/logos-blockchain/logos-execution-zone/pull/844">#844</a>, guests run in-process via the memoized image cache <a href="https://github.com/logos-blockchain/logos-execution-zone/pull/872">#872</a>, single writer for the host Rust cache <a href="https://github.com/logos-blockchain/logos-execution-zone/pull/874">#874</a>, integration shards no longer gated on fixture tests <a href="https://github.com/logos-blockchain/logos-execution-zone/pull/883">#883</a></li>
+                  <li>Integration tests fixed on Apple Silicon <a href="https://github.com/logos-blockchain/logos-execution-zone/pull/887">#887</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Nimbos</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>Nimbos</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Mempool and block proposal merged <a href="https://github.com/logos-co/nimbos/pull/143">nimbos#143</a></li>
+                  <li>ZK prover support in Nim (WIP) <a href="https://github.com/logos-co/nimbos/pull/197">nimbos#197</a></li>
                 </ul>
               </div>
             </div>
