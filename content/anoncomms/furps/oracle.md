@@ -6,7 +6,7 @@
 2. Oracle nodes publish signed observations to Logos Blockchain
 3. The LEZ contract exposes basic functions to update and read the latest price
 4. Oracle nodes fetch price data from predefined sources according to a defined fetch specification
-5. The proposer reads the immutable observation data, computes the median and pushes it to LEZ
+5. The proposer reads the immutable observation data, verifies the membberships, computes the median and pushes it to LEZ
 6. Oracle nodes register with staking by an LEZ contract
 7. Upon the proposer attestation, LEZ contract inits dispute window
 

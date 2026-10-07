@@ -41,7 +41,7 @@
 - [ ] Specs: link to specs and/or API definition
 - [ ] Docs: links to README.md or other docs
 
-### [Specify the dispute mechanism and implement dispute detection](https://github.com/logos-co/anoncomms-pm/issues/58)
+### [Specify the dispute mechanism and implement dispute detection](TBD: anoncomms-pm issue)
 
 **Owner**: AnonComms Oracle
 
