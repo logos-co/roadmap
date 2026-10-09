@@ -18,7 +18,12 @@
 14. A standalone Logos Mix module encapsulates the Logos libp2p module with nim-libp2p-mix, RLN-based DoS protection, and cover traffic for Logos Core services
 15. Applications can route libp2p request-response messages over mix via the Logos Mix module API
 16. Mix nodes maintain a local reputation record for peers
-17. Nodes can use advanced cover traffic patterns to improve anonymity
+17. Nodes generate cover traffic at a Poisson rate rather than a constant rate so that cover and real traffic are indistinguishable in timing
+18. Nodes select mix paths according to the anonymity and communication requirements of each message or session
+19. Nodes monitor the health of their mix node pool using loop cover traffic and exclude nodes that appear not to forward traffic from path selection
+20. Mix nodes rotate their keys so that compromise of a current key does not reveal previously routed traffic
+21. A single Logos Mix module can operate as an intermediate mix node, an entry node, or an exit node
+22. Logos Delivery routes Lightpush over Mix through the Logos Mix module acting as entry and exit node
 
 ## Usability
 
@@ -41,8 +46,11 @@
 17. The anonymity limitations of the mix hidden services approach and alternative provider anonymity techniques are evaluated and published
 18. Differentiated RLN rate-limiting based on peer reputation metrics is researched and published
 19. Non-RLN DoS and Sybil protection approaches are researched and published
-20. Advanced cover traffic patterns are researched and published in a specification
+20. Poisson-rate cover traffic generation is published in a specification
 21. The opinionated protocol stack composition and configuration for a Logos Mix Network is specified
+22. The local reputation mechanism for mix nodes is published in a specification
+23. Path selection with pool health monitoring is published in a specification
+24. Basic mix key rotation for forward secrecy is published in a specification
 
 ## Reliability
 
@@ -54,3 +62,4 @@
 
 ## Supportability
 
+1. Mix, mix RLN DoS protection and mix node discovery are provided to Logos Delivery by the Logos Mix module rather than by implementations integrated into Logos Delivery

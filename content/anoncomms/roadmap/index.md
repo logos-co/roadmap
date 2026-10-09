@@ -109,6 +109,33 @@ Non-critical features explored within testnet scope:
 - [ ] [Service Incentivisation Testnet v0.3 Deliverables](/anoncomms/roadmap/testnet_v0.3/incentivisation_v0.3.md)
 - [ ] [Zerokit Testnet v0.3 Deliverables](/anoncomms/roadmap/testnet_v0.3/zerokit_v0.3.md)
 
+### Testnet v0.4
+
+Features critical for the testnet:
+
+- [ ] [Service Discovery Testnet v0.4 Deliverables](/anoncomms/roadmap/testnet_v0.4/discovery_v0.4.md)
+- [ ] [Identity Track Testnet v0.4 Deliverables](/anoncomms/roadmap/testnet_v0.4/identity_v0.4.md)
+- [ ] [Mix Testnet v0.4 Deliverables](/anoncomms/roadmap/testnet_v0.4/mix_v0.4.md)
+- [ ] [Oracle Testnet v0.4 Deliverables](/anoncomms/roadmap/testnet_v0.4/oracle_v0.4.md)
+- [ ] [RLN Testnet v0.4 Deliverables](/anoncomms/roadmap/testnet_v0.4/rln_v0.4.md)
+- [ ] [De-MLS Testnet v0.4 Deliverables](/anoncomms/roadmap/testnet_v0.4/de-mls_v0.4.md)
+
+Non-critical features explored within testnet scope:
+
+- [ ] [Zerokit Testnet v0.4 Deliverables](/anoncomms/roadmap/testnet_v0.4/zerokit_v0.4.md)
+
+### Testnet v0.5
+
+Features critical for the testnet:
+
+- [ ] [Mix Testnet v0.5 Deliverables](/anoncomms/roadmap/testnet_v0.5/mix_v0.5.md)
+- [ ] [RLN Testnet v0.5 Deliverables](/anoncomms/roadmap/testnet_v0.5/rln_v0.5.md)
+
+Non-critical features explored within testnet scope:
+
+- [ ] [Service Discovery Testnet v0.5 Deliverables](/anoncomms/roadmap/testnet_v0.5/discovery_v0.5.md)
+- [ ] [De-MLS Testnet v0.5 Deliverables](/anoncomms/roadmap/testnet_v0.5/de-mls_v0.5.md)
+
 ### Mainnet
 
 - [ ] [Identity Track Mainnet Deliverables](/anoncomms/roadmap/mainnet/identity_mainnet.md)
