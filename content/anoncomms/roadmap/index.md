@@ -116,6 +116,7 @@ Features critical for the testnet:
 - [ ] [Service Discovery Testnet v0.4 Deliverables](/anoncomms/roadmap/testnet_v0.4/discovery_v0.4.md)
 - [ ] [Identity Track Testnet v0.4 Deliverables](/anoncomms/roadmap/testnet_v0.4/identity_v0.4.md)
 - [ ] [Mix Testnet v0.4 Deliverables](/anoncomms/roadmap/testnet_v0.4/mix_v0.4.md)
+- [ ] [Oracle Testnet v0.4 Deliverables](/anoncomms/roadmap/testnet_v0.4/oracle_v0.4.md)
 - [ ] [RLN Testnet v0.4 Deliverables](/anoncomms/roadmap/testnet_v0.4/rln_v0.4.md)
 - [ ] [De-MLS Testnet v0.4 Deliverables](/anoncomms/roadmap/testnet_v0.4/de-mls_v0.4.md)
 

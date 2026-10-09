@@ -7,7 +7,7 @@
 **Estimated date of completion**: Testnet v0.4 launch
 
 **Resources Required**:
-- 1 developer for 8 weeks
+- 2 developers for 8 weeks
 
 ## Deliverables
 
@@ -25,13 +25,38 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### Audit the Zerokit circuits using existing tools (TBD: anoncomms-pm issue)
+### Zerokit-API RFC for the 3.1.0 release (TBD: anoncomms-pm issue)
 
 **Owner**: AnonComms Zerokit
 
 **FURPS**:
 
-- S4. The Zerokit circuits, including Poseidon and Poseidon2, are audited using existing circuit auditing tools and the findings are documented
+- U9. The Zerokit API specification is updated for v3.1.0 covering Poseidon2
+
+**Checklist**:
+- [ ] Specs: link to specs and/or API definition
+
+### Runtime checks for resource/hash function combinations (TBD: anoncomms-pm issue)
+
+**Owner**: AnonComms Zerokit
+
+**FURPS**:
+
+- U6. The hash function selection (Poseidon vs Poseidon2) is exposed via the runtime configuration enum
+- R1. Poseidon2 proofs verify correctly and Poseidon behavior remains unchanged when Poseidon2 is enabled
+- R2. A mismatch between the configured resources and hash function is reported with a specific error at validation time rather than as a generic invalid proof
+
+**Checklist**:
+- [ ] Code: link to GitHub issues/PRs/Epic
+- [ ] Docs: links to README.md or other docs
+
+### [Static analysis of Poseidon and Poseidon2 circuits](https://github.com/logos-co/anoncomms-pm/issues/85)
+
+**Owner**: AnonComms Zerokit
+
+**FURPS**:
+
+- S2. Static analysis of the circuits for both Poseidon and Poseidon2 is performed and documented
 
 **Checklist**:
 - [ ] Code: link to GitHub issues/PRs/Epic
@@ -48,4 +73,3 @@
 **Checklist**:
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Docs: links to README.md or other docs
-
