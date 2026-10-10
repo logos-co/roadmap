@@ -20,6 +20,35 @@ The [Beta](2026-messaging-api-beta.md) delivered the full API surface (Send, Hea
 | --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------|
 | Mix module readiness        | Mix is owned by AnonComms. If the mix interface is not ready in time, sender anonymity properties of the API are delayed, not the API itself.       |
 | Rate limit UX impact        | Rate limiting causes messages to be queued or dropped. UX implications must be communicated clearly in the API and documentation.                   |
+| DST expectations defined late | DST expectations for the messaging layer were written at the end of v0.3. Agree on them at the start of v0.4, before testing begins.             |
+
+## Status
+
+**Targets**: Testnet v0.4 (slipped from v0.3)
+
+At the v0.3 release, all features and documentation were delivered, but the API was not validated by DST nor approved by QA. Testnet v0.3 shipped the Messaging API as a GA candidate.
+
+## Exit criteria
+
+- [ ] DST expectations for the messaging layer are agreed with DST at the start of the cycle ([#429](https://github.com/logos-messaging/pm/issues/429)).
+- [ ] DST signs off reliability and scale against those expectations ([#429](https://github.com/logos-messaging/pm/issues/429)).
+- [ ] QA signs off the Messaging API.
+- [ ] Feedback from v0.3 classified as blocking is addressed ([#481](https://github.com/logos-messaging/pm/issues/481)).
+- [x] Offline periods backfill, Rate Limit Manager, Mix integration and documentation are delivered (see [Deliverables](#deliverables)).
+
+## Scope (Testnet v0.4)
+
+### [Address v0.3 feedback](https://github.com/logos-messaging/pm/issues/481)
+
+**Owner**: Delivery Team
+
+Triage feedback on the Messaging API from v0.3 into blocking (exit criterion) and non-blocking (scope).
+
+### [Do not backfill history for newly subscribed content topics](https://github.com/logos-messaging/logos-delivery/issues/4278)
+
+**Owner**: Delivery Team
+
+**Done when**: Subscribing to a new content topic does not trigger a Store backfill; backfill only applies to topics the node was subscribed to before going offline.
 
 ## Deliverables
 

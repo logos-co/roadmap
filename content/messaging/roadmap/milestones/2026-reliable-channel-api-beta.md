@@ -14,7 +14,7 @@ The [Developer Preview](2026-reliable-channel-api-developer-preview.md) delivers
 - Message segmentation for large payloads
 - Rate limit management (in preparation for future RLN integration)
 
-Prepares reliable channel to support de-MLS encryption. Deprecation of store hash queries moved to [General Availability](2026-reliable-channel-api-general-availability.md).
+Prepares reliable channel to support de-MLS encryption. Deprecation of store hash queries moved to [Reliable Channel API — Future Decided](2026-reliable-channel-api-general-availability.md).
 
 ## FURPS
 

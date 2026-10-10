@@ -18,6 +18,12 @@ The focus is:
 - Complete the full identity model
 - Deliver user-facing features needed for a real chat experience
 
+## Outcome
+
+Graduated at Testnet v0.3 with exceptions. The identity model, installation management, API polish, user-facing features, RLN support and the SDS and de-MLS integration design were delivered. Two validation deliverables were not done, because de-MLS group consensus is not reliable beyond a few members:
+- [Reliability testing with DST](https://github.com/logos-messaging/pm/issues/442) — moved to [Chat — Group Reliability Measured](2026-chat-group-reliability.md).
+- [Test integration of Logos Chat into Status App](https://github.com/logos-messaging/pm/issues/444) — moved to [Status: Logos Chat Integration](2026-status-logos-chat-integration).
+
 ## FURPS
 
 - [Logos Chat](/messaging/furps/application/chat_sdk.md): all

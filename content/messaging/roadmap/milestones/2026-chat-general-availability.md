@@ -14,10 +14,12 @@ github: https://github.com/logos-messaging/pm/issues/426
 
 Logos Chat is feature-complete, production-ready, and QA-approved for mainnet deployment. By this point, identity and user-facing features are already delivered (v0.3). This milestone focuses on production hardening:
 
-- Production-grade reliability at scale (beyond the ~201 users tested in v0.3)
+- Production-grade reliability at scale, beyond the group size targeted in [Chat — Group Reliability Measured](2026-chat-group-reliability.md)
 - Comprehensive documentation for production deployments
 - Performance optimization for mainnet user projections
 - API stability guarantees
+
+The Mainnet target of this milestone is re-baselined after [Chat — Group Reliability Measured](2026-chat-group-reliability.md) is reviewed at the Testnet v0.4 go/no-go.
 
 ## FURPS
 

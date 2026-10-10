@@ -43,10 +43,16 @@ Status switches from its current chat protocol implementation to Logos Chat, con
 | Migration complexity          | Running two chat protocols in parallel is complex. Clear migration path and rollback strategy needed.                             |
 | Status team capacity          | Status Core team needs to allocate developers for `status-go` integration. Coordination needed early.                             |
 | Communities scope creep       | Communities architecture ("groups of group chats") may require Messaging team involvement beyond initial expectations.             |
-| de-MLS group size limits      | de-MLS targets up to 10,000 members, but Status communities may need more. Scaling assessment needed.                             |
+| de-MLS group size limits      | de-MLS group chats are not yet reliable beyond a few members. Group chat integration depends on group chats becoming reliable (see [Chat — Group Reliability Measured](2026-chat-group-reliability.md)). |
 | Breaking changes              | Logos Chat is still evolving. Breaking changes between Developer Preview and GA may impact Status integration timeline.            |
 
 ## Deliverables
+
+### [Perform test integration of Logos Chat into Status App](https://github.com/logos-messaging/pm/issues/444)
+
+**Owner**: Chat Team + Status Team
+
+Moved from [Chat — Beta](2026-chat-beta). Initial validation that Logos Chat (1:1 + group chats) can be consumed by Status. This is an exploratory integration. The goal is to get feedback on the API from a production app. Group chats are included once group chats are reliable.
 
 ### [Integrate Logos Chat 1:1 chats in Status](https://github.com/logos-messaging/pm/issues/460)
 

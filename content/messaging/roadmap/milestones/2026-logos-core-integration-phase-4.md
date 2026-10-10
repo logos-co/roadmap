@@ -1,5 +1,5 @@
 ---
-title: Logos Core Integration — Phase 4
+title: Logos Core Integration — Discovery Module
 tags:
   - messaging-milestone
 date: 2026-03-01

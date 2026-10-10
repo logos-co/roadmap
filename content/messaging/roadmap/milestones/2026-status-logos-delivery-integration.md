@@ -1,11 +1,19 @@
 ---
-title: "Status: Logos Delivery Integration"
+title: "Status: Logos Delivery Integrated"
 tags:
   - messaging-milestone
 date: 2026-02-01
 github: https://github.com/logos-messaging/pm/issues/408
 ---
 
+**Targets**: Testnet v0.4
+
+## Exit criteria
+
+- [ ] `status-go` uses the Messaging API for send, health and subscribe, and no longer depends on `go-waku` ([#380](https://github.com/logos-messaging/pm/issues/380)).
+- [ ] The integration is merged to `status-go` `develop`, with a single implementation path in CI.
+- [ ] Status functional and e2e tests pass on the Status test fleets.
+- [ ] Maintenance of the integration is handed over to the Status team.
 
 **Resources Required**:
 - 1 Delivery engineer (50% of work)
