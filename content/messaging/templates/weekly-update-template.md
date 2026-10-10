@@ -173,7 +173,22 @@ title: 2026-MM-DD Messaging Weekly
 
 ## [Status: Logos Delivery Integration](2026-status-logos-delivery-integration.md)
 
-- [[Deliverable] Integrate Messaging API in status-go](https://github.com/logos-messaging/pm/issues/380)
+- [[Deliverable] Status: prepare the network for the Messaging API](https://github.com/logos-messaging/pm/issues/486)
+  - achieved:
+  - next:
+  - blockers:
+
+- [[Deliverable] Status: build and link Logos Delivery in status-go and status-app](https://github.com/logos-messaging/pm/issues/487)
+  - achieved:
+  - next:
+  - blockers:
+
+- [[Deliverable] Messaging API: close the gaps Status needs](https://github.com/logos-messaging/pm/issues/488)
+  - achieved:
+  - next:
+  - blockers:
+
+- [[Deliverable] Status: replace go-waku with Logos Delivery in status-go](https://github.com/logos-messaging/pm/issues/489)
   - achieved:
   - next:
   - blockers:
