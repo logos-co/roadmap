@@ -13,7 +13,7 @@ github: https://github.com/logos-messaging/pm/issues/408
 
 Status replaces go-waku with Logos Delivery, consumed through the Messaging API. The old nwaku relay integration has been removed and `liblogosdelivery` builds for mobile. The remaining plan:
 
-1. **Prepare the network** — move Status to a shape the Messaging API can serve, while still on go-waku
+1. **Prepare the network** — move Status to a shape the Messaging API can serve
 2. **Build and link** — `libsds` and `liblogosdelivery` built through Nimble and linked into `status-go` and `status-app` on every platform
 3. **Close the Messaging API gaps** — every feature `status-go` relies on is implemented in Logos Delivery or explicitly dropped
 4. **Replace go-waku** — switch `status-go` to Logos Delivery behind its transport, then delete go-waku
@@ -56,8 +56,6 @@ Status replaces go-waku with Logos Delivery, consumed through the Messaging API.
 - Move the Status network to a single shard
 - Stop using the WakuMessage `version` field
 - Add a `status.prod` preset to Logos Delivery
-- Run Status test fleets on Logos Delivery
-- Runs on go-waku, ahead of the cutover
 
 **Done when**: Status sends and listens on shard 32 only, and Logos Delivery can join the Status network with its preset.
 
@@ -73,8 +71,7 @@ Status replaces go-waku with Logos Delivery, consumed through the Messaging API.
 
 Close the gaps between what `status-go` uses today and what the Messaging API offers, so the adapter needs no workarounds:
 
-- Set the WakuMessage `version` on send
-- Node info
+- Node info (ENR, listen addresses, peer ID, version)
 - Store peer auto-selection
 - Send retry owned by Logos Delivery
 - Missing-message gap detection
