@@ -8,8 +8,8 @@
 4. Libp2p nodes can use a general service discovery API to discover peers with specific capabilities
 5. The service discovery protocol adapts DISC-NG for Kad-DHT to ensure efficient service discovery
 6. Client nodes can discover addresses of peers with specific capabilities without participating in the Kad-DHT
-7. Service discovery correctly discovers all advertised peers in a topology of several thousand nodes
-8. Service discovery correctly discovers peers advertising a sparse service in a topology of several thousand nodes
+7. Service discovery correctly discovers all advertised peers in a topology of a thousand nodes
+8. Service discovery correctly discovers peers advertising a sparse service in a topology of a thousand nodes
 9. The service discovery module advertises only signed extensible peer records provided by consuming modules and never publishes a record of its own
 10. A consuming module can refresh its advertised record in place when its addresses or services change
 

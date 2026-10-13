@@ -32,8 +32,8 @@
 
 **FURPS**:
 
-- F7. Service discovery correctly discovers all advertised peers in a topology of several thousand nodes
-- F8. Service discovery correctly discovers peers advertising a sparse service in a topology of several thousand nodes
+- F7. Service discovery correctly discovers all advertised peers in a topology of a thousand nodes
+- F8. Service discovery correctly discovers peers advertising a sparse service in a topology of a thousand nodes
 - S1. Service discovery can be functionally validated in large-scale standalone DST simulations
 
 **Checklist**:
