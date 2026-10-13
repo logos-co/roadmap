@@ -1,4 +1,4 @@
-# Oracle Track: Testnet v0.4 (TBD: anoncomms-pm milestone)
+# [Oracle Track: Testnet v0.4](https://github.com/logos-co/anoncomms-pm/milestone/29)
 
 **Track:** [Oracle Track](/anoncomms/roadmap/oracle.md)
 
@@ -11,7 +11,7 @@
 
 ## Deliverables
 
-### Extend price fetching to multiple independent sources (TBD: anoncomms-pm issue)
+### [Extend price fetching to multiple independent sources](https://github.com/logos-co/anoncomms-pm/issues/92)
 
 **Owner**: AnonComms Oracle
 
@@ -24,7 +24,7 @@
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Dogfood: link to dogfooding session/artefact
 
-### Update the LON specification (TBD: anoncomms-pm issue)
+### [Update the LON specification](https://github.com/logos-co/anoncomms-pm/issues/93)
 
 **Owner**: AnonComms Oracle
 
@@ -36,7 +36,7 @@
 - [ ] Specs: link to specs and/or API definition
 - [ ] Docs: links to README.md or other docs
 
-### Specify the dispute mechanism and implement dispute detection (TBD: anoncomms-pm issue)
+### [Specify the dispute mechanism and implement dispute detection](https://github.com/logos-co/anoncomms-pm/issues/94)
 
 **Owner**: AnonComms Oracle
 

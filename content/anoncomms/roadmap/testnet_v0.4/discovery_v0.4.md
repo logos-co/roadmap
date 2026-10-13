@@ -1,4 +1,4 @@
-# Service Discovery Track: Testnet v0.4 (TBD: anoncomms-pm milestone)
+# [Service Discovery Track: Testnet v0.4](https://github.com/logos-co/anoncomms-pm/milestone/24)
 
 **Track:** [Service Discovery Track](/anoncomms/roadmap/discovery.md)
 
@@ -12,7 +12,7 @@
 
 ## Deliverables
 
-### Simplify the service discovery module API (TBD: anoncomms-pm issue)
+### [Simplify the service discovery module API](https://github.com/logos-co/anoncomms-pm/issues/89)
 
 **Owner**: AnonComms Discovery (primary), P2P team (support)
 

@@ -1,4 +1,4 @@
-# Service Discovery Track: Testnet v0.5 (TBD: anoncomms-pm milestone)
+# [Service Discovery Track: Testnet v0.5](https://github.com/logos-co/anoncomms-pm/milestone/25)
 
 **Track:** [Service Discovery Track](/anoncomms/roadmap/discovery.md)
 

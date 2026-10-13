@@ -1,4 +1,4 @@
-# Identity Track: Testnet v0.4 (TBD: anoncomms-pm milestone)
+# [Identity Track: Testnet v0.4](https://github.com/logos-co/anoncomms-pm/milestone/27)
 
 **Track:** [Identity Track](/anoncomms/roadmap/identity.md)
 
