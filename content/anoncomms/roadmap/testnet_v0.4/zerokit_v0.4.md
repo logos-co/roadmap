@@ -1,4 +1,4 @@
-# Zerokit Track: Testnet v0.4 (TBD: anoncomms-pm milestone)
+# [Zerokit Track: Testnet v0.4](https://github.com/logos-co/anoncomms-pm/milestone/31)
 
 **Track:** [Zerokit Track](/anoncomms/roadmap/zerokit.md)
 
@@ -11,7 +11,7 @@
 
 ## Deliverables
 
-### Release Zerokit with Poseidon2 support (TBD: anoncomms-pm issue)
+### [Release Zerokit with Poseidon2 support](https://github.com/logos-co/anoncomms-pm/issues/98)
 
 **Owner**: AnonComms Zerokit
 
@@ -25,7 +25,7 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### Zerokit-API RFC for the 3.1.0 release (TBD: anoncomms-pm issue)
+### [Zerokit-API RFC for the 3.1.0 release](https://github.com/logos-co/anoncomms-pm/issues/99)
 
 **Owner**: AnonComms Zerokit
 
@@ -36,7 +36,7 @@
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
 
-### Runtime checks for resource/hash function combinations (TBD: anoncomms-pm issue)
+### [Runtime checks for resource/hash function combinations](https://github.com/logos-co/anoncomms-pm/issues/100)
 
 **Owner**: AnonComms Zerokit
 
@@ -50,7 +50,7 @@
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Docs: links to README.md or other docs
 
-### [Static analysis of Poseidon and Poseidon2 circuits](https://github.com/logos-co/anoncomms-pm/issues/85)
+### [Static analysis of Poseidon and Poseidon2 circuits](https://github.com/logos-co/anoncomms-pm/issues/101)
 
 **Owner**: AnonComms Zerokit
 
@@ -62,7 +62,7 @@
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Docs: links to README.md or other docs
 
-### [Zerokit maintenance](https://github.com/logos-co/anoncomms-pm/issues/86)
+### [Zerokit maintenance](https://github.com/logos-co/anoncomms-pm/issues/97)
 
 **Owner**: AnonComms Zerokit
 

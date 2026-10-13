@@ -1,4 +1,4 @@
-# RLN Track: Testnet v0.4 (TBD: anoncomms-pm milestone)
+# [RLN Track: Testnet v0.4](https://github.com/logos-co/anoncomms-pm/milestone/30)
 
 **Track:** [RLN Track](/anoncomms/roadmap/rln.md)
 
@@ -17,7 +17,7 @@ but the design is not fixed at this stage.
 
 ## Deliverables
 
-### [Standalone RLN membership allocation service module with end-to-end membership allocation](https://github.com/logos-co/anoncomms-pm/issues/81)
+### [Standalone RLN membership allocation service module with end-to-end membership allocation](https://github.com/logos-co/anoncomms-pm/issues/95)
 
 **Owner**: AnonComms Zerokit-RLN
 
@@ -34,7 +34,7 @@ but the design is not fixed at this stage.
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### Specify and implement RLN on-chain memberships and accounting compatible with Logos zones and LEZ (TBD: anoncomms-pm issue)
+### [Specify and implement RLN on-chain memberships and accounting compatible with Logos zones and LEZ](https://github.com/logos-co/anoncomms-pm/issues/96)
 
 **Owner**: AnonComms Zerokit-RLN
 

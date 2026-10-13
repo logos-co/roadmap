@@ -1,4 +1,4 @@
-# De-MLS Track: Testnet v0.4 (TBD: anoncomms-pm milestone)
+# [De-MLS Track: Testnet v0.4](https://github.com/logos-co/anoncomms-pm/milestone/28)
 
 **Track:** [De-MLS Track](/anoncomms/roadmap/de-mls.md)
 
@@ -11,7 +11,7 @@
 
 ## Deliverables
 
-### Harden the de-MLS integration in libchat (TBD: anoncomms-pm issue)
+### [Harden the de-MLS integration in libchat](https://github.com/logos-co/anoncomms-pm/issues/88)
 
 **Owner**: AnonComms de-MLS
 

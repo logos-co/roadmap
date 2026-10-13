@@ -1,4 +1,4 @@
-# Mix Track: Testnet v0.4 (TBD: anoncomms-pm milestone)
+# [Mix Track: Testnet v0.4](https://github.com/logos-co/anoncomms-pm/milestone/26)
 
 **Track:** [Mix Track](/anoncomms/roadmap/mix.md)
 
@@ -27,7 +27,7 @@
 - [ ] Specs: link to specs and/or API definition
 - [ ] Docs: links to README.md or other docs
 
-### Specify and implement basic key rotation for forward secrecy (TBD: anoncomms-pm issue)
+### [Specify and implement basic key rotation for forward secrecy](https://github.com/logos-co/anoncomms-pm/issues/90)
 
 **Owner**: AnonComms Mix
 
@@ -42,7 +42,7 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### Specify and implement Poisson-rate cover traffic generation (TBD: anoncomms-pm issue)
+### [Specify and implement Poisson-rate cover traffic generation](https://github.com/logos-co/anoncomms-pm/issues/87)
 
 **Owner**: AnonComms Mix
 
@@ -57,7 +57,7 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### Simplify the Logos Mix module architecture and use it as entry and exit node for Logos Delivery (TBD: anoncomms-pm issue)
+### [Simplify the Logos Mix module architecture and use it as entry and exit node for Logos Delivery](https://github.com/logos-co/anoncomms-pm/issues/91)
 
 **Owner**: P2P Team (primary), AnonComms Mix (support), Messaging Delivery (support)
 
