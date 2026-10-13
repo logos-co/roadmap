@@ -13,6 +13,8 @@ The work includes (i) a pre-study to define stablecoin requirements and evaluate
 
 **Scheduled milestones**:
 - [Testnet v0.2](/anoncomms/roadmap/testnet_v0.2/oracle_v0.2.md)
+- [Testnet v0.3](/anoncomms/roadmap/testnet_v0.3/oracle_v0.3.md)
+- [Testnet v0.4](/anoncomms/roadmap/testnet_v0.4/oracle_v0.4.md)
 
 ## Risks
 

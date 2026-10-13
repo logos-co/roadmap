@@ -28,6 +28,7 @@ and consolidates the deliverables for mainnet and post-mainnet milestones.
 **Scheduled milestones**:
 - [Testnet v0.2](/anoncomms/roadmap/testnet_v0.2/identity_v0.2.md)
 - [Testnet v0.3](/anoncomms/roadmap/testnet_v0.3/identity_v0.3.md)
+- [Testnet v0.4](/anoncomms/roadmap/testnet_v0.4/identity_v0.4.md)
 - [Mainnet](/anoncomms/roadmap/mainnet/identity_mainnet.md)
 
 **Post-mainnet** features layered on top of the basic identity protocol, without changing existing addresses:
