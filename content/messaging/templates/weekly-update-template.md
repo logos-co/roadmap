@@ -15,156 +15,144 @@ title: 2026-MM-DD Messaging Weekly
 
 # Logos Delivery
 
-## [Messaging API — General Availability](2026-messaging-api-general-availability.md)
+## [Messaging API — General Availability](2026-messaging-api-ga.md)
 
-- [[Deliverable] Reliability and scale validation with DST](https://github.com/logos-messaging/pm/issues/429)
+- [[Deliverable] Messaging API reliability and scale validation with DST](https://github.com/logos-messaging/pm/issues/429)
   - achieved:
   - next:
   - blockers:
 
-- [[Deliverable] Offline periods backfill](https://github.com/logos-messaging/pm/issues/430)
+- [Deliverable] Validate RLN on Logos Blockchain at scale
   - achieved:
   - next:
   - blockers:
 
-- [[Deliverable] Create Rate Limit Manager](https://github.com/logos-messaging/pm/issues/431)
+- [Deliverable] Address Messaging API issues found by DST
   - achieved:
   - next:
   - blockers:
 
-- [[Deliverable] Integrate Rate Limit Manager](https://github.com/logos-messaging/pm/issues/432)
+- [Deliverable] Address RLN issues found by DST
   - achieved:
   - next:
   - blockers:
 
-- [[Deliverable] Integrate Mix into Messaging API](https://github.com/logos-messaging/pm/issues/433)
+- [[Deliverable] Do not backfill history for newly subscribed content topics](https://github.com/logos-messaging/logos-delivery/issues/4278)
   - achieved:
   - next:
   - blockers:
 
-- [[Deliverable] Provide documentation on the Messaging API](https://github.com/logos-messaging/pm/issues/434)
+- [Deliverable] Add message priorities
   - achieved:
   - next:
   - blockers:
 
-## [Reliable Channel API — Beta](2026-reliable-channel-api-beta.md)
+## [Delivery — Released Monthly](2026-delivery-released-monthly.md)
 
-- [[Deliverable] Create Segmentation Library](https://github.com/logos-messaging/pm/issues/318)
+- [Deliverable] Release `logos-delivery` v0.40
   - achieved:
   - next:
   - blockers:
 
-- [[Deliverable] Add Segmentation to Reliable Channel API](https://github.com/logos-messaging/logos-delivery/issues/3854)
+- [Deliverable] Release `logos-delivery` v0.41
   - achieved:
   - next:
   - blockers:
 
-- [[Deliverable] Deprecate store hash queries for missing messages](https://github.com/logos-messaging/pm/issues/436)
+## [Delivery — Technical Debt Halved](2026-delivery-technical-debt-halved.md)
+
+- [[Deliverable] Bump dependencies](https://github.com/logos-messaging/pm/issues/485)
   - achieved:
   - next:
   - blockers:
 
-- [[Deliverable] Support different encryption for sync messages](https://github.com/logos-messaging/logos-delivery/issues/3856)
+- [Deliverable] Fix the CI setup
   - achieved:
   - next:
   - blockers:
 
-- [[Deliverable] Provide documentation on the Reliable Channel API](https://github.com/logos-messaging/pm/issues/438)
+- [Deliverable] Treat compile warnings as errors
   - achieved:
   - next:
   - blockers:
 
-## [RLN on Logos Blockchain](2026-add-support-for-rln-on-lee.md)
-
-- [[Deliverable] Implement pluggable RLN membership interface](https://github.com/logos-messaging/pm/issues/416)
+- [Deliverable] Close baseline technical debt issues
   - achieved:
   - next:
   - blockers:
 
-- [[Deliverable] Integrate Logos Delivery with RLN on Logos Blockchain](https://github.com/logos-messaging/pm/issues/417)
+## [Delivery — Target Architecture Agreed](2026-delivery-modular-architecture.md)
+
+- [Deliverable] Draw the current architecture
   - achieved:
   - next:
   - blockers:
 
-- [[Deliverable] Implement RLN membership management API](https://github.com/logos-messaging/pm/issues/419)
+- [Deliverable] Draw the target architecture
   - achieved:
   - next:
   - blockers:
 
-- [[Deliverable] Enable RLN in Logos Devnet](https://github.com/logos-messaging/pm/issues/451)
+## [Store Sync — DST Signed Off](2026-store-sync-reliability.md)
+
+- [Deliverable] Check the Sync protocols specifications state
+  - achieved:
+  - next:
+  - blockers:
+
+- [[Deliverable] Review implementation of Store Sync protocol](https://github.com/logos-messaging/pm/issues/469)
+  - achieved:
+  - next:
+  - blockers:
+
+- [Deliverable] DST sign-off for Store Sync
+  - achieved:
+  - next:
+  - blockers:
+
+## [Reliable Channel API — Future Decided](2026-reliable-channel-api-future-decided.md)
+
+- [Deliverable] Record the decision
   - achieved:
   - next:
   - blockers:
 
 # Logos Chat
 
-## [Chat — Beta](2026-chat-beta.md)
+## [Chat — Self-Healing Groups](2026-chat-self-healing-groups.md)
 
-- [[Deliverable] Installation management](https://github.com/logos-messaging/pm/issues/464)
+- [Deliverable] Add tools to detect and diagnose group forks
   - achieved:
   - next:
   - blockers:
 
-- [[Deliverable] Implement full identity model](https://github.com/logos-messaging/pm/issues/439)
+- [Deliverable] Implement fork recovery
   - achieved:
   - next:
   - blockers:
 
-- [[Deliverable] Stabilize and polish API](https://github.com/logos-messaging/pm/issues/440)
+- [Deliverable] Integrate SDS
   - achieved:
   - next:
   - blockers:
 
-- [[Deliverable] Deliver user-facing chat features](https://github.com/logos-messaging/pm/issues/441)
+## [Chat — de-MLS v5 Integrated](2026-chat-de-mls-v5.md)
+
+- [Deliverable] Integrate de-MLS v5
   - achieved:
   - next:
   - blockers:
 
-- [[Deliverable] Reliability testing with DST](https://github.com/logos-messaging/pm/issues/442)
+## [Chat — Accounts Persisted](2026-chat-accounts-persisted.md)
+
+- [Deliverable] Persist accounts and installations
   - achieved:
   - next:
   - blockers:
 
-- [[Deliverable] Add support for Logos Delivery RLN](https://github.com/logos-messaging/pm/issues/347)
-  - achieved:
-  - next:
-  - blockers:
+## [Chat — Internal Security Review Done](2026-chat-security-review.md)
 
-- [[Deliverable] Perform test integration of Logos Chat into Status App](https://github.com/logos-messaging/pm/issues/444)
-  - achieved:
-  - next:
-  - blockers:
-
-- [[Deliverable] Design SDS and de-MLS integration](https://github.com/logos-messaging/pm/issues/445)
-  - achieved:
-  - next:
-  - blockers:
-
-# Logos Core
-
-## [Logos Core Integration — Phase 3](2026-logos-core-integration-phase-3.md)
-
-- [[Deliverable] Pluggable RLN membership](https://github.com/logos-messaging/pm/issues/446)
-  - achieved:
-  - next:
-  - blockers:
-
-- [[Deliverable] Delivery module uses RLN membership module](https://github.com/logos-messaging/pm/issues/448)
-  - achieved:
-  - next:
-  - blockers:
-
-- [[Deliverable] Make discovery pluggable in Logos Delivery](https://github.com/logos-messaging/pm/issues/449)
-  - achieved:
-  - next:
-  - blockers:
-
-- [[Deliverable] POC: Delivery module uses Discovery module for peer discovery](https://github.com/logos-messaging/pm/issues/389)
-  - achieved:
-  - next:
-  - blockers:
-
-- [[Deliverable] Enable QUIC in logos.dev and logos.test](https://github.com/logos-messaging/pm/issues/450)
+- [Deliverable] Address review findings
   - achieved:
   - next:
   - blockers:
@@ -189,28 +177,6 @@ title: 2026-MM-DD Messaging Weekly
   - blockers:
 
 - [[Deliverable] Status: replace go-waku with Logos Delivery in status-go](https://github.com/logos-messaging/pm/issues/489)
-  - achieved:
-  - next:
-  - blockers:
-
-## [Status: Logos Chat Integration](2026-status-logos-chat-integration.md)
-
-- [[Deliverable] Deploy RLN Contracts to Status L2 testnet](https://github.com/logos-messaging/pm/issues/356)
-  - achieved:
-  - next:
-  - blockers:
-
-- [[Deliverable] Integrate Logos Chat 1:1 chats in Status](https://github.com/logos-messaging/pm/issues/460)
-  - achieved:
-  - next:
-  - blockers:
-
-- [[Deliverable] Integrate Logos Chat group chats in Status](https://github.com/logos-messaging/pm/issues/461)
-  - achieved:
-  - next:
-  - blockers:
-
-- [[Deliverable] Define communities architecture on Logos Chat](https://github.com/logos-messaging/pm/issues/462)
   - achieved:
   - next:
   - blockers:
