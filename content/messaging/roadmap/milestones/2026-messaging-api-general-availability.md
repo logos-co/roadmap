@@ -1,12 +1,16 @@
 ---
-title: Messaging API — General Availability
+title: Messaging API — Feature Completeness
 tags:
   - messaging-milestone
 date: 2026-07-07
 github: https://github.com/logos-messaging/pm/issues/424
 ---
 
-The [Beta](2026-messaging-api-beta.md) delivered the full API surface (Send, Health, Subscribe/Receive in core and edge mode), while allowing to use Kernel API for Store access for existing applications. General Availability makes the Messaging API production-ready: DST-validated reliability at scale, automatic recovery of messages missed while offline, built-in rate limit management and anonymity via mix integration.
+<!-- TODO: Rename the file to 2026-messaging-api-feature-completeness -->
+
+The [Beta](2026-messaging-api-beta.md) delivered the full API surface (Send, Health, Subscribe/Receive in core and edge mode), while allowing to use Kernel API for Store access for existing applications. Feature Completeness means everything required for the Messaging API is implemented: automatic recovery of messages missed while offline, built-in rate limit management, anonymity via mix integration, and documentation.
+
+Production readiness, validated by DST, is the next milestone: [Messaging API — General Availability](2026-messaging-api-ga.md).
 
 ## FURPS
 
@@ -22,14 +26,6 @@ The [Beta](2026-messaging-api-beta.md) delivered the full API surface (Send, Hea
 | Rate limit UX impact        | Rate limiting causes messages to be queued or dropped. UX implications must be communicated clearly in the API and documentation.                   |
 
 ## Deliverables
-
-### [Reliability and scale validation with DST](https://github.com/logos-messaging/pm/issues/429)
-
-**Owner**: Delivery Team + DST
-
-The Messaging API is QA-approved for production use. DST validates reliability and performance at scale against FURPS targets.
-
-**Done when**: A DST test report covering reliability and scale targets is available, and QA sign-off is obtained.
 
 ### [Offline periods backfill](https://github.com/logos-messaging/pm/issues/430)
 
