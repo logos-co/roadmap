@@ -46,7 +46,7 @@ We use three release stages for developer-facing APIs and libraries:
 
 ### Testnet [v0.3](v03)
 
-- [x] [Messaging API — General Availability](2026-messaging-api-general-availability)
+- [x] [Messaging API — Feature Completeness](2026-messaging-api-general-availability)
 - [x] [Reliable Channel API — Beta](2026-reliable-channel-api-beta.md)
 - [x] [Chat — Beta](2026-chat-beta)
 - [x] [RLN on Logos Blockchain](2026-add-support-for-rln-on-lee)
@@ -54,11 +54,18 @@ We use three release stages for developer-facing APIs and libraries:
 
 ### Testnet v0.4
 
-<!-- FIXME: restructure and rename these milestones -->
-- [ ] [Reliable Channel API — General Availability](2026-reliable-channel-api-general-availability.md)
-- [ ] [Chat — Beta 2](2026-chat-beta-2.md)
-- [ ] [Logos Core Integration — Phase 4](2026-logos-core-integration-testnet-v04.md)
+| Phase   | Date       |
+| ------- | ---------- |
+| RC      | 2026-11-16 |
+| Release | 2026-11-30 |
+
 - [ ] [Status: Logos Delivery Integration](2026-status-logos-delivery-integration)
+- [ ] [Messaging API — General Availability](2026-messaging-api-ga.md)
+- [ ] [Delivery — Released Monthly](2026-delivery-released-monthly.md)
+- [ ] [Delivery — Technical Debt Halved](2026-delivery-technical-debt-halved.md)
+- [ ] [Delivery — Target Architecture Agreed](2026-delivery-modular-architecture.md)
+- [ ] [Delivery Sync protocol — DST Signed Off](2026-store-sync-reliability.md)
+- [ ] [Reliable Channel API — Future Decided](2026-reliable-channel-api-future-decided.md)
 
 ### Required for Mainnet
 
