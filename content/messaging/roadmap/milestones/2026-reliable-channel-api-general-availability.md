@@ -18,3 +18,13 @@ The [Beta](2026-reliable-channel-api-beta.md) completed the feature set of the [
 
 **FURPS**:
 - ~~F4. Missing messages are automatically retrieved via store hash queries.~~
+
+### [Support ephemeral messages in the Reliable Channel API](https://github.com/logos-messaging/logos-delivery/issues/4305)
+
+**Owner**: Delivery Team
+
+### [Add Reliable Channel encryption to `delivery-module` API](https://github.com/logos-messaging/pm/issues/472)
+
+**Owner**: Delivery Team
+
+Expose Reliable Channel encryption through the `delivery-module` API, so Logos Core applications can use it.
