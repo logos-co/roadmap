@@ -18,6 +18,8 @@ The new service discovery protocol will be published as a specification adapting
 - [Testnet v0.1](/anoncomms/roadmap/testnet_v0.1/discovery_v0.1.md)
 - [Testnet v0.2](/anoncomms/roadmap/testnet_v0.2/discovery_v0.2.md)
 - [Testnet v0.3](/anoncomms/roadmap/testnet_v0.3/discovery_v0.3.md)
+- [Testnet v0.4](/anoncomms/roadmap/testnet_v0.4/discovery_v0.4.md)
+- [Testnet v0.5](/anoncomms/roadmap/testnet_v0.5/discovery_v0.5.md)
 
 Future work in this track, include:
 1. Anonymising the discovery protocol, including privacy-preserving discovery requests, anonymous DHT participation, etc.

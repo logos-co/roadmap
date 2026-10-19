@@ -28,6 +28,8 @@
 ## Reliability
 
 1. De-MLS operates correctly within libchat
+2. De-MLS handles malformed or unexpected protocol messages without aborting the host application
+3. De-MLS groups remain consistent across repeated join, invite and leave operations
 
 ## Performance
 
@@ -39,6 +41,7 @@
 
 1. Hashgraph-like consensus is separated out into its own library for modularity
 2. The WallClock service provides test implementations that simulate time progression without real-time waits
+3. The consensus mechanism can be benchmarked in large-scale DST simulations
 
 ## Miscellaneous dependencies:
 

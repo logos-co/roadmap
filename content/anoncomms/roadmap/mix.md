@@ -21,6 +21,8 @@ as pluggable extensions to the libp2p mix specification.
 - [Testnet v0.1](/anoncomms/roadmap/testnet_v0.1/mix_v0.1.md)
 - [Testnet v0.2](/anoncomms/roadmap/testnet_v0.2/mix_v0.2.md)
 - [Testnet v0.3](/anoncomms/roadmap/testnet_v0.3/mix_v0.3.md)
+- [Testnet v0.4](/anoncomms/roadmap/testnet_v0.4/mix_v0.4.md)
+- [Testnet v0.5](/anoncomms/roadmap/testnet_v0.5/mix_v0.5.md)
 
 Future work in this track, include:
 1. Introducing longer-lived mix circuits
