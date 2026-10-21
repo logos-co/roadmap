@@ -8,9 +8,9 @@ github: <Link to Github Milestone/Issue>
 
 # {Milestone Title - use verb}
 
-**Estimated date of completion**: {Enter date}
+**Targets**: {Testnet release}
 
-**Resources Required for 2025H2**:
+**Resources Required**:
 - {roles and % application to it}
 - {external services consumed (Vac/IFT)}
 - {infrastructure}
@@ -21,13 +21,17 @@ github: <Link to Github Milestone/Issue>
 
 - [{Feature Name}]({path/to/furps/file}): {list of furps: F1, etc}
 
+## Exit criteria
+
+- [ ] {measurable condition that makes the milestone done; cannot be moved to another milestone}
+
 ## Risks
 
 | Risk   | (Accept, Own, Mitigation)     |
 |--------|-------------------------------|
 | [Risk] | [how to we address this risk] |
 
-## Deliverables 
+## Deliverables
 
 ### {Name of deliverable 1 - eg "improve feature X for the browser"}
 

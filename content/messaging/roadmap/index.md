@@ -8,17 +8,17 @@ date: 2025-12-10
 Logos Messaging is working towards these features, required to be implemented for Mainnet:
 
 - Delivery module for Logos Core
-	- Exposes [Messaging API](messaging_sdk)
-	- Exposes [Reliable Channel API](reliable_channel)
-	- Supports RLN membership on Logos Blockchain
+  - Exposes [Messaging API](messaging_sdk)
+  - Exposes [Reliable Channel API](reliable_channel)
+  - Supports RLN membership on Logos Blockchain
 - Chat module for Logos Core
-	- Exposes 1:1 chats API
-	- Exposes group chats API, based on de-MLS
-	- Uses Delivery module as transport, through Logos Core
+  - Exposes 1:1 chats API
+  - Exposes group chats API, based on de-MLS
+  - Uses Delivery module as transport, through Logos Core
 - Status:
-	- Uses [SDS protocol](sds) for Communities
-	- Uses Logos Chat for 1:1 and group chats
-	- Integration of Logos Chat and Delivery is done using Logos Core
+  - Uses [SDS protocol](sds) for Communities
+  - Uses Logos Chat for 1:1 and group chats
+  - Integration of Logos Chat and Delivery is done using Logos Core
 
 ## Milestones
 
@@ -29,11 +29,14 @@ We use three release stages for developer-facing APIs and libraries:
 - **Beta** — feature-complete and API-stable. Documentation, QA sign-off and performance tuning may still be in progress.
 - **General Availability** — feature-complete, documented, QA-approved, production-ready release.
 
+Work that is still in research stage does not use these stages. Research milestones are measured by the decisions and measurements they produce, not by the features they ship.
+
 ### Testnet [v0.1](v01)
 
 - [x] [Messaging API — Developer Preview](2026-messaging-api-developer-preview.md)
 - [x] [Chat — Foundations](2026-chat-foundations.md)
 - [x] [Initial Integration to Logos Core](2026-initial-integration-to-logos-core.md)
+- [x] [Status: Foundation for Communities Optimization](2025-foundation-for-communities-optimization)
 
 ### Testnet [v0.2](v02)
 
@@ -43,6 +46,9 @@ We use three release stages for developer-facing APIs and libraries:
 - [x] [Logos Core Integration — Phase 2](2026-logos-core-integration-phase-2)
 - [x] [Support QUIC Transport in Logos Delivery](2025-support-discovery-research-and-libp2p-quic)
 - [x] [RLN for Edge Nodes](2026-rln-for-edge-nodes.md)
+- [x] [Nimble Migration](2026-nimble-migration)
+- [x] [Fleet Stability](2026-fleet-stability)
+- [x] [Status: E2E Reliability in Communities](2024-e2e-reliability-protocol)
 
 ### Testnet [v0.3](v03)
 
@@ -74,10 +80,3 @@ We use three release stages for developer-facing APIs and libraries:
 - [ ] [Support Mobile Platforms](2026-support-mobile-platforms)
 - [ ] [Status: Logos Chat Integration](2026-status-logos-chat-integration)
 - [ ] Security audit (internal security team review followed by external audit)
-
-### Parallel milestones
-
-- [x] [Nimble Migration](2026-nimble-migration)
-- [x] [Fleet Stability](2026-fleet-stability)
-- [x] [Status: Foundation for Communities Optimization](2025-foundation-for-communities-optimization)
-- [x] [Status: E2E Reliability in Communities](2024-e2e-reliability-protocol)
