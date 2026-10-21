@@ -3,7 +3,7 @@ title: Reliable Channel API — Future Decided
 tags:
   - messaging-milestone
 date: 2026-10-16
-github:
+github: https://github.com/logos-messaging/pm/issues/493
 ---
 
 **Targets**: Testnet v0.4
@@ -28,7 +28,7 @@ The [Beta](2026-reliable-channel-api-beta.md) completed the feature set of the [
 
 ## Deliverables
 
-### Record the decision
+### [Record the decision](https://github.com/logos-messaging/pm/issues/510)
 
 **Owner**: Delivery Team
 

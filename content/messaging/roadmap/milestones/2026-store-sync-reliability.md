@@ -33,7 +33,7 @@ Store Sync protocol was expected to bring reliability to Store nodes, but ended 
 
 ## Deliverables
 
-### Check the Sync protocols specifications state
+### [Check the Sync protocols specifications state](https://github.com/logos-messaging/pm/issues/508)
 
 **Owner**: Delivery Team
 
@@ -47,7 +47,7 @@ Check with the AnonComms team what the state of the [LIP-181](https://lip.logos.
 
 Review the implementation against the agreed specification, triage all reported bugs into this milestone, and fix them.
 
-### DST sign-off for Store Sync
+### [DST sign-off for Store Sync](https://github.com/logos-messaging/pm/issues/509)
 
 **Owner**: Delivery Team + DST
 

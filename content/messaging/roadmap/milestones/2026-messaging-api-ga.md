@@ -3,7 +3,7 @@ title: Messaging API — General Availability
 tags:
   - messaging-milestone
 date: 2026-10-15
-github:
+github: https://github.com/logos-messaging/pm/issues/490
 ---
 
 **Targets**: Testnet v0.4
@@ -35,7 +35,7 @@ DST validates the Messaging API reliability and performance at scale against the
 
 **Done when**: A DST test report covering the agreed expectations is available and signed off.
 
-### Validate RLN on Logos Blockchain at scale
+### [Validate RLN on Logos Blockchain at scale](https://github.com/logos-messaging/pm/issues/497)
 
 **Owner**: Delivery Team, AnonComms Team + DST
 
@@ -45,7 +45,7 @@ DST validates RLN on LEZ with X members at Y messages per epoch.
 
 **Done when**: A DST test report covering the agreed membership size and message rate is available and signed off.
 
-### Address Messaging API issues found by DST
+### [Address Messaging API issues found by DST](https://github.com/logos-messaging/pm/issues/498)
 
 **Owner**: Delivery Team
 
@@ -53,7 +53,7 @@ Messaging API issues found by DST are triaged and fixed.
 
 **Done when**: No P0 or P1 issues found by DST remain open.
 
-### Address RLN issues found by DST
+### [Address RLN issues found by DST](https://github.com/logos-messaging/pm/issues/499)
 
 **Owner**: Delivery Team, AnonComms Team + DST
 
@@ -67,7 +67,7 @@ RLN issues found by DST are triaged and fixed.
 
 **Done when**: Subscribing to a new content topic does not trigger a Store backfill; backfill only applies to topics the node was subscribed to before going offline.
 
-### Add message priorities
+### [Add message priorities](https://github.com/logos-messaging/pm/issues/500)
 
 **Owner**: Delivery Team
 

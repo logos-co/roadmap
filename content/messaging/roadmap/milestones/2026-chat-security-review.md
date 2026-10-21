@@ -3,7 +3,7 @@ title: Chat — Internal Security Review Done
 tags:
   - messaging-milestone
 date: 2026-10-16
-github:
+github: https://github.com/logos-messaging/pm/issues/496
 ---
 
 **Targets**: Testnet v0.4
@@ -21,7 +21,7 @@ The first step of the security audit required for Mainnet: an internal review of
 
 ## Deliverables
 
-### Address review findings
+### [Address review findings](https://github.com/logos-messaging/pm/issues/516)
 
 **Owner**: Chat Team
 
