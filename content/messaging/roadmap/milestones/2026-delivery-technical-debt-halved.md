@@ -35,17 +35,17 @@ To measure it, technical debt is tracked as open issues in `logos-delivery`.
 - `zerokit` 3.0
 - Nim 2.2.12
 
-### Fix the CI setup
+### [Fix the CI setup](https://github.com/logos-messaging/pm/issues/503)
 
 **Owner**: Delivery Team
 
 Install Nim through Nimble, not the opposite, as already done in `nim-sds`. Find ways and speed up PR-level CI.
 
-### Treat compile warnings as errors
+### [Treat compile warnings as errors](https://github.com/logos-messaging/pm/issues/504)
 
 **Owner**: Delivery Team
 
-### Close baseline technical debt issues
+### [Close baseline technical debt issues](https://github.com/logos-messaging/pm/issues/505)
 
 **Owner**: Delivery Team
 

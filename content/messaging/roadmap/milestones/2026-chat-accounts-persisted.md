@@ -3,7 +3,7 @@ title: Chat — Accounts Persisted
 tags:
   - messaging-milestone
 date: 2026-10-16
-github:
+github: https://github.com/logos-messaging/pm/issues/495
 ---
 
 **Targets**: Testnet v0.4
@@ -19,6 +19,6 @@ Conversations and messages already survive a restart ([logos-chat-module#82](htt
 
 ## Deliverables
 
-### Persist accounts and installations
+### [Persist accounts and installations](https://github.com/logos-messaging/pm/issues/515)
 
 **Owner**: Chat Team

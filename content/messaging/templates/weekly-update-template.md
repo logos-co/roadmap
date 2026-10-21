@@ -22,17 +22,17 @@ title: 2026-MM-DD Messaging Weekly
   - next:
   - blockers:
 
-- [Deliverable] Validate RLN on Logos Blockchain at scale
+- [[Deliverable] Validate RLN on Logos Blockchain at scale](https://github.com/logos-messaging/pm/issues/497)
   - achieved:
   - next:
   - blockers:
 
-- [Deliverable] Address Messaging API issues found by DST
+- [[Deliverable] Address Messaging API issues found by DST](https://github.com/logos-messaging/pm/issues/498)
   - achieved:
   - next:
   - blockers:
 
-- [Deliverable] Address RLN issues found by DST
+- [[Deliverable] Address RLN issues found by DST](https://github.com/logos-messaging/pm/issues/499)
   - achieved:
   - next:
   - blockers:
@@ -42,19 +42,19 @@ title: 2026-MM-DD Messaging Weekly
   - next:
   - blockers:
 
-- [Deliverable] Add message priorities
+- [[Deliverable] Add message priorities](https://github.com/logos-messaging/pm/issues/500)
   - achieved:
   - next:
   - blockers:
 
 ## [Delivery — Released Monthly](2026-delivery-released-monthly.md)
 
-- [Deliverable] Release `logos-delivery` v0.40
+- [[Deliverable] Release `logos-delivery` v0.40](https://github.com/logos-messaging/pm/issues/501)
   - achieved:
   - next:
   - blockers:
 
-- [Deliverable] Release `logos-delivery` v0.41
+- [[Deliverable] Release `logos-delivery` v0.41](https://github.com/logos-messaging/pm/issues/502)
   - achieved:
   - next:
   - blockers:
@@ -66,36 +66,36 @@ title: 2026-MM-DD Messaging Weekly
   - next:
   - blockers:
 
-- [Deliverable] Fix the CI setup
+- [[Deliverable] Fix the CI setup](https://github.com/logos-messaging/pm/issues/503)
   - achieved:
   - next:
   - blockers:
 
-- [Deliverable] Treat compile warnings as errors
+- [[Deliverable] Treat compile warnings as errors](https://github.com/logos-messaging/pm/issues/504)
   - achieved:
   - next:
   - blockers:
 
-- [Deliverable] Close baseline technical debt issues
+- [[Deliverable] Close baseline technical debt issues](https://github.com/logos-messaging/pm/issues/505)
   - achieved:
   - next:
   - blockers:
 
 ## [Delivery — Target Architecture Agreed](2026-delivery-modular-architecture.md)
 
-- [Deliverable] Draw the current architecture
+- [[Deliverable] Draw the current architecture](https://github.com/logos-messaging/pm/issues/506)
   - achieved:
   - next:
   - blockers:
 
-- [Deliverable] Draw the target architecture
+- [[Deliverable] Draw the target architecture](https://github.com/logos-messaging/pm/issues/507)
   - achieved:
   - next:
   - blockers:
 
 ## [Store Sync — DST Signed Off](2026-store-sync-reliability.md)
 
-- [Deliverable] Check the Sync protocols specifications state
+- [[Deliverable] Check the Sync protocols specifications state](https://github.com/logos-messaging/pm/issues/508)
   - achieved:
   - next:
   - blockers:
@@ -105,14 +105,14 @@ title: 2026-MM-DD Messaging Weekly
   - next:
   - blockers:
 
-- [Deliverable] DST sign-off for Store Sync
+- [[Deliverable] DST sign-off for Store Sync](https://github.com/logos-messaging/pm/issues/509)
   - achieved:
   - next:
   - blockers:
 
 ## [Reliable Channel API — Future Decided](2026-reliable-channel-api-future-decided.md)
 
-- [Deliverable] Record the decision
+- [[Deliverable] Record the decision](https://github.com/logos-messaging/pm/issues/510)
   - achieved:
   - next:
   - blockers:
@@ -121,38 +121,38 @@ title: 2026-MM-DD Messaging Weekly
 
 ## [Chat — Self-Healing Groups](2026-chat-self-healing-groups.md)
 
-- [Deliverable] Add tools to detect and diagnose group forks
+- [[Deliverable] Add tools to detect and diagnose group forks](https://github.com/logos-messaging/pm/issues/511)
   - achieved:
   - next:
   - blockers:
 
-- [Deliverable] Implement fork recovery
+- [[Deliverable] Implement fork recovery](https://github.com/logos-messaging/pm/issues/512)
   - achieved:
   - next:
   - blockers:
 
-- [Deliverable] Integrate SDS
+- [[Deliverable] Integrate SDS](https://github.com/logos-messaging/pm/issues/513)
   - achieved:
   - next:
   - blockers:
 
 ## [Chat — de-MLS v5 Integrated](2026-chat-de-mls-v5.md)
 
-- [Deliverable] Integrate de-MLS v5
+- [[Deliverable] Integrate de-MLS v5](https://github.com/logos-messaging/pm/issues/514)
   - achieved:
   - next:
   - blockers:
 
 ## [Chat — Accounts Persisted](2026-chat-accounts-persisted.md)
 
-- [Deliverable] Persist accounts and installations
+- [[Deliverable] Persist accounts and installations](https://github.com/logos-messaging/pm/issues/515)
   - achieved:
   - next:
   - blockers:
 
 ## [Chat — Internal Security Review Done](2026-chat-security-review.md)
 
-- [Deliverable] Address review findings
+- [[Deliverable] Address review findings](https://github.com/logos-messaging/pm/issues/516)
   - achieved:
   - next:
   - blockers:

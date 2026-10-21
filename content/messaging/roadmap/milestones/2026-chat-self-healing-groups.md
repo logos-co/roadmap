@@ -19,15 +19,15 @@ It is one step towards reliable group chats, see [group reliability](/messaging/
 
 ## Deliverables
 
-### Add tools to detect and diagnose group forks
+### [Add tools to detect and diagnose group forks](https://github.com/logos-messaging/pm/issues/511)
 
 **Owner**: Chat Team
 
-### Implement fork recovery
+### [Implement fork recovery](https://github.com/logos-messaging/pm/issues/512)
 
 **Owner**: Chat Team
 
-### Integrate SDS
+### [Integrate SDS](https://github.com/logos-messaging/pm/issues/513)
 
 **Owner**: Chat Team
 

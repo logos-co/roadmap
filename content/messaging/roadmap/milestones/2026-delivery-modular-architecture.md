@@ -3,7 +3,7 @@ title: Delivery — Target Architecture Agreed
 tags:
   - messaging-milestone
 date: 2026-10-02
-github:
+github: https://github.com/logos-messaging/pm/issues/492
 ---
 
 **Targets**: Testnet v0.4
@@ -37,11 +37,11 @@ This starts with diagrams. This milestone is reached when the team agrees on whe
 
 ## Deliverables
 
-### Draw the current architecture
+### [Draw the current architecture](https://github.com/logos-messaging/pm/issues/506)
 
 **Owner**: Delivery Team
 
-### Draw the target architecture
+### [Draw the target architecture](https://github.com/logos-messaging/pm/issues/507)
 
 **Owner**: Delivery Team
 
