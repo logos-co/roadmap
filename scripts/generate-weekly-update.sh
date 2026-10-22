@@ -118,6 +118,20 @@ logos-blockchain/logos-blockchain-module
 logos-blockchain/logos-blockchain-ui
 logos-blockchain/logos-execution-zone-module
 logos-blockchain/logos-execution-zone-wallet-ui
+logos-blockchain/lez-indexer-module
+logos-account-kit
+logos-bitcoin-node-module
+logos-bitcoin-wallet-backend
+logos-bitcoin-wallet-core-module
+logos-bitcoin-wallet-ui
+logos-eth-wallet-ui
+logos-modules-dev
+logos-qr-scanner-module
+logos-qr-signer-module
+logos-qr-signer-ui
+logos-uniswap-backend
+logos-uniswap-ui
+logos-verified-proxy-module
 "
 
 MONDAY="${1:-$(date -u +%Y-%m-%d)}"
