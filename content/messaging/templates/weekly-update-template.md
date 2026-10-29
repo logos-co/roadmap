@@ -42,11 +42,6 @@ title: 2026-MM-DD Messaging Weekly
   - next:
   - blockers:
 
-- [[Deliverable] Add message priorities](https://github.com/logos-messaging/pm/issues/500)
-  - achieved:
-  - next:
-  - blockers:
-
 ## [Delivery — Released Monthly](2026-delivery-released-monthly.md)
 
 - [[Deliverable] Release `logos-delivery` v0.40](https://github.com/logos-messaging/pm/issues/501)
@@ -136,9 +131,7 @@ title: 2026-MM-DD Messaging Weekly
   - next:
   - blockers:
 
-## [Chat — de-MLS v5 Integrated](2026-chat-de-mls-v5.md)
-
-- [[Deliverable] Integrate de-MLS v5](https://github.com/logos-messaging/pm/issues/514)
+- [[Deliverable] Integrate the Ordering Policy component from AnonComms](https://github.com/logos-messaging/pm/issues/514)
   - achieved:
   - next:
   - blockers:
