@@ -22,17 +22,7 @@ title: 2026-MM-DD Messaging Weekly
   - next:
   - blockers:
 
-- [[Deliverable] Validate RLN on Logos Blockchain at scale](https://github.com/logos-messaging/pm/issues/497)
-  - achieved:
-  - next:
-  - blockers:
-
 - [[Deliverable] Address Messaging API issues found by DST](https://github.com/logos-messaging/pm/issues/498)
-  - achieved:
-  - next:
-  - blockers:
-
-- [[Deliverable] Address RLN issues found by DST](https://github.com/logos-messaging/pm/issues/499)
   - achieved:
   - next:
   - blockers:

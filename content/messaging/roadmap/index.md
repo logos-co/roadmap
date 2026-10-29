@@ -80,6 +80,7 @@ Reliable group chats are the main goal of Logos Chat at the moment. This is rese
 ### Testnet v0.5
 
 - [ ] [Messaging API — Ready for Status and Chat](2026-messaging-api-ready-for-status-and-chat.md)
+- [ ] [RLN on Logos Blockchain — DST Signed Off](2026-rln-on-logos-blockchain-dst-signed-off.md)
 
 ### Required for Mainnet
 
