@@ -66,11 +66,3 @@ RLN issues found by DST are triaged and fixed.
 **Owner**: Delivery Team
 
 **Done when**: Subscribing to a new content topic does not trigger a Store backfill; backfill only applies to topics the node was subscribed to before going offline.
-
-### [Add message priorities](https://github.com/logos-messaging/pm/issues/500)
-
-**Owner**: Delivery Team
-
-Applications set a priority on each message they send, and the send queue is ordered by it. Needed for the [Status integration](2026-status-logos-delivery-integration) ([#488](https://github.com/logos-messaging/pm/issues/488)) and later for Logos Chat. `logos-delivery-go` implementation MAY be used for reference.
-
-**Done when**: `send` accepts a priority, and under rate limiting higher-priority messages leave the queue first.
