@@ -60,11 +60,6 @@ Work that is still in research stage does not use these stages. Research milesto
 
 ### Testnet v0.4
 
-| Phase   | Date       |
-| ------- | ---------- |
-| RC      | 2026-11-16 |
-| Release | 2026-11-30 |
-
 - [ ] [Status: Logos Delivery Integration](2026-status-logos-delivery-integration)
 - [ ] [Messaging API — General Availability](2026-messaging-api-ga.md)
 - [ ] [Delivery — Released Monthly](2026-delivery-released-monthly.md)
