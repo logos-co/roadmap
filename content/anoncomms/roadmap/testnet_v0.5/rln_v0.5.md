@@ -11,6 +11,20 @@
 
 ## Deliverables
 
+### Implement RLN on-chain memberships and accounting compatible with Logos zones and LEZ (TBD: anoncomms-pm issue)
+
+**Owner**: AnonComms Zerokit-RLN
+
+**FURPS**:
+
+- F11. RLN memberships are registered and accounted for on Logos Blockchain in a way that is compatible with Logos zones and LEZ
+- P1. The cost of registering and maintaining an RLN membership is low enough for routine use by Logos modules and their users
+
+**Checklist**:
+- [ ] Code: link to GitHub issues/PRs/Epic
+- [ ] Dogfood: link to dogfooding session/artefact
+- [ ] Docs: links to README.md or other docs
+
 ### Specify and implement slashing of RLN rate violators in the RLN contract and module (TBD: anoncomms-pm issue)
 
 **Owner**: AnonComms Zerokit-RLN

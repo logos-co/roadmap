@@ -22,8 +22,9 @@
 18. Nodes select mix paths according to the anonymity and communication requirements of each message or session
 19. Nodes monitor the health of their mix node pool using loop cover traffic and exclude nodes that appear not to forward traffic from path selection
 20. Mix nodes rotate their keys so that compromise of a current key does not reveal previously routed traffic
-21. A single Logos Mix module can operate as an intermediate mix node, an entry node, or an exit node
-22. Logos Delivery routes Lightpush over Mix through the Logos Mix module acting as entry and exit node
+21. A single module packaging Mix together with Logos Delivery can operate as an intermediate mix node, an entry node, or an exit node
+22. Logos Delivery routes Lightpush over Mix within the combined Mix and Delivery module acting as entry and exit node
+23. The combined Mix and Delivery module manages its libp2p connections according to a published connection management strategy
 
 ## Usability
 
@@ -51,6 +52,8 @@
 22. The local reputation mechanism for mix nodes is published in a specification
 23. Path selection with pool health monitoring is published in a specification
 24. Basic mix key rotation for forward secrecy is published in a specification
+25. A connection management strategy for libp2p-based Logos modules, covering Mix and Logos Delivery, is published
+26. The feasibility of a separate mix network with message-size differentiation for storage-like use cases is researched and published
 
 ## Reliability
 
@@ -62,4 +65,4 @@
 
 ## Supportability
 
-1. Mix, mix RLN DoS protection and mix node discovery are provided to Logos Delivery by the Logos Mix module rather than by implementations integrated into Logos Delivery
+1. 

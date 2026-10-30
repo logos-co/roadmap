@@ -46,6 +46,7 @@
 2. The service discovery module performs better than discv5 to find a sparse service
 3. Service discovery integrated in Logos Delivery provides comparable performance to discv5 when all nodes support the same service
 4. Service discovery integrated in Logos Delivery performs better than discv5 to find a sparse service
+5. The limits of the service discovery module in number of advertised services and number of advertisements are measured and documented
 
 ## Supportability
 

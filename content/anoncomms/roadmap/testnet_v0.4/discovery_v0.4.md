@@ -55,3 +55,15 @@
 **Checklist**:
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Docs: links to README.md or other docs
+
+### Benchmark the limits of the service discovery module (TBD: anoncomms-pm issue)
+
+**Owner**: AnonComms Discovery (primary), DST Team (support)
+
+**FURPS**:
+
+- P5. The limits of the service discovery module in number of advertised services and number of advertisements are measured and documented
+
+**Checklist**:
+- [ ] Code: link to GitHub issues/PRs/Epic
+- [ ] Docs: links to README.md or other docs
