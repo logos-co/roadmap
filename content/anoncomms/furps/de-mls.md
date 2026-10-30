@@ -11,6 +11,7 @@
 7. Commits can be validated and violations appropriately handled
 8. De-MLS obtains the current time through a caller-provided WallClock service instead of hardcoded debug timer values
 9. A messaging group can recover from steward liveness failures by triggering a new steward list election
+10. De-MLS orders MLS commits over SDS, assuming group members are honest but possibly faulty
 
 ## Usability
 
@@ -24,12 +25,14 @@
 8. De-MLS is included in the Logos Chat protocol stack specification
 9. De-MLS is integrated into a working Logos Chat module deployed to Logos Core
 10. De-MLS is integrated into libchat using caller-provided services
+11. The SDS configuration required for de-MLS commit ordering, and any gaps in SDS for this use, are investigated and published
 
 ## Reliability
 
 1. De-MLS operates correctly within libchat
 2. De-MLS handles malformed or unexpected protocol messages without aborting the host application
 3. De-MLS groups remain consistent across repeated join, invite and leave operations
+4. A de-MLS group of 50 members remains consistent and operational over one week of continuous use
 
 ## Performance
 
@@ -41,7 +44,6 @@
 
 1. Hashgraph-like consensus is separated out into its own library for modularity
 2. The WallClock service provides test implementations that simulate time progression without real-time waits
-3. The consensus mechanism can be benchmarked in large-scale DST simulations
 
 ## Miscellaneous dependencies:
 
