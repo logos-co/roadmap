@@ -35,16 +35,6 @@ DST validates the Messaging API reliability and performance at scale against the
 
 **Done when**: A DST test report covering the agreed expectations is available and signed off.
 
-### [Validate RLN on Logos Blockchain at scale](https://github.com/logos-messaging/pm/issues/497)
-
-**Owner**: Delivery Team, AnonComms Team + DST
-
-DST validates RLN on LEZ with X members at Y messages per epoch.
-
-**Dependency**: AnonComms, for the RLN membership program on LEZ.
-
-**Done when**: A DST test report covering the agreed membership size and message rate is available and signed off.
-
 ### [Address Messaging API issues found by DST](https://github.com/logos-messaging/pm/issues/498)
 
 **Owner**: Delivery Team
@@ -53,24 +43,8 @@ Messaging API issues found by DST are triaged and fixed.
 
 **Done when**: No P0 or P1 issues found by DST remain open.
 
-### [Address RLN issues found by DST](https://github.com/logos-messaging/pm/issues/499)
-
-**Owner**: Delivery Team, AnonComms Team + DST
-
-RLN issues found by DST are triaged and fixed.
-
-**Done when**: No P0 or P1 issues found by DST remain open.
-
 ### [Do not backfill history for newly subscribed content topics](https://github.com/logos-messaging/logos-delivery/issues/4278)
 
 **Owner**: Delivery Team
 
 **Done when**: Subscribing to a new content topic does not trigger a Store backfill; backfill only applies to topics the node was subscribed to before going offline.
-
-### [Add message priorities](https://github.com/logos-messaging/pm/issues/500)
-
-**Owner**: Delivery Team
-
-Applications set a priority on each message they send, and the send queue is ordered by it. Needed for the [Status integration](2026-status-logos-delivery-integration) ([#488](https://github.com/logos-messaging/pm/issues/488)) and later for Logos Chat. `logos-delivery-go` implementation MAY be used for reference.
-
-**Done when**: `send` accepts a priority, and under rate limiting higher-priority messages leave the queue first.

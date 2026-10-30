@@ -60,11 +60,6 @@ Work that is still in research stage does not use these stages. Research milesto
 
 ### Testnet v0.4
 
-| Phase   | Date       |
-| ------- | ---------- |
-| RC      | 2026-11-16 |
-| Release | 2026-11-30 |
-
 - [ ] [Status: Logos Delivery Integration](2026-status-logos-delivery-integration)
 - [ ] [Messaging API — General Availability](2026-messaging-api-ga.md)
 - [ ] [Delivery — Released Monthly](2026-delivery-released-monthly.md)
@@ -73,7 +68,6 @@ Work that is still in research stage does not use these stages. Research milesto
 - [ ] [Delivery Sync protocol — DST Signed Off](2026-store-sync-reliability.md)
 - [ ] [Reliable Channel API — Future Decided](2026-reliable-channel-api-future-decided.md)
 - [ ] [Chat — Self-Healing Groups](2026-chat-self-healing-groups.md)
-- [ ] [Chat — de-MLS v5 Integrated](2026-chat-de-mls-v5.md)
 - [ ] [Chat — Accounts Persisted](2026-chat-accounts-persisted.md)
 - [ ] [Chat — Internal Security Review Done](2026-chat-security-review.md)
 
@@ -82,6 +76,11 @@ Work that is still in research stage does not use these stages. Research milesto
 Reliable group chats are the main goal of Logos Chat at the moment. This is research work, so we don't promise a group size by a given release. Instead, every release we:
 - ship milestones that address the known causes of unreliable groups,
 - measure group reliability and publish the result.
+
+### Testnet v0.5
+
+- [ ] [Messaging API — Ready for Status and Chat](2026-messaging-api-ready-for-status-and-chat.md)
+- [ ] [RLN on Logos Blockchain — DST Signed Off](2026-rln-on-logos-blockchain-dst-signed-off.md)
 
 ### Required for Mainnet
 

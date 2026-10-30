@@ -9,7 +9,7 @@ github: https://github.com/logos-messaging/pm/issues/491
 **Targets**: Testnet v0.4
 
 **Resources Required**:
-- Delivery Team, rotating release owner
+- Delivery Team
 - DST, for release sign-off
 
 Minor releases of `logos-delivery` have been months apart (v0.38 in May, v0.39 in September). Consumers wait too long for fixes, and every release becomes a large one. From now on, `logos-delivery` ships a minor release every month, and `logos-delivery-module` follows it.
