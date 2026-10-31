@@ -28,6 +28,7 @@ The team is currently working on the following tracks:
 6. [LEZ App](/logoscore/roadmap/lez.md): one LEZ app, wallet and Explorer merged, running on LEZ core.
 7. [Basecamp Enhancements and Maintenance](/logoscore/roadmap/basecamp.md): new Basecamp features, the move to a single UI app type, and bug fixes.
 8. [Design System](/logoscore/roadmap/design-system.md): theming and mobile readiness.
+9. [Mobile Support](/logoscore/roadmap/mobile-support.md): Logos apps on mobile devices (Android and iOS).
 
 ## Testnet Milestones
 
@@ -93,3 +94,4 @@ Basecamp & Apps:
 - [ ] [LEZ App Go-Live v0.5 Deliverables](/logoscore/roadmap/testnet_v0.5/lez_v0.5.md)
 - [ ] [Basecamp Enhancements and Maintenance v0.5 Deliverables](/logoscore/roadmap/testnet_v0.5/basecamp_v0.5.md)
 - [ ] [Design System v0.5 Deliverables](/logoscore/roadmap/testnet_v0.5/design-system_v0.5.md)
+- [ ] [Mobile Support v0.5 Deliverables](/logoscore/roadmap/testnet_v0.5/mobile-support_v0.5.md)
