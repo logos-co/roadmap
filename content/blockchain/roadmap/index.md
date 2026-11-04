@@ -76,10 +76,22 @@ Logos Blockchain is working towards the following capabilities, required for Mai
 
 ### Testnet v0.4 Milestones
 
-- [ ] [LEZ Sequencer in Logos Core](./lez_decentralized_sequencing.md#lez-sequencer-in-logos-core) (carried over from v0.3)
-- [ ] [LEZ Private Transaction Fees](./lez_tke_implementation.md#transaction-fees) (carried over from v0.3)
-- [ ] [EmPoWering Economic Analysis](./blockchain_empowering.md#economic-analysis) (carried over from v0.3)
-- [ ] [EmPoWering ASIC-Resistant Puzzle](./blockchain_empowering.md#asic-resistant-puzzle) (carried over from v0.3)
+- [ ] [LEZ Sequencer in Logos Core](./lez_decentralized_sequencing.md#lez-sequencer-in-logos-core)
+- [ ] [LEZ Private Transaction Fees](./lez_tke_implementation.md#transaction-fees)
+- [ ] [EmPoWering Economic Analysis](./blockchain_empowering.md#economic-analysis)
+- [ ] [EmPoWering ASIC-Resistant Puzzle](./blockchain_empowering.md#asic-resistant-puzzle)
+- [ ] [LEZ Transactional Actor Model](./lez_transactional_actors.md)
+- [ ] [LEZ Atomic Deposits](./lez_atomic_deposits.md)
+
+### Testnet v0.5 Milestones
+
+- [ ] [Blockchain Private UTXO](./blockchain_private_utxo.md)
+- [ ] [Blockchain Faster Finality](./blockchain_faster_finality.md)
+- [ ] [Sequencer Collusion Resistance](./sequencer_collusion_resistance.md)
+
+### Testnet v0.6 Milestones
+
+- [ ] [Blockchain Resilient Blend](./blockchain_resilient_blend.md)
 
 ### Parallel Milestones
 - [ ] [LEZ Stress Testing](./lez_stress_testing.md)

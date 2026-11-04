@@ -33,7 +33,7 @@ LEZ will be the first user of decentralized sequencing, it will need to understa
 
 **Feature**: [FURPS](/blockchain/furps/index.md)
 
-**Target**: Testnet v0.4 (carried over from Testnet v0.3)
+**Target**: Testnet v0.4
 
 Run the LEZ sequencer, with decentralized sequencing, as a Logos Core module.
 

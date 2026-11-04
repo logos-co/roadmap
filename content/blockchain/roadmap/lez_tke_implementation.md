@@ -33,4 +33,4 @@ Implement transaction fee collection and distribution for LEZ program execution,
 
 **Checklist**:
 - [x] Public transaction fee implementation
-- [ ] Private transaction fee implementation (Testnet v0.4, carried over from Testnet v0.3)
+- [ ] Private transaction fee implementation (Testnet v0.4)

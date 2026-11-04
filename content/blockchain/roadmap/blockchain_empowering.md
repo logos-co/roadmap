@@ -81,7 +81,7 @@ The client-side mining flow: construct the mining credential, search for puzzle 
 
 **Feature**: [FURPS](/blockchain/furps/index.md)
 
-**Target**: Testnet v0.4 (carried over from Testnet v0.3)
+**Target**: Testnet v0.4
 
 The bootstrap and on-ramp behaviours must be shown to emerge from a single parameterization of the genesis endowment, distribution rate, reward share, claim target, and difficulty retarget.
 
@@ -101,7 +101,7 @@ The bootstrap and on-ramp behaviours must be shown to emerge from a single param
 
 **Feature**: [FURPS](/blockchain/furps/index.md)
 
-**Target**: Testnet v0.4 (carried over from Testnet v0.3)
+**Target**: Testnet v0.4
 
 The Blend path requires a SNARK-friendly puzzle, which is easy to accelerate in hardware. This is acceptable for Blend admission (no economic incentive) but would defeat fair stake bootstrapping on the reward path. Investigate puzzle constructions and reward parameterizations that make hardware acceleration economically unjustified, likely decoupling the two puzzles.
 
