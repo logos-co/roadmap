@@ -31,10 +31,10 @@ Amend the Blend Protocol so any participant can earn private-messaging access th
 - F38. Permissionless transaction privacy: Blend Network carries transactions in addition to block proposals
 
 **Checklist**:
-- [ ] Three-branch Proof of Quota circuit extension
-- [ ] Edge-to-core boundary spam protection
-- [ ] Payload header routing transactions to the mempool and block proposals to broadcast
-- [ ] Per-epoch Blend difficulty controller tracking transaction load
+- [x] Three-branch Proof of Quota circuit extension
+- [x] Edge-to-core boundary spam protection
+- [x] Payload header routing transactions to the mempool and block proposals to broadcast
+- [x] Per-epoch Blend difficulty controller tracking transaction load
 
 ### Proof-of-Work Token Rewards
 
@@ -50,12 +50,12 @@ Amend Mantle with a reward claim Operation that issues a fixed per-epoch reward 
 - F39. Permissionless bootstrapping of Proof of Stake: fair and private initial stake distribution through proof of work while token markets are thin
 
 **Checklist**:
-- [ ] Reward claim Operation specified and implemented
-- [ ] Per-operation validate-then-execute transaction processing
-- [ ] Reward pool, per-epoch reward, and epoch-boundary refill
-- [ ] Per-block reward-difficulty retargeting
-- [ ] Three-way block-reward split (Blend / leader / proof-of-work pool)
-- [ ] Genesis pool allocation
+- [x] Reward claim Operation specified and implemented
+- [x] Per-operation validate-then-execute transaction processing
+- [x] Reward pool, per-epoch reward, and epoch-boundary refill
+- [x] Per-block reward-difficulty retargeting
+- [x] Three-way block-reward split (Blend / leader / proof-of-work pool)
+- [x] Genesis pool allocation
 
 ### Miner Implementation
 
@@ -71,15 +71,17 @@ The client-side mining flow: construct the mining credential, search for puzzle 
 - F37. Permissionless network privacy: any participant can earn Blend Network access through proof of work
 
 **Checklist**:
-- [ ] Mining loop searching puzzle tickets against the Blend and reward thresholds
-- [ ] Extended Proof of Quota proof generation for proof-of-work-backed Blend messages
-- [ ] Self-funding claim transaction construction (claim plus transfer paying the fee)
+- [x] Mining loop searching puzzle tickets against the Blend and reward thresholds
+- [x] Extended Proof of Quota proof generation for proof-of-work-backed Blend messages
+- [x] Self-funding claim transaction construction (claim plus transfer paying the fee)
 
 ### Economic Analysis
 
 **Owner**: David Rusu
 
 **Feature**: [FURPS](/blockchain/furps/index.md)
+
+**Target**: Testnet v0.4 (carried over from Testnet v0.3)
 
 The bootstrap and on-ramp behaviours must be shown to emerge from a single parameterization of the genesis endowment, distribution rate, reward share, claim target, and difficulty retarget.
 
@@ -98,6 +100,8 @@ The bootstrap and on-ramp behaviours must be shown to emerge from a single param
 **Owner**: David Rusu
 
 **Feature**: [FURPS](/blockchain/furps/index.md)
+
+**Target**: Testnet v0.4 (carried over from Testnet v0.3)
 
 The Blend path requires a SNARK-friendly puzzle, which is easy to accelerate in hardware. This is acceptable for Blend admission (no economic incentive) but would defeat fair stake bootstrapping on the reward path. Investigate puzzle constructions and reward parameterizations that make hardware acceleration economically unjustified, likely decoupling the two puzzles.
 

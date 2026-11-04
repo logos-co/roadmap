@@ -26,5 +26,5 @@ The architecture is layered:
 - **ORM integration** (possible): sqlx or diesel on top of λSQL-rs
 
 **Checklist**:
-- [ ] Architecture proposal
-- [ ] MVP implementation
+- [x] Architecture proposal
+- [x] MVP implementation

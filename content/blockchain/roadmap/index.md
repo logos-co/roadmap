@@ -61,18 +61,25 @@ Logos Blockchain is working towards the following capabilities, required for Mai
 
 ### Testnet v0.3 Milestones
 
-- [ ] [LEZ Decentralized Sequencing](./lez_decentralized_sequencing.md)
-- [ ] [LEZ TKE Implementation](./lez_tke_implementation.md)
-- [ ] [Cross-LEZ Messaging](./cross_lez_messaging.md)
-- [ ] [LEZ publishes events](./lez_events.md)
-- [ ] [Blockchain Explorer App](./blockchain_explorer.md)
-- [ ] [Blockchain Blend Message Compression](./blend_message_compression.md)
-- [ ] [Blockchain EmPoWering](./blockchain_empowering.md)
-- [ ] [Blockchain TKE Implementation](./blockchain_tke_implementation.md)
-- [ ] [Blockchain PoS Participation for Bridged Funds](./blockchain_pos_bridged_funds.md)
-- [ ] [Blockchain Cryptarchia Accurate Total Stake Inference](./cryptarchia_stake_inference.md)
-- [ ] [λSQL](./logos_sql.md)
-- [ ] [ZoneSDK Logos Protocol Backend](./zone_sdk_logoscore.md)
+- [x] [LEZ Decentralized Sequencing](./lez_decentralized_sequencing.md)
+- [x] [LEZ TKE Implementation](./lez_tke_implementation.md)
+- [x] [Cross-LEZ Messaging](./cross_lez_messaging.md)
+- [x] [LEZ publishes events](./lez_events.md)
+- [x] [Blockchain Explorer App](./blockchain_explorer.md)
+- [x] [Blockchain Blend Message Compression](./blend_message_compression.md)
+- [x] [Blockchain EmPoWering](./blockchain_empowering.md)
+- [x] [Blockchain TKE Implementation](./blockchain_tke_implementation.md)
+- [x] [Blockchain PoS Participation for Bridged Funds](./blockchain_pos_bridged_funds.md)
+- [x] [Blockchain Cryptarchia Accurate Total Stake Inference](./cryptarchia_stake_inference.md)
+- [x] [λSQL](./logos_sql.md)
+- [x] [ZoneSDK Logos Protocol Backend](./zone_sdk_logoscore.md)
+
+### Testnet v0.4 Milestones
+
+- [ ] [LEZ Sequencer in Logos Core](./lez_decentralized_sequencing.md#lez-sequencer-in-logos-core) (carried over from v0.3)
+- [ ] [LEZ Private Transaction Fees](./lez_tke_implementation.md#transaction-fees) (carried over from v0.3)
+- [ ] [EmPoWering Economic Analysis](./blockchain_empowering.md#economic-analysis) (carried over from v0.3)
+- [ ] [EmPoWering ASIC-Resistant Puzzle](./blockchain_empowering.md#asic-resistant-puzzle) (carried over from v0.3)
 
 ### Parallel Milestones
 - [ ] [LEZ Stress Testing](./lez_stress_testing.md)
