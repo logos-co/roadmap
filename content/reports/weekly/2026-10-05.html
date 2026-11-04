@@ -1,0 +1,1648 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Logos Collective Weekly Summary - Week 40, 2026</title>
+    <style>
+      :root {
+        --bg-primary: #0d1117;
+        --bg-secondary: #161b22;
+        --bg-tertiary: #21262d;
+        --text-primary: #f0f6fc;
+        --text-secondary: #8b949e;
+        --border-color: #30363d;
+        --accent-storage: #3fb950;
+        --accent-messaging: #58a6ff;
+        --accent-logoscore: #a371f7;
+        --accent-blockchain: #f78166;
+        --accent-anoncomms: #d2a8ff;
+        --highlight-bg: rgba(56, 139, 253, 0.15);
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial,
+          sans-serif;
+        background: var(--bg-primary);
+        color: var(--text-primary);
+        line-height: 1.6;
+        min-height: 100vh;
+      }
+
+      .container {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 2rem;
+      }
+
+      header {
+        text-align: center;
+        margin-bottom: 3rem;
+        padding-bottom: 2rem;
+        border-bottom: 1px solid var(--border-color);
+      }
+
+      header h1 {
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
+        background: linear-gradient(135deg, #58a6ff, #a371f7);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+
+      header .date {
+        color: var(--text-secondary);
+        font-size: 1.1rem;
+      }
+
+      .highlights-section {
+        background: var(--bg-secondary);
+        border-radius: 12px;
+        padding: 2rem;
+        margin-bottom: 2rem;
+        border: 1px solid var(--border-color);
+      }
+
+      .highlights-section h2 {
+        margin-bottom: 1.5rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      .highlights-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 1rem;
+      }
+
+      .highlight-card {
+        background: var(--bg-tertiary);
+        border-radius: 8px;
+        padding: 1rem 1.25rem;
+        border-left: 4px solid;
+        transition:
+          transform 0.2s,
+          box-shadow 0.2s;
+      }
+
+      .highlight-card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      }
+
+      .highlight-card.storage {
+        border-left-color: var(--accent-storage);
+      }
+      .highlight-card.messaging {
+        border-left-color: var(--accent-messaging);
+      }
+      .highlight-card.logoscore {
+        border-left-color: var(--accent-logoscore);
+      }
+      .highlight-card.blockchain {
+        border-left-color: var(--accent-blockchain);
+      }
+      .highlight-card.anoncomms {
+        border-left-color: var(--accent-anoncomms);
+      }
+
+      .highlight-card .team {
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        margin-bottom: 0.5rem;
+        opacity: 0.8;
+      }
+
+      .highlight-card.storage .team {
+        color: var(--accent-storage);
+      }
+      .highlight-card.messaging .team {
+        color: var(--accent-messaging);
+      }
+      .highlight-card.logoscore .team {
+        color: var(--accent-logoscore);
+      }
+      .highlight-card.blockchain .team {
+        color: var(--accent-blockchain);
+      }
+      .highlight-card.anoncomms .team {
+        color: var(--accent-anoncomms);
+      }
+
+      .tabs {
+        display: flex;
+        gap: 0.5rem;
+        margin-bottom: 1.5rem;
+        flex-wrap: wrap;
+      }
+
+      .tab {
+        padding: 0.75rem 1.5rem;
+        border: none;
+        background: var(--bg-secondary);
+        color: var(--text-secondary);
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 0.95rem;
+        font-weight: 500;
+        transition: all 0.2s;
+        border: 1px solid var(--border-color);
+      }
+
+      .tab:hover {
+        background: var(--bg-tertiary);
+        color: var(--text-primary);
+      }
+
+      .tab.active {
+        color: var(--text-primary);
+      }
+
+      .tab.active.storage {
+        background: var(--accent-storage);
+        color: #000;
+      }
+      .tab.active.messaging {
+        background: var(--accent-messaging);
+        color: #000;
+      }
+      .tab.active.logoscore {
+        background: var(--accent-logoscore);
+        color: #000;
+      }
+      .tab.active.blockchain {
+        background: var(--accent-blockchain);
+        color: #000;
+      }
+      .tab.active.anoncomms {
+        background: var(--accent-anoncomms);
+        color: #000;
+      }
+
+      .team-content {
+        display: none;
+        animation: fadeIn 0.3s ease;
+      }
+
+      .team-content.active {
+        display: block;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .milestone {
+        background: var(--bg-secondary);
+        border-radius: 12px;
+        margin-bottom: 1.5rem;
+        border: 1px solid var(--border-color);
+        overflow: hidden;
+      }
+
+      .milestone-header {
+        padding: 1rem 1.5rem;
+        background: var(--bg-tertiary);
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        user-select: none;
+      }
+
+      .milestone-header:hover {
+        background: rgba(48, 54, 61, 0.8);
+      }
+
+      .milestone-header h3 {
+        font-size: 1.1rem;
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+      }
+
+      .milestone-header h3 a {
+        color: var(--text-primary);
+        text-decoration: none;
+      }
+
+      .milestone-header h3 a:hover {
+        text-decoration: underline;
+      }
+
+      .milestone-toggle {
+        font-size: 1.5rem;
+        color: var(--text-secondary);
+        transition: transform 0.3s;
+      }
+
+      .milestone.expanded .milestone-toggle {
+        transform: rotate(180deg);
+      }
+
+      .milestone-body {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+      }
+
+      .milestone.expanded .milestone-body {
+        max-height: 5000px;
+      }
+
+      .milestone-content {
+        padding: 1.5rem;
+      }
+
+      .deliverable {
+        margin-bottom: 1.5rem;
+        padding-bottom: 1.5rem;
+        border-bottom: 1px solid var(--border-color);
+      }
+
+      .deliverable:last-child {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        border-bottom: none;
+      }
+
+      .deliverable h4 {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        color: var(--text-primary);
+      }
+
+      .deliverable h4 a {
+        color: #58a6ff;
+        text-decoration: none;
+      }
+
+      .deliverable h4 a:hover {
+        text-decoration: underline;
+      }
+
+      .section-label {
+        display: inline-block;
+        padding: 0.25rem 0.5rem;
+        border-radius: 4px;
+        font-size: 0.75rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 0.5rem;
+      }
+
+      .section-label.achieved {
+        background: rgba(63, 185, 80, 0.2);
+        color: var(--accent-storage);
+      }
+
+      .section-label.next {
+        background: rgba(88, 166, 255, 0.2);
+        color: var(--accent-messaging);
+      }
+
+      .section-label.blockers {
+        background: rgba(247, 129, 102, 0.2);
+        color: var(--accent-blockchain);
+      }
+
+      .item-list {
+        list-style: none;
+        margin-left: 0;
+      }
+
+      .item-list li {
+        padding: 0.5rem 0;
+        padding-left: 1.5rem;
+        position: relative;
+        color: var(--text-secondary);
+        font-size: 0.95rem;
+      }
+
+      .item-list li::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0.85rem;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: var(--text-secondary);
+      }
+
+      .item-list li a {
+        color: #58a6ff;
+        text-decoration: none;
+      }
+
+      .item-list li a:hover {
+        text-decoration: underline;
+      }
+
+      .stats-bar {
+        display: flex;
+        gap: 2rem;
+        padding: 1rem 1.5rem;
+        background: var(--bg-secondary);
+        border-radius: 12px;
+        margin-bottom: 2rem;
+        border: 1px solid var(--border-color);
+        flex-wrap: wrap;
+      }
+
+      .stat {
+        text-align: center;
+      }
+
+      .stat-value {
+        font-size: 2rem;
+        font-weight: 700;
+      }
+
+      .stat-label {
+        font-size: 0.85rem;
+        color: var(--text-secondary);
+      }
+
+      .repo-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 1rem;
+      }
+
+      .repo-card {
+        background: var(--bg-tertiary);
+        border-radius: 8px;
+        padding: 1rem;
+        border: 1px solid var(--border-color);
+      }
+
+      .repo-card h4 {
+        font-size: 0.95rem;
+        margin-bottom: 0.75rem;
+      }
+
+      .repo-card h4 a {
+        color: #58a6ff;
+        text-decoration: none;
+      }
+
+      .repo-card h4 a:hover {
+        text-decoration: underline;
+      }
+
+      .repo-card p {
+        font-size: 0.85rem;
+        color: var(--text-secondary);
+      }
+
+      .pr-list {
+        margin-top: 0.5rem;
+      }
+
+      .pr-list a {
+        display: inline-block;
+        font-size: 0.8rem;
+        color: #58a6ff;
+        margin-right: 0.5rem;
+        text-decoration: none;
+      }
+
+      .pr-list a:hover {
+        text-decoration: underline;
+      }
+
+      .search-box {
+        margin-bottom: 1.5rem;
+      }
+
+      .search-box input {
+        width: 100%;
+        padding: 0.75rem 1rem;
+        border: 1px solid var(--border-color);
+        border-radius: 8px;
+        background: var(--bg-secondary);
+        color: var(--text-primary);
+        font-size: 1rem;
+      }
+
+      .search-box input::placeholder {
+        color: var(--text-secondary);
+      }
+
+      .search-box input:focus {
+        outline: none;
+        border-color: #58a6ff;
+        box-shadow: 0 0 0 3px rgba(88, 166, 255, 0.2);
+      }
+
+      .hidden {
+        display: none !important;
+      }
+
+      footer {
+        text-align: center;
+        padding: 2rem;
+        color: var(--text-secondary);
+        border-top: 1px solid var(--border-color);
+        margin-top: 3rem;
+      }
+
+      @media (max-width: 768px) {
+        .container {
+          padding: 1rem;
+        }
+
+        header h1 {
+          font-size: 1.75rem;
+        }
+
+        .stats-bar {
+          justify-content: space-around;
+        }
+
+        .stat-value {
+          font-size: 1.5rem;
+        }
+      }
+      /* week-nav-css */
+      .week-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1.5rem;
+        padding: 0.75rem 1.5rem;
+        background: var(--bg-secondary);
+        border-radius: 12px;
+        border: 1px solid var(--border-color);
+        flex-wrap: wrap;
+        gap: 0.5rem;
+      }
+      .week-nav a {
+        color: var(--text-primary);
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        border-radius: 8px;
+        font-size: 0.95rem;
+        font-weight: 500;
+        transition: background 0.2s;
+      }
+      .week-nav a:hover {
+        background: var(--bg-tertiary);
+      }
+      .week-nav .prev { margin-right: auto; }
+      .week-nav .next { margin-left: auto; }
+      .week-nav .spacer { flex: 1; }
+      /* /week-nav-css */
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Logos Collective Weekly Summary</h1>
+        <p class="date">Week 40, 2026 (October 5, 2026)</p>
+      </header>
+
+      <nav class="week-nav">
+        <a class="prev" data-router-ignore href="/reports/weekly/2026-09-28.html">&larr; 2026-09-28</a>
+        <a class="next" data-router-ignore href="/reports/weekly/2026-10-12.html">2026-10-12 &rarr;</a>
+      </nav>
+
+      <div class="stats-bar">
+        <div class="stat">
+          <div class="stat-value">5</div>
+          <div class="stat-label">Teams Reporting</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value">340+</div>
+          <div class="stat-label">PRs &amp; Updates</div>
+        </div>
+      </div>
+
+
+      <section class="highlights-section">
+        <h2>Key Highlights</h2>
+        <div class="highlights-grid">
+          <div class="highlight-card blockchain">
+            <div class="team">Blockchain</div>
+            <p><strong>Testnet 0.3.0 released</strong> &mdash; <a href="https://github.com/logos-blockchain/logos-blockchain/releases/tag/0.3.0">node 0.3.0</a> and <a href="https://github.com/logos-blockchain/logos-execution-zone/releases/tag/v0.3.0">Logos Execution Zone v0.3.0</a>, while hard fork support (fork digest, era deployment settings, protocol names derived from the fork digest) landed in the node (<a href="https://github.com/logos-blockchain/logos-blockchain/pull/3679">#3679</a>, <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3683">#3683</a>, <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3687">#3687</a>, <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3689">#3689</a>).</p>
+          </div>
+          <div class="highlight-card messaging">
+            <div class="team">Messaging</div>
+            <p><strong>Logos Delivery <a href="https://github.com/logos-messaging/logos-delivery/releases/tag/v0.39.0">v0.39.0</a> released and two milestones closed</strong> &mdash; <a href="https://github.com/logos-messaging/pm/issues/424">Messaging API &mdash; General Availability</a> and <a href="https://github.com/logos-messaging/pm/issues/401">RLN on Logos Blockchain</a>. status-go and Status App both run v0.39.0 (<a href="https://github.com/status-im/status-go/pull/7860">#7860</a>, <a href="https://github.com/status-im/status-app/pull/22606">#22606</a>).</p>
+          </div>
+          <div class="highlight-card logoscore">
+            <div class="team">Logos Core</div>
+            <p><strong>The 0.3.0 catalog was cut in about 48 hours</strong> &mdash; shipping the LEZ 0.3.0 stack, libp2p 1.1.0, storage 3.0.2 and blockchain-ui 0.3.1; ten pins rolled back by a stale-checkout bump were restored within six hours (<a href="https://github.com/logos-co/logos-modules-release/pull/78">#78</a>, <a href="https://github.com/logos-co/logos-modules-release/pull/85">#85</a>).</p>
+          </div>
+          <div class="highlight-card logoscore">
+            <div class="team">Logos Core</div>
+            <p><strong>Installs offer optional dependencies, and packages can come over Logos Storage</strong> &mdash; the same way in Basecamp, PMUI and logosctl, where a failed optional no longer stops the install; a new setting allows any transport, Storage only, or HTTP only (<a href="https://github.com/logos-co/logos-package-downloader/pull/44">downloader #44</a>, <a href="https://github.com/logos-co/logos-package-downloader/pull/42">#42</a>, <a href="https://github.com/logos-co/logos-basecamp/pull/416">basecamp #416</a>).</p>
+          </div>
+          <div class="highlight-card anoncomms">
+            <div class="team">AnonComms</div>
+            <p><strong>Logos Delivery runs with LEZ-based RLN on the hosted testnet</strong>, using the RLN membership management module; the Logos Oracle Network <a href="https://github.com/seugu/logos_oracle_network/blob/oracle-analysis/report.md">performance report</a> benchmarking the Oracle Zone is published.</p>
+          </div>
+          <div class="highlight-card storage">
+            <div class="team">Storage</div>
+            <p><strong>Logos testnet v0.3 launched</strong> with new <a href="https://github.com/logos-co/logos-storage-module/releases/tag/v3.0.2">storage module</a> and <a href="https://github.com/logos-co/logos-storage-ui/releases/tag/v3.0.2">storage UI</a> v3.0.2 releases; a research call on Mix path selection strategies is set for 2026-10-07 (<a href="https://docs.google.com/presentation/d/14zBiznVFGr9ebLfbIewlrJRBiPLCkYCZ_ExEBKn-CpI/edit?usp=sharing">slides</a>).</p>
+          </div>
+        </div>
+      </section>
+
+      <div class="search-box">
+        <input
+          type="text"
+          id="search"
+          placeholder="Search updates (e.g., 'v0.39.0', 'RLN', 'optional', 'hard fork', 'Oracle')..."
+        />
+      </div>
+
+      <div class="tabs">
+        <button class="tab messaging active" data-team="messaging">Messaging</button>
+        <button class="tab anoncomms" data-team="anoncomms">AnonComms</button>
+        <button class="tab logoscore" data-team="logoscore">Logos Core</button>
+        <button class="tab storage" data-team="storage">Storage</button>
+        <button class="tab blockchain" data-team="blockchain">Blockchain</button>
+      </div>
+
+      <!-- ================================================================
+             MESSAGING
+             ================================================================ -->
+      <div class="team-content active" id="messaging">
+
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3><a href="https://github.com/logos-messaging/pm/issues/424">Messaging API &mdash; General Availability (CLOSED)</a></h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4><a href="https://github.com/logos-messaging/pm/issues/429">Reliability and scale validation with DST</a></h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>A network of Messaging API nodes can now be set up and driven from the node CLI and REST: <a href="https://github.com/logos-messaging/logos-delivery/pull/4386">give logosdeliverynode a node config of its own</a>, <a href="https://github.com/logos-messaging/logos-delivery/pull/4389">configure the Messaging API from the node CLI</a> (<code>--reliability</code> and <code>--anonymity-level</code>, so a network without Store nodes can run with reliability off)</li>
+                  <li><a href="https://github.com/logos-messaging/logos-delivery/pull/4387">docs(messaging): document how to run and use Messaging API nodes</a></li>
+                  <li>REST: <a href="https://github.com/logos-messaging/logos-delivery/pull/4392">answer 429 with <code>Retry-After</code> when the send queue is full</a>, instead of 500; <a href="https://github.com/logos-messaging/logos-delivery/pull/4393">list the messaging subscriptions</a></li>
+                  <li><a href="https://github.com/logos-messaging/logos-delivery/pull/4351">fix(messaging): confirm every propagated send against Store</a></li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4><a href="https://github.com/logos-messaging/pm/issues/432">Integrate Rate Limit Manager (CLOSED)</a></h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li><strong>Closed deliverable</strong> &mdash; the last one in the Messaging API GA milestone</li>
+                  <li><a href="https://github.com/logos-messaging/logos-delivery/pull/4382">RLN id release</a> &mdash; a failed proof generation gives its message id back, so a retry reuses it instead of spending a new one the rate limit manager already charged</li>
+                  <li>Closed the remaining issue: <a href="https://github.com/logos-messaging/logos-delivery/issues/3838">Allow initialize rate limit manager</a></li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4><a href="https://github.com/logos-messaging/pm/issues/433">Integrate Mix into Messaging API</a></h4>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li><a href="https://github.com/logos-messaging/logos-delivery/issues/4357">Mix replies can fail for senders behind NAT</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3><a href="https://github.com/logos-messaging/pm/issues/401">RLN on Logos Blockchain (CLOSED)</a></h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4><a href="https://github.com/logos-messaging/pm/issues/416">Implement pluggable RLN membership interface (CLOSED)</a></h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li><a href="https://github.com/logos-messaging/logos-delivery/pull/4338">RLN interfaces</a> &mdash; one config surface for both RLN backends, so an operator needs to know nothing about which one is in use</li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4><a href="https://github.com/logos-messaging/pm/issues/451">Enable RLN in Logos Devnet (CLOSED)</a></h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li><a href="https://github.com/logos-messaging/logos-delivery/pull/4366">fix: message ids able to repeat within same epoch</a> &mdash; two proofs sharing a nullifier in one epoch are exactly what recovers a sender's identity secret</li>
+                  <li><a href="https://github.com/logos-messaging/logos-delivery/pull/4385">RLN EVM: persistent message id store</a> &mdash; a node restarted mid-epoch no longer reuses ids already carried in proofs it sent</li>
+                  <li><a href="https://github.com/logos-messaging/logos-delivery/pull/4377">fix(rln): ignore instead of reject messages with unknown root</a> &mdash; an honest peer's valid message was rejected and its forwarder penalised by gossipsub</li>
+                  <li><a href="https://github.com/logos-messaging/logos-delivery/pull/4381">fix(rln): report RLN READY only once a proof can be generated</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Logos Chat &mdash; Beta</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4><a href="https://github.com/logos-messaging/pm/issues/464">Installation management</a></h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Chat UI 0.3.0: <a href="https://github.com/logos-co/logos-chat-ui/pull/79">require chat_module and delivery_module 0.3.0 or later</a>, <a href="https://github.com/logos-co/logos-chat-ui/pull/78">prepare 0.3.0 against chat_module v0.3.0</a>, <a href="https://github.com/logos-co/logos-chat-ui/pull/77">take the chat module on delivery_module v0.3.0-rc.3</a></li>
+                  <li>View defects fixed <a href="https://github.com/logos-co/logos-chat-ui/pull/74">before the 0.3.0 release</a> and <a href="https://github.com/logos-co/logos-chat-ui/pull/75">in the second 0.3.0 QA</a></li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4><a href="https://github.com/logos-messaging/pm/issues/439">Implement full identity model</a></h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li><a href="https://github.com/logos-messaging/logos-chat/pull/294">Account: namespace implementation</a></li>
+                  <li><a href="https://github.com/logos-messaging/logos-chat/pull/291">Account::Context compile time validation</a></li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4><a href="https://github.com/logos-messaging/pm/issues/440">Stabilize and polish API</a></h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li><a href="https://github.com/logos-messaging/logos-chat/pull/274">feat(sqlite): configure the connection for durability and concurrency</a></li>
+                  <li><a href="https://github.com/logos-messaging/logos-chat/pull/282">fix: stop aborting on peer input and losing reordered messages</a>, <a href="https://github.com/logos-messaging/logos-chat/pull/287">fix(group_v2): stop printing to stderr on member removal</a></li>
+                  <li>Chat module 0.3.0: <a href="https://github.com/logos-co/logos-chat-module/pull/90">require delivery_module 0.3.0 or later</a>, <a href="https://github.com/logos-co/logos-chat-module/pull/89">prepare 0.3.0</a>, <a href="https://github.com/logos-co/logos-chat-module/pull/88">pin delivery_module to v0.3.0-rc.3</a></li>
+                  <li><a href="https://github.com/logos-co/logos-chat-module/pull/86">start delivery again on a later init, correct the contract docs</a>; <a href="https://github.com/logos-co/logos-chat-module/pull/85">take libchat's fixes, return readable errors, reopen re-invited groups</a></li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4><a href="https://github.com/logos-messaging/pm/issues/441">Deliver user-facing chat features</a></h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li><a href="https://github.com/logos-messaging/logos-chat/pull/292">fix: tell the members who stay when a commit removes someone</a></li>
+                  <li><a href="https://github.com/logos-co/logos-chat-module/pull/91">fix: report Online when delivery's node has started</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Status: Logos Delivery Integration</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4><a href="https://github.com/logos-messaging/pm/issues/380">Integrate Messaging API in status-go (CLOSED)</a></h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li><strong>Closed deliverable</strong> &mdash; status-go and Status App both run logos-delivery v0.39.0 (<a href="https://github.com/status-im/status-go/pull/7860">status-go #7860</a>, <a href="https://github.com/status-im/status-app/pull/22606">status-app #22606</a>)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Maintenance</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>Fixes &amp; Improvements</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Release: <a href="https://github.com/logos-messaging/logos-delivery/pull/4369">changelog for the final v0.39.0</a>, <a href="https://github.com/logos-messaging/logos-delivery/pull/4384">adopt nimble 0.26.0</a>, <a href="https://github.com/logos-messaging/logos-delivery/pull/4250">bump nim-libp2p to 2.4.0</a></li>
+                  <li>Store: <a href="https://github.com/logos-messaging/logos-delivery/pull/4349">reject queries with a time range over 24h</a>, <a href="https://github.com/logos-messaging/logos-delivery/pull/4355">align query handling with 13/WAKU2-STORE</a>, <a href="https://github.com/logos-messaging/logos-delivery/pull/4361">fail node setup on an unknown message DB engine</a>, <a href="https://github.com/logos-messaging/logos-delivery-rest-api/pull/22">document the REST <code>pageSize</code> default and cap</a></li>
+                  <li>Lightpush: <a href="https://github.com/logos-messaging/logos-delivery/pull/4370">push through the node's own service when it runs one</a>, <a href="https://github.com/logos-messaging/logos-delivery/pull/4378">cap the request read size</a></li>
+                  <li>Peers &amp; discovery: <a href="https://github.com/logos-messaging/logos-delivery/pull/4372">count unique peers only on first sighting</a>, <a href="https://github.com/logos-messaging/logos-delivery/pull/4391">stop serving ENRs not rediscovered within 15 min</a>, <a href="https://github.com/logos-messaging/logos-delivery/pull/4399">simplify selection and ENR iteration</a></li>
+                  <li>Config: <a href="https://github.com/logos-messaging/logos-delivery/pull/4373">add content-topic autoshards to <code>subscribeShards</code></a>, <a href="https://github.com/logos-messaging/logos-delivery/pull/4388">limit subscribed shards to 60</a>, <a href="https://github.com/logos-messaging/logos-delivery/pull/4402">flag deprecated and ignored node options</a></li>
+                  <li>Robustness: <a href="https://github.com/logos-messaging/logos-delivery/pull/4354">async-signal-safe shutdown handlers</a>, <a href="https://github.com/logos-messaging/logos-delivery/pull/4360">surface TLS key/cert errors</a> and <a href="https://github.com/logos-messaging/logos-delivery/pull/4390">hint PKCS#8 when a TLS key cannot be parsed</a>, <a href="https://github.com/logos-messaging/logos-delivery/pull/4362">replace <code>raises: [Exception]</code> and bare <code>CatchableError</code></a>, <a href="https://github.com/logos-messaging/logos-delivery/pull/4358">replace nested <code>waitFor</code>/<code>runForever</code> with <code>await</code> in chat2</a></li>
+                  <li>Tooling &amp; tests: <a href="https://github.com/logos-messaging/logos-delivery/pull/4396">wakucanary checks store-sync and the mix check is fixed</a>, <a href="https://github.com/logos-messaging/logos-delivery/pull/4375">ignore <code>_created</code> samples in the node metrics log</a>, <a href="https://github.com/logos-messaging/logos-delivery/pull/4367">pin the sync window in store-sync reconciliation tests</a>, <a href="https://github.com/logos-messaging/logos-delivery/pull/4363">bind the announced-addresses test to an auto port</a>, <a href="https://github.com/logos-messaging/logos-delivery/pull/4374">remove a disabled codec-renaming test</a></li>
+                  <li>nim-ffi poll model, first merges: <a href="https://github.com/logos-messaging/nim-ffi/pull/197">#197</a>, <a href="https://github.com/logos-messaging/nim-ffi/pull/198">#198</a>, <a href="https://github.com/logos-messaging/nim-ffi/pull/203">#203</a></li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>nim-ffi poll model, rest of the train: <a href="https://github.com/logos-messaging/nim-ffi/pull/199">#199</a>&hellip;<a href="https://github.com/logos-messaging/nim-ffi/pull/202">#202</a>, <a href="https://github.com/logos-messaging/nim-ffi/pull/206">#206</a>, <a href="https://github.com/logos-messaging/nim-ffi/pull/207">#207</a>, plus <a href="https://github.com/logos-messaging/nim-ffi/pull/210">stop the build when two names share a name id</a></li>
+                  <li><a href="https://github.com/logos-messaging/logos-delivery/pull/4408">fix(rest): fail a static-topic relay publish when nothing is relayed</a></li>
+                  <li><a href="https://github.com/logos-messaging/logos-delivery/issues/4341">Allow pluggable nim-libp2p</a></li>
+                  <li><a href="https://github.com/logos-messaging/logos-delivery/issues/4133">Fix the dead CLI config field for storeSync</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ================================================================
+             ANONCOMMS
+             ================================================================ -->
+      <div class="team-content" id="anoncomms">
+
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Create a basic service discovery module</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4><a href="https://github.com/logos-co/anoncomms-pm/issues/64">Integrate the standalone service discovery module into Logos Delivery</a></h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Proposed a caller-provided extensible peer records (XPRs) <a href="https://github.com/logos-co/logos-libp2p-module/issues/113">API</a> for the discovery module</li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>Validation on the fleet with the test harness is ongoing; the fleet needs some fixes and config adjustments to run stably</li>
+                  <li>Validate the service discovery as Delivery plugin user journey</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Establish libp2p mixnet</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4><a href="https://github.com/logos-co/anoncomms-pm/issues/54">Create a standalone Logos Mix Module</a></h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Proposed a cleaner <a href="https://github.com/logos-co/logos-libp2p-mix-rln/issues/8">API</a> for the mix module</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Deliver de-MLS for p2p group messaging</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4><a href="https://github.com/logos-co/anoncomms-pm/issues/63">Integrating de-MLS into libchat</a></h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>WIP: key rotation mechanism in progress on <a href="https://github.com/vacp2p/de-mls/tree/feat/engine-router-split">this branch</a></li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>Awaiting feedback on the codebase reorganisation</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Implement RLN membership allocation service</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4><a href="https://github.com/logos-co/anoncomms-pm/issues/80">Migrate Logos Delivery to LEZ-based RLN using the RLN membership management module</a></h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Deployed and tested Logos Delivery with RLN on LEZ on the hosted testnet</li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>Update the RLN program and modules to work with LEZ 0.3</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Decentralised Oracle Network</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4><a href="https://github.com/logos-co/anoncomms-pm/issues/57">Implementing Oracle Zone</a></h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Fixed the swap demo contract code and started end-to-end tests</li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>PriceObservation membership</li>
+                  <li>End-to-end tests</li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4><a href="https://github.com/logos-co/anoncomms-pm/issues/59">Oracle Zone Documentation and Benchmarking</a></h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Finalised the performance analysis <a href="https://github.com/seugu/logos_oracle_network/tree/oracle-analysis">branch</a> and created a <a href="https://github.com/seugu/logos_oracle_network/blob/oracle-analysis/report.md">report</a> benchmarking the Oracle Zone implementation</li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>No further work planned; the deliverable is complete and the issue may be closed</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Maintain and expand Zerokit</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4><a href="https://github.com/logos-co/anoncomms-pm/issues/84">Integrate and benchmark Poseidon2 hash function</a></h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Static analysis for the new Poseidon2 circuits merged into <a href="https://github.com/vacp2p/zerokit/commit/3e8a4017b3143d9a5a7d5b15e240d02c81dfcf78">Zerokit</a> and <a href="https://github.com/vacp2p/circom-rln/commit/2cef30b0c49ee2016396c9992ebfc94ce45f5b6b">circom-rln</a></li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>Release Zerokit v0.3.1</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ================================================================
+             LOGOS CORE
+             ================================================================ -->
+      <div class="team-content" id="logoscore">
+        <div class="repo-list">
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-blockchain/lez-explorer-ui">lez-explorer-ui</a></h4>
+            <p>Moved onto LEZ 0.3.0: each program's data shard shown, &ldquo;Invalid encoding&rdquo; printed for a native balance it cannot decode, indexer bumps, release 1.2.0-rc.1, and the channel id changed from <code>0101&hellip;</code> to <code>0303&hellip;</code>.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-blockchain/lez-explorer-ui/pull/30">#30</a>
+              <a href="https://github.com/logos-blockchain/lez-explorer-ui/pull/29">#29</a>
+              <a href="https://github.com/logos-blockchain/lez-explorer-ui/pull/28">#28</a>
+              <a href="https://github.com/logos-blockchain/lez-explorer-ui/pull/26">#26</a>
+              <a href="https://github.com/logos-blockchain/lez-explorer-ui/pull/25">#25</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-accounts-ui">logos-accounts-ui</a></h4>
+            <p>The module is now named <code>accounts_ui</code>, shown as Accounts &mdash; it had still been <code>accountlog_ui</code>, which Basecamp listed as &ldquo;Account Log&rdquo;.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-accounts-ui/pull/14">#14</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-basecamp">logos-basecamp</a></h4>
+            <p><strong>Downloads over Storage, end to end, and optional dependencies at install time</strong> &mdash; Basecamp starts the Storage node when <code>storage_module</code> is ready, a download source selector, optional packages offered in the install and upgrade dialogs with a version selector; reinstalls refetch only what changed (three <code>.lgx</code> requests &rarr; one) and reinstalled apps open without a restart; embedded packages can be upgraded; packages this host cannot install are hidden; an intents memory-corruption bug fixed (5 core dumps in ~12 deep-link launches &rarr; 0 in 180); all 13 UI doctests now run on Windows.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-basecamp/pull/475">#475</a>
+              <a href="https://github.com/logos-co/logos-basecamp/pull/474">#474</a>
+              <a href="https://github.com/logos-co/logos-basecamp/pull/473">#473</a>
+              <a href="https://github.com/logos-co/logos-basecamp/pull/472">#472</a>
+              <a href="https://github.com/logos-co/logos-basecamp/pull/471">#471</a>
+              <a href="https://github.com/logos-co/logos-basecamp/pull/470">#470</a>
+              <a href="https://github.com/logos-co/logos-basecamp/pull/469">#469</a>
+              <a href="https://github.com/logos-co/logos-basecamp/pull/468">#468</a>
+              <a href="https://github.com/logos-co/logos-basecamp/pull/467">#467</a>
+              <a href="https://github.com/logos-co/logos-basecamp/pull/466">#466</a>
+              <a href="https://github.com/logos-co/logos-basecamp/pull/465">#465</a>
+              <a href="https://github.com/logos-co/logos-basecamp/pull/464">#464</a>
+              <a href="https://github.com/logos-co/logos-basecamp/pull/463">#463</a>
+              <a href="https://github.com/logos-co/logos-basecamp/pull/462">#462</a>
+              <a href="https://github.com/logos-co/logos-basecamp/pull/461">#461</a>
+              <a href="https://github.com/logos-co/logos-basecamp/pull/460">#460</a>
+              <a href="https://github.com/logos-co/logos-basecamp/pull/459">#459</a>
+              <a href="https://github.com/logos-co/logos-basecamp/pull/458">#458</a>
+              <a href="https://github.com/logos-co/logos-basecamp/pull/456">#456</a>
+              <a href="https://github.com/logos-co/logos-basecamp/pull/455">#455</a>
+              <a href="https://github.com/logos-co/logos-basecamp/pull/454">#454</a>
+              <a href="https://github.com/logos-co/logos-basecamp/pull/453">#453</a>
+              <a href="https://github.com/logos-co/logos-basecamp/pull/452">#452</a>
+              <a href="https://github.com/logos-co/logos-basecamp/pull/451">#451</a>
+              <a href="https://github.com/logos-co/logos-basecamp/pull/447">#447</a>
+              <a href="https://github.com/logos-co/logos-basecamp/pull/446">#446</a>
+              <a href="https://github.com/logos-co/logos-basecamp/pull/445">#445</a>
+              <a href="https://github.com/logos-co/logos-basecamp/pull/444">#444</a>
+              <a href="https://github.com/logos-co/logos-basecamp/pull/438">#438</a>
+              <a href="https://github.com/logos-co/logos-basecamp/pull/416">#416</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-blockchain/logos-blockchain-ui">logos-blockchain-ui</a></h4>
+            <p><strong>Mining state is read from the node</strong> via <code>pow_status</code>; claims made while the app was closed are caught up into a <code>ClaimLedger</code>; Quick start mines with desktop defaults (1 thread, 1 search per block, 10&nbsp;s claim period); the dashboard tells claims sent apart from claims settling.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-blockchain/logos-blockchain-ui/pull/91">#91</a>
+              <a href="https://github.com/logos-blockchain/logos-blockchain-ui/pull/86">#86</a>
+              <a href="https://github.com/logos-blockchain/logos-blockchain-ui/pull/85">#85</a>
+              <a href="https://github.com/logos-blockchain/logos-blockchain-ui/pull/84">#84</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-cpp-sdk">logos-cpp-sdk</a></h4>
+            <p>The generated code refuses an unknown method name instead of answering NULL; relocks onto logos-protocol (absent module fails fast, quiet traces).</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-cpp-sdk/pull/179">#179</a>
+              <a href="https://github.com/logos-co/logos-cpp-sdk/pull/178">#178</a>
+              <a href="https://github.com/logos-co/logos-cpp-sdk/pull/177">#177</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-design-system">logos-design-system</a></h4>
+            <p>Wrap the storybook so <code>nix run</code> launches again, with a CI check that runs it offscreen.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-design-system/pull/63">#63</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-doctest">logos-doctest</a></h4>
+            <p><strong>Reports you can trust</strong> &mdash; generated scripts no longer report a pass for steps that failed or never ran, a screenshot the UI action left unchanged is retaken then failed, each action has its own result and duration, <code>expect_property</code> honours <code>timeout:</code>, and only the app the run launched is driven.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-doctest/pull/31">#31</a>
+              <a href="https://github.com/logos-co/logos-doctest/pull/30">#30</a>
+              <a href="https://github.com/logos-co/logos-doctest/pull/29">#29</a>
+              <a href="https://github.com/logos-co/logos-doctest/pull/28">#28</a>
+              <a href="https://github.com/logos-co/logos-doctest/pull/27">#27</a>
+              <a href="https://github.com/logos-co/logos-doctest/pull/26">#26</a>
+              <a href="https://github.com/logos-co/logos-doctest/pull/25">#25</a>
+              <a href="https://github.com/logos-co/logos-doctest/pull/24">#24</a>
+              <a href="https://github.com/logos-co/logos-doctest/pull/23">#23</a>
+              <a href="https://github.com/logos-co/logos-doctest/pull/22">#22</a>
+              <a href="https://github.com/logos-co/logos-doctest/pull/21">#21</a>
+              <a href="https://github.com/logos-co/logos-doctest/pull/20">#20</a>
+              <a href="https://github.com/logos-co/logos-doctest/pull/19">#19</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-blockchain/logos-execution-zone-module">logos-execution-zone-module</a></h4>
+            <p>Adapted to the LEZ 0.3.0 shard-based account model: <code>FfiAccount</code> now returns <code>{nonce, shards: [{program, data}]}</code>; later bump picks up an r0 linking fix.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-blockchain/logos-execution-zone-module/pull/64">#64</a>
+              <a href="https://github.com/logos-blockchain/logos-execution-zone-module/pull/63">#63</a>
+              <a href="https://github.com/logos-blockchain/logos-execution-zone-module/pull/62">#62</a>
+              <a href="https://github.com/logos-blockchain/logos-execution-zone-module/pull/61">#61</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-blockchain/logos-execution-zone-wallet-ui">logos-execution-zone-wallet-ui</a></h4>
+            <p>0.3.0 bumps and a pinned <code>lez_core</code> rev; the &ldquo;Unclaimed / Initialized&rdquo; tracking that depended on <code>program_owner</code> is dropped.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-blockchain/logos-execution-zone-wallet-ui/pull/54">#54</a>
+              <a href="https://github.com/logos-blockchain/logos-execution-zone-wallet-ui/pull/53">#53</a>
+              <a href="https://github.com/logos-blockchain/logos-execution-zone-wallet-ui/pull/52">#52</a>
+              <a href="https://github.com/logos-blockchain/logos-execution-zone-wallet-ui/pull/51">#51</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-liblogos">logos-liblogos</a></h4>
+            <p>A module's token is registered before the child holds it, so calls from its own init are no longer refused (integration 49/49); accurate CPU usage in the module inspector; relocks.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-liblogos/pull/239">#239</a>
+              <a href="https://github.com/logos-co/logos-liblogos/pull/238">#238</a>
+              <a href="https://github.com/logos-co/logos-liblogos/pull/237">#237</a>
+              <a href="https://github.com/logos-co/logos-liblogos/pull/236">#236</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-libp2p-module">logos-libp2p-module</a></h4>
+            <p><strong>libp2p 1.1.0</strong> &mdash; <code>start</code> returns once the switch is listening and a new <code>kadWaitBootstrap(timeoutMs)</code> waits for the DHT; nim-libp2p and every external ref pinned to a full hash; <code>flake.lock</code> shrunk from 450k to 17k lines.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-libp2p-module/pull/119">#119</a>
+              <a href="https://github.com/logos-co/logos-libp2p-module/pull/116">#116</a>
+              <a href="https://github.com/logos-co/logos-libp2p-module/pull/115">#115</a>
+              <a href="https://github.com/logos-co/logos-libp2p-module/pull/114">#114</a>
+              <a href="https://github.com/logos-co/logos-libp2p-module/pull/111">#111</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-logoscore-cli">logos-logoscore-cli</a></h4>
+            <p>logosctl offers all, mandatory-only, or cancel on install; three <code>apply()</code> bugs fixed (upgrade removing current packages, a failing optional aborting the run, <code>--no-deps</code>); names the running dependents an install stops; <code>watch</code> exits with <code>NO_DAEMON</code>; detached daemon from an AppImage fixed; <code>catalog source</code>; the downloader starts at load.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-logoscore-cli/pull/177">#177</a>
+              <a href="https://github.com/logos-co/logos-logoscore-cli/pull/175">#175</a>
+              <a href="https://github.com/logos-co/logos-logoscore-cli/pull/174">#174</a>
+              <a href="https://github.com/logos-co/logos-logoscore-cli/pull/173">#173</a>
+              <a href="https://github.com/logos-co/logos-logoscore-cli/pull/172">#172</a>
+              <a href="https://github.com/logos-co/logos-logoscore-cli/pull/171">#171</a>
+              <a href="https://github.com/logos-co/logos-logoscore-cli/pull/170">#170</a>
+              <a href="https://github.com/logos-co/logos-logoscore-cli/pull/169">#169</a>
+              <a href="https://github.com/logos-co/logos-logoscore-cli/pull/167">#167</a>
+              <a href="https://github.com/logos-co/logos-logoscore-cli/pull/166">#166</a>
+              <a href="https://github.com/logos-co/logos-logoscore-cli/pull/165">#165</a>
+              <a href="https://github.com/logos-co/logos-logoscore-cli/pull/164">#164</a>
+              <a href="https://github.com/logos-co/logos-logoscore-cli/pull/162">#162</a>
+              <a href="https://github.com/logos-co/logos-logoscore-cli/pull/161">#161</a>
+              <a href="https://github.com/logos-co/logos-logoscore-cli/pull/160">#160</a>
+              <a href="https://github.com/logos-co/logos-logoscore-cli/pull/159">#159</a>
+              <a href="https://github.com/logos-co/logos-logoscore-cli/pull/158">#158</a>
+              <a href="https://github.com/logos-co/logos-logoscore-cli/pull/147">#147</a>
+              <a href="https://github.com/logos-co/logos-logoscore-cli/pull/115">#115</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-logoscore-py">logos-logoscore-py</a></h4>
+            <p>Relock onto logoscore-cli, test-modules and the unknown-method wave.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-logoscore-py/pull/33">#33</a>
+              <a href="https://github.com/logos-co/logos-logoscore-py/pull/32">#32</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-module-builder">logos-module-builder</a></h4>
+            <p>Relock onto the unknown-method wave and the QtRO completion fixes, plus the standalone app and nix bundlers.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-module-builder/pull/271">#271</a>
+              <a href="https://github.com/logos-co/logos-module-builder/pull/270">#270</a>
+              <a href="https://github.com/logos-co/logos-module-builder/pull/269">#269</a>
+              <a href="https://github.com/logos-co/logos-module-builder/pull/268">#268</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-module-loader-qt">logos-module-loader-qt</a></h4>
+            <p>Relock onto logos-protocol, cpp-sdk and qt-sdk.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-module-loader-qt/pull/27">#27</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-module-viewer">logos-module-viewer</a></h4>
+            <p>Relock liblogos and drop the cpp-sdk input.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-module-viewer/pull/15">#15</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-modules-release">logos-modules-release</a></h4>
+            <p><strong>The 0.3.0 catalog</strong> &mdash; LEZ 0.3.0 stack, libp2p 1.1.0, storage 3.0.2 and blockchain-ui 0.3.1; ten pins rolled back by a stale-checkout bump restored within six hours; all 19 EVM-wallet and 7 Monero-wallet stack repos joined the catalog, along with <code>accounts_ui</code> 0.3.0 and openmetrics 0.1.2; release workflows moved to v1.8.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-modules-release/pull/99">#99</a>
+              <a href="https://github.com/logos-co/logos-modules-release/pull/97">#97</a>
+              <a href="https://github.com/logos-co/logos-modules-release/pull/96">#96</a>
+              <a href="https://github.com/logos-co/logos-modules-release/pull/95">#95</a>
+              <a href="https://github.com/logos-co/logos-modules-release/pull/94">#94</a>
+              <a href="https://github.com/logos-co/logos-modules-release/pull/93">#93</a>
+              <a href="https://github.com/logos-co/logos-modules-release/pull/90">#90</a>
+              <a href="https://github.com/logos-co/logos-modules-release/pull/89">#89</a>
+              <a href="https://github.com/logos-co/logos-modules-release/pull/87">#87</a>
+              <a href="https://github.com/logos-co/logos-modules-release/pull/85">#85</a>
+              <a href="https://github.com/logos-co/logos-modules-release/pull/83">#83</a>
+              <a href="https://github.com/logos-co/logos-modules-release/pull/82">#82</a>
+              <a href="https://github.com/logos-co/logos-modules-release/pull/81">#81</a>
+              <a href="https://github.com/logos-co/logos-modules-release/pull/80">#80</a>
+              <a href="https://github.com/logos-co/logos-modules-release/pull/79">#79</a>
+              <a href="https://github.com/logos-co/logos-modules-release/pull/78">#78</a>
+              <a href="https://github.com/logos-co/logos-modules-release/pull/77">#77</a>
+              <a href="https://github.com/logos-co/logos-modules-release/pull/76">#76</a>
+              <a href="https://github.com/logos-co/logos-modules-release/pull/75">#75</a>
+              <a href="https://github.com/logos-co/logos-modules-release/pull/73">#73</a>
+              <a href="https://github.com/logos-co/logos-modules-release/pull/71">#71</a>
+              <a href="https://github.com/logos-co/logos-modules-release/pull/70">#70</a>
+              <a href="https://github.com/logos-co/logos-modules-release/pull/69">#69</a>
+              <a href="https://github.com/logos-co/logos-modules-release/pull/68">#68</a>
+              <a href="https://github.com/logos-co/logos-modules-release/pull/67">#67</a>
+              <a href="https://github.com/logos-co/logos-modules-release/pull/64">#64</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-modules-state-module">logos-modules-state-module</a></h4>
+            <p>Relock onto logos-module-builder.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-modules-state-module/pull/9">#9</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-package">logos-package</a></h4>
+            <p><strong>Loading an LGX package takes about a fifth of the memory</strong>: 754&nbsp;MiB &rarr; 154&nbsp;MiB on a 150&nbsp;MiB package.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-package/pull/44">#44</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-package-downloader">logos-package-downloader</a></h4>
+            <p>The resolver offers optional dependencies and returns the full graph it chose; offers agree with the required plan (a large synthetic resolve ~1.5&nbsp;s &rarr; ~0.14&nbsp;s); installed optionals can be upgraded or downgraded; a download source setting (any, Logos Storage only, HTTP only); HTTPS transfers can be cancelled.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-package-downloader/pull/48">#48</a>
+              <a href="https://github.com/logos-co/logos-package-downloader/pull/47">#47</a>
+              <a href="https://github.com/logos-co/logos-package-downloader/pull/46">#46</a>
+              <a href="https://github.com/logos-co/logos-package-downloader/pull/45">#45</a>
+              <a href="https://github.com/logos-co/logos-package-downloader/pull/44">#44</a>
+              <a href="https://github.com/logos-co/logos-package-downloader/pull/43">#43</a>
+              <a href="https://github.com/logos-co/logos-package-downloader/pull/42">#42</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-package-downloader-module">logos-package-downloader-module</a></h4>
+            <p><strong>Storage fetcher</strong> &mdash; the downloader owns its Storage node and downloads by CID; get and set the download source; start on demand via <code>start()</code>, <code>stop()</code>, <code>getState()</code>, <code>stateChanged</code>; doctests run off the public network with a pinned storage provider.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-package-downloader-module/pull/54">#54</a>
+              <a href="https://github.com/logos-co/logos-package-downloader-module/pull/53">#53</a>
+              <a href="https://github.com/logos-co/logos-package-downloader-module/pull/52">#52</a>
+              <a href="https://github.com/logos-co/logos-package-downloader-module/pull/51">#51</a>
+              <a href="https://github.com/logos-co/logos-package-downloader-module/pull/50">#50</a>
+              <a href="https://github.com/logos-co/logos-package-downloader-module/pull/49">#49</a>
+              <a href="https://github.com/logos-co/logos-package-downloader-module/pull/48">#48</a>
+              <a href="https://github.com/logos-co/logos-package-downloader-module/pull/47">#47</a>
+              <a href="https://github.com/logos-co/logos-package-downloader-module/pull/46">#46</a>
+              <a href="https://github.com/logos-co/logos-package-downloader-module/pull/45">#45</a>
+              <a href="https://github.com/logos-co/logos-package-downloader-module/pull/44">#44</a>
+              <a href="https://github.com/logos-co/logos-package-downloader-module/pull/32">#32</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-package-manager">logos-package-manager</a></h4>
+            <p>Verify user packages override the embedded fallback; publish a Windows lgpm zip; relock logos-package.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-package-manager/pull/47">#47</a>
+              <a href="https://github.com/logos-co/logos-package-manager/pull/46">#46</a>
+              <a href="https://github.com/logos-co/logos-package-manager/pull/45">#45</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-package-manager-module">logos-package-manager-module</a></h4>
+            <p>Allow upgrades of embedded packages; relock logos-package-manager.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-package-manager-module/pull/76">#76</a>
+              <a href="https://github.com/logos-co/logos-package-manager-module/pull/75">#75</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-package-manager-ui">logos-package-manager-ui</a></h4>
+            <p>Install the optional packages Basecamp approved, and a failed optional no longer stops the install; hide packages this host cannot install; list versions the download source cannot serve as not available; start the downloader before the first catalog load; show the platform's key in the shortcut chip.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-package-manager-ui/pull/93">#93</a>
+              <a href="https://github.com/logos-co/logos-package-manager-ui/pull/92">#92</a>
+              <a href="https://github.com/logos-co/logos-package-manager-ui/pull/91">#91</a>
+              <a href="https://github.com/logos-co/logos-package-manager-ui/pull/90">#90</a>
+              <a href="https://github.com/logos-co/logos-package-manager-ui/pull/89">#89</a>
+              <a href="https://github.com/logos-co/logos-package-manager-ui/pull/88">#88</a>
+              <a href="https://github.com/logos-co/logos-package-manager-ui/pull/87">#87</a>
+              <a href="https://github.com/logos-co/logos-package-manager-ui/pull/86">#86</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-plugin-qt">logos-plugin-qt</a></h4>
+            <p>Keep deferred-call ids unique across module instances, so a reloaded module cannot hand a call another call's old result; the glue refuses an unknown method instead of answering empty.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-plugin-qt/pull/58">#58</a>
+              <a href="https://github.com/logos-co/logos-plugin-qt/pull/57">#57</a>
+              <a href="https://github.com/logos-co/logos-plugin-qt/pull/56">#56</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-protocol">logos-protocol</a></h4>
+            <p><strong>A blocking call to a module that isn't loaded fails in 1&nbsp;s, not 20&nbsp;s</strong>; routine protocol traces off by default; QtRO completion fixes; identity fallback kept when a provider refuses the name; test suites run on Windows (602/602 and 7/7).</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-protocol/pull/111">#111</a>
+              <a href="https://github.com/logos-co/logos-protocol/pull/110">#110</a>
+              <a href="https://github.com/logos-co/logos-protocol/pull/109">#109</a>
+              <a href="https://github.com/logos-co/logos-protocol/pull/108">#108</a>
+              <a href="https://github.com/logos-co/logos-protocol/pull/107">#107</a>
+              <a href="https://github.com/logos-co/logos-protocol/pull/106">#106</a>
+              <a href="https://github.com/logos-co/logos-protocol/pull/105">#105</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-qt-sdk">logos-qt-sdk</a></h4>
+            <p>Document that <code>unknown_method</code> is emitted now; relock onto logos-protocol, cpp-sdk and plugin-qt.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-qt-sdk/pull/67">#67</a>
+              <a href="https://github.com/logos-co/logos-qt-sdk/pull/66">#66</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-rust-sdk">logos-rust-sdk</a></h4>
+            <p>The generated code refuses an unknown method name instead of answering None; SDK unit tests now run in CI (57/57); relock onto logos-protocol.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-rust-sdk/pull/73">#73</a>
+              <a href="https://github.com/logos-co/logos-rust-sdk/pull/72">#72</a>
+              <a href="https://github.com/logos-co/logos-rust-sdk/pull/71">#71</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-standalone-app">logos-standalone-app</a></h4>
+            <p>Relock onto the unknown-method wave, view-module-runtime#40, the screenshot fix and liblogos.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-standalone-app/pull/67">#67</a>
+              <a href="https://github.com/logos-co/logos-standalone-app/pull/66">#66</a>
+              <a href="https://github.com/logos-co/logos-standalone-app/pull/65">#65</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-storage-module">logos-storage-module</a></h4>
+            <p>libstorage 0.5.2 &rarr; 0.5.3, fixing a critical upstream bug and shipped as storage 3.0.2; Mix presets and release metadata; doctests pin <code>logosctl</code>/<code>lgpm</code>.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-storage-module/pull/104">#104</a>
+              <a href="https://github.com/logos-co/logos-storage-module/pull/103">#103</a>
+              <a href="https://github.com/logos-co/logos-storage-module/pull/102">#102</a>
+              <a href="https://github.com/logos-co/logos-storage-module/pull/100">#100</a>
+              <a href="https://github.com/logos-co/logos-storage-module/pull/99">#99</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-storage-ui">logos-storage-ui</a></h4>
+            <p><strong>Storage 3.0.0 makes privacy a per-download choice</strong> &mdash; LGX support and a Private toggle per download and manifest fetch that routes over Mix and does not advertise the file.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-storage-ui/pull/99">#99</a>
+              <a href="https://github.com/logos-co/logos-storage-ui/pull/97">#97</a>
+              <a href="https://github.com/logos-co/logos-storage-ui/pull/96">#96</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-test-framework">logos-test-framework</a></h4>
+            <p>Relock onto logos-protocol, cpp-sdk, plugin-qt and qt-sdk.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-test-framework/pull/12">#12</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-test-modules">logos-test-modules</a></h4>
+            <p>Expose the modules for x86_64-windows; a bound call to a module without the method fails; fullapi-ui result labels made visible; relocks.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-test-modules/pull/79">#79</a>
+              <a href="https://github.com/logos-co/logos-test-modules/pull/78">#78</a>
+              <a href="https://github.com/logos-co/logos-test-modules/pull/77">#77</a>
+              <a href="https://github.com/logos-co/logos-test-modules/pull/76">#76</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-tutorial">logos-tutorial</a></h4>
+            <p>The tutorials run on logosctl, against repos pinned in <code>tutorial-set.json</code>; LGX (25/25) and caller identity (11/11) pass on Windows 11, and linux-arm64 joined the matrix (18 &rarr; 27 jobs); optional-package installation documented.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-tutorial/pull/115">#115</a>
+              <a href="https://github.com/logos-co/logos-tutorial/pull/114">#114</a>
+              <a href="https://github.com/logos-co/logos-tutorial/pull/113">#113</a>
+              <a href="https://github.com/logos-co/logos-tutorial/pull/112">#112</a>
+              <a href="https://github.com/logos-co/logos-tutorial/pull/111">#111</a>
+              <a href="https://github.com/logos-co/logos-tutorial/pull/110">#110</a>
+              <a href="https://github.com/logos-co/logos-tutorial/pull/109">#109</a>
+              <a href="https://github.com/logos-co/logos-tutorial/pull/108">#108</a>
+              <a href="https://github.com/logos-co/logos-tutorial/pull/107">#107</a>
+              <a href="https://github.com/logos-co/logos-tutorial/pull/106">#106</a>
+              <a href="https://github.com/logos-co/logos-tutorial/pull/105">#105</a>
+              <a href="https://github.com/logos-co/logos-tutorial/pull/104">#104</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/logos-view-module-runtime">logos-view-module-runtime</a></h4>
+            <p>View backends reached through dynamic replicas so reinstalls apply without a restart; on Windows <code>ui-host.exe</code> runs in a kill-on-close job and dies with Basecamp; a provider's refusal reported to QML as an error.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/logos-view-module-runtime/pull/43">#43</a>
+              <a href="https://github.com/logos-co/logos-view-module-runtime/pull/42">#42</a>
+              <a href="https://github.com/logos-co/logos-view-module-runtime/pull/41">#41</a>
+              <a href="https://github.com/logos-co/logos-view-module-runtime/pull/40">#40</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/nix-bundle-lgx">nix-bundle-lgx</a></h4>
+            <p>Relock logos-package.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/nix-bundle-lgx/pull/19">#19</a>
+            </div>
+          </div>
+          <div class="repo-card">
+            <h4><a href="https://github.com/logos-co/nix-bundle-logos-module-install">nix-bundle-logos-module-install</a></h4>
+            <p>Relock nix-bundle-lgx and logos-package-manager.</p>
+            <div class="pr-list">
+              <a href="https://github.com/logos-co/nix-bundle-logos-module-install/pull/10">#10</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ================================================================
+             STORAGE
+             ================================================================ -->
+      <div class="team-content" id="storage">
+
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Logos testnet v0.3</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>Storage releases</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Logos testnet v0.3 has launched, with new versions of the <a href="https://github.com/logos-co/logos-storage-module/releases/tag/v3.0.2">storage module (v3.0.2)</a> and the <a href="https://github.com/logos-co/logos-storage-ui/releases/tag/v3.0.2">storage UI (v3.0.2)</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Large Data Transport Layer for Mix</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4><a href="https://github.com/logos-storage/logos-storage-pm/issues/2">Mix Transport</a></h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>MixTransport spec first draft approaching review-ready status</li>
+                  <li>Helping in testing storage with Mix in Logos Basecamp</li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>Wrapping up the spec</li>
+                  <li>Preparation for the off-site</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Hidden Services Over Mix</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4><a href="https://github.com/logos-storage/logos-storage-pm/issues/20">Hidden Services Over Mix</a></h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Prepared for the research call (2026-10-07) covering path compromise and selection strategies on Mix networks: <a href="https://docs.google.com/presentation/d/14zBiznVFGr9ebLfbIewlrJRBiPLCkYCZ_ExEBKn-CpI/edit?usp=sharing">slides</a></li>
+                  <li><a href="https://github.com/logos-storage/hs-mix-sim/tree/main/demo">Demo</a> for the simulation and path selection strategies</li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>Continue work on the second iteration of the <a href="https://github.com/logos-co/logos-lips/pull/330">hidden service spec</a> with the path selection spec</li>
+                  <li>Prepare off-site talk/discussion points on the hidden services and path selection specs</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Package Manager</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4><a href="https://github.com/logos-storage/logos-storage-pm/issues/25">Package Manager</a></h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>General effort on deploying to test and fixing issues</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ================================================================
+             BLOCKCHAIN
+             ================================================================ -->
+      <div class="team-content" id="blockchain">
+
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Bedrock &mdash; Research</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>Cryptarchia</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Blend connection traffic bounded at the receiver RFC merged <a href="https://github.com/logos-co/logos-lips/pull/421">logos-lips#421</a>; connection maintenance tightened after the implementation review: only verified messages count towards a connection's share, handshake time a core node parameter (draft) <a href="https://github.com/logos-co/logos-lips/pull/468">logos-lips#468</a></li>
+                  <li>Eras RFC extended: eras can change consensus parameters, transactions and protocol identifiers carry the fork digest (draft) <a href="https://github.com/logos-co/logos-lips/pull/439">logos-lips#439</a></li>
+                  <li>Strict EdDSA verification gas figures merged <a href="https://github.com/logos-co/logos-lips/pull/464">logos-lips#464</a>; multi-signature encoding swaps index and signature, merged <a href="https://github.com/logos-co/logos-lips/pull/469">logos-lips#469</a>; gossip topics clarified in the p2p network document, merged <a href="https://github.com/logos-co/logos-lips/pull/466">logos-lips#466</a></li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4>EmPoWering</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Retarget bounds and pool funding RFC merged: reward retarget bounded below by ceil(F/(P-F)) and above by its genesis target, pool refilled from a share of fees with the accounting carried through genesis, rewards, and cryptoeconomics <a href="https://github.com/logos-co/logos-lips/pull/443">logos-lips#443</a></li>
+                  <li>Onboarding model extended so a fraction of mined tokens unlocks immediately, calculator and documentation updated <a href="https://www.overleaf.com/read/xqzvgkxbcvhn#75248b">doc</a>; slides summarising model parameters, derived quantities, and assumptions <a href="https://www.overleaf.com/read/ksqyvvxyszyq#f8a284">slides</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Bedrock &mdash; Engineering</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>Blend</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Unordered warm buffer for Proof of Work Blend proofs, removing head-of-line blocking in prefetch, merged <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3678">#3678</a></li>
+                  <li>Blend stability diagnostic scenarios for devnet and testnet-style tests merged <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3677">#3677</a></li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4>Node</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Hard fork support merged: variant tags removed and block slot moved first in the header <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3679">#3679</a>, deployment settings support multi-era definitions <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3683">#3683</a>, fork digest computation <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3687">#3687</a>, libp2p protocol names derived from the fork digest <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3689">#3689</a></li>
+                  <li>u32::MAX enforced for canonical encodings so 32-bit and 64-bit architectures agree, merged <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3693">#3693</a>; bounded sets integrated for UncleHeaders, Inputs, and Locators, merged <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3664">#3664</a></li>
+                  <li>Chain sync peer selection made protocol-aware, merged <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3640">#3640</a>; chain recovery restores the LIB with its real parent id (in-review) <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3719">#3719</a>, <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3720">#3720</a></li>
+                  <li>Mempool aligned with the RFC: transactions of every block newly entering the canonical chain retired (in-review) <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3734">#3734</a></li>
+                  <li>Deferred proof typestate (in-review): each op types its deferred proof <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3732">#3732</a>, deferred proofs pushed into the batch on verification <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3733">#3733</a>, naming standardised <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3735">#3735</a>, split per kind <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3736">#3736</a></li>
+                  <li>Hierarchical deterministic wallet: passphrase primitive (in-review) <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3695">#3695</a>; node integration drafted then shelved pending the private UTXO design <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3727">#3727</a></li>
+                  <li>KMS message signing exposed over FFI for the module referral program (in-review) <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3744">#3744</a></li>
+                  <li><code>select!</code> cancellation safety revision merged <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3725">#3725</a>; own spans emitted in the tracing crate macro, merged <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3543">#3543</a></li>
+                  <li>Release checklist updated from the 0.3.0 release learnings <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3710">#3710</a>; Rust toolchain bumped to 1.99 <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3729">#3729</a>, <a href="https://github.com/logos-co/Overwatch/pull/157">Overwatch#157</a></li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4>Testing</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Cucumber invariants consolidated to cut CI cost, merged <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3672">#3672</a>; mempool diagnostics transaction throughput improved (in-review) <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3741">#3741</a></li>
+                  <li>Testing Framework integration unified around the app model, merged <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3681">#3681</a>; shared port allocator (in-review) <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3706">#3706</a>; Cucumber runner reusable across node implementations (in-review) <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3723">#3723</a>; interoperability runners and mixed-cluster testing (in-review) <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3730">#3730</a></li>
+                  <li>CI: redundant post-merge code checks avoided <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3714">#3714</a>; merge-queue telemetry (in-review) <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3740">#3740</a></li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4>Zone SDK</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Automatic and m-of-n refund of transactions on timeout merged <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3704">#3704</a>, after transaction status and subscription removal <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3703">#3703</a></li>
+                  <li>λSQL: SQL execution bounded and displaced write recovery verifies the original write (in-review) <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3701">#3701</a></li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4>Logos Core</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Testnet 0.3.0 released: node <a href="https://github.com/logos-blockchain/logos-blockchain/releases/tag/0.3.0">0.3.0</a> and Logos Execution Zone <a href="https://github.com/logos-blockchain/logos-execution-zone/releases/tag/v0.3.0">v0.3.0</a></li>
+                  <li>Unique explorer database per deployment, merged <a href="https://github.com/logos-blockchain/logos-blockchain/pull/3647">#3647</a>; blockchain module client and Zone SDK backend pinned to the 0.3.0-rc.5 node <a href="https://github.com/logos-blockchain/logos-blockchain-module/pull/109">logos-blockchain-module#109</a>; generated client checked in CI (in-review) <a href="https://github.com/logos-blockchain/logos-blockchain-module/pull/107">logos-blockchain-module#107</a></li>
+                  <li>Logos Execution Zone indexer backend reworked into a default <code>http</code> feature (in-review) <a href="https://github.com/logos-blockchain/logos-execution-zone/pull/897">#897</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Logos Execution Zone</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>Sequencer</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Decentralized sequencing polish: incorrect slashing when many sequencers join at once fixed (in-review) <a href="https://github.com/logos-blockchain/logos-execution-zone/pull/944">#944</a>; head blocks marked on view entries (in-review) <a href="https://github.com/logos-blockchain/logos-execution-zone/pull/945">#945</a>; <code>sequencer_bootstrap</code> integration tests run sequentially, merged <a href="https://github.com/logos-blockchain/logos-execution-zone/pull/934">#934</a></li>
+                  <li>Read-only sequencer: FFI primitives unification (in-review) <a href="https://github.com/logos-blockchain/logos-execution-zone/pull/930">#930</a>, wallet statistics collection removed (in-review) <a href="https://github.com/logos-blockchain/logos-execution-zone/pull/940">#940</a>, read-only sequencer set up at wallet startup in the wallet FFI (draft) <a href="https://github.com/logos-blockchain/logos-execution-zone/pull/948">#948</a></li>
+                  <li>Transactional actors with side-effects (draft) <a href="https://github.com/logos-blockchain/logos-execution-zone/pull/935">#935</a></li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4>Cross-zone</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Peer zone identity relies on Bedrock channel guarantees instead of the signing key, merged <a href="https://github.com/logos-blockchain/logos-execution-zone/pull/931">#931</a></li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4>Fees</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Privacy-preserving transactions pay fees inside their proof, with transaction dry-runs for wallets to price any transaction (in-review) <a href="https://github.com/logos-blockchain/logos-execution-zone/pull/949">#949</a></li>
+                  <li>Public transaction fees journal written <a href="https://github.com/logos-co/logos-docs/issues/514">logos-docs#514</a>; private transaction fees scoped with a tracker <a href="https://github.com/logos-blockchain/logos-execution-zone/issues/941">#941</a>; transaction ordering by arrival vs nonce flagged for a dedicated fix <a href="https://github.com/logos-blockchain/logos-execution-zone/issues/942">#942</a></li>
+                  <li>Indexer and explorer modules use the <code>prove</code> feature for the indexer FFI, merged <a href="https://github.com/logos-blockchain/logos-execution-zone/pull/936">#936</a></li>
+                </ul>
+              </div>
+              <div class="deliverable">
+                <h4>Accounts</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Chained calls added to effect application, so programs act on the latest state of an account, merged <a href="https://github.com/logos-blockchain/logos-execution-zone/pull/929">#929</a></li>
+                  <li>Program deployment hardening: WriteSegment requires authorization (draft) <a href="https://github.com/logos-blockchain/logos-execution-zone/pull/943">#943</a>; system builtins upgradable through the builtin loader (draft) <a href="https://github.com/logos-blockchain/logos-execution-zone/pull/946">#946</a></li>
+                  <li>Logos Execution Environment, Logos Execution Zone, and built-in program specs updated (draft) <a href="https://github.com/logos-blockchain/logos-execution-zone/pull/932">#932</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Nimbos</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>Nimbos</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Block validation hardened against denial of service: staged multi-tier validation and cooperative asynchronous orphan promotion across Chain and BlockProcessor, merged <a href="https://github.com/logos-co/nimbos/pull/204">nimbos#204</a></li>
+                  <li>Genesis validations merged <a href="https://github.com/logos-co/nimbos/pull/203">nimbos#203</a>; network key parsing fixed <a href="https://github.com/logos-co/nimbos/pull/209">nimbos#209</a>; Mantle encoding and decoding return explicit results instead of raising, merged <a href="https://github.com/logos-co/nimbos/pull/201">nimbos#201</a></li>
+                  <li>Block header commits to <code>body_root</code>, aligning block ids with the spec (in-review) <a href="https://github.com/logos-co/nimbos/pull/210">nimbos#210</a>; deployment settings validation and genesis block creation (in-review) <a href="https://github.com/logos-co/nimbos/pull/212">nimbos#212</a>; GossipSub proposals ignored during initial block download (in-review) <a href="https://github.com/logos-co/nimbos/pull/214">nimbos#214</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <footer>
+        <p>Generated from weekly updates | Logos Collective Roadmap</p>
+      </footer>
+    </div>
+    <script>
+      // Tab switching
+      document.querySelectorAll(".tab").forEach((tab) => {
+        tab.addEventListener("click", () => {
+          const team = tab.dataset.team
+
+          document.querySelectorAll(".tab").forEach((t) => t.classList.remove("active"))
+          document.querySelectorAll(".team-content").forEach((c) => c.classList.remove("active"))
+
+          tab.classList.add("active")
+          document.getElementById(team).classList.add("active")
+        })
+      })
+
+      // Milestone toggle
+      function toggleMilestone(header) {
+        const milestone = header.closest(".milestone")
+        milestone.classList.toggle("expanded")
+      }
+
+      // Search functionality
+      const searchInput = document.getElementById("search")
+      searchInput.addEventListener("input", (e) => {
+        const searchTerm = e.target.value.toLowerCase()
+        const allContent = document.querySelectorAll(".milestone, .deliverable, .repo-card")
+
+        allContent.forEach((element) => {
+          const text = element.textContent.toLowerCase()
+          if (text.includes(searchTerm) || searchTerm === "") {
+            element.style.display = ""
+          } else {
+            element.style.display = "none"
+          }
+        })
+      })
+
+      // Keyboard navigation
+      document.addEventListener("keydown", (e) => {
+        if (e.ctrlKey || e.metaKey) {
+          const tabs = Array.from(document.querySelectorAll(".tab"))
+          const activeIndex = tabs.findIndex((t) => t.classList.contains("active"))
+
+          if (e.key === "ArrowLeft" && activeIndex > 0) {
+            e.preventDefault()
+            tabs[activeIndex - 1].click()
+          } else if (e.key === "ArrowRight" && activeIndex < tabs.length - 1) {
+            e.preventDefault()
+            tabs[activeIndex + 1].click()
+          }
+        }
+      })
+    </script>
+  </body>
+</html>
