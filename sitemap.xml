@@ -372,7 +372,7 @@
     <lastmod>2026-10-12T13:25:04.311Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/blockchain/roadmap/blend_message_compression</loc>
-    <lastmod>2026-10-12T13:25:04.311Z</lastmod>
+    <lastmod>2026-11-05T18:18:35.181Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/blockchain/roadmap/blockchain-logos-core-migration</loc>
     <lastmod>2026-10-12T13:25:04.311Z</lastmod>
@@ -393,22 +393,31 @@
     <lastmod>2026-10-12T13:25:04.311Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/blockchain/roadmap/blockchain_empowering</loc>
-    <lastmod>2026-10-12T13:25:04.311Z</lastmod>
+    <lastmod>2026-11-05T18:18:35.181Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/blockchain/roadmap/blockchain_explorer</loc>
-    <lastmod>2026-10-12T13:25:04.311Z</lastmod>
+    <lastmod>2026-11-05T18:18:35.181Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/blockchain/roadmap/blockchain_faster_finality</loc>
+    <lastmod>2026-11-05T18:18:35.181Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/blockchain/roadmap/blockchain_logos_core</loc>
     <lastmod>2026-10-12T13:25:04.311Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/blockchain/roadmap/blockchain_pos_bridged_funds</loc>
-    <lastmod>2026-10-12T13:25:04.311Z</lastmod>
+    <lastmod>2026-11-05T18:18:35.181Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/blockchain/roadmap/blockchain_private_utxo</loc>
+    <lastmod>2026-11-05T18:18:35.181Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/blockchain/roadmap/blockchain_resilient_blend</loc>
+    <lastmod>2026-11-05T18:18:35.181Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/blockchain/roadmap/blockchain_sdp</loc>
     <lastmod>2026-10-12T13:25:04.311Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/blockchain/roadmap/blockchain_tke_implementation</loc>
-    <lastmod>2026-10-12T13:25:04.311Z</lastmod>
+    <lastmod>2026-11-05T18:18:35.181Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/blockchain/roadmap/blockchain_tokenomics</loc>
     <lastmod>2026-10-12T13:25:04.311Z</lastmod>
@@ -417,10 +426,10 @@
     <lastmod>2026-10-12T13:25:04.311Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/blockchain/roadmap/cross_lez_messaging</loc>
-    <lastmod>2026-10-12T13:25:04.311Z</lastmod>
+    <lastmod>2026-11-05T18:18:35.181Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/blockchain/roadmap/cryptarchia_stake_inference</loc>
-    <lastmod>2026-10-12T13:25:04.311Z</lastmod>
+    <lastmod>2026-11-05T18:18:35.181Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/blockchain/roadmap/cryptareon</loc>
     <lastmod>2026-10-12T13:25:04.311Z</lastmod>
@@ -429,7 +438,10 @@
     <lastmod>2026-10-12T13:25:04.311Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/blockchain/roadmap/</loc>
-    <lastmod>2026-10-12T13:25:04.311Z</lastmod>
+    <lastmod>2026-11-05T18:18:35.181Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/blockchain/roadmap/lez_atomic_deposits</loc>
+    <lastmod>2026-11-05T18:18:35.181Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/blockchain/roadmap/lez_block_context</loc>
     <lastmod>2026-10-12T13:25:04.311Z</lastmod>
@@ -447,10 +459,10 @@
     <lastmod>2026-10-12T13:25:04.311Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/blockchain/roadmap/lez_decentralized_sequencing</loc>
-    <lastmod>2026-10-12T13:25:04.311Z</lastmod>
+    <lastmod>2026-11-05T18:18:35.181Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/blockchain/roadmap/lez_events</loc>
-    <lastmod>2026-10-12T13:25:04.311Z</lastmod>
+    <lastmod>2026-11-05T18:18:35.181Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/blockchain/roadmap/lez_explorer</loc>
     <lastmod>2026-10-12T13:25:04.311Z</lastmod>
@@ -483,16 +495,19 @@
     <lastmod>2026-10-12T13:25:04.311Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/blockchain/roadmap/lez_tke_implementation</loc>
-    <lastmod>2026-10-12T13:25:04.311Z</lastmod>
+    <lastmod>2026-11-05T18:18:35.181Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/blockchain/roadmap/lez_tokenomics</loc>
     <lastmod>2026-10-12T13:25:04.311Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/blockchain/roadmap/lez_transactional_actors</loc>
+    <lastmod>2026-11-05T18:18:35.181Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/blockchain/roadmap/lez_unify_execution</loc>
     <lastmod>2026-10-12T13:25:04.311Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/blockchain/roadmap/logos_sql</loc>
-    <lastmod>2026-10-12T13:25:04.311Z</lastmod>
+    <lastmod>2026-11-05T18:18:35.181Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/blockchain/roadmap/logosda_bandwidth_efficient</loc>
     <lastmod>2026-10-12T13:25:04.311Z</lastmod>
@@ -506,11 +521,17 @@
     <loc>https://roadmap.logos.co/blockchain/roadmap/native_zone</loc>
     <lastmod>2026-10-12T13:25:04.311Z</lastmod>
   </url><url>
+    <loc>https://roadmap.logos.co/blockchain/roadmap/offchain_inscriptions_storage</loc>
+    <lastmod>2026-11-05T18:18:35.181Z</lastmod>
+  </url><url>
+    <loc>https://roadmap.logos.co/blockchain/roadmap/sequencer_collusion_resistance</loc>
+    <lastmod>2026-11-05T18:18:35.181Z</lastmod>
+  </url><url>
     <loc>https://roadmap.logos.co/blockchain/roadmap/testing_framework</loc>
     <lastmod>2026-10-12T13:25:04.311Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/blockchain/roadmap/zone_sdk_logoscore</loc>
-    <lastmod>2026-10-12T13:25:04.311Z</lastmod>
+    <lastmod>2026-11-05T18:18:35.181Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/blockchain/updates/2023-07-24</loc>
     <lastmod>2023-08-03T00:00:00.000Z</lastmod>
@@ -2403,233 +2424,233 @@
     <lastmod>2026-10-12T13:25:04.347Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/acid/monthly-reports/</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/acid/updates/</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/anoncomms/roadmap/mainnet/</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/anoncomms/roadmap/testnet_v0.1/</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/anoncomms/roadmap/testnet_v0.2/</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/anoncomms/roadmap/testnet_v0.3/</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/anoncomms/roadmap/testnet_v0.4/</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/anoncomms/roadmap/testnet_v0.5/</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/bi/monthly-reports/</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/innovation_lab/monthly-reports/</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/innovation_lab/updates/</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/insight/monthly-reports/</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/logoscore/roadmap/milestones/</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/logoscore/roadmap/testnet_v0.4/</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/logoscore/roadmap/testnet_v0.5/</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/collaboration/</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/furps/application/</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/furps/core/</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/roadmap/milestones/</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/updates/</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/messaging/updates/monthly-reports/</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/monthly-reports/</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/storage/furps/</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/storage/roadmap/tracks/</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/storage/updates/</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/testnets/</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/overview</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/milestones</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/acid-updates</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/anoncomms</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/furps</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/roadmap</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/update</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/deliverables</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/anoncomms-updates</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/bi</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/bi-updates</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/blockchain</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/nomos-updates</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/blockchain-updates</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/athens-all-hands</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/ilab-updates</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/team-updates</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/logoscore</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/logosctl</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/basecamp</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/ethereum</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/bitcoin</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/zcash</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/monero</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/lez</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/uplink</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/mobile</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/logoscore-milestone</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/logoscore-updates</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/lib</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/deep-links</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/lgx</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/install</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/waku</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/collaboration</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/nwaku</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/status</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/messaging-furps</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/messaging-milestone</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/waku-milestone</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/waku-updates</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/messaging-updates</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/monthly-report</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/storage</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/codex-updates</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/logos-storage-updates</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/storage-updates</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/testnet</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/testnets</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/dependencies</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url><url>
     <loc>https://roadmap.logos.co/tags/</loc>
-    <lastmod>2026-11-05T14:26:07.775Z</lastmod>
+    <lastmod>2026-11-05T18:19:00.288Z</lastmod>
   </url></urlset>
