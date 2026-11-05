@@ -92,6 +92,7 @@ Logos Blockchain is working towards the following capabilities, required for Mai
 ### Testnet v0.6 Milestones
 
 - [ ] [Blockchain Resilient Blend](./blockchain_resilient_blend.md)
+- [ ] [Blockchain Off-chain Inscriptions on Logos Storage](./offchain_inscriptions_storage.md)
 
 ### Parallel Milestones
 - [ ] [LEZ Stress Testing](./lez_stress_testing.md)

@@ -1,6 +1,6 @@
 # Blockchain Faster Finality
 
-Reach practical finality much sooner than Cryptarchia's current finality depth.
+Finality on the blockchain currently takes 18 hours, which leads to 7.5-day epochs. The long epoch schedule increases risk to the network, since it cannot adapt quickly to changing participation.
 
 ## Resources Required
 
