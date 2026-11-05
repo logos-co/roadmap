@@ -22,27 +22,12 @@ title: 2026-MM-DD Messaging Weekly
   - next:
   - blockers:
 
-- [[Deliverable] Validate RLN on Logos Blockchain at scale](https://github.com/logos-messaging/pm/issues/497)
-  - achieved:
-  - next:
-  - blockers:
-
 - [[Deliverable] Address Messaging API issues found by DST](https://github.com/logos-messaging/pm/issues/498)
   - achieved:
   - next:
   - blockers:
 
-- [[Deliverable] Address RLN issues found by DST](https://github.com/logos-messaging/pm/issues/499)
-  - achieved:
-  - next:
-  - blockers:
-
 - [[Deliverable] Do not backfill history for newly subscribed content topics](https://github.com/logos-messaging/logos-delivery/issues/4278)
-  - achieved:
-  - next:
-  - blockers:
-
-- [[Deliverable] Add message priorities](https://github.com/logos-messaging/pm/issues/500)
   - achieved:
   - next:
   - blockers:
@@ -136,9 +121,7 @@ title: 2026-MM-DD Messaging Weekly
   - next:
   - blockers:
 
-## [Chat — de-MLS v5 Integrated](2026-chat-de-mls-v5.md)
-
-- [[Deliverable] Integrate de-MLS v5](https://github.com/logos-messaging/pm/issues/514)
+- [[Deliverable] Integrate the Ordering Policy component from AnonComms](https://github.com/logos-messaging/pm/issues/514)
   - achieved:
   - next:
   - blockers:
