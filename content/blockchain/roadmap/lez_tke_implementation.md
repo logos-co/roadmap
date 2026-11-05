@@ -21,7 +21,7 @@
 Implement reward distribution for LEZ sequencers, following the sequencer reward spec and ensuring incentive alignment under decentralized sequencing.
 
 **Checklist**:
-- [ ] Sequencer reward implementation
+- [x] Sequencer reward implementation
 
 ### Transaction Fees
 
@@ -32,4 +32,5 @@ Implement reward distribution for LEZ sequencers, following the sequencer reward
 Implement transaction fee collection and distribution for LEZ program execution, following the transaction fee spec.
 
 **Checklist**:
-- [ ] Transaction fee implementation
+- [x] Public transaction fee implementation
+- [ ] Private transaction fee implementation (Testnet v0.4)

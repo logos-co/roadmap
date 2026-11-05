@@ -20,7 +20,7 @@
 Back the ZoneSDK with the Logos protocol stack through Logos Core, replacing the HTTP API blockchain node connection with Logos Protocol
 
 **Checklist**:
-- [ ] ZoneSDK backend interface defined
-- [ ] Logos Protocol backend implemented
-- [ ] Existing zones validated on the new backend
-- [ ] End-to-end tests running against the Logos Core backend
+- [x] ZoneSDK backend interface defined
+- [x] Logos Protocol backend implemented
+- [x] Existing zones validated on the new backend
+- [x] End-to-end tests running against the Logos Core backend

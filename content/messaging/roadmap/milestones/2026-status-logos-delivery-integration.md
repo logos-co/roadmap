@@ -56,6 +56,8 @@ Status replaces go-waku with Logos Delivery, consumed through the Messaging API.
 - Move the Status network to a single shard
 - Stop using the WakuMessage `version` field
 - Add a `status.prod` preset to Logos Delivery
+- Run the Status test fleets on Logos Delivery
+- Bound `status.prod` store retention to 30 days, so hash-only store queries stay cheap
 
 **Done when**: Status sends and listens on shard 32 only, and Logos Delivery can join the Status network with its preset.
 

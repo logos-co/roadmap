@@ -14,5 +14,8 @@
 
 ### Mobile readiness
 
+- [ ] Token layer: controls read named tokens, not literals
 - [ ] Mobile-aware tokens: density, touch targets, spacing
+- [ ] Touch-ready controls and widgets: 44 px targets, no hover-only behaviour
 - [ ] Theming sweep across apps: remove hard-coded colours and sizes
+- [ ] Developer kit: reference app, module template, mobile-ready UI guide
