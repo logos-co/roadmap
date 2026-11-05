@@ -17,4 +17,4 @@
 Explorer for viewing blocks and transactions in the blockchain.
 
 **Checklist**:
-- [ ] Block explorer implementation
+- [x] Block explorer implementation
