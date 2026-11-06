@@ -83,6 +83,18 @@ Reliable group chats are the main goal of Logos Chat at the moment. This is rese
 - ship milestones that address the known causes of unreliable groups,
 - measure group reliability and publish the result.
 
+### Testnet v0.5
+
+Not scheduled yet. Assigned to a release at the v0.4 go/no-go, depending on what graduates.
+
+- [ ] Delivery — Architecture Decomposed: implementation milestones derived from the [target architecture](2026-delivery-modular-architecture.md), starting with pluggable libp2p.
+- [ ] [Delivery Module — Multiple Clients Supported](2026-delivery-module-clean-api.md)
+- [ ] Delivery — Live Network Reliability Measured: message drop rate, propagation time by message size, and time to get connected, measured by QA and DST.
+- [ ] Delivery — docs.waku.org Retired: superseded by https://docs.logos.co, retired together with the Docs Team.
+- [ ] [Reliable Channel API — General Availability](2026-reliable-channel-api-general-availability.md), if [Future Decided](2026-reliable-channel-api-future-decided.md) concludes to continue the API.
+- [ ] [Chat — Ready for App Developers](2026-chat-developer-readiness.md)
+- [ ] [Chat — Centralized Services Removed](2026-chat-remove-centralization-points.md)
+
 ### Required for Mainnet
 
 - [ ] [Chat — General Availability](2026-chat-general-availability)
