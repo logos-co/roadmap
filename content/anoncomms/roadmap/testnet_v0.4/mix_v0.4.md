@@ -9,8 +9,7 @@
 **Resources Required**:
 - `2` AnonComms Mix developers
 - Storage Team ownership of relevant deliverables (see below)
-- P2P Team ownership of Logos Mix module deliverable
-- Messaging Delivery Team support for Logos Mix module integration
+- Messaging Delivery Team support for the combined Mix and Delivery module
 
 ## Deliverables
 
@@ -57,18 +56,28 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### [Simplify the Logos Mix module architecture and use it as entry and exit node for Logos Delivery](https://github.com/logos-co/anoncomms-pm/issues/91)
+### [Package Mix and Logos Delivery as a single module deployable as entry, exit or intermediate node](https://github.com/logos-co/anoncomms-pm/issues/91)
 
-**Owner**: P2P Team (primary), AnonComms Mix (support), Messaging Delivery (support)
+**Owner**: AnonComms Mix (primary), Messaging Delivery (support)
 
 **FURPS**:
 
-- F21. A single Logos Mix module can operate as an intermediate mix node, an entry node, or an exit node
-- F22. Logos Delivery routes Lightpush over Mix through the Logos Mix module acting as entry and exit node
-- S1. Mix, mix RLN DoS protection and mix node discovery are provided to Logos Delivery by the Logos Mix module rather than by implementations integrated into Logos Delivery
+- F21. A single module packaging Mix together with Logos Delivery can operate as an intermediate mix node, an entry node, or an exit node
+- F22. Logos Delivery routes Lightpush over Mix within the combined Mix and Delivery module acting as entry and exit node
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
+
+### Publish a connection management strategy for the Mix and Delivery module (TBD: anoncomms-pm issue)
+
+**Owner**: AnonComms Mix (primary), Messaging Delivery (support)
+
+**FURPS**:
+
+- U25. A connection management strategy for libp2p-based Logos modules, covering Mix and Logos Delivery, is published
+
+**Checklist**:
+- [ ] Specs: link to specs and/or API definition

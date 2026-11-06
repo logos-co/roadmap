@@ -28,29 +28,27 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### [Benchmark the service discovery module against discv5](https://github.com/logos-co/anoncomms-pm/issues/65)
-
-**Owner**: DST Team (primary), AnonComms Discovery (support)
-
-**FURPS**:
-
-- P1. The service discovery module provides comparable performance to discv5 when all nodes support the same service
-- P2. The service discovery module performs better than discv5 to find a sparse service
-- S2. The service discovery module can be benchmarked in large-scale standalone DST simulations
-
-**Checklist**:
-- [ ] Code: link to GitHub issues/PRs/Epic
-- [ ] Docs: links to README.md or other docs
-
 ### [Benchmark service discovery performance in Logos Delivery](https://github.com/logos-co/anoncomms-pm/issues/66)
 
 **Owner**: DST Team (primary), AnonComms Discovery (support)
 
 **FURPS**:
 
-- P3. Service discovery integrated in Logos Delivery provides comparable performance to discv5 when all nodes support the same service
-- P4. Service discovery integrated in Logos Delivery performs better than discv5 to find a sparse service
-- S3. Logos Delivery with integrated service discovery can be validated and benchmarked in large-scale DST simulations
+- P1. Service discovery integrated in Logos Delivery provides comparable performance to discv5 when all nodes support the same service
+- P2. Service discovery integrated in Logos Delivery performs better than discv5 to find a sparse service
+- S2. Logos Delivery with integrated service discovery can be validated and benchmarked in large-scale DST simulations
+
+**Checklist**:
+- [ ] Code: link to GitHub issues/PRs/Epic
+- [ ] Docs: links to README.md or other docs
+
+### Benchmark the limits of the service discovery module (TBD: anoncomms-pm issue)
+
+**Owner**: AnonComms Discovery (primary), DST Team (support)
+
+**FURPS**:
+
+- P3. The limits of the service discovery module in number of advertised services and number of advertisements are measured and documented
 
 **Checklist**:
 - [ ] Code: link to GitHub issues/PRs/Epic
