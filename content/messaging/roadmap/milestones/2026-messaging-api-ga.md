@@ -43,8 +43,10 @@ Messaging API issues found by DST are triaged and fixed.
 
 **Done when**: No P0 or P1 issues found by DST remain open.
 
-### [Do not backfill history for newly subscribed content topics](https://github.com/logos-messaging/logos-delivery/issues/4278)
+### [Finalize Messaging API send and subscribe behaviour](https://github.com/logos-messaging/pm/issues/526)
 
 **Owner**: Delivery Team
 
-**Done when**: Subscribing to a new content topic does not trigger a Store backfill; backfill only applies to topics the node was subscribed to before going offline.
+Behaviour changes to the Messaging API before General Availability: `send` returns the message hash and fails fast on rate limits, and newly subscribed content topics are not backfilled from Store ([logos-delivery#4278](https://github.com/logos-messaging/logos-delivery/issues/4278)).
+
+**Done when**: the behaviour changes are done and the Messaging API spec matches the new behaviour.

@@ -27,7 +27,7 @@ title: 2026-MM-DD Messaging Weekly
   - next:
   - blockers:
 
-- [[Deliverable] Do not backfill history for newly subscribed content topics](https://github.com/logos-messaging/logos-delivery/issues/4278)
+- [[Deliverable] Finalize Messaging API send and subscribe behaviour](https://github.com/logos-messaging/pm/issues/526)
   - achieved:
   - next:
   - blockers:
