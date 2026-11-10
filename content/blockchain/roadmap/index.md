@@ -61,18 +61,38 @@ Logos Blockchain is working towards the following capabilities, required for Mai
 
 ### Testnet v0.3 Milestones
 
-- [ ] [LEZ Decentralized Sequencing](./lez_decentralized_sequencing.md)
-- [ ] [LEZ TKE Implementation](./lez_tke_implementation.md)
-- [ ] [Cross-LEZ Messaging](./cross_lez_messaging.md)
-- [ ] [LEZ publishes events](./lez_events.md)
-- [ ] [Blockchain Explorer App](./blockchain_explorer.md)
-- [ ] [Blockchain Blend Message Compression](./blend_message_compression.md)
-- [ ] [Blockchain EmPoWering](./blockchain_empowering.md)
-- [ ] [Blockchain TKE Implementation](./blockchain_tke_implementation.md)
-- [ ] [Blockchain PoS Participation for Bridged Funds](./blockchain_pos_bridged_funds.md)
-- [ ] [Blockchain Cryptarchia Accurate Total Stake Inference](./cryptarchia_stake_inference.md)
-- [ ] [λSQL](./logos_sql.md)
-- [ ] [ZoneSDK Logos Protocol Backend](./zone_sdk_logoscore.md)
+- [x] [LEZ Decentralized Sequencing](./lez_decentralized_sequencing.md)
+- [x] [LEZ TKE Implementation](./lez_tke_implementation.md)
+- [x] [Cross-LEZ Messaging](./cross_lez_messaging.md)
+- [x] [LEZ publishes events](./lez_events.md)
+- [x] [Blockchain Explorer App](./blockchain_explorer.md)
+- [x] [Blockchain Blend Message Compression](./blend_message_compression.md)
+- [x] [Blockchain EmPoWering](./blockchain_empowering.md)
+- [x] [Blockchain TKE Implementation](./blockchain_tke_implementation.md)
+- [x] [Blockchain PoS Participation for Bridged Funds](./blockchain_pos_bridged_funds.md)
+- [x] [Blockchain Cryptarchia Accurate Total Stake Inference](./cryptarchia_stake_inference.md)
+- [x] [λSQL](./logos_sql.md)
+- [x] [ZoneSDK Logos Protocol Backend](./zone_sdk_logoscore.md)
+
+### Testnet v0.4 Milestones
+
+- [ ] [LEZ Sequencer in Logos Core](./lez_decentralized_sequencing.md#lez-sequencer-in-logos-core)
+- [ ] [LEZ Private Transaction Fees](./lez_tke_implementation.md#transaction-fees)
+- [ ] [EmPoWering Economic Analysis](./blockchain_empowering.md#economic-analysis)
+- [ ] [EmPoWering ASIC-Resistant Puzzle](./blockchain_empowering.md#asic-resistant-puzzle)
+- [ ] [LEZ Transactional Actor Model](./lez_transactional_actors.md)
+- [ ] [LEZ Atomic Deposits](./lez_atomic_deposits.md)
+
+### Testnet v0.5 Milestones
+
+- [ ] [Blockchain Private UTXO](./blockchain_private_utxo.md)
+- [ ] [Blockchain Faster Finality](./blockchain_faster_finality.md)
+- [ ] [Sequencer Collusion Resistance](./sequencer_collusion_resistance.md)
+
+### Testnet v0.6 Milestones
+
+- [ ] [Blockchain Resilient Blend](./blockchain_resilient_blend.md)
+- [ ] [Blockchain Off-chain Inscriptions on Logos Storage](./offchain_inscriptions_storage.md)
 
 ### Parallel Milestones
 - [ ] [LEZ Stress Testing](./lez_stress_testing.md)

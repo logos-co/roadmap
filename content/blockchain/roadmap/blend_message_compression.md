@@ -24,6 +24,6 @@ Further compression of blocks in Blend Network through use of partial transactio
 - P4. Blend Network manageable on low bandwidth network links
 
 **Checklist**:
-- [ ] Compression algorithm designed
-- [ ] Partial transaction hash mechanism implemented
-- [ ] Bandwidth reduction measured
+- [x] Compression algorithm designed
+- [x] Partial transaction hash mechanism implemented
+- [x] Bandwidth reduction measured

@@ -25,8 +25,8 @@ Address total stake inference underestimation by applying block reference ideas 
 - F19. Total stake inference on Areon model
 
 **Checklist**:
-- [ ] Current underestimation quantified
-- [ ] Block reference ideas adapted from Areon
-- [ ] Improved inference implemented
-- [ ] Accuracy improvements measured
-- [ ] Implications of block references on Cryptarchia metrics are quantified
+- [x] Current underestimation quantified
+- [x] Block reference ideas adapted from Areon
+- [x] Improved inference implemented
+- [x] Accuracy improvements measured
+- [x] Implications of block references on Cryptarchia metrics are quantified

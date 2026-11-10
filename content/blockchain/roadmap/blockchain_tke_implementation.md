@@ -21,7 +21,7 @@
 Implement block rewards for block producers, following the block reward spec.
 
 **Checklist**:
-- [ ] Block reward implementation
+- [x] Block reward implementation
 
 ### Transaction Fees
 
@@ -32,7 +32,7 @@ Implement block rewards for block producers, following the block reward spec.
 Implement transaction fee collection and distribution, following the transaction fee spec.
 
 **Checklist**:
-- [ ] Transaction fee implementation
+- [x] Transaction fee implementation
 
 ### Service Rewards
 
@@ -47,4 +47,4 @@ Implement reward distribution for nodes participating in blockchain services, fo
 - F9. Nodes can earn rewards by participating in blockchain services
 
 **Checklist**:
-- [ ] Service reward implementation
+- [x] Service reward implementation

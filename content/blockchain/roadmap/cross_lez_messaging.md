@@ -24,6 +24,6 @@ Enable messaging between LEZ instances facilitated by Blockchain, demonstrated b
 - F13. Cross-Sovereign Zones messaging facilitated by Blockchain
 
 **Checklist**:
-- [ ] Cross-LEZ messaging spec
-- [ ] Cross-LEZ messaging implementation
-- [ ] Demonstrate a cross-zone transfer of native tokens between two LEZs
+- [x] Cross-LEZ messaging spec
+- [x] Cross-LEZ messaging implementation
+- [x] Demonstrate a cross-zone transfer of native tokens between two LEZs
