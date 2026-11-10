@@ -11,9 +11,12 @@
 
 With RLN registration and membership management now running on LEZ,
 the cost of on-chain registrations and of the RLN program itself on LEZ may be too high for routine use.
-This milestone revisits the on-chain design for memberships and accounting so that it stays compatible with Logos zones and LEZ.
+This milestone specifies a revised on-chain design for memberships and accounting that stays compatible with Logos zones and LEZ;
+implementation of that design is scheduled for Testnet v0.5.
 Candidate designs include using LEZ only for staking with a dedicated membership zone on Logos Blockchain,
 but the design is not fixed at this stage.
+In parallel, a second membership registry with its own global epoch size is deployed on the existing LEZ-based setup
+to serve mix memberships separately from Logos Delivery memberships.
 
 ## Deliverables
 
@@ -34,18 +37,27 @@ but the design is not fixed at this stage.
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### [Specify and implement RLN on-chain memberships and accounting compatible with Logos zones and LEZ](https://github.com/logos-co/anoncomms-pm/issues/96)
+### [Specify RLN on-chain memberships and accounting compatible with Logos zones and LEZ](https://github.com/logos-co/anoncomms-pm/issues/96)
 
 **Owner**: AnonComms Zerokit-RLN
 
 **FURPS**:
 
-- F11. RLN memberships are registered and accounted for on Logos Blockchain in a way that is compatible with Logos zones and LEZ
 - U7. The RLN on-chain membership and accounting design for Logos Blockchain is published in a specification
-- P1. The cost of registering and maintaining an RLN membership is low enough for routine use by Logos modules and their users
 
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
+
+### Deploy a second RLN membership registry and allocation service for mix memberships (TBD: anoncomms-pm issue)
+
+**Owner**: AnonComms Zerokit-RLN (primary), AnonComms Mix (support)
+
+**FURPS**:
+
+- F14. Multiple independent RLN membership registries with distinct rate-limit parameters, such as epoch size, can be deployed on the same chain and used by different services
+- F15. An RLN membership allocation service instance can be bound to a specific membership registry
+
+**Checklist**:
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs

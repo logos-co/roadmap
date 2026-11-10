@@ -134,8 +134,8 @@ Features critical for the testnet:
 Non-critical features explored within testnet scope:
 
 - [ ] [Service Discovery Testnet v0.5 Deliverables](/anoncomms/roadmap/testnet_v0.5/discovery_v0.5.md)
-- [ ] [De-MLS Testnet v0.5 Deliverables](/anoncomms/roadmap/testnet_v0.5/de-mls_v0.5.md)
 
 ### Mainnet
 
 - [ ] [Identity Track Mainnet Deliverables](/anoncomms/roadmap/mainnet/identity_mainnet.md)
+- [ ] [RLN Track Mainnet Deliverables](/anoncomms/roadmap/mainnet/rln_mainnet.md)
