@@ -22,3 +22,11 @@ Status and Logos Chat are the first applications built on the Messaging API, and
 Applications set a priority on each message they send, and the send queue is ordered by it. Needed for the [Status integration](2026-status-logos-delivery-integration) ([#488](https://github.com/logos-messaging/pm/issues/488)) and later for Logos Chat. `logos-delivery-go` implementation MAY be used for reference.
 
 **Done when**: `send` accepts a priority, and under rate limiting higher-priority messages leave the queue first.
+
+### [Harden SDS-Repair](https://github.com/logos-messaging/pm/issues/523)
+
+**Owner**: Delivery Team
+
+Harden SDS-Repair in `nim-sds`, so Status and Logos Chat can rely on it to recover missed messages from other participants.
+
+**Done when**: known SDS-Repair issues are fixed, and repair is covered by tests under message loss and churn.
