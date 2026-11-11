@@ -33,3 +33,11 @@ github: https://github.com/logos-messaging/pm/issues/527
 **Owner**: Delivery Team + DST
 
 **Done when**: A DST report covering the agreed expectations is available and signed off.
+
+### [Address Store Sync issues found by DST](https://github.com/logos-messaging/pm/issues/528)
+
+**Owner**: Delivery Team
+
+Store Sync issues found by DST are triaged and fixed.
+
+**Done when**: No P0 or P1 issues found by DST remain open.
