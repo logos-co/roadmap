@@ -71,7 +71,7 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### Publish a connection management strategy for the Mix and Delivery module (TBD: anoncomms-pm issue)
+### [Publish a connection management strategy for the Mix and Delivery module](https://github.com/logos-co/anoncomms-pm/issues/104)
 
 **Owner**: AnonComms Mix (primary), Messaging Delivery (support)
 
