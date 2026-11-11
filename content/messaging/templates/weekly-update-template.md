@@ -78,23 +78,6 @@ title: 2026-MM-DD Messaging Weekly
   - next:
   - blockers:
 
-## [Store Sync — DST Signed Off](2026-store-sync-reliability.md)
-
-- [[Deliverable] Check the Sync protocols specifications state](https://github.com/logos-messaging/pm/issues/508)
-  - achieved:
-  - next:
-  - blockers:
-
-- [[Deliverable] Review implementation of Store Sync protocol](https://github.com/logos-messaging/pm/issues/469)
-  - achieved:
-  - next:
-  - blockers:
-
-- [[Deliverable] DST sign-off for Store Sync](https://github.com/logos-messaging/pm/issues/509)
-  - achieved:
-  - next:
-  - blockers:
-
 ## [Reliable Channel API — Future Decided](2026-reliable-channel-api-future-decided.md)
 
 - [[Deliverable] Record the decision](https://github.com/logos-messaging/pm/issues/510)

@@ -6,7 +6,7 @@ date: 2026-10-02
 github: https://github.com/logos-messaging/pm/issues/470
 ---
 
-**Targets**: Testnet v0.4
+**Targets**: Testnet v0.5
 
 **Resources Required**:
 

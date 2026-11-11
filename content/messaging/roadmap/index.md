@@ -65,7 +65,6 @@ Work that is still in research stage does not use these stages. Research milesto
 - [ ] [Delivery — Released Monthly](2026-delivery-released-monthly.md)
 - [ ] [Delivery — Technical Debt Halved](2026-delivery-technical-debt-halved.md)
 - [ ] [Delivery — Target Architecture Agreed](2026-delivery-modular-architecture.md)
-- [ ] [Delivery Sync protocol — DST Signed Off](2026-store-sync-reliability.md)
 - [ ] [Reliable Channel API — Future Decided](2026-reliable-channel-api-future-decided.md)
 - [ ] [Chat — Self-Healing Groups](2026-chat-self-healing-groups.md)
 - [ ] [Chat — Accounts Persisted](2026-chat-accounts-persisted.md)
@@ -81,6 +80,7 @@ Reliable group chats are the main goal of Logos Chat at the moment. This is rese
 
 - [ ] [Messaging API — Ready for Status and Chat](2026-messaging-api-ready-for-status-and-chat.md)
 - [ ] [RLN on Logos Blockchain — DST Signed Off](2026-rln-on-logos-blockchain-dst-signed-off.md)
+- [ ] [Store Sync — DST Signed Off](2026-store-sync-reliability.md)
 
 ### Required for Mainnet
 
