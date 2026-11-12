@@ -42,16 +42,14 @@
 
 ## Performance
 
-1. The service discovery module provides comparable performance to discv5 when all nodes support the same service
-2. The service discovery module performs better than discv5 to find a sparse service
-3. Service discovery integrated in Logos Delivery provides comparable performance to discv5 when all nodes support the same service
-4. Service discovery integrated in Logos Delivery performs better than discv5 to find a sparse service
+1. Service discovery integrated in Logos Delivery provides comparable performance to discv5 when all nodes support the same service
+2. Service discovery integrated in Logos Delivery performs better than discv5 to find a sparse service
+3. The limits of the service discovery module in number of advertised services and number of advertisements are measured and documented
 
 ## Supportability
 
 1. Service discovery can be functionally validated in large-scale standalone DST simulations
-2. The service discovery module can be benchmarked in large-scale standalone DST simulations
-3. Logos Delivery with integrated service discovery can be validated and benchmarked in large-scale DST simulations
+2. Logos Delivery with integrated service discovery can be validated and benchmarked in large-scale DST simulations
 
 ## Miscellaneous dependencies:
 

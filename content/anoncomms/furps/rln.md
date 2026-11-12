@@ -15,6 +15,9 @@
 11. RLN memberships are registered and accounted for on Logos Blockchain in a way that is compatible with Logos zones and LEZ
 12. A validating module can recover the secret key of an RLN membership that violates its rate limit
 13. The RLN contract accepts a recovered secret key to slash the corresponding membership and burn its deposit
+14. Multiple independent RLN membership registries with distinct rate-limit parameters, such as epoch size, can be deployed on the same chain and used by different services
+15. An RLN membership allocation service instance can be bound to a specific membership registry
+16. The proving and verification keys for the RLN circuits are generated through a multi-party trusted setup ceremony
 
 ## Usability
 
@@ -26,6 +29,7 @@
 6. Advanced authentication mechanisms for RLN membership allocation, including device keys, are evaluated and published
 7. The RLN on-chain membership and accounting design for Logos Blockchain is published in a specification
 8. Slashing of RLN rate violators is published in a specification
+9. The trusted setup ceremony process and the tooling for participants are documented and published
 
 ## Reliability
 

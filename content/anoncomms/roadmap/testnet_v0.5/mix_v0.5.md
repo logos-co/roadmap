@@ -54,3 +54,27 @@
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
+
+### Implement the connection management strategy in the Mix and Delivery module (TBD: anoncomms-pm issue)
+
+**Owner**: AnonComms Mix (primary), Messaging Delivery (support)
+
+**FURPS**:
+
+- F23. The combined Mix and Delivery module manages its libp2p connections according to a published connection management strategy
+
+**Checklist**:
+- [ ] Code: link to GitHub issues/PRs/Epic
+- [ ] Dogfood: link to dogfooding session/artefact
+- [ ] Docs: links to README.md or other docs
+
+### Research a separate mix network with message-size differentiation for storage-like use cases (TBD: anoncomms-pm issue)
+
+**Owner**: AnonComms Mix
+
+**FURPS**:
+
+- U26. The feasibility of a separate mix network with message-size differentiation for storage-like use cases is researched and published
+
+**Checklist**:
+- [ ] Docs: links to README.md or other docs
