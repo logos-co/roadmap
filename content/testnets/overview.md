@@ -10,11 +10,14 @@ This page outlines the high-level deliverables available for testing in upcoming
 See individual component team roadmaps for full details.
 
 ## Planned Testnet Details
+
 - [[v01|Testnet version 0.1]]
 - [[v02|Testnet version 0.2]]
 - [[v03|Testnet version 0.3]]
+- [[v04|Testnet version 0.4]]
 
 ## Testnet Release Notes
+
 - [[v02-release|Testnet v0.2 release notes]]
 - [[v02-1-release|Testnet v0.2.1 release notes]]
 - [[v03-release|Testnet v0.3 release notes]]
