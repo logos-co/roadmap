@@ -25,7 +25,7 @@
 - [ ] Dogfood: link to dogfooding session/artefact
 - [ ] Docs: links to README.md or other docs
 
-### Build de-MLS commit ordering on SDS (TBD: anoncomms-pm issue)
+### [Build de-MLS commit ordering on SDS](https://github.com/logos-co/anoncomms-pm/issues/102)
 
 **Owner**: AnonComms de-MLS (primary), Messaging Chat (support)
 

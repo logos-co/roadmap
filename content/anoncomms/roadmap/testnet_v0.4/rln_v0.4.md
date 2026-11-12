@@ -48,7 +48,7 @@ to serve mix memberships separately from Logos Delivery memberships.
 **Checklist**:
 - [ ] Specs: link to specs and/or API definition
 
-### Deploy a second RLN membership registry and allocation service for mix memberships (TBD: anoncomms-pm issue)
+### [Deploy a second RLN membership registry and allocation service for mix memberships](https://github.com/logos-co/anoncomms-pm/issues/105)
 
 **Owner**: AnonComms Zerokit-RLN (primary), AnonComms Mix (support)
 

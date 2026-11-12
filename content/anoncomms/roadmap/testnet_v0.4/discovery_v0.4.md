@@ -42,7 +42,7 @@
 - [ ] Code: link to GitHub issues/PRs/Epic
 - [ ] Docs: links to README.md or other docs
 
-### Benchmark the limits of the service discovery module (TBD: anoncomms-pm issue)
+### [Benchmark the limits of the service discovery module](https://github.com/logos-co/anoncomms-pm/issues/103)
 
 **Owner**: AnonComms Discovery (primary), DST Team (support)
 
