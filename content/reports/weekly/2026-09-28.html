@@ -521,12 +521,12 @@
 
       <nav class="week-nav">
         <a class="prev" data-router-ignore href="/reports/weekly/2026-09-21.html">&larr; 2026-09-21</a>
-        <span class="spacer"></span>
+        <a class="next" data-router-ignore href="/reports/weekly/2026-10-05.html">2026-10-05 &rarr;</a>
       </nav>
 
       <div class="stats-bar">
         <div class="stat">
-          <div class="stat-value">2</div>
+          <div class="stat-value">3</div>
           <div class="stat-label">Teams Reporting</div>
         </div>
         <div class="stat">
@@ -535,7 +535,7 @@
         </div>
       </div>
 
-      <p style="text-align:center; color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 1.5rem;">Note: Messaging and Blockchain have reported. AnonComms, Storage, and Logos Core sections will be added as their updates land.</p>
+      <p style="text-align:center; color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 1.5rem;">Note: Messaging, Storage, and Blockchain have reported. AnonComms and Logos Core sections will be added as their updates land.</p>
 
       <section class="highlights-section">
         <h2>Key Highlights</h2>
@@ -551,6 +551,14 @@
           <div class="highlight-card messaging">
             <div class="team">Messaging</div>
             <p>Rate-limit admission now driven by RLN’s remaining epoch budget (<a href="https://github.com/logos-messaging/logos-delivery/pull/4309">#4309</a>), and the Mix integration gained an end-to-end transport suite (<a href="https://github.com/logos-messaging/logos-delivery/pull/4324">#4324</a>).</p>
+          </div>
+          <div class="highlight-card storage">
+            <div class="team">Storage</div>
+            <p><strong>Full testnet v0.3 feature set tested</strong> on provisional deployments across Windows, Linux and macOS.</p>
+          </div>
+          <div class="highlight-card storage">
+            <div class="team">Storage</div>
+            <p>A <a href="https://hackmd.io/G7K4T7_nRUyXFH0iFyhddg?view">draft of the RLN optimizations preprint</a> is now available.</p>
           </div>
           <div class="highlight-card blockchain">
             <div class="team">Blockchain</div>
@@ -577,6 +585,7 @@
 
       <div class="tabs">
         <button class="tab messaging active" data-team="messaging">Messaging</button>
+        <button class="tab storage" data-team="storage">Storage</button>
         <button class="tab blockchain" data-team="blockchain">Blockchain</button>
       </div>
 
@@ -779,6 +788,107 @@
                   <li>chore(store): reject queries with time range over 24h (<a href="https://github.com/logos-messaging/logos-delivery/pull/4349">#4349</a>).</li>
                   <li>refactor: drop libp2p withValue on the libp2p-range-pin line (<a href="https://github.com/logos-co/nim-libp2p-mix/pull/61">#61</a>).</li>
                   <li>raised for discussion: speed up PR CI (<a href="https://github.com/logos-messaging/logos-delivery/issues/4342">#4342</a>), allow pluggable nim-libp2p (<a href="https://github.com/logos-messaging/logos-delivery/issues/4341">#4341</a>), test enhancements (<a href="https://github.com/logos-messaging/logos-delivery/issues/4304">#4304</a>).</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- ================================================================
+             STORAGE
+             ================================================================ -->
+      <div class="team-content" id="storage">
+
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Large Data Transport Layer for Mix</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4><a href="https://github.com/logos-storage/logos-storage-pm/issues/2">Mix Transport</a></h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Testing and preparing for the release</li>
+                  <li>Initial (WIP) draft of the Mix Transport spec</li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>Continue work on the spec</li>
+                  <li>Help fix potential release problems</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Hidden Services Over Mix</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4><a href="https://github.com/logos-storage/logos-storage-pm/issues/20">Hidden Services Over Mix</a></h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Finished documenting all hidden service and path selection work (<a href="https://github.com/logos-storage/hs-mix-sim/tree/main/docs">docs</a>)</li>
+                  <li>Worked on the second iteration of the hidden services spec</li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>Prepare a research call covering path compromise and selection strategies</li>
+                  <li>Continue the second version of the <a href="https://github.com/logos-co/logos-lips/pull/330">hidden service spec</a> with the path selection spec</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>RLN optimizations</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4>Documenting the RLN optimizations</h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>First, <a href="https://hackmd.io/G7K4T7_nRUyXFH0iFyhddg?view">very rough draft</a> of the forthcoming paper describing the work</li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>Polish it into a proper preprint</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Package Manager</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4><a href="https://github.com/logos-storage/logos-storage-pm/issues/25">Package Manager</a></h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Applied reviews on open PRs and tested package download over Storage in Basecamp</li>
+                  <li>Config management in the Storage Module (<a href="https://github.com/logos-co/logos-storage-module/pull/96">#96</a>) applied in the UI (<a href="https://github.com/logos-co/logos-storage-ui/pull/95">#95</a>)</li>
+                  <li>Storage UI uses the Storage Module's <code>isRunning</code> API (<a href="https://github.com/logos-co/logos-storage-ui/pull/94">#94</a>) and is prepared for the advertise option (<a href="https://github.com/logos-co/logos-storage-ui/pull/96">#96</a>)</li>
+                  <li>Added a source icon in the Package Manager UI showing where downloads come from (<a href="https://github.com/logos-co/logos-package-manager-ui/pull/85">#85</a>)</li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>Test manually in Basecamp</li>
                 </ul>
               </div>
             </div>
