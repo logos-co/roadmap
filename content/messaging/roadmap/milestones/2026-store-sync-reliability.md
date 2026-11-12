@@ -1,5 +1,5 @@
 ---
-title: Store Sync — DST Signed Off
+title: Store Sync — Hardened
 tags:
   - messaging-milestone
 date: 2026-10-02
@@ -11,9 +11,8 @@ github: https://github.com/logos-messaging/pm/issues/470
 **Resources Required**:
 
 - 1 Delivery engineer
-- DST
 
-Store Sync protocol was expected to bring reliability to Store nodes, but ended up being disabled as it was found to be resource-heavy. This milestone makes the Store Sync protocol reliable, with performance in line with the other Logos Delivery protocols.
+Store Sync protocol was expected to bring reliability to Store nodes, but ended up being disabled as it was found to be resource-heavy. This milestone makes the Store Sync protocol reliable, with performance in line with the other Logos Delivery protocols. DST validation follows in [Store Sync — DST Signed Off](2026-store-sync-dst-signed-off.md).
 
 ## FURPS
 
@@ -21,15 +20,8 @@ Store Sync protocol was expected to bring reliability to Store nodes, but ended 
 
 ## Exit criteria
 
-- [ ] Expected reliability and performance of Store Sync are agreed with DST at the start of the cycle.
-- [ ] DST signs off Store Sync against those expectations.
+- [ ] The specification version to implement against is agreed.
 - [ ] No known P0 or P1 issues in Store Sync.
-
-## Risks
-
-| Risk                           | (Accept, Own, Mitigation)                                                                     |
-| ------------------------------ | --------------------------------------------------------------------------------------------- |
-| DST findings late in the cycle | Run the first DST pass in the first half of the cycle, so there is time to fix what it finds. |
 
 ## Deliverables
 
@@ -46,9 +38,3 @@ Check with the AnonComms team what the state of the [LIP-181](https://lip.logos.
 **Owner**: Delivery Team
 
 Review the implementation against the agreed specification, triage all reported bugs into this milestone, and fix them.
-
-### [DST sign-off for Store Sync](https://github.com/logos-messaging/pm/issues/509)
-
-**Owner**: Delivery Team + DST
-
-**Done when**: A DST report covering the agreed expectations is available and signed off.
