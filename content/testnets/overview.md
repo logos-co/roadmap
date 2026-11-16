@@ -21,6 +21,7 @@ See individual component team roadmaps for full details.
 - [[v02-release|Testnet v0.2 release notes]]
 - [[v02-1-release|Testnet v0.2.1 release notes]]
 - [[v03-release|Testnet v0.3 release notes]]
+- [[v04-release|Testnet v0.4 release notes]]
 
 ## Node Operator Guides
 - [[logos-node-operator-guide|Testnet v0.2.1 node operator guide]]
