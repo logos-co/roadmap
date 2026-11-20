@@ -526,7 +526,7 @@
 
       <div class="stats-bar">
         <div class="stat">
-          <div class="stat-value">4</div>
+          <div class="stat-value">5</div>
           <div class="stat-label">Teams Reporting</div>
         </div>
         <div class="stat">
@@ -535,7 +535,6 @@
         </div>
       </div>
 
-      <p style="text-align:center; color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 1.5rem;">Note: Messaging, AnonComms, Logos Core, and Blockchain have reported. The Storage section will be added as its updates land.</p>
 
       <section class="highlights-section">
         <h2>Key Highlights</h2>
@@ -568,6 +567,14 @@
             <div class="team">Logos Core</div>
             <p><strong>A module now ships its own contract</strong> &mdash; <code>lidl()</code> reserved as a built-in identity method, the canonical document bundled at <code>assets/lidl/</code>, and a catalog can draw packages from other catalogs via <code>includesUrl</code>.</p>
           </div>
+          <div class="highlight-card storage">
+            <div class="team">Storage</div>
+            <p><strong>Anonymous downloads over Mix implemented</strong>, with initial testing showing it works; concurrent SURB redundancy gave &gt;20% higher throughput.</p>
+          </div>
+          <div class="highlight-card storage">
+            <div class="team">Storage</div>
+            <p><strong>Package Manager integrated into Basecamp</strong>, and the Storage Module and Storage UI now run correctly on Windows.</p>
+          </div>
           <div class="highlight-card blockchain">
             <div class="team">Blockchain</div>
             <p><strong>Node 0.3.0-rc.3</strong> published for internal devnet testing, and Logos Execution Zone <strong>sharded program state</strong> (<a href="https://github.com/logos-blockchain/logos-execution-zone/pull/835">#835</a>) and <strong>ciphertext padding</strong> (every private note a uniform 512 bytes, <a href="https://github.com/logos-blockchain/logos-execution-zone/pull/630">#630</a>) merged.</p>
@@ -591,6 +598,7 @@
         <button class="tab messaging active" data-team="messaging">Messaging</button>
         <button class="tab anoncomms" data-team="anoncomms">AnonComms</button>
         <button class="tab logoscore" data-team="logoscore">Logos Core</button>
+        <button class="tab storage" data-team="storage">Storage</button>
         <button class="tab blockchain" data-team="blockchain">Blockchain</button>
       </div>
 
@@ -1466,6 +1474,106 @@
             </div>
           </div>
         </div>
+      </div>
+      <!-- ================================================================
+             STORAGE
+             ================================================================ -->
+      <div class="team-content" id="storage">
+
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Large Data Transport Layer for Mix</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4><a href="https://github.com/logos-storage/logos-storage-pm/issues/2">Mix Transport</a></h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Reviewing and refactoring the integration with the block exchange protocol, aligning it with the block exchange protocol on master</li>
+                  <li>Introduced policies for variation points (swarm selection, swarm admission, presence queries); Mix Transport runs on the same default policies as direct downloads</li>
+                  <li>Local test harness set up and running; concurrent SURB redundancy transmission showed &gt;20% higher throughput (1&nbsp;MiB transfer: 61.961&nbsp;s &rarr; 47.902&nbsp;s on average)</li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>Final review and preparing for merge</li>
+                  <li>Review generated docs, in particular a draft of the Mix Transport spec</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone expanded">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Hidden Services Over Mix</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4><a href="https://github.com/logos-storage/logos-storage-pm/issues/20">Hidden Services Over Mix</a></h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Finished the initial version of the <a href="https://github.com/logos-co/logos-lips/pull/445">path selection spec</a></li>
+                  <li>Documented all hidden service and path selection work (<a href="https://github.com/logos-storage/hs-mix-sim/tree/main/docs">docs</a>)</li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>Continue work on documentation</li>
+                  <li>Continue the <a href="https://github.com/logos-co/logos-lips/pull/330">hidden service spec</a> with the specified path selection strategy</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Package Manager</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4><a href="https://github.com/logos-storage/logos-storage-pm/issues/25">Package Manager</a></h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Optional dependency integration for the Logos Package Downloader Module; Package Manager integrated into Basecamp</li>
+                  <li>Updated the Storage Module with the latest Storage Nim changes (<a href="https://github.com/logos-co/logos-storage-module/pull/82">#82</a>, <a href="https://github.com/logos-co/logos-storage-module/pull/86">#86</a>, <a href="https://github.com/logos-co/logos-storage-module/pull/89">#89</a>)</li>
+                  <li>Storage UI now uses the Storage Module's configuration migration (<a href="https://github.com/logos-co/logos-storage-ui/pull/92">#92</a>) and node-running flag (<a href="https://github.com/logos-co/logos-storage-ui/pull/94">#94</a>)</li>
+                  <li>Worked on doctests for Basecamp (<a href="https://github.com/logos-co/logos-basecamp/pull/416">#416</a>)</li>
+                </ul>
+                <span class="section-label next">Next</span>
+                <ul class="item-list">
+                  <li>Test manually in Basecamp</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="milestone">
+          <div class="milestone-header" onclick="toggleMilestone(this)">
+            <h3>Windows support</h3>
+            <span class="milestone-toggle">^</span>
+          </div>
+          <div class="milestone-body">
+            <div class="milestone-content">
+              <div class="deliverable">
+                <h4><a href="https://github.com/logos-storage/logos-storage-pm/issues/31">Windows support</a></h4>
+                <span class="section-label achieved">Achieved</span>
+                <ul class="item-list">
+                  <li>Updated cross compilation for the Storage Module (<a href="https://github.com/logos-co/logos-storage-module/pull/79">#79</a>) and Storage UI (<a href="https://github.com/logos-co/logos-storage-ui/pull/86">#86</a>)</li>
+                  <li>Migrated Storage UI to the generated universal view plugin (<a href="https://github.com/logos-co/logos-storage-ui/pull/88">#88</a>)</li>
+                  <li>Tested manually on Windows &mdash; Storage Module and Storage UI both run correctly</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
       <!-- ================================================================
              BLOCKCHAIN
