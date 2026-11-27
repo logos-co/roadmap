@@ -88,6 +88,7 @@ Logos Blockchain is working towards the following capabilities, required for Mai
 - [ ] [Blockchain Private UTXO](./blockchain_private_utxo.md)
 - [ ] [Blockchain Faster Finality](./blockchain_faster_finality.md)
 - [ ] [Sequencer Collusion Resistance](./sequencer_collusion_resistance.md)
+- [ ] [Blockchain and LEZ CAIP Support](./caip_support.md)
 
 ### Testnet v0.6 Milestones
 
