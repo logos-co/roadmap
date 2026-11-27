@@ -130,6 +130,7 @@ Features critical for the testnet:
 
 - [ ] [Mix Testnet v0.5 Deliverables](/anoncomms/roadmap/testnet_v0.5/mix_v0.5.md)
 - [ ] [RLN Testnet v0.5 Deliverables](/anoncomms/roadmap/testnet_v0.5/rln_v0.5.md)
+- [ ] [Oracle Testnet v0.5 Deliverables](/anoncomms/roadmap/testnet_v0.5/oracle_v0.5.md)
 
 Non-critical features explored within testnet scope:
 
